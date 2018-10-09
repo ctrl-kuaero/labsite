@@ -1,0 +1,53 @@
+{{/* data/publications/内の全てのファイルを読み込み */}}
+
+{{- $list := $.Site.Data.publications.autogen_publications.record -}}
+{{- $.Scratch.Delete "list" -}}
+{{- range $.Site.Data.publications -}}
+{{- $.Scratch.Add "list" .record -}}
+{{- end -}}
+{{- $list := ($.Scratch.Get "list") -}}
+
+<script src="/lib/encoding.js/encoding.min.js"></script>
+<script>
+    const typemap = {
+        "paper_unknown":  ["paper", 0 ],
+        "journal":  ["paper", 1 ],
+        "international_conference":  ["paper", 2 ],
+        "paper_bulletin":  ["paper", 3 ],
+        "paper_4":  ["paper", 4 ],
+        "paper_5":  ["paper", 5 ],
+        "master_thesis":  ["paper", 7 ],
+        "doctoral_thesis":  ["paper", 8 ],
+        "thesis":  ["paper", 9 ],
+        "misc_unknown":  ["misc", 0 ],
+        "research_paper":  ["misc", 1 ],
+        "prompt_report":  ["misc", 2 ],
+        "misc_bulletin":  ["misc", 3 ],
+        "summary_international_conference":  ["misc", 4 ],
+        "domestic_conference": ["misc",5],
+        "institution_technical_report":  ["misc", 6 ],
+        "explanation_journal":  ["misc", 7 ],
+        "explanation_international_conference":  ["misc", 8 ],
+        "explanation_bulletin":  ["misc", 9 ],
+        "explanation_commerce_magazine":  ["misc", 10 ],
+        "explanation_others":  ["misc", 11 ],
+        "lecture_materials":  ["misc", 12 ],
+        "book_review":  ["misc", 13 ],
+        "meeting_report":  ["misc", 14 ],
+        "other":  ["misc", 15 ]
+    }
+
+    let publication_list = eval({{ jsonify $list | safeHTML }});
+    for (let i = 0; i < publication_list.length; i++) {
+       let r = publication_list[i];
+       if( r.type in typemap){
+           r.rm_ftype = typemap[r.type][0];
+           r.rm_type = typemap[r.type][1];
+       }else{
+           r.rm_ftype = "unknown";
+           console.warn('not categorized record');
+           console.warn(r)
+       }
+
+    }
+</script>

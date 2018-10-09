@@ -1,0 +1,74 @@
+{{ define "main" }}
+{{- partial "nav.html" . -}}
+
+<main>
+    <div class="container content">
+        <h1>{{ .Title }}</h1>
+
+        {{/* data/publications/内の全てのファイルを読み込み */}}
+        {{ $list := $.Site.Data.publications.autogen_publications.record }}
+        {{ $.Scratch.Delete "list" }}
+        {{ range $.Site.Data.publications }}
+        {{ $.Scratch.Add "list" .record }}
+        {{ end }}
+        {{ $list := ($.Scratch.Get "list") }}
+
+
+        {{/* 丸田の研究室参加以前の業績を除外 */}}
+        {{ $.Scratch.Delete "list" }}
+        {{ range $list }}
+        {{/* force comparison as string */}}
+        {{ if (and (lt (print "S" .publication_date) "S2017") (or (in .en_author "Ichiro Maruta") (in .ja_author "丸田 一郎") )) }}
+        {{ else }}
+        {{ $.Scratch.Add "list" (slice .) }}
+        {{ end }}
+        {{ end }}
+        {{ $list := ($.Scratch.Get "list") }}
+
+        {{/* 年のフィールドを追加 */}}
+        {{ $.Scratch.Delete "list" }}
+        {{ range $list }}
+        {{ $.Scratch.Set "record" . }}
+        {{ if .publication_date }}
+        {{ $.Scratch.SetInMap "record" "year" (substr .publication_date 0 4) }}
+        {{ else }}
+        {{ $.Scratch.SetInMap "record" "year" "unknown" }}
+        {{ end }}
+        {{ $.Scratch.Add "list" (slice ($.Scratch.Get "record")) }}
+        {{ end }}
+        {{ $list := ($.Scratch.Get "list") }}
+        {{ $.Scratch.Delete "list" }}
+
+        {{/* 年のリストを作成 */}}
+        {{ range $list }}
+        {{ $.Scratch.Add "year" (slice .year) }}
+        {{ end }}
+        {{ $year_list := sort (uniq ($.Scratch.Get "year")) "value" "desc" }}
+
+        {{ range $year_list }}
+        {{ $year := . }}
+
+        <h2>{{ $year }}</h2>
+
+        {{ $list_year := where $list "year" $year }}
+
+        {{ $.Scratch.Delete "type" }}
+        {{ range $list_year }}
+        {{ $.Scratch.Add "type" (slice .type) }}
+        {{ end }}
+        {{ $type_list := uniq ($.Scratch.Get "type") }}
+
+
+        {{ range $type_list }}
+        {{ $type := . }}
+        <h3>{{ i18n (printf "%s_%s" "publication_type" $type) }} </h3>
+        <ol class="publications">
+            {{ range where $list_year "type" $type }}
+            {{- partial "record.html" (dict "page_lang" $.Page.Lang "r" . "Scratch" $.Scratch) -}}
+            {{ end }}
+        </ol>
+        {{ end }}        
+        {{ end }} {{/* range $year_list */}}
+    </div>
+</main>
+{{ end }}

@@ -1,0 +1,33 @@
+[[record]]
+type = "journal"
+lang = "ja"
+reviewed = true
+invited = false
+ja_title = "パラメータ変動に対してロバストなLQ最適制御の枠組みの提案"
+en_title = "A New Framework of Robust LQ Optimal Control for Parameter Variation"
+ja_author = "藤本 健治, 大倉 裕貴"
+en_author = "Kenji Fujimoto. Yuki Okura"
+ja_booktitle = "計測自動制御学会論文集"
+en_booktitle = "Transactions of the Society of Instrument and Control Engineers"
+volume = "54"
+number = "1"
+page_begin = "138"
+page_end = "145"
+publication_date = "20180125"
+doi = "10.9746/sicetr.54.138"
+en_abstract = "This paper proposes a new framework to design LQ optimal control laws robust to parameter variation. By constructing the variational system of the original state space model with respect to a model parameter, we evaluate the sensitivity of the system behavior with respect to parameter variation. Some properties of the variational system, such as stability and controllability, are examined. A sufficient condition to realize robust LQ optimal control is obtained by investigating the controllability of the variational system. A numerical example exhibits how the proposed control method works with controllability analysis."
+
+[[record]]
+type = "domestic_conference"
+lang = "ja"
+reviewed = false
+invited = false
+ja_author = "別府 啓史, 高木 友士, 藤本 健治"
+en_author = "Hirofumi Beppu, Yuji Takaki, Kenji Fujimoto"
+ja_title = "ガウス過程回帰を用いたHamilton-Jacobi不等式の数値解法"
+en_title = "Numerical solutions for Hamilton-Jacobi inequalities by Gaussian process regression"
+ja_booktitle = "第61回システム制御情報学会研究発表講演会講演論文集"
+en_booktitle = "Proceedings of the 61st Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
+publication_date = "20170500"
+naid = "40021218878"
+page_begin = "136-8"

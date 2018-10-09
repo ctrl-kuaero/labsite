@@ -1,0 +1,41 @@
+[publication_type_journal]
+other = "Journal Paper"
+[publication_type_international_conference]
+other = "International Confenrence"
+[publication_type_domestic_conference]
+other = "Domestic Conference"
+[publication_type_others]
+other = "Others"
+
+[publication_type_unknown]
+other = "(Unknown)"
+[publication_type_research_paper]
+other = "Research paper"
+[publication_type_prompt_report]
+other = "Prompt report, short report, and research note, etc. (scientific journal)"
+[publication_type_bulletin]
+other = "Prompt report, short report, and research note, etc. (bulletin of university, research institution)"
+[publication_type_summary_international_conference]
+other = " Summary of the papers read (international conference)"
+[publication_type_summary_domestic_conference]
+other = " Summary of the papers read (national conference and other science council)"
+[publication_type_institution_technical_report]
+other = " Institution technical report and pre-print, etc."
+[publication_type_explanation_journal]
+other = " Introduction and explanation (scientific journal)"
+[publication_type_explanation_international_conference]
+other = " Introduction and explanation (international conference proceedings)"
+[publication_type_explanation_bulletin]
+other = " Introduction and explanation (bulletin of university, research institution)"
+[publication_type_explanation_commerce_magazine]
+other = "Introduction and explanation (commerce magazine)"
+[publication_type_explanation_others]
+other = "Introduction and explanation (others)"
+[publication_type_lecture_materials]
+other = "Lecture materials etc. (seminar, tutorial, course, lecture and others)"
+[publication_type_book_review]
+other = "Book review and document introduction, etc."
+[publication_type_meeting_report]
+other = "Meeting report etc."
+[publication_type_other]
+other = "Other article"

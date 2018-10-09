@@ -1,0 +1,42 @@
+[publication_type_journal]
+other = "論文"
+[publication_type_international_conference]
+other = "国際会議"
+[publication_type_domestic_conference]
+other = "国内会議"
+[publication_type_misc]
+other = "その他"
+
+
+[publication_type_unknown]
+other = "(Unknown)"
+[publication_type_research_paper]
+other = "研究論文"
+[publication_type_prompt_report]
+other = "速報，短報，研究ノート等（学術雑誌）"
+[publication_type_bulletin]
+other = "速報，短報，研究ノート等（大学，研究機関紀要）"
+[publication_type_summary_international_conference]
+other = "研究発表要旨（国際会議）"
+[publication_type_summary_domestic_conference]
+other = "研究発表要旨（全国大会，その他学術会議）"
+[publication_type_institution_technical_report]
+other = "機関テクニカルレポート，プレプリント等"
+[publication_type_explanation_journal]
+other = "総説・解説（学術雑誌）"
+[publication_type_explanation_international_conference]
+other = "総説・解説（国際会議プロシーディングズ）"
+[publication_type_explanation_bulletin]
+other = "総説・解説（大学・研究所紀要）"
+[publication_type_explanation_commerce_magazine]
+other = "総説・解説（商業誌、新聞、ウェブメディア）"
+[publication_type_explanation_others]
+other = "総説・解説（その他）"
+[publication_type_lecture_materials]
+other = "講演資料等（セミナー，チュートリアル，講習，講義他）"
+[publication_type_book_review]
+other = "書評,文献紹介等"
+[publication_type_meeting_report]
+other = "会議報告等"
+[publication_type_other]
+other = "その他記事"

@@ -1,0 +1,10 @@
+{{ define "main" }}
+{{- partial "nav.html" . -}}
+<main aria-role="main">
+    <div class="container {{with $.Page.Params.container }}{{ . }}{{ end }}">
+        <div class="homepage-content content">
+            {{$.Content}}
+        </div>
+    </div>
+</main>
+{{ end }}

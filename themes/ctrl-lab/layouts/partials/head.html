@@ -1,0 +1,12 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+    {{ $options := (dict "outputStyle" "compressed" "enableSourceMap" true) }}
+    {{ $sass := resources.Get "sass/ctrl-lab.scss" }}
+    {{ $style := $sass | resources.ToCSS $options}}
+    <link href="{{ $style.Permalink }}" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,200,400,700&amp;subset=japanese" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+</head>

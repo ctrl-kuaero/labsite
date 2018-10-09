@@ -1,0 +1,18 @@
+baseURL = "http://control.kuaero.kyoto-u.ac.jp/"
+theme = "ctrl-lab"
+
+DefaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
+    LanguageName = "English"
+    title = "Systems & Control Laboratory"
+    subtitle = "Kyoto University Graduate School of Engineering Department of Aeronautics and Astronautics"
+    weight = 1
+  [languages.ja]
+    LanguageName = "日本語"
+    title = "制御工学研究室"
+    subtitle = "京都大学大学院　工学研究科　航空宇宙工学専攻"
+    weight = 2
+
+

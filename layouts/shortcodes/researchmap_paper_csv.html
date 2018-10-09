@@ -1,0 +1,59 @@
+
+
+
+<script>
+    (function (){
+        const ja_name = /{{ .Get "ja_name" }}/;
+        const en_name = /{{ .Get "en_name" }}/;
+        const ftype = /{{ .Get "ftype" }}/;
+        
+        let o = "";
+        if("paper".match(ftype)){
+            o += '"タイトル(日本語)","タイトル(英語)","著者(日本語)","著者(英語)","誌名(日本語)","誌名(英語)","巻","号","開始ページ","終了ページ","出版年月","査読の有無","招待の有無","記述言語","掲載種別","ISSN","ID:DOI","ID:JGlobalID","ID:NAID(CiNiiのID)","ID:PMID","Permalink","URL","概要(日本語)","概要(英語)"\n';
+        }else if("misc".match(ftype)){
+            o += '"タイトル(日本語)","タイトル(英語)","著者(日本語)","著者(英語)","誌名(日本語)","誌名(英語)","巻","号","開始ページ","終了ページ","出版年月","査読の有無","依頼の有無","記述言語","掲載種別","ISSN","ID:DOI","ID:JGlobalID","ID:NAID(CiNiiのID)","ID:PMID","Permalink","URL","概要(日本語)","概要(英語)"\n';
+        }
+        for (let i = 0; i < publication_list.length; i++) {
+            const r = publication_list[i];
+            console.log(r);
+            if(!r.rm_ftype.match(ftype)) continue;
+            if(!( (r.ja_author && r.ja_author.match(ja_name)) || (r.en_author && r.en_author.match(en_name))) ) continue;
+            function col_str(k) {
+                return (r[k] ? '"' + r[k] + '"' : '""')
+            }
+            o += col_str('ja_title') + ',';
+            o += col_str('en_title') + ',';
+            o += col_str('ja_author') + ',';
+            o += col_str('en_author') + ',';
+            o += col_str('ja_booktitle') + ',';
+            o += col_str('en_booktitle') + ',';
+            o += col_str('volume') + ',';
+            o += col_str('number') + ',';
+            o += col_str('page_begin') + ',';
+            o += col_str('page_end') + ',';
+            o += col_str('publication_date') + ',';
+            o += (r['reviewed'] ? '"1"' : '"0"') + ',';
+            o += (r['invited'] ? '"1"' : '"0"') + ',';
+            o += col_str('lang') + ',';
+            o += '"'+r['rm_type'] + '",';
+            o += col_str('issn') + ',';
+            o += col_str('doi') + ',';
+            o += col_str('jglobalid') + ',';
+            o += col_str('naid') + ',';
+            o += col_str('pmid') + ',';
+            o += col_str('permalink') + ',';
+            o += col_str('url') + ',';
+            o += col_str('ja_abstract') + ',';
+            o += col_str('en_abstract');
+            o += '\n';
+        }
+
+        var str_array = Encoding.stringToCode(o);
+        var sjis_array = Encoding.convert(str_array, "SJIS", "UNICODE");
+        var uint8_array = new Uint8Array(sjis_array);
+        
+        var blob = new Blob([uint8_array], { type: "text/csv;" });
+    
+        document.write("<a download='{{ .Get "ftype" }}.csv' href=" +    window.URL.createObjectURL(blob) + ">{{ .Get "ftype" }}.csv</a>");
+    })();
+</script>

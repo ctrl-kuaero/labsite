@@ -1,0 +1,59 @@
+
+$primary: #1abc9c !default;
+$primary-dark: darken($primary, 10);
+$primary-light: lighten($primary, 20);
+$white: hsl(0,0,98%);
+$link: lighten(#3498db,10);
+$link-hover: lighten($link,20);
+$secondary: #e74c3c;
+$secondary-dark: darken($secondary, 10);
+$secondary-light: lighten($secondary, 20);
+$warning: #f39c12;
+
+$information: $link;
+$information-light: lighten($information, 20);
+
+$text-color: $white;
+$text-color-dark: darken($text-color,30);
+$family-sans-serif: 'Noto Sans JP','メイリオ', sans-serif;
+$family-sans-serif-en: 'Open Sans', $family-sans-serif;
+$body-size: 17px;
+$body-color: $text-color;
+$body-background-color: hsl(0,0,3%);
+$body-weight: 200;
+
+$navbar-background-color: rgba(0,0,0,0.3);
+$navbar-item-color: hsl(0,0,97%);
+$navbar-item-hover-color: $primary-light;
+$navbar-item-active-color: #fff;
+$navbar-item-hover-background-color: inherit;
+$navbar-item-weight: 100;
+$navbar-brand-weight:700;
+$navbar-dropdown-arrow: $navbar-item-color;
+
+$title-color: $text-color;
+$title-weight: 100;
+$subtitle-color: $text-color-dark;
+$subtitle-weight: 400;
+
+$content-heading-color: $body-color;
+$content-heading-weight: 100;
+
+$title-size: 5rem;
+
+$content-heading-family: 'Open Sans', $family-sans-serif;
+$size-h1: 3.5rem;
+$size-h2: $size-h1*0.6;
+$size-h3: $size-h2*0.6;
+$size-h4: $size-h3*0.8;
+$size-h5: $size-h4*1;
+$size-h6: $size-h5*1;
+
+$card-color: $white;
+$card-background-color: rgba($primary,0);
+$card-shadow: 0 0 0 2px rgba($white, 0.4);
+
+$radius: 0px;
+$tag-background-color: transparent;
+
+$namesub-color: $text-color-dark;

@@ -1,0 +1,76 @@
+{{ define "main" }}
+{{- partial "nav.html" . -}}
+<main aria-role="main">
+    <div class="container">
+        <div class="homepage-content content">
+            <h1>Members</h1>
+            <div class="columns is-centered" style="padding-bottom:2em;">
+                <div class="column is-12">
+                    {{ with .Resources.GetMatch "members.jpg" }}
+                    {{ $image := .Fill "1600x800 q90" }} 
+                    <img src="{{ $image.RelPermalink }}" width="100%" alt="">
+                    {{ end }}
+                </div>            
+            </div>
+            <div style="columns:20em;padding-bottom:4em;max-width:100%;">
+                    {{ range $.Site.Data.members.list }}
+                    {{ $ja_names := split .ja_name " " }}
+                    {{ $en_names := split .en_name " " }}
+                    <div style="margin-bottom:1.5em; font-size:1.2rem; width:35rem;max-width:100%;break-inside:avoid;">
+                        <div style="display:flex">
+                            <div style="font-size:0.8em;width:15rem;text-align:right;padding-right:1.5em;">
+                                <div class="position" style="padding-top:0.2em">
+                                    {{ .en_position }}
+                                </div>
+                            </div>
+                            <div style="margin-right:1em;width:20rem;">
+                                <div class="namemain">
+                                    {{ index $en_names 0 }} {{ index $en_names 1 }}
+                                </div>
+                                {{ if .homepage }}
+                                <div>
+                                    <a href="{{ .homepage }}">
+                                        <span class="tag is-primary">Personal Page</span>
+                                    </a>
+                                </div>
+                                {{ end }}
+                            </div>
+                        </div>
+                    </div>
+                    {{ end }}
+            </div>
+
+            <hr>
+            <h2>Alumni</h2>
+            <div style="columns:20em;padding-bottom:4em">
+                {{ range $.Site.Data.alumni.list }}
+                {{ $ja_names := split .ja_name " " }}
+                {{ $en_names := split .en_name " " }}
+                <div style="margin-bottom:1.5em; font-size:1.2rem; width:20em;break-inside:avoid;">
+                    <div style="display:flex">
+                        <div style="font-size:0.8em;width:8em;text-align:right;padding-right:1.5em;">
+                            <div class="position" style="padding-top:0.2em">
+                                {{ .en_position }}
+                            </div>
+                        </div>
+                        <div style="margin-right:1em;">
+                            <div class="namemain">
+                                {{ index $en_names 0 }} {{ index $en_names 1 }}
+                            </div>
+                        </div>
+                        {{ if .homepage }}
+                        <div>
+                            <a href="{{ .homepage }}">
+                                <span class="tag is-primary">Personal Page</span>
+                            </a>
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+
+        </div>
+    </div>
+</main>
+{{ end }}

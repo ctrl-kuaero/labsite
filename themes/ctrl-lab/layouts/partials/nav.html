@@ -1,0 +1,31 @@
+<nav class="navbar is-fixed-top">
+    <div class="container {{with $.Page.Params.container }}{{ . }}{{ end }}">
+        <div class="navbar-brand">
+            <a class="navbar-item" href='{{ "/" | relLangURL }}'>
+                {{ .Site.Title }}
+            </a>
+            <span class="navbar-burger burger" data-target="navbarMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+        </div>
+        <div id="navbarMenu" class="navbar-menu">
+            {{ if .Site.Menus.main }}
+            <div class="navbar-start">
+                    {{ $currentPage := . }}
+                    {{ range .Site.Menus.main }}
+                    <a class='navbar-item {{ if $currentPage.IsMenuCurrent "main" . }}is-active{{ end }}' href="{{ .URL }}" title="{{ .Name }}">
+                            {{ .Name }}
+                        </a>
+                    {{ end }}
+            </div>
+            {{ end }}
+            <div class="navbar-end">
+                {{ range $.Page.AllTranslations }}
+                <a class='navbar-item {{ if eq $.Page.Lang  .Lang }}is-active{{end}}' href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+                {{ end }}                
+            </div>
+        </div>
+    </div>
+</nav>

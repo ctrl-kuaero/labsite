@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body class="lang-{{ .Lang }} type-{{ .Type }} {{ if .IsHome }}is-home{{end}} {{ if not .IsHome }}is-not-home{{end}} kind-{{ .Kind }}">
+        {{- partial "header.html" . -}}
+        {{- block "main" . }}{{- end }}
+        {{- partial "footer.html" . -}}
+    </body>
+</html>
