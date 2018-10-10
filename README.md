@@ -5,9 +5,9 @@
 のソースです．[Hugo](https://gohugo.io/)を使っていて，
 このレポジトリのmasterブランチにpushすると自動で更新されます．
 
-## 更新の方法
+## コンテンツの更新方法
 ### メンバーの更新
-[data/members.toml](data/members.toml) を更新する．
+[members.toml](data/members.toml), [alumni.toml](data/alumni.toml)を更新する．
 
 ### 研究業績の更新
 [研究業績の管理](/doc/publication.md)を参照
@@ -17,6 +17,13 @@
 
 ### アルバム
 :construction: 未実装
+
+## 見た目の修正方法
+[Bulma](https://bulma.io/)のドキュメントを参考にしつつ
+[_variables.scss](/themes/ctrl-lab/assets/sass/_variables.scss)，
+[_overrides.scss](/themes/ctrl-lab/assets/sass/_overrides.scss)を編集する．
+
+
 
 ### その他のページ
 
