@@ -2,6 +2,7 @@ baseURL = "https://control.kuaero.kyoto-u.ac.jp/"
 theme = "ctrl-lab"
 
 DefaultContentLanguage = "en"
+disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [languages]
   [languages.en]
