@@ -4,7 +4,6 @@ menu:
         weight: 30
 title: "アルバム"
 layout: single
-container: "is-fluid"
 ---
 
 # アルバム
