@@ -7,4 +7,6 @@ layout: single
 container: "is-fluid"
 ---
 
+# Album
 
+Under construction
