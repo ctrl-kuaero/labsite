@@ -43,10 +43,20 @@ html {
 }
 
 body {
-  background: url(/img/background_14.png) top right no-repeat;
-  background-size: 100% 100%;
-  background-attachment: fixed;
   min-height: 100%;
+}
+
+body::before {
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:-1;
+  width:100vw;
+  height:100vh;
+  background: url(/img/background_14.png) top right no-repeat;
+  -webkit-background-size:cover;
+  background-size: cover;
+  content:"";
 }
 
 .card-image {
