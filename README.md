@@ -18,17 +18,15 @@
 ### アルバム
 :construction: 未実装
 
+### その他のページ
+[/content/](/content/)の中のそれらしいフォルダを探して
+index.{ja|en}.md を編集する．
+
 ## 見た目の修正方法
 [Bulma](https://bulma.io/)のドキュメントを参考にしつつ
 [_variables.scss](/themes/ctrl-lab/assets/sass/_variables.scss)，
 [_overrides.scss](/themes/ctrl-lab/assets/sass/_overrides.scss)を編集する．
-
-
-
-### その他のページ
-
-[/content/](/content/)の中のそれらしいフォルダを探して
-index.{ja|en}.md を編集する．
+必要なら[テーマのフォルダ](/themes/ctrl-lab/)の中を修正する．
 
 ## 注意事項
 
