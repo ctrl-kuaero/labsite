@@ -1,24 +1,24 @@
-.content h1{
+.content h1 {
   font-size: $size-h1;
 }
 
-.content h2{
+.content h2 {
   font-size: $size-h2;
 }
 
-.content h3{
+.content h3 {
   font-size: $size-h3;
 }
 
-.content h4{
+.content h4 {
   font-size: $size-h4;
 }
 
-.content h5{
+.content h5 {
   font-size: $size-h5;
 }
 
-.content h6{
+.content h6 {
   font-size: $size-h6;
 }
 
@@ -38,24 +38,25 @@
   text-align: center;
 }
 
-html{
+html {
   height: 100%;
 }
 
-body{
+body {
   background: url(/img/background_14.png) top right no-repeat;
-	background-size: 100% 100%;
+  background-size: 100% 100%;
   background-attachment: fixed;
   min-height: 100%;
 }
 
-.card-image{
+.card-image {
   padding: 2px;
 }
 
-.content h1{
-  margin:1em 0em;
+.content h1 {
+  margin: 1em 0em;
 }
+
 h1,
 h2,
 h3,
@@ -65,130 +66,164 @@ h6 {
   font-family: $content-heading-family;
 }
 
-.tag:not(body).is-primary{
-  background:transparent;
-  color:$primary-light;
-  border:solid $primary-light 1px;
+.tag:not(body).is-primary {
+  background: transparent;
+  color: $primary-light;
+  border: solid $primary-light 1px;
 }
 
-a:hover{
-  .tag:not(body).is-primary{
-    background:rgba($primary,0.3);
+a:hover {
+  .tag:not(body).is-primary {
+    background: rgba($primary, 0.3);
   }
 }
 
-.tag:not(body).is-dark{
-  background:rgba($black,0.3);
+.tag:not(body).is-dark {
+  background: rgba($black, 0.3);
   border: solid 1px $white;
 }
 
-.tag:not(body) + .tag:not(body){
+.tag:not(body)+.tag:not(body) {
   border-left: 0px;
 }
 
 
 
-.position{
-  font-weight:700;
-  color:$text-color-dark;
+.position {
+  font-weight: 700;
+  color: $text-color-dark;
 }
 
-.namemain{
-  font-weight:400;
-}
-.namesub{
-  font-weight:700;
-  color:$namesub-color;
+.namemain {
+  font-weight: 400;
 }
 
-.subtitle{
+.namesub {
+  font-weight: 700;
+  color: $namesub-color;
+}
+
+.subtitle {
   font-weight: $subtitle-weight;
 }
 
-.hero h1{
-  display:inline-block;
-  border-bottom:1px solid $primary-light;
+.hero h1 {
+  display: inline-block;
+  border-bottom: 1px solid $primary-light;
 }
 
-.lang-en{
- .hero .title{
-    font-size:$title-size*0.7;
+.lang-en {
+  .hero .title {
+    font-size: $title-size*0.7;
   }
-  .hero .subtitle{
-    font-size:$subtitle-size*0.7;
+
+  .hero .subtitle {
+    font-size: $subtitle-size*0.7;
   }
 }
-.content p{
-  text-align:justify;
+
+@media screen and (max-width : 768px) {
+  .hero .title {
+    font-size: $title-size*0.7;
+  }
+
+  .hero .subtitle {
+    font-size: $subtitle-size*0.7;
+  }
+
+  .lang-en {
+    .hero .title {
+      font-size: $title-size*0.7*0.7;
+    }
+
+    .hero .subtitle {
+      font-size: $subtitle-size*0.7*0.7;
+    }
+  }
 }
 
-.navbar-item{
-  box-sizing:border-box;
+.content p {
+  text-align: justify;
 }
 
-.navbar-start .navbar-item.is-active{
+.navbar-item {
+  box-sizing: border-box;
+}
+
+.navbar-start .navbar-item.is-active {
   border-bottom: solid 3px $primary;
 }
 
-.navbar-end .navbar-item.is-active{
+.navbar-end .navbar-item.is-active {
   border-bottom: solid 3px $secondary;
 }
 
-main{
-  padding-top:3em;
+main {
+  padding-top: 3em;
 }
 
-.content{
-  h3,h4{
-    font-weight:400;
+.content {
+
+  h3,
+  h4 {
+    font-weight: 400;
   }
-  h5,h6{
-    font-weight:200;
+
+  h5,
+  h6 {
+    font-weight: 200;
   }
 }
 
-body.lang-en{
+body.lang-en {
   font-family: $family-sans-serif-en;
 }
 
 ol {
   counter-reset: list;
 }
-ol > li {
+
+ol>li {
   list-style: none;
-  position:relative;
+  position: relative;
 }
-ol > li:before {
+
+ol>li:before {
   content: "["counter(list) "] ";
   counter-increment: list;
   position: absolute;
-  left:-50px;
-  width:40px;
-  text-align:right;
-  top:0px;
+  left: -50px;
+  width: 40px;
+  text-align: right;
+  top: 0px;
 }
 
-.publication{
-  padding-bottom:1em;
-  .pubtitle{
-    font-weight:400;
+.publication {
+  padding-bottom: 1em;
+
+  .pubtitle {
+    font-weight: 400;
   }
-  .author{
-    font-size:90%;
+
+  .author {
+    font-size: 90%;
   }
-  .sep{
-    font-size:90%;
-    margin-right:0.5em;
+
+  .sep {
+    font-size: 90%;
+    margin-right: 0.5em;
   }
-  .citeinfo{
-    font-size:90%;
+
+  .citeinfo {
+    font-size: 90%;
   }
-  .note{
-    color:$text-color;
-    margin-left:0.5em;
-    font-size:80%;
-    font-weight:400;
-    border:1px solid $text-color;
+
+  .note {
+    color: $text-color;
+    margin-left: 0.5em;
+    font-size: 80%;
+    font-weight: 400;
+    border: 1px solid $text-color;
     padding: 0.1em 0.4em;
   }
 }
