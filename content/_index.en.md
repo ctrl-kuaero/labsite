@@ -6,6 +6,3 @@ subtitle: "Kyoto University Graduate School of Engineering Department of Aeronau
 ---
 
 We are conducting fundamental research and application research on systems and control engineering.
-
-
-
