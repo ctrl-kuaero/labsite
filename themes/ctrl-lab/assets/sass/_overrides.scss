@@ -124,20 +124,20 @@ a:hover {
 
 @media screen and (max-width : 768px) {
   .hero .title {
-    font-size: $title-size*0.7;
+    font-size: $title-size*0.6;
   }
 
   .hero .subtitle {
-    font-size: $subtitle-size*0.7;
+    font-size: $subtitle-size*0.6;
   }
 
   .lang-en {
     .hero .title {
-      font-size: $title-size*0.7*0.7;
+      font-size: $title-size*0.6*0.7;
     }
 
     .hero .subtitle {
-      font-size: $subtitle-size*0.7*0.7;
+      font-size: $subtitle-size*0.6*0.7;
     }
   }
 }
