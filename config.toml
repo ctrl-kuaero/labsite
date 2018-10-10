@@ -1,4 +1,4 @@
-baseURL = "http://control.kuaero.kyoto-u.ac.jp/"
+baseURL = "https://control.kuaero.kyoto-u.ac.jp/"
 theme = "ctrl-lab"
 
 DefaultContentLanguage = "en"
