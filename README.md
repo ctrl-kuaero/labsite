@@ -6,6 +6,9 @@
 このレポジトリのmasterブランチにpushすると自動で更新されます．
 
 ## コンテンツの更新方法
+
+:warning: **注意事項** データファイル全般に全角スペース，全角カンマを混入させないこと
+
 ### メンバーの更新
 [members.toml](data/members.toml), [alumni.toml](data/alumni.toml)を更新する．
 
@@ -28,7 +31,9 @@ index.{ja|en}.md を編集する．
 [_overrides.scss](/themes/ctrl-lab/assets/sass/_overrides.scss)を編集する．
 必要なら[テーマのフォルダ](/themes/ctrl-lab/)の中を修正する．
 
-## 注意事項
+## researchmap 用のデータの取得
 
-1. データファイル全般に全角スペース，全角カンマを混入させないこと
+[http://control.kuaero.kyoto-u.ac.jp/gen_researchmap_csv/](http://control.kuaero.kyoto-u.ac.jp/gen_researchmap_csv/)から取得可能    
+自分の分も欲しくなった場合は[/content/gen_researchmap_csv/index.md](/content/gen_researchmap_csv/index.md)を参照＆編集すること．  
+クライアントサイドで作成しているので，ブラウザによって挙動が違うかも．動作確認はChromeで行っている．
 
