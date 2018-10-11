@@ -9,7 +9,8 @@ ja_name = "丸田 一郎"
 en_name = "Ichiro MARUTA"
 ja_position = "講師"
 en_position = "Lecturer"
-homepage = "http://kyouindb.iimc.kyoto-u.ac.jp/j/gE8dX"
+ja_homepage = "http://kyouindb.iimc.kyoto-u.ac.jp/j/gE8dX"
+en_homepage = "http://kyouindb.iimc.kyoto-u.ac.jp/e/gE8dX"
 
 [[list]]
 ja_name = "大倉 裕貴"
