@@ -1,0 +1,25 @@
+<script src="/lib/jquery-3.3.1.slim.min.js"></script>
+
+<link href="/lib/nanogallery2-2.3.0/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css" >
+<link href="/lib/PhotoSwipe/default-skin/default-skin.css"  rel="stylesheet">
+<script  type="text/javascript" src="/lib/nanogallery2-2.3.0/dist/jquery.nanogallery2.min.js"></script>
+
+<div id="album-container" 
+    data-nanogallery2 = '{
+        "thumbnailHeight":  150,
+        "thumbnailWidth":   "auto",
+        "itemsBaseURL":     ""
+    }' >
+{{ range $albumindex, $album := (readDir "content/album/photos") }}
+{{ $albumname := $album.Name }}
+{{ range $imageindex, $image := ($.Page.Resources.Match (printf "photos/%s/*" $albumname)) }}
+{{ $thumb_image := $image.Resize "x150" }}
+{{ $large_image := $image.Fit "2048x2048" }}
+{{ if (eq $imageindex 0) }}
+    <a href="" data-ngkind="album" data-ngid="album{{ $albumindex }}" data-ngthumb="{{ $thumb_image.RelPermalink }}" data-ngthumbImgHeight="{{ $thumb_image.Height }}" data-ngthumbImgWidth="{{ $thumb_image.Width }}" >{{ $albumname }}</a>
+{{ end }}
+    <a href="{{ $large_image.RelPermalink }}" data-ngid="album{{ $albumindex }}image{{ $imageindex }}"  data-ngalbumid="album{{ $albumindex }}" data-ngThumb = "{{ $thumb_image.RelPermalink }}" data-ngthumbImgHeight="{{ $thumb_image.Height }}" data-ngthumbImgWidth="{{ $thumb_image.Width }}" data-ngImgHeight="{{ $large_image.Height }}" data-ngImgWidth="{{ $large_image.Width }}">{{ replaceRE "^.*/([^/]+)\\..+" "$1" (.Name) }}</a>
+{{ end }}
+{{ end }}
+</div>
+
