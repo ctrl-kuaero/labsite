@@ -32,10 +32,10 @@
                                 <div class="namemain">
                                     {{ index $en_names 0 }} {{ index $en_names 1 }}
                                 </div>
-                                {{ if .en_homepage }}
+                                {{ if .en_link_url }}
                                 <div>
-                                    <a href="{{ .en_homepage }}">
-                                        <span class="tag is-primary">Personal Page</span>
+                                    <a href="{{ .en_link_url }}">
+                                        {{ .en_link_text | safeHTML }}
                                     </a>
                                 </div>
                                 {{ end }}
@@ -63,10 +63,10 @@
                                 {{ index $en_names 0 }} {{ index $en_names 1 }}
                             </div>
                         </div>
-                        {{ if .homepage }}
+                        {{ if .en_link_url }}
                         <div>
-                            <a href="{{ .homepage }}">
-                                <span class="tag is-primary">Personal Page</span>
+                            <a href="{{ .en_link_url }}">
+                                {{ .en_link_text | safeHTML }}
                             </a>
                         </div>
                         {{ end }}

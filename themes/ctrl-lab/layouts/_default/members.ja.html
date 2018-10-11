@@ -35,10 +35,10 @@
                                     {{ index $en_names 1 }}, {{ index $en_names 0 }}
                                 </div>
                             </div>
-                            {{ if .ja_homepage }}
+                            {{ if .ja_link_url }}
                             <div>
-                                <a href="{{ .ja_homepage }}">
-                                    <span class="tag is-primary">Personal Page</span>
+                                <a href="{{ .ja_link_url }}">
+                                    <span class="is-primary">{{ .ja_link_text | safeHTML }}</span>
                                 </a>
                             </div>
                             {{ end }}
@@ -67,10 +67,10 @@
                                 {{ index $en_names 1 }}, {{ index $en_names 0 }}
                             </div>
                         </div>
-                        {{ if .homepage }}
+                        {{ if .ja_link_url }}
                         <div>
-                            <a href="{{ .homepage }}">
-                                <span class="tag is-primary">Personal Page</span>
+                            <a href="{{ .ja_link_url }}">
+                                {{ .ja_link_text | safeHTML }}
                             </a>
                         </div>
                         {{ end }}

@@ -20,18 +20,18 @@ title: "アクセス"
 
 #### 阪急桂駅から 
 * バスターミナル西口1番より京阪バス20系統または20B系統，市バス西6系統にご乗車ください．桂御陵坂下車．  
-  <a href="https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=京都大学桂キャンパスC3棟&origin=阪急桂駅"><i class="mi">directions_bus</i> Google Maps による道順</a>
+  <a href="https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=京都大学桂キャンパスC3棟&origin=阪急桂駅"><i class="material-icons">directions_bus</i> Google Maps による道順</a>
   
 
 #### JR桂川駅から
 
 * バスターミナル②のりばよりヤサカバス6号系統にご乗車ください．桂御陵坂下車．  
-  <a href="https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=京都大学桂キャンパスC3棟&origin=JR桂川駅"><i class="mi">directions_bus</i> Google Maps による道順</a>  
+  <a href="https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=京都大学桂キャンパスC3棟&origin=JR桂川駅"><i class="material-icons">directions_bus</i> Google Maps による道順</a>  
 
 #### JR京都駅から
 
 *  バスターミナルAのりばより京阪バス21・21A系統にご乗車ください．桂御陵坂下車．  
-  <a href="https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=京都大学桂キャンパスC3棟&origin=JR京都駅"><i class="mi">directions_bus</i> Google Maps による道順</a>
+  <a href="https://www.google.com/maps/dir/?api=1&travelmode=transit&destination=京都大学桂キャンパスC3棟&origin=JR京都駅"><i class="material-icons">directions_bus</i> Google Maps による道順</a>
 
 ### Map
 
