@@ -233,9 +233,17 @@ ol>li:before {
     font-size: 90%;
   }
 
-  .sep {
+  .sep, .sepboth{
     font-size: 90%;
+  }
+
+  .sep {
     margin-right: 0.5em;
+  }
+
+  .sepboth {
+    margin-right: 0.3em;
+    margin-left: 0.3em;
   }
 
   .citeinfo {

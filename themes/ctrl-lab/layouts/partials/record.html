@@ -30,8 +30,11 @@
     <br>
     {{ range $index, $author := $author_list }}
     <span class="author">{{ $author }}</span>
-    {{- if lt $index (add $num_author -1) }}<span class="sep">,</span>{{end }}
-    {{ end }}<br>
+    {{- if eq $page_lang "en" }}
+    {{- if eq $index (add $num_author -2) }} <span class="sepboth">and</span> 
+    {{- else if lt $index (add $num_author -1) }}<span class="sep">,</span >{{- end }}
+    {{- else if lt $index (add $num_author -1) }}<span class="sep">,</span> {{- end }}
+    {{- end }}<br>
     <span class="citeinfo">
         {{ $booktitle }}
         {{- if .r.volume -}}

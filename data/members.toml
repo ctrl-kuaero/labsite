@@ -3,6 +3,8 @@ ja_name = "藤本 健治"
 en_name = "Kenji FUJIMOTO"
 ja_position = "教授"
 en_position = "Professor"
+ja_homepage = "http://kyouindb.iimc.kyoto-u.ac.jp/j/sC1aD"
+en_homepage = "http://kyouindb.iimc.kyoto-u.ac.jp/e/sC1aD"
 
 [[list]]
 ja_name = "丸田 一郎"
