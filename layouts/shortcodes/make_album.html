@@ -6,14 +6,14 @@
 
 <div id="album-container" 
     data-nanogallery2 = '{
-        "thumbnailHeight":  150,
+        "thumbnailHeight":  300,
         "thumbnailWidth":   "auto",
         "itemsBaseURL":     ""
     }' >
 {{ range $albumindex, $album := (readDir "content/album/photos") }}
 {{ $albumname := $album.Name }}
 {{ range $imageindex, $image := ($.Page.Resources.Match (printf "photos/%s/*" $albumname)) }}
-{{ $thumb_image := $image.Resize "x150" }}
+{{ $thumb_image := $image.Resize "x300" }}
 {{ $large_image := $image.Fit "2048x2048" }}
 {{ if (eq $imageindex 0) }}
     <a href="" data-ngkind="album" data-ngid="album{{ $albumindex }}" data-ngthumb="{{ $thumb_image.RelPermalink }}" data-ngthumbImgHeight="{{ $thumb_image.Height }}" data-ngthumbImgWidth="{{ $thumb_image.Width }}" >{{ $albumname }}</a>
