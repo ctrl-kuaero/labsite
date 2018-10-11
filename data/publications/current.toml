@@ -1,4 +1,19 @@
 [[record]]
+type = "domestic_conference"
+lang = "ja"
+reviewed = false
+invited = false
+ja_author = "濱田 聖司, 藤本 健治, 浜本 研一"
+en_author = "Kiyoshi Hamada, Kenji Fujimoto, Kenichi Hamamoto"
+ja_title = "二輪ローバーの状態制約を満たした軌道生成手法の検討"
+en_title = "On trajectory generation with state constraints for a four wheel rover"
+ja_booktitle = "第61回システム制御情報学会研究発表講演会講演論文集"
+en_booktitle = "Proceedings of the 61st Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
+publication_date = "20170500"
+naid = "40021220350"
+page_begin = "321-2"
+
+[[record]]
 type = "journal"
 lang = "ja"
 reviewed = true
