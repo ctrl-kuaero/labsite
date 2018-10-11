@@ -1,31 +1,54 @@
-<script src="/lib/jquery-3.3.1.slim.min.js"></script>
+<script src="/lib/jquery-3.3.1.min.js"></script>
 
 <link href="/lib/nanogallery2-2.3.0/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css" >
 <script  type="text/javascript" src="/lib/nanogallery2-2.3.0/dist/jquery.nanogallery2.min.js"></script>
 
-<div id="album-container" 
-    data-nanogallery2 = '{
-        "thumbnailHeight":  300,
-        "thumbnailWidth":   "auto",
-        "itemsBaseURL":     ""
-    }' >
-{{ range $albumindex, $album := (readDir "content/album/photos") }}
-{{ $albumname := $album.Name }}
-{{ range $imageindex, $image := (intersect ($.Page.Resources.ByType  "image") ($.Page.Resources.Match (printf "photos/%s/*" $albumname))) }}
-{{ $thumb_image := $image.Resize "x300" }}
-{{ $large_image := $image.Fit "2048x2048" }}
-{{ if (eq $imageindex 0) }}
-    {{ $.Scratch.Set "albumtitle" $albumname }}
-    {{ $album_title_filename := (printf "album/photos/%s/title.%s.txt" $albumname $.Page.Lang) }}
-    <script>console.log("{{ $album_title_filename }}")</script>
-    {{ if (fileExists $album_title_filename) }}
-    {{ $.Scratch.Set "albumtitle" (readFile $album_title_filename) }}
-    <script>console.log('{{ $.Scratch.Get "albumtitle" }}')</script>
-    {{ end }}
-    <a href="" data-ngkind="album" data-ngid="album{{ $albumindex }}" data-ngthumb="{{ $thumb_image.RelPermalink }}" data-ngthumbImgHeight="{{ $thumb_image.Height }}" data-ngthumbImgWidth="{{ $thumb_image.Width }}" >{{ $.Scratch.Get "albumtitle" }}</a>
-{{ end }}
-    <a href="{{ $large_image.RelPermalink }}" data-ngid="album{{ $albumindex }}image{{ $imageindex }}"  data-ngalbumid="album{{ $albumindex }}" data-ngThumb = "{{ $thumb_image.RelPermalink }}" data-ngthumbImgHeight="{{ $thumb_image.Height }}" data-ngthumbImgWidth="{{ $thumb_image.Width }}" data-ngImgHeight="{{ $large_image.Height }}" data-ngImgWidth="{{ $large_image.Width }}">{{ replaceRE "^.*/([^/]+)\\..+" "$1" (.Name) }}</a>
-{{ end }}
-{{ end }}
+<div id="album-container" data-nanogallery2>
 </div>
+<script>
+    $("#album-container").nanogallery2({
+            "thumbnailStacks": 4,
+            "thumbnailL1Stacks": 4,
+            "thumbnailStacksRotateX": 0.4,
+            "thumbnailLabel": {"titleFontSize":"1em","align":"left"},
+            "thumbnailHeight":  300,
+            "thumbnailWidth":  "auto",
+            "itemsBaseURL":  "",
+            "items": [
+{{ range $albumindex, $album := (readDir "content/album/photos") }}
+    {{- $albumname := $album.Name }}
+    {{- range $imageindex, $image := (intersect ($.Page.Resources.ByType  "image") ($.Page.Resources.Match (printf "photos/%s/*" $albumname))) }}
+        {{- $thumb_image := $image.Resize "x300" }}
+        {{- $large_image := $image.Fit "2048x2048" }}
+        {{- if (eq $imageindex 0) }}
+            /*{{ $.Scratch.Set "albumtitle" $albumname -}}*/
+            {{- $album_title_filename := (printf "album/photos/%s/title.%s.txt" $albumname $.Page.Lang) }}
+            {{- if (fileExists $album_title_filename) }}
+                /*{{- $.Scratch.Set "albumtitle" (readFile $album_title_filename) }}*/
+            {{- end }}
+                {
+                    "title": '{{ $.Scratch.Get "albumtitle" }}',
+                    "kind": "album",
+                    "ID": "album{{ $albumindex }}",
+                    "srct": "{{ $thumb_image.RelPermalink }}",
+                    "imgtHeight" : "{{ $thumb_image.Height }}",
+                    "imgtWidth": "{{ $thumb_image.Width }}"
+                },
+        {{- end }}
+                {
+                    "title": "{{ replaceRE "^.*/([^/]+)\\..+" "$1" (.Name) }}",
+                    "kind": "image",
+                    "albumID": "album{{ $albumindex }}",
+                    "ID":  "album{{ $albumindex }}image{{ $imageindex }}",
+                    "src": "{{ $large_image.RelPermalink }}",
+                    "srct": "{{ $thumb_image.RelPermalink }}",
+                    "imgtHeight": "{{ $thumb_image.Height }}",
+                    "imgtWidth": "{{ $thumb_image.Width }}",
+                    "height":  "{{ $large_image.Height }}",
+                    "width": "{{ $thumb_image.Width }}"
+                },
+    {{- end }}
+{{- end }}
+    ]});
 
+</script>
