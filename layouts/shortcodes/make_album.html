@@ -11,11 +11,18 @@
     }' >
 {{ range $albumindex, $album := (readDir "content/album/photos") }}
 {{ $albumname := $album.Name }}
-{{ range $imageindex, $image := ($.Page.Resources.Match (printf "photos/%s/*" $albumname)) }}
+{{ range $imageindex, $image := (intersect ($.Page.Resources.ByType  "image") ($.Page.Resources.Match (printf "photos/%s/*" $albumname))) }}
 {{ $thumb_image := $image.Resize "x300" }}
 {{ $large_image := $image.Fit "2048x2048" }}
 {{ if (eq $imageindex 0) }}
-    <a href="" data-ngkind="album" data-ngid="album{{ $albumindex }}" data-ngthumb="{{ $thumb_image.RelPermalink }}" data-ngthumbImgHeight="{{ $thumb_image.Height }}" data-ngthumbImgWidth="{{ $thumb_image.Width }}" >{{ $albumname }}</a>
+    {{ $.Scratch.Set "albumtitle" $albumname }}
+    {{ $album_title_filename := (printf "album/photos/%s/title.%s.txt" $albumname $.Page.Lang) }}
+    <script>console.log("{{ $album_title_filename }}")</script>
+    {{ if (fileExists $album_title_filename) }}
+    {{ $.Scratch.Set "albumtitle" (readFile $album_title_filename) }}
+    <script>console.log('{{ $.Scratch.Get "albumtitle" }}')</script>
+    {{ end }}
+    <a href="" data-ngkind="album" data-ngid="album{{ $albumindex }}" data-ngthumb="{{ $thumb_image.RelPermalink }}" data-ngthumbImgHeight="{{ $thumb_image.Height }}" data-ngthumbImgWidth="{{ $thumb_image.Width }}" >{{ $.Scratch.Get "albumtitle" }}</a>
 {{ end }}
     <a href="{{ $large_image.RelPermalink }}" data-ngid="album{{ $albumindex }}image{{ $imageindex }}"  data-ngalbumid="album{{ $albumindex }}" data-ngThumb = "{{ $thumb_image.RelPermalink }}" data-ngthumbImgHeight="{{ $thumb_image.Height }}" data-ngthumbImgWidth="{{ $thumb_image.Width }}" data-ngImgHeight="{{ $large_image.Height }}" data-ngImgWidth="{{ $large_image.Width }}">{{ replaceRE "^.*/([^/]+)\\..+" "$1" (.Name) }}</a>
 {{ end }}
