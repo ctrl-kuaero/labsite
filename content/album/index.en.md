@@ -8,4 +8,4 @@ layout: single
 
 # Album
 
-Under construction.
+{{< make_album >}}

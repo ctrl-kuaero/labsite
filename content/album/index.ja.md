@@ -8,4 +8,4 @@ layout: single
 
 # アルバム
 
-工事中
+{{< make_album >}}

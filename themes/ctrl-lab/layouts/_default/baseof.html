@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html>
-    {{- partial "head.html" . -}}
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+        <meta name="format-detection" content="telephone=no">
+        {{ $options := (dict "outputStyle" "compressed" "enableSourceMap" true) }}
+        {{ $sass := resources.Get "sass/ctrl-lab.scss" }}
+        {{ $style := $sass | resources.ToCSS $options}}
+        <link href="{{ $style.Permalink }}" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,200,400,700&amp;subset=japanese" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+    </head>
     <body class="lang-{{ .Lang }} type-{{ .Type }} {{ if .IsHome }}is-home{{end}} {{ if not .IsHome }}is-not-home{{end}} kind-{{ .Kind }}">
         {{- partial "header.html" . -}}
         {{- block "main" . }}{{- end }}

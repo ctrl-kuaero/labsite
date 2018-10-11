@@ -1,11 +1,11 @@
 
-$primary: #1abc9c !default;
+$primary: lighten(#1abc9c,30) !default;
 $primary-dark: darken($primary, 10);
 $primary-light: lighten($primary, 20);
 $white: hsl(0,0,98%);
-$link: lighten(#3498db,10);
-$link-hover: lighten($link,20);
-$secondary: #e74c3c;
+$link: $primary;
+$link-hover: $primary-light;
+$secondary: lighten(#e74c3c,10);
 $secondary-dark: darken($secondary, 10);
 $secondary-light: lighten($secondary, 20);
 $warning: #f39c12;
@@ -24,7 +24,7 @@ $body-weight: 200;
 
 $navbar-background-color: rgba(0,0,0,0.8);
 $navbar-item-color: hsl(0,0,97%);
-$navbar-item-hover-color: $primary-light;
+$navbar-item-hover-color: $primary;
 $navbar-item-active-color: #fff;
 $navbar-item-hover-background-color: inherit;
 $navbar-item-weight: 100;
@@ -57,3 +57,13 @@ $radius: 0px;
 $tag-background-color: transparent;
 
 $namesub-color: $text-color-dark;
+
+
+$button-background-color: rgba(0,0,0,0);
+$button-border-color: $primary;
+$button-color: $primary;
+$button-hover-border-color: $primary-light;
+$button-hover-color: $primary-light;
+
+$button-focus-border-color: $primary-light;
+$button-focus-color: $primary-light;

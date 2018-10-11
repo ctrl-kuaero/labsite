@@ -47,16 +47,16 @@ body {
 }
 
 body::before {
-  position:fixed;
-  top:0;
-  left:0;
-  z-index:-1;
-  width:100vw;
-  height:100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
   background: url(/img/background_14.png) bottom center no-repeat;
-  -webkit-background-size:cover;
+  -webkit-background-size: cover;
   background-size: cover;
-  content:"";
+  content: "";
 }
 
 .card-image {
@@ -78,13 +78,13 @@ h6 {
 
 .tag:not(body).is-primary {
   background: transparent;
-  color: $primary-light;
-  border: solid $primary-light 1px;
+  color: $primary;
+  border: solid $primary 1px;
 }
 
 a:hover {
   .tag:not(body).is-primary {
-    background: rgba($primary, 0.3);
+    background: rgba($primary, 0.2);
   }
 }
 
@@ -119,7 +119,7 @@ a:hover {
 
 .hero h1 {
   display: inline-block;
-  border-bottom: 1px solid $primary-light;
+  border-bottom: 1px solid $primary;
 }
 
 .lang-en {
@@ -161,12 +161,26 @@ a:hover {
 }
 
 .navbar-start .navbar-item.is-active {
-  border-bottom: solid 3px $primary;
+  border-bottom: solid 3px $primary-dark;
 }
 
 .navbar-end .navbar-item.is-active {
-  border-bottom: solid 3px $secondary;
+  border-bottom: solid 3px $secondary-dark;
 }
+
+.navbar-end {
+  a.navbar-item,
+  .navbar-link {
+    cursor: pointer;
+
+    &:hover,
+    &.is-active {
+      background-color: $navbar-item-hover-background-color;
+      color: $secondary;
+    }
+  }
+}
+
 
 main {
   padding-top: 3em;
@@ -236,4 +250,29 @@ ol>li:before {
     border: 1px solid $text-color;
     padding: 0.1em 0.4em;
   }
+}
+
+.mi {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.2em;  /* Preferred icon size */
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  display: inline-flex;
+  vertical-align: middle;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
 }
