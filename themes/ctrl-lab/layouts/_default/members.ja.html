@@ -16,32 +16,34 @@
                     {{ end }}
                 </div>            
             </div>
-            <div style="columns:20em;padding-bottom:4em">
+            <div style="columns:22em;padding-bottom:4em">
                     {{ range $.Site.Data.members.list }}
                     {{ $ja_names := split .ja_name " " }}
                     {{ $en_names := split .en_name " " }}
-                    <div style="margin-bottom:1.5em; font-size:1.2rem; width:20em;break-inside:avoid;">
-                        <div style="display:flex">
+                    <div style="margin-bottom:1.5em; font-size:1.2rem; width:22em;break-inside:avoid;">
+                        <div style="display:flex;">
                             <div style="font-size:0.8em;width:8em;text-align:right;padding-right:1.5em;">
                                 <div class="position" style="padding-top:0.2em">
                                     {{ .ja_position }}
                                 </div>
                             </div>
-                            <div style="margin-right:1em;">
-                                <div class="namemain" style="width:8rem;text-align-last:justify;">
-                                    <span style="white-space:nowrap;">{{ index $ja_names 0 }} {{ index $ja_names 1 }}</span>
+                            <div style="display:flex;flex-wrap: wrap;">
+                                <div style="margin-right:1em;">
+                                    <div class="namemain" style="width:8rem;text-align-last:justify;">
+                                        <span style="white-space:nowrap;">{{ index $ja_names 0 }} {{ index $ja_names 1 }}</span>
+                                    </div>
+                                    <div class="namesub" style="font-size:60%;min-width:8rem;text-align-last:justify;">
+                                        {{ index $en_names 1 }}, {{ index $en_names 0 }}
+                                    </div>
                                 </div>
-                                <div class="namesub" style="font-size:60%;min-width:8rem;text-align-last:justify;">
-                                    {{ index $en_names 1 }}, {{ index $en_names 0 }}
+                                {{ if .ja_link_url }}
+                                <div>
+                                    <a href="{{ .ja_link_url }}">
+                                        <span class="is-primary">{{ .ja_link_text | safeHTML }}</span>
+                                    </a>
                                 </div>
+                                {{ end }}                        
                             </div>
-                            {{ if .ja_link_url }}
-                            <div>
-                                <a href="{{ .ja_link_url }}">
-                                    <span class="is-primary">{{ .ja_link_text | safeHTML }}</span>
-                                </a>
-                            </div>
-                            {{ end }}
                         </div>
                     </div>
                     {{ end }}

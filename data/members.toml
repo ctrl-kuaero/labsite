@@ -3,8 +3,8 @@ ja_name = "藤本 健治"
 en_name = "Kenji FUJIMOTO"
 ja_position = "教授"
 en_position = "Professor"
-ja_link_text = '<span class="tag is-primary">DB</span>'
-en_link_text = '<span class="tag is-primary">DB</span>'
+ja_link_text = '<span class="tag is-primary">Activity Database</span>'
+en_link_text = '<span class="tag is-primary">Activity Database</span>'
 ja_link_url = "http://kyouindb.iimc.kyoto-u.ac.jp/j/sC1aD"
 en_link_url = "http://kyouindb.iimc.kyoto-u.ac.jp/e/sC1aD"
 
@@ -13,8 +13,8 @@ ja_name = "丸田 一郎"
 en_name = "Ichiro MARUTA"
 ja_position = "講師"
 en_position = "Lecturer"
-ja_link_text = '<span class="tag is-primary">DB</span>'
-en_link_text = '<span class="tag is-primary">DB</span>'
+ja_link_text = '<span class="tag is-primary">Activity Database</span>'
+en_link_text = '<span class="tag is-primary">Activity Database</span>'
 ja_link_url = "http://kyouindb.iimc.kyoto-u.ac.jp/j/gE8dX"
 en_link_url = "http://kyouindb.iimc.kyoto-u.ac.jp/e/gE8dX"
 
