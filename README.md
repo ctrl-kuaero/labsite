@@ -19,7 +19,7 @@
 :construction: 未実装
 
 ### アルバム
-:construction: 未実装
+nanogallery2で試験中
 
 ### その他のページ
 [/content/](/content/)の中のそれらしいフォルダを探して
