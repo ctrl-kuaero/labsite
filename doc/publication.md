@@ -24,4 +24,18 @@
    「個人の業績」および「研究室の業績」は「全員の業績」をフィルタして生成する．
  * 研究室所属前の成果などが 全員の業績 \ 研究室の業績 となる
 
+### データの操作
 
+データは [TOML形式](https://github.com/toml-lang/toml) で書くのは便利だがツールが少し少ないので，操作時はJSON形式に変換するとよい．
+
+JSON形式への変換には [Remarshal](https://github.com/dbohdan/remarshal) などが使える．
+
+JSON形式のデータの操作には [jq](https://stedolan.github.io/jq/) が便利．
+
+#### 2017年以前の丸田のデータに研究室外フラグを立てる
+``` sh
+toml2json data_from_researchmap_maruta_20181008.toml > before.json
+cat before.json | jq -r '{record: (.record | map_values(if .publication_date > "20170000" then . else . + {outside_kuaero:true} end))}' > after.json
+json2toml after.json >  data_from_researchmap_maruta_20181008.toml
+rm before.json after.json
+```

@@ -18,11 +18,11 @@
         {{ $list := ($.Scratch.Get "list") }}
 
 
-        {{/* 丸田の研究室参加以前の業績を除外 */}}
+        {{/* 研究室外の業績を除外 */}}
         {{ $.Scratch.Delete "list" }}
         {{ range $list }}
         {{/* force comparison as string */}}
-        {{ if (and (lt (print "S" .publication_date) "S2017") (or (in .en_author "Ichiro Maruta") (in .ja_author "丸田 一郎") )) }}
+        {{ if .outside_kuaero }}
         {{ else }}
         {{ $.Scratch.Add "list" (slice .) }}
         {{ end }}
