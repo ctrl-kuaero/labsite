@@ -80,7 +80,7 @@ h6 {
   background: transparent;
   color: $primary;
   border: solid $primary 1px;
-  font-weight:400;
+  font-weight: 400;
 }
 
 a:hover {
@@ -170,6 +170,7 @@ a:hover {
 }
 
 .navbar-end {
+
   a.navbar-item,
   .navbar-link {
     cursor: pointer;
@@ -204,23 +205,98 @@ body.lang-en {
   font-family: $family-sans-serif-en;
 }
 
-ol {
+#publications.no-year{
+  h3{
+    font-size: $size-h2;
+  }
+}
+
+
+.filter-box {
+  display: flex;
+  font-size: 90%;
+  font-weight:400;
+  + .filter-box{
+    margin-top:0.5em;
+  }
+  .filter-head {
+    white-space: nowrap;
+    margin-right: 1em;
+    padding-top: 0.2em;
+    font-weight:700;
+    color: $primary;
+    min-width:10em;
+  }
+
+  ul.filter-list {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    &#filter-year li.filter-option{
+      min-width: 3em;
+    }
+
+    li.filter-option {
+      a.filter-year{
+        width:6em;
+      }
+      display: block;
+      box-sizing: border-box;
+      margin: 0.2em 0.5em;
+      a {
+        padding: 0.05em 0.3em;
+      }
+
+      &.is-selected a {
+        border: 1px solid rgba($primary,0.8);
+        background: rgba($primary,0.8);
+        font-weight: 700;
+        color:$black;
+      }
+      &.is-selected-sub a {
+        border: 1px solid $primary;
+      }
+    }
+  }
+}
+
+#publications ol {
+  padding-left: 0;
+  margin-left: 0;
   counter-reset: list;
-}
 
-ol>li {
-  list-style: none;
-  position: relative;
-}
+  .item {
+    margin-left: 2.5em;
+    position: relative;
+  }
 
-ol>li:before {
-  content: "["counter(list) "] ";
-  counter-increment: list;
-  position: absolute;
-  left: -50px;
-  width: 40px;
-  text-align: right;
-  top: 0px;
+  >li.head-type,
+  >li.head-year {
+    list-style: none;
+    margin-left: -2.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+  }
+
+  li.year-2018+li.year-2018 {
+    h2 {
+      display: none;
+    }
+  }
+
+  >li.publication {
+    list-style: none;
+  }
+
+  .counter{
+    position: absolute;
+    left: -2.5em;
+    width: 2em;
+    text-align: right;
+    top: 0px;
+  }
 }
 
 .publication {
@@ -234,7 +310,8 @@ ol>li:before {
     font-size: 90%;
   }
 
-  .sep, .sepboth{
+  .sep,
+  .sepboth {
     font-size: 90%;
   }
 
@@ -262,11 +339,17 @@ ol>li:before {
   }
 }
 
+.box{
+  border: dotted 2px $primary;
+  padding: 0.7rem 1.2rem;
+}
+
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
-  font-size: 1.2em;  /* Preferred icon size */
+  font-size: 1.2em;
+  /* Preferred icon size */
   line-height: 1;
   text-transform: none;
   letter-spacing: normal;

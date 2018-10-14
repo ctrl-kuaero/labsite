@@ -180,14 +180,14 @@ rm_type = "5"
 type = "domestic_conference"
 
 [[record]]
-en_author = "川口 貴弘,  彦野 壮三朗,  丸田 一郎, 足立 修一"
+en_author = "Takahiro Kawaguchi, Sosaburo Hikono, Ichiro Maruta, Shuichi Adachi"
 en_booktitle = "Proceedings of the 3rd Multi-Symposium on Control Systems"
 en_title = "ルベーグサンプリングを用いたシステム同定法とその統計的性質"
 invited = false
 ja_author = "川口 貴弘,  彦野 壮三朗,  丸田 一郎, 足立 修一"
 ja_booktitle = "第3回 計測自動制御学会制御部門マルチシンポジウム(CD-ROM)"
 ja_title = "ルベーグサンプリングを用いたシステム同定法とその統計的性質"
-jglobalid = "2.01602E+17"
+jglobalid = "201602209534047773"
 lang = "ja"
 outside_kuaero = true
 page_begin = "ROMBUNNO.2C1‐3"
@@ -243,7 +243,7 @@ type = "explanation_journal"
 volume = "59"
 
 [[record]]
-en_author = "四方田 真美, 丸田 一郎, 杉江 俊治"
+en_author = "Mami Yomoda, Ichiro Maruta, Toshiharu Sugie"
 en_booktitle = "Proceedings of the 60th Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
 en_title = "Finite alphabet control with A* algorithm"
 invited = false
@@ -304,7 +304,6 @@ rm_type = "5"
 type = "domestic_conference"
 
 [[record]]
-en_abstract = "近年電力不足問題が表面化しており, その解決策としてリアルタイムプライシングが研究されている．さらにそのリアルタイムプライシングを実現するために確率を用いた抽選型制御器を用いる手法が研究されているが, 電化製品の多様な電力特性のもとでも同様に実現することができるかを調べる必要がある．本研究では抽選型制御器の必要性について述べ, 今回設計製作した抽選型制御器と実際に使用した結果を示す．"
 en_author = "Taichi Kitao, Ichiro Maruta, Shun-ichi Azuma"
 en_booktitle = "Proceedings of the 57th Japan Joint Automatic Control Conference"
 en_title = "Hardwware Implementation of Lottert Controllers for Real-time Pricing"
@@ -502,8 +501,7 @@ rm_type = "5"
 type = "domestic_conference"
 
 [[record]]
-en_abstract = "制御系の挙動を数式のみでイメージすることは容易ではなく, 制御教育において制御器の実装と制御系の観察を実習することの意義は大きい．しかし, 実装に必要な時間的・金銭的なコストは高く, 理論との予期しないずれを排除することも難しい．そこで本研究ではリアルタイム性を備えたシミュレータの導入によってこれらの問題を回避し, 効率的な制御教育を実現する方法について考察する．"
-en_author = "Maruta Ichiro"
+en_author = "Ichiro Maruta"
 en_booktitle = "Proceedings of the Japan Joint Automatic Control Conference"
 en_title = "Control education using real-time simulators"
 invited = false
@@ -526,8 +524,7 @@ type = "domestic_conference"
 volume = "57"
 
 [[record]]
-en_abstract = "近年, 電気自動車用二次電池の充電率をモデルに基づいて推定する方法が注目されている．高精度な充電率推定を実現するためには, モデル構造を電池の特性を精度よく表現したものとし, モデルパラメータを電池の内部状態変化に合わせて逐次的に推定する方法が必要である．本発表では, 温度特性を考慮したモデルを提案し, 電池モデルの精度向上を図る．また, 提案モデルを構成する物理パラメータと充電率を逐次的に同時推定する方法を提案し, 電池内部の状態変化に対応した推定を行なう．"
-en_author = "Hikono Sosaburo, Sugiura Ayane, Baba Atsushi, Maruta Ichiro, Adachi Shuichi"
+en_author = "Sosaburo Hikono, Ayane Sugiura, Atsushi Baba, Ichiro Maruta, Shuichi Adachi"
 en_booktitle = "Proceedings of the Japan Joint Automatic Control Conference"
 en_title = "Simultaneous Estimation of a State of Charge and Physical Parameters of Lithium-ion Rechargeable Battery in Consideration of Temperature Characteristics"
 invited = false
@@ -550,8 +547,7 @@ type = "domestic_conference"
 volume = "57"
 
 [[record]]
-en_abstract = "近年, 入出力データをデータベース化し, それに基づいてモデルを介さず直接に制御入力を計算するアプローチに注目が集まっている．そのような手法として代表的なものにJust-in-Time 法があるが, このアプローチにはまだ研究の余地が多くある．本発表では新たな手法として, ノンパラメトリックな制御器を, モデルを介さず直接構成する方法を提案する．"
-en_author = "Fujimoto Yusuke, Maruta Ichiro, Sugie Toshiharu"
+en_author = "Yusuke Fujimoto, Ichiro Maruta, Toshiharu Sugie"
 en_booktitle = "Proceedings of the Japan Joint Automatic Control Conference"
 en_title = "Synthesis of non-parametric type controllers based on I/O data"
 invited = false
@@ -574,8 +570,7 @@ type = "domestic_conference"
 volume = "57"
 
 [[record]]
-en_abstract = "電気自動車用二次電池の高精度な状態推定のためには, 正確な電池のモデルが必要である．電池にはヒステリシス特性が存在することが知られているが, これを同定することは難しい．本稿では, 既存のヒステリシスモデルを, ある条件下では線形とみなすことができることを示す．また, 線形とみなしたモデルにパラメータ感度プロットを適用することで, ヒステリシス特性を同定するために適した実験条件を考察する．"
-en_author = "Sugiura Ayane, Maruta Ichiro, Baba Atsushi, Adachi Shuichi"
+en_author = "Ayane Sugiura, Ichiro Maruta, Atsushi Baba, Shuichi Adachi"
 en_booktitle = "Proceedings of the Japan Joint Automatic Control Conference"
 en_title = "Modeling of Rechargeable Li-ion Battery in Consideration of Hysteresis Phenomena"
 invited = false
@@ -598,7 +593,7 @@ type = "domestic_conference"
 volume = "57"
 
 [[record]]
-en_author = "川口 貴弘, 杉浦 文音, 丸田 一郎"
+en_author = "Takahiro Kawaguchi, Ayane Sugiura, Ichiro Maruta"
 en_booktitle = "システム制御情報学会研究発表講演会講演論文集"
 en_title = "Modeling of EV Battery considering Diffusion Phenomena and Its Application to SOC Estimation"
 invited = false
@@ -618,9 +613,10 @@ volume = "57"
 
 [[record]]
 invited = false
+en_author = "Yusuke Fujimoto, Ichiro Maruta, Toshiharu Sugie"
 ja_author = "藤本 悠介, 丸田 一郎, 杉江 俊治"
 ja_booktitle = "システム制御情報学会研究発表講演会講演論文集"
-ja_title = "ノンパラメトリック区分的線形モデルの?? 最適化に基づく圧縮"
+ja_title = "ノンパラメトリック区分的線形モデルのl1最適化に基づく圧縮"
 lang = "ja"
 naid = "40020166171"
 outside_kuaero = true
@@ -633,7 +629,7 @@ type = "domestic_conference"
 volume = "57"
 
 [[record]]
-en_author = "小林 孝一, 丸田 一郎, 桜間 一徳"
+en_author = "Koichi Kobayashi, Ichiro Maruta, Kazunori Sakurama"
 en_booktitle = "システム制御情報学会研究発表講演会講演論文集"
 en_title = "Optimal Control of Multi-Agent Markov Decision Processes and Its Application to Real-Time Pricing"
 invited = false
@@ -680,7 +676,6 @@ ja_title = "核ノルム最小化と射影を用いた連続時間システム�
 lang = "ja"
 outside_kuaero = true
 page_begin = "7E2-2"
-page_end = "7E2-2"
 publication_date = "20130300"
 reviewed = false
 rm_ftype = "misc"
@@ -694,11 +689,10 @@ en_title = "Simplification method for PWA models based on  $\\ell_1$ optimizatio
 invited = false
 ja_author = "藤本 悠介, 丸田 一郎, 杉江 俊治"
 ja_booktitle = "第13回制御部門大会"
-ja_title = "PWAモデルの $\\ell_1$ 最適化に基づく単純化と画像処理への適用"
+ja_title = "PWAモデルの l1 最適化に基づく単純化と画像処理への適用"
 lang = "ja"
 outside_kuaero = true
 page_begin = "7E2-1"
-page_end = "7E2-1"
 publication_date = "20130300"
 reviewed = false
 rm_ftype = "misc"
@@ -796,7 +790,7 @@ rm_type = "5"
 type = "domestic_conference"
 
 [[record]]
-en_author = "MARUTA Ichiro"
+en_author = "Ichiro Maruta"
 en_booktitle = "Dynamics and Design Conference : D & D"
 en_title = "A new identification method for nonlinear systems based on l1 optimization and application to mechanical systems"
 invited = false
@@ -835,7 +829,7 @@ rm_type = "5"
 type = "domestic_conference"
 
 [[record]]
-en_author = "石川 健太郎, 丸田 一郎, 足立 修一"
+en_author = "Kentaro Ishikawa, Ichiro Maruta, Shuichi Adachi"
 en_booktitle = "聴覚研究会資料"
 en_title = "Verification of the Simultaneous Multidirectional Estimation Accuracy of Head-Related Transfer Functions by Prediction Error Method"
 invited = false
@@ -859,7 +853,7 @@ volume = "42"
 
 [[record]]
 en_abstract = "This report shows the experimental results of the simultaneous HRTFs (head-related transfer functions) estimation and verifies the estimation accuracy. Since each directional HRTF is measured one by one in general, it requires a long measurement time. The authors proposed an simultaneous measurement and estimation method of the multidirectional HRTFs by treating it as an MISO (multi-input single-output) system and applying a PEM (prediction error method). The experimental results were given to verify the relationship between a number of inputs and an estimation accuracy."
-en_author = "ISHIKAWA Kentaro, MARUTA Ichiro, ADACHI Shuichi, MATSUI Kentaro, ANDO Akio"
+en_author = "Kentaro Ishikawa, Ichiro Maruta, Shuichi Adachi, Kentaro Matsui, Akio Ando"
 en_booktitle = "Technical report of IEICE. EA"
 en_title = "Verification of the Simultaneous Multidirectional Estimation Accuracy of Head-Related Transfer Functions by Prediction Error Method"
 invited = false
@@ -955,7 +949,7 @@ type = "domestic_conference"
 
 [[record]]
 en_abstract = "In this paper, a new identification method for system with circulation is proposed. This class of target system has circulation mechanism in which some substances continuously circulate. Thus, its output is influenced by that of the previous circulation period. Therefore, the model for such system contains higher order terms, which makes it difficult to identify the model when its circulation period is unknown. The proposed method is based on the feature extraction with L1-norm optimization technique, which can estimate sparse parameter vector of the model. A numerical simulation is given to show the effectiveness of the proposed method."
-en_author = "Ishikawa Kentaro, Maruta Ichiro, Adachi Shuichi"
+en_author = "Kentaro Ishikawa, Ichiro Maruta, Shuichi Adachi"
 en_booktitle = "Proceedings of the Japan Joint Automatic Control Conference"
 en_title = "Modeling of Systems with Circulation using L1-norm Optimization"
 invited = false
@@ -1086,8 +1080,6 @@ ja_booktitle = "第7回計測自動制御学会制御部門大会"
 ja_title = "Particle Swarm Optimization を用いたロバストPID制御器のパラメータチューニング"
 lang = "ja"
 outside_kuaero = true
-page_begin = "1975/2/1"
-page_end = "1975/2/1"
 publication_date = "20070300"
 reviewed = false
 rm_ftype = "misc"
@@ -1104,8 +1096,6 @@ ja_booktitle = "第７回計測自動制御学会制御部門大会"
 ja_title = "Particle Swarm Optimizationに基づいた固定次数Ｈ∞コントローラ設計"
 lang = "ja"
 outside_kuaero = true
-page_begin = "1975/1/6"
-page_end = "1975/1/6"
 publication_date = "20070300"
 reviewed = false
 rm_ftype = "misc"
@@ -1124,6 +1114,7 @@ lang = "ja"
 outside_kuaero = true
 page_begin = "613"
 page_end = "616"
+naid = "10027445517"
 publication_date = "20060500"
 reviewed = false
 rm_ftype = "misc"
@@ -1368,6 +1359,9 @@ rm_type = "2"
 type = "international_conference"
 
 [[record]]
+doi = "10.11351/jsaeronbun.46.97"
+en_title = "State of Charge and Parameter Estimation of Lithium-ion Batteries for HEVs and EVs"
+en_author = "Atsushi Baba, Kinnosuke Itabashi, Nozomu Teranishi, Yoshihiro Edamoto, Kensuke Osamura, Ichiro Maruta, Shuichi Adachi"
 ja_author = "馬場 厚志, 板橋 欣之介, 寺西 望, 枝本 吉広, 長村 謙介, 丸田 一郎, 足立 修一"
 ja_booktitle = "自動車技術会論文集"
 ja_title = "HEV/EV 向けリチウムイオン電池の充電率とパラメータの同時推定"
@@ -1380,6 +1374,8 @@ rm_ftype = "paper"
 rm_type = "1"
 type = "journal"
 volume = "46"
+page_begin = "97"
+page_end = "102"
 
 [[record]]
 doi = "10.1109/CDC.2014.7040413"
@@ -1606,8 +1602,7 @@ type = "journal"
 volume = "49"
 
 [[record]]
-en_abstract = "頭部伝達関数の測定は1方向ずつ行うことが一般的であり, 測定に長時間を要することが課題となっていた。そこで本稿では, システム同定理論を応用してこの問題を解決する手法を提案する。提案法では, 頭部伝達関数を多入力1出力システムと見なすことで, 3次元空間上の複数方向から同時に入力を印加し測定を行い, システム同定理論を用いて各方向の頭部伝達関数を推定する。また, このときに用いる適切な入力信号の作成法についても述べる。57方向同時推定実験により, 提案法が, TSP(time-stretched pulse)を用いた1方向ずつの測定と概ね同等の推定結果を得つつ, 測定時間を大幅に短縮するものであることを示す。"
-en_author = "Ishikawa Kentaro, Tokuzumi Yurika, Maruta Ichiro, Adachi Shuichi, Matsui Kentaro, Ando Akio"
+en_author = "Kentaro Ishikawa , Yurika Tokuzumi, Ichiro Maruta, Shuichi Adachi, Kentaro Matsui, Akio Ando"
 en_booktitle = "The Journal of the Acoustical Society of Japan"
 en_title = "Multidirectional simultaneous estimation of head-related transfer function in a 3-dimensional space by system identification"
 issn = "3694232"
@@ -1648,20 +1643,19 @@ publication_date = "20130700"
 reviewed = true
 rm_ftype = "paper"
 rm_type = "0"
-type = "paper_unknown"
+type = "journal"
 volume = "49"
 
 [[record]]
 doi = "10.9746/sicetr.49.655"
-en_author = "石川 健太郎, 丸田 一郎, 足立 修一"
+en_author = "Kentaro Ishikawa, Ichiro Maruta, Shuichi Adachi"
 en_booktitle = "Transactions of the Society of Instrument and Control Engineers"
-en_title = "ｌ<sub>１</sub>最適化を用いた循環構造を有するシステムのモデリング"
+en_title = "Modeling of Systems with Circulation Using l1-norm Optimization"
 ja_author = "石川 健太郎, 丸田 一郎, 足立 修一"
 ja_booktitle = "計測自動制御学会論文集"
-ja_title = "ｌ<sub>１</sub>最適化を用いた循環構造を有するシステムのモデリング"
-jglobalid = "2.01E+17"
+ja_title = "l1最適化を用いた循環構造を有するシステムのモデリング"
 lang = "ja"
-naid = "http://ci.nii.ac.jp/naid/40019756797"
+naid = "40019756797"
 number = "6"
 outside_kuaero = true
 page_begin = "655"
@@ -1729,12 +1723,14 @@ type = "international_conference"
 
 [[record]]
 doi = "10.5687/iscie.24.281"
+en_title = "A Demonstration Experiment on Stochastic Fluctuation for a Conjecture on the Control Performance Improvements"
+en_author = "Shun Ushida, Nobuhiro Shinohara, Shun-ichi Azuma, Ichiro Maruta, Toshiharu Sugie"
 ja_author = "牛田 俊, 篠原 暢宏, 東 俊一, 丸田 一郎, 杉江 俊治"
 ja_booktitle = "システム制御情報学会論文誌"
 ja_title = "ゆらぎによる安定性能改善の仮説に基づいた実証実験"
 jglobalid = "2.01E+17"
 lang = "ja"
-naid = "http://ci.nii.ac.jp/naid/10030510123"
+naid = "10030510123"
 number = "12"
 outside_kuaero = true
 page_begin = "281"
@@ -1743,7 +1739,7 @@ publication_date = "20111200"
 reviewed = true
 rm_ftype = "paper"
 rm_type = "0"
-type = "paper_unknown"
+type = "journal"
 volume = "24"
 
 [[record]]
@@ -1801,15 +1797,15 @@ type = "international_conference"
 
 [[record]]
 doi = "10.9746/sicetr.46.237"
-en_author = "石川 将人, 北吉 良平, 和田 尭, 丸田 一郎, 杉江 俊治"
+en_author = "Masato Ishikawa, Ryohei Kitayoshi,  Takashi Wada, Ichiro Maruta, Toshiharu Sugie"
 en_booktitle = "Transactions of the Society of Instrument and Control Engineers"
-en_title = "Ｒ／Ｃサーボモータのモデリングと劣駆動機械系への応用"
+en_title = "Modeling of R/C Servo Motor and Application to Underactuated Mechanical Systems"
 ja_author = "石川 将人, 北吉 良平, 和田 尭, 丸田 一郎, 杉江 俊治"
 ja_booktitle = "計測自動制御学会論文集"
 ja_title = "Ｒ／Ｃサーボモータのモデリングと劣駆動機械系への応用"
 jglobalid = "2.01E+17"
 lang = "ja"
-naid = "http://ci.nii.ac.jp/naid/10026208089"
+naid = "10026208089"
 number = "4"
 outside_kuaero = true
 page_begin = "237"
@@ -1818,20 +1814,19 @@ publication_date = "20100430"
 reviewed = true
 rm_ftype = "paper"
 rm_type = "0"
-type = "paper_unknown"
+type = "journal"
 volume = "46"
 
 [[record]]
 doi = "10.9746/sicetr.46.133"
-en_author = "丸田 一郎, 杉江 俊治"
+en_author = "Ichiro Maruta, Toshiharu Sugie"
 en_booktitle = "Transactions of the Society of Instrument and Control Engineers"
-en_title = "反復実験の不要な射影型連続時間システム同定"
+en_title = "Projection-based Identification of Continuous-time Systems from a Single Set of I/O Data"
 ja_author = "丸田 一郎, 杉江 俊治"
 ja_booktitle = "計測自動制御学会論文集"
 ja_title = "反復実験の不要な射影型連続時間システム同定"
-jglobalid = "2.01E+17"
 lang = "ja"
-naid = "http://ci.nii.ac.jp/naid/10026207887"
+naid = "10026207887"
 number = "3"
 outside_kuaero = true
 page_begin = "133"
@@ -1840,7 +1835,7 @@ publication_date = "20100331"
 reviewed = true
 rm_ftype = "paper"
 rm_type = "0"
-type = "paper_unknown"
+type = "journal"
 volume = "46"
 
 [[record]]
@@ -1939,15 +1934,15 @@ type = "international_conference"
 
 [[record]]
 doi = "10.9746/sicetr.45.144"
-en_author = "丸田 一郎, 杉江 俊治"
+en_author = "Ichiro Maruta, Toshiharu Sugie"
 en_booktitle = "Transactions of the Society of Instrument and Control Engineers"
-en_title = "初期化の不要な反復学習とその連続時間システム同定への応用"
+en_title = "Reset-free Iterative Learning Control and Its Application to Continuous-time System Identification"
 ja_author = "丸田 一郎, 杉江 俊治"
 ja_booktitle = "計測自動制御学会論文集"
 ja_title = "初期化の不要な反復学習とその連続時間システム同定への応用"
 jglobalid = "2.01E+17"
 lang = "ja"
-naid = "http://ci.nii.ac.jp/naid/10024757978"
+naid = "10024757978"
 number = "3"
 outside_kuaero = true
 page_begin = "144"
@@ -1956,7 +1951,7 @@ publication_date = "20090331"
 reviewed = true
 rm_ftype = "paper"
 rm_type = "0"
-type = "paper_unknown"
+type = "journal"
 volume = "45"
 
 [[record]]
@@ -2037,7 +2032,7 @@ volume = "44"
 
 [[record]]
 doi = "10.9746/ve.sicetr1965.44.288"
-en_author = "石川 将人, 丸田 一郎, 杉江 俊治"
+en_author = "Masato Ishikawa, Ichiro Maruta, Toshiharu Sugie"
 en_booktitle = "Transactions of the Society of Instrument and Control Engineers"
 en_title = "フィードバック変調器を用いた離散値入力制御におけるアクチュエータ非線形性の補償"
 ja_author = "石川 将人, 丸田 一郎, 杉江 俊治"
@@ -2045,7 +2040,7 @@ ja_booktitle = "計測自動制御学会論文集"
 ja_title = "フィードバック変調器を用いた離散値入力制御におけるアクチュエータ非線形性の補償"
 jglobalid = "2.01E+17"
 lang = "ja"
-naid = "http://ci.nii.ac.jp/naid/10021990213"
+naid = "10021990213"
 number = "3"
 outside_kuaero = true
 page_begin = "288"
@@ -2054,7 +2049,7 @@ publication_date = "20080331"
 reviewed = true
 rm_ftype = "paper"
 rm_type = "0"
-type = "paper_unknown"
+type = "journal"
 volume = "44"
 
 [[record]]
@@ -2094,9 +2089,9 @@ type = "international_conference"
 
 [[record]]
 doi = "10.9746/ve.sicetr1965.43.31"
-en_author = "石川 将人, 丸田 一郎, 杉江 俊治"
+en_author = "Masato Ishikawa, Ichiro Maruta, Toshiharu Sugie"
 en_booktitle = "Transactions of the Society of Instrument and Control Engineers"
-en_title = "フィードバック変調器を用いた離散値入力制御系の設計"
+en_title = "Quantized Controller Design Using Feedback Modulators"
 ja_author = "石川 将人, 丸田 一郎, 杉江 俊治"
 ja_booktitle = "計測自動制御学会論文集"
 ja_title = "フィードバック変調器を用いた離散値入力制御系の設計"
@@ -2111,5 +2106,5 @@ publication_date = "20070131"
 reviewed = true
 rm_ftype = "paper"
 rm_type = "0"
-type = "paper_unknown"
+type = "journal"
 volume = "43"

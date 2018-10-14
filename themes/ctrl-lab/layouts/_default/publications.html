@@ -4,75 +4,282 @@
 
 {{ define "main" }}
 {{- partial "nav.html" . -}}
+<script src="/lib/jquery-3.3.1.min.js"></script>
+<script src="/lib/list.min.js"></script>
 
 <main>
     <div class="container content">
         <h1>{{ .Title }}</h1>
 
         {{/* data/publications/内の全てのファイルを読み込み */}}
-        {{ $list := $.Site.Data.publications.autogen_publications.record }}
-        {{ $.Scratch.Delete "list" }}
-        {{ range $.Site.Data.publications }}
-        {{ $.Scratch.Add "list" .record }}
-        {{ end }}
-        {{ $list := ($.Scratch.Get "list") }}
-
-
-        {{/* 研究室外の業績を除外 */}}
-        {{ $.Scratch.Delete "list" }}
-        {{ range $list }}
-        {{/* force comparison as string */}}
-        {{ if .outside_kuaero }}
-        {{ else }}
-        {{ $.Scratch.Add "list" (slice .) }}
-        {{ end }}
-        {{ end }}
-        {{ $list := ($.Scratch.Get "list") }}
+        {{- $list := $.Site.Data.publications.autogen_publications.record }}
+        {{- $.Scratch.Delete "list" }}
+        {{- range $.Site.Data.publications }}
+        {{- $.Scratch.Add "list" .record }}
+        {{- end }}
+        {{- $list := ($.Scratch.Get "list") -}}
 
         {{/* 年のフィールドを追加 */}}
-        {{ $.Scratch.Delete "list" }}
-        {{ range $list }}
-        {{ $.Scratch.Set "record" . }}
-        {{ if .publication_date }}
-        {{ $.Scratch.SetInMap "record" "year" (substr .publication_date 0 4) }}
-        {{ else }}
-        {{ $.Scratch.SetInMap "record" "year" "unknown" }}
-        {{ end }}
-        {{ $.Scratch.Add "list" (slice ($.Scratch.Get "record")) }}
-        {{ end }}
-        {{ $list := ($.Scratch.Get "list") }}
-        {{ $.Scratch.Delete "list" }}
+        {{- $.Scratch.Delete "list" }}
+        {{- range $list }}
+        {{- $.Scratch.Set "record" . }}
+        {{- if .publication_date }}
+            {{- $.Scratch.SetInMap "record" "year" (substr .publication_date 0 4) }}
+        {{- else }}
+        {{- $.Scratch.SetInMap "record" "year" "unknown" }}
+        {{- end }}
+        {{- $.Scratch.Add "list" (slice ($.Scratch.Get "record")) }}
+        {{- end }}
+        {{- $list := ($.Scratch.Get "list") }}
+        {{- $.Scratch.Delete "list" -}}
 
         {{/* 年のリストを作成 */}}
-        {{ range $list }}
-        {{ $.Scratch.Add "year" (slice .year) }}
-        {{ end }}
-        {{ $year_list := sort (uniq ($.Scratch.Get "year")) "value" "desc" }}
+        {{- range $list }}
+        {{- if .outside_kuaero }}
+        {{- else }}
+        {{- $.Scratch.Add "year" (slice .year) }}
+        {{- end }}
+        {{- end }}
+        {{- $year_list := sort (uniq ($.Scratch.Get "year")) "value" "desc" -}}
 
-        {{ range $year_list }}
-        {{ $year := . }}
+        {{/* 著者のリストを作成 */}}
+        {{- range $list }}
+            {{- $authors_idx_name := (apply (apply (split .en_author ",") "lower" ".") "trim" "." " ")}}
+            {{- $authors_disp_name := (apply (split .en_author ",") "trim" "." " ") }}
+            {{- range $idx, $idx_name := $authors_idx_name }}
+                {{- $.Scratch.Add "author" (slice $idx_name) }}
+            {{- end }}
+        {{- end }}
+        {{- $author_list := sort (uniq ($.Scratch.Get "author")) "value" "asc" }}
 
-        <h2>{{ $year }}</h2>
+        {{- range $.Site.Data.members.list }}
+        {{- $.Scratch.Add "memberdata" (slice .) }}
+        {{- end }}
+        {{- range $.Site.Data.alumni.list }}
+        {{- $.Scratch.Add "memberdata" (slice .) }}
+        {{- end }}
+        {{ $member_data := ($.Scratch.Get "memberdata") }}
+        {{- range $member_data }}
+            {{- $name := (split .en_name " ")  }}
+            {{- $idx_name := (lower (printf "%s %s" (index $name 0) (index $name 1)))}}
+            {{- $.Scratch.Add "member" (slice $idx_name) }}
+            {{- if (eq $.Page.Lang "en") }}
+                {{- $.Scratch.SetInMap "author_disp" $idx_name (index .en_name) }}
+            {{- else }}
+                {{- $.Scratch.SetInMap "author_disp" $idx_name (index .ja_name) }}
+            {{- end }}
+        {{- end }}
 
-        {{ $list_year := where $list "year" $year }}
+        {{- $author_name_idx := ($.Scratch.Get "author_disp") }}
+        {{- $member_list := sort (uniq ($.Scratch.Get "member")) "value" "asc" }}
+    
+        {{- $author_list := (intersect $member_list $author_list) -}}
 
-        {{ $.Scratch.Delete "type" }}
-        {{ range $list_year }}
-        {{ $.Scratch.Add "type" (slice .type) }}
-        {{ end }}
-        {{ $type_list := uniq ($.Scratch.Get "type") }}
+        <div class="box">
+            <div class="filter-box">
+                <div class="filter-head">
+                    Filter by Period<br>
+                    <span style="font-weight:100">& Group by Year</span>
+                </div>
+                <div>
+                    <ul class="filter-list" id="filter-year">
+                        <li class="filter-option is-selected all"><a href="#" class="filter-button filter-year" data-year="all">ALL</a></li>
+                        {{- range $year_list }}
+                        <li class="filter-option"><a href="#" class="filter-button filter-year" data-year="{{.}}">{{.}}</a></li>
+                        {{- end }}
+                    </ul>        
+                </div>
+            </div>
+
+            <div class="filter-box">
+                <div class="filter-head">
+                    Filter by Author<br>
+                    <span style="font-weight:100">& Group by Category</span>
+                </div>
+                <div>
+                    <ul class="filter-list" id="filter-author">
+                        <li class="filter-option is-selected-sub lab"><a href="#" class="filter-button filter-author" data-author="lab">LAB</a></li>
+                        {{- range $author_list }}
+                        <li class="filter-option"><a href="#" class="filter-button filter-author" data-author="{{.}}">{{(index $author_name_idx .)}}</a></li>
+                        {{- end }}
+                    </ul>        
+                </div>
+            </div>
+        </div>
+    
 
 
-        {{ range $type_list }}
-        {{ $type := . }}
-        <h3>{{ i18n (printf "%s_%s" "publication_type" $type) }} </h3>
-        <ol class="publications">
-            {{ range where $list_year "type" $type }}
-            {{- partial "record.html" (dict "page_lang" $.Page.Lang "r" . "Scratch" $.Scratch) -}}
-            {{ end }}
-        </ol>
-        {{ end }}        
-        {{ end }} {{/* range $year_list */}}
+        {{/* 業績リスト本体 */}}
+        <div id="publications">
+        <ol class="list">
+        {{- range $year_list }}
+            {{- $year := . }}
+            {{- $list_year := where $list "year" $year }}
+            {{- $.Scratch.Delete "type" }}
+            {{- range $list_year }}
+                {{- $.Scratch.Add "type" (slice .type) }}
+            {{- end }}
+            {{- $type_list := uniq ($.Scratch.Get "type") }}
+            {{- range $type_list }}
+                {{- $type := . }}        
+                {{- range where $list_year "type" $type }}
+                    {{- partial "record.html" (dict "page_lang" $.Page.Lang "r" . "Scratch" $.Scratch) -}}
+                {{- end }}
+            {{- end }}        
+        {{- end }} {{/* range $year_list */}}
+    </ol>
     </div>
+    <script>
+        let options = {
+            valueNames: [
+                { data: ['year','type','author','pubdate'] },
+            ]
+        };
+        let publications = new List('publications', options);
+
+        function cleanup_headings(show_year){
+            let l = publications.visibleItems;
+            let year = "", type="", counter=1;
+            for(let i=0; i<l.length;i++){
+                let e = $(l[i].elm);
+                if(show_year){
+                    $('#publications').removeClass("no-year");
+                    if( i==0 || l[i-1].values()["year"] != l[i].values()["year"]){
+                        e.children("h2").show();
+                        e.children("h3").show();
+                        counter=1;
+                    }else if( i==0 || l[i-1].values()["type"] != l[i].values()["type"]){
+                        e.children("h2").hide();
+                        e.children("h3").show();
+                        counter=1;
+                    }else{
+                        e.children("h2").hide();
+                        e.children("h3").hide();
+                    }
+                }else{
+                    $('#publications').addClass("no-year");
+                    e.children("h2").hide();
+                    if( i==0 || l[i-1].values()["type"] != l[i].values()["type"]){
+                        e.children("h3").show();
+                        counter=1;
+                    }else{
+                        e.children("h3").hide();
+                    }
+                }
+                e.children(".item").children(".counter").text("["+counter+"]");
+                counter++;
+            }
+        }
+
+
+
+        function add_type_order(t){
+            switch(t){
+                case 'journal':
+                    return '100'+t;
+                case 'international_conference':
+                    return '200'+t;
+                default:
+                    return '999'+t;
+            }
+        }
+
+        function sort_publications(cr){
+            publications.sort('',{
+                sortFunction: function(a,b){
+                    for(let c of cr){
+                        let av = a.values()[c['field']];
+                        let bv = b.values()[c['field']];
+                        if(c['field']=='type'){
+                            av = add_type_order(av);
+                            bv = add_type_order(bv);
+                        }
+                        if(av!=bv){
+                            return c['sign']*publications.utils.naturalSort(av,bv);
+                        }
+                    }
+                }
+            });    
+        }
+
+        publications.filter(function(item) {
+            if (item.values().author.includes("lab")) {
+                return true;
+            } else {
+                return false;
+            }
+        });
+
+        sort_publications([
+            {'field':'year', 'sign': -1},
+            {'field':'type', 'sign': 1},
+            {'field':'pubdate', 'sign': -1},
+        ]);
+        cleanup_headings(true);
+
+        $(".filter-year").on('click', function(event){
+            event.stopPropagation();
+            event.stopImmediatePropagation();
+            const year = $(this).data('year');
+            $('#filter-year li').removeClass('is-selected is-selected-sub');
+            $('#filter-author li').removeClass('is-selected is-selected-sub');
+            $('#filter-author li.lab').addClass('is-selected-sub');
+            $(this).parent().addClass('is-selected');
+
+            sort_publications([
+                {field:'year', sign: -1},
+                {field:'type', sign: 1},
+                {field:'pubdate', sign: -1},
+            ]);
+
+            if(year =="all"){
+                publications.filter(function(item) {
+                    if (item.values().author.includes("lab")) {
+                        return true;
+                    } else {
+                        return false;
+                    }
+                });
+            }else{
+                publications.filter(function(item) {
+                    if (item.values().year ==year && item.values().author.includes("lab")) {
+                       return true;
+                    } else {
+                       return false;
+                    }
+                });    
+            }
+
+
+            cleanup_headings(true);
+            return false;
+        });
+
+        $(".filter-author").on('click', function(event){
+            event.stopPropagation();
+            event.stopImmediatePropagation();
+            const author = $(this).data('author');
+            $('#filter-author li').removeClass('is-selected is-selected-sub');
+            $('#filter-year li').removeClass('is-selected is-selected-sub');
+            $(this).parent().addClass('is-selected');
+            $('#filter-year li.all').addClass('is-selected-sub');
+
+            sort_publications([
+                {field:'type', sign: 1},
+                {field:'pubdate', sign: -1}
+            ]);
+
+            publications.filter(function(item) {
+                if (item.values().author.includes(author)) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }); 
+            cleanup_headings(false);
+            return false;
+        });        
+    </script>
+</div>
 </main>
 {{ end }}
