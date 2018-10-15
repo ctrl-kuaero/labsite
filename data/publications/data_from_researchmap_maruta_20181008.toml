@@ -286,6 +286,7 @@ type = "explanation_journal"
 volume = "54"
 
 [[record]]
+jglobalid = "201502223493504388"
 en_author = "Taichi Kitao, Ichiro Maruta, Shun-ichi Azuma"
 en_booktitle = "The 2nd Multi-symposium on Control Systems: MSCS2015"
 en_title = "Optimal Lottert Automated Demand Response for Real-time Pricing"
@@ -296,7 +297,6 @@ ja_title = "リアルタイムプライシングにおける最適抽選型自�
 lang = "ja"
 outside_kuaero = true
 page_begin = "531-2, PS-12"
-page_end = "531-2, PS-12"
 publication_date = "20150300"
 reviewed = false
 rm_ftype = "misc"
@@ -318,7 +318,7 @@ number = "0"
 outside_kuaero = true
 page_begin = "472"
 page_end = "474"
-permalink = "http://ci.nii.ac.jp/naid/130005146124"
+permalink = "130005146124"
 publication_date = "20141100"
 reviewed = false
 rm_ftype = "misc"
@@ -342,7 +342,7 @@ number = "0"
 outside_kuaero = true
 page_begin = "458"
 page_end = "464"
-permalink = "http://ci.nii.ac.jp/naid/130005146129"
+permalink = "130005146129"
 publication_date = "20141100"
 reviewed = false
 rm_ftype = "misc"
@@ -362,8 +362,7 @@ lang = "ja"
 naid = "40020362838"
 outside_kuaero = true
 page_begin = "321-3"
-page_end = "321-3"
-permalink = "http://ci.nii.ac.jp/naid/40020362838"
+permalink = "40020362838"
 publication_date = "20140521"
 reviewed = false
 rm_ftype = "misc"
@@ -383,8 +382,7 @@ lang = "ja"
 naid = "40020362225"
 outside_kuaero = true
 page_begin = "253-3"
-page_end = "253-3"
-permalink = "http://ci.nii.ac.jp/naid/40020362225"
+permalink = "40020362225"
 publication_date = "20140521"
 reviewed = false
 rm_ftype = "misc"
@@ -401,9 +399,9 @@ ja_author = "中本 剛, 泉 晋作, 北尾 太市, 東 俊一, 丸田 一郎, �
 ja_booktitle = "第58回システム制御情報学会研究発表講演会講演論文集"
 ja_title = "確率的局所制御器による自動デマンドレスポンス"
 lang = "ja"
+jglobalid = "201402290150610966"
 outside_kuaero = true
 page_begin = "222-4"
-page_end = "222-4"
 publication_date = "20140500"
 reviewed = false
 rm_ftype = "misc"
@@ -419,9 +417,9 @@ ja_author = "筈井 祐介, 丸田 一郎, 杉江 俊治"
 ja_booktitle = "第1回制御部門マルチシンポジウム"
 ja_title = "量子化出力に基づくオンライン状態推定を実現する粒子フィルタ"
 lang = "ja"
+jglobalid = "201402273383280026"
 outside_kuaero = true
 page_begin = "7E2-1"
-page_end = "7E2-1"
 publication_date = "20140300"
 reviewed = false
 rm_ftype = "misc"
@@ -437,9 +435,9 @@ ja_author = "藤本 悠介, 丸田 一郎, 杉江 俊治"
 ja_booktitle = "第1回制御理部門マルチシンポジウム"
 ja_title = "効率的なノンパラメトリックPWAモデルの構築"
 lang = "ja"
+jglobalid = "201402278073999650"
 outside_kuaero = true
 page_begin = "7D2-3"
-page_end = "7D2-3"
 publication_date = "20140300"
 reviewed = false
 rm_ftype = "misc"
@@ -447,6 +445,7 @@ rm_type = "5"
 type = "domestic_conference"
 
 [[record]]
+jglobalid = "201402297523755530"
 en_author = "Ichiro Maruta"
 en_booktitle = "The 1st Multi-symposium on Control Systems: MSCS2014"
 en_title = "A Study on Demand Response models for Real-Time Pricing"
@@ -465,6 +464,7 @@ rm_type = "5"
 type = "domestic_conference"
 
 [[record]]
+jglobalid = "201402253365045132"
 en_author = "Kaiji Sugiyama, Ichiro Maruta, Toshiharu Sugie"
 en_booktitle = "The 1st Multi-symposium on Control Systems: MSCS2014"
 en_title = "Closed Loop Stability Analysis for Active Disturbance Rejection Controllers"
@@ -483,6 +483,7 @@ rm_type = "5"
 type = "domestic_conference"
 
 [[record]]
+jglobalid = "201402212594922165"
 en_author = "Kazufumi Kamo, Ichiro Maruta, Toshiharu Sugie"
 en_booktitle = "The 1st Multi-symposium on Control Systems: MSCS2014"
 en_title = "Nonlinear model Predictive Control Based on Real-Time Design of Switching Linear Controllers"
@@ -515,7 +516,6 @@ number = "0"
 outside_kuaero = true
 page_begin = "616"
 page_end = "618"
-permalink = "http://ci.nii.ac.jp/naid/130005146100"
 publication_date = "20140000"
 reviewed = false
 rm_ftype = "misc"
@@ -538,7 +538,6 @@ number = "0"
 outside_kuaero = true
 page_begin = "1443"
 page_end = "1444"
-permalink = "http://ci.nii.ac.jp/naid/130005146034"
 publication_date = "20140000"
 reviewed = false
 rm_ftype = "misc"
@@ -561,7 +560,6 @@ number = "0"
 outside_kuaero = true
 page_begin = "1618"
 page_end = "1624"
-permalink = "http://ci.nii.ac.jp/naid/130005145999"
 publication_date = "20140000"
 reviewed = false
 rm_ftype = "misc"
@@ -584,7 +582,6 @@ number = "0"
 outside_kuaero = true
 page_begin = "1439"
 page_end = "1442"
-permalink = "http://ci.nii.ac.jp/naid/130005145929"
 publication_date = "20140000"
 reviewed = false
 rm_ftype = "misc"
@@ -603,7 +600,6 @@ ja_title = "拡散現象を考慮した電気自動車用二次電池のモデ�
 lang = "ja"
 naid = "40020165861"
 outside_kuaero = true
-permalink = "http://ci.nii.ac.jp/naid/40020165861"
 publication_date = "20130500"
 reviewed = false
 rm_ftype = "misc"
@@ -620,7 +616,6 @@ ja_title = "ノンパラメトリック区分的線形モデルのl1最適化に
 lang = "ja"
 naid = "40020166171"
 outside_kuaero = true
-permalink = "http://ci.nii.ac.jp/naid/40020166171"
 publication_date = "20130500"
 reviewed = false
 rm_ftype = "misc"
@@ -639,7 +634,7 @@ ja_title = "マルチエージェントマルコフ決定過程の最適制御�
 lang = "ja"
 naid = "40020166830"
 outside_kuaero = true
-permalink = "http://ci.nii.ac.jp/naid/40020166830"
+permalink = "40020166830"
 publication_date = "20130500"
 reviewed = false
 rm_ftype = "misc"
@@ -648,6 +643,7 @@ type = "domestic_conference"
 volume = "57"
 
 [[record]]
+jglobalid = "201302209393523957"
 en_author = "Tomoya Onaka, Ichiro Maruta, Toshiharu Sugie"
 en_booktitle = "SICE 13th Annual Conference on Control Systems"
 en_title = "On implementation and stability analysis of intelligent PID control in discrete time systems"
@@ -666,6 +662,7 @@ rm_type = "5"
 type = "domestic_conference"
 
 [[record]]
+jglobalid = "201202284790905984"
 en_author = "Akira Hamano, Ichiro Maruta, Toshiharu Sugie"
 en_booktitle = "SICE 13th Annual Conference on Control Systems"
 en_title = "Identification of continuous-time systems based on singal projection and nuclear norm minimization"
@@ -683,6 +680,7 @@ rm_type = "5"
 type = "domestic_conference"
 
 [[record]]
+jglobalid = "201302273691156924"
 en_author = "Yusuke Fujimoto, Ichiro Maruta, Toshiharu Sugie"
 en_booktitle = "SICE 13th Annual Conference on Control Systems"
 en_title = "Simplification method for PWA models based on  $\\ell_1$ optimization and its application to image processing"
@@ -700,6 +698,7 @@ rm_type = "5"
 type = "domestic_conference"
 
 [[record]]
+jglobalid = "201202225832410011"
 en_author = "Satoshi Inagaki, Ichiro Maruta, Toshiharu Sugie"
 en_booktitle = "Proceedings of the 55th Japan Joint Automatic Control Conference"
 en_title = "A note on intelligent PID control"
@@ -718,6 +717,7 @@ rm_type = "5"
 type = "domestic_conference"
 
 [[record]]
+jglobalid = "201202222198973688"
 en_author = "Ichiro Maruta"
 en_booktitle = "Proceedings of the 55th Japan Joint Automatic Control Conference"
 en_title = "Control Education via Inverted Pendulum Experiment based on Arduino"
@@ -736,6 +736,7 @@ rm_type = "5"
 type = "domestic_conference"
 
 [[record]]
+jglobalid = "201202284790905984"
 en_author = "Akira Hamano, Ichiro Maruta, Toshiharu Sugie"
 en_booktitle = "Proceedings of the 55th Japan Joint Automatic Control Conference"
 en_title = "Identification of continuous-time systems based on signal projection and nuclear norm minimization"
@@ -754,6 +755,7 @@ rm_type = "5"
 type = "domestic_conference"
 
 [[record]]
+jglobalid = "201202286568466010"
 en_author = "Kentaro Arai, Ichiro Maruta, Shuichi Adachi"
 en_booktitle = "Proceedings of the 55th Japan Joint Automatic Control Conference"
 en_title = "Open-Loop System Identification Experiments of Quadrotor Helicopter QBall"
@@ -772,6 +774,7 @@ rm_type = "5"
 type = "domestic_conference"
 
 [[record]]
+jglobalid = "201202244113397644"
 en_author = "Takahiro Kawaguchi, Ichiro Maruta, Atsushi Baba, Shuichi Adachi"
 en_booktitle = "Proceedings of the 55th Japan Joint Automatic Control Conference"
 en_title = "Modeling of Rechargeable Battery in Electric Vehicles by Continuous-Time System Identification Method"
@@ -802,7 +805,6 @@ lang = "ja"
 naid = "110009953229"
 number = "0"
 outside_kuaero = true
-permalink = "http://ci.nii.ac.jp/naid/110009953229"
 publication_date = "20120900"
 reviewed = false
 rm_ftype = "misc"
@@ -811,6 +813,7 @@ type = "domestic_conference"
 volume = "2012"
 
 [[record]]
+jglobalid = "201202201233537910"
 en_author = "Ichiro Maruta, Shuichi Adachi"
 en_booktitle = "41st SICE Symposium on Control Theory"
 en_title = "Application of System Identification Method for Piecewise Affine Models to Image Processing"
@@ -843,7 +846,7 @@ number = "6"
 outside_kuaero = true
 page_begin = "525"
 page_end = "530"
-permalink = "http://ci.nii.ac.jp/naid/40019416955"
+permalink = "40019416955"
 publication_date = "20120800"
 reviewed = false
 rm_ftype = "misc"
@@ -1342,16 +1345,16 @@ type = "journal"
 volume = "51"
 
 [[record]]
+doi = "10.1109/ISGT.2015.7131807"
 en_author = "Shun-Ichi Azuma, Tsuyoshi Nakamoto, Shinsaku Izumi, Taichi Kitao, Ichiro Maruta"
-en_booktitle = "IEEE Catalog Number of the CFP15ISG-USB; Innovative Smart Grid Technologies (2015ISGT)"
+en_booktitle = "Proceedings of 2015 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT)"
 en_title = "Randomized automated demand response for real-time pricing"
-ja_author = "東　俊一, 中本　剛, 泉　晋作, 北尾太市, 丸田一郎"
-ja_booktitle = "IEEE Catalog Number of the CFP15ISG-USB; Innovative Smart Grid Technologies (2015ISGT)"
+ja_author = "Shun-Ichi Azuma, Tsuyoshi Nakamoto, Shinsaku Izumi, Taichi Kitao, Ichiro Maruta"
+ja_booktitle = "Proceedings of 2015 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT)"
 ja_title = "Randomized automated demand response for real-time pricing"
 lang = "en"
 outside_kuaero = true
 page_begin = "ISGT2015-000083"
-page_end = "ISGT2015-000083"
 publication_date = "20150200"
 reviewed = true
 rm_ftype = "paper"
@@ -1417,6 +1420,7 @@ rm_type = "2"
 type = "international_conference"
 
 [[record]]
+doi = "10.3182/20140824-6-ZA-1003.02090"
 en_author = "Ichiro Maruta, Henrik Ohlsson"
 en_booktitle = "Proceedings of the 19th IFAC World Congress"
 en_title = "Compression Based Identification of PWA Systems"
@@ -1434,6 +1438,7 @@ rm_type = "2"
 type = "international_conference"
 
 [[record]]
+doi = "10.4236/am.2014.510141"
 en_author = "Koichi Kobayashi, Ichiro Maruta, Kazunori Sakurama, Shun-ichi Azuma"
 en_booktitle = "Applied Mathematics"
 en_title = "Modeling and Design of Real-Time Pricing Systems Based on Markov Decision Processes"
@@ -1449,8 +1454,9 @@ publication_date = "20140600"
 reviewed = true
 rm_ftype = "paper"
 rm_type = "2"
-type = "international_conference"
+type = "journal"
 volume = "5"
+
 
 [[record]]
 doi = "10.9746/sicetr.50.366"
@@ -1534,6 +1540,7 @@ reviewed = true
 rm_ftype = "paper"
 rm_type = "2"
 type = "international_conference"
+url = "http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6736206&isnumber=6736144"
 
 [[record]]
 doi = "10.9746/sicetr.49.763"
@@ -1761,6 +1768,7 @@ rm_type = "2"
 type = "international_conference"
 
 [[record]]
+doi = "10.1109/ACC.2011.5991220"
 en_author = "Ichiro Maruta, Toshiharu Sugie, Tae-Hyoung Kim"
 en_booktitle = "Proceedings of 2011 American Control Conference"
 en_title = "Synthesis of fixed-structure robust controllers using the distributed particle swarm optimizer with cyclic-network topology"
@@ -2071,6 +2079,7 @@ rm_type = "2"
 type = "international_conference"
 
 [[record]]
+doi = "10.23919/ECC.2007.7068292"
 en_author = "Masato Ishikawa, Ichiro Maruta, Toshiharu Sugie"
 en_booktitle = "Proceedings of the European Control Conference (ECC2007)"
 en_title = "Practical Controller Design for Discrete-valued Input Systems using Feedback Modulators"
