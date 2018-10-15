@@ -1,13 +1,13 @@
-{{ define "title" }}
-  {{ .Title }} &ndash; {{ .Site.Title }}
-{{ end }}
+{{- define "title" }}
+  {{- .Title }} &ndash; {{ .Site.Title }}
+{{- end }}
 
-{{ define "main" }}
-{{- partial "nav.html" . -}}
+{{- define "main" }}
+{{ partial "nav.html" . }}
 <main aria-role="main">
     <div class="container {{with $.Page.Params.container }}{{ . }}{{ end }}">
         <div class="homepage-content content">
-            {{$.Content}}
+            {{ $.Content }}
         </div>
     </div>
 </main>
