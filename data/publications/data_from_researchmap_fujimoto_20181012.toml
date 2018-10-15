@@ -294,16 +294,18 @@ ja_title = "クォータニオンフィードバック系のハミルトン系�
 en_title = "Hamiltonian modeling of quaternion feedback systems"
 ja_author = "竹内 智哉, 藤本 健治"
 en_author = "Tomoya Takeuchi, Kenji Fujimoto"
-ja_booktitle = "システム制御情報学会研究発表講演会講演論文集"
+ja_booktitle = "第57回システム制御情報学会研究発表講演会講演論文集"
 en_booktitle = "Proceedings of the 57th Annual Conference of the Institute of Systems, Control and Information Engineerings (ISCIE)"
-publication_date = "20130100"
+publication_date = "20130500"
 reviewed = false
 invited = false
 lang = "ja"
 rm_type = "0"
 rm_ftype = "paper"
 naid = "40020165875"
+page_begin = "313-6"
 type = "domestic_conference"
+jglobalid = "201302210540306140"
 
 [[record]]
 ja_title = "非線形制御って何であんなに難しそうなの?(アイ・サイ問答教室,<総合特集I>非線形ダイナミクスを見極め,操る先端制御理論)"
