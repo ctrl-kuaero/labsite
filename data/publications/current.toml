@@ -1,4 +1,22 @@
 [[record]]
+doi = "10.11499/sicejl.56.650"
+en_author = "Shuichi Fukunaga, Kenji Fujimoto"
+en_booktitle = "Journal of The Society of Instrument and Control Engineers"
+en_title = "Construction of Robust Filters Using Beta Divergences"
+invited = true
+ja_author = "福永 修一, 藤本 健治"
+ja_booktitle = "計測と制御"
+ja_title = "ベータダイバージェンスを用いたロバストフィルタの構築"
+lang = "ja"
+number = "9"
+page_begin = "650"
+page_end = "655"
+publication_date = "20170900"
+reviewed = true
+type = "explanation_journal"
+volume = "56"
+
+[[record]]
 type = "domestic_conference"
 lang = "ja"
 reviewed = false
@@ -85,7 +103,7 @@ lang = "ja"
 reviewed = false
 invited = false
 ja_author = "高木 友士, 藤本 健治"
-en_author = "Yuki Matsumoto, Kenji Fujimoto"
+en_author = "Yuji Takaki, Kenji Fujimoto"
 ja_title = "ガウス過程状態空間モデルに対するモデルの不確かさを考慮した出力フィードバック制御則の設計"
 en_title = "Output Feedback Controller Design for Gaussian Process State Space Models with Uncertain Dynamics"
 en_booktitle = "Proceedings of the 4th Multi-symposium on Control Systems"
@@ -168,6 +186,7 @@ ja_booktitle = "第3回 計測自動制御学会 制御部門マルチシンポ�
 publication_date = "20160300"
 jglobalid = "201602235134369608"
 page_begin = "2C2-4"
+
 
 [[record]]
 type = "domestic_conference"
