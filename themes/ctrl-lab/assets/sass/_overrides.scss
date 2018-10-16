@@ -192,12 +192,17 @@ footer.footer {
   margin-top: 3em;
   padding-top: 1.2em;
   padding-bottom: 3em;
+  font-size:0.8em;
+  font-weight:300;
   .domain{
-    line-height:1;
+    line-height:1.2;
     a{
       color:$text-color;
-      font-size:0.7em;
     }  
+  }
+  h4{
+    font-size:1.2em;
+    font-weight:400;
   }
   a{
     color:$text-color;
@@ -206,7 +211,13 @@ footer.footer {
     vertical-align: -0.3em;
   }
   .pagelist{
-    font-size:80%;
+    display:flex;
+    li{
+      display:block;
+      margin-right:1em;
+    }
+  }
+  #admin{
     display:flex;
     li{
       display:block;
