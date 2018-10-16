@@ -1,0 +1,576 @@
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "On Gaussian Kernel-based Hamilton-Jacobi-Bellman Equations for Nonlinear Optimal Control"
+page_begin = "1835"
+page_end = "1840"
+doi = "10.23919/ACC.2018.8431159"
+en_author = "Yuji Ito, Kenji Fujimoto, Takayoshi Yoshimura, Yukihiro Tadokoro"
+en_booktitle = "Proceedings of 2018 Annual American Control Conference (ACC)"
+type = "international_conference"
+publication_date = "20180600"
+url = "https://ieeexplore.ieee.org/document/8431159/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "On output feedback controller design for Gaussian process state space models"
+page_begin = "3652"
+page_end = "3657"
+doi = "10.1109/CDC.2017.8264196"
+en_author = "Yuji Takaki, Kenji Fujimoto"
+en_booktitle = "Proceedings of 2017 IEEE 56th Annual Conference on Decision and Control (CDC)"
+type = "international_conference"
+publication_date = "20171200"
+url = "https://ieeexplore.ieee.org/document/8264196/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "On variational Bayes for identification of nonlinear state-space models with linearly dependent unknown parameters"
+page_begin = "572"
+page_end = "576"
+doi = "10.23919/SICE.2017.8105487"
+en_author = "Akihiro Taniguchi, Kenji Fujimoto, Yoshiharu Nishida"
+en_booktitle = "Proceedings of the 56th Annual Conference of the Society of Instrument and Control Engineers of Japan (SICE)"
+type = "international_conference"
+publication_date = "20170900"
+url = "https://ieeexplore.ieee.org/document/8105487/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "On stochastic optimal control for linear systems with robust stability"
+page_begin = "5390"
+page_end = "5395"
+doi = "10.1109/CDC.2016.7799096"
+en_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro, Takayoshi Yoshimura"
+en_booktitle = "Proceedings of 2016 IEEE 55th Conference on Decision and Control (CDC)"
+type = "international_conference"
+publication_date = "20161200"
+url = "https://ieeexplore.ieee.org/document/7799096/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "On system identification for ARMAX models based on the variational Bayesian method"
+page_begin = "1217"
+page_end = "1222"
+doi = "10.1109/CDC.2016.7798432"
+en_author = "Kenji Fujimoto, Yuji Takaki"
+en_booktitle = "Proceedings of 2016 IEEE 55th Conference on Decision and Control (CDC)"
+type = "international_conference"
+publication_date = "20161200"
+url = "https://ieeexplore.ieee.org/document/7798432/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "On periodic Kalman filters and multi-rate estimation"
+page_begin = "934"
+page_end = "939"
+doi = "10.1109/CCA.2016.7587933"
+en_author = "Kenji Fujimoto, Yusuke Oji, Kenichi Hamamoto"
+en_booktitle = "Proceedings of 2016 IEEE Conference on Control Applications (CCA)"
+type = "international_conference"
+publication_date = "20160900"
+url = "https://ieeexplore.ieee.org/document/7587933/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "On linear solutions to a class of risk sensitive control for linear systems with stochastic parameters: Infinite time horizon case"
+page_begin = "6580"
+page_end = "6585"
+doi = "10.1109/ACC.2016.7526706"
+en_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro, Takayoshi Yoshimura"
+en_booktitle = "Proceedings of 2016 American Control Conference (ACC)"
+type = "international_conference"
+publication_date = "20160700"
+url = "https://ieeexplore.ieee.org/document/7526706/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "On linear solutions to a class of risk sensitive control for linear systems with stochastic parameters"
+page_begin = "6516"
+page_end = "6523"
+doi = "10.1109/CDC.2015.7403246"
+en_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro, Takayoshi Yoshimura"
+en_booktitle = "Proceedings of the 54th IEEE Conference on Decision and Control (CDC)"
+type = "international_conference"
+publication_date = "20151200"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "On finite time optimal control for discrete-time linear systems with parameter variation"
+page_begin = "6524"
+page_end = "6529"
+doi = "10.1109/CDC.2015.7403247"
+en_author = "Kenji Fujimoto, Teppei Inoue, Shun Maruyama"
+en_booktitle = "Proceedings of the 54th IEEE Conference on Decision and Control (CDC)"
+type = "international_conference"
+publication_date = "20151200"
+url = "https://ieeexplore.ieee.org/document/7403247/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "Numerical approach for nonlinear optimal control problems based on double generating functions"
+page_begin = "3218"
+page_end = "3223"
+doi = "10.1109/CDC.2015.7402702"
+en_author = "Zhiwei Hao, Qiuhua Zhang, Kenji Fujimoto"
+en_booktitle = "Proceedings of the 54th IEEE Conference on Decision and Control (CDC)"
+type = "international_conference"
+publication_date = "20151200"
+url = "https://ieeexplore.ieee.org/document/7402702/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "Double generating function approach to discrete-time nonlinear optimal control problems"
+page_begin = "3894"
+page_end = "3899"
+doi = "10.1109/CDC.2015.7402825"
+en_author = "Dijian Chen, Kenji Fujimoto, Tatsuya Suzuki"
+en_booktitle = "Proceedings of the 54th IEEE Conference on Decision and Control (CDC)"
+type = "international_conference"
+publication_date = "20151200"
+url = "https://ieeexplore.ieee.org/document/7402825/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "Optimal gait generation of constrained compass biped robot via generating function approach"
+page_begin = "626"
+page_end = "631"
+doi = "10.1109/SICE.2015.7285532"
+en_author = "Dijian Chen, Kenji Fujimoto, Tatsuya Suzuki"
+en_booktitle = "Proceedings of 2015 Annual Conference of the Society of Instrument and Control Engineers of Japan (SICE)"
+type = "international_conference"
+publication_date = "20150700"
+url = "https://ieeexplore.ieee.org/document/7285532/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "Double generating functions method for finite time LQ optimal trajectory generation problems"
+page_begin = "2490"
+page_end = "2495"
+doi = "10.1109/ChiCC.2015.7260022"
+en_author = "Hao Zhiwei, Zhang Qiuhua, Fujimoto Kenji"
+en_booktitle = "Proceedings of the 34th Chinese Control Conference (CCC)"
+type = "international_conference"
+publication_date = "20150700"
+url = "https://ieeexplore.ieee.org/document/7260022/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "A unified approach of control and identification for optimal control of non-linear systems"
+page_begin = "2032"
+page_end = "2037"
+doi = "10.1109/ACC.2015.7171032"
+en_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro, Takayoshi Yoshimura"
+en_booktitle = "Proceedings of 2015 American Control Conference (ACC)"
+type = "international_conference"
+publication_date = "20150700"
+url = "https://ieeexplore.ieee.org/document/7171032/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "On-demand optimal gait generation for a compass biped robot based on the double generating function method"
+page_begin = "3108"
+page_end = "3113"
+doi = "10.1109/IROS.2013.6696797"
+en_author = "Zhiwei Hao, Kenji Fujimoto, Yoshikazu Hayakawa"
+en_booktitle = "Proceedings of 2013 IEEE/RSJ International Conference on Intelligent Robots and Systems"
+type = "international_conference"
+publication_date = "20131100"
+url = "https://ieeexplore.ieee.org/document/6696797/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "Approximate solutions to the Hamilton-Jacobi equations for generating functions: The general cost function case"
+page_begin = "1"
+page_end = "6"
+doi = "10.1109/ASCC.2013.6606003"
+en_author = "Zhiwei Hao, Kenji Fujimoto, Yoshikazu Hayakawa"
+en_booktitle = "Proceedings of the 9th Asian Control Conference (ASCC)"
+type = "international_conference"
+publication_date = "20130600"
+url = "https://ieeexplore.ieee.org/document/6606003/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "Application of the double generating function method to optimal gait generation for a biped robot"
+page_begin = "2338"
+page_end = "2343"
+en_author = "Zhiwei Hao, Kenji Fujimoto, Yoshikazu Hayakawa"
+en_booktitle = "Proceedings of the 32nd Chinese Control Conference"
+type = "international_conference"
+publication_date = "20130700"
+url = "https://ieeexplore.ieee.org/servlet/opac?punumber=6621666"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "Optimal trajectory generation for linear systems based on double generating functions"
+page_begin = "3827"
+page_end = "3832"
+doi = "10.1109/CDC.2012.6426763"
+en_author = "Zhiwei Hao, Kenji Fujimoto, Yoshikazu Hayakawa"
+en_booktitle = "Proceedings of 2012 IEEE 51st IEEE Conference on Decision and Control (CDC)"
+type = "international_conference"
+publication_date = "20121200"
+url = "https://ieeexplore.ieee.org/document/6426763/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "On subspace balanced realization and model order reduction for nonlinear interconnected systems"
+page_begin = "4314"
+page_end = "4319"
+doi = "10.1109/CDC.2012.6426255"
+en_author = "Kenji Fujimoto"
+en_booktitle = "Proceedings of 2012 IEEE 51st IEEE Conference on Decision and Control (CDC)"
+type = "international_conference"
+publication_date = "20121200"
+url = "https://ieeexplore.ieee.org/document/6426255/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "Stability analysis of tacit learning based on environmental signal accumulation"
+page_begin = "2613"
+page_end = "2620"
+doi = "10.1109/IROS.2012.6385631"
+en_author = "Shingo Shimoda, Yuki Yoshihara, Kenji Fujimoto, Takashi Yamamoto, Iwao Maeda, Hidenori Kimura"
+en_booktitle = "Proceedings of 2012 IEEE/RSJ International Conference on Intelligent Robots and Systems"
+type = "international_conference"
+publication_date = "20121000"
+url = "https://ieeexplore.ieee.org/document/6385631/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "System identification based on variational Bayes method and the invariance under coordinate transformations"
+page_begin = "3882"
+page_end = "3888"
+doi = "10.1109/CDC.2011.6160563"
+en_author = "Kenji Fujimoto, Akinori Satoh, Shuichi Fukunaga"
+en_booktitle = "Proceedings of 2011 50th IEEE Conference on Decision and Control and European Control Conference"
+type = "international_conference"
+publication_date = "20111200"
+url = "https://ieeexplore.ieee.org/document/6160563/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "Optimal control of linear systems with stochastic parameters for variance suppression"
+page_begin = "1424"
+page_end = "1429"
+doi = "10.1109/CDC.2011.6160562"
+en_author = "Kenji Fujimoto, Yuhei Ota, Makishi Nakayama"
+en_booktitle = "Proceedings of 2011 50th IEEE Conference on Decision and Control and European Control Conference"
+type = "international_conference"
+publication_date = "20111200"
+url = "https://ieeexplore.ieee.org/document/6160562/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "A symmetric structure of variational and adjoint systems of stochastic Hamiltonian systems"
+page_begin = "1423"
+page_end = "1428"
+doi = "10.1109/CDC.2010.5718033"
+en_author = "Satoshi Satoh, Kenji Fujimoto"
+en_booktitle = "Proceedings of the 49th IEEE Conference on Decision and Control (CDC)"
+type = "international_conference"
+publication_date = "20101200"
+url = "https://ieeexplore.ieee.org/document/5718033/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "Controller reduction for linear systems based on subspace balanced realization"
+page_begin = "5362"
+page_end = "5367"
+doi = "10.1109/CDC.2010.5718093"
+en_author = "Kenji Fujimoto, Sayaka Ono, Yoshikazu Hayakawa"
+en_booktitle = "Proceedings of the 49th IEEE Conference on Decision and Control (CDC)"
+type = "international_conference"
+publication_date = "20101200"
+url = "https://ieeexplore.ieee.org/document/5718093/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "Modification of learning optimal gait generation method in considering discontinuous velocity transitions"
+page_begin = "2794"
+page_end = "2799"
+en_author = "Satoshi Satoh, Masahito Ikeda, Kenji Fujimoto, Yoshikazu Hayakawa"
+en_booktitle = "Proceedings of SICE Annual Conference 2010"
+type = "international_conference"
+publication_date = "20100800"
+url = "https://ieeexplore.ieee.org/document/5602601/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "The cross operator and the singular value analysis for nonlinear symmetric systems"
+page_begin = "1565"
+page_end = "1570"
+doi = "10.23919/ECC.2009.7074629"
+en_author = "Tudor C. Ionescu, Kenji Fujimoto, Jacquelien M. A. Scherpen"
+en_booktitle = "Proceedings of 2009 European Control Conference (ECC)"
+type = "international_conference"
+publication_date = "20090800"
+url = "https://ieeexplore.ieee.org/document/7074629/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "Asymptotic path following and velocity control of port-Hamiltonian systems"
+page_begin = "236"
+page_end = "241"
+doi = "10.23919/ECC.2009.7074410"
+en_author = "Mitsuru Taniguchi, Kenji Fujimoto"
+en_booktitle = "Proceedings of 2009 European Control Conference (ECC)"
+type = "international_conference"
+publication_date = "20090800"
+url = "https://ieeexplore.ieee.org/document/7074410/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "Positive and bounded real balancing for nonlinear systems - a controllability and observability function approach"
+page_begin = "4310"
+page_end = "4315"
+doi = "10.1109/CDC.2009.5400113"
+en_author = "Tudor C. Ionescu, Kenji Fujimoto, Jacquelien M. A. Scherpen"
+en_booktitle = "Proceedings of the 48h IEEE Conference on Decision and Control (CDC) held jointly with 2009 28th Chinese Control Conference"
+type = "international_conference"
+publication_date = "20091200"
+url = "https://ieeexplore.ieee.org/document/5400113/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "Time-varying path following control for port-Hamiltonian systems"
+page_begin = "3323"
+page_end = "3328"
+doi = "10.1109/CDC.2009.5400011"
+en_author = "Mitsuru Taniguchi, Kenji Fujimoto"
+en_booktitle = "Proceedings of the 48h IEEE Conference on Decision and Control (CDC) held jointly with 2009 28th Chinese Control Conference"
+type = "international_conference"
+publication_date = "20091200"
+url = "https://ieeexplore.ieee.org/document/5400011/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "Scaling reduction of port-Hamiltonian systems for numerical calculation"
+page_begin = "686"
+page_end = "690"
+en_author = "Gou Nishida, Daiji Ichishima, Kenji Kashima, Kenji Fujimoto, Masaki Yamakita, Bernhard Maschke, Ryojun Ikeura"
+en_booktitle = "Proceedings of 2009 ICCAS-SICE"
+type = "international_conference"
+publication_date = "20090800"
+url = "https://ieeexplore.ieee.org/document/5334255/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "Observer based stochastic trajectory tracking control of mechanical systems"
+page_begin = "1244"
+page_end = "1248"
+en_author = "Satoshi Satoh, Kenji Fujimoto"
+en_booktitle = "Proceedings of 2009 ICCAS-SICE"
+type = "international_conference"
+publication_date = "20090800"
+url = "https://ieeexplore.ieee.org/document/5335071/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "On passivity based control of stochastic port-Hamiltonian systems"
+page_begin = "4951"
+page_end = "4956"
+doi = "10.1109/CDC.2008.4738733"
+en_author = "Satoshi Satoh, Kenji Fujimoto"
+en_booktitle = "Proceedings of the 47th IEEE Conference on Decision and Control"
+type = "international_conference"
+publication_date = "20081200"
+url = "https://ieeexplore.ieee.org/document/4738733/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "On balanced realization and finite-dimensional approximation for infinite-dimensional nonlinear systems"
+page_begin = "4215"
+page_end = "4220"
+doi = "10.1109/CDC.2008.4739031"
+en_author = "Kenji Fujimoto, Sayaka Ono"
+en_booktitle = "Proceedings of the 47th IEEE Conference on Decision and Control"
+type = "international_conference"
+publication_date = "20081200"
+url = "https://ieeexplore.ieee.org/document/4739031/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "Passive path following control for port-Hamiltonian systems"
+page_begin = "1285"
+page_end = "1290"
+doi = "10.1109/CDC.2008.4739242"
+en_author = "Kenji Fujimoto, Mitsuru Taniguchi"
+en_booktitle = "Proceedings of the 47th IEEE Conference on Decision and Control"
+type = "international_conference"
+publication_date = "20081200"
+url = "https://ieeexplore.ieee.org/document/4739242/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "A framework for optimal gait generation via learning optimal control using virtual constraint"
+page_begin = "3426"
+page_end = "3432"
+doi = "10.1109/IROS.2008.4650860"
+en_author = "Satoshi Satoh, Kenji Fujimoto, Sang-Ho Hyon"
+en_booktitle = "Proceedings of 2008 IEEE/RSJ International Conference on Intelligent Robots and Systems"
+type = "international_conference"
+publication_date = "20080900"
+url = "https://ieeexplore.ieee.org/document/4650860/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "Independent component analysis for nonminimum phase systems using stable dynamic model inversion"
+page_begin = "922"
+page_end = "926"
+doi = "10.23919/ECC.2007.7068597"
+en_author = "Shuichi Fukunaga, Kenji Fujimoto"
+en_booktitle = "Proceedings of 2007 European Control Conference (ECC)"
+type = "international_conference"
+publication_date = "20070700"
+url = "https://ieeexplore.ieee.org/document/7068597/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "Balanced realization and model reduction of port-Hamiltonian systems"
+page_begin = "930"
+page_end = "934"
+doi = "10.1109/ACC.2007.4282653"
+en_author = "Kenji Fujimoto, Hideo Kajiura"
+en_booktitle = "Proceedings of 2007 American Control Conference"
+type = "international_conference"
+publication_date = "20070700"
+url = "https://ieeexplore.ieee.org/document/4282653/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "Weighted balanced truncation for unstable nonlinear systems using coprime factorizations"
+page_begin = "3843"
+page_end = "3848"
+doi = "10.1109/CDC.2006.377134"
+en_author = "Kenji Fujimoto, Hikaru Mizuno"
+en_booktitle = "Proceedings of the 45th IEEE Conference on Decision and Control"
+type = "international_conference"
+publication_date = "20061200"
+url = "https://ieeexplore.ieee.org/document/4177387/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "Nonlinear blind deconvolution based on a state-space model"
+page_begin = "6295"
+page_end = "6300"
+doi = "10.1109/CDC.2006.377092"
+en_author = "Shuichi Fukunaga, Kenji Fujimoto"
+en_booktitle = "Proceedings of the 45th IEEE Conference on Decision and Control"
+type = "international_conference"
+publication_date = "20061200"
+url = "https://ieeexplore.ieee.org/document/4178008/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "Gait Generation for Passive Running via Iterative Learning Control"
+page_begin = "5907"
+page_end = "5912"
+doi = "10.1109/IROS.2006.282471"
+en_author = "Satoshi Satoh, Kenji Fujimoto, Sang-ho Hyon"
+en_booktitle = "Proceedings of 2006 IEEE/RSJ International Conference on Intelligent Robots and Systems"
+type = "international_conference"
+publication_date = "20061000"
+url = "https://ieeexplore.ieee.org/document/4058408/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "Exact structured singular value of robotic manipulators and quantitative analysis of passivity based control"
+page_begin = "2053"
+page_end = "2058"
+doi = "10.1109/IROS.2006.282418"
+en_author = "Satoru Sakai, Koichi Osuka, Kenji Fujimoto"
+en_booktitle = "Proceedings of 2006 IEEE/RSJ International Conference on Intelligent Robots and Systems"
+type = "international_conference"
+publication_date = "20061000"
+url = "https://ieeexplore.ieee.org/document/4058684/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "On computation of nonlinear balanced realization and model reduction"
+doi = "10.1109/ACC.2006.1655399"
+en_author = "Kenji Fujimoto, Daisuke Tsubakino"
+en_booktitle = "Proceedings of 2006 American Control Conference"
+type = "international_conference"
+publication_date = "20060000"
+url = "https://ieeexplore.ieee.org/document/1655399/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "Dynamic output feedback stabilization for a class of nonholonomic Hamiltonian systems"
+page_begin = "404"
+page_end = "409"
+en_author = "Satoru Sakai, Kenji Fujimoto"
+en_booktitle = "Proceedings of SICE 2004 Annual Conference"
+type = "international_conference"
+publication_date = "20040000"
+url = "https://ieeexplore.ieee.org/document/1491434/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "What are singular values of nonlinear operators?"
+page_begin = "1623"
+page_end = "1628"
+doi = "10.1109/CDC.2004.1430277"
+en_author = "Kenji Fujimoto"
+en_booktitle = "Proceedings of the 43rd IEEE Conference on Decision and Control (CDC) (IEEE Cat. No.04CH37601)"
+type = "international_conference"
+publication_date = "20040000"
+url = "https://ieeexplore.ieee.org/document/1430277/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "Optimal control of Hamiltonian systems with input constraints via iterative learning"
+page_begin = "4387"
+page_end = "4392"
+doi = "10.1109/CDC.2003.1272188"
+en_author = "Kenji Fujimoto, T. Horiuchi, Toshiharu Sugie"
+en_booktitle = "Proceedings of the 42nd IEEE International Conference on Decision and Control (IEEE Cat. No.03CH37475)"
+type = "international_conference"
+publication_date = "20030000"
+url = "https://ieeexplore.ieee.org/document/1272188/"

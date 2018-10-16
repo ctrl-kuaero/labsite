@@ -72,21 +72,17 @@ rm_ftype = "paper"
 type = "international_conference"
 
 [[record]]
-ja_title = "Trajectory generation and control of a biped walking robot based on the double generating functions method"
-en_title = "Trajectory generation and control of a biped walking robot based on the double generating functions method"
-ja_author = "Zhiwei Hao, Kenji Fujimoto, Akihiro Hasegawa, Kotaro Asaba, Yoshikazu Hayakawa, Qiuhua Zhang"
-en_author = "Zhiwei Hao, Kenji Fujimoto, Akihiro Hasegawa, Kotaro Asaba, Yoshikazu Hayakawa, Qiuhua Zhang"
-ja_booktitle = "Proceedings of 2014 IEEE Conference on Multisensor Fusion and Information Integration"
-en_booktitle = "Proceedings of 2014 IEEE Conference on Multisensor Fusion and Information Integration"
-page_begin = "32"
-publication_date = "20140900"
 reviewed = true
-invited = false
 lang = "en"
-rm_type = "2"
-rm_ftype = "paper"
+en_title = "Trajectory generation and control of a biped walking robot based on the double generating functions method"
+page_begin = "1"
+page_end = "6"
 doi = "10.1109/MFI.2014.6997707"
+en_author = "Zhiwei Hao, Kotaro Asaba, Kenji Fujimoto, Yoshikazu Hayakawa, Akihiro Hasegawa, Qiuhua Zhang"
+en_booktitle = "Proceedings of 2014 International Conference on Multisensor Fusion and Information Integration for Intelligent Systems (MFI)"
 type = "international_conference"
+publication_date = "20140900"
+url = "https://ieeexplore.ieee.org/document/6997707/"
 
 [[record]]
 ja_title = "Discrete-time linear quadratic optimal control with fixed and free terminal state via double generating functions"
@@ -186,23 +182,6 @@ ja_booktitle = "Proceedings of American Control Conference"
 en_booktitle = "Proceedings of American Control Conference"
 page_begin = "6397"
 page_end = "6402"
-publication_date = "20130600"
-reviewed = true
-invited = false
-lang = "en"
-rm_type = "2"
-rm_ftype = "paper"
-type = "international_conference"
-
-[[record]]
-ja_title = "Trajectory generation and control of a biped walking robot based on the double generating functions method"
-en_title = "Trajectory generation and control of a biped walking robot based on the double generating functions method"
-ja_author = "Zhiwei Hao, Kenji Fujimoto,Yoshikazu Hayakawa"
-en_author = "Zhiwei Hao, Kenji Fujimoto,Yoshikazu Hayakawa"
-ja_booktitle = "Proceedings of the 32nd Chinese Control Conference"
-en_booktitle = "Proceedings of the 32nd Chinese Control Conference"
-page_begin = "2338"
-page_end = "2343"
 publication_date = "20130600"
 reviewed = true
 invited = false
