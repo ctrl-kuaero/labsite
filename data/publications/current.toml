@@ -1,4 +1,16 @@
 [[record]]
+doi = "10.23919/ACC.2018.8430806"
+en_author = "Kenji Fujimoto, Hirofumi Beppu, Yuji Takaki"
+en_booktitle = "Proceedings of 2018 Annual American Control Conference (ACC)"
+en_title = "On Computation of Numerical Solutions to Hamilton-Jacobi Inequalities Using Gaussian Process Regression"
+lang = "en"
+page_begin = "424"
+page_end = "429"
+publication_date = "20180600"
+reviewed = true
+type = "international_conference"
+
+[[record]]
 doi = "10.9746/jcmsi.11.419"
 en_author = "Kenji Fujimoto, Hirofumi Beppu, Yuji Takaki"
 en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
