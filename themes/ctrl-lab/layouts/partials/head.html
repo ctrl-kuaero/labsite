@@ -1,0 +1,25 @@
+<head>
+    {{ .Hugo.Generator }}        
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        {{- if $.Page.IsHome -}}
+            {{ $.Site.Title -}} &ndash; {{ $.Site.Params.Subtitle -}}
+        {{- else -}}
+            {{- $.Page.Title }} &ndash; {{ $.Site.Title -}}
+        {{- end -}}
+    </title>
+    <meta name="format-detection" content="telephone=no">
+    <link rel="canonical" href="{{ .URL | absLangURL }}"/>
+    {{- range $.Page.AllTranslations }}
+    <link rel="alternate" hreflang="{{.Lang}}" href="{{ .Permalink }}" />
+    {{- end }}                
+    {{- $options := (dict "outputStyle" "compressed" "enableSourceMap" true) }}
+    {{- $sass := resources.Get "sass/ctrl-lab.scss" }}
+    {{- $style := $sass | resources.ToCSS $options}}
+    <link href="{{ $style.Permalink }}" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,200,400,700&amp;subset=japanese" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+</head>

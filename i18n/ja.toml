@@ -1,3 +1,6 @@
+[pagelist]
+other = "ページ一覧"
+
 [publication_type_journal]
 other = "論文"
 [publication_type_international_conference]

@@ -1,3 +1,6 @@
+[pagelist]
+other = "Page List"
+
 [publication_type_journal]
 other = "Journal Paper"
 [publication_type_international_conference]

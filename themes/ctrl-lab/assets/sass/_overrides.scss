@@ -188,6 +188,33 @@ main {
   padding-top: 3em;
 }
 
+footer.footer {
+  margin-top: 3em;
+  padding-top: 1.2em;
+  padding-bottom: 3em;
+  .domain{
+    line-height:1;
+    a{
+      color:$text-color;
+      font-size:0.7em;
+    }  
+  }
+  a{
+    color:$text-color;
+  }
+  .octicon{
+    vertical-align: -0.3em;
+  }
+  .pagelist{
+    font-size:80%;
+    display:flex;
+    li{
+      display:block;
+      margin-right:1em;
+    }
+  }
+}
+
 .content {
 
   h3,
@@ -205,8 +232,8 @@ body.lang-en {
   font-family: $family-sans-serif-en;
 }
 
-#publications.no-year{
-  h3{
+#publications.no-year {
+  h3 {
     font-size: $size-h2;
   }
 }
@@ -215,17 +242,19 @@ body.lang-en {
 .filter-box {
   display: flex;
   font-size: 90%;
-  font-weight:400;
-  + .filter-box{
-    margin-top:0.5em;
+  font-weight: 400;
+
+  +.filter-box {
+    margin-top: 0.5em;
   }
+
   .filter-head {
     white-space: nowrap;
     margin-right: 1em;
     padding-top: 0.2em;
-    font-weight:700;
+    font-weight: 700;
     color: $primary;
-    min-width:10em;
+    min-width: 10em;
   }
 
   ul.filter-list {
@@ -234,27 +263,30 @@ body.lang-en {
     flex-direction: row;
     flex-wrap: wrap;
 
-    &#filter-year li.filter-option{
+    &#filter-year li.filter-option {
       min-width: 3em;
     }
 
     li.filter-option {
-      a.filter-year{
-        width:6em;
+      a.filter-year {
+        width: 6em;
       }
+
       display: block;
       box-sizing: border-box;
       margin: 0.2em 0.5em;
+
       a {
         padding: 0.05em 0.3em;
       }
 
       &.is-selected a {
-        border: 1px solid rgba($primary,0.8);
-        background: rgba($primary,0.8);
+        border: 1px solid rgba($primary, 0.8);
+        background: rgba($primary, 0.8);
         font-weight: 700;
-        color:$black;
+        color: $black;
       }
+
       &.is-selected-sub a {
         border: 1px solid $primary;
       }
@@ -290,7 +322,7 @@ body.lang-en {
     list-style: none;
   }
 
-  .counter{
+  .counter {
     position: absolute;
     left: -2.5em;
     width: 2em;
@@ -339,7 +371,7 @@ body.lang-en {
   }
 }
 
-.box{
+.box {
   border: dotted 2px $primary;
   padding: 0.7rem 1.2rem;
 }
@@ -368,4 +400,21 @@ body.lang-en {
 
   /* Support for IE. */
   font-feature-settings: 'liga';
+}
+
+.octicon {
+  display: inline-block;
+  vertical-align: text-bottom;
+  fill: currentColor;
+  height: 1.4em;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+  
+#wrapper {
+  flex: 1;
 }

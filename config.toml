@@ -8,12 +8,32 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [languages.en]
     LanguageName = "English"
     title = "Systems & Control Laboratory"
-    subtitle = "Kyoto University Graduate School of Engineering Department of Aeronautics and Astronautics"
     weight = 1
+    [languages.en.params]
+      subtitle = "Department of Aeronautics and Astronautics, Kyoto University"
+      [[languages.en.params.domain]]
+      html = "Department of Aeronautics and Astronautics<br>"
+      url = "https://www.aa.t.kyoto-u.ac.jp/en"    
+      [[languages.en.params.domain]]
+      html = "Graduate School of Engineering<br>"
+      url = "https://www.t.kyoto-u.ac.jp/en"
+      [[languages.en.params.domain]]
+      html = "Kyoto University"
+      url = "https://www.kyoto-u.ac.jp/en/"
   [languages.ja]
     LanguageName = "日本語"
     title = "制御工学研究室"
-    subtitle = "京都大学大学院　工学研究科　航空宇宙工学専攻"
     weight = 2
+    [languages.ja.params]
+      subtitle = "京都大学 航空宇宙工学専攻"
+      [[languages.ja.params.domain]]
+      html = "京都大学"
+      url = "https://www.kyoto-u.ac.jp/ja/"
+      [[languages.ja.params.domain]]
+      html = "大学院工学研究科<br>"
+      url = "https://www.t.kyoto-u.ac.jp/ja"
+      [[languages.ja.params.domain]]
+      html = "航空宇宙工学専攻"
+      url = "https://www.aa.t.kyoto-u.ac.jp/ja"    
 
 
