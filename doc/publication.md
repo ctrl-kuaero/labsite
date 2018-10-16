@@ -16,7 +16,18 @@
 ## Bookmarklet
 古典的だが Bookmarklet で書誌情報を抜き出す
 
-* <a href='javascript:(function(){let data={};data.reviewed=true;data.lang="en";data.en_title=global.document.metadata.title;data.page_begin=global.document.metadata.startPage;data.page_end=global.document.metadata.endPage;if(global.document.metadata.doi){data.doi=global.document.metadata.doi}let authors=[];let en_author="";for(let i=0;i<global.document.metadata.authors.length;i++){authors[i]=global.document.metadata.authors[i].name}data.en_author=authors.join(", ");data.en_booktitle=global.document.metadata.publicationTitle;if(global.document.metadata.isConference){data.type="international_conference"}if(global.document.metadata.isJournal){data.type="journal"}if(global.document.metadata.publicationDate){let datestr=global.document.metadata.publicationDate;let found=datestr.match(/([^\s\.]+)+\.?\s+(\d\d\d\d)/);if(found==null){data.publication_date=datestr}else{function getMonthFromString(mon){return new Date(Date.parse(mon+" 1, 2012")).getMonth()+1}data.publication_date=found[2]+(getMonthFromString(found[1])+"").padStart(2,"0")+"00"}}if(global.document.metadata.htmlLink){data.url="https://ieeexplore.ieee.org"+global.document.metadata.htmlLink}let out="[[record]]\n";for(var k in data){if(data.hasOwnProperty(k)){out+=k+" = "+JSON.stringify(data[k])+"\n"}}alert(out)})();'>IEEE Xplore用</a>
+### IEEE Xplore用
+1. 下記のJavaScriptコードをURLとしてブックマークに登録
+``` 
+javascript:(function(){let data={};data.reviewed=true;data.lang="en";data.en_title=global.document.metadata.title;data.page_begin=global.document.metadata.startPage;data.page_end=global.document.metadata.endPage;if(global.document.metadata.doi){data.doi=global.document.metadata.doi}let authors=[];let en_author="";for(let i=0;i<global.document.metadata.authors.length;i++){authors[i]=global.document.metadata.authors[i].name}data.en_author=authors.join(', ');data.en_booktitle=global.document.metadata.publicationTitle;if(global.document.metadata.isConference){data.type="international_conference"}if(global.document.metadata.isJournal){data.type="journal"}if(global.document.metadata.publicationDate){let datestr=global.document.metadata.publicationDate;let found=datestr.match(/([^\s\.]+)+\.?\s+(\d\d\d\d)/);if(found==null){data.publication_date=datestr}else{function getMonthFromString(mon){return new Date(Date.parse(mon+" 1, 2012")).getMonth()+1}data.publication_date=found[2]+(getMonthFromString(found[1])+"").padStart(2,'0')+"00"}}if(global.document.metadata.htmlLink){data.url="https://ieeexplore.ieee.org"+global.document.metadata.htmlLink}let out="[[record]]\n";for(var k in data){if(data.hasOwnProperty(k)){out+=k+" = "+JSON.stringify(data[k])+"\n"}}alert(out)})();
+```
+2. 例えば https://ieeexplore.ieee.org/document/6385631 に行く
+3. 登録したブックマークをクリックしてコードを実行
+4. 出てきたダイアログから文字列をコピペする
+
+Chromeではダイアログから文字列をコピペできない．  
+Firefoxを使うか，コードの最後にあるalertをconfirmに書き換える．
+
 ## メモ
 
  * 研究業績のデータは研究者個人にとっても重要かつ更新がめんどくさい．
