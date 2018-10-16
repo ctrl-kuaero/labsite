@@ -1,4 +1,19 @@
 [[record]]
+doi = "10.9746/jcmsi.11.419"
+en_author = "Kenji Fujimoto, Hirofumi Beppu, Yuji Takaki"
+en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
+en_title = "Numerical Solutions of Hamilton-Jacobi Inequalities by Constrained Gaussian Process Regression"
+invited = false
+lang = "en"
+number = "5"
+page_begin = "419"
+page_end = "428"
+publication_date = "20180920"
+reviewed = true
+type = "journal"
+volume = "11"
+
+[[record]]
 doi = "10.11499/sicejl.56.650"
 en_author = "Shuichi Fukunaga, Kenji Fujimoto"
 en_booktitle = "Journal of The Society of Instrument and Control Engineers"
