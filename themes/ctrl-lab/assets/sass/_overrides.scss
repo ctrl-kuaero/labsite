@@ -184,7 +184,7 @@ a:hover {
 }
 
 
-main {
+#main {
   padding-top: 3em;
 }
 
@@ -192,36 +192,45 @@ footer.footer {
   margin-top: 3em;
   padding-top: 1.2em;
   padding-bottom: 3em;
-  font-size:0.8em;
-  font-weight:300;
-  .domain{
-    line-height:1.2;
-    a{
-      color:$text-color;
-    }  
-  }
-  h4{
-    font-size:1.2em;
-    font-weight:400;
-  }
-  a{
-    color:$text-color;
-  }
-  .octicon{
-    vertical-align: -0.3em;
-  }
-  .pagelist{
-    display:flex;
-    li{
-      display:block;
-      margin-right:1em;
+  font-size: 0.8em;
+  font-weight: 300;
+
+  .domain {
+    line-height: 1.2;
+
+    a {
+      color: $text-color;
     }
   }
-  #admin{
-    display:flex;
-    li{
-      display:block;
-      margin-right:1em;
+
+  h4 {
+    font-size: 1.2em;
+    font-weight: 400;
+  }
+
+  a {
+    color: $text-color;
+  }
+
+  .octicon {
+    vertical-align: -0.3em;
+  }
+
+  .pagelist {
+    display: flex;
+
+    li {
+      display: block;
+      margin-right: 1em;
+    }
+  }
+
+  #admin {
+    display: flex;
+
+    li {
+      display: block;
+      margin-right: 1em;
     }
   }
 }
@@ -250,56 +259,64 @@ body.lang-en {
 }
 
 
-.filter-box {
-  display: flex;
-  font-size: 90%;
-  font-weight: 400;
-
-  +.filter-box {
-    margin-top: 0.5em;
-  }
-
-  .filter-head {
-    white-space: nowrap;
-    margin-right: 1em;
-    padding-top: 0.2em;
-    font-weight: 700;
+.filter {
+  h4 {
     color: $primary;
-    min-width: 10em;
+    font-weight: 700;
+    font-size:1.1em;
   }
 
-  ul.filter-list {
-    margin: 0;
+  .filter-box {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    font-size: 90%;
+    font-weight: 400;
 
-    &#filter-year li.filter-option {
-      min-width: 3em;
+    +.filter-box {
+      margin-top: 0.5em;
     }
 
-    li.filter-option {
-      a.filter-year {
-        width: 6em;
+    .filter-head {
+      white-space: nowrap;
+      margin-right: 1em;
+      padding-top: 0.2em;
+      font-weight: 700;
+      color: $primary;
+      min-width: 4em;
+    }
+
+    ul.filter-list {
+      margin: 0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      &#filter-year li.filter-option {
+        min-width: 3em;
       }
 
-      display: block;
-      box-sizing: border-box;
-      margin: 0.2em 0.5em;
+      li.filter-option {
+        a.filter-year {
+          width: 6em;
+        }
 
-      a {
-        padding: 0.05em 0.3em;
-      }
+        display: block;
+        box-sizing: border-box;
+        margin: 0.2em 0.5em;
 
-      &.is-selected a {
-        border: 1px solid rgba($primary, 0.8);
-        background: rgba($primary, 0.8);
-        font-weight: 700;
-        color: $black;
-      }
+        a {
+          padding: 0.05em 0.3em;
+        }
 
-      &.is-selected-sub a {
-        border: 1px solid $primary;
+        &.is-selected a {
+          border: 1px solid rgba($primary, 0.8);
+          background: rgba($primary, 0.8);
+          font-weight: 700;
+          color: $black;
+        }
+
+        &.is-selected-sub a {
+          border: 1px solid $primary;
+        }
       }
     }
   }
@@ -425,7 +442,7 @@ body {
   min-height: 100vh;
   flex-direction: column;
 }
-  
+
 #wrapper {
   flex: 1;
 }

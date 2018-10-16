@@ -1,13 +1,9 @@
-{{ define "title" }}
-  {{ .Title }} &ndash; {{ .Site.Title }}
-{{ end }}
-
 {{ define "main" }}
 {{- partial "nav.html" . -}}
 <script src="/lib/jquery-3.3.1.min.js"></script>
 <script src="/lib/list.min.js"></script>
 
-<main>
+<section id="main">
     <div class="container content">
         <h1>{{ .Title }}</h1>
 
@@ -75,11 +71,10 @@
     
         {{- $author_list := (intersect $member_list $author_list) -}}
 
-        <div class="box">
+        <div class="filter box">
             <div class="filter-box">
                 <div class="filter-head">
-                    Filter by Period<br>
-                    <span style="font-weight:100">& Group by Year</span>
+                    by Period
                 </div>
                 <div>
                     <ul class="filter-list" id="filter-year">
@@ -93,8 +88,7 @@
 
             <div class="filter-box">
                 <div class="filter-head">
-                    Filter by Author<br>
-                    <span style="font-weight:100">& Group by Category</span>
+                    By Author
                 </div>
                 <div>
                     <ul class="filter-list" id="filter-author">
@@ -281,5 +275,5 @@
         });        
     </script>
 </div>
-</main>
+</section>
 {{ end }}
