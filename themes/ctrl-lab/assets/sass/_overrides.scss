@@ -183,7 +183,7 @@ a:hover {
   }
 }
 
-section.section{
+section.section {
   padding: 3rem 0;
   margin: 0rem 1rem;
 }
@@ -263,7 +263,7 @@ body.lang-en {
   h4 {
     color: $primary;
     font-weight: 700;
-    font-size:1.1em;
+    font-size: 1.1em;
   }
 
   .filter-box {
@@ -397,6 +397,15 @@ body.lang-en {
     padding: 0.1em 0.4em;
     white-space: nowrap;
   }
+
+  .limitter {
+    max-width: 60vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .tags .tag {
+    margin-bottom: 0.1rem;
+  }
 }
 
 .box {
@@ -445,4 +454,9 @@ body {
 
 #wrapper {
   flex: 1;
+}
+
+.google-map {
+  border: 0;
+  max-width: 100%;
 }

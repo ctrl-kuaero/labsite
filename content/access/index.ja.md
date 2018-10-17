@@ -35,5 +35,5 @@ title: "アクセス"
 
 ### Map
 
-<iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31083.999446430975!2d135.72536860615782!3d35.02413982674907!3m2!1i1024!2i768!4f28.1!3m3!1m2!1s0x6001072c84939f7b%3A0xe511b83ae3f4f78c!2zMzTCsDU5JzAwLjkiTiAxMzXCsDQwJzQxLjYiRQ!5e0!3m2!1sja!2sjp!4v1537696749827" width="600" height="450" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31083.999446430975!2d135.72536860615782!3d35.02413982674907!3m2!1i1024!2i768!4f28.1!3m3!1m2!1s0x6001072c84939f7b%3A0xe511b83ae3f4f78c!2zMzTCsDU5JzAwLjkiTiAxMzXCsDQwJzQxLjYiRQ!5e0!3m2!1sja!2sjp!4v1537696749827" width="600" height="450" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
