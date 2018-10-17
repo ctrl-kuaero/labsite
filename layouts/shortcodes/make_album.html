@@ -12,7 +12,7 @@
             "thumbnailWidth":  "auto",
             "itemsBaseURL":  "",
             "items": [
-{{ range $albumindex, $album := (readDir "content/album/photos") }}
+{{ range $albumindex, $album := (sort (readDir "content/album/photos") "Name" "desc") }}
     {{- $albumname := $album.Name }}
     {{- range $imageindex, $image := (intersect ($.Page.Resources.ByType  "image") ($.Page.Resources.Match (printf "photos/%s/*" $albumname))) }}
         {{- $thumb_image := $image.Resize "x300" }}
