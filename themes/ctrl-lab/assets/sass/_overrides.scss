@@ -59,6 +59,17 @@ body::before {
   content: "";
 }
 
+.hero-body {
+  padding-top: 6rem;
+}
+
+@media screen and (min-width: 769px),
+print {
+  .hero.is-medium .hero-body {
+    padding-top: 12rem;
+  }
+}
+
 .card-image {
   padding: 2px;
 }
@@ -403,6 +414,7 @@ body.lang-en {
     overflow: hidden;
     text-overflow: ellipsis;
   }
+
   .tags .tag {
     margin-bottom: 0.1rem;
   }

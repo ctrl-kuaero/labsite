@@ -1,26 +1,24 @@
 {{ define "main" }}
-<main aria-role="main">
-    <section class="hero is-medium is-bold">
-    <div class="hero-head">
-        {{- partial "nav.html" . -}}
+<section class="hero is-medium is-bold">
+<div class="hero-head">
+    {{- partial "nav.html" . -}}
+</div>
+<div class="hero-body">
+    <div class="container has-text-centered">
+        <h1 class="title">{{.Title}}</h1>
+        {{ with .Params.Subtitle }}
+        <h2 class="subtitle">{{.}}</h2>
+        {{ end }}
     </div>
-    <div class="hero-body">
-        <div class="container has-text-centered">
-            <h1 class="title">{{.Title}}</h1>
-            {{ with .Params.Subtitle }}
-            <h2 class="subtitle">{{.}}</h2>
-            {{ end }}
+</div>
+</section>
+<section class="section">
+<div class="container">
+    <div class="columns is-centered">
+        <div class="content column is-8">
+            {{.Content}}
         </div>
     </div>
-    </section>
-    <section>
-    <div class="container">
-        <div class="columns is-centered">
-            <div class="content column is-8">
-                {{.Content}}
-            </div>
-        </div>
-    </div>
-    </section>
-</main>
+</div>
+</section>
 {{ end }}
