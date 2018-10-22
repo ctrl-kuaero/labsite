@@ -48,6 +48,7 @@
         {{- end }}
         {{- $author_list := sort (uniq ($.Scratch.Get "author")) "value" "asc" }}
 
+        {{/* 卒業生∪メンバーのリストを作成 */}}
         {{- range $.Site.Data.members.list }}
         {{- $.Scratch.Add "memberdata" (slice .) }}
         {{- end }}
@@ -55,21 +56,32 @@
         {{- $.Scratch.Add "memberdata" (slice .) }}
         {{- end }}
         {{ $member_data := ($.Scratch.Get "memberdata") }}
-        {{- range $member_data }}
-            {{- $name := (split .en_name " ")  }}
+        {{- range $idx, $m := $member_data }}
+            {{- $name := (split $m.en_name " ")  }}
             {{- $idx_name := (lower (printf "%s %s" (index $name 0) (index $name 1)))}}
             {{- $.Scratch.Add "member" (slice $idx_name) }}
+            {{- $.Scratch.SetInMap "member_order" $idx_name $idx }}
             {{- if (eq $.Page.Lang "en") }}
-                {{- $.Scratch.SetInMap "author_disp" $idx_name (index .en_name) }}
+                {{- $.Scratch.SetInMap "author_disp" $idx_name $m.en_name }}
             {{- else }}
-                {{- $.Scratch.SetInMap "author_disp" $idx_name (index .ja_name) }}
+                {{- $.Scratch.SetInMap "author_disp" $idx_name $m.ja_name }}
             {{- end }}
         {{- end }}
-
-        {{- $author_name_idx := ($.Scratch.Get "author_disp") }}
-        {{- $member_list := sort (uniq ($.Scratch.Get "member")) "value" "asc" }}
     
-        {{- $author_list := (intersect $member_list $author_list) -}}
+        {{- $author_name_idx := ($.Scratch.Get "author_disp") }}
+        {{- $member_list := uniq ($.Scratch.Get "member")}}
+        {{- $member_order := ($.Scratch.Get "member_order")}}
+    
+        {{- $author_list_unsorted := (intersect $member_list $author_list) -}}
+        {{- range $author_list_unsorted }}
+            {{- $.Scratch.Add "author_list_with_order" (slice (dict "id" . "order" (index $member_order .))) }}
+        {{- end}}
+        {{- $author_list_with_order := ($.Scratch.Get "author_list_with_order")}}
+        {{- $author_list_sorted := (sort $author_list_with_order "order") -}}
+        {{- range $author_list_sorted }}
+            {{- $.Scratch.Add "author_list" (slice (index . "id")) }}
+        {{- end}}
+        {{- $author_list := ($.Scratch.Get "author_list")}}
 
         <div class="filter box">
             <div class="filter-box">
