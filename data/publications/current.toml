@@ -114,3 +114,14 @@ publication_date = "20170500"
 naid = "40021218878"
 page_begin = "136-8"
 
+[[record]]
+en_author = "Kiyoshi Hamada, Ichiro Maruta, Kenji Fujimoto, Kenichi Hamamoto"
+en_booktitle = "2018 IEEE 15th International Workshop on Advanced Motion Control (AMC)"
+en_title = "On trajectory generation with obstacle avoidance for a two wheeled rover based on the continuation method"
+lang = "en"
+page_begin = "263"
+page_end = "268"
+publication_date = "20180604"
+doi = "10.1109/AMC.2019.8371099"
+reviewed = true
+type = "international_conference"
