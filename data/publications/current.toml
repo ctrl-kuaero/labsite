@@ -1,4 +1,35 @@
 [[record]]
+en_author = "Dijian Chen, Kenji Fujimoto"
+en_booktitle = "Proceedings of 31st International Symposium on Space Technology and Science (ISTS)"
+en_title = "Rendezvous Control of Spacecrafts via Constrained Optimal Control Using Generating Functions"
+lang = "en"
+page_begin = "2017-d-117/ISSFD-2017-117"
+publication_date = "20170603"
+reviewed = true
+type = "international_conference"
+
+[[record]]
+en_author = "Yuki Matsumoto, Kenji Fujimoto"
+en_booktitle = "Proceedings of 30th International Symposium on Space Technology and Science (ISTS)"
+en_title = "On port-Hamiltonian modeling and control of quaternion systems"
+lang = "en"
+page_begin = "2015-d-01"
+publication_date = "20150707"
+reviewed = true
+type = "international_conference"
+
+[[record]]
+en_author = "Takuya Otani, Teppei Inoue, Kenji Fujimoto"
+en_booktitle = "Proceedings of the SICE Annual Conference 2016"
+en_title = "On the Relationship between Nonlinear Singular Value Analysis and Kernel Principal Component Analysis"
+lang = "en"
+page_begin = "207"
+page_end = "211"
+publication_date = "20160920"
+reviewed = true
+type = "international_conference"
+
+[[record]]
 en_author = "Hirofumi Beppu, Ichiro Maruta, Kenji Fujimoto"
 ja_author = "別府 啓史，丸田 一郎，藤本 健治"
 ja_booktitle = "第61回自動制御連合講演会講演論文集"
