@@ -1,4 +1,18 @@
 [[record]]
+en_author = "Hirofumi Beppu, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "別府 啓史，丸田 一郎，藤本 健治"
+ja_booktitle = "第61回自動制御連合講演会講演論文集"
+en_booktitle = "Proceedings of the 61st Japan Joint Automatic Control Conference"
+ja_title = "数値ガウス過程による有限時間最適制御問題の解法に関する一考察"
+en_title = "A Study on Solutions to Finite-Time Optimal Control Problems by Numerical Gaussian Processes"
+lang = "ja"
+page_begin = "1D4"
+publication_date = "20181100"
+reviewed = false
+invited = false
+type = "domestic_conference"
+
+[[record]]
 en_author = "Ichiro Maruta, Tomohiro Otsu, Kenji Fujimoto"
 ja_author = "丸田 一郎，大津 智宏，藤本 健治"
 ja_booktitle = "第61回自動制御連合講演会講演論文集"
