@@ -1,4 +1,37 @@
 [[record]]
+en_author = "Hiroki Nakagawa, Kenji Fujimoto, Ichiro Maruta"
+en_booktitle = "Proceedings of the SICE Annual Conference 2018"
+en_title = "Robust Trajectory Design Suppressing the Second Order Derivatives of Parameter Variation and Time Optimal Control"
+lang = "en"
+page_begin = "214"
+page_end = "216"
+publication_date = "20180911"
+reviewed = true
+type = "international_conference"
+
+[[record]]
+en_author = "Tomohiro Otsu, Ichiro Maruta, Kenji Fujimoto"
+en_booktitle = "Proceedings of the SICE Annual Conference 2018"
+en_title = "Nonlinear Optimal Control Base on Numerical Solutions of Hamilton-Jacobi-Bellman Equations by Stochastic Gradient Descent"
+lang = "en"
+page_begin = "1094"
+page_end = "1097"
+publication_date = "20180911"
+reviewed = true
+type = "international_conference"
+
+[[record]]
+en_author = "Keisuke Tanaka, Ichiro Maruta, Kenji Fujimoto"
+en_booktitle = "Proceedings of the SICE Annual Conference 2018"
+en_title = "Development of Arc Sensor Based on Continuous-time System Identification"
+lang = "en"
+page_begin = "1504"
+page_end = "1507"
+publication_date = "20180911"
+reviewed = true
+type = "international_conference"
+
+[[record]]
 en_author = "Dijian Chen, Kenji Fujimoto"
 en_booktitle = "Proceedings of 31st International Symposium on Space Technology and Science (ISTS)"
 en_title = "Rendezvous Control of Spacecrafts via Constrained Optimal Control Using Generating Functions"
