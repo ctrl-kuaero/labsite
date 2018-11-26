@@ -1,4 +1,23 @@
 [[record]]
+type = "journal"
+lang = "ja"
+reviewed = true
+invited = false
+ja_title = "一般化正準変換を用いたポートハミルトン系の経路追従制御のためのポテンシャル関数の設計"
+en_title = "Potential Function Design for Path Following Control of Port-Hamiltonian Systems via Generalized Canonical Transformations"
+ja_author = "大倉 裕貴, 藤本 健治, 斎藤 暁生, 池田 英俊"
+en_author = "Yuki Okura, Kenji Fujimoto, Akio Saito, Hidetoshi Ikeda"
+ja_booktitle = "計測自動制御学会論文集"
+en_booktitle = "Transactions of the Society of Instrument and Control Engineers"
+volume = "54"
+number = "11"
+page_begin = "812"
+page_end = "820"
+publication_date = "20181130"
+doi = "10.9746/sicetr.54.812"
+en_abstract = "This paper describes a procedure to design potential functions for path following control of port-Hamiltonian systems. The conventional path following control method needs to find a time invariant potential function which takes its minimum on the desired path. It is difficult to find such a function for a complex path, since it has to satisfy additional several constraints. Inspired by the results of the existing trajectory tracking control method of port-Hamiltonian systems, we propose an improved path following control method in which a potential function for path following control is acquired by solving simple partial differential equations."
+
+[[record]]
 doi = "10.9746/jcmsi.11.456"
 en_author = "Kenji Fujimoto, Akihiro Taniguchi, Yoshiharu Nishida"
 en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
