@@ -1,4 +1,34 @@
 [[record]]
+doi = "10.9746/jcmsi.11.456"
+en_author = "Kenji Fujimoto, Akihiro Taniguchi, Yoshiharu Nishida"
+en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
+en_title = "System Identification of Nonlinear State-Space Models with Linearly Dependent Unknown Parameters Based on Variational Bayes"
+invited = false
+lang = "en"
+number = "6"
+page_begin = "456"
+page_end = "462"
+publication_date = "20181130"
+reviewed = true
+type = "journal"
+volume = "11"
+
+[[record]]
+doi = "10.9746/jcmsi.11.446"
+en_author = "Yuji Ito, Kenji Fujimoto, Takayoshi Yoshimura, Yukihiro Tadokoro"
+en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
+en_title = "A Unified Approach of Controller Design and System Identification for Optimal Control of Single-Input Nonlinear Systems"
+invited = false
+lang = "en"
+number = "6"
+page_begin = "446"
+page_end = "455"
+publication_date = "20181130"
+reviewed = true
+type = "journal"
+volume = "11"
+
+[[record]]
 en_author = "Hiroki Nakagawa, Kenji Fujimoto, Ichiro Maruta"
 en_booktitle = "Proceedings of the SICE Annual Conference 2018"
 en_title = "Robust Trajectory Design Suppressing the Second Order Derivatives of Parameter Variation and Time Optimal Control"
