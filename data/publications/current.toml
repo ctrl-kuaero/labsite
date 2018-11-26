@@ -77,6 +77,20 @@ invited = false
 type = "domestic_conference"
 
 [[record]]
+en_author = "Kiyoshi Hamada, Ichiro Maruta, Kenji Fujimoto, Kenichi Hamamoto"
+ja_author = "濱田 聖司，丸田 一郎，藤本 健治, 浜本 研一"
+ja_booktitle = "第61回自動制御連合講演会講演論文集"
+en_booktitle = "Proceedings of the 61st Japan Joint Automatic Control Conference"
+ja_title = "スパース最適制御に基づく直線的な軌道生成手法について"
+en_title = "On hands-off trajectory generation for a two-wheeled rover based on sparse optimal control"
+lang = "ja"
+page_begin = "7E4"
+publication_date = "20181100"
+reviewed = false
+invited = false
+type = "domestic_conference"
+
+[[record]]
 en_author = "Ichiro Maruta, Tomohiro Otsu, Kenji Fujimoto"
 ja_author = "丸田 一郎，大津 智宏，藤本 健治"
 ja_booktitle = "第61回自動制御連合講演会講演論文集"
