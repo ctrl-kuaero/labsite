@@ -280,3 +280,15 @@ publication_date = "20180604"
 doi = "10.1109/AMC.2019.8371099"
 reviewed = true
 type = "international_conference"
+
+[[record]]
+en_author = "Kiyoshi Hamada, Ichiro Maruta, Kenji Fujimoto, Kenichi Hamamoto"
+en_booktitle = "2018-44th Annual Conference of the IEEE Industrial Electronics Society (IECON)"
+en_title = "On hands-off trajectory generation for a two-wheeled rover based on L1/L2-optimal control"
+lang = "en"
+page_begin = "2601"
+page_end = "2606"
+publication_date = "20181231"
+doi = "10.1109/IECON.2018.8591307"
+reviewed = true
+type = "international_conference"
