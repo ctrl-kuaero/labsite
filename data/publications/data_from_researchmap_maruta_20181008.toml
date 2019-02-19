@@ -1155,6 +1155,11 @@ reviewed = true
 rm_ftype = "paper"
 rm_type = "1"
 type = "journal"
+volume = "20"
+number = "6"
+page_begin = "2055"
+page_end = "2064"
+
 
 [[record]]
 doi = "10.1155/2017/4321539"
@@ -1229,8 +1234,9 @@ publication_date = "20160400"
 reviewed = true
 rm_ftype = "paper"
 rm_type = "1"
-type = "journal"
+type = "international_conference"
 volume = "2016-April"
+page_begin = "10 pages" 
 
 [[record]]
 doi = "10.1109/CDC.2015.7403272"
