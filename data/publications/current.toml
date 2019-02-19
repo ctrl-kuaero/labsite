@@ -267,6 +267,18 @@ doi = "10.9746/sicetr.54.138"
 en_abstract = "This paper proposes a new framework to design LQ optimal control laws robust to parameter variation. By constructing the variational system of the original state space model with respect to a model parameter, we evaluate the sensitivity of the system behavior with respect to parameter variation. Some properties of the variational system, such as stability and controllability, are examined. A sufficient condition to realize robust LQ optimal control is obtained by investigating the controllability of the variational system. A numerical example exhibits how the proposed control method works with controllability analysis."
 
 [[record]]
+en_author = "Ichiro Maruta, Tetsuya Yoshikawa, Shun-ichi Azuma, Toshiharu Sugie"
+en_booktitle = "Proceedings of the 43rd Annual Conference of the IEEE Industrial Electronics Society (IECON 2017)"
+en_title = "Traffic control at intersection with linear traffic lights"
+lang = "en"
+page_begin = "2923"
+page_end = "2928"
+publication_date = "20171100"
+reviewed = true
+type = "international_conference"
+doi = "10.1109/IECON.2017.8216493"
+
+[[record]]
 type = "domestic_conference"
 lang = "ja"
 reviewed = false
