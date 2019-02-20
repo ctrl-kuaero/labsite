@@ -81,6 +81,24 @@ reviewed = true
 type = "international_conference"
 
 [[record]]
+en_author = "Ichiro Maruta"
+en_booktitle = "SYSTEMS, CONTROL AND INFORMATION"
+en_title = "Functional Programming for Control Researchers"
+invited = true
+ja_author = "丸田 一郎"
+ja_booktitle = "システム／制御／情報"
+ja_title = "制御研究者のための関数型プログラミング"
+lang = "ja"
+doi = "10.11509/isciesci.61.10_406"
+number = "10"
+page_begin = "406"
+page_end = "411"
+publication_date = "20171015"
+reviewed = true
+type = "explanation_journal"
+volume = "61"
+
+[[record]]
 en_author = "Dijian Chen, Kenji Fujimoto"
 en_booktitle = "Proceedings of 31st International Symposium on Space Technology and Science (ISTS)"
 en_title = "Rendezvous Control of Spacecrafts via Constrained Optimal Control Using Generating Functions"
