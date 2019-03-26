@@ -14,3 +14,6 @@ $RECYCLE.BIN/
 
 # For Google SearchConsole
 /static/google*
+
+# For Editors
+/.vscode

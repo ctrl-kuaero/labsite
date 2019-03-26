@@ -208,29 +208,33 @@
             });    
         }
 
-        publications.filter(function(item) {
-            if (item.values().author.includes("lab")) {
-                return true;
-            } else {
-                return false;
-            }
-        });
+        function list_lab(){
+            $('#filter-author li').removeClass('is-selected is-selected-sub');
+            $('#filter-year li').removeClass('is-selected is-selected-sub');
+            $('[data-author="lab"]').parent().addClass('is-selected');
+            $('#filter-year li.all').addClass('is-selected-sub');
 
-        sort_publications([
-            {'field':'year', 'sign': -1},
-            {'field':'type', 'sign': 1},
-            {'field':'pubdate', 'sign': -1},
-        ]);
-        cleanup_headings(true);
+            publications.filter(function(item) {
+                if (item.values().author.includes("lab")) {
+                    return true;
+                } else {
+                    return false;
+                }
+            });
 
-        $(".filter-year").on('click', function(event){
-            event.stopPropagation();
-            event.stopImmediatePropagation();
-            const year = $(this).data('year');
+            sort_publications([
+                {'field':'year', 'sign': -1},
+                {'field':'type', 'sign': 1},
+                {'field':'pubdate', 'sign': -1},
+            ]);
+            cleanup_headings(true);
+        }
+
+        function list_year(year){
             $('#filter-year li').removeClass('is-selected is-selected-sub');
             $('#filter-author li').removeClass('is-selected is-selected-sub');
             $('#filter-author li.lab').addClass('is-selected-sub');
-            $(this).parent().addClass('is-selected');
+            $('[data-year="'+year+'"]').parent().addClass('is-selected');
 
             sort_publications([
                 {field:'year', sign: -1},
@@ -255,20 +259,21 @@
                     }
                 });    
             }
-
-
             cleanup_headings(true);
-            return false;
-        });
+        }
 
-        $(".filter-author").on('click', function(event){
-            event.stopPropagation();
-            event.stopImmediatePropagation();
-            const author = $(this).data('author');
+
+
+        function list_author(author){
             $('#filter-author li').removeClass('is-selected is-selected-sub');
             $('#filter-year li').removeClass('is-selected is-selected-sub');
-            $(this).parent().addClass('is-selected');
+            $('[data-author="'+author+'"]').parent().addClass('is-selected');
             $('#filter-year li.all').addClass('is-selected-sub');
+
+            if(author ==="lab"){
+                list_lab();
+                return;
+            }
 
             sort_publications([
                 {field:'type', sign: 1},
@@ -283,8 +288,66 @@
                 }
             }); 
             cleanup_headings(false);
+        }
+
+        $(".filter-author").on('click', function(event){
+            event.stopPropagation();
+            event.stopImmediatePropagation();
+            const author = $(this).data('author');
+            list_author(author);
+       
+            if(author!="lab"){
+                history.pushState(null,null,author2hash(author));
+            }else{
+                history.pushState(null,null,window.location.pathname + window.location.search);
+            }
             return false;
-        });        
+        });
+        
+        $(".filter-year").on('click', function(event){
+            event.stopPropagation();
+            event.stopImmediatePropagation();
+            const year = $(this).data('year');
+            list_year(year);
+            if(year!="all"){
+                history.pushState(null,null,year2hash(year));            
+            }else{
+                history.pushState(null,null,window.location.pathname + window.location.search);
+            }
+            return false;
+        });
+        
+        function hash2author(h){
+            return h.slice(1).split('-').join(' ');
+        }        
+
+        function author2hash(a){
+            return '#'+a.split(' ').join('-');
+        }
+
+        function hash2year(h){
+            return h.slice(1);
+        }
+
+        function year2hash(y){
+            return '#'+y;
+        }
+
+        
+        function parse_hash(){
+            const h = location.hash;
+            if(h.match(/\#\d{4}/)){
+                list_year(hash2year(h));
+            }else if(h!=""){
+                list_author(hash2author(h));
+            }else{
+                list_lab();
+            }
+        }
+        window.addEventListener('hashchange', parse_hash, false);
+
+        parse_hash();
+
     </script>
 </div>
 </section>
