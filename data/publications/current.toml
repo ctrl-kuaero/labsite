@@ -138,9 +138,9 @@ type = "international_conference"
 doi = "10.2322/tastj.16.392"
 
 [[record]]
-en_author = "Yuki Matsumoto, Kenji Fujimoto"
-en_booktitle = "Proceedings of 30th International Symposium on Space Technology and Science (ISTS)"
-en_title = "On port-Hamiltonian modeling and control of quaternion systems"
+en_author = "Kenji Fujimoto, Yuki Matsumoto"
+en_booktitle = "Proceedings of the 30th International Symposium on Space Technology and Science (ISTS)"
+en_title = "On Port-Hamiltonian Modeling and Control of Systems with Quaternions"
 lang = "en"
 page_begin = "2015-d-01"
 publication_date = "20150707"
