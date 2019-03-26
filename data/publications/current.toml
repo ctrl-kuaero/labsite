@@ -184,6 +184,7 @@ page_begin = "1D4"
 publication_date = "20181100"
 reviewed = false
 invited = false
+doi="10.11511/jacc.61.0_938"
 type = "domestic_conference"
 
 [[record]]
@@ -199,6 +200,7 @@ publication_date = "20181100"
 reviewed = false
 invited = false
 type = "domestic_conference"
+doi = "10.11511/jacc.61.0_1464"
 
 [[record]]
 en_author = "Ichiro Maruta, Tomohiro Otsu, Kenji Fujimoto"
@@ -213,6 +215,7 @@ publication_date = "20181100"
 reviewed = false
 invited = false
 type = "domestic_conference"
+doi = "10.11511/jacc.61.0_1626"
 
 [[record]]
 en_author = "Jacquelien M.A. Scherpen, Kenji Fujimoto"
