@@ -135,6 +135,7 @@ page_begin = "2017-d-117/ISSFD-2017-117"
 publication_date = "20170603"
 reviewed = true
 type = "international_conference"
+doi = "10.2322/tastj.16.392"
 
 [[record]]
 en_author = "Yuki Matsumoto, Kenji Fujimoto"
