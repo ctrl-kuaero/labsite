@@ -495,3 +495,17 @@ jglobalid = "201802283672664789"
 reviewed = false
 invited = false
 type = "domestic_conference"
+
+[[record]]
+en_author = "Yuki Okura, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "大倉 裕貴, 藤本 健治, 丸田 一郎"
+ja_booktitle = "第5回 計測自動制御学会 制御部門マルチシンポジウム 予稿集"
+en_booktitle = "Proceedings of the 5th Multi-symposium on Control Systems"
+ja_title = "ベイズ推定を用いたポートハミルトン系の操作データに基づいた経路追従制御"
+en_title = "On Path Following Control of Port-Hamiltonian Systems by Bayesian Inference with Training Trajectory Data"
+lang = "ja"
+page_begin = "Su63-5"
+publication_date = "20180308"
+reviewed = false
+invited = false
+type = "domestic_conference"
