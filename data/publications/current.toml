@@ -651,6 +651,7 @@ ja_booktitle = "計測自動制御学会第2回制御部門マルチシンポジ
 ja_title = "パラメータ変動に対してロバストなLQ最適制御の枠組みと母関数法への適用，計測自動制御学会第2回制御部門マルチシンポジウム"
 note = "poster"
 lang = "ja"
+publication_date = "2015"
 reviewed = false
 invited = false
 type = "domestic_conference"
