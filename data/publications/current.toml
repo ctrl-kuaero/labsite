@@ -438,3 +438,31 @@ reviewed = false
 rm_ftype = "misc"
 rm_type = "5"
 type = "domestic_conference"
+
+[[record]]
+en_author = "Kiyoshi Hamada, Ichiro Maruta, Kenji Fujimoto, Kenichi Hamamoto"
+ja_author = "濱田 聖司, 丸田 一郎, 藤本 健治, 浜本 研一"
+ja_booktitle = "第6回 計測自動制御学会 制御部門マルチシンポジウム 予稿集"
+en_booktitle = "Proceedings of the 6th Multi-symposium on Control Systems"
+ja_title = "追従し易さを考慮した軌道生成手法について"
+en_title = "On a method for generating easily trackable trajectory"
+lang = "ja"
+page_begin = "1F1-4"
+publication_date = "20190309"
+reviewed = false
+invited = false
+type = "domestic_conference"
+
+[[record]]
+en_author = "Hiroaki Hashimoto, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "濱田 聖司, 藤本 健治, 丸田 一郎"
+ja_booktitle = "第6回 計測自動制御学会 制御部門マルチシンポジウム 予稿集"
+en_booktitle = "Proceedings of the 6th Multi-symposium on Control Systems"
+ja_title = "単一のリアクションホイールを用いたスピン安定型宇宙機の準大域的漸近安定化について"
+en_title = "On Essentially Global Stabilization of Spin-stabilized Spacecraft Using a Single Reaction Wheel"
+lang = "ja"
+page_begin = "1G2-2"
+publication_date = "20190309"
+reviewed = false
+invited = false
+type = "domestic_conference"
