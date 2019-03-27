@@ -482,8 +482,8 @@ invited = false
 type = "domestic_conference"
 
 [[record]]
-en_author = "Yuki Okura, Kenji Fujimoto, Ichiro Maruta"
-ja_author = "大倉 裕貴, 藤本 健治, 丸田 一郎"
+en_author = "Yuki Okura, Kenji Fujimoto"
+ja_author = "大倉 裕貴, 藤本 健治"
 ja_booktitle = "第60回 自動制御連合講演会論文集"
 en_booktitle = "Proceedings of the 60st Japan Joint Automatic Control Conference"
 ja_title = "ポートハミルトン系の可変インピーダンス制御について"
@@ -497,8 +497,8 @@ invited = false
 type = "domestic_conference"
 
 [[record]]
-en_author = "Yuki Okura, Kenji Fujimoto, Ichiro Maruta"
-ja_author = "大倉 裕貴, 藤本 健治, 丸田 一郎"
+en_author = "Yuki Okura, Kenji Fujimoto, Akio Saitou, Hidetoshi Ikeda"
+ja_author = "大倉 裕貴, 藤本 健治, 斎藤 暁生, 池田 英俊"
 ja_booktitle = "第5回 計測自動制御学会 制御部門マルチシンポジウム 予稿集"
 en_booktitle = "Proceedings of the 5th Multi-symposium on Control Systems"
 ja_title = "ベイズ推定を用いたポートハミルトン系の操作データに基づいた経路追従制御"
@@ -506,6 +506,22 @@ en_title = "On Path Following Control of Port-Hamiltonian Systems by Bayesian In
 lang = "ja"
 page_begin = "Su63-5"
 publication_date = "20180308"
+jglobalid = "201802233230349321"
+reviewed = false
+invited = false
+type = "domestic_conference"
+
+[[record]]
+en_author = "Yuki Okura, Kenji Fujimoto, Akio Saitou, Hidetoshi Ikeda"
+ja_author = "大倉 裕貴, 藤本 健治, 斎藤 暁生, 池田 英俊"
+ja_booktitle = "第62回 システム制御情報学会研究発表講演会"
+en_booktitle = "Proceedings of the 62th Annual Conference of the Institute of Systems, Control and Information Engineers"
+ja_title = "人と機械とのインタラクションを考慮した作業データに基づく経路追従制御について:ベイズ推定を用いたポートハミルトン系の経路追従制御"
+en_title = "On path following control of port-Hamiltonian systems for human machine interaction using training trajectory data: A Bayesian inference approach"
+lang = "ja"
+page_begin = "322-6"
+publication_date = "20180516"
+jglobalid = "201802219363454455"
 reviewed = false
 invited = false
 type = "domestic_conference"
