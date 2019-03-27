@@ -647,7 +647,7 @@ type = "international_conference"
 [[record]]
 en_author = "Yuki Okura, Kenji Fujimoto"
 ja_author = "大倉 裕貴, 藤本 健治"
-ja_booktitle = "計測自動制御学会第2回制御部門マルチシンポジウム"
+ja_booktitle = "第2回 計測自動制御学会 制御部門マルチシンポジウム ポスター発表"
 ja_title = "パラメータ変動に対してロバストなLQ最適制御の枠組みと母関数法への適用，計測自動制御学会第2回制御部門マルチシンポジウム"
 note = "poster"
 lang = "ja"
