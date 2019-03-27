@@ -1,4 +1,18 @@
 [[record]]
+en_author = "Hirofumi Beppu, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "別府 啓史, 丸田 一郎, 藤本 健治"
+ja_booktitle = "第6回 計測自動制御学会 制御部門マルチシンポジウム 予稿集"
+en_booktitle = "Proceedings of the 6th Multi-symposium on Control Systems"
+ja_title = "サポートベクターマシンによるデータ選択に基づくガウス過程回帰を用いたHamilton-Jacobi不等式の解法"
+en_title = "Solutions to Hamilton-Jacobi Inequalities Using Gaussian Pocess Regression via Data Selection by Support Vector Machine"
+lang = "ja"
+page_begin = "3F1-1"
+publication_date = "20190309"
+reviewed = false
+invited = false
+type = "domestic_conference"
+
+[[record]]
 en_author = "Risako Sasaki, Takahiro Kawaguchi, Ichiro Maruta, Shuichi Adachi, Jumpei Katashiba, Kensuke Osamura"
 ja_author = "佐々木 理沙子, 川口 貴弘, 丸田 一郎, 足立 修一, 片芝 惇平, 長村 謙介"
 ja_booktitle = "第6回 計測自動制御学会 制御部門マルチシンポジウム 予稿集"
