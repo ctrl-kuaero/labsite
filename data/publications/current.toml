@@ -497,7 +497,7 @@ invited = false
 type = "domestic_conference"
 
 [[record]]
-en_author = "Yuki Okura, Kenji Fujimoto, Akio Saitou, Hidetoshi Ikeda"
+en_author = "Yuki Okura, Kenji Fujimoto, Akio Saito, Hidetoshi Ikeda"
 ja_author = "大倉 裕貴, 藤本 健治, 斎藤 暁生, 池田 英俊"
 ja_booktitle = "第5回 計測自動制御学会 制御部門マルチシンポジウム 予稿集"
 en_booktitle = "Proceedings of the 5th Multi-symposium on Control Systems"
@@ -512,7 +512,7 @@ invited = false
 type = "domestic_conference"
 
 [[record]]
-en_author = "Yuki Okura, Kenji Fujimoto, Akio Saitou, Hidetoshi Ikeda"
+en_author = "Yuki Okura, Kenji Fujimoto, Akio Saito, Hidetoshi Ikeda"
 ja_author = "大倉 裕貴, 藤本 健治, 斎藤 暁生, 池田 英俊"
 ja_booktitle = "第62回 システム制御情報学会研究発表講演会"
 en_booktitle = "Proceedings of the 62th Annual Conference of the Institute of Systems, Control and Information Engineers"
@@ -527,7 +527,7 @@ invited = false
 type = "domestic_conference"
 
 [[record]]
-en_author = "Yuki Okura, Kenji Fujimoto, Akio Saitou, Hidetoshi Ikeda"
+en_author = "Yuki Okura, Kenji Fujimoto, Akio Saito, Hidetoshi Ikeda"
 ja_author = "大倉 裕貴, 藤本 健治, 斎藤 暁生, 池田 英俊"
 ja_booktitle = "第4回 計測自動制御学会 制御部門マルチシンポジウム 予稿集"
 en_booktitle = "Proceedings of the 4th Multi-symposium on Control Systems"
@@ -542,7 +542,7 @@ invited = false
 type = "domestic_conference"
 
 [[record]]
-en_author = "Yuki Okura, Kenji Fujimoto, Akio Saitou, Hidetoshi Ikeda"
+en_author = "Yuki Okura, Kenji Fujimoto, Akio Saito, Hidetoshi Ikeda"
 ja_author = "大倉 裕貴, 藤本 健治, 斎藤 暁生, 池田 英俊"
 ja_booktitle = "第59回 自動制御連合講演会論文集"
 en_booktitle = "Proceedings of the 59st Japan Joint Automatic Control Conference"
@@ -557,7 +557,7 @@ invited = false
 type = "domestic_conference"
 
 [[record]]
-en_author = "Yuki Okura, Kenji Fujimoto, Akio Saitou, Hidetoshi Ikeda"
+en_author = "Yuki Okura, Kenji Fujimoto, Akio Saito, Hidetoshi Ikeda"
 ja_author = "大倉 裕貴, 藤本 健治, 斎藤 暁生, 池田 英俊"
 ja_booktitle = "第34回日本ロボット学会学術講演会予稿集"
 ja_title = "人と機械とのインタラクションを考慮した自動搬送システムの経路追従制御について"
@@ -586,7 +586,7 @@ type = "domestic_conference"
 
 [[record]]
 doi = "10.1109/CDC.2018.8619261"
-en_author = "Yuki Okura, Kenji Fujimoto, Akio Saitou, Hidetoshi Ikeda"
+en_author = "Yuki Okura, Kenji Fujimoto, Akio Saito, Hidetoshi Ikeda"
 en_booktitle = "2018 IEEE Conference on Decision and Control (CDC)"
 en_title = "On Path Following Control of Port-Hamiltonian Systems by Bayesian Inference with Training Trajectory Data"
 lang = "en"
@@ -610,7 +610,7 @@ type = "international_conference"
 
 [[record]]
 doi = "10.1109/CDC.2017.8264031"
-en_author = "Yuki Okura, Kenji Fujimoto, Akio Saitou, Hidetoshi Ikeda"
+en_author = "Yuki Okura, Kenji Fujimoto, Akio Saito, Hidetoshi Ikeda"
 en_booktitle = "2017 IEEE 56th Annual Conference on Decision and Control (CDC)"
 en_title = "On potential function design for path following control of port-Hamiltonian systems"
 lang = "en"
@@ -648,7 +648,7 @@ type = "international_conference"
 en_author = "Yuki Okura, Kenji Fujimoto"
 ja_author = "大倉 裕貴, 藤本 健治"
 ja_booktitle = "第2回 計測自動制御学会 制御部門マルチシンポジウム ポスター発表"
-ja_title = "パラメータ変動に対してロバストなLQ最適制御の枠組みと母関数法への適用，計測自動制御学会第2回制御部門マルチシンポジウム"
+ja_title = "パラメータ変動に対してロバストなLQ最適制御の枠組みと母関数法への適用"
 note = "poster"
 lang = "ja"
 publication_date = "2015"
