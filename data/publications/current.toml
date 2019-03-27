@@ -480,3 +480,18 @@ publication_date = "20190309"
 reviewed = false
 invited = false
 type = "domestic_conference"
+
+[[record]]
+en_author = "Yuki Okura, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "大倉 裕貴, 藤本 健治, 丸田 一郎"
+ja_booktitle = "第60回 自動制御連合講演会論文集"
+en_booktitle = "Proceedings of the 60st Japan Joint Automatic Control Conference"
+ja_title = "ポートハミルトン系の可変インピーダンス制御について"
+en_title = "On Variable Impedance Control of Port-Hamiltonian Systems"
+lang = "ja"
+page_begin = "SaE3-6"
+publication_date = "20171110"
+jglobalid = "201802283672664789"
+reviewed = false
+invited = false
+type = "domestic_conference"
