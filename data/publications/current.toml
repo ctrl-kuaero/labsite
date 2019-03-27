@@ -525,3 +525,18 @@ jglobalid = "201802219363454455"
 reviewed = false
 invited = false
 type = "domestic_conference"
+
+[[record]]
+en_author = "Yuki Okura, Kenji Fujimoto, Akio Saitou, Hidetoshi Ikeda"
+ja_author = "大倉 裕貴, 藤本 健治, 斎藤 暁生, 池田 英俊"
+ja_booktitle = "第4回 計測自動制御学会 制御部門マルチシンポジウム 予稿集"
+en_booktitle = "Proceedings of the 4th Multi-symposium on Control Systems"
+ja_title = "ポートハミルトン系の経路追従制御のためのポテンシャル関数の設計法について"
+en_title = "On potential function design for path following control of port-Hamiltonian systems"
+lang = "ja"
+page_begin = "1C1-3"
+publication_date = "20170306"
+jglobalid = "201702290679330110"
+reviewed = false
+invited = false
+type = "domestic_conference"
