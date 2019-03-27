@@ -540,3 +540,18 @@ jglobalid = "201702290679330110"
 reviewed = false
 invited = false
 type = "domestic_conference"
+
+[[record]]
+en_author = "Yuki Okura, Kenji Fujimoto, Akio Saitou, Hidetoshi Ikeda"
+ja_author = "大倉 裕貴, 藤本 健治, 斎藤 暁生, 池田 英俊"
+ja_booktitle = "第59回 自動制御連合講演会論文集"
+en_booktitle = "Proceedings of the 59st Japan Joint Automatic Control Conference"
+ja_title = "人と機械のインタラクションを考慮に入れたポートハミルトン系の経路追従制御について"
+en_title = "On path following control for port-Hamiltonian systems with human machine interaction"
+lang = "ja"
+page_begin = "FrB1-5"
+publication_date = "2016"
+jglobalid = "201702243077175372"
+reviewed = false
+invited = false
+type = "domestic_conference"
