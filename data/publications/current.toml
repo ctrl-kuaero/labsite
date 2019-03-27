@@ -583,3 +583,63 @@ jglobalid = "201602207966088451"
 reviewed = false
 invited = false
 type = "domestic_conference"
+
+[[record]]
+doi = "10.1109/CDC.2018.8619261"
+en_author = "Yuki Okura, Kenji Fujimoto, Akio Saitou, Hidetoshi Ikeda"
+en_booktitle = "2018 IEEE Conference on Decision and Control (CDC)"
+en_title = "On Path Following Control of Port-Hamiltonian Systems by Bayesian Inference with Training Trajectory Data"
+lang = "en"
+page_begin = "1956"
+page_end = "1960"
+publication_date = "20181217"
+reviewed = true
+type = "international_conference"
+
+[[record]]
+doi = "10.1109/IROS.2018.8594087"
+en_author = "Yuki Okura, Kenji Fujimoto"
+en_booktitle = "2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+en_title = "Passive Nonlinear Impedance Control for Port-Hamiltonian Systems"
+lang = "en"
+page_begin = "7983"
+page_end = "7988"
+publication_date = "20180801"
+reviewed = true
+type = "international_conference"
+
+[[record]]
+doi = "10.1109/CDC.2017.8264031"
+en_author = "Yuki Okura, Kenji Fujimoto, Akio Saitou, Hidetoshi Ikeda"
+en_booktitle = "2017 IEEE 56th Annual Conference on Decision and Control (CDC)"
+en_title = "On potential function design for path following control of port-Hamiltonian systems"
+lang = "en"
+page_begin = "2569"
+page_end = "2574"
+publication_date = "20171212"
+reviewed = true
+type = "international_conference"
+
+[[record]]
+doi = "10.1109/CDC.2016.7798948"
+en_author = "Yuki Okura, Kenji Fujimoto"
+en_booktitle = "2016 IEEE 55th Conference on Decision and Control (CDC)"
+en_title = "A study on robust nonlinear optimal control for parameter variation"
+lang = "en"
+page_begin = "4469"
+page_end = "4473"
+publication_date = "20161212"
+reviewed = true
+type = "international_conference"
+
+[[record]]
+doi = "10.1109/CDC.2015.7402705"
+en_author = "Yuki Okura, Kenji Fujimoto"
+en_booktitle = "2015 54th IEEE Conference on Decision and Control (CDC)"
+en_title = "A new framework of robust LQ optimal control for parameter variation and its application to the double generating functions method"
+lang = "en"
+page_begin = "3236"
+page_end = "3241"
+publication_date = "20151215"
+reviewed = true
+type = "international_conference"
