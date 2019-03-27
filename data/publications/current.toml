@@ -454,6 +454,20 @@ invited = false
 type = "domestic_conference"
 
 [[record]]
+en_author = "Kiyoshi Hamada, Ichiro Maruta, Kenji Fujimoto, Kenichi Hamamoto"
+ja_author = "濱田 聖司, 丸田 一郎, 藤本 健治, 浜本 研一"
+ja_booktitle = "第54回 日本航空宇宙学会 関西・中部支部合同秋季大会"
+en_booktitle = ""
+ja_title = "障害物回避を考慮したローバーの自動軌道生成と軌道追従制御シミュレーション"
+en_title = "On automatic trajectory generation considering obstacle avoidance and simulation of trajectory tracking control for a rover"
+lang = "ja"
+page_begin = "B10"
+publication_date = "20171111"
+reviewed = false
+invited = false
+type = "domestic_conference"
+
+[[record]]
 en_author = "Hiroaki Hashimoto, Kenji Fujimoto, Ichiro Maruta"
 ja_author = "濱田 聖司, 藤本 健治, 丸田 一郎"
 ja_booktitle = "第6回 計測自動制御学会 制御部門マルチシンポジウム 予稿集"
