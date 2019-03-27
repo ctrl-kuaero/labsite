@@ -383,10 +383,24 @@ reviewed = true
 type = "international_conference"
 
 [[record]]
-ja_author = "濱田 聖司, 藤本 健治, 浜本 研一"
+ja_author = "濱田 聖司, 丸田 一郎, 藤本 健治, 浜本 研一"
 en_author = "Kiyoshi Hamada, Ichiro Maruta, Kenji Fujimoto, Kenichi Hamamoto"
 ja_booktitle = "第61回宇宙科学技術連合講演会講演集"
 ja_title = "⼆輪ローバーの障害物回避可能な軌道⽣成⼿法の検討"
+en_title = "On trajectory generation capable of avoiding prescribed obstacles for a two wheeled rover"
+lang = "ja"
+page_begin = ""
+page_end = ""
+publication_date = "20171025"
+doi = ""
+type = "domestic_conference"
+
+[[record]]
+ja_author = "橋本　宙明, 藤本 健治"
+en_author = "Hiroaki Hashimoto, Kenji Fujimoto"
+ja_booktitle = "第61回宇宙科学技術連合講演会講演集"
+ja_title = "冗長なモデルに対するモデル予測制御を用いたCMGの特異点回避・通過制御について"
+en_title = "On singularity avoidance and passing of control moment gyroscopes using a redundant state space representation and model predictive control"
 lang = "ja"
 page_begin = ""
 page_end = ""
