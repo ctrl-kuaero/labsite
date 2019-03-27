@@ -391,12 +391,12 @@ en_title = "On trajectory generation capable of avoiding prescribed obstacles fo
 lang = "ja"
 page_begin = ""
 page_end = ""
+jglobalid = "201702237032397429"
 publication_date = "20171025"
-doi = ""
 type = "domestic_conference"
 
 [[record]]
-ja_author = "橋本　宙明, 藤本 健治"
+ja_author = "橋本 宙明, 藤本 健治"
 en_author = "Hiroaki Hashimoto, Kenji Fujimoto"
 ja_booktitle = "第61回宇宙科学技術連合講演会講演集"
 ja_title = "冗長なモデルに対するモデル予測制御を用いたCMGの特異点回避・通過制御について"
@@ -404,6 +404,22 @@ en_title = "On singularity avoidance and passing of control moment gyroscopes us
 lang = "ja"
 page_begin = ""
 page_end = ""
+jglobalid = "201702213266647769"
 publication_date = "20171025"
-doi = ""
+type = "domestic_conference"
+
+[[record]]
+en_author = "Myu Uehara, Kiyoshi Hamada, Ichiro Maruta, Kenji Fujimoto, Kenichi Hamamoto"
+en_booktitle = "Proceedings of the 5th Multi-symposium on Control Systems"
+en_title = "Experimental Verification of a Periodic Steady H.INF. Filter for Multi-rate State Estimation of Vehicles"
+invited = false
+ja_author = "上原 水優, 濱田 聖司, 丸田 一郎, 藤本 健治, 浜本 研一"
+ja_booktitle = "第5回 計測自動制御学会 制御部門マルチシンポジウム予稿集"
+ja_title = "周期的定常H∞フィルタによるマルチレート状態推定の車両系における実機検証"
+jglobalid = "201802214412260897"
+lang = "ja"
+publication_date = "20180300"
+reviewed = false
+rm_ftype = "misc"
+rm_type = "5"
 type = "domestic_conference"
