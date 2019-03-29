@@ -18,6 +18,25 @@
             console.log(r);
             if(!r.rm_ftype.match(ftype)) continue;
             if(!( (r.ja_author && r.ja_author.match(ja_name)) || (r.en_author && r.en_author.match(en_name))) ) continue;
+
+            if(!r.ja_author){
+                r.ja_author = r.en_author;
+            }else if(!r.en_author){
+                r.en_author = r.ja_author;
+            }
+
+            if(!r.ja_title){
+                r.ja_title = r.en_title;
+            }else if(!r.en_title){
+                r.en_title = r.ja_title;
+            }
+
+            if(!r.ja_booktitle){
+                r.ja_booktitle = r.en_booktitle;
+            }else if(!r.en_booktitle){
+                r.en_booktitle = r.ja_booktitle;
+            }
+
             function col_str(k) {
                 return (r[k] ? '"' + r[k] + '"' : '""')
             }
