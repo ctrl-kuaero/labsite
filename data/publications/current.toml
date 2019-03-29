@@ -1,4 +1,22 @@
 [[record]]
+en_author = "Ichiro Maruta"
+en_booktitle = "Journal of The Society of Instrument and Control Engineers"
+en_title = "A Factor of Machine Learning Boom Analyzed by a Control Researcher with Data"
+invited = true
+ja_author = "丸田 一郎"
+ja_booktitle = "計測と制御"
+ja_title = "制御研究者がデータで探る機械学習ブームの要因"
+lang = "ja"
+doi = "10.11499/sicejl.58.156"
+number = "3"
+page_begin = "156"
+page_end = "160"
+publication_date = "20190310"
+reviewed = true
+type = "explanation_journal"
+volume = "58"
+
+[[record]]
 en_author = "Hirofumi Beppu, Ichiro Maruta, Kenji Fujimoto"
 ja_author = "別府 啓史, 丸田 一郎, 藤本 健治"
 ja_booktitle = "第6回 計測自動制御学会 制御部門マルチシンポジウム 予稿集"
