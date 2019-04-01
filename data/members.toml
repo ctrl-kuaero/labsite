@@ -18,11 +18,7 @@ en_link_text = '<span class="tag is-primary">Personal Page</span>'
 ja_link_url = "https://control.kuaero.kyoto-u.ac.jp/~maruta/ja/"
 en_link_url = "https://control.kuaero.kyoto-u.ac.jp/~maruta/"
 
-[[list]]
-ja_name = "大倉 裕貴"
-en_name = "Yuki OKURA"
-ja_position = "博士課程学生"
-en_position = "Ph.D. Candidate"
+
 
 [[list]]
 ja_name = "吉村 僚太"
@@ -31,22 +27,16 @@ ja_position = "博士課程学生"
 en_position = "Ph.D. Candidate"
 
 [[list]]
-ja_name = "橋本 宙明"
-en_name = "Hiroaki HASHIMOTO"
-ja_position = "修士課程学生"
-en_position = "Master Student"
-
-[[list]]
 ja_name = "濱田 聖司"
 en_name = "Kiyoshi HAMADA"
-ja_position = "修士課程学生"
-en_position = "Master Student"
+ja_position = "博士課程学生"
+en_position = "Ph.D. Candidate"
 
 [[list]]
 ja_name = "別府 啓史"
 en_name = "Hirofumi BEPPU"
-ja_position = "修士課程学生"
-en_position = "Master Student"
+ja_position = "博士課程学生"
+en_position = "Ph.D. Candidate"
 
 [[list]]
 ja_name = "大津 智宏"
@@ -75,26 +65,14 @@ en_position = "Master Student"
 [[list]]
 ja_name = "西田 周平"
 en_name = "Shuhei NISHIDA"
-ja_position = "学部学生"
-en_position = "Undergraduate Student"
-
-[[list]]
-ja_name = "小林 寛幸"
-en_name = "Hiroyuki KOBAYASHI"
-ja_position = "学部学生"
-en_position = "Undergraduate Student"
-
-[[list]]
-ja_name = "坂田 友"
-en_name = "Yu SAKATA"
-ja_position = "学部学生"
-en_position = "Undergraduate Student"
+ja_position = "修士課程学生"
+en_position = "Master Student"
 
 [[list]]
 ja_name = "児玉 匡"
 en_name = "Tasuku KODAMA"
-ja_position = "学部学生"
-en_position = "Undergraduate Student"
+ja_position = "修士課程学生"
+en_position = "Master Student"
 
 [[list]]
 ja_name = "稲本 千尋"
