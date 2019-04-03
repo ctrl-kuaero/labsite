@@ -63,14 +63,26 @@ ja_position = "修士課程学生"
 en_position = "Master Student"
 
 [[list]]
-ja_name = "西田 周平"
-en_name = "Shuhei NISHIDA"
+ja_name = "木村 洸介"
+en_name = "Kousuke KIMURA"
 ja_position = "修士課程学生"
 en_position = "Master Student"
 
 [[list]]
 ja_name = "児玉 匡"
 en_name = "Tasuku KODAMA"
+ja_position = "修士課程学生"
+en_position = "Master Student"
+
+[[list]]
+ja_name = "西田 周平"
+en_name = "Shuhei NISHIDA"
+ja_position = "修士課程学生"
+en_position = "Master Student"
+
+[[list]]
+ja_name = "村里 直樹"
+en_name = "Naoki MURASATO"
 ja_position = "修士課程学生"
 en_position = "Master Student"
 
