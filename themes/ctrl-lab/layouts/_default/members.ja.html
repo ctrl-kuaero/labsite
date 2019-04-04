@@ -20,7 +20,7 @@
                         <div style="display:flex;">
                             <div style="font-size:0.8em;width:8em;text-align:right;padding-right:1.5em;">
                                 <div class="position" style="padding-top:0.2em">
-                                    {{ .ja_position }}
+                                    {{ .ja_position | markdownify }}
                                 </div>
                             </div>
                             <div style="display:flex;flex-wrap: wrap;">
@@ -54,7 +54,7 @@
                     <div style="display:flex">
                         <div style="font-size:0.8em;width:8em;text-align:right;padding-right:1.5em;">
                             <div class="position" style="padding-top:0.2em">
-                                {{ .ja_position }}
+                                {{ .ja_position | markdownify }}
                             </div>
                         </div>
                         <div style="margin-right:1em;">
