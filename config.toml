@@ -3,6 +3,7 @@ theme = "ctrl-lab"
 
 DefaultContentLanguage = "en"
 disableKinds = ["taxonomy", "taxonomyTerm"]
+timeout = 60000
 
 [languages]
   [languages.en]
