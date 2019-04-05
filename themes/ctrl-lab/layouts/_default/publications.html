@@ -181,12 +181,14 @@
 
         function add_type_order(t){
             switch(t){
+                case 'award':
+                    return '050'+t;
                 case 'journal':
                     return '100'+t;
                 case 'international_conference':
                     return '200'+t;
                 default:
-                    return '999'+t;
+                    return '999'+t;''
             }
         }
 

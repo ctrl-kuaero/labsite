@@ -376,7 +376,18 @@ body.lang-en {
   .pubtitle {
     font-weight: 400;
   }
-
+  .award-author, .award-title{
+    font-weight: 400;
+  }
+  .award-author:after{
+    .lang-en &{
+      content: ':';
+    }
+    .lang-ja &{
+      content: '：';
+    }
+    margin-right: 0.2em;
+  }
   .author {
     font-size: 90%;
   }

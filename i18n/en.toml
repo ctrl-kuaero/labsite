@@ -42,3 +42,6 @@ other = "Book review and document introduction, etc."
 other = "Meeting report etc."
 [publication_type_other]
 other = "Other article"
+
+[publication_type_award]
+other = "Award"

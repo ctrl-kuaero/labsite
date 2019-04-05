@@ -43,3 +43,6 @@ other = "書評,文献紹介等"
 other = "会議報告等"
 [publication_type_other]
 other = "その他記事"
+
+[publication_type_award]
+other = "受賞"
