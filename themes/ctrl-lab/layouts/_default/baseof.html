@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ .Lang }}">
     {{- partial "head.html" . -}}
-    <body class="lang-{{ .Lang }} type-{{ .Type }} {{ if .IsHome }}is-home{{end}} {{ if not .IsHome }}is-not-home{{end}} kind-{{ .Kind }}">
+    <body class="lang-{{ .Lang }} type-{{ .Type }} {{ if .IsHome }}is-home{{end}} {{ if not .IsHome }}is-not-home{{end}} kind-{{ .Kind }} layout-{{ .Layout }}">
         <div id="wrapper">
         {{- partial "header.html" . -}}
         {{- block "main" . }}{{- end }}

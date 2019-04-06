@@ -1,0 +1,18 @@
+{{ define "main" }}
+{{- partial "nav.html" . -}}
+<script src="/lib/jquery-3.3.1.min.js"></script>
+<script src="/lib/list.min.js"></script>
+
+<section class="section" id="main">
+    <div class="container content">
+        <h1>{{ .Title }}</h1>
+        <div id="publications">
+            <ol class="list">
+                {{- range $.Site.Data.publications.awards.record }}
+                {{- partial "record.html" (dict "page_lang" $.Page.Lang "r" . "Scratch" $.Scratch) -}}
+                {{- end }}
+            </ol>
+        </div>
+    </div>
+</section>
+{{ end }}

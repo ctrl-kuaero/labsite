@@ -488,3 +488,15 @@ body {
   font-size:1em;
   margin-bottom: 0;
 }
+
+.layout-awards{
+  ol{
+    h2, h3{
+      display: none;
+    }
+    .counter:before{
+      counter-increment: list;
+      content: "["counter(list)"]";
+    }
+  }
+}
