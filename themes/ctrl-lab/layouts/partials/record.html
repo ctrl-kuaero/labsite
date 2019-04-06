@@ -30,173 +30,185 @@
 {{- $eauthor_list := split .r.en_author "," }}
 {{- $num_author := len $author_list }}
 
+
+
 {{- $class_authors := (split .r.en_author ",") }}
 {{- $class_authors := (apply (apply $class_authors "lower" ".") "trim" "." " ")}}
 {{- $class_authors := (cond (eq .r.outside_kuaero true) $class_authors (union $class_authors (slice "lab")) ) }}
 
 {{- if eq .r.type "award" -}}
-<li class="publication year-{{.r.year}} type-{{.r.type|urlize}}"  data-year="{{.r.year}}" data-type='{{.r.type}}' data-author='{{$class_authors| jsonify}}' data-pubdate='{{.r.publication_date}}'>
-    <h2 class="year-{{.r.year}}">{{ .r.year }}</h3>
+<li class="publication year-{{.r.year}} type-{{.r.type|urlize}}" data-year="{{.r.year}}" data-type='{{.r.type}}'
+    data-author='{{$class_authors| jsonify}}' data-pubdate='{{.r.publication_date}}'>
+    <h2 class="year-{{.r.year}}">{{ .r.year }}</h2>
     <h3 class="type-{{.r.type|urlize}}">{{ i18n (printf "%s_%s" "publication_type" .r.type)}}</h3>
     <div class="item">
-    <div class="counter"></div>
-    {{- range $index, $author := $author_list }}
-    <span class="award-author">{{ $author }}</span>
-    {{- if eq $page_lang "en" }}
-    {{- if eq $index (add $num_author -2) }} <span class="sepboth">and</span> 
-    {{- else if lt $index (add $num_author -1) }}<span class="sep">,</span >{{- end }}
-    {{- else if lt $index (add $num_author -1) }}<span class="sep">,</span> {{- end }}
-    {{- end }} 
-    <span class="award-title">{{ $title }}</span>
-    {{ if ($.Scratch.Get "note") }}<span class="note">{{ $.Scratch.Get "note" }}</span>{{end -}}
-    <br>
-    <span class="citeinfo">
-        {{ $giver }}
-        {{ $booktitle }}
-        {{- if .r.volume -}}
-        <span class="sep">,</span> vol. {{ .r.volume -}}
-        {{- end -}}
-        {{- if .r.number -}}
-        <span class="sep">,</span> no. {{ .r.number -}}
-        {{- end -}}
-        {{- if (and .r.page_begin .r.page_end) -}}
-        <span class="sep">,</span> pp. {{ .r.page_begin }}&ndash;{{ .r.page_end }}
-        {{- else if .r.page_begin -}}
-        <span class="sep">,</span> {{ .r.page_begin }}
-        {{- end -}}
-        {{- if .r.year -}}
-        <span class="year" style="margin-left:0.3em;">({{ .r.year }})</span>
-        {{- end -}}
-        {{- if or .r.doi .r.naid .r.jglobalid .r.url }}
-        <div class="field is-grouped is-grouped-multiline" style="margin-top:0.2em;">
-            {{- if .r.doi -}}
-            <div class="control" style="vertical-align:0.05em;">
-                <a href="https://doi.org/{{ .r.doi }}">
-                    <div class="tags has-addons">
-                        <span class="tag is-primary" style="font-size: 60%; font-weight:700">DOI</span>
-                        <span class="tag is-primary" style="font-size: 60%; font-weight:400"><span class="limitter">{{ .r.doi }}</span></span>
-                    </div>
-                </a>
-            </div>
+        <div class="counter"></div>
+        {{- range $index, $author := $author_list }}
+        <span class="award-author">{{ $author }}</span>
+        {{- if eq $page_lang "en" }}
+        {{- if eq $index (add $num_author -2) }} <span class="sepboth">and</span>
+        {{- else if lt $index (add $num_author -1) }}<span class="sep">,</span>{{- end }}
+        {{- else if lt $index (add $num_author -1) }}<span class="sep">,</span> {{- end }}
+        {{- end }}
+        <span class="award-title">{{ $title }}</span>
+        {{ if ($.Scratch.Get "note") }}<span class="note">{{ $.Scratch.Get "note" }}</span>{{end -}}
+        <br>
+        <span class="citeinfo">
+            {{ $giver }}
+            {{ $booktitle }}
+            {{- if .r.volume -}}
+            <span class="sep">,</span> vol. {{ .r.volume -}}
             {{- end -}}
-
-            {{- if .r.naid }}
-            <div class="control" style="vertical-align:0.05em;">
-                <a href="https://ci.nii.ac.jp/naid/{{ .r.naid }}/">
-                    <div class="tags has-addons">
-                        <span class="tag is-primary" style="font-size: 60%; font-weight:700">CiNii</span>
-                        <span class="tag is-primary" style="font-size: 60%; font-weight:400"><span class="limitter">{{ .r.naid }}</span></span>
-                    </div>
-                </a>
-            </div>
+            {{- if .r.number -}}
+            <span class="sep">,</span> no. {{ .r.number -}}
             {{- end -}}
-
-            {{- if .r.jglobalid }}
-            <div class="control" style="vertical-align:0.05em;">
-                <a href="http://jglobal.jst.go.jp/detail?JGLOBAL_ID={{ .r.jglobalid }}">
-                    <div class="tags has-addons">
-                        <span class="tag is-primary" style="font-size: 60%; font-weight:700">J-GLOBAL ID</span>
-                        <span class="tag is-primary" style="font-size: 60%; font-weight:400"><span class="limitter">{{ .r.jglobalid }}</span></span>
-                    </div>
-                </a>
-            </div>
+            {{- if (and .r.page_begin .r.page_end) -}}
+            <span class="sep">,</span> pp. {{ .r.page_begin }}&ndash;{{ .r.page_end }}
+            {{- else if .r.page_begin -}}
+            <span class="sep">,</span> {{ .r.page_begin }}
             {{- end -}}
+            {{- if .r.publication_date }}
+            <span class="year" style="margin-left:0.3em;">({{- partial "format-date.html" (dict "date" .r.publication_date "lang" $page_lang) }})</span>
+            {{- end }}
+            {{- if or .r.doi .r.naid .r.jglobalid .r.url }}
+            <div class="field is-grouped is-grouped-multiline" style="margin-top:0.2em;">
+                {{- if .r.doi -}}
+                <div class="control" style="vertical-align:0.05em;">
+                    <a href="https://doi.org/{{ .r.doi }}">
+                        <div class="tags has-addons">
+                            <span class="tag is-primary" style="font-size: 60%; font-weight:700">DOI</span>
+                            <span class="tag is-primary" style="font-size: 60%; font-weight:400"><span
+                                    class="limitter">{{ .r.doi }}</span></span>
+                        </div>
+                    </a>
+                </div>
+                {{- end -}}
 
-            {{- if .r.url }}
-            <div class="control" style="vertical-align:0.05em;">
-                <a href="{{ .r.url }}">
-                    <div class="tags has-addons">
-                        <span class="tag is-primary" style="font-size: 60%; font-weight:700">URL</span>
-                        <span class="tag is-primary" style="font-size: 60%; font-weight:400"><span class="limitter">{{ .r.url }}</span></span>
-                    </div>
-                </a>
+                {{- if .r.naid }}
+                <div class="control" style="vertical-align:0.05em;">
+                    <a href="https://ci.nii.ac.jp/naid/{{ .r.naid }}/">
+                        <div class="tags has-addons">
+                            <span class="tag is-primary" style="font-size: 60%; font-weight:700">CiNii</span>
+                            <span class="tag is-primary" style="font-size: 60%; font-weight:400"><span
+                                    class="limitter">{{ .r.naid }}</span></span>
+                        </div>
+                    </a>
+                </div>
+                {{- end -}}
+
+                {{- if .r.jglobalid }}
+                <div class="control" style="vertical-align:0.05em;">
+                    <a href="http://jglobal.jst.go.jp/detail?JGLOBAL_ID={{ .r.jglobalid }}">
+                        <div class="tags has-addons">
+                            <span class="tag is-primary" style="font-size: 60%; font-weight:700">J-GLOBAL ID</span>
+                            <span class="tag is-primary" style="font-size: 60%; font-weight:400"><span
+                                    class="limitter">{{ .r.jglobalid }}</span></span>
+                        </div>
+                    </a>
+                </div>
+                {{- end -}}
+
+                {{- if .r.url }}
+                <div class="control" style="vertical-align:0.05em;">
+                    <a href="{{ .r.url }}">
+                        <div class="tags has-addons">
+                            <span class="tag is-primary" style="font-size: 60%; font-weight:700">URL</span>
+                            <span class="tag is-primary" style="font-size: 60%; font-weight:400"><span
+                                    class="limitter">{{ .r.url }}</span></span>
+                        </div>
+                    </a>
+                </div>
+                {{- end }}
             </div>
             {{- end }}
-        </div>
-        {{- end }}
-    </span>
+        </span>
     </div>
 </li>
 {{- else -}}
-<li class="publication year-{{.r.year}} type-{{.r.type|urlize}}"  data-year="{{.r.year}}" data-type='{{.r.type}}' data-author='{{$class_authors| jsonify}}' data-pubdate='{{.r.publication_date}}'>
-    <h2 class="year-{{.r.year}}">{{ .r.year }}</h3>
-    <h3 class="type-{{.r.type|urlize}}">{{ i18n (printf "%s_%s" "publication_type" .r.type)}}</h3>
-    <div class="item">
-    <div class="counter"></div>
-    <span class="pubtitle">{{ $title }}</span>
-    {{ if ($.Scratch.Get "note") }}<span class="note">{{ $.Scratch.Get "note" }}</span>{{end -}}
-    <br>
-    {{- range $index, $author := $author_list }}
-    <span class="author">{{ $author }}</span>
-    {{- if eq $page_lang "en" }}
-    {{- if eq $index (add $num_author -2) }} <span class="sepboth">and</span> 
-    {{- else if lt $index (add $num_author -1) }}<span class="sep">,</span >{{- end }}
-    {{- else if lt $index (add $num_author -1) }}<span class="sep">,</span> {{- end }}
-    {{- end }}<br>
-    <span class="citeinfo">
-        {{ $booktitle }}
-        {{- if .r.volume -}}
-        <span class="sep">,</span> vol. {{ .r.volume -}}
-        {{- end -}}
-        {{- if .r.number -}}
-        <span class="sep">,</span> no. {{ .r.number -}}
-        {{- end -}}
-        {{- if (and .r.page_begin .r.page_end) -}}
-        <span class="sep">,</span> pp. {{ .r.page_begin }}&ndash;{{ .r.page_end }}
-        {{- else if .r.page_begin -}}
-        <span class="sep">,</span> {{ .r.page_begin }}
-        {{- end -}}
-        {{- if .r.year -}}
-        <span class="year" style="margin-left:0.3em;">({{ .r.year }})</span>
-        {{- end -}}
-        {{- if or .r.doi .r.naid .r.jglobalid .r.url }}
-        <div class="field is-grouped is-grouped-multiline" style="margin-top:0.2em;">
-            {{- if .r.doi -}}
-            <div class="control" style="vertical-align:0.05em;">
-                <a href="https://doi.org/{{ .r.doi }}">
-                    <div class="tags has-addons">
-                        <span class="tag is-primary" style="font-size: 60%; font-weight:700">DOI</span>
-                        <span class="tag is-primary" style="font-size: 60%; font-weight:400"><span class="limitter">{{ .r.doi }}</span></span>
+<li class="publication year-{{.r.year}} type-{{.r.type|urlize}}" data-year="{{.r.year}}" data-type='{{.r.type}}'
+    data-author='{{$class_authors| jsonify}}' data-pubdate='{{.r.publication_date}}'>
+    <h2 class="year-{{.r.year}}">{{ .r.year }}</h2>
+        <h3 class="type-{{.r.type|urlize}}">{{ i18n (printf "%s_%s" "publication_type" .r.type)}}</h3>
+        <div class="item">
+            <div class="counter"></div>
+            <span class="pubtitle">{{ $title }}</span>
+            {{ if ($.Scratch.Get "note") }}<span class="note">{{ $.Scratch.Get "note" }}</span>{{end -}}
+            <br>
+            {{- range $index, $author := $author_list }}
+            <span class="author">{{ $author }}</span>
+            {{- if eq $page_lang "en" }}
+            {{- if eq $index (add $num_author -2) }} <span class="sepboth">and</span>
+            {{- else if lt $index (add $num_author -1) }}<span class="sep">,</span>{{- end }}
+            {{- else if lt $index (add $num_author -1) }}<span class="sep">,</span> {{- end }}
+            {{- end }}<br>
+            <span class="citeinfo">
+                {{ $booktitle }}
+                {{- if .r.volume -}}
+                <span class="sep">,</span> vol. {{ .r.volume -}}
+                {{- end -}}
+                {{- if .r.number -}}
+                <span class="sep">,</span> no. {{ .r.number -}}
+                {{- end -}}
+                {{- if (and .r.page_begin .r.page_end) -}}
+                <span class="sep">,</span> pp. {{ .r.page_begin }}&ndash;{{ .r.page_end }}
+                {{- else if .r.page_begin -}}
+                <span class="sep">,</span> {{ .r.page_begin }}
+                {{- end -}}
+                {{- if .r.publication_date }}
+                <span class="year" style="margin-left:0.3em;">({{- partial "format-date.html" (dict "date" .r.publication_date "lang" $page_lang) }})</span>
+                {{- end }}
+                {{- if or .r.doi .r.naid .r.jglobalid .r.url }}
+                <div class="field is-grouped is-grouped-multiline" style="margin-top:0.2em;">
+                    {{- if .r.doi -}}
+                    <div class="control" style="vertical-align:0.05em;">
+                        <a href="https://doi.org/{{ .r.doi }}">
+                            <div class="tags has-addons">
+                                <span class="tag is-primary" style="font-size: 60%; font-weight:700">DOI</span>
+                                <span class="tag is-primary" style="font-size: 60%; font-weight:400"><span
+                                        class="limitter">{{ .r.doi }}</span></span>
+                            </div>
+                        </a>
                     </div>
-                </a>
-            </div>
-            {{- end -}}
+                    {{- end -}}
 
-            {{- if .r.naid }}
-            <div class="control" style="vertical-align:0.05em;">
-                <a href="https://ci.nii.ac.jp/naid/{{ .r.naid }}/">
-                    <div class="tags has-addons">
-                        <span class="tag is-primary" style="font-size: 60%; font-weight:700">CiNii</span>
-                        <span class="tag is-primary" style="font-size: 60%; font-weight:400"><span class="limitter">{{ .r.naid }}</span></span>
+                    {{- if .r.naid }}
+                    <div class="control" style="vertical-align:0.05em;">
+                        <a href="https://ci.nii.ac.jp/naid/{{ .r.naid }}/">
+                            <div class="tags has-addons">
+                                <span class="tag is-primary" style="font-size: 60%; font-weight:700">CiNii</span>
+                                <span class="tag is-primary" style="font-size: 60%; font-weight:400"><span
+                                        class="limitter">{{ .r.naid }}</span></span>
+                            </div>
+                        </a>
                     </div>
-                </a>
-            </div>
-            {{- end -}}
+                    {{- end -}}
 
-            {{- if .r.jglobalid }}
-            <div class="control" style="vertical-align:0.05em;">
-                <a href="http://jglobal.jst.go.jp/detail?JGLOBAL_ID={{ .r.jglobalid }}">
-                    <div class="tags has-addons">
-                        <span class="tag is-primary" style="font-size: 60%; font-weight:700">J-GLOBAL ID</span>
-                        <span class="tag is-primary" style="font-size: 60%; font-weight:400"><span class="limitter">{{ .r.jglobalid }}</span></span>
+                    {{- if .r.jglobalid }}
+                    <div class="control" style="vertical-align:0.05em;">
+                        <a href="http://jglobal.jst.go.jp/detail?JGLOBAL_ID={{ .r.jglobalid }}">
+                            <div class="tags has-addons">
+                                <span class="tag is-primary" style="font-size: 60%; font-weight:700">J-GLOBAL ID</span>
+                                <span class="tag is-primary" style="font-size: 60%; font-weight:400"><span
+                                        class="limitter">{{ .r.jglobalid }}</span></span>
+                            </div>
+                        </a>
                     </div>
-                </a>
-            </div>
-            {{- end -}}
+                    {{- end -}}
 
-            {{- if .r.url }}
-            <div class="control" style="vertical-align:0.05em;">
-                <a href="{{ .r.url }}">
-                    <div class="tags has-addons">
-                        <span class="tag is-primary" style="font-size: 60%; font-weight:700">URL</span>
-                        <span class="tag is-primary" style="font-size: 60%; font-weight:400"><span class="limitter">{{ .r.url }}</span></span>
+                    {{- if .r.url }}
+                    <div class="control" style="vertical-align:0.05em;">
+                        <a href="{{ .r.url }}">
+                            <div class="tags has-addons">
+                                <span class="tag is-primary" style="font-size: 60%; font-weight:700">URL</span>
+                                <span class="tag is-primary" style="font-size: 60%; font-weight:400"><span
+                                        class="limitter">{{ .r.url }}</span></span>
+                            </div>
+                        </a>
                     </div>
-                </a>
-            </div>
-            {{- end }}
+                    {{- end }}
+                </div>
+                {{- end }}
+            </span>
         </div>
-        {{- end }}
-    </span>
-    </div>
 </li>
 {{- end -}}

@@ -1,0 +1,22 @@
+{{- if (or (le (len .date) 5) (eq (substr .date 4 2) "00")) }}
+{{- $time := (time (printf "%s-01-01" (substr .date 0 4))) }}
+{{- if eq .lang "en" }}
+{{- $time.Year }}
+{{- else }}
+{{- $time.Year }}年
+{{- end }}
+{{- else if (or (le (len .date) 7) (eq (substr .date 6 2) "00")) }}
+{{- $time := (time (printf "%s-%s-01" (substr .date 0 4) (substr .date 4 2))) }}
+{{- if eq .lang "en" }}
+{{- $time.Month }}, {{ $time.Year }}
+{{- else }}
+{{- $time.Year }}年{{- (printf "%d" $time.Month) }}月
+{{- end }}
+{{- else }}
+{{- $time := (time (printf "%s-%s-%s" (substr .date 0 4) (substr .date 4 2) (substr .date 6 2))) }}
+{{- if eq .lang "en" }}
+{{- $time.Month }} {{ $time.Day }}, {{ $time.Year }}
+{{- else }}
+{{- $time.Year }}年{{- (printf "%d" $time.Month) }}月{{- $time.Day }}日
+{{- end }}
+{{- end }}
