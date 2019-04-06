@@ -1,6 +1,8 @@
 # 研究業績の管理
 
-## 更新方法
+努力の成果を記録に残しましょう．
+
+## 更新方法の概略
 
 [/data/publications/current.toml](/data/publications/current.toml) に追記する
 
@@ -13,8 +15,69 @@
 で書き方が違うので，最低限同じカテゴリのデータを，
 できれば同じ論文誌/会議のデータを参考にする．
 
+## メモ
+
+### 著者名について
+
+ * 名前を間違えると名寄せに失敗するので特に注意する．  
+   英語表記の名前と日本語表記の名前の両方が必要である．
+ * [/data/members.toml](/data/members.toml), [/data/alimuni.toml](/data/alumni.toml) にある名前だけが  
+   [研究業績のページ](https://control.kuaero.kyoto-u.ac.jp/ja/publications/)
+   のリストに現れるので，こちらとの表記の一致も重要．
+
+### 書誌情報について
+
+ * 講演集が電子媒体でページ番号が判然としないときは
+   page_begin に識別子となりそうな情報（講演番号など）を入れておく．例えば  
+   ```
+   page_begin = "311-3" 
+   ``` 
+   みたいな感じ，page_endは書かなくてよい．
+
+ * publication_date は必須．  
+   ```
+   publication_date = "20190412"
+   ```  
+   のような形式で入力する．公開日が判然としないときは  
+   ``` 
+   publication_date = "201904"
+   publication_date = "2019"
+   ```   
+   のような感じで確実なところまで入力する．  
+   ちなみに4文字以下だとビルドが通らなくなるはず．
+
+   出版日未決定の場合は
+   ``` 
+   publication_date = "20xx"
+   ```   
+   で行けると思うが未確認．Research Map への出力は特に怪しい．
+
+ * 外部のデータベースとの紐づけが欲しいので，  
+   1. [DOI](https://ja.wikipedia.org/wiki/デジタルオブジェクト識別子) がついているときは最優先で記入する．  
+   2. なければ[NAID](https://ja.wikipedia.org/wiki/CiNii)やJglobalIDがついていないかを確認し，あれば記入する．
+   3. それらもない場合，講演情報などが記載された外部のページがあれば URL を記載する．
+
+ * 研究室外のデータ用のフラグがある．
+   ```
+   outside_kuaero = true
+   ```
+   このフラグが立っているデータは[個人ごとの表示](https://control.kuaero.kyoto-u.ac.jp/ja/publications/#ichiro-maruta)の時のみに表示され，[研究室の業績一覧](https://control.kuaero.kyoto-u.ac.jp/ja/publications/)では表示されない．
+
+   * Research Map 用の出力に研究室外（研究室加入以前）の業績を入れたい
+   * 研究室とは関係ないが個人的に宣伝したい業績がある
+
+   ときの利用を想定．
+### [/data/publications/](/data/publications/) 配下のファイルについて
+
+* [awards.toml](/data/publications/awards) の内容は[受賞のページ](https://control.kuaero.kyoto-u.ac.jp/ja/awards/)にも列挙される．
+* それ以外のファイルのどれに記入しても挙動に差はない．
+* autogen_ で始まるファイルは京大のデータベースから自動生成したものなので修正以外の変更は加えない．
+* old_ で始まるファイルは管理者が研究室に加入する以前の情報をネットから収集したものなので正確さに注意する．
+* その他注意を要するデータを加える時はファイルを分ける．
+
 ## Bookmarklet
-古典的だが Bookmarklet で書誌情報を抜き出す
+
+古典的だが Bookmarklet で書誌情報を抜き出す作業を自動化した．
 
 ### IEEE Xplore用
 1. 下記のJavaScriptコードをURLとしてブックマークに登録
@@ -28,7 +91,7 @@ javascript:(function(){let data={};data.reviewed=true;data.lang="en";data.en_tit
 Chromeではダイアログから文字列をコピペできない．  
 Firefoxを使うか，コードの最後にあるalertをconfirmに書き換える．
 
-## メモ
+## 設計方針のメモ
 
  * 研究業績のデータは研究者個人にとっても重要かつ更新がめんどくさい．
  * 科研費の応募と京都大学教員のデータベースが researchmap に依存しているので
