@@ -14,7 +14,7 @@
 ### メンバーの更新
 [members.toml](data/members.toml), [alumni.toml](data/alumni.toml)を更新する．
 
-### 研究業績の更新
+### 研究業績・受賞の更新
 [研究業績の管理](/doc/publication.md)を参照
 
 ### お知らせ
