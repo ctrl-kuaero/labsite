@@ -32,3 +32,12 @@ ja_title = "SCI学生発表賞"
 publication_date = "20170523"
 type = "award"
 url = "https://sci17.iscie.or.jp/award"
+
+[[record]]
+en_author = "Yuki Okura"
+ja_author = "大倉 裕貴"
+ja_giver = "京都大学大学院工学研究科"
+ja_title = "工学研究科馬詰研究奨励賞"
+publication_date = "20160715"
+type = "award"
+url = "https://www.t.kyoto-u.ac.jp/ja/news/topics/sa/20160715"
