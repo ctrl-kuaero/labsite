@@ -1,4 +1,12 @@
 [[record]]
+en_author = "Hirofumi Beppu"
+ja_author = "別府 啓史"
+ja_giver = "日本機械学会"
+ja_title = "三浦賞"
+publication_date = "20190325"
+type = "award"
+
+[[record]]
 en_author = "Kiyoshi Hamada"
 ja_author = "濱田 聖司"
 ja_giver = "システム制御情報学会"
@@ -7,13 +15,13 @@ publication_date = "20190310"
 type = "award"
 
 [[record]]
-en_author = "Tomohiro Otsu"
-ja_author = "大津 智宏"
-ja_giver = "SCI'18 実行委員会"
-ja_title = "SCI学生発表賞"
-publication_date = "20180517"
+en_author = "Kiyoshi Hamada"
+ja_author = "濱田 聖司"
+ja_giver = "第61回自動制御連合講演会 実行委員会"
+ja_title = "優秀発表賞"
+publication_date = "20181204"
 type = "award"
-url = "https://sci18.iscie.or.jp/public/_site/award/#学生発表賞"
+url = "https://rengo61.iscie.or.jp/prize.html"
 
 [[record]]
 en_author = "Yuki Okura"
@@ -25,6 +33,33 @@ type = "award"
 url = "https://sci18.iscie.or.jp/public/_site/award/#学生発表賞"
 
 [[record]]
+en_author = "Tomohiro Otsu"
+ja_author = "大津 智宏"
+ja_giver = "SCI'18 実行委員会"
+ja_title = "SCI学生発表賞"
+publication_date = "20180517"
+type = "award"
+url = "https://sci18.iscie.or.jp/public/_site/award/#学生発表賞"
+
+[[record]]
+en_author = "Juro Nishioka"
+ja_author = "西岡 寿朗"
+ja_giver = "日本機械学会"
+ja_title = "三浦賞"
+publication_date = "20180326"
+type = "award"
+url = "https://www.jsme.or.jp/archive/award/miura-17.pdf"
+
+[[record]]
+en_author = "Hirofumi Beppu"
+ja_author = "別府 啓史"
+ja_giver = "京都大学大学院工学研究科"
+ja_title = "吉田卒業研究・論文賞"
+publication_date = "20170609"
+type = "award"
+url = "https://www.t.kyoto-u.ac.jp/ja/news/topics/sa/20170609"
+
+[[record]]
 en_author = "Hirofumi Beppu"
 ja_author = "別府 啓史"
 ja_giver = "SCI'17 実行委員会"
@@ -34,6 +69,15 @@ type = "award"
 url = "https://sci17.iscie.or.jp/award"
 
 [[record]]
+en_author = "Yuji Takaki"
+ja_author = "高木 友士"
+ja_giver = "日本機械学会"
+ja_title = "三浦賞"
+publication_date = "20170323"
+type = "award"
+url = "https://www.jsme.or.jp/archive/award/miura-16.pdf"
+
+[[record]]
 en_author = "Yuki Okura"
 ja_author = "大倉 裕貴"
 ja_giver = "京都大学大学院工学研究科"
@@ -41,3 +85,30 @@ ja_title = "工学研究科馬詰研究奨励賞"
 publication_date = "20160715"
 type = "award"
 url = "https://www.t.kyoto-u.ac.jp/ja/news/topics/sa/20160715"
+
+[[record]]
+en_author = "Teppei Inoue"
+ja_author = "井上 鉄平"
+ja_giver = "日本機械学会"
+ja_title = "三浦賞"
+publication_date = "20160323"
+type = "award"
+url = "https://www.jsme.or.jp/archive/award/miura-15.pdf"
+
+[[record]]
+en_author = "Yuji Takaki"
+ja_author = "高木 友士"
+ja_giver = "日本航空宇宙学会"
+ja_title = "学生賞"
+publication_date = "20150324"
+type = "award"
+url = "https://www.jsass.or.jp/wp-content/uploads/2018/11/Listofstudentawardrecipients.pdf"
+
+[[record]]
+en_author = "Teppei Inoue"
+ja_author = "井上 鉄平"
+ja_giver = "日本航空宇宙学会"
+ja_title = "学生賞"
+publication_date = "20140325"
+type = "award"
+url = "https://www.jsass.or.jp/wp-content/uploads/2018/11/Listofstudentawardrecipients.pdf"
