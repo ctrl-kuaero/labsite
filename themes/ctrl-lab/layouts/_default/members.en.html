@@ -7,37 +7,37 @@
             <div class="columns is-centered" style="padding-bottom:2em;">
                 <div class="column is-12">
                     {{ with .Resources.GetMatch "members.jpg" }}
-                    {{ $image := .Fill "1600x800 q90" }} 
+                    {{ $image := .Fill "1600x800 q90" }}
                     <img src="{{ $image.RelPermalink }}" width="100%" alt="">
                     {{ end }}
-                </div>            
+                </div>
             </div>
             <div style="columns:20em;padding-bottom:4em;max-width:100%;">
-                    {{ range $.Site.Data.members.list }}
-                    {{ $ja_names := split .ja_name " " }}
-                    {{ $en_names := split .en_name " " }}
-                    <div style="margin-bottom:1.5em; font-size:1.2rem; width:35rem;max-width:100%;break-inside:avoid;">
-                        <div style="display:flex">
-                            <div style="font-size:0.8em;width:15rem;text-align:right;padding-right:1.5em;">
-                                <div class="position" style="padding-top:0.2em">
-                                    {{ .en_position | markdownify }}
-                                </div>
-                            </div>
-                            <div style="margin-right:1em;width:20rem;">
-                                <div class="namemain">
-                                    {{ index $en_names 0 }} {{ index $en_names 1 }}
-                                </div>
-                                {{ if .en_link_url }}
-                                <div>
-                                    <a href="{{ .en_link_url }}">
-                                        {{ .en_link_text | safeHTML }}
-                                    </a>
-                                </div>
-                                {{ end }}
+                {{ range $.Site.Data.members.list }}
+                {{ $ja_names := split .ja_name " " }}
+                {{ $en_names := split .en_name " " }}
+                <div style="margin-bottom:1.5em; font-size:1.2rem; width:35rem;max-width:100%;break-inside:avoid;">
+                    <div style="display:flex">
+                        <div style="font-size:0.8em;width:15rem;text-align:right;padding-right:1.5em;">
+                            <div class="position" style="padding-top:0.2em">
+                                {{ .en_position | markdownify }}
                             </div>
                         </div>
+                        <div style="margin-right:1em;width:20rem;">
+                            <div class="namemain">
+                                {{ index $en_names 0 }} {{ index $en_names 1 }}
+                            </div>
+                            {{ if .en_link_url }}
+                            <div>
+                                <a href="{{ .en_link_url }}">
+                                    {{ .en_link_text | safeHTML }}
+                                </a>
+                            </div>
+                            {{ end }}
+                        </div>
                     </div>
-                    {{ end }}
+                </div>
+                {{ end }}
             </div>
 
             <hr>
@@ -69,7 +69,16 @@
                 </div>
                 {{ end }}
             </div>
-
+            <div class="columns is-multiline">
+                {{ range sort (.Resources.Match "members_*.jpg") "Name" "desc" }}
+                {{ $image := .Fit "1200x900 q90" }}
+                <div class="column is-6">
+                    <figure class="image ">
+                        <img src="{{ $image.RelPermalink }}" width="100%" alt="">
+                    </figure>
+                </div>
+                {{ end }}
+            </div>
         </div>
     </div>
 </section>
