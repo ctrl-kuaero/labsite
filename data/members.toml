@@ -63,6 +63,12 @@ ja_position = "修士課程"
 en_position = "Master Student"
 
 [[list]]
+ja_name = "アンネ ペーターズ"
+en_name = "Anne PETERS"
+ja_position = "短期交流学生"
+en_position = "Short-Term International Student"
+
+[[list]]
 ja_name = "木村 洸介"
 en_name = "Kousuke KIMURA"
 ja_position = "修士課程"
