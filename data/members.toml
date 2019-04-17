@@ -93,6 +93,24 @@ ja_position = "修士課程"
 en_position = "Master Student"
 
 [[list]]
+ja_name = "平林 大輝"
+en_name = "Daiki HIRABAYASHI"
+ja_position = "学士課程"
+en_position = "Bachelor Student"
+
+[[list]]
+ja_name = "村上 巧"
+en_name = "Takumi MURAKAMI"
+ja_position = "学士課程"
+en_position = "Bachelor Student"
+
+[[list]]
+ja_name = "坂田 直樹"
+en_name = "Naoki SAKATA"
+ja_position = "学士課程"
+en_position = "Bachelor Student"
+
+[[list]]
 ja_name = "稲本 千尋"
 en_name = "Chihiro INAMOTO"
 ja_position = "技術補佐員"
