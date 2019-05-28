@@ -69,7 +69,7 @@
    ときの利用を想定．
 ### [/data/publications/](/data/publications/) 配下のファイルについて
 
-* [awards.toml](/data/publications/awards) の内容は[受賞のページ](https://control.kuaero.kyoto-u.ac.jp/ja/awards/)にも列挙される．
+* [awards.toml](/data/publications/awards.toml) の内容は[受賞のページ](https://control.kuaero.kyoto-u.ac.jp/ja/awards/)にも列挙される．
 * それ以外のファイルのどれに記入しても挙動に差はない．
 * autogen_ で始まるファイルは京大のデータベースから自動生成したものなので修正以外の変更は加えない．
 * old_ で始まるファイルは管理者が研究室に加入する以前の情報をネットから収集したものなので正確さに注意する．

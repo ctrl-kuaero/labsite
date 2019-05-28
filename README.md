@@ -1,6 +1,6 @@
 # 制御研公開サイトのソース
 
-[京都大学大学院 工学研究科 航空宇宙工学専攻 制御工学研究室のWebサイト](http://control.kuaero.kyoto-u.ac.jp/)
+[京都大学大学院 工学研究科 航空宇宙工学専攻 制御工学研究室のWebサイト](https://control.kuaero.kyoto-u.ac.jp/)
 
 のソースです．[Hugo](https://gohugo.io/)を使っていて，
 このレポジトリのmasterブランチにpushすると自動で更新されます．
