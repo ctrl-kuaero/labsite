@@ -358,7 +358,7 @@ ja_title = "二輪ローバーの状態制約を満たした軌道生成手法�
 en_title = "On trajectory generation with state constraints for a four wheel rover"
 ja_booktitle = "第61回システム制御情報学会研究発表講演会講演論文集"
 en_booktitle = "Proceedings of the 61st Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
-publication_date = "20170500"
+publication_date = "20170525"
 naid = "40021220350"
 jglobalid = "201702244064539225"
 page_begin = "321-2"
@@ -417,9 +417,24 @@ ja_title = "ガウス過程回帰を用いたHamilton-Jacobi不等式の数値�
 en_title = "Numerical solutions for Hamilton-Jacobi inequalities by Gaussian process regression"
 ja_booktitle = "第61回システム制御情報学会研究発表講演会講演論文集"
 en_booktitle = "Proceedings of the 61st Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
-publication_date = "20170500"
+publication_date = "20170523"
 naid = "40021218878"
 page_begin = "136-8"
+
+[[record]]
+type = "domestic_conference"
+lang = "ja"
+reviewed = false
+invited = false
+ja_author = "橋本 宙明, 藤本 健治"
+en_author = "Hiroaki Hashimoto, Kenji Fujimoto"
+ja_title = "モデル予測制御を用いたコントロール・モーメント・ジャイロの内部特異点回避および通過制御"
+en_title = "Internal singularity avoidance and passing of control moment gyroscopes using model predictive control"
+ja_booktitle = "第61回システム制御情報学会研究発表講演会講演論文集"
+en_booktitle = "Proceedings of the 61st Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
+publication_date = "20170525"
+naid = "40021220362"
+page_begin = "321-3"
 
 [[record]]
 en_author = "Kiyoshi Hamada, Ichiro Maruta, Kenji Fujimoto, Kenichi Hamamoto"
