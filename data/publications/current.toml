@@ -1,4 +1,34 @@
 [[record]]
+type = "domestic_conference"
+lang = "ja"
+reviewed = false
+invited = false
+ja_author = "西田 周平, 丸田 一郎, 藤本 健治"
+en_author = "Shuhei Nishida, Ichiro Maruta, Kenji Fujimoto"
+ja_title = "逐次近似を用いたHamilton-Jacobi-Bellman方程式の数値解法に関する一考察"
+en_title = "A study on Numerical solutions of Hamilton-Jacobi-Bellman Equations based on Successive Approximation Approach"
+ja_booktitle = "第63回システム制御情報学会研究発表講演会講演論文集"
+en_booktitle = "Proceedings of the 63rd Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
+publication_date = "20190522"
+page_begin = "571"
+page_end = "578"
+
+[[record]]
+type = "domestic_conference"
+lang = "ja"
+reviewed = false
+invited = false
+ja_author = "小林 寛幸, 大倉 裕貴, 丸田 一郎, 藤本 健治, 河田 武之, 斎藤 暁生, 池田 英俊"
+en_author = "Shuhei Nishida, Yuki Okura, Ichiro Maruta, Kenji Fujimoto, Takeyuki Kawata, Akio Saito, Hidetoshi Ikeda"
+ja_title = "分岐経路に対応したアシスト制御系の設計について"
+en_title = "On Design of Asist Control System Corresponding to Branch Path"
+ja_booktitle = "第63回システム制御情報学会研究発表講演会講演論文集"
+en_booktitle = "Proceedings of the 63rd Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
+publication_date = "20190522"
+page_begin = "364"
+page_end = "371"
+
+[[record]]
 en_author = "Ichiro Maruta"
 en_booktitle = "Journal of The Society of Instrument and Control Engineers"
 en_title = "A Factor of Machine Learning Boom Analyzed by a Control Researcher with Data"
