@@ -14,6 +14,7 @@ ja_giver = "日本機械学会"
 ja_title = "2018年度 日本機械学会 三浦賞"
 publication_date = "20190325"
 type = "award"
+url = "https://www.jsme.or.jp/archive/award/miura-18.pdf"
 
 [[record]]
 en_author = "Kiyoshi Hamada"
@@ -22,6 +23,7 @@ ja_giver = "システム制御情報学会"
 ja_title = "2019年度 システム制御情報学会 学会賞 奨励賞"
 publication_date = "20190311"
 type = "award"
+url = "https://www.iscie.or.jp/about/award"
 
 [[record]]
 en_author = "Kiyoshi Hamada"
