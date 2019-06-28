@@ -1,6 +1,6 @@
 [[record]]
 en_author = "Tasuku Kodama, Kenji Fujimoto, Ichiro Maruta"
-en_booktitle = "Proceedings of 32nd International Symposium on Space Technology and Science (ISTS)"
+en_booktitle = "Proceedings of the 32nd International Symposium on Space Technology and Science (ISTS)"
 en_title = "On Rendezvous Trajectory Design of Earth Orbiting Satellites with Robust L1-Optimal Control for Parameter Variations"
 lang = "en"
 page_begin = "2019-d-002"
@@ -211,7 +211,7 @@ volume = "61"
 
 [[record]]
 en_author = "Dijian Chen, Kenji Fujimoto"
-en_booktitle = "Proceedings of 31st International Symposium on Space Technology and Science (ISTS)"
+en_booktitle = "Proceedings of the 31st International Symposium on Space Technology and Science (ISTS)"
 en_title = "Rendezvous Control of Spacecrafts via Constrained Optimal Control Using Generating Functions"
 lang = "en"
 page_begin = "2017-d-117/ISSFD-2017-117"
