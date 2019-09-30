@@ -10,7 +10,7 @@ reviewed = true
 type = "international_conference"
 
 [[record]]
-en_author = "Shuhei Nishisda, Ichiro Maruta, Kenji Fujimoto"
+en_author = "Shuhei Nishida, Ichiro Maruta, Kenji Fujimoto"
 en_booktitle = "Proceedings of the SICE Annual Conference 2019"
 en_title = "A Study on Numerical Solutions of Hamilton-Jacobi-Bellman Equations Based on Successive Approximation Approach"
 lang = "en"
