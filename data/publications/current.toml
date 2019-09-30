@@ -1,7 +1,7 @@
 [[record]]
 en_author = "Kiyoshi Hamada, Ichiro Maruta, Kenji Fujimoto, Kenniti Hamamoto"
 en_booktitle = "Proceedings of the SICE Annual Conference 2019"
-en_title = "A Study on Numerical Solutions of Hamilton-Jacobi-Bellman Equations Based on Successive Approximation Approach"
+en_title = "On Circular-Clothoid Trajectory Generation for Front Steering Vehicles Based on L1/L2-Optimal Control"
 lang = "en"
 page_begin = "1741"
 page_end = "1744"
