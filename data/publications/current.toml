@@ -1,4 +1,26 @@
 [[record]]
+en_author = "Kiyoshi Hamada, Ichiro Maruta, Kenji Fujimoto, Kenniti Hamamoto"
+en_booktitle = "Proceedings of the SICE Annual Conference 2019"
+en_title = "A Study on Numerical Solutions of Hamilton-Jacobi-Bellman Equations Based on Successive Approximation Approach"
+lang = "en"
+page_begin = "1741"
+page_end = "1744"
+publication_date = "20190913"
+reviewed = true
+type = "international_conference"
+
+[[record]]
+en_author = "Shuhei Nishisda, Ichiro Maruta, Kenji Fujimoto"
+en_booktitle = "Proceedings of the SICE Annual Conference 2019"
+en_title = "A Study on Numerical Solutions of Hamilton-Jacobi-Bellman Equations Based on Successive Approximation Approach"
+lang = "en"
+page_begin = "652"
+page_end = "655"
+publication_date = "20190912"
+reviewed = true
+type = "international_conference"
+
+[[record]]
 en_author = "Tasuku Kodama, Kenji Fujimoto, Ichiro Maruta"
 en_booktitle = "Proceedings of the 32nd International Symposium on Space Technology and Science (ISTS)"
 en_title = "On Rendezvous Trajectory Design of Earth Orbiting Satellites with Robust L1-Optimal Control for Parameter Variations"
