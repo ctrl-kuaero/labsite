@@ -1,4 +1,15 @@
 [[record]]
+en_author = "Ryotaro Shima, Yuki Okura, Kenji Fujimoto, Ichiro Maruta"
+en_booktitle = "Proceedings of the  11th IFAC Symposium on Nonlinear Control Systems (NOLCOS 2019)"
+en_title = "On path following control of nonholonomic port-Hamiltonian systems via generalized canonical transformations"
+lang = "en"
+page_begin = "440"
+page_end = "445"
+publication_date = "20190904"
+reviewed = true
+type = "international_conference"
+
+[[record]]
 en_author = "Kiyoshi Hamada, Ichiro Maruta, Kenji Fujimoto, Kenniti Hamamoto"
 en_booktitle = "Proceedings of the SICE Annual Conference 2019"
 en_title = "On Circular-Clothoid Trajectory Generation for Front Steering Vehicles Based on L1/L2-Optimal Control"
