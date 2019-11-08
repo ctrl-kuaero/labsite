@@ -1,6 +1,15 @@
 [[record]]
 en_author = "Ichiro Maruta"
 ja_author = "丸田 一郎"
+ja_giver = "（株）堀場製作所"
+ja_title = "2019堀場雅夫賞"
+publication_date = "20191017"
+type = "award"
+url = "http://www.mh-award.org/year/2019/"
+
+[[record]]
+en_author = "Ichiro Maruta"
+ja_author = "丸田 一郎"
 ja_giver = "計測自動制御学会"
 ja_title = "2019年度計測自動制御学会著述賞"
 publication_date = "20190912"
