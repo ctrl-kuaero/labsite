@@ -7,8 +7,7 @@ en_title = "2019 Masao Horiba Awards"
 ja_title = "2019堀場雅夫賞"
 publication_date = "20191017"
 type = "award"
-en_url = "http://www.mh-award.org/en/year/2019/"
-ja_url = "http://www.mh-award.org/year/2019/"
+url = "http://www.mh-award.org/year/2019/"
 
 [[record]]
 en_author = "Ichiro Maruta"
