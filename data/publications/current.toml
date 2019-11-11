@@ -1,4 +1,46 @@
 [[record]]
+en_author = "Ichiro Maruta, Toshiharu Sugie"
+ja_author = "丸田 一郎，杉江 俊治"
+ja_booktitle = "第62回自動制御連合講演会講演論文集"
+en_booktitle = "Proceedings of the 62nd Japan Joint Automatic Control Conference"
+ja_title = "安定化出力誤差法による閉ループシステム同定におけるノイズモデルの同定"
+en_title = "Closed-loop System Identification by Stabilized Output Error Method and Identification of Noise Models"
+lang = "ja"
+page_begin = "2J2-02"
+publication_date = "20191110"
+reviewed = false
+invited = false
+type = "domestic_conference"
+
+[[record]]
+en_author = "Inuzuka Kosuke, Shun-ichi Azuma, Ichiro Maruta, Ryo Ariizumi, Toru Asai"
+ja_author = "犬塚 康介，東 俊一，丸田 一郎，有泉 亮，浅井 徹"
+ja_booktitle = "第62回自動制御連合講演会講演論文集"
+en_booktitle = "Proceedings of the 62nd Japan Joint Automatic Control Conference"
+ja_title = "リニア信号機による交通流制御の性能解析"
+en_title = "Performance Analysis of Traffic Flow Control by Linear Traffic Lights"
+lang = "ja"
+page_begin = "1E2-01"
+publication_date = "20191109"
+reviewed = false
+invited = false
+type = "domestic_conference"
+
+[[record]]
+en_author = "Tomohiro Otsu, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "大津 智宏，丸田 一郎，藤本 健治"
+ja_booktitle = "第62回自動制御連合講演会講演論文集"
+en_booktitle = "Proceedings of the 62nd Japan Joint Automatic Control Conference"
+ja_title = "逆時間シミュレーションによる最適軌道データベースの効率的な構築とデータ駆動型最適制御"
+en_title = "Efficient Construction of an Optimal Trajectory Database Based on Backward Integration and Data-driven Optimal Control"
+lang = "ja"
+page_begin = "1F3-06"
+publication_date = "20191109"
+reviewed = false
+invited = false
+type = "domestic_conference"
+
+[[record]]
 en_author = "Ryotaro Shima, Yuki Okura, Kenji Fujimoto, Ichiro Maruta"
 en_booktitle = "Proceedings of the  11th IFAC Symposium on Nonlinear Control Systems (NOLCOS 2019)"
 en_title = "On path following control of nonholonomic port-Hamiltonian systems via generalized canonical transformations"
