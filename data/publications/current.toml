@@ -1,4 +1,17 @@
 [[record]]
+en_author = "Ryotaro Shima, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "島 遼太朗，藤本 健治，丸田 一郎"
+ja_booktitle = "第56回日本航空宇宙学会関西･中部支部合同秋季大会論文集"
+en_booktitle = "Proceedings of the 56th JSASS Autumn Conference Held by Kansai Branch and Chubu Branch"
+ja_title = "偏差系の構成による宇宙ロボットの姿勢制御の経路追従制御について"
+en_title = "On Path Following Control of Space Robot Attitude via Constructing Error Systems"
+lang = "ja"
+publication_date = "20191130"
+reviewed = false
+invited = false
+type = "domestic_conference"
+
+[[record]]
 en_author = "Ichiro Maruta, Toshiharu Sugie"
 ja_author = "丸田 一郎，杉江 俊治"
 ja_booktitle = "第62回自動制御連合講演会講演論文集"
@@ -42,7 +55,7 @@ type = "domestic_conference"
 
 [[record]]
 en_author = "Ryotaro Shima, Yuki Okura, Kenji Fujimoto, Ichiro Maruta"
-en_booktitle = "Proceedings of the  11th IFAC Symposium on Nonlinear Control Systems (NOLCOS 2019)"
+en_booktitle = "Proceedings of the 11th IFAC Symposium on Nonlinear Control Systems (NOLCOS 2019)"
 en_title = "On path following control of nonholonomic port-Hamiltonian systems via generalized canonical transformations"
 lang = "en"
 page_begin = "440"
