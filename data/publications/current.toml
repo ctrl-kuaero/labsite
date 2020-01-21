@@ -1,4 +1,17 @@
 [[record]]
+ja_author = "児玉 匡, 藤本 健治, 丸田 一郎"
+en_author = "Tasuku Kodama, Kenji Fujimoto, Ichiro Maruta"
+ja_booktitle = "第63回宇宙科学技術連合講演会講演集"
+ja_title = "パラメータ変動に対してロバストな楕円軌道上地球周回衛星へのランデブー軌道設計について"
+en_title = "On Rendezvous Trajectory Design of Earth Orbiting Satellites in Elliptic Orbits with Robust Control for Parameter Variations"
+lang = "ja"
+page_begin = ""
+page_end = ""
+jglobalid = "201902214591044817"
+publication_date = "20191106"
+type = "domestic_conference"
+
+[[record]]
 en_author = "Ryotaro Shima, Kenji Fujimoto, Ichiro Maruta"
 ja_author = "島 遼太朗，藤本 健治，丸田 一郎"
 ja_booktitle = "第56回日本航空宇宙学会関西･中部支部合同秋季大会論文集"
@@ -105,6 +118,7 @@ lang = "en"
 page_begin = "399"
 page_end = "404"
 publication_date = "20190610"
+url = "https://ieeexplore.ieee.org/document/8765031"
 reviewed = true
 type = "international_conference"
 
@@ -120,6 +134,7 @@ en_title = "A study on Numerical solutions of Hamilton-Jacobi-Bellman Equations 
 ja_booktitle = "第63回システム制御情報学会研究発表講演会講演論文集"
 en_booktitle = "Proceedings of the 63rd Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
 publication_date = "20190522"
+naid = "40021910970"
 page_begin = "571"
 page_end = "578"
 
@@ -135,6 +150,7 @@ en_title = "On Design of Asist Control System Corresponding to Branch Path"
 ja_booktitle = "第63回システム制御情報学会研究発表講演会講演論文集"
 en_booktitle = "Proceedings of the 63rd Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
 publication_date = "20190522"
+naid = "40021910614"
 page_begin = "364"
 page_end = "371"
 
