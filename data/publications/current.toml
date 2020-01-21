@@ -166,10 +166,10 @@ en_title = "Solutions to Hamilton-Jacobi Inequalities Using Gaussian Pocess Regr
 lang = "ja"
 page_begin = "3F1-1"
 publication_date = "20190309"
+jglobalid = "201902226975359131"
 reviewed = false
 invited = false
 type = "domestic_conference"
-jglobalid = "201902226975359131"
 
 [[record]]
 en_author = "Risako Sasaki, Takahiro Kawaguchi, Ichiro Maruta, Shuichi Adachi, Jumpei Katashiba, Kensuke Osamura"
@@ -181,10 +181,10 @@ en_title = "System Identification of Rechargeable Batteries in Vehicles Using μ
 lang = "ja"
 page_begin = "2G2-3"
 publication_date = "20190308"
+jglobalid = "201902284346695520"
 reviewed = false
 invited = false
 type = "domestic_conference"
-jglobalid = "201902284346695520"
 
 [[record]]
 en_author = "Ryota Yoshimura, Ichiro Maruta, Kenji Fujimoto, Ken Sato, Yusuke Kobayashi"
@@ -196,10 +196,10 @@ en_title = "Optimization of Maps for Autonomous Vehicles Based on Reinforcement 
 lang = "ja"
 page_begin = "2G1-3"
 publication_date = "20190308"
+jglobalid = "201902241359678141"
 reviewed = false
 invited = false
 type = "domestic_conference"
-jglobalid = "201902241359678141"
 
 [[record]]
 type = "journal"
@@ -625,10 +625,10 @@ en_title = "On a method for generating easily trackable trajectory"
 lang = "ja"
 page_begin = "1F1-4"
 publication_date = "20190309"
+jglobalid = "201902225992796637"
 reviewed = false
 invited = false
 type = "domestic_conference"
-jglobalid = "201902225992796637"
 
 [[record]]
 en_author = "Kiyoshi Hamada, Ichiro Maruta, Kenji Fujimoto, Kenichi Hamamoto"
@@ -654,10 +654,10 @@ en_title = "On Essentially Global Stabilization of Spin-stabilized Spacecraft Us
 lang = "ja"
 page_begin = "1G2-2"
 publication_date = "20190309"
+jglobalid = "201902284569385498"
 reviewed = false
 invited = false
 type = "domestic_conference"
-jglobalid = "201902284569385498"
 
 [[record]]
 en_author = "Yuki Okura, Kenji Fujimoto"
