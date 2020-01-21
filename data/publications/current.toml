@@ -169,6 +169,7 @@ publication_date = "20190309"
 reviewed = false
 invited = false
 type = "domestic_conference"
+jglobalid = "201902226975359131"
 
 [[record]]
 en_author = "Risako Sasaki, Takahiro Kawaguchi, Ichiro Maruta, Shuichi Adachi, Jumpei Katashiba, Kensuke Osamura"
@@ -183,6 +184,7 @@ publication_date = "20190308"
 reviewed = false
 invited = false
 type = "domestic_conference"
+jglobalid = "201902284346695520"
 
 [[record]]
 en_author = "Ryota Yoshimura, Ichiro Maruta, Kenji Fujimoto, Ken Sato, Yusuke Kobayashi"
@@ -197,6 +199,7 @@ publication_date = "20190308"
 reviewed = false
 invited = false
 type = "domestic_conference"
+jglobalid = "201902241359678141"
 
 [[record]]
 type = "journal"
@@ -625,6 +628,7 @@ publication_date = "20190309"
 reviewed = false
 invited = false
 type = "domestic_conference"
+jglobalid = "201902225992796637"
 
 [[record]]
 en_author = "Kiyoshi Hamada, Ichiro Maruta, Kenji Fujimoto, Kenichi Hamamoto"
@@ -653,6 +657,7 @@ publication_date = "20190309"
 reviewed = false
 invited = false
 type = "domestic_conference"
+jglobalid = "201902284569385498"
 
 [[record]]
 en_author = "Yuki Okura, Kenji Fujimoto"
