@@ -21,6 +21,17 @@ type = "award"
 url = "http://www.sice-ctrl.jp/about/award/p1/2020-2/"
 
 [[record]]
+en_author = "Kiyoshi Hamada"
+ja_author = "濱田 聖司"
+en_giver = "The Society of Instrument and Control Engineers, Control Division"
+ja_giver = "計測自動制御学会 制御部門"
+en_title = "The 2020 SICE Control Division Young Investigators Award"
+ja_title = "2020年制御部門研究奨励賞"
+publication_date = "20200304"
+type = "award"
+url = "http://www.sice-ctrl.jp/about/award/p1/2020-2/"
+
+[[record]]
 en_author = "Ryotaro Shima"
 ja_author = "島 遼太朗"
 en_giver = "The Japan Society of Aeronautical and Space Sciences, Kansai Branch and Chubu Branch"
