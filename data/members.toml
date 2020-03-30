@@ -30,7 +30,11 @@ en_position = "Ph.D. Candidate"
 ja_name = "濱田 聖司"
 en_name = "Kiyoshi HAMADA"
 ja_position = "博士後期課程"
-en_position = "Ph.D. Candidate"
+en_position = "Ph.D. Student"
+ja_link_text = '<span class="tag is-primary">Personal Page</span>'
+en_link_text = '<span class="tag is-primary">Personal Page</span>'
+ja_link_url = "https://control.kuaero.kyoto-u.ac.jp/~hamada/ja/"
+en_link_url = "https://control.kuaero.kyoto-u.ac.jp/~hamada/en/"
 
 [[list]]
 ja_name = "別府 啓史"
