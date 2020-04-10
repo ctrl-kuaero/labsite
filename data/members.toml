@@ -43,28 +43,10 @@ ja_position = "博士後期課程<br>日本学術振興会<br>特別研究員DC1
 en_position = "Ph.D. Candidate"
 
 [[list]]
-ja_name = "大津 智宏"
-en_name = "Tomohiro OTSU"
-ja_position = "修士課程"
-en_position = "Master's Student"
-
-[[list]]
-ja_name = "島 遼太朗"
-en_name = "Ryotaro SHIMA"
-ja_position = "修士課程"
-en_position = "Master's Student"
-
-[[list]]
-ja_name = "田中 恵輔"
-en_name = "Keisuke TANAKA"
-ja_position = "修士課程"
-en_position = "Master's Student"
-
-[[list]]
-ja_name = "中川 弘喜"
-en_name = "Hiroki NAKAGAWA"
-ja_position = "修士課程"
-en_position = "Master's Student"
+ja_name = "TANG, Shengbing"
+en_name = "Shengbing TANG"
+ja_position = "博士後期課程"
+en_position = "Ph.D. Student"
 
 [[list]]
 ja_name = "木村 洸介"
@@ -92,19 +74,49 @@ en_position = "Master's Student"
 
 [[list]]
 ja_name = "平林 大輝"
-en_name = "Daiki HIRABAYASHI"
-ja_position = "学部生"
-en_position = "Undergraduate"
+en_name = "aiki HIRABAYASHI"
+ja_position = "修士課程"
+en_position = "Master's Student"
 
 [[list]]
 ja_name = "村上 巧"
 en_name = "Taku MURAKAMI"
-ja_position = "学部生"
-en_position = "Undergraduate"
+ja_position = "修士課程"
+en_position = "Master's Student"
 
 [[list]]
 ja_name = "坂田 直樹"
 en_name = "Naoki SAKATA"
+ja_position = "修士課程"
+en_position = "Master's Student"
+
+[[list]]
+ja_name = "中山 智香子"
+en_name = "Chikako NAKAYAMA"
+ja_position = "修士課程"
+en_position = "Master's Student"
+
+[[list]]
+ja_name = ""
+en_name = ""
+ja_position = "学部生"
+en_position = "Undergraduate"
+
+[[list]]
+ja_name = ""
+en_name = ""
+ja_position = "学部生"
+en_position = "Undergraduate"
+
+[[list]]
+ja_name = ""
+en_name = ""
+ja_position = "学部生"
+en_position = "Undergraduate"
+
+[[list]]
+ja_name = ""
+en_name = ""
 ja_position = "学部生"
 en_position = "Undergraduate"
 
