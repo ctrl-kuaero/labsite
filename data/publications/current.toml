@@ -1,4 +1,64 @@
 [[record]]
+en_author = "Keisuke Tanaka, Ichiro Maruta, Kenji Fujimoto, Yoshiharu Nishida, Tsutomu One, Tatsuya Fujii"
+ja_author = "田中 恵輔, 丸田 一郎, 藤本 健治, 西田 吉晴, 大根 努, 藤井 達也"
+ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム 講演論文集"
+en_booktitle = "Proceedings of the 7th Multi-symposium on Control Systems"
+ja_title = "UKFとガウス過程回帰を用いたアーク溶接における狙いズレの逐次推定"
+en_title = "Online Estimation of Deviate Distance in Arc Welding Using UKF and Gaussian Process Regression"
+lang = "ja"
+page_begin = "3I1-5"
+publication_date = "20200302"
+jglobalid = ""
+reviewed = false
+invited = false
+type = "domestic_conference"
+
+[[record]]
+en_author = "Tomohiro Otsu, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "大津 智宏, 丸田 一郎, 藤本 健治"
+ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム 講演論文集"
+en_booktitle = "Proceedings of the 7th Multi-symposium on Control Systems"
+ja_title = "RRTを用いたデータ駆動型最適制御におけるデータベースの構築"
+en_title = "Construction of a Database for Data-driven Optimal Control by RRT"
+lang = "ja"
+page_begin = "2A2-5"
+publication_date = "20200302"
+jglobalid = ""
+reviewed = false
+invited = false
+type = "domestic_conference"
+
+[[record]]
+en_author = "Ryotaro Shima, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "島 遼太朗, 藤本 健治, 丸田 一郎"
+ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム 講演論文集"
+en_booktitle = "Proceedings of the 7th Multi-symposium on Control Systems"
+ja_title = "経路の束の設計による非ホロノミックなポートハミルトン系の経路追従制御について"
+en_title = "On Path Following Control of Nonholonomic Port-Hamiltonian Systems by Designing a Family of Paths"
+lang = "ja"
+page_begin = "1H2-4"
+publication_date = "20200302"
+jglobalid = ""
+reviewed = false
+invited = false
+type = "domestic_conference"
+
+[[record]]
+en_author = "Hiroki Nakagawa, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "中川 弘喜, 藤本 健治, 丸田 一郎"
+ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム 講演論文集"
+en_booktitle = "Proceedings of the 7th Multi-symposium on Control Systems"
+ja_title = "非線形マルチエージェントシステムにおける時変で未知の通信遅れの下での出力合意制御について"
+en_title = "On Output Consensus Control for Nonlinear Multi-Agent Systems with Uncertain Time-Varying Communication Delays"
+lang = "ja"
+page_begin = "1F1-5"
+publication_date = "20200302"
+jglobalid = "2020"
+reviewed = false
+invited = false
+type = "domestic_conference"
+
+[[record]]
 ja_author = "児玉 匡, 藤本 健治, 丸田 一郎"
 en_author = "Tasuku Kodama, Kenji Fujimoto, Ichiro Maruta"
 ja_booktitle = "第63回宇宙科学技術連合講演会講演集"
