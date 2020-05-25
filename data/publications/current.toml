@@ -1,3 +1,20 @@
+
+[[record]]
+type = "domestic_conference"
+lang = "ja"
+reviewed = false
+invited = false
+ja_author = ",坂田　直樹,藤本 健治,丸田 一郎,Joel Furguson"
+en_author = "Naoki Sakata,Kenji FUjimoto, Ichiro Maruta, Joel Ferguson"
+ja_title = "エネルギー整形法を用いたポート・ハミルトン系におけるスライディングモード制御について"
+en_title = "On Sliding Mode Control for port-Hamiltonian Systems with Energy Shaping"
+ja_booktitle = "第64システム制御情報学会研究発表講演会講演論文集"
+en_booktitle = "Proceedings of the 64t Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
+publication_date = "20200521"
+naid = ""
+page_begin = "690"
+page_end = "695
+
 [[record]]
 en_author = "Keisuke Tanaka, Ichiro Maruta, Kenji Fujimoto, Yoshiharu Nishida, Tsutomu One, Tatsuya Fujii"
 ja_author = "田中 恵輔, 丸田 一郎, 藤本 健治, 西田 吉晴, 大根 努, 藤井 達也"
