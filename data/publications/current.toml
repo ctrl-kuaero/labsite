@@ -1,3 +1,17 @@
+[[record]]
+doi = ""
+en_author = "Kiyoshi Hamada, Ichiro Maruta, Kenji Fujimoto, Kenniti Hamamoto"
+en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
+en_title = "On the Method of Generating a Circular-Clothoid Trajectory for Front-Steering Vehicles Based on L1/L2-Optimal Control"
+invited = false
+lang = "en"
+number = "3"
+page_begin = "107"
+page_end = "113"
+publication_date = "20200531"
+reviewed = true
+type = "journal"
+volume = "13"
 
 [[record]]
 type = "domestic_conference"
