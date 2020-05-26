@@ -1,4 +1,19 @@
 [[record]]
+doi = "10.1002/rnc.4692"
+en_author = "Satoshi Satoh, Kenji Fujimoto"
+en_booktitle = "International Journal of Robust and Nonlinear Control"
+volume = "29"
+number = "16"
+en_title = "Iterative feedback tuning for Hamiltonian systems based on variational symmetry"
+invited = false
+lang = "en"
+page_begin = "5845"
+page_end = "5865"
+publication_date = "20190806"
+reviewed = true
+type = "journal"
+
+[[record]]
 doi = "10.1109/TAC.2018.2876793"
 en_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro, Takayoshi Yoshimura"
 en_booktitle = "IEEE Transactions on Automatic Control"
