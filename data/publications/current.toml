@@ -1,4 +1,19 @@
 [[record]]
+doi = "10.9746/jcmsi.13.40"
+en_author = "Yuki Okura, Kenji Fujimoto, Ichiro Maruta, Akio Saito, Hidetoshi Ikeda"
+en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
+volume = "13"
+number = "2"
+en_title = "Bayesian Inference for Path Following Control of Port-Hamiltonian Systems with Training Trajectory Data"
+invited = false
+lang = "en"
+page_begin = "40"
+page_end = "46"
+publication_date = "20200331"
+reviewed = true
+type = "journal"
+
+[[record]]
 doi = "10.1007/s10015-018-0476-4"
 en_author = "Satoshi Satoh, Kenji Fujimoto"
 en_booktitle = "Artificial Life and Robotics"
