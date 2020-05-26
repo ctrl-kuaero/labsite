@@ -1,4 +1,19 @@
 [[record]]
+doi = "10.1299/jamdsm.2019jamdsm0006"
+en_author = "Tatsuro Terakawa, Masaharu Komori, Kenji Fujimoto"
+en_booktitle = "Journal of Advanced Mechanical Design, Systems, and Manufacturing"
+volume = "13"
+number = "1"
+en_title = "Control of an omnidirectional mobile robot with wheels connected by passive sliding joints"
+invited = false
+lang = "en"
+page_begin = "1"
+page_end = "13"
+publication_date = "20190101"
+reviewed = true
+type = "journal"
+
+[[record]]
 doi = "10.1002/rnc.4692"
 en_author = "Satoshi Satoh, Kenji Fujimoto"
 en_booktitle = "International Journal of Robust and Nonlinear Control"
