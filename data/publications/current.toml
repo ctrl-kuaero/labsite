@@ -1,4 +1,19 @@
 [[record]]
+doi = "10.1007/s10015-018-0476-4"
+en_author = "Satoshi Satoh, Kenji Fujimoto"
+en_booktitle = "Artificial Life and Robotics"
+volume = "23"
+number = "4"
+en_title = "Gait generation for a biped robot with knees and torso via trajectory learning and state-transition estimation"
+invited = false
+lang = "en"
+page_begin = "489"
+page_end = "497"
+publication_date = "201812"
+reviewed = true
+type = "journal"
+
+[[record]]
 doi = "10.1299/jamdsm.2019jamdsm0006"
 en_author = "Tatsuro Terakawa, Masaharu Komori, Kenji Fujimoto"
 en_booktitle = "Journal of Advanced Mechanical Design, Systems, and Manufacturing"
