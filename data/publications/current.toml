@@ -1,10 +1,25 @@
 [[record]]
-doi = "10.1109/CDC40024.2019.9029790"
+doi = "10.23919/ACC.2019.8815020"
 en_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro"
-en_booktitle = "Proceedings of the  2019 IEEE 58th Conference on Decision and Control (CDC)"
+en_booktitle = "Proceedings of the 2019 American Control Conference (ACC)"
 volume = ""
 number = ""
-en_title = "Sampling-Based Stability Evaluation with Second-Order Margins for Unknown Systems with Gaussian Processes"
+en_title = "On Optimal Control Based on Parametric Gradient Approximations for Nonlinear Systems with Stochastic Parameters"
+invited = false
+lang = "en"
+page_begin = "2936"
+page_end = "2941"
+publication_date = "20190710"
+reviewed = true
+type = "international_conference"
+
+[[record]]
+doi = "10.1109/CDC40024.2019.9029790"
+en_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro"
+en_booktitle = "Proceedings of the 2019 IEEE 58th Conference on Decision and Control (CDC)"
+volume = ""
+number = ""
+en_title = "Sampling-Based Stability Evaluation with Second-Order Margins for Unknown Systems with Gaussian Processes*"
 invited = false
 lang = "en"
 page_begin = "3471"
