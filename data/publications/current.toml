@@ -11,7 +11,7 @@ page_begin = "3471"
 page_end = "3477"
 publication_date = "20191211"
 reviewed = true
-type = "journal"
+type = "international_conference"
 
 [[record]]
 doi = "10.9746/jcmsi.13.40"
