@@ -1,4 +1,19 @@
 [[record]]
+doi = "10.1109/CDC40024.2019.9029790"
+en_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro"
+en_booktitle = "Proceedings of the  2019 IEEE 58th Conference on Decision and Control (CDC)"
+volume = ""
+number = ""
+en_title = "Sampling-Based Stability Evaluation with Second-Order Margins for Unknown Systems with Gaussian Processes"
+invited = false
+lang = "en"
+page_begin = "3471"
+page_end = "3477"
+publication_date = "20191211"
+reviewed = true
+type = "journal"
+
+[[record]]
 doi = "10.9746/jcmsi.13.40"
 en_author = "Yuki Okura, Kenji Fujimoto, Ichiro Maruta, Akio Saito, Hidetoshi Ikeda"
 en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
