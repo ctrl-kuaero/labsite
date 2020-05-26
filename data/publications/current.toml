@@ -1,4 +1,20 @@
 [[record]]
+doi = " 10.1109/TAC.2018.2876793"
+en_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro, Takayoshi Yoshimura"
+en_booktitle = "IEEE Transactions on Automatic Control"
+volume = "64"
+issue = "4"
+en_title = "Risk-Sensitive Linear Control for Systems With Stochastic Parameters"
+invited = false
+lang = "en"
+page_begin = "1328"
+page_end = "1343"
+publication_date = "20181018"
+reviewed = true
+type = "journal"
+
+
+[[record]]
 doi = ""
 en_author = "Kiyoshi Hamada, Ichiro Maruta, Kenji Fujimoto, Kenniti Hamamoto"
 en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
