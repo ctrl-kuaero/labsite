@@ -152,6 +152,22 @@ page_begin = "284"
 page_end = "289"
 
 [[record]]
+type = "domestic_conference"
+lang = "ja"
+reviewed = false
+invited = false
+ja_author = "平林 大輝，丸田 一郎，藤本 健治"
+en_author = "Daiki Hirabayashi, Ichiro Maruta, Kenji Fujimoto"
+ja_title = "非線形飛行領域における高精度シミュレータと深層強化学習を用いた制御器の設計"
+en_title = "Controller Design for Nonlinear Flight Regimes with High-Accuracy Simulator and Deep Reinforcement Learning"
+ja_booktitle = "第64システム制御情報学会研究発表講演会講演論文集"
+en_booktitle = "Proceedings of the 64t Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
+publication_date = "20200520"
+naid = ""
+page_begin = "270"
+page_end = "275"
+
+[[record]]
 en_author = "Keisuke Tanaka, Ichiro Maruta, Kenji Fujimoto, Yoshiharu Nishida, Tsutomu One, Tatsuya Fujii"
 ja_author = "田中 恵輔, 丸田 一郎, 藤本 健治, 西田 吉晴, 大根 努, 藤井 達也"
 ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム 講演論文集"
