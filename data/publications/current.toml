@@ -1,4 +1,19 @@
 [[record]]
+doi = ""
+en_author = "Ichiro Maruta, Shuhei Nishida, Kenji Fujimoto"
+en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
+volume = "13"
+number = "3"
+en_title = "A Study on Numerical Solutions of Hamilton-Jacobi-Bellman Equations Based on Successive Approximation Approach"
+invited = false
+lang = "en"
+page_begin = "157"
+page_end = "163"
+publication_date = "20200531"
+reviewed = true
+type = "journal"
+
+[[record]]
 doi = "10.2322/tastj.16.392"
 en_author = "Dijian Chen, Kenji Fujimoto"
 en_booktitle = "Transactions of the Japan Society for Aeronautical and Space Sciences, Aerospace Technology Japan"
