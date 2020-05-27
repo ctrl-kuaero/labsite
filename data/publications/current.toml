@@ -1,34 +1,4 @@
 [[record]]
-doi = "10.2322/tastj.16.392"
-en_author = "Dijian Chen, Kenji Fujimoto"
-en_booktitle = "Transactions of the Japan Society for Aeronautical and Space Sciences, Aerospace Technology Japan"
-volume = "16"
-number = "5"
-en_title = "Rendezvous Control of Spacecraft via Constrained Optimal Control Using Generating Functions"
-invited = false
-lang = "en"
-page_begin = "392"
-page_end = "397"
-publication_date = "20180704"
-reviewed = true
-type = "journal"
-
-[[record]]
-doi = "10.2322/tastj.14.Pd_1"
-en_author = "Kenji Fujimoto, Tomoya Takeuchi, Yuki Matsumoto"
-en_booktitle = "Transactions of the Japan Society for Aeronautical and Space Sciences, Aerospace Technology Japan"
-volume = "14"
-number = "ists30"
-en_title = "On Port-Hamiltonian Modeling and Control of Systems with Quaternions"
-invited = false
-lang = "en"
-page_begin = "Pd_1"
-page_end = "Pd_6"
-publication_date = "20160729"
-reviewed = true
-type = "journal"
-
-[[record]]
 doi = "10.1587/transfun.E99.A.2037"
 en_author = "Dijian Chen, Kenji Fujimoto, Tatsuya Suzuki"
 en_booktitle = "IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences"
