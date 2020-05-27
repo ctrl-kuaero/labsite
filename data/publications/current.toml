@@ -183,6 +183,36 @@ page_begin = "270"
 page_end = "275"
 
 [[record]]
+en_author = "Hirofumi Beppu, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "別府 啓史, 丸田 一郎, 藤本 健治"
+ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム 講演論文集"
+en_booktitle = "Proceedings of the 7th Multi-symposium on Control Systems"
+ja_title = "連続時間非線形システムに対するガウス過程を用いた近似動的計画法の実現とその収束性について"
+en_title = "On Realization of Approximate Dynamic Programming with Gaussian Processes for Continuous-Time Nonlinear Systems and Its Convergence"
+lang = "ja"
+page_begin = "3A1-2"
+publication_date = "20200302"
+jglobalid = ""
+reviewed = false
+invited = false
+type = "domestic_conference"
+
+[[record]]
+en_author = "Kiyoshi Hamada, Pablo Borja, Jacquelien M. A. Scherpen, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "濱田 聖司, P. Borja, J. M. A. Scherpen, 藤本 健治, 丸田 一郎"
+ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム 講演論文集"
+en_booktitle = "Proceedings of the 7th Multi-symposium on Control Systems"
+ja_title = "非線形機械システムに対する受動性に基づいた位相遅れ補償について"
+en_title = "On passivity-based lag compensation for nonlinear mechanical systems"
+lang = "ja"
+page_begin = "1H2-5"
+publication_date = "20200302"
+jglobalid = ""
+reviewed = false
+invited = false
+type = "domestic_conference"
+
+[[record]]
 en_author = "Keisuke Tanaka, Ichiro Maruta, Kenji Fujimoto, Yoshiharu Nishida, Tsutomu One, Tatsuya Fujii"
 ja_author = "田中 恵輔, 丸田 一郎, 藤本 健治, 西田 吉晴, 大根 努, 藤井 達也"
 ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム 講演論文集"
