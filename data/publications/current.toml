@@ -1,4 +1,19 @@
 [[record]]
+doi = "10.1587/transfun.E99.A.2037"
+en_author = "Dijian Chen, Kenji Fujimoto, Tatsuya Suzuki"
+en_booktitle = "IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences"
+volume = "E99.A"
+number = "11"
+en_title = "Discrete-Time Nonlinear Optimal Control via Generating Functions"
+invited = false
+lang = "en"
+page_begin = "2037"
+page_end = "2048"
+publication_date = "20161101"
+reviewed = true
+type = "journal"
+
+[[record]]
 doi = "10.23919/ACC.2019.8815020"
 en_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro"
 en_booktitle = "Proceedings of the 2019 American Control Conference (ACC)"
