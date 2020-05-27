@@ -228,6 +228,111 @@ page_begin = "270"
 page_end = "275"
 
 [[record]]
+en_author = "Risako Sasaki, Ichiro Maruta, Shuichi Adachi, Jumpei Katashiba, Kensuke Osamura"
+ja_author = "佐々木 理沙子, 丸田 一郎, 足立 修一, 片芝 惇平, 長村 謙介"
+ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム 講演論文集"
+en_booktitle = "Proceedings of the 7th Multi-symposium on Control Systems"
+ja_title = "安定化予測誤差法を用いた二次電池の健全度推定"
+en_title = "State of Health Estimation of Rechargeable Batteries Using Stabilized Prediction Error Method"
+lang = "ja"
+page_begin = "3A2-1"
+publication_date = "20200302"
+jglobalid = ""
+reviewed = false
+invited = false
+type = "domestic_conference"
+
+[[record]]
+en_author = "Ichiro Maruta, Moe Watanabe, Kenji Kashima"
+ja_author = "丸田 一郎, 渡部 萌恵, 加嶋 健司"
+ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム 講演論文集"
+en_booktitle = "Proceedings of the 7th Multi-symposium on Control Systems"
+ja_title = "勾配法にもとづくシステム同定の実装と動向"
+en_title = "Trend and Implementation of System Identification based on Gradient Methods"
+lang = "ja"
+page_begin = "2A1-5"
+publication_date = "20200302"
+jglobalid = ""
+reviewed = false
+invited = false
+type = "domestic_conference"
+
+[[record]]
+en_author = "Tomohiko Jimbo, Takashi Ozaki, Yasushi Amano, Kenji Fujimoto"
+ja_author = "神保 智彦, 尾崎 貴志, 天野 也寸志, 藤本 健治"
+ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム 講演論文集"
+en_booktitle = "Proceedings of the 7th Multi-symposium on Control Systems"
+ja_title = "羽ばたき飛翔ロボットの制御とフライト実証実験"
+en_title = "Control of a flapping-wing robot and its flight demonstration"
+lang = "ja"
+page_begin = "3A1-3"
+publication_date = "20200302"
+jglobalid = ""
+reviewed = false
+invited = false
+type = "domestic_conference"
+
+[[record]]
+en_author = "Yuki Okura, Kenji Fujimoto, Chiaki Kojima"
+ja_author = "大倉 裕貴, 藤本 健治, 小島 千昭"
+ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム 講演論文集"
+en_booktitle = "Proceedings of the 7th Multi-symposium on Control Systems"
+ja_title = "仮想ホロノーム拘束によるポートハミルトン系の制御について"
+en_title = "On Virtual Holonomic Constraints Control for port-Hamiltonian Systems"
+lang = "ja"
+page_begin = "3B2-5"
+publication_date = "20200302"
+jglobalid = ""
+reviewed = false
+invited = false
+type = "domestic_conference"
+
+[[record]]
+en_author = "Ryota Yoshimura, Ichiro Maruta, Kenji Fujimoto, Ken Sato, Yusuke Kobayashi"
+ja_author = "吉村 僚太, 丸田 一郎, 藤本 健治, 佐藤 研, 小林 祐介"
+ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム 講演論文集"
+en_booktitle = "Proceedings of the 7th Multi-symposium on Control Systems"
+ja_title = "強化学習による粒子フィルタの設計と自己位置推定への応用"
+en_title = "Particle Filetr Design Based on Reinforcement Learning and Its Application to Localization"
+lang = "ja"
+page_begin = "3A2-2"
+publication_date = "20200302"
+jglobalid = ""
+reviewed = false
+invited = false
+type = "domestic_conference"
+
+[[record]]
+en_author = "Hirofumi Beppu, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "別府 啓史, 丸田 一郎, 藤本 健治"
+ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム 講演論文集"
+en_booktitle = "Proceedings of the 7th Multi-symposium on Control Systems"
+ja_title = "連続時間非線形システムに対するガウス過程を用いた近似動的計画法の実現とその収束性について"
+en_title = "On Realization of Approximate Dynamic Programming with Gaussian Processes for Continuous-Time Nonlinear Systems and Its Convergence"
+lang = "ja"
+page_begin = "3A1-2"
+publication_date = "20200302"
+jglobalid = ""
+reviewed = false
+invited = false
+type = "domestic_conference"
+
+[[record]]
+en_author = "Kiyoshi Hamada, Pablo Borja, Jacquelien M. A. Scherpen, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "濱田 聖司, P. Borja, J. M. A. Scherpen, 藤本 健治, 丸田 一郎"
+ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム 講演論文集"
+en_booktitle = "Proceedings of the 7th Multi-symposium on Control Systems"
+ja_title = "非線形機械システムに対する受動性に基づいた位相遅れ補償について"
+en_title = "On passivity-based lag compensation for nonlinear mechanical systems"
+lang = "ja"
+page_begin = "1H2-5"
+publication_date = "20200302"
+jglobalid = ""
+reviewed = false
+invited = false
+type = "domestic_conference"
+
+[[record]]
 en_author = "Keisuke Tanaka, Ichiro Maruta, Kenji Fujimoto, Yoshiharu Nishida, Tsutomu One, Tatsuya Fujii"
 ja_author = "田中 恵輔, 丸田 一郎, 藤本 健治, 西田 吉晴, 大根 努, 藤井 達也"
 ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム 講演論文集"
