@@ -1,4 +1,15 @@
 [[record]]
+en_author = "Naoki Sakata"
+ja_author = "坂田 直樹"
+en_giver = "The Executive Committee of the 64rd Annual Conference of the Institute of Systems, Control and Information Engineers"
+ja_giver = "第64回システム制御情報学会研究発表講演会実行委員会"
+en_title = "The Award of the Excellent Student Presetation"
+ja_title = "SCI学生発表賞"
+publication_date = "20200521"
+type = "award"
+url = "https://sci20.iscie.or.jp/award/"
+
+[[record]]
 en_author = "Tomohiro Otsu"
 ja_author = "大津 智宏"
 en_giver = "The Institute of Systems, Control and Information Engineers"
