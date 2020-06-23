@@ -267,6 +267,7 @@ en_author = "Kenji Fujimoto, Akinori Satoh, Shuichi Fukunaga"
 en_booktitle = "Proceedings of 2011 50th IEEE Conference on Decision and Control and European Control Conference"
 type = "international_conference"
 publication_date = "20111200"
+outside_kuaero = true
 url = "https://ieeexplore.ieee.org/document/6160563/"
 
 [[record]]
@@ -280,6 +281,7 @@ en_author = "Kenji Fujimoto, Yuhei Ota, Makishi Nakayama"
 en_booktitle = "Proceedings of 2011 50th IEEE Conference on Decision and Control and European Control Conference"
 type = "international_conference"
 publication_date = "20111200"
+outside_kuaero = true
 url = "https://ieeexplore.ieee.org/document/6160562/"
 
 [[record]]
@@ -293,6 +295,7 @@ en_author = "Satoshi Satoh, Kenji Fujimoto"
 en_booktitle = "Proceedings of the 49th IEEE Conference on Decision and Control (CDC)"
 type = "international_conference"
 publication_date = "20101200"
+outside_kuaero = true
 url = "https://ieeexplore.ieee.org/document/5718033/"
 
 [[record]]
@@ -306,6 +309,7 @@ en_author = "Kenji Fujimoto, Sayaka Ono, Yoshikazu Hayakawa"
 en_booktitle = "Proceedings of the 49th IEEE Conference on Decision and Control (CDC)"
 type = "international_conference"
 publication_date = "20101200"
+outside_kuaero = true
 url = "https://ieeexplore.ieee.org/document/5718093/"
 
 [[record]]
@@ -318,6 +322,7 @@ en_author = "Satoshi Satoh, Masahito Ikeda, Kenji Fujimoto, Yoshikazu Hayakawa"
 en_booktitle = "Proceedings of SICE Annual Conference 2010"
 type = "international_conference"
 publication_date = "20100800"
+outside_kuaero = true
 url = "https://ieeexplore.ieee.org/document/5602601/"
 
 [[record]]
@@ -331,6 +336,7 @@ en_author = "Tudor C. Ionescu, Kenji Fujimoto, Jacquelien M. A. Scherpen"
 en_booktitle = "Proceedings of 2009 European Control Conference (ECC)"
 type = "international_conference"
 publication_date = "20090800"
+outside_kuaero = true
 url = "https://ieeexplore.ieee.org/document/7074629/"
 
 [[record]]
@@ -344,6 +350,7 @@ en_author = "Mitsuru Taniguchi, Kenji Fujimoto"
 en_booktitle = "Proceedings of 2009 European Control Conference (ECC)"
 type = "international_conference"
 publication_date = "20090800"
+outside_kuaero = true
 url = "https://ieeexplore.ieee.org/document/7074410/"
 
 [[record]]
@@ -357,6 +364,7 @@ en_author = "Tudor C. Ionescu, Kenji Fujimoto, Jacquelien M. A. Scherpen"
 en_booktitle = "Proceedings of the 48h IEEE Conference on Decision and Control (CDC) held jointly with 2009 28th Chinese Control Conference"
 type = "international_conference"
 publication_date = "20091200"
+outside_kuaero = true
 url = "https://ieeexplore.ieee.org/document/5400113/"
 
 [[record]]
@@ -370,6 +378,7 @@ en_author = "Mitsuru Taniguchi, Kenji Fujimoto"
 en_booktitle = "Proceedings of the 48h IEEE Conference on Decision and Control (CDC) held jointly with 2009 28th Chinese Control Conference"
 type = "international_conference"
 publication_date = "20091200"
+outside_kuaero = true
 url = "https://ieeexplore.ieee.org/document/5400011/"
 
 [[record]]
@@ -382,6 +391,7 @@ en_author = "Gou Nishida, Daiji Ichishima, Kenji Kashima, Kenji Fujimoto, Masaki
 en_booktitle = "Proceedings of 2009 ICCAS-SICE"
 type = "international_conference"
 publication_date = "20090800"
+outside_kuaero = true
 url = "https://ieeexplore.ieee.org/document/5334255/"
 
 [[record]]
@@ -394,6 +404,7 @@ en_author = "Satoshi Satoh, Kenji Fujimoto"
 en_booktitle = "Proceedings of 2009 ICCAS-SICE"
 type = "international_conference"
 publication_date = "20090800"
+outside_kuaero = true
 url = "https://ieeexplore.ieee.org/document/5335071/"
 
 [[record]]
@@ -407,6 +418,7 @@ en_author = "Satoshi Satoh, Kenji Fujimoto"
 en_booktitle = "Proceedings of the 47th IEEE Conference on Decision and Control"
 type = "international_conference"
 publication_date = "20081200"
+outside_kuaero = true
 url = "https://ieeexplore.ieee.org/document/4738733/"
 
 [[record]]
@@ -420,6 +432,7 @@ en_author = "Kenji Fujimoto, Sayaka Ono"
 en_booktitle = "Proceedings of the 47th IEEE Conference on Decision and Control"
 type = "international_conference"
 publication_date = "20081200"
+outside_kuaero = true
 url = "https://ieeexplore.ieee.org/document/4739031/"
 
 [[record]]
@@ -433,6 +446,7 @@ en_author = "Kenji Fujimoto, Mitsuru Taniguchi"
 en_booktitle = "Proceedings of the 47th IEEE Conference on Decision and Control"
 type = "international_conference"
 publication_date = "20081200"
+outside_kuaero = true
 url = "https://ieeexplore.ieee.org/document/4739242/"
 
 [[record]]
@@ -446,6 +460,7 @@ en_author = "Satoshi Satoh, Kenji Fujimoto, Sang-Ho Hyon"
 en_booktitle = "Proceedings of 2008 IEEE/RSJ International Conference on Intelligent Robots and Systems"
 type = "international_conference"
 publication_date = "20080900"
+outside_kuaero = true
 url = "https://ieeexplore.ieee.org/document/4650860/"
 
 [[record]]
@@ -459,6 +474,7 @@ en_author = "Shuichi Fukunaga, Kenji Fujimoto"
 en_booktitle = "Proceedings of 2007 European Control Conference (ECC)"
 type = "international_conference"
 publication_date = "20070700"
+outside_kuaero = true
 url = "https://ieeexplore.ieee.org/document/7068597/"
 
 [[record]]
@@ -472,6 +488,7 @@ en_author = "Kenji Fujimoto, Hideo Kajiura"
 en_booktitle = "Proceedings of 2007 American Control Conference"
 type = "international_conference"
 publication_date = "20070700"
+outside_kuaero = true
 url = "https://ieeexplore.ieee.org/document/4282653/"
 
 [[record]]
@@ -485,6 +502,7 @@ en_author = "Kenji Fujimoto, Hikaru Mizuno"
 en_booktitle = "Proceedings of the 45th IEEE Conference on Decision and Control"
 type = "international_conference"
 publication_date = "20061200"
+outside_kuaero = true
 url = "https://ieeexplore.ieee.org/document/4177387/"
 
 [[record]]
@@ -498,6 +516,7 @@ en_author = "Shuichi Fukunaga, Kenji Fujimoto"
 en_booktitle = "Proceedings of the 45th IEEE Conference on Decision and Control"
 type = "international_conference"
 publication_date = "20061200"
+outside_kuaero = true
 url = "https://ieeexplore.ieee.org/document/4178008/"
 
 [[record]]
@@ -511,6 +530,7 @@ en_author = "Satoshi Satoh, Kenji Fujimoto, Sang-ho Hyon"
 en_booktitle = "Proceedings of 2006 IEEE/RSJ International Conference on Intelligent Robots and Systems"
 type = "international_conference"
 publication_date = "20061000"
+outside_kuaero = true
 url = "https://ieeexplore.ieee.org/document/4058408/"
 
 [[record]]
@@ -524,6 +544,7 @@ en_author = "Satoru Sakai, Koichi Osuka, Kenji Fujimoto"
 en_booktitle = "Proceedings of 2006 IEEE/RSJ International Conference on Intelligent Robots and Systems"
 type = "international_conference"
 publication_date = "20061000"
+outside_kuaero = true
 url = "https://ieeexplore.ieee.org/document/4058684/"
 
 [[record]]
@@ -535,6 +556,7 @@ en_author = "Kenji Fujimoto, Daisuke Tsubakino"
 en_booktitle = "Proceedings of 2006 American Control Conference"
 type = "international_conference"
 publication_date = "20060000"
+outside_kuaero = true
 url = "https://ieeexplore.ieee.org/document/1655399/"
 
 [[record]]
@@ -547,6 +569,7 @@ en_author = "Satoru Sakai, Kenji Fujimoto"
 en_booktitle = "Proceedings of SICE 2004 Annual Conference"
 type = "international_conference"
 publication_date = "20040000"
+outside_kuaero = true
 url = "https://ieeexplore.ieee.org/document/1491434/"
 
 [[record]]
@@ -560,6 +583,7 @@ en_author = "Kenji Fujimoto"
 en_booktitle = "Proceedings of the 43rd IEEE Conference on Decision and Control (CDC) (IEEE Cat. No.04CH37601)"
 type = "international_conference"
 publication_date = "20040000"
+outside_kuaero = true
 url = "https://ieeexplore.ieee.org/document/1430277/"
 
 [[record]]
@@ -573,4 +597,5 @@ en_author = "Kenji Fujimoto, T. Horiuchi, Toshiharu Sugie"
 en_booktitle = "Proceedings of the 42nd IEEE International Conference on Decision and Control (IEEE Cat. No.03CH37475)"
 type = "international_conference"
 publication_date = "20030000"
+outside_kuaero = true
 url = "https://ieeexplore.ieee.org/document/1272188/"
