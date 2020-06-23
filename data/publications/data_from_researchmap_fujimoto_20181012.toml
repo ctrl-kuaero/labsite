@@ -935,6 +935,7 @@ number = "12"
 page_begin = "3054"
 page_end = "3063"
 publication_date = "20121008"
+outside_kuaero = true
 reviewed = true
 invited = false
 lang = "en"
