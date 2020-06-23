@@ -254,6 +254,7 @@ en_author = "Shingo Shimoda, Yuki Yoshihara, Kenji Fujimoto, Takashi Yamamoto, I
 en_booktitle = "Proceedings of 2012 IEEE/RSJ International Conference on Intelligent Robots and Systems"
 type = "international_conference"
 publication_date = "20121000"
+outside_kuaero = true
 url = "https://ieeexplore.ieee.org/document/6385631/"
 
 [[record]]
