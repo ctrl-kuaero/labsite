@@ -8,7 +8,7 @@ ja_booktitle = "第58回自動制御連合講演会講演論文集"
 ja_title = "信頼度を考慮したばらつき抑制のための確率最適制御"
 lang = "ja"
 page_begin = "2D2-5"
-publication_date = "20150000"
+publication_date = "20151114"
 reviewed = false
 type = "domestic_conference"
 
@@ -22,7 +22,7 @@ ja_booktitle = "第58回自動制御連合講演会講演論文集"
 ja_title = "Hopf-Cole変換を用いたBurgers方程式の最適制御とその性質"
 lang = "ja"
 page_begin = "2D2-4"
-publication_date = "20150000"
+publication_date = "20151114"
 reviewed = false
 type = "domestic_conference"
 
@@ -36,7 +36,7 @@ ja_booktitle = "第56回自動制御連合講演会講演論文集"
 ja_title = "クォータニオン制御系のハミルトン系モデリングと制御について"
 lang = "ja"
 page_begin = "511"
-publication_date = "20130000"
+publication_date = "20131116"
 reviewed = false
 type = "domestic_conference"
 
@@ -50,22 +50,22 @@ ja_booktitle = "第56回自動制御連合講演会講演論文集"
 ja_title = "パラメータにばらつきを持つ離散時間線形システムに対する有限時間最適制御"
 lang = "ja"
 page_begin = "1032"
-publication_date = "20130000"
+publication_date = "20131116"
 reviewed = false
 type = "domestic_conference"
 
 [[record]]
 jglobalid="201402265320460072"
 en_author = "Kenji Fujimoto, Taishi Nishiyama"
-en_booktitle = "Proceedings of Space Sciences and Technology Conference"
+en_booktitle = "Proceedings of 58th Space Sciences and Technology Conference"
 invited = false
 ja_author = "藤本 健治, 西山 泰史"
-ja_booktitle = "宇宙科学技術連合講演会講演集"
+ja_booktitle = "第58回宇宙科学技術連合講演会講演集"
 ja_title = "クォータニオン変数を有するハミルトン系の軌道追従制御について"
-volune = "58"
+volune = ""
 lang = "ja"
 page_begin = "1E16"
-publication_date = "20140000"
+publication_date = "20141112"
 reviewed = false
 type = "domestic_conference"
 
@@ -81,7 +81,7 @@ ja_title = "Null motionとモデル予測制御を用いたコントロール・
 en_title = "Singularity avoidance of a control moment gyroscope using null motion and model predictive control"
 ja_booktitle = "第60回システム制御情報学会研究発表講演会講演論文集"
 en_booktitle = "Proceedings of the 60th Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
-publication_date = "20160500"
+publication_date = "20160525"
 jglobalid = "201602282545875519"
 page_begin = "363-1"
 
@@ -96,7 +96,7 @@ ja_title = "H∞フィルタを用いたマルチレート状態推定"
 en_title = "Multirate State Estimation using an H-infinity Filter"
 ja_booktitle = "第60回システム制御情報学会研究発表講演会講演論文集"
 en_booktitle = "Proceedings of the 60th Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
-publication_date = "20160500"
+publication_date = "20160525"
 jglobalid = "201602280182429226"
 page_begin = "311-3"
 
@@ -111,7 +111,7 @@ ja_title = "非線形特異値解析とカーネル主成分分析の関係性�
 en_title = "On the relationship between nonlinear singular value analysis and kernel principal component analysis"
 ja_booktitle = "第60回システム制御情報学会研究発表講演会講演論文集"
 en_booktitle = "Proceedings of the 60th Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
-publication_date = "20160500"
+publication_date = "20160525"
 jglobalid = "201602243697217459"
 page_begin = "141-5"
 
@@ -126,7 +126,7 @@ ja_title = "変分ベイズ法に基づいた非線形状態空間モデルの�
 en_title = "Variational Bayes for Nonlinear State-space Models : the Linear Unknown Parameter Case"
 ja_booktitle = "第60回システム制御情報学会研究発表講演会講演論文集"
 en_booktitle = "Proceedings of the 60th Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
-publication_date = "20160500"
+publication_date = "20160525"
 jglobalid = "201602240120968044"
 page_begin = "113-3"
 
@@ -141,7 +141,7 @@ ja_title = "非線形システムに対する二重母関数法を用いた最�
 en_title = "Optimal trajectory generation for non-linear system via double generating functions method"
 ja_booktitle = "第59回システム制御情報学会研究発表講演会講演論文集"
 en_booktitle = "Proceedings of the 59th Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
-publication_date = "20150500"
+publication_date = "20150520"
 jglobalid = "201502275468758910"
 page_begin = "144-4"
 
@@ -156,7 +156,7 @@ ja_title = "変分ベイズ法に基づくARMAXモデルのシステム同定"
 en_title = "System identification for ARMAX models based on the Variational Bayes method"
 ja_booktitle = "第59回システム制御情報学会研究発表講演会講演論文集"
 en_booktitle = "Proceedings of the 59th Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
-publication_date = "20150500"
+publication_date = "20150520"
 jglobalid = "201502246135150647"
 page_begin = "264-3"
 
@@ -171,7 +171,7 @@ ja_title = "平衡化打切法を用いたdynamically substructured sytemsのモ
 en_title = "Model reduction for dynamically substructured systems based on balanced truncation"
 ja_booktitle = "第59回システム制御情報学会研究発表講演会講演論文集"
 en_booktitle = "Proceedings of the 59th Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
-publication_date = "20150500"
+publication_date = "20150520"
 jglobalid = "201502223443531384"
 page_begin = "324-1"
 
@@ -186,7 +186,7 @@ ja_title = "ポート・ハミルトン系で表された宇宙機の偏差ク�
 en_title = "Stabilization of spacecrafts represented by port-Hamiltonian systems using error quaternion feedback"
 ja_booktitle = "第59回システム制御情報学会研究発表講演会講演論文集"
 en_booktitle = "Proceedings of the 59th Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
-publication_date = "20150500"
+publication_date = "20150520"
 jglobalid = "201502223443531384"
 page_begin = "154-4"
 
@@ -201,7 +201,7 @@ ja_title = "クォータニオン表現されたポート・ハミルトン系�
 en_title = "On trajectory tracking control of port-controlled Hamiltonian systems with quaternion representation"
 ja_booktitle = "第58回システム制御情報学会研究発表講演会講演論文集"
 en_booktitle = "Proceedings of the 58th Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
-publication_date = "20140500"
+publication_date = "20140521"
 jglobalid = "201402295302956415"
 page_begin = "122-5"
 
@@ -216,7 +216,7 @@ ja_title = "2軸ヘリコプタのベイズ推定によるパラメータ推定�
 en_title = "Parameter estimation based on Bayesian inference and optimal control for helicopter with two degrees of freedom"
 ja_booktitle = "第58回システム制御情報学会研究発表講演会講演論文集"
 en_booktitle = "Proceedings of the 58th Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
-publication_date = "20140500"
+publication_date = "20140521"
 jglobalid = "201402294886139824"
 page_begin = "321-2"
 
@@ -231,7 +231,7 @@ ja_title = "母関数を用いた制約付きLQ最適制御問題の解法につ
 en_title = "On Generating Function Approach to Linear Quadratic Optimal Control Problem with Constraints"
 ja_booktitle = "第58回システム制御情報学会研究発表講演会講演論文集"
 en_booktitle = "Proceedings of the 58th Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
-publication_date = "20140500"
+publication_date = "20140521"
 jglobalid = "201402294886139824"
 page_begin = "323-5"
 
@@ -245,7 +245,7 @@ en_author = "Akihiro Hasegawa, Asaba Kotaro, Zhiwei Hao, Yoshikazu Hayakawa, Ken
 ja_title = "母関数法を用いた二足歩行ロボットの軌道生成と制御~ZMPを考慮した最適軌道生成~"
 ja_booktitle = "第57回システム制御情報学会研究発表講演会講演論文集"
 en_booktitle = "Proceedings of the 57th Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
-publication_date = "20130500"
+publication_date = "20130515"
 jglobalid = "201302258091183333"
 page_begin = "333-1"
 
@@ -259,6 +259,6 @@ en_author = "Jun'ya Yamaguchi, Masayoshi Ishikawa, Yoshikazu Hayakawa, Kenji Fuj
 ja_title = "相互作用するシステムに対する分散的な故障検出器の設計"
 ja_booktitle = "第57回システム制御情報学会研究発表講演会講演論文集"
 en_booktitle = "Proceedings of the 57th Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
-publication_date = "20130500"
+publication_date = "20130515"
 jglobalid = "201302249207609059"
 page_begin = "223-1"
