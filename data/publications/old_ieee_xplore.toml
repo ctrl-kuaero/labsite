@@ -8,7 +8,7 @@ doi = "10.23919/ACC.2018.8431159"
 en_author = "Yuji Ito, Kenji Fujimoto, Takayoshi Yoshimura, Yukihiro Tadokoro"
 en_booktitle = "Proceedings of 2018 Annual American Control Conference (ACC)"
 type = "international_conference"
-publication_date = "20180600"
+publication_date = "20180627"
 url = "https://ieeexplore.ieee.org/document/8431159/"
 
 [[record]]
@@ -21,7 +21,7 @@ doi = "10.1109/CDC.2017.8264196"
 en_author = "Yuji Takaki, Kenji Fujimoto"
 en_booktitle = "Proceedings of 2017 IEEE 56th Annual Conference on Decision and Control (CDC)"
 type = "international_conference"
-publication_date = "20171200"
+publication_date = "20171212"
 url = "https://ieeexplore.ieee.org/document/8264196/"
 
 [[record]]
@@ -34,7 +34,7 @@ doi = "10.23919/SICE.2017.8105487"
 en_author = "Akihiro Taniguchi, Kenji Fujimoto, Yoshiharu Nishida"
 en_booktitle = "Proceedings of the 56th Annual Conference of the Society of Instrument and Control Engineers of Japan (SICE)"
 type = "international_conference"
-publication_date = "20170900"
+publication_date = "20170919"
 url = "https://ieeexplore.ieee.org/document/8105487/"
 
 [[record]]
@@ -47,7 +47,7 @@ doi = "10.1109/CDC.2016.7799096"
 en_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro, Takayoshi Yoshimura"
 en_booktitle = "Proceedings of 2016 IEEE 55th Conference on Decision and Control (CDC)"
 type = "international_conference"
-publication_date = "20161200"
+publication_date = "20161212"
 url = "https://ieeexplore.ieee.org/document/7799096/"
 
 [[record]]
@@ -60,7 +60,7 @@ doi = "10.1109/CDC.2016.7798432"
 en_author = "Kenji Fujimoto, Yuji Takaki"
 en_booktitle = "Proceedings of 2016 IEEE 55th Conference on Decision and Control (CDC)"
 type = "international_conference"
-publication_date = "20161200"
+publication_date = "20161212"
 url = "https://ieeexplore.ieee.org/document/7798432/"
 
 [[record]]
@@ -73,7 +73,7 @@ doi = "10.1109/CCA.2016.7587933"
 en_author = "Kenji Fujimoto, Yusuke Oji, Kenichi Hamamoto"
 en_booktitle = "Proceedings of 2016 IEEE Conference on Control Applications (CCA)"
 type = "international_conference"
-publication_date = "20160900"
+publication_date = "20160919"
 url = "https://ieeexplore.ieee.org/document/7587933/"
 
 [[record]]
@@ -86,7 +86,7 @@ doi = "10.1109/ACC.2016.7526706"
 en_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro, Takayoshi Yoshimura"
 en_booktitle = "Proceedings of 2016 American Control Conference (ACC)"
 type = "international_conference"
-publication_date = "20160700"
+publication_date = "20160706"
 url = "https://ieeexplore.ieee.org/document/7526706/"
 
 [[record]]
@@ -99,7 +99,7 @@ doi = "10.1109/CDC.2015.7403246"
 en_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro, Takayoshi Yoshimura"
 en_booktitle = "Proceedings of the 54th IEEE Conference on Decision and Control (CDC)"
 type = "international_conference"
-publication_date = "20151200"
+publication_date = "20151215"
 
 [[record]]
 reviewed = true
