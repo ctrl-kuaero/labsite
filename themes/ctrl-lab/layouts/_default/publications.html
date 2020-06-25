@@ -31,13 +31,14 @@
 
         {{/* 年のリストを作成 */}}
         {{- range $list }}
+        {{- $.Scratch.Add "yearall" (slice .year) }}        
         {{- if .outside_kuaero }}
         {{- else }}
         {{- $.Scratch.Add "year" (slice .year) }}
         {{- end }}
         {{- end }}
         {{- $year_list := sort (uniq ($.Scratch.Get "year")) "value" "desc" -}}
-
+        {{- $yearall_list := sort (uniq ($.Scratch.Get "yearall")) "value" "desc" -}}
         {{/* 著者のリストを作成 */}}
         {{- range $list }}
             {{- $authors_idx_name := (apply (apply (split .en_author ",") "lower" ".") "trim" "." " ")}}
@@ -118,7 +119,7 @@
         {{/* 業績リスト本体 */}}
         <div id="publications">
         <ol class="list">
-        {{- range $year_list }}
+        {{- range $yearall_list }}
             {{- $year := . }}
             {{- $list_year := where $list "year" $year }}
             {{- $.Scratch.Delete "type" }}
