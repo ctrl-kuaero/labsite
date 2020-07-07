@@ -1,4 +1,264 @@
 [[record]]
+ja_title = "Optimal Gait Generation for a Compass Biped Robot via the Double Generating Functions Method"
+en_title = "Optimal Gait Generation for a Compass Biped Robot via the Double Generating Functions Method"
+ja_author = "Zhiwei Hao, Kenji Fujimoto, Yoshikazu Hayakawa"
+en_author = "Zhiwei Hao, Kenji Fujimoto, Yoshikazu Hayakawa"
+ja_booktitle = "SICE Journal of Control, Measurement, and System Integration"
+en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
+volume = "7"
+number = "2"
+page_begin = "96"
+page_end = "103"
+publication_date = "20140320"
+reviewed = true
+invited = false
+lang = "en"
+rm_type = ""
+rm_ftype = "paper"
+doi = "10.9746/jcmsi.7.96"
+type = "journal"
+
+[[record]]
+ja_title = "Scalable Reduction of Elastic Continuum for Boundary Energy Control"
+en_title = "Scalable Reduction of Elastic Continuum for Boundary Energy Control"
+ja_author = "Gou Nishida, Kenji Fujimoto, Daiji Ichishima"
+en_author = "Gou Nishida, Kenji Fujimoto, Daiji Ichishima"
+ja_booktitle = "SIAM Journal on Control and Optimization"
+en_booktitle = "SIAM Journal on Control and Optimization"
+volume = "53"
+number = "4"
+page_begin = "2424"
+page_end = "2448"
+publication_date = "20150813"
+reviewed = true
+invited = false
+lang = "en"
+rm_type = ""
+rm_ftype = "paper"
+doi = "10.1137/11084529X"
+type = "journal"
+
+[[record]]
+ja_title = "Transition to an optimal periodic gait by simultaneous input and parameter optimization method of Hamiltonian systems"
+en_title = "Transition to an optimal periodic gait by simultaneous input and parameter optimization method of Hamiltonian systems"
+ja_author = "Satoshi Satoh, Kenji Fujimoto, Masami Saeki"
+en_author = "Satoshi Satoh, Kenji Fujimoto, Masami Saeki"
+ja_booktitle = "Artificial Life and Robotics"
+en_booktitle = "Artificial Life and Robotics"
+volume = "21"
+number = "3"
+page_begin = "258"
+page_end = "267"
+publication_date = "20160728"
+reviewed = true
+invited = false
+lang = "en"
+rm_type = ""
+rm_ftype = "paper"
+doi = "10.1007/s10015-016-0294-5"
+type = "journal"
+
+[[record]]
+ja_title = "Approximate Solutions to the Hamilton-Jacobi Equations for Generating Functions with a Quadratic Cost Function with Respect to the Input"
+en_title = "Approximate Solutions to the Hamilton-Jacobi Equations for Generating Functions with a Quadratic Cost Function with Respect to the Input"
+ja_author = "Zhiwei Hao, Kenji Fujimoto"
+en_author = "Zhiwei Hao, Kenji Fujimoto"
+ja_booktitle = "Proceedings of the 4th IFAC Workshop on Lagrangian and Hamiltonian Methods for Nonlinear Control (LHMNC 2012)"
+en_booktitle = "Proceedings of the 4th IFAC Workshop on Lagrangian and Hamiltonian Methods for Nonlinear Control (LHMNC 2012)"
+volume = "45"
+number = "19"
+page_begin = "194"
+page_end = "199"
+publication_date = "20120829"
+reviewed = true
+invited = false
+lang = "en"
+rm_type = ""
+rm_ftype = "paper"
+doi = "10.3182/20120829-3-IT-4022.00029"
+type = "international_conference"
+
+[[record]]
+ja_title = "Variance Suppression for Gauge Control via Stochastic Optimal Control"
+en_title = "Variance Suppression for Gauge Control via Stochastic Optimal Control"
+ja_author = "Toshiaki Watanabe, Kenji Fujimoto, Yoshihiro Hashimoto, Yoshiharu Nishida"
+en_author = "Toshiaki Watanabe, Kenji Fujimoto, Yoshihiro Hashimoto, Yoshiharu Nishida"
+ja_booktitle = "Proceedings of the 3rd IFAC Workshop on Automation in the Mining, Mineral and Metal Industries (MMM2012)"
+en_booktitle = "Proceedings of the 3rd IFAC Workshop on Automation in the Mining, Mineral and Metal Industries (MMM2012)"
+volume = ""
+number = ""
+page_begin = "274"
+page_end = "275"
+publication_date = "20120910"
+reviewed = true
+invited = false
+lang = "en"
+rm_type = ""
+rm_ftype = "paper"
+doi = ""
+type = "international_conference"
+
+[[record]]
+ja_title = "On port-Hamiltonian modeling and control of quaternion systems"
+en_title = "On port-Hamiltonian modeling and control of quaternion systems"
+ja_author = "Kenji Fujimoto, Tomoya Takeuchi, Yuki Matsumoto"
+en_author = "Kenji Fujimoto, Tomoya Takeuchi, Yuki Matsumoto"
+ja_booktitle = "Proceedings of the 5th IFAC Workshop on Lagrangian and Hamiltonian Methods for Nonlinear Control (LHMNC 2015)"
+en_booktitle = "Proceedings of the 5th IFAC Workshop on Lagrangian and Hamiltonian Methods for Nonlinear Control (LHMNC 2015)"
+volume = "48"
+number = "13"
+page_begin = "39"
+page_end = "44"
+publication_date = "20150704"
+reviewed = true
+invited = false
+lang = "en"
+rm_type = ""
+rm_ftype = "paper"
+doi = "10.1016/j.ifacol.2015.10.211"
+type = "international_conference"
+
+[[record]]
+ja_title = "Input and plant parameter optimization via learning optimal control of Hamiltonian systems"
+en_title = "Input and plant parameter optimization via learning optimal control of Hamiltonian systems"
+ja_author = "Satoshi Satoh, Kenji Fujimoto, Masami Saeki"
+en_author = "Satoshi Satoh, Kenji Fujimoto, Masami Saeki"
+ja_booktitle = "Proceedings of the 5th IFAC Workshop on Lagrangian and Hamiltonian Methods for Nonlinear Control (LHMNC 2015)"
+en_booktitle = "Proceedings of the 5th IFAC Workshop on Lagrangian and Hamiltonian Methods for Nonlinear Control (LHMNC 2015)"
+volume = "43"
+number = "13"
+page_begin = "57"
+page_end = "62"
+publication_date = "20150704"
+reviewed = true
+invited = false
+lang = "en"
+rm_type = ""
+rm_ftype = "paper"
+doi = "10.1016/j.ifacol.2015.10.214"
+type = "international_conference"
+
+[[record]]
+ja_title = "On Gradient Bayes Inference"
+en_title = "On Gradient Bayes Inference"
+ja_author = "Kenji Fujimoto, Takahiro Ishigami, Yoshiharu Nishida"
+en_author = "Kenji Fujimoto, Takahiro Ishigami, Yoshiharu Nishida"
+ja_booktitle = "Proceedings of the 34th Chinese Control Conference and SICE Annual Conference 2015 (CCC&SICE2015)"
+en_booktitle = "Proceedings of the 34th Chinese Control Conference and SICE Annual Conference 2015 (CCC&SICE2015)"
+volume = ""
+number = ""
+page_begin = "876"
+page_end = "881"
+publication_date = "20150728"
+reviewed = true
+invited = false
+lang = "en"
+rm_type = ""
+rm_ftype = "paper"
+doi = ""
+type = "international_conference"
+
+[[record]]
+ja_title = "Double generating functions method for finite time LQ optimal trajectory generation problems"
+en_title = "Double generating functions method for finite time LQ optimal trajectory generation problems"
+ja_author = "Zhiwei Hao, Qiuhua Zhang, Kenji Fujimoto"
+en_author = "Zhiwei Hao, Qiuhua Zhang, Kenji Fujimoto"
+ja_booktitle = "Proceedings of the 34th Chinese Control Conference and SICE Annual Conference 2015 (CCC&SICE2015)"
+en_booktitle = "Proceedings of the 34th Chinese Control Conference and SICE Annual Conference 2015 (CCC&SICE2015)"
+volume = ""
+number = ""
+page_begin = "2490"
+page_end = "2495"
+publication_date = "20150728"
+reviewed = true
+invited = false
+lang = "en"
+rm_type = ""
+rm_ftype = "paper"
+doi = "10.1109/ChiCC.2015.7260022"
+type = "international_conference"
+
+[[record]]
+ja_title = "Optimal Control of the Viscous Burgers Equation by the Hopf-Cole Transformation and Its Properties"
+en_title = "Optimal Control of the Viscous Burgers Equation by the Hopf-Cole Transformation and Its Properties"
+ja_author = "Tomofumi Iwamoto, Kenji Fujimoto"
+en_author = "Tomofumi Iwamoto, Kenji Fujimoto"
+ja_booktitle = "Proceedings of the 10th IFAC Symposium on Nonlinear Control Systems (NOLCOS 2016)"
+en_booktitle = "Proceedings of the 10th IFAC Symposium on Nonlinear Control Systems (NOLCOS 2016)"
+volume = "49"
+number = "18"
+page_begin = "134"
+page_end = "139"
+publication_date = "20160823"
+reviewed = true
+invited = false
+lang = "en"
+rm_type = ""
+rm_ftype = "paper"
+doi = "10.1016/j.ifacol.2016.10.152"
+type = "international_conference"
+
+[[record]]
+ja_title = "On Stabilizing Control of Gaussian Processes for Unknown Nonlinear Systems"
+en_title = "On Stabilizing Control of Gaussian Processes for Unknown Nonlinear Systems"
+ja_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro, Takayoshi Yoshimura"
+en_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro, Takayoshi Yoshimura"
+ja_booktitle = "Proceedings of the 20th IFAC World Congress"
+en_booktitle = "Proceedings of the 20th IFAC World Congress"
+volume = "50"
+number = "1"
+page_begin = "15385"
+page_end = "15390"
+publication_date = "20170709"
+reviewed = true
+invited = false
+lang = "en"
+rm_type = ""
+rm_ftype = "paper"
+doi = "10.1016/j.ifacol.2017.08.1861"
+type = "international_conference"
+
+[[record]]
+ja_title = "Gait generation for a biped robot with knees and torso via trajectory learning and state-transition estimation"
+en_title = "Gait generation for a biped robot with knees and torso via trajectory learning and state-transition estimation"
+ja_author = "Satoshi Satoh, Kenji Fujimoto"
+en_author = "Satoshi Satoh, Kenji Fujimoto"
+ja_booktitle = "Proceedings of the 2nd International Symposium on Swarm Behavior and Bio-Inspired Robotics (SWARM 2017)"
+en_booktitle = "Proceedings of the 2nd International Symposium on Swarm Behavior and Bio-Inspired Robotics (SWARM 2017)"
+volume = ""
+number = ""
+page_begin = ""
+page_end = ""
+publication_date = "20171029"
+reviewed = true
+invited = false
+lang = "en"
+rm_type = ""
+rm_ftype = "paper"
+doi = ""
+type = "international_conference"
+
+[[record]]
+ja_title = "ガウス過程回帰を用いたフィードバック制御則の設計"
+en_title = "Design of feedback Controllers Using Gaussian Process Regression"
+ja_author = "伊藤 優司, 藤本 健治"
+en_author = "Yuji Ito, Kenji Fujimoto"
+ja_booktitle = "システム/制御/情報 : システム制御情報学会誌"
+en_booktitle = ""
+volume = "62"
+number = "10"
+page_begin = "417"
+page_end = "422"
+publication_date = "20181015"
+reviewed = true
+invited = false
+lang = "en"
+rm_type = ""
+rm_ftype = "paper"
+doi = "10.11509/isciesci.62.10_417"
+type = "explanation_journal"
+
+[[record]]
 doi = ""
 en_author = "Ichiro Maruta, Shuhei Nishida, Kenji Fujimoto"
 en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
