@@ -1,4 +1,25 @@
 [[record]]
+ja_title = "Synthesis of non-parametric type controllers based on I/O data from closed-loop experiment"
+en_title = "Synthesis of non-parametric type controllers based on I/O data from closed-loop experiment"
+ja_author = "Yusuke Fujimoto, Ichiro Maruta, Toshiharu Sugie"
+en_author = "Yusuke Fujimoto, Ichiro Maruta, Toshiharu Sugie"
+ja_booktitle = "2015 54th Annual Conference of the Society of Instrument and Control Engineers of Japan (SICE)"
+en_booktitle = "2015 54th Annual Conference of the Society of Instrument and Control Engineers of Japan (SICE)"
+volume = ""
+number = ""
+page_begin = "683"
+page_end = "688"
+publication_date = "20150728"
+reviewed = true
+invited = false
+lang = "en"
+rm_type = ""
+rm_ftype = "paper"
+doi = " 10.1109/SICE.2015.7285504"
+type = "international_conference"
+outside_kuaero = true
+
+[[record]]
 ja_title = "On a relationship between integral compensation and stochastic gradient descent"
 en_title = "On a relationship between integral compensation and stochastic gradient descent"
 ja_author = "Yusuke Fujimoto, Ichiro Maruta, Toshiharu Sugie"
