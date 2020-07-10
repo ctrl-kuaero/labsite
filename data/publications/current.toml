@@ -1,4 +1,25 @@
 [[record]]
+ja_title = "On a relationship between integral compensation and stochastic gradient descent"
+en_title = "On a relationship between integral compensation and stochastic gradient descent"
+ja_author = "Yusuke Fujimoto, Ichiro Maruta, Toshiharu Sugie"
+en_author = "Yusuke Fujimoto, Ichiro Maruta, Toshiharu Sugie"
+ja_booktitle = "2017 56th Annual Conference of the Society of Instrument and Control Engineers of Japan (SICE)"
+en_booktitle = "2017 56th Annual Conference of the Society of Instrument and Control Engineers of Japan (SICE)"
+volume = ""
+number = ""
+page_begin = "343"
+page_end = "343"
+publication_date = "20170919"
+reviewed = true
+invited = false
+lang = "en"
+rm_type = ""
+rm_ftype = "paper"
+doi = "10.23919/SICE.2017.8105719"
+type = "international_conference"
+outside_kuaero = true
+
+[[record]]
 ja_title = "On noise tolerant closed loop identification of MIMO systems"
 en_title = "On noise tolerant closed loop identification of MIMO systems"
 ja_author = "Toshiharu Sugie, Kosei Inoue, Ichiro Maruta"
