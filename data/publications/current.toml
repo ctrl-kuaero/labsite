@@ -1,4 +1,25 @@
 [[record]]
+ja_title = "On noise tolerant closed loop identification of MIMO systems"
+en_title = "On noise tolerant closed loop identification of MIMO systems"
+ja_author = "Toshiharu Sugie, Kosei Inoue, Ichiro Maruta"
+en_author = "Toshiharu Sugie, Kosei Inoue, Ichiro Maruta"
+ja_booktitle = "2017 56th Annual Conference of the Society of Instrument and Control Engineers of Japan (SICE)"
+en_booktitle = "2017 56th Annual Conference of the Society of Instrument and Control Engineers of Japan (SICE)"
+volume = ""
+number = ""
+page_begin = "581"
+page_end = "582"
+publication_date = "20170919"
+reviewed = true
+invited = false
+lang = "en"
+rm_type = ""
+rm_ftype = "paper"
+doi = "10.23919/SICE.2017.8105532"
+type = "international_conference"
+outside_kuaero = true
+
+[[record]]
 ja_title = "Optimal Gait Generation for a Compass Biped Robot via the Double Generating Functions Method"
 en_title = "Optimal Gait Generation for a Compass Biped Robot via the Double Generating Functions Method"
 ja_author = "Zhiwei Hao, Kenji Fujimoto, Yoshikazu Hayakawa"
