@@ -1931,7 +1931,7 @@ rm_type = "2"
 type = "international_conference"
 
 [[record]]
-doi = "10.3182/20090706-3-FR-2004.0145"
+doi = "10.3182/20090706-3-FR-2004.00068"
 en_author = "Ichiro Maruta, Toshiharu Sugie"
 en_booktitle = "Proceedings of the 15th IFAC Symposium on System Identification (SYSID 2009)"
 en_title = "Novel closed-loop identification algorithm based on the finite-dimensional signal subspace"
