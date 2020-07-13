@@ -1,4 +1,84 @@
 [[record]]
+ja_title = "Approximate Dynamic Programming with Gaussian Processes for Optimal Control of Continuous-Time Nonlinear Systems"
+en_title = "Approximate Dynamic Programming with Gaussian Processes for Optimal Control of Continuous-Time Nonlinear Systems"
+ja_author = "Hirofumi Beppu, Ichiro Maruta, Kenji Fujimoto"
+en_author = "Hirofumi Beppu, Ichiro Maruta, Kenji Fujimoto"
+ja_booktitle = "Proceedings of the 21st IFAC World Congress"
+en_booktitle = "Proceedings of the 21st IFAC World Congress"
+volume = ""
+number = ""
+page_begin = ""
+page_end = ""
+publication_date = "20200711"
+reviewed = true
+invited = false
+lang = "en"
+rm_type = ""
+rm_ftype = "paper"
+doi = ""
+type = "international_conference"
+
+[[record]]
+ja_title = "Stability Analysis for Linear Systems with Time-Varying and Time-Invariant Stochastic Parameters"
+en_title = "Stability Analysis for Linear Systems with Time-Varying and Time-Invariant Stochastic Parameters"
+ja_author = "Yuji Ito, Kenji Fujimoto"
+en_author = "Yuji Ito, Kenji Fujimoto"
+ja_booktitle = "Proceedings of the 21st IFAC World Congress"
+en_booktitle = "Proceedings of the 21st IFAC World Congress"
+volume = ""
+number = ""
+page_begin = ""
+page_end = ""
+publication_date = "20200711"
+reviewed = true
+invited = false
+lang = "en"
+rm_type = ""
+rm_ftype = "paper"
+doi = ""
+type = "international_conference"
+
+[[record]]
+ja_title = "Virtual Holonomic Constraints Control for Port-Hamiltonian Systems: A Case Study of Fully Actuated Mechanical Systems"
+en_title = "Virtual Holonomic Constraints Control for Port-Hamiltonian Systems: A Case Study of Fully Actuated Mechanical Systems"
+ja_author = "Yuki Okura, Kenji Fujimoto, Chiaki Kojima"
+en_author = "Yuki Okura, Kenji Fujimoto, Chiaki Kojima"
+ja_booktitle = "Proceedings of the 21st IFAC World Congress"
+en_booktitle = "Proceedings of the 21st IFAC World Congress"
+volume = ""
+number = ""
+page_begin = ""
+page_end = ""
+publication_date = "20200711"
+reviewed = true
+invited = false
+lang = "en"
+rm_type = ""
+rm_ftype = "paper"
+doi = ""
+type = "international_conference"
+
+[[record]]
+ja_title = "Flight Control of Flapping-Wing Robot with Three Paired Direct-Driven Piezoelectric Actuators"
+en_title = "Flight Control of Flapping-Wing Robot with Three Paired Direct-Driven Piezoelectric Actuators"
+ja_author = "Tomohiko Jimbo, Takashi Ozaki, Yasushi Amano, Kenji Fujimoto"
+en_author = "Tomohiko Jimbo, Takashi Ozaki, Yasushi Amano, Kenji Fujimoto"
+ja_booktitle = "Proceedings of the 21st IFAC World Congress"
+en_booktitle = "Proceedings of the 21st IFAC World Congress"
+volume = ""
+number = ""
+page_begin = ""
+page_end = ""
+publication_date = "20200711"
+reviewed = true
+invited = false
+lang = "en"
+rm_type = ""
+rm_ftype = "paper"
+doi = ""
+type = "international_conference"
+
+[[record]]
 ja_title = "Synthesis of non-parametric type controllers based on I/O data from closed-loop experiment"
 en_title = "Synthesis of non-parametric type controllers based on I/O data from closed-loop experiment"
 ja_author = "Yusuke Fujimoto, Ichiro Maruta, Toshiharu Sugie"
