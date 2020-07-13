@@ -162,11 +162,6 @@ en_position = "2015<br>Bachelor"
 ja_name = "塩見 勇祐"
 en_name = "Yusuke SHIOMI"
 
-[[list]]
-ja_position = "2014年卒<br>修士"
-en_position = "2014<br>Master"
-ja_name = "西山 泰史"
-en_name = "Taishi NISHIYAMA"
 
 [[list]]
 ja_position = "2014年卒<br>修士"
@@ -179,6 +174,12 @@ ja_position = "2014年卒<br>修士"
 en_position = "2014<br>Master"
 ja_name = "丸山 俊"
 en_name = "Shun MARUYAMA"
+
+[[list]]
+ja_position = "2014年卒<br>学士"
+en_position = "2014<br>Bachelor"
+ja_name = "西山 泰史"
+en_name = "Taishi NISHIYAMA"
 
 [[list]]
 ja_position = "2013年卒<br>学士"
