@@ -150,7 +150,45 @@ reviewed = false
 rm_ftype = "misc"
 rm_type = "5"
 type = "domestic_conference"
-volume = "61"
+volume = ""
+outside_kuaero = "true"
+
+[[record]]
+en_author = "Yusuke Fujimoto, Ichiro Maruta, Toshiharu Sugie"
+en_booktitle = "Proceedings of the 61st Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
+en_title = "On Input Design for Kernel-Based System Identication with Frequency-Domain Weight"
+invited = false
+ja_author = "藤本 悠介, 丸田 一郎, 杉江 俊治"
+ja_booktitle = "第61回システム制御情報学会研究発表講演会講演論文集"
+ja_title = "カーネル型システム同定における周波数重み付入力設計に関する考察"
+lang = "ja"
+naid = ""
+page_begin = "146-2"
+publication_date = "20170523"
+reviewed = false
+rm_ftype = "misc"
+rm_type = "5"
+type = "domestic_conference"
+volume = ""
+outside_kuaero = "true"
+
+en_author = "M. Itamoto, M. Inoue, Ichiro Maruta, T. Kawaguchi, S. Adachi"
+en_booktitle = "Proceedings of the 61st Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
+en_title = "Study of closed-loop identification for Lure system with dead-zone nonlinearity"
+invited = false
+ja_author = "板本 真輝, 井上 正樹, 丸田 一郎, 川口 貴弘, 足立 修一"
+ja_booktitle = "第61回システム制御情報学会研究発表講演会講演論文集"
+ja_title = "不感帯を含むルーリエ系に対する閉ループ同定の検討"
+lang = "ja"
+naid = "40021220195"
+page_begin = "146-3"
+publication_date = "20170523"
+reviewed = false
+rm_ftype = "misc"
+rm_type = "5"
+type = "domestic_conference"
+volume = ""
+outside_kuaero = "true"
 
 [[record]]
 en_author = "Kosei Inoue, Ichiro Maruta, Toshiharu Sugie"
