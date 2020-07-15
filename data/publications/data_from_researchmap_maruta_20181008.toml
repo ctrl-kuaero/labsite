@@ -753,13 +753,31 @@ ja_title = "連続時間システム同定によるフレキシブルアーム�
 lang = "ja"
 outside_kuaero = true
 page_begin = "7D5-2"
-page_end = "
+page_end = ""
 publication_date = "20140304"
 reviewed = false
 rm_ftype = "misc"
 rm_type = "5"
 type = "domestic_conference"
 
+[[record]]
+jglobalid = ""
+en_author = "Yusuke Fujimoto, Ichiro Maruta, Toshiharu Sugie"
+en_booktitle = "平成25年度 計測自動制御学会関西支部・システム制御情報学会 若手研究発表会講演論文集"
+en_title = "Estimation of Physical Parameters of a Flexible Arm Based on Continuous-time System Identification"
+invited = false
+ja_author = "羽鳥 萌, 室井 秀夫, 丸田 一郎, 足立 修一"
+ja_booktitle = "平成25年度 計測自動制御学会関西支部・システム制御情報学会 若手研究発表会講演論文集"
+ja_title = "少数の点からなるノンパラメトリックPWAモデルの構成に関する一考察"
+lang = "ja"
+outside_kuaero = true
+page_begin = "97"
+page_end = "100"
+publication_date = "20140117"
+reviewed = false
+rm_ftype = "misc"
+rm_type = ""
+type = "domestic_conference"
 
 [[record]]
 en_author = "Ichiro Maruta"
