@@ -868,16 +868,36 @@ type = "domestic_conference"
 volume = ""
 
 [[record]]
-en_author = "Takahiro Kawaguchi, Ayane Sugiura, Ichiro Maruta"
+en_author = "Takahiro Kawaguchi, Ayane Sugiura, Ichiro Maruta, Atsushi Baba, Shuichi Adachi"
 en_booktitle = "Proceedings of the 57th Annual Conference of the Institute of Systems, Control and Information Engineergings (ISCIE)"
 en_title = "Modeling of EV Battery considering Diffusion Phenomena and Its Application to SOC Estimation"
 invited = false
-ja_author = "川口 貴弘, 杉浦 文音, 丸田 一郎"
+ja_author = "川口 貴弘, 杉浦 文音, 丸田 一郎, 馬場 厚志, 足立 修一"
 ja_booktitle = "第57回システム制御情報学会研究発表講演会講演論文集"
 ja_title = "拡散現象を考慮した電気自動車用二次電池のモデリングとその充電率推定への応用"
 lang = "ja"
 naid = "40020165861"
 outside_kuaero = true
+page_begin = "313-2"
+publication_date = "20130515"
+reviewed = false
+rm_ftype = "misc"
+rm_type = "5"
+type = "domestic_conference"
+volume = ""
+
+[[record]]
+en_author = "K. Ishikawa, S. Kanai, Shuichi Adachi, Ichiro Maruta, K. Matsui;A. Ando"
+en_booktitle = "Proceedings of the 57th Annual Conference of the Institute of Systems, Control and Information Engineergings (ISCIE)"
+en_title = "Estimation of Head-Related Transfer Function based on a Parametric Model"
+invited = false
+ja_author = "石川 健太郎, 金井 関利, 足立 修一, 丸田 一郎, 松井 健太郎, 安藤 彰男"
+ja_booktitle = "第57回システム制御情報学会研究発表講演会講演論文集"
+ja_title = "パラメトリックモデルに基づく頭部伝達関数の推定"
+lang = "ja"
+naid = ""
+outside_kuaero = true
+page_begin = "313-5"
 publication_date = "20130515"
 reviewed = false
 rm_ftype = "misc"
@@ -891,10 +911,12 @@ en_author = "Yusuke Fujimoto, Ichiro Maruta, Toshiharu Sugie"
 ja_author = "藤本 悠介, 丸田 一郎, 杉江 俊治"
 en_booktitle = "Proceedings of the 57th Annual Conference of the Institute of Systems, Control and Information Engineergings (ISCIE)"
 ja_booktitle = "第57回システム制御情報学会研究発表講演会講演論文集"
+en_title = "Compression of nonparametric PWA models based on l1 optimization"
 ja_title = "ノンパラメトリック区分的線形モデルのl1最適化に基づく圧縮"
 lang = "ja"
 naid = "40020166171"
 outside_kuaero = true
+page_begin = "321-1"
 publication_date = "20130515"
 reviewed = false
 rm_ftype = "misc"
@@ -903,16 +925,17 @@ type = "domestic_conference"
 volume = ""
 
 [[record]]
-en_author = "Koichi Kobayashi, Ichiro Maruta, Kazunori Sakurama"
+en_author = "Koichi Kobayashi, Ichiro Maruta, Kazunori Sakurama, Shun-ichi Azuma"
 en_booktitle = "Proceedings of the 57th Annual Conference of the Institute of Systems, Control and Information Engineergings (ISCIE)"
 en_title = "Optimal Control of Multi-Agent Markov Decision Processes and Its Application to Real-Time Pricing"
 invited = false
-ja_author = "小林 孝一, 丸田 一郎, 桜間 一徳"
+ja_author = "小林 孝一, 丸田 一郎, 桜間 一徳, 東 俊一"
 jja_booktitle = "第57回システム制御情報学会研究発表講演会講演論文集"
 ja_title = "マルチエージェントマルコフ決定過程の最適制御とリアルタイムプライシングへの応用"
 lang = "ja"
 naid = "40020166830"
 outside_kuaero = true
+page_begin = "331-2"
 permalink = "40020166830"
 publication_date = "20130515"
 reviewed = false
@@ -933,7 +956,7 @@ ja_title = "離散時間システムによる知的PID制御器の実装と安�
 lang = "ja"
 outside_kuaero = true
 page_begin = "8E1-3"
-page_end = "8E1-3"
+page_end = ""
 publication_date = "20130305"
 reviewed = false
 rm_ftype = "misc"
@@ -1089,7 +1112,7 @@ reviewed = false
 rm_ftype = "misc"
 rm_type = "5"
 type = "domestic_conference"
-volume = "2012"
+volume = ""
 
 [[record]]
 jglobalid = "201202201233537910"
@@ -1175,6 +1198,26 @@ rm_type = "15"
 type = "other"
 
 [[record]]
+en_author = "Ichiro Maruta, Shuichi Adachi"
+en_booktitle = "41st SICE Symposium on Control Theory"
+en_title = "Application of System Identification Method for Piecewise Affine Models to Image Processing"
+invited = false
+ja_author = "丸田 一郎, 足立 修一"
+ja_booktitle = "第41回制御理論シンポジウム資料"
+ja_title = "区分的線形モデルを用いたシステム同定法の画像処理への応用"
+jglobalid = ""
+lang = "ja"
+outside_kuaero = true
+page_begin = "169"
+page_end = "174"
+permalink = ""
+publication_date = "20120918"
+reviewed = false
+rm_ftype = "misc"
+rm_type = "5"
+type = "domestic_conference"
+
+[[record]]
 en_author = "Ichiro Maruta, Toshiharu Sugie"
 en_booktitle = "40th SICE Symposium on Control Theory"
 en_title = "Construction of PWA Models based on Optimal Data Compression"
@@ -1222,7 +1265,6 @@ ja_title = "ゆらぎによる安定性能改善の理論予測に基づいた�
 lang = "ja"
 outside_kuaero = true
 page_begin = "168-2-3"
-page_end = "168-2-3"
 publication_date = "20110316"
 reviewed = false
 rm_ftype = "misc"
@@ -1274,6 +1316,66 @@ rm_type = "5"
 type = "domestic_conference"
 
 [[record]]
+en_author = "N. Shinohara;Ichiro Maruta, Toshiharu Sugie"
+en_booktitle = "Proceedings of the 54th Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
+en_title = "Modeling of a simplified VTOL unit with linear time-variant system"
+invited = false
+ja_author = "篠原 暢宏;丸田 一郎, 杉江 俊治"
+ja_booktitle = "第54回システム制御情報学会研究発表講演会講演論文集"
+ja_title = "VTOL型実験機の線形時変システムによるモデリング"
+jglobalid = ""
+lang = "ja"
+outside_kuaero = true
+page_begin = "435"
+page_end = "436"
+permalink = ""
+publication_date = "2010519"
+reviewed = false
+rm_ftype = "misc"
+rm_type = "5"
+type = "domestic_conference"
+
+[[record]]
+en_author = "N. Sugiyama, Masato Ishikawa, Ichiro Maruta, Toshiharu Sugie"
+en_booktitle = "Proceedings of the 54th Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
+en_title = "Identification of a Conventional Robotic Arm Control System with Velocity Reference"
+invited = false
+ja_author = "杉山　暢克, 石川　将人, 丸田 一郎, 杉江 俊治"
+ja_booktitle = "第54回システム制御情報学会研究発表講演会講演論文集"
+ja_title = "速度指令型汎用ロボットアーム制御系の同定"
+jglobalid = ""
+lang = "ja"
+outside_kuaero = true
+page_begin = "513"
+page_end = "514"
+permalink = ""
+publication_date = "2010519"
+reviewed = false
+rm_ftype = "misc"
+rm_type = "5"
+type = "domestic_conference"
+
+[[record]]
+en_author = "Ichiro Maruta, Toshiharu Sugie"
+en_booktitle = "Proceedings of the 54th Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
+en_title = "Continuous-time System identification with noise-models"
+invited = false
+ja_author = "丸田 一郎, 杉江 俊治"
+ja_booktitle = "第54回システム制御情報学会研究発表講演会講演論文集"
+ja_title = "ノイズモデルを考慮した連続時間システム同定"
+jglobalid = ""
+lang = "ja"
+outside_kuaero = true
+page_begin = "545"
+page_end = "546"
+permalink = ""
+publication_date = "2010519"
+reviewed = false
+rm_ftype = "misc"
+rm_type = "5"
+type = "domestic_conference"
+
+[[record]]
 en_author = "Ichiro Maruta, Toshiharu Sugie"
 en_booktitle = "SICE 10th Annual Conference on Control Systems"
 en_title = "Estimation of time-varying parameters in linear systems based on convex-optimization technique"
@@ -1284,7 +1386,7 @@ ja_title = "線形システムにおける時変パラメータの凸最適化�
 lang = "ja"
 outside_kuaero = true
 page_begin = "185-2-2"
-page_end = "185-2-2"
+page_end = ""
 publication_date = "20100316"
 reviewed = false
 rm_ftype = "misc"
@@ -1314,7 +1416,25 @@ reviewed = false
 rm_ftype = "misc"
 rm_type = "5"
 type = "domestic_conference"
-volume = "37th"
+volume = ""
+
+[[record]]
+en_author = "Katsuya Owaki, Masato Ishikawa, Ichiro Maruta, Toshiharu Sugie"
+en_booktitle = "Proceedings of the 53rd Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
+en_title = "Locomotion Control of a Snake-like Robot based on its Periodic Behavier"
+invited = false
+ja_author = "大脇 克也, 石川 将人, 丸田 一郎, 杉江 俊治"
+ja_booktitle = "第53回システム制御情報学会研究発表講演会講演論文集"
+ja_title = "周期現象の解析に基づくヘビ型ロボットの制御"
+lang = "ja"
+outside_kuaero = true
+page_begin = "215"
+page_end = "216"
+publication_date = "20090520"
+reviewed = false
+rm_ftype = "misc"
+rm_type = "5"
+type = "domestic_conference"
 
 [[record]]
 en_author = "Ryohei Kitayoshi, Masato Ishikawa, Takashi Wada, Ichiro Maruta, Toshiharu Sugie"
@@ -1327,8 +1447,62 @@ ja_title = "ＲＣサーボを用いた劣駆動機械系のモデリング"
 lang = "ja"
 outside_kuaero = true
 page_begin = "WC1-4"
-page_end = "WC1-4"
+page_end = ""
 publication_date = "20090304"
+reviewed = false
+rm_ftype = "misc"
+rm_type = "5"
+type = "domestic_conference"
+
+[[record]]
+en_author = "Ryohei Kitayoshi, Masato Ishikawa, Takashi Wada, Ichiro Maruta, Toshiharu Sugie"
+en_booktitle = "計測自動制御学会関西支部 若手研究発表会2009"
+en_title = "RCサーボモータの動特性のモデル化と同定"
+invited = false
+ja_author = "北吉良平, 石川 将人, 和田 尭, 丸田 一郎, 杉江 俊治"
+ja_booktitle = "計測自動制御学会関西支部 若手研究発表会2009"
+ja_title = "RCサーボモータの動特性のモデル化と同定"
+lang = "ja"
+outside_kuaero = true
+page_begin = "121"
+page_end = "124"
+publication_date = "20090114"
+reviewed = false
+rm_ftype = "misc"
+rm_type = "5"
+type = "domestic_conference"
+
+[[record]]
+en_author = "Ichiro Maruta, Toshiharu Sugie"
+en_booktitle = "Proceedings of the 52nd Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
+en_title = "On repetitive learning control system based on projection technique"
+invited = false
+ja_author = "丸田 一郎, 杉江 俊治"
+ja_booktitle = "第52回システム制御情報学会研究発表講演会講演論文集"
+ja_title = "射影型くり返し制御に関する考察"
+lang = "ja"
+outside_kuaero = true
+page_begin = "585"
+page_end = "586"
+publication_date = "20080516"
+reviewed = false
+rm_ftype = "misc"
+rm_type = "5"
+type = "domestic_conference"
+
+[[record]]
+en_author = "Ichiro Marurta, Toshiharu Sugie"
+en_booktitle = "37th SICE Symposium on Control Theory"
+en_title = "初期化の不要な反復学習とその連続時間システム同定への応用"
+invited = false
+ja_author = "丸田 一郎, 杉江 俊治"
+ja_booktitle = "第37回制御理論シンポジウム資料"
+ja_title = "初期化の不要な反復学習とその連続時間システム同定への応用"
+lang = "ja"
+outside_kuaero = true
+page_begin = "117"
+page_end = "122"
+publication_date = "20080917"
 reviewed = false
 rm_ftype = "misc"
 rm_type = "5"
