@@ -1510,7 +1510,7 @@ type = "domestic_conference"
 [[record]]
 en_author = "Yuki Okura, Kenji Fujimoto, Akio Saito, Hidetoshi Ikeda"
 ja_author = "大倉 裕貴, 藤本 健治, 斎藤 暁生, 池田 英俊"
-ja_booktitle = "第62回 システム制御情報学会研究発表講演会"
+ja_booktitle = "第62回 システム制御情報学会研究発表講演会講演論文集"
 en_booktitle = "Proceedings of the 62th Annual Conference of the Institute of Systems, Control and Information Engineers"
 ja_title = "人と機械とのインタラクションを考慮した作業データに基づく経路追従制御について:ベイズ推定を用いたポートハミルトン系の経路追従制御"
 en_title = "On path following control of port-Hamiltonian systems for human machine interaction using training trajectory data: A Bayesian inference approach"
