@@ -1425,6 +1425,7 @@ invited = false
 ja_author = "上原 水優, 濱田 聖司, 丸田 一郎, 藤本 健治, 浜本 研一"
 ja_booktitle = "第5回 計測自動制御学会 制御部門マルチシンポジウム予稿集"
 ja_title = "周期的定常H∞フィルタによるマルチレート状態推定の車両系における実機検証"
+page_begin = "Sa62-5"
 jglobalid = "201802214412260897"
 lang = "ja"
 publication_date = "20180308"
