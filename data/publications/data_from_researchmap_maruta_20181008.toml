@@ -262,6 +262,23 @@ type = "domestic_conference"
 volume = ""
 outside_kuaero = "true"
 
+[[record]]
+en_author = "Y. Kojima, Shun-ichi Azuma, Taichi Kitao, Ichiro Maruta, Toshiharu Sugie"
+en_booktitle = "2016 International Symposium on Nonlinear Theory and Its Applications"
+en_title = "A Packet-Based Energy Management System for Multi-Legged Walking Robots"
+invited = false
+ja_author = "Y. Kojima, Shun-ichi Azuma, Taichi Kitao, Ichiro Maruta, Toshiharu Sugie"
+ja_booktitle = "2016 International Symposium on Nonlinear Theory and Its Applications"
+ja_title = "A Packet-Based Energy Management System for Multi-Legged Walking Robots"
+lang = "en"
+outside_kuaero = true
+page_begin = "80"
+page_end = "81"
+publication_date = "20161127"
+reviewed = true
+rm_ftype = "misc"
+rm_type = ""
+type = "international_conference"
 
 [[record]]
 en_author = "Kosei Inoue, Ichiro Maruta, Toshiharu Sugie"
