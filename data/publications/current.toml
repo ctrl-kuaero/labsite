@@ -1,4 +1,64 @@
 [[record]]
+ja_title = "パラメータ変動の2階の変分を考慮したロバスト軌道設計に関する研究"
+en_title = "A Study on Robust Trajectory Design Considering the Second Order Derivatives of Parameter Variation"
+ja_author = "中川 弘喜，藤本 健治，丸田 一郎"
+en_author = "Hiroki Nakagawa, Kenji Fujimoto, Ichiro Maruta"
+ja_booktitle = "第62回システム制御情報学会研究発表講演会"
+en_booktitle = "Proceedings of the 62nd Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
+volume = ""
+number = ""
+page_begin = "113-1"
+page_end = ""
+publication_date = "20180516"
+reviewed = false
+invited = false
+lang = "ja"
+rm_type = ""
+rm_ftype = ""
+doi = ""
+type = "domestic_conference"
+
+[[record]]
+ja_title = "連続時間システム同定に基づいたアークセンサの開発"
+en_title = "Development of Arc Sensor Based on Continuous-time System Identification"
+ja_author = "田中 恵輔，丸田 一郎，藤本 健治, 西田 吉晴，大根 努，藤井 達也"
+en_author = "Keisuke Tanaka, Ichiro Maruta, Kenji Fujimoto, Y. Nishida, T. One, T. fujii"
+ja_booktitle = "第62回システム制御情報学会研究発表講演会"
+en_booktitle = "Proceedings of the 62nd Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
+volume = ""
+number = ""
+page_begin = "147-3"
+page_end = ""
+publication_date = "20180516"
+reviewed = false
+invited = false
+lang = "ja"
+rm_type = ""
+rm_ftype = ""
+doi = ""
+type = "domestic_conference"
+
+[[record]]
+ja_title = "確率的勾配降下法を用いた Hamilton-Jacobi-Bellman 方程式の数値解に基づく非線形最適制御"
+en_title = "Nonlinear Optimal Control Based on Numerical Solutions of Haimilton-Jacobi-Bellman Equations by Stochastic Gradient Descent"
+ja_author = "大津智宏，丸田 一郎，藤本 健治"
+en_author = "Tomohiro Otsu, Ichiro Maruta, Kenji Fujimoto"
+ja_booktitle = "第62回システム制御情報学会研究発表講演会"
+en_booktitle = "Proceedings of the 62nd Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
+volume = ""
+number = ""
+page_begin = "215-3"
+page_end = ""
+publication_date = "20180516"
+reviewed = false
+invited = false
+lang = "ja"
+rm_type = ""
+rm_ftype = ""
+doi = ""
+type = "domestic_conference"
+
+[[record]]
 ja_title = "Approximate Dynamic Programming with Gaussian Processes for Optimal Control of Continuous-Time Nonlinear Systems"
 en_title = "Approximate Dynamic Programming with Gaussian Processes for Optimal Control of Continuous-Time Nonlinear Systems"
 ja_author = "Hirofumi Beppu, Ichiro Maruta, Kenji Fujimoto"
