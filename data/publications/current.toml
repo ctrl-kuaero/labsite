@@ -29,6 +29,21 @@ invited = false
 type = "domestic_conference"
 
 [[record]]
+en_author = "Takuya Otani, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "大谷 拓也, 丸田 一郎, 藤本 健治"
+ja_booktitle = "第5回計測自動制御学会制御部門マルチシンポジウム 講演論文集"
+en_booktitle = "Proceedings of the 5th Multi-symposium on Control Systems"
+ja_title = "ガウス過程状態空間モデルに基づくシステム同定に関する一考察"
+en_title = "A Study on System Identi cation Based on Gaussian Process State-Space Model"
+lang = "ja"
+page_begin = "Fr43-4"
+publication_date = "20180308"
+jglobalid = ""
+reviewed = false
+invited = false
+type = "domestic_conference"
+
+[[record]]
 ja_title = "パラメータ変動の2階の変分を考慮したロバスト軌道設計に関する研究"
 en_title = "A Study on Robust Trajectory Design Considering the Second Order Derivatives of Parameter Variation"
 ja_author = "中川 弘喜，藤本 健治，丸田 一郎"
