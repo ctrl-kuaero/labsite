@@ -474,7 +474,8 @@ page_begin = "157"
 page_end = "163"
 publication_date = "20200531"
 reviewed = true
-type = "journal"
+type = "journal"　
+
 
 [[record]]
 doi = "10.2322/tastj.16.392"
