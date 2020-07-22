@@ -14,6 +14,21 @@ invited = false
 type = "domestic_conference"
 
 [[record]]
+en_author = "Satoshi Satoh, Kenji Fujimoto"
+ja_author = "佐藤 訓志, 藤本 健治"
+ja_booktitle = "第5回計測自動制御学会制御部門マルチシンポジウム 講演論文集"
+en_booktitle = "Proceedings of the 5th Multi-symposium on Control Systems"
+ja_title = "ハミルトン系のIFTにおける近似微分器を用いた散逸要素の最適調整"
+en_title = "Optimal tuning of dissipative elements via IFT of Hamiltonian systems using filtered derivative"
+lang = "ja"
+page_begin = "Fr51-1"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     "
+publication_date = "20180308"
+jglobalid = ""
+reviewed = false
+invited = false
+type = "domestic_conference"
+
+[[record]]
 en_author = "Takuya Otani, Ichiro Maruta, Kenji Fujimoto"
 ja_author = "大谷 拓也, 丸田 一郎, 藤本 健治"
 ja_booktitle = "第5回計測自動制御学会制御部門マルチシンポジウム 講演論文集"
