@@ -14,7 +14,7 @@ invited = false
 type = "domestic_conference"
 
 [[record]]
-en_author = "S. Satoh, Kenji Fujimoto"
+en_author = "Satoshi. Satoh, Kenji Fujimoto"
 ja_author = "佐藤 訓志, 藤本 健治"
 ja_booktitle = "第5回計測自動制御学会制御部門マルチシンポジウム 講演論文集"
 en_booktitle = "Proceedings of the 5th Multi-symposium on Control Systems"
