@@ -39,6 +39,7 @@
         {{- end }}
         {{- $year_list := sort (uniq ($.Scratch.Get "year")) "value" "desc" -}}
         {{- $yearall_list := sort (uniq ($.Scratch.Get "yearall")) "value" "desc" -}}
+        
         {{/* 著者のリストを作成 */}}
         {{- range $list }}
             {{- $authors_idx_name := (apply (apply (split .en_author ",") "lower" ".") "trim" "." " ")}}
