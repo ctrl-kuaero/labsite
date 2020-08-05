@@ -1764,3 +1764,16 @@ publication_date = "20150304"
 reviewed = false
 invited = false
 type = "domestic_conference"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "On output feedback controller design for Gaussian process state space models"
+page_begin = "3652"
+page_end = "3657"
+doi = "10.1109/CDC.2017.8264196"
+en_author = "Yuji Takaki, Kenji Fujimoto"
+en_booktitle = "Proceedings of 2017 IEEE 56th Annual Conference on Decision and Control (CDC)"
+type = "international_conference"
+publication_date = "20171212"
+url = "https://ieeexplore.ieee.org/document/8264196/"
