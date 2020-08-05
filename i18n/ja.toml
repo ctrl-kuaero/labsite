@@ -3,6 +3,8 @@ other = "ページ一覧"
 
 [publication_type_journal]
 other = "論文"
+[publication_type_book]
+other = "書籍"
 [publication_type_international_conference]
 other = "国際会議"
 [publication_type_domestic_conference]

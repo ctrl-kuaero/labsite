@@ -3,6 +3,8 @@ other = "Page List"
 
 [publication_type_journal]
 other = "Journal Paper"
+[publication_type_book]
+other = "Book"
 [publication_type_international_conference]
 other = "International Confenrence"
 [publication_type_domestic_conference]
