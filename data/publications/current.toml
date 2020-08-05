@@ -2355,16 +2355,30 @@ publication_date = "20040000"
 outside_kuaero = true
 url = "https://ieeexplore.ieee.org/document/1430277/"
 
-#[[record]]
-#reviewed = true
-#lang = "en"
-#en_title = "Optimal control of Hamiltonian systems with input constraints via iterative learning"
-#page_begin = "4387"
-#page_end = "4392"
-#doi = "10.1109/CDC.2003.1272188"
-#en_author = "Kenji Fujimoto, T. Horiuchi, Toshiharu Sugie"
-#en_booktitle = "Proceedings of the 42nd IEEE International Conference on Decision and Control (IEEE Cat. No.03CH37475)"
-#type = "international_conference"
-#publication_date = "20030000"
-#outside_kuaero = true
-#url = "https://ieeexplore.ieee.org/document/1272188/"
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "Optimal control of Hamiltonian systems with input constraints via iterative learning"
+page_begin = "4387"
+page_end = "4392"
+doi = "10.1109/CDC.2003.1272188"
+en_author = "Kenji Fujimoto, T. Horiuchi, Toshiharu Sugie"
+en_booktitle = "Proceedings of the 42nd IEEE International Conference on Decision and Control (IEEE Cat. No.03CH37475)"
+type = "international_conference"
+publication_date = "20030000"
+outside_kuaero = true
+url = "https://ieeexplore.ieee.org/document/1272188/"
+
+[[record]]
+reviewed = true
+lang = "en"
+en_title = "Optimal control of Hamiltonian systems with input constraints via iterative learning"
+page_begin = "4387"
+page_end = "4392"
+doi = "10.1109/CDC.2003.1272188"
+en_author = "Kenji Fujimoto, T. Horiuchi, Toshiharu Sugie"
+en_booktitle = "Proceedings of the 42nd IEEE International Conference on Decision and Control (IEEE Cat. No.03CH37475)"
+type = "international_conference"
+publication_date = "20030000"
+outside_kuaero = true
+url = "https://ieeexplore.ieee.org/document/1272188/"
