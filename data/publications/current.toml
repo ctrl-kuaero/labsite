@@ -1300,7 +1300,6 @@ reviewed = false
 invited = false
 type = "domestic_conference"
 doi = "10.11511/jacc.61.0_1464"
-isbn = "10000"
 
 [[record]]
 en_author = "Ichiro Maruta, Tomohiro Otsu, Kenji Fujimoto"
