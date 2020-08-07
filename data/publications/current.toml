@@ -827,7 +827,7 @@ type = "domestic_conference"
 
 [[record]]
 en_author = "Kiyoshi Hamada, Pablo Borja, Jacquelien M. A. Scherpen, Kenji Fujimoto, Ichiro Maruta"
-ja_author = "濱田 聖司, P. Borja, J. M. A. Scherpen, 藤本 健治, 丸田 一郎"
+ja_author = "濱田 , P. Borja, J. M. A. Scherpen, 藤本 健治, 丸田 一郎"
 ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム 講演論文集"
 en_booktitle = "Proceedings of the 7th Multi-symposium on Control Systems"
 ja_title = "非線形機械システムに対する受動性に基づいた位相遅れ補償について"
