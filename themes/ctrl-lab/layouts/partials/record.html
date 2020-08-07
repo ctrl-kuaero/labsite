@@ -160,7 +160,7 @@
                 {{- else if .r.page_begin -}}
                 <span class="sep">,</span> {{ .r.page_begin }}
                 {{- end -}}
-                {{- if $publisher -}}
+                {{- if .r.en_publisher -}}
                 <span class="sep">,</span> {{ $publisher -}}
                 {{- end -}}
                 {{- if .r.publication_date }}
