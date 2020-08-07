@@ -71,7 +71,7 @@
             <span class="year" style="margin-left:0.3em;">({{- partial "format-date.html" (dict "date" .r.publication_date "lang" $page_lang) }})</span>
             {{- end }}
             {{- if .r.isbn }}
-                <div class="sep" >ISBN : {{ .r.isbn }}</div>
+                <div class="sep">ISBN : {{ .r.isbn }}</div>
             {{- end }}
             {{- if or .r.doi .r.naid .r.jglobalid .r.url }}
             <div class="field is-grouped is-grouped-multiline" style="margin-top:0.2em;">
@@ -159,6 +159,9 @@
                 {{- end -}}
                 {{- if .r.publication_date }}
                 <span class="year" style="margin-left:0.3em;">({{- partial "format-date.html" (dict "date" .r.publication_date "lang" $page_lang) }})</span>
+                {{- end }}
+                {{- if .r.isbn }}
+                <div class="sep">ISBN : {{ .r.isbn }}</div>
                 {{- end }}
                 {{- if or .r.doi .r.naid .r.jglobalid .r.url }}
                 <div class="field is-grouped is-grouped-multiline" style="margin-top:0.2em;">
