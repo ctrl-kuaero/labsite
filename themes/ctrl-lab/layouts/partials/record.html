@@ -157,8 +157,8 @@
                 {{- else if .r.page_begin -}}
                 <span class="sep">,</span> {{ .r.page_begin }}
                 {{- end -}}
-                {{- if .r.publisher -}}
-                <span class="sep">,</span> {{ .r.publisher -}}
+                {{- if or .r.en_publisher .r.ja_publisher -}}
+                <span class="sep">,</span> {{ $publisher -}}
                 {{- end -}}
                 {{- if .r.publication_date }}
                 <span class="year" style="margin-left:0.3em;">({{- partial "format-date.html" (dict "date" .r.publication_date "lang" $page_lang) }})</span>
