@@ -839,7 +839,7 @@ jglobalid = ""
 reviewed = false
 invited = false
 type = "domestic_conference"
-isbn = 1000
+isbn = "1000"
 
 [[record]]
 en_author = "Keisuke Tanaka, Ichiro Maruta, Kenji Fujimoto, Yoshiharu Nishida, Tsutomu One, Tatsuya Fujii"
