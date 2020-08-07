@@ -1,28 +1,4 @@
 [[record]]
-ja_title = "Lagrangian and Hamiltonian Methods For Nonlinear Control 2006: Prceedings from 3rd IFAC Workshop, Nagoya, Japan, July 2006"
-en_title = "Lagrangian and Hamiltonian Methods For Nonlinear Control 2006: Prceedings from 3rd IFAC Workshop, Nagoya, Japan, July 2006"
-ja_author = "Francesco Bullo, 藤本 健治（編）"
-en_author = "Francesco Bullo, Kenji Fujimoto (Eds)"
-ja_booktitle = "Lecture Notes in Control and Information Sciences 366"
-en_booktitle = "Lecture Notes in Control and Information Sciences 366"
-volume = ""
-number = ""
-page_begin = ""
-page_end = ""
-ja_publisher = "Springer-Verlag Berlin Heidelerg"
-en_publisher = "Springer-Verlag Berlin Heidelerg"
-publication_date = "20070000"
-reviewed = true
-invited = true
-lang = "en"
-rm_type = ""
-rm_ftype = ""
-doi = "10.1007/978-3-540-73890-9"
-type = "book"
-isbn = "9783540738893"
-outside_kuaero = true
-
-[[record]]
 en_author = "Juro Nishioka, Ichiro Maruta, Kenji Fujimoto"
 ja_author = "西岡 寿朗, 丸田 一郎, 藤本 健治"
 ja_booktitle = "第5回計測自動制御学会制御部門マルチシンポジウム 講演論文集"
