@@ -8,6 +8,7 @@
 {{- if .r.ja_title }}{{ $.Scratch.Set "title" .r.ja_title }}{{ end }}
 {{- if .r.ja_author }}{{ $.Scratch.Set "author" .r.ja_author }}{{ end }}
 {{- if .r.ja_booktitle }}{{ $.Scratch.Set "booktitle" .r.ja_booktitle }}{{ end }}
+{{- if .r.ja_publisher }}{{ $.Scratch.Set "publisher" .r.ja_publisher }}{{ end }}
 {{- if .r.ja_giver }}{{ $.Scratch.Set "giver" .r.ja_giver }}{{ end }}
 {{- end }}
 
@@ -18,6 +19,7 @@
 {{- if not .r.en_title }}{{ $.Scratch.Set "title" .r.ja_title }}{{ end }}
 {{- if not .r.en_author }}{{ $.Scratch.Set "author" .r.ja_author }}{{ end }}
 {{- if not .r.en_booktitle }}{{ $.Scratch.Set "booktitle" .r.ja_booktitle }}{{ end }}
+{{- if .r.en_publisher }}{{ $.Scratch.Set "publisher" .r.en_publisher }}{{ end }}
 {{- if not .r.en_giver }}{{ $.Scratch.Set "giver" .r.ja_giver }}{{ end }}
 {{- end }}
 
