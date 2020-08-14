@@ -1,64 +1,4 @@
 [[record]]
-en_author = "Ichiro Maruta"
-ja_author = "丸田 一郎"
-en_giver = "The Society of Instrument and Control Engineers"
-ja_giver = "計測自動制御学会"
-en_title = "2011 SICE Young Authors Awards for Basic Research"
-ja_title = "2011年度 計測自動制御学会 学術奨励賞研究奨励賞"
-publication_date = "20110200"
-type = "award"
-url = "https://www.sice.jp/about/awards/"
-outside_kuaero = true
-
-[[record]]
-en_author = "Ichiro Maruta"
-ja_author = "丸田 一郎"
-en_giver = "The Society of Instrument and Control Engineers, Control Division"
-ja_giver = "計測自動制御学会 制御部門"
-en_title = "2012 SICE Control Division Research Encouragement Award from the Control Division of the Society of Instrument and Control Engineers"
-ja_title = "計測自動制御学会 2012年制御部門研究奨励賞"
-publication_date = "20120315"
-type = "award"
-url = "https://www.sice.jp/about/awards/"
-outside_kuaero = true
-
-[[record]]
-en_author = "Ichiro Maruta"
-ja_author = "丸田 一郎"
-en_giver = "The Society of Instrument and Control Engineers, Control Division"
-ja_giver = "計測自動制御学会 制御部門"
-en_title = "2012 SICE Control Division Best Research Award from the Control Division of The Society of Instrument and Control Engineers"
-ja_title = "計測自動制御学会 2012年制御部門大会賞"
-publication_date = "20120315"
-type = "award"
-url = "https://www.sice.jp/about/awards/"
-outside_kuaero = true
-
-[[record]]
-en_author = "Ichiro Maruta"
-ja_author = "丸田 一郎"
-en_giver = "Executive Committee of The Japan Joint Automatic Conference"
-ja_giver = "第56回自動制御連合講演会実行委員会"
-en_title = "The Outstanding Presentation Award"
-ja_title = "第56回自動制御連合講演会 優秀発表賞"
-publication_date = "20131205"
-type = "award"
-url = ""
-outside_kuaero = true
-
-[[record]]
-en_author = "Ichiro Maruta"
-ja_author = "丸田 一郎"
-en_giver = "The Society of Instrument and Control Engineers"
-ja_giver = "計測自動制御学会"
-en_title = "The Outstanding Book Award in 2014 from The Society of Instrument and Control Engineers"
-ja_title = "2014年度 計測自動制御学会 著述賞"
-publication_date = "20140911"
-type = "award"
-url = "https://www.sice.jp/about/awards/"
-outside_kuaero = true
-
-[[record]]
 en_author = "Naoki Sakata"
 ja_author = "坂田 直樹"
 en_giver = "The Executive Committee of the 64rd Annual Conference of the Institute of Systems, Control and Information Engineers"
@@ -327,6 +267,18 @@ type = "award"
 url = "https://www.jsass.or.jp/wp-content/uploads/2018/11/Listofstudentawardrecipients.pdf"
 
 [[record]]
+en_author = "Ichiro Maruta"
+ja_author = "丸田 一郎"
+en_giver = "The Society of Instrument and Control Engineers"
+ja_giver = "計測自動制御学会"
+en_title = "The Outstanding Book Award in 2014 from The Society of Instrument and Control Engineers"
+ja_title = "2014年度 計測自動制御学会 著述賞"
+publication_date = "20140911"
+type = "award"
+url = "https://www.sice.jp/about/awards/"
+outside_kuaero = true
+
+[[record]]
 en_author = "Teppei Inoue"
 ja_author = "井上 鉄平"
 en_giver = "The Japan Society of Aeronautical and Space Sciences"
@@ -336,3 +288,51 @@ ja_title = "平成25年度日本航空宇宙学会学生賞"
 publication_date = "20140325"
 type = "award"
 url = "https://www.jsass.or.jp/wp-content/uploads/2018/11/Listofstudentawardrecipients.pdf"
+
+[[record]]
+en_author = "Ichiro Maruta"
+ja_author = "丸田 一郎"
+en_giver = "Executive Committee of The Japan Joint Automatic Conference"
+ja_giver = "第56回自動制御連合講演会実行委員会"
+en_title = "The Outstanding Presentation Award"
+ja_title = "第56回自動制御連合講演会 優秀発表賞"
+publication_date = "20131205"
+type = "award"
+url = ""
+outside_kuaero = true
+
+[[record]]
+en_author = "Ichiro Maruta"
+ja_author = "丸田 一郎"
+en_giver = "The Society of Instrument and Control Engineers, Control Division"
+ja_giver = "計測自動制御学会 制御部門"
+en_title = "2012 SICE Control Division Best Research Award from the Control Division of The Society of Instrument and Control Engineers"
+ja_title = "計測自動制御学会 2012年制御部門大会賞"
+publication_date = "20120315"
+type = "award"
+url = "https://www.sice.jp/about/awards/"
+outside_kuaero = true
+
+[[record]]
+en_author = "Ichiro Maruta"
+ja_author = "丸田 一郎"
+en_giver = "The Society of Instrument and Control Engineers, Control Division"
+ja_giver = "計測自動制御学会 制御部門"
+en_title = "2012 SICE Control Division Research Encouragement Award from the Control Division of the Society of Instrument and Control Engineers"
+ja_title = "計測自動制御学会 2012年制御部門研究奨励賞"
+publication_date = "20120315"
+type = "award"
+url = "https://www.sice.jp/about/awards/"
+outside_kuaero = true
+
+[[record]]
+en_author = "Ichiro Maruta"
+ja_author = "丸田 一郎"
+en_giver = "The Society of Instrument and Control Engineers"
+ja_giver = "計測自動制御学会"
+en_title = "2011 SICE Young Authors Awards for Basic Research"
+ja_title = "2011年度 計測自動制御学会 学術奨励賞研究奨励賞"
+publication_date = "20110200"
+type = "award"
+url = "https://www.sice.jp/about/awards/"
+outside_kuaero = true
