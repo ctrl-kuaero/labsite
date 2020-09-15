@@ -1,4 +1,24 @@
 [[record]]
+ja_title = "On Rendezvous Trajectory Design of Earth Orbiting Satellites with Robust L1-Optimal Control for Parameter Variations"
+en_title = "On Rendezvous Trajectory Design of Earth Orbiting Satellites with Robust L1-Optimal Control for Parameter Variations"
+ja_author = "Kenji Fujimoto, Tasuku Kodama, Ichiro Maruta"
+en_author = "Kenji Fujimoto, Tasuku Kodama, Ichiro Maruta"
+ja_booktitle = "Transaction of the Japan Society for Aeronautical and Space Sciences, Aerospace Technology"
+en_booktitle = "Transaction of the Japan Society for Aeronautical and Space Sciences, Aerospace Technology"
+volume = "18"
+number = "5"
+page_begin = "250"
+page_end = "257"
+publication_date = "20200904"
+reviewed = true
+invited = false
+lang = "en"
+rm_type = ""
+rm_ftype = "paper"
+doi = "10.2322/tastj.18.250"
+type = "journal"
+
+[[record]]
 en_author = "Juro Nishioka, Ichiro Maruta, Kenji Fujimoto"
 ja_author = "西岡 寿朗, 丸田 一郎, 藤本 健治"
 ja_booktitle = "第5回計測自動制御学会制御部門マルチシンポジウム 講演論文集"
