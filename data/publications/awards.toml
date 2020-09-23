@@ -139,6 +139,17 @@ type = "award"
 url = "https://sci19.iscie.or.jp/award/"
 
 [[record]]
+en_author = "Shuhei Nishida"
+ja_author = "西田 周平"
+en_giver = "The Institute of Systems, Control and Information Engineers"
+ja_giver = "システム制御情報学会"
+en_title = "The 2020 ISCIE Young Investigators Award"
+ja_title = "2020年度システム制御情報学会学会賞奨励賞"
+publication_date = "20200521"
+type = "award"
+url = "https://www.iscie.or.jp/about/award"
+
+[[record]]
 en_author = "Hirofumi Beppu"
 ja_author = "別府 啓史"
 en_giver = "The Japan Society of Mechanical Engineers"
