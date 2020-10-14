@@ -2258,7 +2258,6 @@ en_booktitle = "SICE International symposium on Control Systems 2016 in Proceedi
 publication_date = "20160307"
 type = "summary_international_conference"
 page_begin = "2A2-4"
-page_end = "pp.2"
 reviewed = true
 invited = false
 en_title = "Model-Free Position Control of Solar Farms Maximizing Power Generation"
@@ -3966,20 +3965,6 @@ wos_id = "WOS:000380615700234"
 outside_kuaero = false
 
 [[record]]
-publication_date = "20150707"
-ja_booktitle = "Proceedings of the 30th International Symposium on Space Technology and Science (ISTS)"
-en_booktitle = "Proceedings of the 30th International Symposium on Space Technology and Science (ISTS)"
-type = "international_conference"
-page_begin = "2015-d-01"
-reviewed = true
-invited = false
-en_title = "On Port-Hamiltonian Modeling and Control of Systems with Quaternions"
-ja_title = "On Port-Hamiltonian Modeling and Control of Systems with Quaternions"
-en_author = "Kenji Fujimoto, Yuki Matsumoto"
-ja_author = "Kenji Fujimoto, Yuki Matsumoto"
-outside_kuaero = false
-
-[[record]]
 publication_date = "20150701"
 ja_booktitle = "2015 American Control Conference"
 en_booktitle = "2015 American Control Conference"
@@ -4516,23 +4501,6 @@ ja_author = "Toshiaki Watanabe, Kenji Fujimoto, Yoshihiro Hashimoto, Yoshiharu N
 outside_kuaero = true
 
 [[record]]
-publication_date = "20120829"
-ja_booktitle = "Proceedings of the 4th IFAC Workshop on Lagrangian and Hamiltonian Methods for Nonlinear Control (LHMNC 2012)"
-en_booktitle = "Proceedings of the 4th IFAC Workshop on Lagrangian and Hamiltonian Methods for Nonlinear Control (LHMNC 2012)"
-type = "international_conference"
-volume = "45"
-number = "19"
-page_begin = "194"
-page_end = "199"
-reviewed = true
-invited = false
-en_title = "Approximate Solutions to the Hamilton-Jacobi Equations for Generating Functions with a Quadratic Cost Function with Respect to the Input"
-ja_title = "Approximate Solutions to the Hamilton-Jacobi Equations for Generating Functions with a Quadratic Cost Function with Respect to the Input"
-en_author = "Zhiwei Hao, Kenji Fujimoto"
-ja_author = "Zhiwei Hao, Kenji Fujimoto"
-outside_kuaero = true
-
-[[record]]
 publication_date = "20120229"
 ja_booktitle = "計測自動制御学会論文集"
 en_booktitle = "Transactions of the Society of Instrument and Control Engineers"
@@ -4607,6 +4575,27 @@ outside_kuaero = true
 
 [[record]]
 publication_date = "20120000"
+en_booktitle = "IFAC Proceedings Volumes (IFAC-PapersOnline)"
+type = "international_conference"
+volume = "45"
+number = "19"
+page_begin = "194"
+page_end = "199"
+reviewed = true
+invited = false
+en_publisher = "IFAC Secretariat"
+ja_publisher = "IFAC Secretariat"
+en_title = "Approximate solutions to the Hamilton-Jacobi equations for generating functions with a quadratic cost function with respect to the input"
+ja_title = "Approximate solutions to the Hamilton-Jacobi equations for generating functions with a quadratic cost function with respect to the input"
+en_author = "Zhiwei Hao, Kenji Fujimoto"
+ja_author = "Zhiwei Hao, Kenji Fujimoto"
+doi = "10.3182/20120829-3-IT-4022.00029"
+issn = "1474-6670"
+scopus_id = "84880984764"
+outside_kuaero = true
+
+[[record]]
+publication_date = "20120000"
 en_booktitle = "ISIJ International"
 type = "journal"
 volume = "52"
@@ -4650,33 +4639,38 @@ url = "http://xplorestaging.ieee.org/ielx5/9/6011601/05729790.pdf?arnumber=57297
 outside_kuaero = true
 
 [[record]]
-publication_date = "20110828"
-ja_booktitle = "Proceedings of the 18th IFAC World Congress"
-en_booktitle = "Proceedings of the 18th IFAC World Congress"
+publication_date = "20110816"
+ja_booktitle = "Proceedings of the 2011 International Conference on Mechatronics and Information Technology (ICMIT2011)"
+en_booktitle = "Proceedings of the 2011 International Conference on Mechatronics and Information Technology (ICMIT2011)"
 type = "international_conference"
-page_begin = "6912"
-page_end = "6917"
 reviewed = true
 invited = false
-en_title = "Periodic Gait Generation via Repetitive Optimal Control of Hamiltonian Systems"
-ja_title = "Periodic Gait Generation via Repetitive Optimal Control of Hamiltonian Systems"
-en_author = "Satoshi Satoh, Kenji Fujimoto, Sang-Ho Hyon"
-ja_author = "Satoshi Satoh, Kenji Fujimoto, Sang-Ho Hyon"
+en_title = "Path following control for a class of electro-mechanical systems and its application"
+ja_title = "Path following control for a class of electro-mechanical systems and its application"
+en_author = "Mitsuru Taniguchi, Kenji Fujimoto"
+ja_author = "Mitsuru Taniguchi, Kenji Fujimoto"
 outside_kuaero = true
 
 [[record]]
-publication_date = "20110828"
-ja_booktitle = "Proceedings of the 18th IFAC World Congress"
-en_booktitle = "Proceedings of the 18th IFAC World Congress"
-type = "international_conference"
-page_begin = "12605"
-page_end = "12610"
+publication_date = "20110731"
+ja_booktitle = "計測自動制御学会論文集"
+en_booktitle = "Transactions of the Society of Instrument and Control Engineers"
+type = "journal"
+volume = "47"
+number = "7"
+page_begin = "301"
+page_end = "309"
 reviewed = true
 invited = false
-en_title = "Optimal Control of Linear Systems with Stochastic Parameters for Variance Suppression: The Finite Time Horizon Case"
-ja_title = "Optimal Control of Linear Systems with Stochastic Parameters for Variance Suppression: The Finite Time Horizon Case"
+en_publisher = "計測自動制御学会"
+ja_publisher = "計測自動制御学会"
+en_title = "Optimal Control of Linear Systems with Stochastic Parameters for Variance Suppression"
+ja_title = "確率パラメータをもつ線形系の分散抑制最適制御"
 en_author = "Kenji Fujimoto, Soraki Ogawa, Yuhei Ota, Makishi Nakayama"
-ja_author = "Kenji Fujimoto, Soraki Ogawa, Yuhei Ota, Makishi Nakayama"
+ja_author = "藤本 健治, 小川 空記, 太田 祐平, 中山 万希志"
+issn = "0453-4654"
+cinii_na_id = "10029470763"
+url = "http://ci.nii.ac.jp/naid/10029470763/"
 outside_kuaero = true
 
 [[record]]
@@ -5492,20 +5486,6 @@ ja_booktitle = "第58回システム制御情報学会研究発表講演会講�
 en_booktitle = "Proceedings of the 58th Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
 publication_date = "20140521"
 type = "domestic_conference"
-page_begin = "323-5"
-reviewed = false
-invited = false
-en_title = "On Generating Function Approach to Linear Quadratic Optimal Control Problem with Constraints"
-ja_title = "On Generating Function Approach to Linear Quadratic Optimal Control Problem with Constraints"
-en_author = "Dijian Chen, Zhiwei Hao, Kenji Fujimoto, Tatsuya Suzuki"
-ja_author = "Dijian Chen, Zhiwei Hao, Kenji Fujimoto, Tatsuya Suzuki"
-outside_kuaero = false
-
-[[record]]
-ja_booktitle = "第58回システム制御情報学会研究発表講演会講演論文集"
-en_booktitle = "Proceedings of the 58th Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
-publication_date = "20140521"
-type = "domestic_conference"
 page_begin = "321-2"
 reviewed = false
 invited = false
@@ -5598,6 +5578,27 @@ ja_title = "ロバストな変分ベイズアルゴリズムの提案"
 en_author = "Takayo Ishigami, Kenji Fujimoto, Yoshiharu Nishida"
 ja_author = "石神 孝容, 藤本 健治, 西田 吉晴"
 j_global_id = "201402281029325252"
+outside_kuaero = false
+
+[[record]]
+en_booktitle = "Proceedings of the IEEE Conference on Decision and Control"
+publication_date = "20140000"
+type = "domestic_conference"
+volume = "2015-"
+number = "February"
+page_begin = "6659"
+page_end = "6664"
+reviewed = false
+invited = false
+en_publisher = "Institute of Electrical and Electronics Engineers Inc."
+ja_publisher = "Institute of Electrical and Electronics Engineers Inc."
+en_title = "Generating function approach to linear quadratic optimal control problem with constraints on the state"
+ja_title = "Generating function approach to linear quadratic optimal control problem with constraints on the state"
+en_author = "Dijian Chen, Kenji Fujimoto, Tatusya Suzuki"
+ja_author = "Dijian Chen, Kenji Fujimoto, Tatusya Suzuki"
+doi = "10.1109/CDC.2014.7040434"
+issn = "0743-1546"
+scopus_id = "84988301829"
 outside_kuaero = false
 
 [[record]]
