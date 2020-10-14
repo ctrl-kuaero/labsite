@@ -48,3 +48,13 @@ other = "その他記事"
 
 [publication_type_award]
 other = "受賞"
+
+[book_owner_role_contributor]
+other = "分担執筆"
+
+[book_owner_role_joint_editor]
+other = "共編者(共編著者)"
+
+[book_owner_role_joint_work]
+other = "共著"
+

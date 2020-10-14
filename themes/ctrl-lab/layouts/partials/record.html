@@ -4,12 +4,15 @@
 {{- $.Scratch.Set "author" .r.en_author }}
 {{- $.Scratch.Set "booktitle" .r.en_booktitle }}
 {{- $.Scratch.Set "giver" .r.en_giver }}
+{{- $.Scratch.Set "book_owner_range" .r.en_book_owner_range }}
+
 {{- if eq $page_lang "ja" }}
 {{- if .r.ja_title }}{{ $.Scratch.Set "title" .r.ja_title }}{{ end }}
 {{- if .r.ja_author }}{{ $.Scratch.Set "author" .r.ja_author }}{{ end }}
 {{- if .r.ja_booktitle }}{{ $.Scratch.Set "booktitle" .r.ja_booktitle }}{{ end }}
 {{- if .r.ja_publisher }}{{ $.Scratch.Set "publisher" .r.ja_publisher }}{{ end }}
 {{- if .r.ja_giver }}{{ $.Scratch.Set "giver" .r.ja_giver }}{{ end }}
+{{- if .r.ja_book_owner_range }}{{ $.Scratch.Set "book_owner_range" .r.ja_book_owner_range }}{{ end }}
 {{- end }}
 
 {{- if (and (eq $page_lang "en") (eq .r.lang "ja")) }}
@@ -19,6 +22,7 @@
 {{- if not .r.en_title }}{{ $.Scratch.Set "title" .r.ja_title }}{{ end }}
 {{- if not .r.en_author }}{{ $.Scratch.Set "author" .r.ja_author }}{{ end }}
 {{- if not .r.en_booktitle }}{{ $.Scratch.Set "booktitle" .r.ja_booktitle }}{{ end }}
+{{- if not .r.en_book_owner_range }}{{ $.Scratch.Set "book_owner_range" .r.ja_book_owner_range }}{{ end }}
 {{- if .r.en_publisher }}{{ $.Scratch.Set "publisher" .r.en_publisher }}{{ end }}
 {{- if not .r.en_giver }}{{ $.Scratch.Set "giver" .r.ja_giver }}{{ end }}
 {{- end }}
@@ -27,6 +31,7 @@
 {{- $title := $.Scratch.Get "title" }}
 {{- $author := $.Scratch.Get "author" }}
 {{- $booktitle := $.Scratch.Get "booktitle" }}
+{{- $book_owner_range := $.Scratch.Get "book_owner_range" }}
 {{- $publisher := $.Scratch.Get "publisher" }}
 {{- $giver := $.Scratch.Get "giver" }}
 {{- $author_list := split $author "," }}
@@ -73,10 +78,7 @@
             {{- if .r.publication_date }}
             <span class="year" style="margin-left:0.3em;">({{- partial "format-date.html" (dict "date" .r.publication_date "lang" $page_lang) }})</span>
             {{- end }}
-            {{- if .r.isbn }}
-                <div class="sep">ISBN : {{ .r.isbn }}</div>
-            {{- end }}
-            {{- if or .r.doi .r.naid .r.jglobalid .r.url }}
+            {{- if or .r.doi .r.cinii_na_id .r.j_global_id .r.url }}
             <div class="field is-grouped is-grouped-multiline" style="margin-top:0.2em;">
                 {{- if .r.doi -}}
                 <div class="control" style="vertical-align:0.05em;">
@@ -90,25 +92,25 @@
                 </div>
                 {{- end -}}
 
-                {{- if .r.naid }}
+                {{- if .r.cinii_na_id }}
                 <div class="control" style="vertical-align:0.05em;">
-                    <a href="https://ci.nii.ac.jp/naid/{{ .r.naid }}/">
+                    <a href="https://ci.nii.ac.jp/naid/{{ .r.cinii_na_id }}/">
                         <div class="tags has-addons">
                             <span class="tag is-primary" style="font-size: 60%; font-weight:700">CiNii</span>
                             <span class="tag is-primary" style="font-size: 60%; font-weight:400"><span
-                                    class="limitter">{{ .r.naid }}</span></span>
+                                    class="limitter">{{ .r.cinii_na_id }}</span></span>
                         </div>
                     </a>
                 </div>
                 {{- end -}}
 
-                {{- if .r.jglobalid }}
+                {{- if .r.j_global_id }}
                 <div class="control" style="vertical-align:0.05em;">
-                    <a href="http://jglobal.jst.go.jp/detail?JGLOBAL_ID={{ .r.jglobalid }}">
+                    <a href="http://jglobal.jst.go.jp/detail?JGLOBAL_ID={{ .r.j_global_id }}">
                         <div class="tags has-addons">
                             <span class="tag is-primary" style="font-size: 60%; font-weight:700">J-GLOBAL ID</span>
                             <span class="tag is-primary" style="font-size: 60%; font-weight:400"><span
-                                    class="limitter">{{ .r.jglobalid }}</span></span>
+                                    class="limitter">{{ .r.j_global_id }}</span></span>
                         </div>
                     </a>
                 </div>
@@ -140,13 +142,24 @@
             <span class="pubtitle">{{ $title }}</span>
             {{ if ($.Scratch.Get "note") }}<span class="note">{{ $.Scratch.Get "note" }}</span>{{end -}}
             <br>
+            {{- if $book_owner_range }}
+                {{- if eq $page_lang "en" }}
+                <span>(Wrote part of the book &ldquo;{{ $book_owner_range }}&rdquo;)</span><br>
+                {{- else }}
+                <span>（書籍の一部「{{ $book_owner_range }} 」を執筆）</span><br>
+                {{- end }}
+            {{ end -}} 
             {{- range $index, $author := $author_list }}
-            <span class="author">{{ $author }}</span>
-            {{- if eq $page_lang "en" }}
-            {{- if eq $index (add $num_author -2) }} <span class="sepboth">and</span>
-            {{- else if lt $index (add $num_author -1) }}<span class="sep">,</span>{{- end }}
-            {{- else if lt $index (add $num_author -1) }}<span class="sep">,</span> {{- end }}
-            {{- end }}<br>
+                <span class="author">{{ $author }}</span>
+                {{- if eq $page_lang "en" }}
+                    {{- if eq $index (add $num_author -2) }} <span class="sepboth">and</span>
+                    {{- else if lt $index (add $num_author -1) }}<span class="sep">,</span>{{- end }}
+                {{- else if lt $index (add $num_author -1) }}<span class="sep">,</span> {{- end }}
+            {{- end }}
+            {{- if .r.book_owner_role }}
+            <span class="book-owner-role tag is-info">{{ i18n (printf "%s_%s" "book_owner_role" .r.book_owner_role)}}</span>
+            {{- end -}}
+            <br>
             <span class="citeinfo">
                 {{ $booktitle }}
                 {{- if .r.volume -}}
@@ -161,15 +174,16 @@
                 <span class="sep">,</span> {{ .r.page_begin }}
                 {{- end -}}
                 {{- if or .r.en_publisher .r.ja_publisher -}}
-                <span class="sep">,</span> {{ $publisher -}}
+                    {{- if $booktitle -}}
+                        <span class="sep">,</span>
+                    {{- end -}}
+                        {{- $publisher -}}
                 {{- end -}}
                 {{- if .r.publication_date }}
                 <span class="year" style="margin-left:0.3em;">({{- partial "format-date.html" (dict "date" .r.publication_date "lang" $page_lang) }})</span>
                 {{- end }}
-                {{- if .r.isbn }}
-                <div class="sep">ISBN : {{ .r.isbn }}</div>
-                {{- end }}
-                {{- if or .r.doi .r.naid .r.jglobalid .r.url }}
+
+                {{- if or .r.doi .r.cinii_na_id .r.cinii_nc_id .r.j_global_id .r.url .r.issn .r.e_issn .r.isbn}}
                 <div class="field is-grouped is-grouped-multiline" style="margin-top:0.2em;">
                     {{- if .r.doi -}}
                     <div class="control" style="vertical-align:0.05em;">
@@ -183,25 +197,37 @@
                     </div>
                     {{- end -}}
 
-                    {{- if .r.naid }}
+                    {{- if .r.cinii_na_id }}
                     <div class="control" style="vertical-align:0.05em;">
-                        <a href="https://ci.nii.ac.jp/naid/{{ .r.naid }}/">
+                        <a href="https://ci.nii.ac.jp/naid/{{ .r.cinii_na_id }}/">
                             <div class="tags has-addons">
                                 <span class="tag is-primary" style="font-size: 60%; font-weight:700">CiNii</span>
                                 <span class="tag is-primary" style="font-size: 60%; font-weight:400"><span
-                                        class="limitter">{{ .r.naid }}</span></span>
+                                        class="limitter">{{ .r.cinii_na_id }}</span></span>
                             </div>
                         </a>
                     </div>
                     {{- end -}}
 
-                    {{- if .r.jglobalid }}
+                    {{- if .r.cinii_nc_id }}
                     <div class="control" style="vertical-align:0.05em;">
-                        <a href="http://jglobal.jst.go.jp/detail?JGLOBAL_ID={{ .r.jglobalid }}">
+                        <a href="https://ci.nii.ac.jp/ncid/{{ .r.cinii_nc_id }}/">
+                            <div class="tags has-addons">
+                                <span class="tag is-primary" style="font-size: 60%; font-weight:700">CiNii</span>
+                                <span class="tag is-primary" style="font-size: 60%; font-weight:400"><span
+                                        class="limitter">{{ .r.cinii_nc_id }}</span></span>
+                            </div>
+                        </a>
+                    </div>
+                    {{- end -}}
+
+                    {{- if .r.j_global_id }}
+                    <div class="control" style="vertical-align:0.05em;">
+                        <a href="http://jglobal.jst.go.jp/detail?JGLOBAL_ID={{ .r.j_global_id }}">
                             <div class="tags has-addons">
                                 <span class="tag is-primary" style="font-size: 60%; font-weight:700">J-GLOBAL ID</span>
                                 <span class="tag is-primary" style="font-size: 60%; font-weight:400"><span
-                                        class="limitter">{{ .r.jglobalid }}</span></span>
+                                        class="limitter">{{ .r.j_global_id }}</span></span>
                             </div>
                         </a>
                     </div>
@@ -218,8 +244,40 @@
                         </a>
                     </div>
                     {{- end }}
+
+                    {{- if .r.isbn }}
+                    <div class="control" style="vertical-align:0.05em;">
+                        <div class="tags has-addons">
+                            <span class="tag is-white" style="font-size: 60%; font-weight:700">ISBN</span>
+                            <span class="tag is-white" style="font-size: 60%; font-weight:400"><span
+                                    class="limitter">{{ .r.isbn }}</span></span>
+                        </div>
+                    </div>
+                    {{- end }}
+
+                    {{- if .r.issn }}
+                    <div class="control" style="vertical-align:0.05em;">
+                        <div class="tags has-addons">
+                            <span class="tag is-white" style="font-size: 60%; font-weight:700">ISSN</span>
+                            <span class="tag is-white" style="font-size: 60%; font-weight:400"><span
+                                    class="limitter">{{ .r.issn }}</span></span>
+                        </div>
+                    </div>
+                    {{- end }}
+
+                    {{- if .r.e_issn }}
+                    <div class="control" style="vertical-align:0.05em;">
+                        <div class="tags has-addons">
+                            <span class="tag is-white" style="font-size: 60%; font-weight:700">e-ISSN</span>
+                            <span class="tag is-white" style="font-size: 60%; font-weight:400"><span
+                                    class="limitter">{{ .r.e_issn }}</span></span>
+                        </div>
+                    </div>
+                    {{- end }}
+                    
                 </div>
                 {{- end }}
+
             </span>
         </div>
 </li>

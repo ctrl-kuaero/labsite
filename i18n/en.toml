@@ -47,3 +47,12 @@ other = "Other article"
 
 [publication_type_award]
 other = "Award"
+
+[book_owner_role_contributor]
+other = "Contributor"
+
+[book_owner_role_joint_editor]
+other = "Joint editor"
+
+[book_owner_role_joint_work]
+other = "Joint author"
