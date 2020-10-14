@@ -33,9 +33,4 @@ index.{ja|en}.md を編集する．
 [_overrides.scss](/themes/ctrl-lab/assets/sass/_overrides.scss)を編集する．
 必要なら[テーマのフォルダ](/themes/ctrl-lab/)の中を修正する．
 
-## researchmap 用のデータの取得
-
-[http://control.kuaero.kyoto-u.ac.jp/gen_researchmap_csv/](http://control.kuaero.kyoto-u.ac.jp/gen_researchmap_csv/)から取得可能    
-自分の分も欲しくなった場合は[/content/gen_researchmap_csv/index.md](/content/gen_researchmap_csv/index.md)を参照＆編集すること．  
-クライアントサイドで作成しているので，ブラウザによって挙動が違うかも．動作確認はChromeで行っている．
 
