@@ -201,6 +201,6 @@ for i in items.values():
 
 # 出力
 
-toml.dump({'record':records}, open('../data/publications/autogen_from_researchmap.toml', mode='w', encoding='utf-8'))
+toml.dump({'record':records}, open('data/publications/autogen_from_researchmap.toml', mode='w', encoding='utf-8'))
 
 
