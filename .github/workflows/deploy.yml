@@ -1,0 +1,38 @@
+name: Deploy to laboratory server
+
+on:
+  push:
+    branches:
+      - master # Set a branch to deploy
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "latest"
+          extended: true
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy to control.kuaero.kyoto-u.ac.jp
+        uses: up9cloud/action-rsync@master
+        env:
+          HOST: control.kuaero.kyoto-u.ac.jp
+          KEY: ${{secrets.DEPLOY_SSH_KEY}}
+          TARGET: /var/www/labsite/
+
+          VERBOSE: false
+          USER: ninja
+          PORT: 22
+          # The final rsync arguments will be "$ARGS $ARGS_MORE".
+          ARGS: -avz --delete # rsync arguments
+          SOURCE: ./public/ # source folder or file
