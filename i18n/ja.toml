@@ -5,11 +5,13 @@ other = "ページ一覧"
 other = "論文"
 [publication_type_book]
 other = "書籍"
+[publication_type_in_book]
+other = "論文集（書籍）内論文"
 [publication_type_international_conference]
 other = "国際会議"
 [publication_type_domestic_conference]
 other = "国内会議"
-[publication_type_misc]
+[publication_type_others]
 other = "その他"
 
 
