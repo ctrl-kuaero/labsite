@@ -1,6 +1,7 @@
 name: Deploy to laboratory server
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master # Set a branch to deploy
