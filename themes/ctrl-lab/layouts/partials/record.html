@@ -139,7 +139,7 @@
         <h3 class="type-{{.r.type|urlize}}">{{ i18n (printf "%s_%s" "publication_type" .r.type)}}</h3>
         <div class="item">
             <div class="counter"></div>
-            <span class="pubtitle">{{ $title }}</span>
+            <span class="pubtitle tex_process">{{ $title | markdownify }}</span>
             {{ if ($.Scratch.Get "note") }}<span class="note">{{ $.Scratch.Get "note" }}</span>{{end -}}
             <br>
             {{- if $book_owner_range }}
