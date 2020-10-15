@@ -3038,23 +3038,6 @@ cinii_nc_id = "BB10368424"
 outside_kuaero = true
 
 [[record]]
-publication_date = "20120100"
-type = "book"
-book_owner_role = "joint_work"
-en_book_owner_range = "Identification of nonparametric piecewise affine models via data compression"
-ja_book_owner_range = "Identification of nonparametric piecewise affine models via data compression"
-reviewed = false
-en_publisher = "The Institute of Engineering and Technology"
-ja_publisher = "The Institute of Engineering and Technology"
-en_title = "Developments in Control Theory Towards Glocal Control"
-ja_title = "Developments in Control Theory Towards Glocal Control"
-en_author = "Ichiro Maruta, Toshiharu Sugie"
-ja_author = "Ichiro Maruta, Toshiharu Sugie"
-doi = "10.1049/PBCE076E_ch10"
-isbn = "9781849195331"
-outside_kuaero = true
-
-[[record]]
 publication_date = "20200712"
 ja_booktitle = "Preprints of the 21st IFAC World Congress (Virtual)"
 en_booktitle = "Preprints of the 21st IFAC World Congress (Virtual)"
