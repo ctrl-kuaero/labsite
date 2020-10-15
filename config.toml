@@ -4,7 +4,10 @@ theme = "ctrl-lab"
 DefaultContentLanguage = "en"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 timeout = 60000
-
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 [languages]
   [languages.en]
     LanguageName = "English"
@@ -35,6 +38,6 @@ timeout = 60000
       url = "https://www.t.kyoto-u.ac.jp/ja"
       [[languages.ja.params.domain]]
       html = "航空宇宙工学専攻"
-      url = "https://www.aa.t.kyoto-u.ac.jp/ja"    
+      url = "https://www.aa.t.kyoto-u.ac.jp/ja"
 
 
