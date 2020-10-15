@@ -121,6 +121,8 @@ for i in items.values():
         pprint(i)
         raise Exception('can not identify @type')
 
+    if 'jpn' in i.get('languages',[]):
+        record['lang'] = 'ja'
 
     record['volume'] = i.get('volume')
     record['number'] = i.get('number')
