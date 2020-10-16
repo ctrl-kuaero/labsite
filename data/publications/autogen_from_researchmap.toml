@@ -76,10 +76,10 @@ page_begin = "157"
 page_end = "163"
 reviewed = true
 invited = false
-en_title = "A Study on Numerical Solutions of Hamilton-Jacobi-Bellman Equations Based on Successive Approximation"
-ja_title = "A Study on Numerical Solutions of Hamilton-Jacobi-Bellman Equations Based on Successive Approximation"
+en_title = "A Study on Numerical Solutions of Hamilton-Jacobi-Bellman Equations Based on Successive Approximation Approach"
+ja_title = "A Study on Numerical Solutions of Hamilton-Jacobi-Bellman Equations Based on Successive Approximation Approach"
 en_author = "Ichiro Maruta, Shuhei Nishida, Kenji Fujimoto"
-ja_author = "丸田 一郎, 西田 周平, 藤本 健治"
+ja_author = "Ichiro Maruta, Shuhei Nishida, Kenji Fujimoto"
 outside_kuaero = false
 
 [[record]]
@@ -3200,23 +3200,6 @@ ja_author = "Yuji Ito, Kenji Fujimoto"
 outside_kuaero = false
 
 [[record]]
-publication_date = "20200531"
-ja_booktitle = "SICE Journal of Control, Measurement, and System Integration"
-en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
-type = "journal"
-volume = "13"
-number = "3"
-page_begin = "157"
-page_end = "163"
-reviewed = true
-invited = false
-en_title = "A Study on Numerical Solutions of Hamilton-Jacobi-Bellman Equations Based on Successive Approximation Approach"
-ja_title = "A Study on Numerical Solutions of Hamilton-Jacobi-Bellman Equations Based on Successive Approximation Approach"
-en_author = "Ichiro Maruta, Shuhei Nishida, Kenji Fujimoto"
-ja_author = "Ichiro Maruta, Shuhei Nishida, Kenji Fujimoto"
-outside_kuaero = false
-
-[[record]]
 publication_date = "20200331"
 ja_booktitle = "SICE Journal of Control, Measurement, and System Integration"
 en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
@@ -4854,21 +4837,6 @@ en_title = "On Path Following Control of Nonholonomic Port-Hamiltonian Systems b
 ja_title = "経路の束の設計による非ホロノミックなポートハミルトン系の経路追従制御について"
 en_author = "Ryotaro Shima, Kenji Fujimoto, Ichiro Maruta"
 ja_author = "島 遼太朗, 藤本 健治, 丸田 一郎"
-outside_kuaero = false
-
-[[record]]
-ja_booktitle = "第6回 計測自動制御学会 制御部門マルチシンポジウム 予稿集"
-en_booktitle = "Proceedings of the 6th Multi-symposium on Control Systems"
-publication_date = "20190306"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "1G2-2"
-reviewed = false
-invited = false
-en_title = "On Essentially Global Stabilization of Spin-stabilized Spacecraft Using a Single Reaction Wheel"
-ja_title = "単一のリアクションホイールを用いたスピン安定型宇宙機の準大域的漸近安定化について"
-en_author = "Hiroaki Hashimoto, Kenji Fujimoto, Ichiro Maruta"
-ja_author = "橋本 宙明, 藤本 健治, 丸田 一郎"
 outside_kuaero = false
 
 [[record]]
