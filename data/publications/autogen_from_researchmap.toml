@@ -66,6 +66,28 @@ ja_author = "Hirofumi Beppu, Ichiro Maruta, Kenji Fujimoto"
 outside_kuaero = false
 
 [[record]]
+publication_date = "20210626"
+ja_booktitle = "IEEE Control Systems Letters"
+en_booktitle = "IEEE Control Systems Letters"
+type = "journal"
+volume = "5"
+number = "3"
+page_begin = "839"
+page_end = "844"
+reviewed = true
+invited = false
+en_publisher = "Institute of Electrical and Electronics Engineers (IEEE)"
+ja_publisher = "Institute of Electrical and Electronics Engineers (IEEE)"
+en_title = "A Passivity Based Sliding Mode Controller for Simple Port-Hamiltonian Systems"
+ja_title = "A Passivity Based Sliding Mode Controller for Simple Port-Hamiltonian Systems"
+en_author = "Kenji Fujimoto, Naoki Sakata, Ichiro Maruta, Joel Ferguson"
+ja_author = "Kenji Fujimoto, Naoki Sakata, Ichiro Maruta, Joel Ferguson"
+doi = "10.1109/lcsys.2020.3005327"
+e_issn = "2475-1456"
+url = "http://xplorestaging.ieee.org/ielx7/7782633/9141173/09126872.pdf?arnumber=9126872"
+outside_kuaero = false
+
+[[record]]
 publication_date = "20200531"
 ja_booktitle = "SICE Journal of Control, Measurement, and System Integration"
 en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
@@ -1577,7 +1599,7 @@ reviewed = false
 invited = false
 en_title = "Online estimation of Deviate Destance in Arc Welding Using UKF and gaussian Process Regression"
 ja_title = "UKFとガウス過程回帰を用いたアーク溶接における狙いズレの逐次推定"
-en_author = "K. Tanaka, I. Maruta, K.Fujimoto, Y. Nishida:T. One, T. Fujii"
+en_author = "Keisuke Tanaka, Ichiro Maruta, Kenji Fujimoto, Y. Nishida:T. One, T. Fujii"
 ja_author = "田中 恵輔, 丸田 一郎, 藤本 健治, 西田 吉晴, 大根 努, 藤井 達也"
 outside_kuaero = false
 
@@ -1607,7 +1629,7 @@ reviewed = false
 invited = false
 en_title = "State of Health Estimation of Rechargeable Batteries Using Stabilized Prediction Error Method"
 ja_title = "安定化予測誤差法を用いた二次電池の健全度推定"
-en_author = "R. Sasaki, I. Maruta, S. Adachi, J. Katashiba, K. Osamura"
+en_author = "Risako Sasaki, Ichiro Maruta, Shuichi Adachi, Junpei Katashiba, Kensuke Osamura"
 ja_author = "佐々木 理沙子, 丸田 一郎, 足立 修一, 片芝 惇平, 長村 謙介"
 outside_kuaero = false
 
@@ -1652,7 +1674,7 @@ reviewed = false
 invited = false
 en_title = "Trend and implementation of System Identification based on Gradient Methods"
 ja_title = "勾配法にもとづくシステム同定の実装と動向"
-en_author = "I. Maruta, M. Watanabe, K. Kashima"
+en_author = "Ichiro Maruta, M. Watanabe, Kenji Kashima"
 ja_author = "丸田 一郎, 渡部 萌恵, 加嶋 健司"
 outside_kuaero = false
 
@@ -4739,29 +4761,6 @@ en_title = "Path following control for a class of electro-mechanical systems and
 ja_title = "Path following control for a class of electro-mechanical systems and its application"
 en_author = "Mitsuru Taniguchi, Kenji Fujimoto"
 ja_author = "Mitsuru Taniguchi, Kenji Fujimoto"
-outside_kuaero = true
-
-[[record]]
-publication_date = "20110731"
-ja_booktitle = "計測自動制御学会論文集"
-en_booktitle = "Transactions of the Society of Instrument and Control Engineers"
-type = "journal"
-lang = "ja"
-volume = "47"
-number = "7"
-page_begin = "301"
-page_end = "309"
-reviewed = true
-invited = false
-en_publisher = "計測自動制御学会"
-ja_publisher = "計測自動制御学会"
-en_title = "Optimal Control of Linear Systems with Stochastic Parameters for Variance Suppression"
-ja_title = "確率パラメータをもつ線形系の分散抑制最適制御"
-en_author = "Kenji Fujimoto, Soraki Ogawa, Yuhei Ota, Makishi Nakayama"
-ja_author = "藤本 健治, 小川 空記, 太田 祐平, 中山 万希志"
-issn = "0453-4654"
-cinii_na_id = "10029470763"
-url = "http://ci.nii.ac.jp/naid/10029470763/"
 outside_kuaero = true
 
 [[record]]
