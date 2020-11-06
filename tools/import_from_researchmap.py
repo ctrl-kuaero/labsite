@@ -194,6 +194,10 @@ for i in items.values():
             if not 'cinii_nc_id' in record:
                 pprint(i)
                 raise Exception('cinii_nc_id is not contained in appropriate form')
+        elif info['label'] == 'cinii_articles':
+            if not 'cinii_na_id' in record:
+                pprint(i)
+                raise Exception('see_also label is cinii_articles cinii_na_id is not contained in appropriate form')
         else:
             pprint(i)
             raise Exception('unknown see_also type')
