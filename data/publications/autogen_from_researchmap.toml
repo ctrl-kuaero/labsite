@@ -3220,28 +3220,6 @@ ja_author = "Yuji Ito, Kenji Fujimoto"
 outside_kuaero = false
 
 [[record]]
-publication_date = "20200626"
-ja_booktitle = "IEEE Control Systems Letters"
-en_booktitle = "IEEE Control Systems Letters"
-type = "journal"
-volume = "5"
-number = "3"
-page_begin = "839"
-page_end = "844"
-reviewed = true
-invited = false
-en_publisher = "Institute of Electrical and Electronics Engineers (IEEE)"
-ja_publisher = "Institute of Electrical and Electronics Engineers (IEEE)"
-en_title = "A Passivity Based Sliding Mode Controller for Simple Port-Hamiltonian Systems"
-ja_title = "A Passivity Based Sliding Mode Controller for Simple Port-Hamiltonian Systems"
-en_author = "Kenji Fujimoto, Naoki Sakata, Ichiro Maruta, Joel Ferguson"
-ja_author = "Kenji Fujimoto, Naoki Sakata, Ichiro Maruta, Joel Ferguson"
-doi = "10.1109/lcsys.2020.3005327"
-e_issn = "2475-1456"
-url = "http://xplorestaging.ieee.org/ielx7/7782633/9141173/09126872.pdf?arnumber=9126872"
-outside_kuaero = false
-
-[[record]]
 publication_date = "20191200"
 en_booktitle = "2019 IEEE 58th Conference on Decision and Control (CDC)"
 type = "international_conference"
