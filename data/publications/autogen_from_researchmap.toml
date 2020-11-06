@@ -128,7 +128,8 @@ url = "https://www.jstage.jst.go.jp/article/jcmsi/13/3/13_107/_pdf"
 outside_kuaero = false
 
 [[record]]
-publication_date = "20200000"
+publication_date = "20200331"
+ja_booktitle = "SICE Journal of Control, Measurement, and System Integration"
 en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
 type = "journal"
 volume = "13"
@@ -144,8 +145,8 @@ ja_title = "Bayesian Inference for Path Following Control of Port-Hamiltonian Sy
 en_author = "Yuki OKURA, Kenji FUJIMOTO, Ichiro MARUTA, Akio SAITO, Hidetoshi IKEDA"
 ja_author = "Yuki OKURA, Kenji FUJIMOTO, Ichiro MARUTA, Akio SAITO, Hidetoshi IKEDA"
 doi = "10.9746/jcmsi.13.40"
-e_issn = "1884-9970"
 issn = "1882-4889"
+e_issn = "1884-9970"
 url = "https://www.jstage.jst.go.jp/article/jcmsi/13/2/13_40/_pdf"
 outside_kuaero = false
 
@@ -180,6 +181,26 @@ ja_author = "Kiyoshi Hamada, Ichiro Maruta, Kenji Fujimoto, Kenniti Hamamoto"
 outside_kuaero = false
 
 [[record]]
+publication_date = "20190000"
+en_booktitle = "IFAC-PapersOnLine"
+type = "journal"
+volume = "52"
+number = "16"
+page_begin = "298"
+page_end = "303"
+reviewed = true
+invited = false
+en_publisher = "Elsevier BV"
+ja_publisher = "Elsevier BV"
+en_title = "On path following control of nonholonomic port-Hamiltonian systems via generalized canonical transformations"
+ja_title = "On path following control of nonholonomic port-Hamiltonian systems via generalized canonical transformations"
+en_author = "Ryotaro Shima, Yuki Okura, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "Ryotaro Shima, Yuki Okura, Kenji Fujimoto, Ichiro Maruta"
+doi = "10.1016/j.ifacol.2019.11.795"
+issn = "2405-8963"
+outside_kuaero = false
+
+[[record]]
 publication_date = "20190618"
 ja_booktitle = "Proceedings of the 32nd International Symposium on Space Technology and Science (ISTS)"
 en_booktitle = "Proceedings of the 32nd International Symposium on Space Technology and Science (ISTS)"
@@ -206,26 +227,6 @@ en_title = "A Study on Solutions to Finite-Time Optimal Control Problems by Nume
 ja_title = "A Study on Solutions to Finite-Time Optimal Control Problems by Numerical Gaussian Processes"
 en_author = "Hirofumi Beppu, Ichiro Maruta, Kenji Fujimoto"
 ja_author = "Hirofumi Beppu, Ichiro Maruta, Kenji Fujimoto"
-outside_kuaero = false
-
-[[record]]
-publication_date = "20190000"
-en_booktitle = "IFAC-PapersOnLine"
-type = "journal"
-volume = "52"
-number = "16"
-page_begin = "298"
-page_end = "303"
-reviewed = true
-invited = false
-en_publisher = "Elsevier BV"
-ja_publisher = "Elsevier BV"
-en_title = "On path following control of nonholonomic port-Hamiltonian systems via generalized canonical transformations"
-ja_title = "On path following control of nonholonomic port-Hamiltonian systems via generalized canonical transformations"
-en_author = "Ryotaro Shima, Yuki Okura, Kenji Fujimoto, Ichiro Maruta"
-ja_author = "Ryotaro Shima, Yuki Okura, Kenji Fujimoto, Ichiro Maruta"
-doi = "10.1016/j.ifacol.2019.11.795"
-issn = "2405-8963"
 outside_kuaero = false
 
 [[record]]
@@ -1539,6 +1540,19 @@ doi = "10.1109/CDC.2007.4434126"
 issn = "0191-2216"
 scopus_id = "62749188369"
 outside_kuaero = true
+
+[[record]]
+ja_booktitle = "第64回宇宙科学技術連合講演会講演集"
+en_booktitle = "Proceedings of 64th Space Sciences and Technology Conference"
+publication_date = "20201027"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "JSASS-2020-4069"
+en_title = "Application of Passivity Based Sliding Mode Control for the Termial Decent Phase of Spacecraft"
+ja_title = "受動性に基づくスライディングモード制御の 宇宙機の降下フェーズへの応用"
+en_author = "Naoki Sakata, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "坂田 直樹, 藤本 健治, 丸田 一郎"
+outside_kuaero = false
 
 [[record]]
 ja_booktitle = "第64回システム制御情報学会研究発表講演会講演論文集"
@@ -3129,24 +3143,6 @@ url = "http://jglobal.jst.go.jp/detail.php?from=API&JGLOBAL_ID=20100222798730893
 outside_kuaero = true
 
 [[record]]
-ja_booktitle = "第54回システム制御情報学会研究発表講演会講演論文集"
-en_booktitle = "Proceedings of the 54th Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
-publication_date = "20100519"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "513"
-page_end = "514"
-reviewed = false
-invited = false
-en_title = "Identification of a Conventional Robotic Arm Control System with Velocity Reference"
-ja_title = "速度指令型汎用ロボットアーム制御系の同定"
-en_author = "Nobukatsu Sugiyama, Masato Ishikawa, Ichiro Maruta, Toshiharu Sugie"
-ja_author = "杉山暢克, 石川将人, 丸田一郎, 杉江俊治"
-doi = "10.11509/sci.SCI10.0.247.0"
-j_global_id = "201002228673912862"
-outside_kuaero = true
-
-[[record]]
 publication_date = "20151200"
 type = "book"
 book_owner_role = "joint_work"
@@ -3243,29 +3239,6 @@ ja_author = "Kenji Fujimoto, Naoki Sakata, Ichiro Maruta, Joel Ferguson"
 doi = "10.1109/lcsys.2020.3005327"
 e_issn = "2475-1456"
 url = "http://xplorestaging.ieee.org/ielx7/7782633/9141173/09126872.pdf?arnumber=9126872"
-outside_kuaero = false
-
-[[record]]
-publication_date = "20200331"
-ja_booktitle = "SICE Journal of Control, Measurement, and System Integration"
-en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
-type = "journal"
-volume = "13"
-number = "2"
-page_begin = "40"
-page_end = "46"
-reviewed = true
-invited = false
-en_publisher = "The Society of Instrument and Control Engineers"
-ja_publisher = "The Society of Instrument and Control Engineers"
-en_title = "Bayesian Inference for Path Following Control of Port-Hamiltonian Systems with Training Trajectory Data"
-ja_title = "Bayesian Inference for Path Following Control of Port-Hamiltonian Systems with Training Trajectory Data"
-en_author = "Yuki OKURA, Kenji FUJIMOTO, Ichiro MARUTA, Akio SAITO, Hidetoshi IKEDA"
-ja_author = "Yuki OKURA, Kenji FUJIMOTO, Ichiro MARUTA, Akio SAITO, Hidetoshi IKEDA"
-doi = "10.9746/jcmsi.13.40"
-issn = "1882-4889"
-e_issn = "1884-9970"
-url = "https://www.jstage.jst.go.jp/article/jcmsi/13/2/13_40/_pdf"
 outside_kuaero = false
 
 [[record]]
@@ -6075,30 +6048,6 @@ en_title = "Control of Hamiltonian Systems"
 ja_title = "ハミルトニアンシステムの制御"
 en_author = "Kenji Fujimoto"
 ja_author = "藤本 健治"
-outside_kuaero = true
-
-[[record]]
-ja_booktitle = "システム/制御/情報 : システム制御情報学会誌"
-en_booktitle = "Systems, Control and Information"
-publication_date = "19990215"
-type = "explanation_journal"
-lang = "ja"
-volume = "43"
-number = "2"
-page_begin = "87"
-page_end = "93"
-reviewed = true
-invited = true
-en_publisher = "システム制御情報学会"
-ja_publisher = "システム制御情報学会"
-en_title = "Flatness as a Generalization of Exact Linearization"
-ja_title = "厳密な線形化からフラットネスへ"
-en_author = "Kenji Fujimoto, Toshiharu Sugie"
-ja_author = "藤本 健治, 杉江 俊治"
-doi = "10.11509/isciesci.43.2_87"
-issn = "0916-1600"
-cinii_na_id = "110003891572"
-cinii_nr_id = "1000080171148"
 outside_kuaero = true
 
 [[record]]
