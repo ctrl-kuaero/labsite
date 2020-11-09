@@ -4740,6 +4740,29 @@ url = "http://ci.nii.ac.jp/naid/10029470763/"
 outside_kuaero = true
 
 [[record]]
+publication_date = "20110705"
+ja_booktitle = "Systems & Control Letters"
+en_booktitle = "Systems & Control Letters"
+type = "journal"
+volume = "60"
+number = "9"
+page_begin = "763"
+page_end = "770"
+reviewed = true
+invited = false
+en_publisher = "ELSEVIER SCIENCE BV"
+ja_publisher = "ELSEVIER SCIENCE BV"
+en_title = "Repetitive control of Hamiltonian systems based on variational symmetry"
+ja_title = "Repetitive control of Hamiltonian systems based on variational symmetry"
+en_author = "Kenji Fujimoto, Satoshi Satoh"
+ja_author = "Kenji Fujimoto, Satoshi Satoh"
+doi = "10.1016/j.sysconle.2011.04.025"
+issn = "0167-6911"
+e_issn = "1872-7956"
+wos_id = "WOS:000295251600013"
+outside_kuaero = true
+
+[[record]]
 ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム"
 en_booktitle = "The 7th Multi-symposium on Control Systems: MSCS2020"
 publication_date = "20200303"
