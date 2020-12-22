@@ -1,15 +1,4 @@
 [[record]]
-en_author = "Kenji Fujimoto"
-ja_author = "Kenji Fujimoto"
-en_giver = "The 2nd International Symposium on Swarm Behavior and Bioinspired Robotics (SWARM 2017)"
-ja_giver = "The 2nd International Symposium on Swarm Behavior and Bioinspired Robotics (SWARM 2017)"
-en_title = "Best Paper Award"
-ja_title = "Best Paper Award"
-publication_date = "20171031"
-type = "award"
-url = "http://www.ohk.hiroshima-u.ac.jp/SWARM2017/"
-
-[[record]]
 en_author = "Naoki Sakata"
 ja_author = "坂田 直樹"
 en_giver = "The Executive Committee of the 64rd Annual Conference of the Institute of Systems, Control and Information Engineers"
@@ -225,6 +214,17 @@ ja_title = "2017年度 日本機械学会三浦賞"
 publication_date = "20180326"
 type = "award"
 url = "https://www.jsme.or.jp/archive/award/miura-17.pdf"
+
+[[record]]
+en_author = "Kenji Fujimoto"
+ja_author = "Kenji Fujimoto"
+en_giver = "The 2nd International Symposium on Swarm Behavior and Bioinspired Robotics (SWARM 2017)"
+ja_giver = "The 2nd International Symposium on Swarm Behavior and Bioinspired Robotics (SWARM 2017)"
+en_title = "Best Paper Award"
+ja_title = "Best Paper Award"
+publication_date = "20171031"
+type = "award"
+url = "http://www.ohk.hiroshima-u.ac.jp/SWARM2017/"
 
 [[record]]
 en_author = "Hirofumi Beppu"
