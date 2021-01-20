@@ -3175,6 +3175,69 @@ cinii_nc_id = "BB10368424"
 outside_kuaero = true
 
 [[record]]
+publication_date = "20201214"
+ja_booktitle = "Proceedings of the 2020 59th IEEE Conference on Decision and Control (CDC)"
+en_booktitle = "Proceedings of the 2020 59th IEEE Conference on Decision and Control (CDC)"
+type = "international_conference"
+page_begin = "4262"
+page_end = "4267"
+reviewed = true
+invited = false
+en_title = "On Design of Stabilizing Controllers Using Compression Operators for Linear Systems with Time-Varying and Time-Invariant Stochastic Parameters"
+ja_title = "On Design of Stabilizing Controllers Using Compression Operators for Linear Systems with Time-Varying and Time-Invariant Stochastic Parameters"
+en_author = "Yuji Ito, Kenji Fujimoto"
+ja_author = "Yuji Ito, Kenji Fujimoto"
+outside_kuaero = false
+
+[[record]]
+publication_date = "20201214"
+ja_booktitle = "Proceedings of the 2020 59th IEEE Conference on Decision and Control (CDC)"
+en_booktitle = "Proceedings of the 2020 59th IEEE Conference on Decision and Control (CDC)"
+type = "international_conference"
+page_begin = "763"
+page_end = "768"
+reviewed = true
+invited = false
+en_title = "Path following via kinetic-potential energy shaping"
+ja_title = "Path following via kinetic-potential energy shaping"
+en_author = "Joel Ferguson, Ryotaro Shima, Kenji Fujimoto"
+ja_author = "Joel Ferguson, Ryotaro Shima, Kenji Fujimoto"
+outside_kuaero = false
+
+[[record]]
+publication_date = "20201021"
+ja_booktitle = "IEEE Control Systems Letters"
+en_booktitle = "IEEE Control Systems Letters"
+type = "journal"
+volume = "5"
+number = "4"
+page_begin = "1285"
+page_end = "1290"
+reviewed = true
+invited = false
+en_title = "Passivity-Based Lag-Compensators With Input Saturation for Mechanical Port-Hamiltonian Systems Without Velocity Measurements"
+ja_title = "Passivity-Based Lag-Compensators With Input Saturation for Mechanical Port-Hamiltonian Systems Without Velocity Measurements"
+en_author = "Kiyoshi Hamada, Pablo Borja, Jacquelien M. A. Scherpen, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "Kiyoshi Hamada, Pablo Borja, Jacquelien M. A. Scherpen, Kenji Fujimoto, Ichiro Maruta"
+outside_kuaero = false
+
+[[record]]
+publication_date = "20200715"
+ja_booktitle = "IEEE Access"
+en_booktitle = "IEEE Access"
+type = "journal"
+volume = "8"
+page_begin = "131047"
+page_end = "131062"
+reviewed = true
+invited = false
+en_title = "Kernel-Based Hamilton–Jacobi Equations for Data-Driven Optimal and H-Infinity Control"
+ja_title = "Kernel-Based Hamilton–Jacobi Equations for Data-Driven Optimal and H-Infinity Control"
+en_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro"
+ja_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro"
+outside_kuaero = false
+
+[[record]]
 publication_date = "20200712"
 ja_booktitle = "Preprints of the 21st IFAC World Congress (Virtual)"
 en_booktitle = "Preprints of the 21st IFAC World Congress (Virtual)"
@@ -3228,6 +3291,7 @@ volume = "5"
 number = "3"
 page_begin = "839"
 page_end = "844"
+reviewed = true
 invited = false
 en_publisher = "Institute of Electrical and Electronics Engineers (IEEE)"
 ja_publisher = "Institute of Electrical and Electronics Engineers (IEEE)"
@@ -3237,6 +3301,24 @@ en_author = "Kenji Fujimoto, Naoki Sakata, Ichiro Maruta, Joel Ferguson"
 ja_author = "Kenji Fujimoto, Naoki Sakata, Ichiro Maruta, Joel Ferguson"
 doi = "10.1109/LCSYS.2020.3005327"
 url = "http://xplorestaging.ieee.org/ielx7/7782633/9141173/09126872.pdf?arnumber=9126872"
+outside_kuaero = false
+
+[[record]]
+publication_date = "20200400"
+ja_booktitle = "JOURNAL OF SYSTEMS SCIENCE & COMPLEXITY"
+en_booktitle = "JOURNAL OF SYSTEMS SCIENCE & COMPLEXITY"
+type = "journal"
+volume = "33"
+number = "2"
+page_begin = "261"
+page_end = "288"
+reviewed = true
+en_title = "Approximate Solutions to the Hamilton-Jacobi Equations for Generating Functions"
+ja_title = "Approximate Solutions to the Hamilton-Jacobi Equations for Generating Functions"
+en_author = "Zhiwei Hao, Kenji Fujimoto, Qiuhua Zhang"
+ja_author = "Zhiwei Hao, Kenji Fujimoto, Qiuhua Zhang"
+doi = "10.1007/s11424-019-8334-6"
+issn = "1009-6124"
 outside_kuaero = false
 
 [[record]]
@@ -4532,6 +4614,25 @@ url = "https://www.jstage.jst.go.jp/article/tetsutohagane/99/1/99_12/_pdf"
 outside_kuaero = false
 
 [[record]]
+publication_date = "20130100"
+ja_booktitle = "ふぇらむ"
+type = "journal"
+lang = "ja"
+volume = "18"
+number = "1"
+page_begin = "12"
+page_end = "19"
+reviewed = true
+en_publisher = "日本鉄鋼協会"
+ja_publisher = "日本鉄鋼協会"
+en_title = "時変の確立最適制御を用いた板厚制御におけるばらつき抑制 (鉄と鋼)"
+ja_title = "時変の確立最適制御を用いた板厚制御におけるばらつき抑制 (鉄と鋼)"
+en_author = ""
+ja_author = "藤本 健治, 渡邉 敏章, 橋本 芳宏"
+issn = "1341-688X"
+outside_kuaero = false
+
+[[record]]
 publication_date = "20130000"
 en_booktitle = "Proceedings of the IEEE Conference on Decision and Control"
 type = "international_conference"
@@ -4647,119 +4748,6 @@ scopus_id = "84874252401"
 outside_kuaero = true
 
 [[record]]
-publication_date = "20120000"
-en_booktitle = "IEEE International Conference on Intelligent Robots and Systems"
-type = "international_conference"
-page_begin = "2613"
-page_end = "2620"
-reviewed = true
-invited = false
-en_title = "Stability analysis of tacit learning based on environmental signal accumulation"
-ja_title = "Stability analysis of tacit learning based on environmental signal accumulation"
-en_author = "Shingo Shimoda, Yuki Yoshihara, Kenji Fujimoto, Takashi Yamamoto, Iwao Maeda, Hidenori Kimura"
-ja_author = "Shingo Shimoda, Yuki Yoshihara, Kenji Fujimoto, Takashi Yamamoto, Iwao Maeda, Hidenori Kimura"
-doi = "10.1109/IROS.2012.6385631"
-issn = "2153-0858"
-scopus_id = "84872306104"
-outside_kuaero = true
-
-[[record]]
-publication_date = "20120000"
-en_booktitle = "Proceedings of the IEEE Conference on Decision and Control"
-type = "international_conference"
-page_begin = "4314"
-page_end = "4319"
-reviewed = true
-invited = false
-en_title = "On subspace balanced realization and model order reduction for nonlinear interconnected systems"
-ja_title = "On subspace balanced realization and model order reduction for nonlinear interconnected systems"
-en_author = "Kenji Fujimoto"
-ja_author = "Kenji Fujimoto"
-doi = "10.1109/CDC.2012.6426255"
-issn = "0191-2216"
-scopus_id = "84874277508"
-outside_kuaero = true
-
-[[record]]
-publication_date = "20120000"
-en_booktitle = "IFAC Proceedings Volumes (IFAC-PapersOnline)"
-type = "international_conference"
-volume = "45"
-number = "19"
-page_begin = "194"
-page_end = "199"
-reviewed = true
-invited = false
-en_publisher = "IFAC Secretariat"
-ja_publisher = "IFAC Secretariat"
-en_title = "Approximate solutions to the Hamilton-Jacobi equations for generating functions with a quadratic cost function with respect to the input"
-ja_title = "Approximate solutions to the Hamilton-Jacobi equations for generating functions with a quadratic cost function with respect to the input"
-en_author = "Zhiwei Hao, Kenji Fujimoto"
-ja_author = "Zhiwei Hao, Kenji Fujimoto"
-doi = "10.3182/20120829-3-IT-4022.00029"
-issn = "1474-6670"
-scopus_id = "84880984764"
-outside_kuaero = true
-
-[[record]]
-publication_date = "20120000"
-en_booktitle = "ISIJ International"
-type = "journal"
-volume = "52"
-number = "1"
-page_begin = "87"
-page_end = "95"
-reviewed = true
-invited = false
-en_publisher = "Iron and Steel Institute of Japan"
-ja_publisher = "Iron and Steel Institute of Japan"
-en_title = "Nonlinear Receding Horizon Control of Thickness and Tension in a Tandem Cold Mill with a Variable Rolling Speed"
-ja_title = "Nonlinear Receding Horizon Control of Thickness and Tension in a Tandem Cold Mill with a Variable Rolling Speed"
-en_author = "Kohei Ozaki, Toshiyuki Ohtsuka, Kenji Fujimoto, Akira Kitamura, Makishi Nakayama"
-ja_author = "Kohei Ozaki, Toshiyuki Ohtsuka, Kenji Fujimoto, Akira Kitamura, Makishi Nakayama"
-doi = "10.2355/isijinternational.52.87"
-e_issn = "1347-5460"
-issn = "0915-1559"
-url = "http://www.jstage.jst.go.jp/article/isijinternational/52/1/52_1_87/_pdf"
-outside_kuaero = true
-
-[[record]]
-publication_date = "20110816"
-ja_booktitle = "Proceedings of the 2011 International Conference on Mechatronics and Information Technology (ICMIT2011)"
-en_booktitle = "Proceedings of the 2011 International Conference on Mechatronics and Information Technology (ICMIT2011)"
-type = "international_conference"
-reviewed = true
-invited = false
-en_title = "Path following control for a class of electro-mechanical systems and its application"
-ja_title = "Path following control for a class of electro-mechanical systems and its application"
-en_author = "Mitsuru Taniguchi, Kenji Fujimoto"
-ja_author = "Mitsuru Taniguchi, Kenji Fujimoto"
-outside_kuaero = true
-
-[[record]]
-publication_date = "20110731"
-ja_booktitle = "計測自動制御学会論文集"
-en_booktitle = "Transactions of the Society of Instrument and Control Engineers"
-type = "journal"
-lang = "ja"
-volume = "47"
-number = "7"
-page_begin = "301"
-page_end = "309"
-reviewed = true
-invited = false
-en_publisher = "計測自動制御学会"
-ja_publisher = "計測自動制御学会"
-en_title = "Optimal Control of Linear Systems with Stochastic Parameters for Variance Suppression"
-ja_title = "確率パラメータをもつ線形系の分散抑制最適制御"
-en_author = "Kenji Fujimoto, Soraki Ogawa, Yuhei Ota, Makishi Nakayama"
-ja_author = "藤本 健治, 小川 空記, 太田 祐平, 中山 万希志"
-issn = "0453-4654"
-cinii_na_id = "10029470763"
-url = "http://ci.nii.ac.jp/naid/10029470763/"
-outside_kuaero = true
-
-[[record]]
 ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム"
 en_booktitle = "The 7th Multi-symposium on Control Systems: MSCS2020"
 publication_date = "20200303"
@@ -4832,6 +4820,44 @@ en_title = "On Path Following Control of Nonholonomic Port-Hamiltonian Systems b
 ja_title = "経路の束の設計による非ホロノミックなポートハミルトン系の経路追従制御について"
 en_author = "Ryotaro Shima, Kenji Fujimoto, Ichiro Maruta"
 ja_author = "島 遼太朗, 藤本 健治, 丸田 一郎"
+outside_kuaero = false
+
+[[record]]
+ja_booktitle = "システム制御情報学会研究発表講演会講演論文集"
+en_booktitle = "Proceedings of the 63rd Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
+publication_date = "20190100"
+type = "domestic_conference"
+lang = "ja"
+volume = "63"
+page_begin = "364"
+page_end = "371"
+reviewed = false
+invited = false
+en_publisher = "システム制御情報学会"
+ja_publisher = "システム制御情報学会"
+en_title = "On Design of Asist Control System Corresponding to Branch Path"
+ja_title = "分岐経路に対応したアシスト制御系の設計について"
+en_author = "Hiroyuki Kobayashi, Yuki Okura, Ichiro Maruta, Kenji Fujimoto, Takeyuki Kawata, Akio Saito, Hidetoshi Ikeda"
+ja_author = "小林 寛幸, 大倉 裕貴, 藤本 健治, 河田 武之, 齋藤 暁生, 池田 英俊"
+outside_kuaero = false
+
+[[record]]
+ja_booktitle = "システム制御情報学会研究発表講演会講演論文集"
+en_booktitle = "Proceedings of the 63rd Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
+publication_date = "20190100"
+type = "domestic_conference"
+lang = "ja"
+volume = "63"
+page_begin = "571"
+page_end = "578"
+reviewed = false
+invited = false
+en_publisher = "システム制御情報学会"
+ja_publisher = "システム制御情報学会"
+en_title = "A study on Numerical solutions of Hamilton-Jacobi-Bellman Equations based on Successive Approximation Approach"
+ja_title = "逐次近似を用いたHamilton-Jacobi-Bellman方程式の数値解法に関する一考察"
+en_author = "Shuhei Nishida, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "西田 周平, 丸田 一郎, 藤本 健治"
 outside_kuaero = false
 
 [[record]]
@@ -4916,22 +4942,6 @@ ja_author = "伊藤 優司, 藤本 健治"
 outside_kuaero = false
 
 [[record]]
-ja_booktitle = "第62回 システム制御情報学会研究発表講演会"
-en_booktitle = "Proceedings of the 62th Annual Conference of the Institute of Systems, Control and Information Engineers"
-publication_date = "20180516"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "322-6"
-reviewed = false
-invited = false
-en_title = "On path following control of port-Hamiltonian systems for human machine interaction using training trajectory data: A Bayesian inference approach"
-ja_title = "人と機械とのインタラクションを考慮した作業データに基づく経路追従制御について:ベイズ推定を用いたポートハミルトン系の経路追従制御"
-en_author = "Yuki Okura, Kenji Fujimoto, Akio Saito, Hidetoshi Ikeda"
-ja_author = "大倉 裕貴, 藤本 健治, 斎藤 暁生, 池田 英俊"
-j_global_id = "201802219363454455"
-outside_kuaero = false
-
-[[record]]
 ja_booktitle = "第5回 計測自動制御学会 制御部門マルチシンポジウム予稿集"
 en_booktitle = "Proceedings of the 5th Multi-symposium on Control Systems"
 publication_date = "20180308"
@@ -4961,6 +4971,25 @@ ja_title = "ベイズ推定を用いたポートハミルトン系の操作デ�
 en_author = "Yuki Okura, Kenji Fujimoto, Akio Saito, Hidetoshi Ikeda"
 ja_author = "大倉 裕貴, 藤本 健治, 斎藤 暁生, 池田 英俊"
 j_global_id = "201802233230349321"
+outside_kuaero = false
+
+[[record]]
+ja_booktitle = "システム制御情報学会研究発表講演会講演論文集"
+en_booktitle = "Proceedings of the 62th Annual Conference of the Institute of Systems, Control and Information Engineers"
+publication_date = "20180100"
+type = "domestic_conference"
+lang = "ja"
+volume = "62"
+page_begin = "7p"
+reviewed = false
+invited = false
+en_publisher = "システム制御情報学会"
+ja_publisher = "システム制御情報学会"
+en_title = "On path following control of port-Hamiltonian systems for human machine interaction using training trajectory data: A Bayesian inference approach"
+ja_title = "人と機械とのインタラクションを考慮した作業データに基づく経路追従制御について : ベイズ推定を用いたポートハミルトン系の経路追従制御"
+en_author = "Yuki Okura, Kenji Fujimoto, Akio Saito, Hidetoshi Ikeda"
+ja_author = "大倉 裕貴, 藤本 健治, 斎藤 暁生, 池田 英俊"
+j_global_id = "201802219363454455"
 outside_kuaero = false
 
 [[record]]
