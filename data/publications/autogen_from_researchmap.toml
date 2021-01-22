@@ -66,6 +66,27 @@ ja_author = "Hirofumi Beppu, Ichiro Maruta, Kenji Fujimoto"
 outside_kuaero = false
 
 [[record]]
+publication_date = "20200626"
+ja_booktitle = "IEEE Control Systems Letters"
+en_booktitle = "IEEE Control Systems Letters"
+type = "journal"
+volume = "5"
+number = "3"
+page_begin = "839"
+page_end = "844"
+reviewed = true
+invited = false
+en_publisher = "Institute of Electrical and Electronics Engineers (IEEE)"
+ja_publisher = "Institute of Electrical and Electronics Engineers (IEEE)"
+en_title = "A Passivity Based Sliding Mode Controller for Simple Port-Hamiltonian Systems"
+ja_title = "A Passivity Based Sliding Mode Controller for Simple Port-Hamiltonian Systems"
+en_author = "Kenji Fujimoto, Naoki Sakata, Ichiro Maruta, Joel Ferguson"
+ja_author = "Kenji Fujimoto, Naoki Sakata, Ichiro Maruta, Joel Ferguson"
+doi = "10.1109/LCSYS.2020.3005327"
+url = "https://ieeexplore.ieee.org/document/9126872"
+outside_kuaero = false
+
+[[record]]
 publication_date = "20200531"
 ja_booktitle = "SICE Journal of Control, Measurement, and System Integration"
 en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
@@ -4712,23 +4733,6 @@ ja_author = "藤本 健治, 佐藤 彰記, 福永 修一"
 issn = "0453-4654"
 cinii_na_id = "10030597208"
 url = "http://ci.nii.ac.jp/naid/10030597208/"
-outside_kuaero = true
-
-[[record]]
-publication_date = "20120000"
-en_booktitle = "Proceedings of the IEEE Conference on Decision and Control"
-type = "international_conference"
-page_begin = "3827"
-page_end = "3832"
-reviewed = true
-invited = false
-en_title = "Optimal trajectory generation for linear systems based on double generating functions"
-ja_title = "Optimal trajectory generation for linear systems based on double generating functions"
-en_author = "Zhiwei Hao, Kenji Fujimoto, Yoshikazu Hayakawa"
-ja_author = "Zhiwei Hao, Kenji Fujimoto, Yoshikazu Hayakawa"
-doi = "10.1109/CDC.2012.6426763"
-issn = "0191-2216"
-scopus_id = "84874252401"
 outside_kuaero = true
 
 [[record]]
