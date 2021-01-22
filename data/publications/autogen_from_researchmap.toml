@@ -3215,10 +3215,33 @@ page_begin = "1285"
 page_end = "1290"
 reviewed = true
 invited = false
+en_publisher = "IEEE"
+ja_publisher = "IEEE"
 en_title = "Passivity-Based Lag-Compensators With Input Saturation for Mechanical Port-Hamiltonian Systems Without Velocity Measurements"
 ja_title = "Passivity-Based Lag-Compensators With Input Saturation for Mechanical Port-Hamiltonian Systems Without Velocity Measurements"
 en_author = "Kiyoshi Hamada, Pablo Borja, Jacquelien M. A. Scherpen, Kenji Fujimoto, Ichiro Maruta"
 ja_author = "Kiyoshi Hamada, Pablo Borja, Jacquelien M. A. Scherpen, Kenji Fujimoto, Ichiro Maruta"
+doi = "10.1109/LCSYS.2020.3032890"
+url = "https://ieeexplore.ieee.org/document/9234525"
+outside_kuaero = false
+
+[[record]]
+publication_date = "20201018"
+ja_booktitle = "Proceedings of the IECON 2020 The 46th Annual Conference of the IEEE Industrial Electronics Society"
+en_booktitle = "Proceedings of the IECON 2020 The 46th Annual Conference of the IEEE Industrial Electronics Society"
+type = "international_conference"
+page_begin = "4733"
+page_end = "4738"
+reviewed = true
+invited = false
+en_publisher = "IEEE"
+ja_publisher = "IEEE"
+en_title = "A Novel Positioning Control Method for Overhead Cranes With Uncertain System Parameters"
+ja_title = "A Novel Positioning Control Method for Overhead Cranes With Uncertain System Parameters"
+en_author = "Zhiwei Hao, Sheng Hao, Qiuhua Zhang, Kenji Fujimoto"
+ja_author = "Zhiwei Hao, Sheng Hao, Qiuhua Zhang, Kenji Fujimoto"
+doi = "10.1109/IECON43393.2020.9255385"
+url = "https://ieeexplore.ieee.org/document/9255385"
 outside_kuaero = false
 
 [[record]]
@@ -3231,10 +3254,14 @@ page_begin = "131047"
 page_end = "131062"
 reviewed = true
 invited = false
+en_publisher = "IEEE"
+ja_publisher = "IEEE"
 en_title = "Kernel-Based Hamilton–Jacobi Equations for Data-Driven Optimal and H-Infinity Control"
 ja_title = "Kernel-Based Hamilton–Jacobi Equations for Data-Driven Optimal and H-Infinity Control"
 en_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro"
 ja_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro"
+doi = "10.1109/ACCESS.2020.3009357"
+url = "https://ieeexplore.ieee.org/abstract/document/9141255"
 outside_kuaero = false
 
 [[record]]
@@ -4728,23 +4755,6 @@ ja_author = "藤本 健治, 佐藤 彰記, 福永 修一"
 issn = "0453-4654"
 cinii_na_id = "10030597208"
 url = "http://ci.nii.ac.jp/naid/10030597208/"
-outside_kuaero = true
-
-[[record]]
-publication_date = "20120000"
-en_booktitle = "Proceedings of the IEEE Conference on Decision and Control"
-type = "international_conference"
-page_begin = "3827"
-page_end = "3832"
-reviewed = true
-invited = false
-en_title = "Optimal trajectory generation for linear systems based on double generating functions"
-ja_title = "Optimal trajectory generation for linear systems based on double generating functions"
-en_author = "Zhiwei Hao, Kenji Fujimoto, Yoshikazu Hayakawa"
-ja_author = "Zhiwei Hao, Kenji Fujimoto, Yoshikazu Hayakawa"
-doi = "10.1109/CDC.2012.6426763"
-issn = "0191-2216"
-scopus_id = "84874252401"
 outside_kuaero = true
 
 [[record]]
