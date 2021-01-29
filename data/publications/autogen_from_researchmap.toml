@@ -2683,7 +2683,6 @@ ja_title = "行列圧縮を用いた部分空間システム同定"
 en_author = "Noriaki Ikenishi, Ichiro Maruta, Toshiharu Sugie"
 ja_author = "池西紀明, 丸田一郎, 杉江俊治"
 j_global_id = "201402277811495127"
-url = "http://jglobal.jst.go.jp/detail.php?from=API&JGLOBAL_ID=201402277811495127"
 outside_kuaero = true
 
 [[record]]
@@ -2700,7 +2699,6 @@ ja_title = "クアッドコプター上の倒立振子の安定化"
 en_author = "Shin'ichiro Shirahori, Ichiro Maruta, Toshiharu Sugie"
 ja_author = "白堀慎一郎, 丸田一郎, 杉江俊治"
 j_global_id = "201402279428453413"
-url = "http://jglobal.jst.go.jp/detail.php?from=API&JGLOBAL_ID=201402279428453413"
 outside_kuaero = true
 
 [[record]]
@@ -3182,10 +3180,14 @@ page_begin = "4262"
 page_end = "4267"
 reviewed = true
 invited = false
+en_publisher = "IEEE"
+ja_publisher = "IEEE"
 en_title = "On Design of Stabilizing Controllers Using Compression Operators for Linear Systems with Time-Varying and Time-Invariant Stochastic Parameters"
 ja_title = "On Design of Stabilizing Controllers Using Compression Operators for Linear Systems with Time-Varying and Time-Invariant Stochastic Parameters"
 en_author = "Yuji Ito, Kenji Fujimoto"
 ja_author = "Yuji Ito, Kenji Fujimoto"
+doi = "10.1109/CDC42340.2020.9304117"
+url = "https://ieeexplore.ieee.org/document/9304117"
 outside_kuaero = false
 
 [[record]]
@@ -3197,10 +3199,14 @@ page_begin = "763"
 page_end = "768"
 reviewed = true
 invited = false
+en_publisher = "IEEE"
+ja_publisher = "IEEE"
 en_title = "Path following via kinetic-potential energy shaping"
 ja_title = "Path following via kinetic-potential energy shaping"
 en_author = "Joel Ferguson, Ryotaro Shima, Kenji Fujimoto"
 ja_author = "Joel Ferguson, Ryotaro Shima, Kenji Fujimoto"
+doi = "10.1109/CDC42340.2020.9303974"
+url = "https://ieeexplore.ieee.org/document/9303974"
 outside_kuaero = false
 
 [[record]]
