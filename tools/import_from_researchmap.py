@@ -198,6 +198,10 @@ for i in items.values():
             if not 'cinii_na_id' in record:
                 pprint(i)
                 raise Exception('see_also label is cinii_articles cinii_na_id is not contained in appropriate form')
+        elif info['label'] == 'web_of_science':
+            if not 'wos_id' in record:
+                pprint(i)
+                raise Exception('see_also label is web_of_science wos_id is not contained in appropriate form')
         else:
             pprint(i)
             raise Exception('unknown see_also type')
