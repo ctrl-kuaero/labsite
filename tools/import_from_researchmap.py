@@ -2,6 +2,8 @@ import requests,json,sys,os, time
 import toml
 from pprint import pprint
 
+requests.packages.urllib3.util.ssl_.DEFAULT_CIPHERS += ':HIGH:!DH:!aNULL'
+
 members = ['maruta','fujimoto_kenji']
 
 inlab = {
