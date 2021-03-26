@@ -1,4 +1,24 @@
 [[record]]
+publication_date = "20210218"
+ja_booktitle = "IEEE Access"
+en_booktitle = "IEEE Access"
+type = "journal"
+volume = "9"
+page_begin = "31441"
+page_end = "31453"
+reviewed = true
+invited = false
+en_publisher = "Institute of Electrical and Electronics Engineers (IEEE)"
+ja_publisher = "Institute of Electrical and Electronics Engineers (IEEE)"
+en_title = "A Simple Framework for Identifying Dynamical Systems in Closed-Loop"
+ja_title = "A Simple Framework for Identifying Dynamical Systems in Closed-Loop"
+en_author = "Ichiro Maruta, Toshiharu Sugie"
+ja_author = "Ichiro Maruta, Toshiharu Sugie"
+doi = "10.1109/ACCESS.2021.3060153"
+url = "https://ieeexplore.ieee.org/document/9356618"
+outside_kuaero = false
+
+[[record]]
 publication_date = "20200923"
 ja_booktitle = "Proceedings of the SICE Annual Conference 2020"
 en_booktitle = "Proceedings of the SICE Annual Conference 2020"
@@ -101,6 +121,8 @@ en_title = "A Study on Numerical Solutions of Hamilton-Jacobi-Bellman Equations 
 ja_title = "A Study on Numerical Solutions of Hamilton-Jacobi-Bellman Equations Based on Successive Approximation Approach"
 en_author = "Ichiro Maruta, Shuhei Nishida, Kenji Fujimoto"
 ja_author = "Ichiro Maruta, Shuhei Nishida, Kenji Fujimoto"
+doi = "10.9746/jcmsi.13.157"
+url = "https://www.jstage.jst.go.jp/article/jcmsi/13/3/13_157/_article/-char/ja/"
 outside_kuaero = false
 
 [[record]]
@@ -147,21 +169,6 @@ doi = "10.9746/jcmsi.13.40"
 issn = "1882-4889"
 e_issn = "1884-9970"
 url = "https://www.jstage.jst.go.jp/article/jcmsi/13/2/13_40/_pdf"
-outside_kuaero = false
-
-[[record]]
-publication_date = "20190910"
-ja_booktitle = "Proceedings of the SICE Annual Conference 2019"
-en_booktitle = "Proceedings of the SICE Annual Conference 2019,"
-type = "international_conference"
-page_begin = "652"
-page_end = "655"
-reviewed = true
-invited = false
-en_title = "A Study on Numerical Solutions of Hamilton-Jacobi-Bellman Equations Based on Successive Approximation Approach"
-ja_title = "A Study on Numerical Solutions of Hamilton-Jacobi-Bellman Equations Based on Successive Approximation Approach"
-en_author = "Shuhei Nishida, Ichiro Maruta, Kenji Fujimoto"
-ja_author = "Shuhei Nishida, Ichiro Maruta, Kenji Fujimoto"
 outside_kuaero = false
 
 [[record]]
@@ -1253,6 +1260,25 @@ wos_id = "WOS:000275772400016"
 outside_kuaero = true
 
 [[record]]
+publication_date = "20091216"
+ja_booktitle = "Proceedings of the 48h IEEE Conference on Decision and Control (CDC2009) held jointly with 2009 28th Chinese Control Conference"
+en_booktitle = "Proceedings of the 48h IEEE Conference on Decision and Control (CDC2009) held jointly with 2009 28th Chinese Control Conference"
+type = "international_conference"
+page_begin = "7244"
+page_end = "7249"
+reviewed = true
+invited = false
+en_title = "Identification of linear continuous-time systems based on the signal projection"
+ja_title = "Identification of linear continuous-time systems based on the signal projection"
+en_author = "Ichiro Maruta, Toshiharu Sugie"
+ja_author = "Ichiro Maruta, Toshiharu Sugie"
+doi = "10.1109/CDC.2009.5400191"
+issn = "0191-2216"
+scopus_id = "77950835344"
+url = "https://ieeexplore.ieee.org/document/5400191?arnumber=5400191"
+outside_kuaero = true
+
+[[record]]
 publication_date = "20091215"
 ja_booktitle = "Proceedings of the 48h IEEE Conference on Decision and Control (CDC) held jointly with 2009 28th Chinese Control Conference"
 en_booktitle = "Proceedings of the 48h IEEE Conference on Decision and Control (CDC) held jointly with 2009 28th Chinese Control Conference"
@@ -1311,6 +1337,27 @@ wos_id = "WOS:000279628300233"
 outside_kuaero = true
 
 [[record]]
+publication_date = "20090706"
+ja_booktitle = "IFAC Proceedings Volumes, Part of special issue: 15th IFAC Symposium on System Identification"
+en_booktitle = "IFAC Proceedings Volumes, Part of special issue: 15th IFAC Symposium on System Identification"
+type = "international_conference"
+volume = "42"
+number = "10"
+page_begin = "414"
+page_end = "419"
+reviewed = true
+invited = false
+en_title = "Novel closed-loop identification algorithm based on the finite-dimensional signal subspace"
+ja_title = "Novel closed-loop identification algorithm based on the finite-dimensional signal subspace"
+en_author = "Ichiro Maruta, Toshiharu Sugie"
+ja_author = "Ichiro Maruta, Toshiharu Sugie"
+doi = "10.3182/20090706-3-FR-2004.0145"
+issn = "1474-6670"
+scopus_id = "77950795665"
+url = "https://www.sciencedirect.com/science/article/pii/S1474667016386827?via%3Dihub"
+outside_kuaero = true
+
+[[record]]
 publication_date = "20090331"
 ja_booktitle = "計測自動制御学会論文集"
 en_booktitle = "Transactions of the Society of Instrument and Control Engineers"
@@ -1354,45 +1401,9 @@ wos_id = "WOS:000263426800032"
 outside_kuaero = true
 
 [[record]]
-publication_date = "20090000"
-en_booktitle = "IFAC Proceedings Volumes (IFAC-PapersOnline)"
-type = "international_conference"
-volume = "15"
-number = "1"
-page_begin = "414"
-page_end = "419"
-reviewed = true
-invited = false
-en_title = "Novel closed-loop identification algorithm based on the finite-dimensional signal subspace"
-ja_title = "Novel closed-loop identification algorithm based on the finite-dimensional signal subspace"
-en_author = "Ichiro Maruta, Toshiharu Sugie"
-ja_author = "Ichiro Maruta, Toshiharu Sugie"
-doi = "10.3182/20090706-3-FR-2004.0145"
-issn = "1474-6670"
-scopus_id = "77950795665"
-outside_kuaero = true
-
-[[record]]
-publication_date = "20090000"
-en_booktitle = "Proceedings of the IEEE Conference on Decision and Control"
-type = "international_conference"
-page_begin = "7244"
-page_end = "7249"
-reviewed = true
-invited = false
-en_title = "Identification of linear continuous-time systems based on the signal projection"
-ja_title = "Identification of linear continuous-time systems based on the signal projection"
-en_author = "Ichiro Maruta, Toshiharu Sugie"
-ja_author = "Ichiro Maruta, Toshiharu Sugie"
-doi = "10.1109/CDC.2009.5400191"
-issn = "0191-2216"
-scopus_id = "77950835344"
-outside_kuaero = true
-
-[[record]]
 publication_date = "20081209"
-ja_booktitle = "2008 47th IEEE Conference on Decision and Control"
-en_booktitle = "2008 47th IEEE Conference on Decision and Control"
+ja_booktitle = "Proceedings of the 47th IEEE Conference on Decision and Control (CDC2008)"
+en_booktitle = "Proceedings of the 47th IEEE Conference on Decision and Control (CDC2008)"
 type = "international_conference"
 page_begin = "2368"
 page_end = "2373"
@@ -1407,6 +1418,7 @@ ja_author = "Ichiro Maruta, Toshiharu Sugie"
 doi = "10.1109/CDC.2008.4738992"
 issn = "0191-2216"
 wos_id = "WOS:000307311602081"
+url = "https://ieeexplore.ieee.org/document/4738992"
 outside_kuaero = true
 
 [[record]]
@@ -1443,12 +1455,13 @@ en_author = "Masato Ishikawa, Ichiro Maruta, Toshiharu Sugie"
 ja_author = "石川 将人, 丸田 一郎, 杉江 俊治"
 doi = "10.9746/ve.sicetr1965.44.288"
 cinii_na_id = "10021990213"
+url = "https://www.jstage.jst.go.jp/article/sicetr1965/44/3/44_288/_article/-char/ja/"
 outside_kuaero = true
 
 [[record]]
 publication_date = "20071221"
-ja_booktitle = "AUTOMATICA"
-en_booktitle = "AUTOMATICA"
+ja_booktitle = "Automatica"
+en_booktitle = "Automatica"
 type = "journal"
 volume = "44"
 number = "4"
@@ -1465,12 +1478,13 @@ ja_author = "Tae-Hyoung Kim, Ichiro Maruta, Toshiharu Sugie"
 doi = "10.1016/j.automatica.2007.08.017"
 issn = "0005-1098"
 wos_id = "WOS:000255218700023"
+url = "https://www.sciencedirect.com/science/article/abs/pii/S0005109807004013"
 outside_kuaero = true
 
 [[record]]
 publication_date = "20071212"
-ja_booktitle = "2007 46th IEEE Conference on Decision and Control"
-en_booktitle = "2007 46th IEEE Conference on Decision and Control"
+ja_booktitle = "Proceedings of the 46th IEEE Conference on Decision and Control (CDC2007)"
+en_booktitle = "Proceedings of the 46th IEEE Conference on Decision and Control (CDC2007)"
 type = "international_conference"
 page_begin = "200"
 page_end = "205"
@@ -1485,6 +1499,7 @@ ja_author = "Tae-Hyoung Kim, Ichiro Maruta, Toshiharu Sugie"
 doi = "10.1109/CDC.2007.4434126"
 issn = "0743-1546"
 wos_id = "WOS:000255181700123"
+url = "https://ieeexplore.ieee.org/document/4434126/authors#authors"
 outside_kuaero = true
 
 [[record]]
@@ -1501,6 +1516,7 @@ ja_title = "Practical Controller Design for Discrete-valued Input Systems using 
 en_author = "Masato Ishikawa, Ichiro Maruta, Toshiharu Sugie"
 ja_author = "Masato Ishikawa, Ichiro Maruta, Toshiharu Sugie"
 doi = "10.23919/ECC.2007.7068292"
+url = "https://ieeexplore.ieee.org/document/7068292"
 outside_kuaero = true
 
 [[record]]
@@ -1521,24 +1537,22 @@ en_author = "Masato Ishikawa, Ichiro Maruta, Toshiharu Sugie"
 ja_author = "石川 将人, 丸田 一郎, 杉江 俊治"
 doi = "10.9746/ve.sicetr1965.43.31"
 cinii_na_id = "10018479871"
+url = "https://www.jstage.jst.go.jp/article/sicetr1965/43/1/43_31/_article/-char/ja/"
 outside_kuaero = true
 
 [[record]]
-publication_date = "20070000"
-en_booktitle = "Proceedings of the IEEE Conference on Decision and Control"
-type = "international_conference"
-page_begin = "200"
-page_end = "205"
-reviewed = true
+en_booktitle = "arXiv e-prints"
+publication_date = "20201215"
+type = "technical_report"
+reviewed = false
 invited = false
-en_title = "Particle swarm optimization based robust PID controller tuning scheme"
-ja_title = "Particle swarm optimization based robust PID controller tuning scheme"
-en_author = "Tae-Hyoung Kim, Ichiro Maruta, Toshiharu Sugie"
-ja_author = "Tae-Hyoung Kim, Ichiro Maruta, Toshiharu Sugie"
-doi = "10.1109/CDC.2007.4434126"
-issn = "0191-2216"
-scopus_id = "62749188369"
-outside_kuaero = true
+en_title = "On simplification of Dual-Youla approach for closed-loop identification"
+ja_title = "On simplification of Dual-Youla approach for closed-loop identification"
+en_author = "Toshiharu Sugie, Ichiro Maruta"
+ja_author = "Toshiharu Sugie, Ichiro Maruta"
+arxiv_id = "arXiv:2012.08165"
+url = "http://arxiv.org/pdf/2012.08165v1"
+outside_kuaero = false
 
 [[record]]
 ja_booktitle = "第63回自動制御連合講演会論文集"
@@ -3123,23 +3137,6 @@ cinii_na_id = "130005025981"
 outside_kuaero = true
 
 [[record]]
-ja_booktitle = "第40回制御理論シンポジウム資料"
-en_booktitle = "40th SICE Symposium on Control Theory"
-publication_date = "20110926"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "149"
-page_end = "152"
-reviewed = false
-invited = false
-en_title = "Construction of PWA Models based on Optimal Data Compression"
-ja_title = "最適なデータ圧縮に基づくPWAモデルの構築"
-en_author = "Ichiro Maruta, Toshiharu Sugie"
-ja_author = "丸田 一郎, 杉江 俊治"
-url = "http://jglobal.jst.go.jp/detail.php?from=API&JGLOBAL_ID=201102229762865553"
-outside_kuaero = true
-
-[[record]]
 publication_date = "20151210"
 type = "book"
 book_owner_role = "joint_work"
@@ -3370,6 +3367,21 @@ doi = "10.1002/rnc.4692"
 e_issn = "1099-1239"
 issn = "1049-8923"
 url = "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/rnc.4692"
+outside_kuaero = false
+
+[[record]]
+publication_date = "20190910"
+ja_booktitle = "Proceedings of the SICE Annual Conference 2019"
+en_booktitle = "Proceedings of the SICE Annual Conference 2019,"
+type = "international_conference"
+page_begin = "652"
+page_end = "655"
+reviewed = true
+invited = false
+en_title = "A Study on Numerical Solutions of Hamilton-Jacobi-Bellman Equations Based on Successive Approximation Approach"
+ja_title = "A Study on Numerical Solutions of Hamilton-Jacobi-Bellman Equations Based on Successive Approximation Approach"
+en_author = "Shuhei Nishida, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "Shuhei Nishida, Ichiro Maruta, Kenji Fujimoto"
 outside_kuaero = false
 
 [[record]]
