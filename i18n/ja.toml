@@ -27,6 +27,8 @@ other = "速報，短報，研究ノート等（大学，研究機関紀要）"
 other = "研究発表要旨（国際会議）"
 [publication_type_summary_domestic_conference]
 other = "研究発表要旨（全国大会，その他学術会議）"
+[publication_type_technical_report]
+other = "プレプリント等"
 [publication_type_institution_technical_report]
 other = "機関テクニカルレポート，プレプリント等"
 [publication_type_explanation_journal]
