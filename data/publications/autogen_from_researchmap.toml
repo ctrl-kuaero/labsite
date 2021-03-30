@@ -315,8 +315,9 @@ doi = "10.1016/j.ifacol.2018.09.191"
 outside_kuaero = false
 
 [[record]]
-publication_date = "20180300"
-en_booktitle = "2018 IEEE 15th International Workshop on Advanced Motion Control (AMC)"
+publication_date = "20180309"
+ja_booktitle = "Proceedings of the 2018 IEEE 15th International Workshop on Advanced Motion Control (AMC)"
+en_booktitle = "Proceedings of the 2018 IEEE 15th International Workshop on Advanced Motion Control (AMC)"
 type = "international_conference"
 page_begin = "263"
 page_end = "268"
@@ -819,7 +820,7 @@ wos_id = "WOS:000391107600321"
 outside_kuaero = true
 
 [[record]]
-publication_date = "20140600"
+publication_date = "20140500"
 ja_booktitle = "Applied Mathematics"
 en_booktitle = "Applied Mathematics"
 type = "journal"
@@ -1043,6 +1044,26 @@ outside_kuaero = true
 
 [[record]]
 publication_date = "20120711"
+ja_booktitle = "IFAC Proceedings Volumes (IFAC-PapersOnline) ; Part of special issue; 16th IFAC Symposium on Systems Identification (SYSID2012)"
+en_booktitle = "IFAC Proceedings Volumes (IFAC-PapersOnline) ; Part of special issue; 16th IFAC Symposium on Systems Identification (SYSID2012)"
+type = "international_conference"
+volume = "16"
+number = "1"
+page_begin = "197"
+page_end = "202"
+reviewed = true
+invited = false
+en_title = "Multidirectional simultaneous estimation of head-related transfer functions by prediction error method"
+ja_title = "Multidirectional simultaneous estimation of head-related transfer functions by prediction error method"
+en_author = "Yurika Tokuzumi, Kentaro Ishikawa, Ichiro Maruta, Shuichi Adachi, Kentaro Matsui, Akio Ando"
+ja_author = "Yurika Tokuzumi, Kentaro Ishikawa, Ichiro Maruta, Shuichi Adachi, Kentaro Matsui, Akio Ando"
+doi = "10.3182/20120711-3-BE-2027.00176"
+issn = "1474-6670"
+scopus_id = "84867053664"
+outside_kuaero = true
+
+[[record]]
+publication_date = "20120711"
 ja_booktitle = "IFAC Proceedings Volumes, Part of special issue: 16th IFAC Symposium on Sytem Identification"
 en_booktitle = "IFAC Proceedings Volumes, Part of special issue: 16th IFAC Symposium on Sytem Identification"
 type = "international_conference"
@@ -1062,26 +1083,8 @@ scopus_id = "84867047191"
 outside_kuaero = true
 
 [[record]]
-publication_date = "20120000"
-en_booktitle = "IFAC Proceedings Volumes (IFAC-PapersOnline)"
-type = "international_conference"
-volume = "16"
-number = "1"
-page_begin = "197"
-page_end = "202"
-reviewed = true
-invited = false
-en_title = "Multidirectional simultaneous estimation of head-related transfer functions by prediction error method"
-ja_title = "Multidirectional simultaneous estimation of head-related transfer functions by prediction error method"
-en_author = "Yurika Tokuzumi, Kentaro Ishikawa, Ichiro Maruta, Shuichi Adachi, Kentaro Matsui, Akio Ando"
-ja_author = "Yurika Tokuzumi, Kentaro Ishikawa, Ichiro Maruta, Shuichi Adachi, Kentaro Matsui, Akio Ando"
-doi = "10.3182/20120711-3-BE-2027.00176"
-issn = "1474-6670"
-scopus_id = "84867053664"
-outside_kuaero = true
-
-[[record]]
 publication_date = "20120101"
+ja_booktitle = "Developments in Control Theory Towards Glocal Control"
 en_booktitle = "Developments in Control Theory Towards Glocal Control"
 type = "in_book"
 page_begin = "89"
