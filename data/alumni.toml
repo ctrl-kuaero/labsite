@@ -24,6 +24,12 @@ ja_position = "2021年卒<br>修士"
 en_position = "2021<br>Master"
 
 [[list]]
+ja_name = "金井 佑人"
+en_name = "Yuto KANAI"
+ja_position = "2021年卒<br>学士"
+en_position = "2021<br>Bachelor"
+
+[[list]]
 ja_name = "大津 智宏"
 en_name = "Tomohiro OTSU"
 ja_position = "2020年卒<br>修士"
