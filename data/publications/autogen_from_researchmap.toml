@@ -1713,7 +1713,7 @@ outside_kuaero = false
 
 [[record]]
 ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム"
-en_booktitle = "Proceedings of the 7th Multi-symposium on Control Systems: MSCS2020"
+en_booktitle = "The 7th Multi-symposium on Control Systems: MSCS2020"
 publication_date = "20200302"
 type = "domestic_conference"
 lang = "ja"
@@ -1721,7 +1721,7 @@ page_begin = "3A1-2"
 reviewed = false
 invited = false
 en_title = "On Realization of Approximate Dynamic Programming with Gaussian Processes for Continuous-Time Nonlinear Systems and Its Convergence"
-ja_title = "連続時間システムに対するガウス過程を用いた近似動的計画法の実現とその収束性について"
+ja_title = "連続時間非線形システムに対するガウス過程を用いた近似動的計画法の実現とその収束性について"
 en_author = "Hirofumi Beppu, Ichiro Maruta, Kenji Fujimoto"
 ja_author = "別府 啓史, 丸田 一郎, 藤本 健治"
 outside_kuaero = false
@@ -4755,21 +4755,6 @@ issn = "0453-4654"
 cinii_na_id = "10030597208"
 url = "http://ci.nii.ac.jp/naid/10030597208/"
 outside_kuaero = true
-
-[[record]]
-ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム"
-en_booktitle = "The 7th Multi-symposium on Control Systems: MSCS2020"
-publication_date = "20200303"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "3A1-2"
-reviewed = false
-invited = false
-en_title = "On Realization of Approximate Dynamic Programming with Gaussian Processes for Continuous-Time Nonlinear Systems and Its Convergence"
-ja_title = "連続時間非線形システムに対するガウス過程を用いた近似動的計画法の実現とその収束性について"
-en_author = "Hirofumi Beppu, Ichiro Maruta, Kenji Fujimoto"
-ja_author = "別府 啓史, 丸田 一郎, 藤本 健治"
-outside_kuaero = false
 
 [[record]]
 ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム"
