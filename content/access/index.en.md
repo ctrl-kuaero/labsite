@@ -14,7 +14,7 @@ title: "Access"
 
 Systems and Control Lab  
 \#b3S10 C3 Building  
-Kyotodaigaku-katsura, Nishikyo Ward, Kyoto, Kyoto, 615-8540, Japan
+Kyotodaigaku-katsura, Nishikyo Ward, Kyoto City, Kyoto, 615-8540, Japan
 
 ### Access
 
