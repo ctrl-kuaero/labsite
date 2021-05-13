@@ -19,6 +19,26 @@ url = "https://ieeexplore.ieee.org/document/9356618"
 outside_kuaero = false
 
 [[record]]
+publication_date = "20201103"
+ja_booktitle = "IEEE Access"
+en_booktitle = "IEEE Access"
+type = "journal"
+volume = "8"
+page_begin = "201527"
+page_end = "201544"
+reviewed = true
+invited = false
+en_publisher = "Institute of Electrical and Electronics Engineers (IEEE)"
+ja_publisher = "Institute of Electrical and Electronics Engineers (IEEE)"
+en_title = "Highlighted Map for Mobile Robot Localization and Its Generation Based on Reinforcement Learning"
+ja_title = "Highlighted Map for Mobile Robot Localization and Its Generation Based on Reinforcement Learning"
+en_author = "Ryota Yoshimura, Ichiro Maruta, Kenji Fujimoto, Ken sato, Yusuke Kobayashi"
+ja_author = "Ryota Yoshimura, Ichiro Maruta, Kenji Fujimoto, Ken sato, Yusuke Kobayashi"
+doi = "10.1109/ACCESS.2020.3035725"
+url = "https://ieeexplore.ieee.org/document/9247228"
+outside_kuaero = false
+
+[[record]]
 publication_date = "20200923"
 ja_booktitle = "Proceedings of the SICE Annual Conference 2020"
 en_booktitle = "Proceedings of the SICE Annual Conference 2020"
@@ -4731,29 +4751,6 @@ en_title = "Variance Suppression for Gauge Control via Stochastic Optimal Contro
 ja_title = "Variance Suppression for Gauge Control via Stochastic Optimal Control"
 en_author = "Toshiaki Watanabe, Kenji Fujimoto, Yoshihiro Hashimoto, Yoshiharu Nishida"
 ja_author = "Toshiaki Watanabe, Kenji Fujimoto, Yoshihiro Hashimoto, Yoshiharu Nishida"
-outside_kuaero = true
-
-[[record]]
-publication_date = "20120229"
-ja_booktitle = "計測自動制御学会論文集"
-en_booktitle = "Transactions of the Society of Instrument and Control Engineers"
-type = "journal"
-lang = "ja"
-volume = "48"
-number = "2"
-page_begin = "102"
-page_end = "108"
-reviewed = true
-invited = false
-en_publisher = "計測自動制御学会"
-ja_publisher = "計測自動制御学会"
-en_title = "System Identification for State-space Models Based on the Variational Bayes Method"
-ja_title = "変分ベイズ法に基づいた状態空間モデルのシステム同定"
-en_author = "Kenji Fujimoto, Akiori Satoh, Shuichi Fujinaga"
-ja_author = "藤本 健治, 佐藤 彰記, 福永 修一"
-issn = "0453-4654"
-cinii_na_id = "10030597208"
-url = "http://ci.nii.ac.jp/naid/10030597208/"
 outside_kuaero = true
 
 [[record]]
