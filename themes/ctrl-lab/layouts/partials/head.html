@@ -18,6 +18,7 @@
     {{- $sass := resources.Get "sass/ctrl-lab.scss" }}
     {{- $style := $sass | resources.ToCSS $options}}
     <link href="{{ $style.Permalink }}" rel="stylesheet">
+    <link rel="icon" href='{{ "favicon.svg" | absURL }}' type="image/svg+xml">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,200,400,700&amp;subset=japanese" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
