@@ -4750,22 +4750,6 @@ wos_id = "WOS:000312286800006"
 outside_kuaero = false
 
 [[record]]
-ja_booktitle = "第65回システム制御情報学会研究発表講演会講演論文集"
-en_booktitle = "Proceedings of the 65th Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
-publication_date = "20210626"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "225"
-page_end = "232"
-reviewed = false
-invited = false
-en_title = "Identification of Nonlinear Systems Based on State Estimation Using Dimensionality Reduction with Deep Learning"
-ja_title = "深層学習による次元圧縮を用いた状態推定に基づく非線形システムの同定"
-en_author = "Keito Yamada, Ichiro Maruta, Kenji Fujimoto"
-ja_author = "山田 佳士, 丸田 一郎, 藤本 健治"
-outside_kuaero = false
-
-[[record]]
 ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム"
 en_booktitle = "The 7th Multi-symposium on Control Systems: MSCS2020"
 publication_date = "20200302"
