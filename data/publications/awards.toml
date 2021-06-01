@@ -1,3 +1,15 @@
+
+[[record]]
+en_author = "Takahiro Baba"
+ja_author = "馬場 貴大"
+en_giver = "The Executive Committee of the 64rd Annual Conference of the Institute of Systems, Control and Information Engineers"
+ja_giver = "第65回システム制御情報学会研究発表講演会実行委員会"
+en_title = "The Award of the Excellent Student Presetation"
+ja_title = "SCI学生発表賞"
+publication_date = "20210528"
+type = "award"
+url = "https://sci21.iscie.or.jp/award/index.html"
+
 [[record]]
 en_author = "Kousuke Kimura"
 ja_author = "木村 洸介"
@@ -8,6 +20,17 @@ ja_title = "2021年度システム制御情報学会学会賞奨励賞"
 publication_date = "20210527"
 type = "award"
 url = "https://www.iscie.or.jp/about/award"
+
+[[record]]
+en_author = "Takumi Wada"
+ja_author = "和田 拓巳"
+en_giver = "The Executive Committee of the 64rd Annual Conference of the Institute of Systems, Control and Information Engineers"
+ja_giver = "第65回システム制御情報学会研究発表講演会実行委員会"
+en_title = "The Award of the Excellent Student Presetation"
+ja_title = "SCI学生発表賞"
+publication_date = "20210526"
+type = "award"
+url = "https://sci21.iscie.or.jp/award/index.html"
 
 [[record]]
 en_author = "Naoki Sakata"
