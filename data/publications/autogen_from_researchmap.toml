@@ -1564,6 +1564,86 @@ url = "https://www.jstage.jst.go.jp/article/sicetr1965/43/1/43_31/_article/-char
 outside_kuaero = true
 
 [[record]]
+ja_booktitle = "第65回システム制御情報学会研究発表講演会講演論文集"
+en_booktitle = "Proceedings of the 65th Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
+publication_date = "20210526"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "793"
+page_end = "799"
+reviewed = false
+invited = false
+en_title = "Sliding Mode Control for a Class of Electromechanical Systems with Energy Shaping"
+ja_title = "エネルギー整形法を用いたあるクラスの電気機械系のスライディングモード制御"
+en_author = "Takahiro Baba, Naoki Sakata, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "馬場 貴大, 坂田 直樹, 藤本 健治, 丸田 一郎"
+outside_kuaero = false
+
+[[record]]
+ja_booktitle = "第65回システム制御情報学会研究発表講演会講演論文集"
+en_booktitle = "Proceedings of the 65th Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
+publication_date = "20210526"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "225"
+page_end = "232"
+reviewed = false
+invited = false
+en_title = "Identification of Nonlinear Systems Based on State Estimation Using Dimensionality Reduction with Deep Learning"
+ja_title = "深層学習による次元圧縮を用いた状態推定に基づく非線形システムの同定"
+en_author = "Keito Yamada, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "山田 佳士, 丸田 一郎, 藤本 健治"
+outside_kuaero = false
+
+[[record]]
+ja_booktitle = "第65回システム制御情報学会研究発表講演会講演論文集"
+en_booktitle = "Proceedings of the 65th Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
+publication_date = "20210526"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "88"
+page_end = "94"
+reviewed = false
+invited = false
+en_title = "On sparse trajectory planning via Newton’s method for under-determined systems"
+ja_title = "劣決定系のためのニュートン法を用いたスパース軌道計画について"
+en_author = "Yuto Kanai, Tasuku Kodama, Kiyoshi Hamada, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "金井 佑人, 児玉 匡, 濱田 聖司, 藤本 健治, 丸田 一郎"
+outside_kuaero = false
+
+[[record]]
+ja_booktitle = "第65回システム制御情報学会研究発表講演会講演論文集"
+en_booktitle = "Proceedings of the 65th Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
+publication_date = "20210526"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "77"
+page_end = "83"
+reviewed = false
+invited = false
+en_title = "Time invariant Riccati equation characterization of periodic time-varying filters"
+ja_title = "周期時変フィルタの時不変リッカチ方程式による特徴づけ"
+en_author = "Hibiki Asakura, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "朝倉 響, 藤本 健治, 丸田 一郎"
+outside_kuaero = false
+
+[[record]]
+ja_booktitle = "第65回システム制御情報学会研究発表講演会講演論文集"
+en_booktitle = "Proceedings of the 65th Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
+publication_date = "20210526"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "26"
+page_end = "33"
+reviewed = false
+invited = false
+en_title = "Construction of Trajectory Database for Optimal Control Based on Uniformization of Data Points Distributionon on Level Set of Cost Function"
+ja_title = "最適制御のための等コスト面上でのデータ点分布の一様化に基づく軌道データベースの構築"
+en_author = "Takumi Wada, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "和田 拓巳, 丸田 一郎, 藤本 健治"
+outside_kuaero = false
+
+[[record]]
 en_booktitle = "arXiv e-prints"
 publication_date = "20201215"
 type = "technical_report"
@@ -3076,90 +3156,6 @@ j_global_id = "201202201233537910"
 outside_kuaero = true
 
 [[record]]
-ja_booktitle = "機械力学・計測制御講演論文集"
-en_booktitle = "Dynamics and Design Conference 2012 : D & D"
-publication_date = "20120918"
-type = "domestic_conference"
-lang = "ja"
-reviewed = false
-invited = false
-en_title = "A new identification method for nonlinear systems based on l1 optimization and application to mechanical systems"
-ja_title = "L1最適化に基づいた新しい非線形システム同定法と機械系への応用(制御理論の新たな発展, OS8.5 システム制御理論の新潮流, 総合テーマ:「システムを考える。境界を越えて。」)"
-en_author = "Ichiro Maruta"
-ja_author = "丸田 一郎"
-issn = "1348-0235"
-cinii_na_id = "110009953229"
-outside_kuaero = true
-
-[[record]]
-ja_booktitle = "聴覚研究会資料"
-en_booktitle = "聴覚研究会資料"
-publication_date = "20120801"
-type = "others"
-lang = "ja"
-volume = "42"
-number = "6"
-page_begin = "525"
-page_end = "530"
-reviewed = false
-invited = false
-en_title = "Verification of the Simultaneous Multidirectional Estimation Accuracy of Head-Related Transfer Functions by Prediction Error Method"
-ja_title = "予測誤差法を用いた頭部伝達関数の多方向同時推定精度の検証"
-en_author = "Kentaro Ishikawa, Ichiro Maruta, Shuichi Adachi"
-ja_author = "石川 健太郎, 丸田 一郎, 足立 修一"
-outside_kuaero = true
-
-[[record]]
-ja_booktitle = "電子情報通信学会技術研究報告. EA, 応用音響"
-en_booktitle = "Technical report of IEICE. EA"
-publication_date = "20120700"
-type = "domestic_conference"
-lang = "ja"
-volume = "112"
-number = "171"
-page_begin = "55"
-page_end = "60"
-reviewed = false
-invited = false
-en_title = "Verification of the Simultaneous Multidirectional Estimation Accuracy of Head-Related Transfer Functions by Prediction Error Method"
-ja_title = "予測誤差法を用いた頭部伝達関数の多方向同時推定精度の検証(音響信号処理, 聴覚, 一般)"
-en_author = "Kentaro Ishikawa, Ichiro Maruta, Shuichi Adachi, Kentaro Matsui, Akio Ando"
-ja_author = "石川 健太郎, 丸田 一郎, 足立 修一, 松井 健太郎, 安藤 彰男"
-issn = "0913-5685"
-cinii_na_id = "110009627203"
-outside_kuaero = true
-
-[[record]]
-ja_booktitle = "Symposium on Developments in Control Theory towards Glocal Control: In Honor of Shinji Hara on the Occasion of His 60th Birthday"
-en_booktitle = "Symposium on Developments in Control Theory towards Glocal Control: In Honor of Shinji Hara on the Occasion of His 60th Birthday"
-publication_date = "20120106"
-type = "others"
-reviewed = false
-invited = false
-en_title = "Super-resolution Image reconstruction via data compression with piecewise affine structures (ポスター)"
-ja_title = "Super-resolution Image reconstruction via data compression with piecewise affine structures"
-en_author = "Ichiro Maruta"
-ja_author = "Ichiro Maruta"
-outside_kuaero = true
-
-[[record]]
-ja_booktitle = "第54回自動制御連合講演会講演論文集"
-en_booktitle = "Proceedings of the 54th Japan Joint Automatic Control Conference"
-publication_date = "20111119"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "164"
-page_end = "164"
-reviewed = false
-invited = false
-en_title = "Modeling of Systems with Circulation using L1-norm Optimization"
-ja_title = "L1最適化を用いた循環構造を有するシステムのモデリング"
-en_author = "Kentaro Ishikawa, Ichiro Maruta, Shuichi Adachi"
-ja_author = "石川 健太郎, 丸田 一郎, 足立 修一"
-cinii_na_id = "130005025981"
-outside_kuaero = true
-
-[[record]]
 publication_date = "20151210"
 type = "book"
 book_owner_role = "joint_work"
@@ -3190,6 +3186,21 @@ ja_author = "足立 修一, 丸田 一郎"
 isbn = "9784501328900"
 cinii_nc_id = "BB10368424"
 outside_kuaero = true
+
+[[record]]
+publication_date = "20210525"
+ja_booktitle = "Proceedings of the 2021 American Control Conference (ACC)"
+en_booktitle = "Proceedings of the 2021 American Control Conference (ACC)"
+type = "international_conference"
+page_begin = "1233"
+page_end = "1239"
+reviewed = true
+invited = false
+en_title = "On Optimal Control with Polynomial Cost Functions for Linear Systems with Time-Invariant Stochastic Parameters"
+ja_title = "On Optimal Control with Polynomial Cost Functions for Linear Systems with Time-Invariant Stochastic Parameters"
+en_author = "Yuji Ito, Kenji Fujimoto"
+ja_author = "Yuji Ito, Kenji Fujimoto"
+outside_kuaero = false
 
 [[record]]
 publication_date = "20201214"
@@ -4739,19 +4750,20 @@ wos_id = "WOS:000312286800006"
 outside_kuaero = false
 
 [[record]]
-publication_date = "20120910"
-ja_booktitle = "Proceedings of the 2012 IFAC Workshop on Automation in the Mining, Mineral and Metal Industries (MMM2012)"
-en_booktitle = "Proceedings of the 2012 IFAC Workshop on Automation in the Mining, Mineral and Metal Industries (MMM2012)"
-type = "international_conference"
-page_begin = "274"
-page_end = "275"
-reviewed = true
+ja_booktitle = "第65回システム制御情報学会研究発表講演会講演論文集"
+en_booktitle = "Proceedings of the 65th Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
+publication_date = "20210626"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "225"
+page_end = "232"
+reviewed = false
 invited = false
-en_title = "Variance Suppression for Gauge Control via Stochastic Optimal Control"
-ja_title = "Variance Suppression for Gauge Control via Stochastic Optimal Control"
-en_author = "Toshiaki Watanabe, Kenji Fujimoto, Yoshihiro Hashimoto, Yoshiharu Nishida"
-ja_author = "Toshiaki Watanabe, Kenji Fujimoto, Yoshihiro Hashimoto, Yoshiharu Nishida"
-outside_kuaero = true
+en_title = "Identification of Nonlinear Systems Based on State Estimation Using Dimensionality Reduction with Deep Learning"
+ja_title = "深層学習による次元圧縮を用いた状態推定に基づく非線形システムの同定"
+en_author = "Keito Yamada, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "山田 佳士, 丸田 一郎, 藤本 健治"
+outside_kuaero = false
 
 [[record]]
 ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム"
@@ -5935,101 +5947,6 @@ ja_author = "佐藤 訓志, 藤本 健治"
 issn = "0453-4662"
 cinii_na_id = "10030164879"
 url = "http://ci.nii.ac.jp/naid/10030164879/"
-outside_kuaero = true
-
-[[record]]
-ja_booktitle = "システム/制御/情報 : システム制御情報学会誌"
-en_booktitle = "Systems, control and information"
-publication_date = "20110515"
-type = "explanation_journal"
-lang = "ja"
-volume = "55"
-number = "5"
-page_begin = "196"
-page_end = "203"
-reviewed = true
-invited = true
-en_publisher = "システム制御情報学会"
-ja_publisher = "システム制御情報学会"
-en_title = "Analysis and Synthesis of Nonlinear Control Systems Using Symbolic Computation"
-ja_title = "数式処理を用いた非線形制御系の解析・設計(<特集>制御系解析・設計における数値計算/数式処理ソフトウェアの活用)"
-en_author = "Kenji Fujimoto"
-ja_author = "藤本 健治"
-issn = "0916-1600"
-cinii_na_id = "110008662144"
-url = "http://repository.kulib.kyoto-u.ac.jp/dspace/handle/2433/193927"
-outside_kuaero = true
-
-[[record]]
-ja_booktitle = "日本ロボット学会誌"
-en_booktitle = "Journal of the Robotics Society of Japan"
-publication_date = "20040315"
-type = "explanation_journal"
-lang = "ja"
-volume = "22"
-number = "2"
-page_begin = "156"
-page_end = "160"
-reviewed = true
-invited = true
-en_title = "Hamiltonian Systems Modeling of Mechanical Systems and Iterative Learning Control"
-ja_title = "ハミルトン系としての機械系と反復学習制御"
-en_author = "Kenji Fujimoto"
-ja_author = "藤本 健治"
-outside_kuaero = true
-
-[[record]]
-ja_booktitle = "計測と制御"
-en_booktitle = "Journal of the Society of Instrument and Control Engineers"
-publication_date = "20031010"
-type = "explanation_journal"
-lang = "ja"
-volume = "42"
-number = "10"
-page_begin = "814"
-page_end = "820"
-reviewed = true
-invited = true
-en_title = "Singular Value Analysis and Balanced Realization for Nonlinear Systems"
-ja_title = "非線形系の特異値解析と平衡実現"
-en_author = "Kenji Fujimoto, Jacquelien M, A. Scherpen"
-ja_author = "藤本 健治, Jacquelien M, A. Scherpen"
-outside_kuaero = true
-
-[[record]]
-ja_booktitle = "計測と制御"
-en_booktitle = "Journal of the Society of Instrument and Control Engineers"
-publication_date = "20030410"
-type = "explanation_journal"
-lang = "ja"
-volume = "42"
-number = "2"
-page_begin = "291"
-page_end = "296"
-reviewed = true
-invited = true
-en_title = "Nonlinear Control ―From Elimination to Making Use of Nonlinearity"
-ja_title = "非線形制御 ―消す非線形から生かす非線形へ"
-en_author = "Noboru Sakamoto, Kenji Fujimoto, Masato Ishikawa"
-ja_author = "坂本 登, 藤本 健治, 石川 将人"
-outside_kuaero = true
-
-[[record]]
-ja_booktitle = "計測と制御"
-en_booktitle = "Journal of the Society of Instrument and Control Engineers"
-publication_date = "20030210"
-type = "explanation_journal"
-lang = "ja"
-volume = "42"
-number = "2"
-page_begin = "100"
-page_end = "106"
-reviewed = true
-invited = true
-en_title = "Open Problems in Nonlinear Control of Mechanical Systems"
-ja_title = "メカニカルシステムの非線形制御における未解決問題"
-en_author = "Kenji Fujimoto"
-ja_author = "藤本 健治"
 outside_kuaero = true
 
 [[record]]
