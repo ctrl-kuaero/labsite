@@ -207,9 +207,10 @@ ja_author = "Kiyoshi Hamada, Ichiro Maruta, Kenji Fujimoto, Kenniti Hamamoto"
 outside_kuaero = false
 
 [[record]]
-publication_date = "20190000"
-en_booktitle = "IFAC-PapersOnLine"
-type = "journal"
+publication_date = "20190904"
+ja_booktitle = "IFAC-PapersOnLine; Part of special issue: 11th IFAC Symposium on Nonlinear Control Systems (NOLCOS2019)"
+en_booktitle = "IFAC-PapersOnLine; Part of special issue: 11th IFAC Symposium on Nonlinear Control Systems (NOLCOS2019)"
+type = "international_conference"
 volume = "52"
 number = "16"
 page_begin = "298"
@@ -505,7 +506,7 @@ outside_kuaero = false
 publication_date = "20170709"
 ja_booktitle = "IFAC-PapersOnLine: 20th IFAC World Congress"
 en_booktitle = "IFAC-PapersOnLine: 20th IFAC World Congress"
-type = "journal"
+type = "international_conference"
 volume = "50"
 number = "1"
 page_begin = "14016"
@@ -3419,6 +3420,24 @@ ja_author = "Shuhei Nishida, Ichiro Maruta, Kenji Fujimoto"
 outside_kuaero = false
 
 [[record]]
+publication_date = "20190904"
+ja_booktitle = "IFAC-PapersOnLine; Part of special issue: 11th IFAC Symposium on Nonlinear Control Systems (NOLCOS2019)"
+en_booktitle = "IFAC-PapersOnLine; Part of special issue: 11th IFAC Symposium on Nonlinear Control Systems (NOLCOS2019)"
+type = "international_conference"
+volume = "52"
+number = "16"
+page_begin = "298"
+page_end = "303"
+reviewed = true
+invited = false
+en_title = "On path following control of nonholonomic port-Hamiltonian systems via generalized canonical transformations"
+ja_title = "On path following control of nonholonomic port-Hamiltonian systems via generalized canonical transformations"
+en_author = "Ryotaro Shima, Yuki Okura, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "Ryotaro Shima, Yuki Okura, Kenji Fujimoto, Ichiro Maruta"
+doi = "10.1016/j.ifacol.2019.11.795"
+outside_kuaero = false
+
+[[record]]
 publication_date = "20190700"
 en_booktitle = "2019 American Control Conference (ACC)"
 type = "international_conference"
@@ -3836,9 +3855,10 @@ wos_id = "WOS:000418323700131"
 outside_kuaero = false
 
 [[record]]
-publication_date = "20170700"
+publication_date = "20170709"
+ja_booktitle = "IFAC-PapersOnLine"
 en_booktitle = "IFAC-PapersOnLine"
-type = "journal"
+type = "international_conference"
 volume = "50"
 number = "1"
 page_begin = "15385"
@@ -4028,28 +4048,6 @@ outside_kuaero = false
 
 [[record]]
 publication_date = "20160000"
-en_booktitle = "IFAC-PapersOnLine"
-type = "journal"
-volume = "49"
-number = "18"
-page_begin = "134"
-page_end = "139"
-reviewed = true
-invited = false
-en_publisher = "Elsevier BV"
-ja_publisher = "Elsevier BV"
-en_title = "Optimal Control of the Viscous Burgers Equation by the Hopf-Cole Transformation and Its Properties"
-ja_title = "Optimal Control of the Viscous Burgers Equation by the Hopf-Cole Transformation and Its Properties"
-en_author = "Tomofumi Iwamoto, Kenji Fujimoto"
-ja_author = "Tomofumi Iwamoto, Kenji Fujimoto"
-doi = "10.1016/j.ifacol.2016.10.152"
-issn = "2405-8963"
-j_global_id = "201602258334814894"
-wos_id = "WOS:000401244000023"
-outside_kuaero = false
-
-[[record]]
-publication_date = "20160000"
 en_booktitle = "TRANSACTIONS OF THE JAPAN SOCIETY FOR AERONAUTICAL AND SPACE SCIENCES, AEROSPACE TECHNOLOGY JAPAN"
 type = "journal"
 volume = "14"
@@ -4208,6 +4206,48 @@ wos_id = "WOS:000380615700234"
 outside_kuaero = false
 
 [[record]]
+publication_date = "20150704"
+ja_booktitle = "IFAC-PapersOnLine; Part of special issue: 5th IFAC Workshop on Lagrangian and Hamiltonian Methods for Nonlinear Control (LHMNC2015)"
+en_booktitle = "IFAC-PapersOnLine; Part of special issue: 5th IFAC Workshop on Lagrangian and Hamiltonian Methods for Nonlinear Control (LHMNC2015)"
+type = "international_conference"
+volume = "48"
+number = "13"
+page_begin = "57"
+page_end = "62"
+reviewed = true
+invited = false
+en_publisher = "Elsevier BV"
+ja_publisher = "Elsevier BV"
+en_title = "Input and plant parameter optimization via learning optimal control of Hamiltonian systems"
+ja_title = "Input and plant parameter optimization via learning optimal control of Hamiltonian systems"
+en_author = "Satoshi Satoh, Kenji Fujimoto, Masami Saeki"
+ja_author = "Satoshi Satoh, Kenji Fujimoto, Masami Saeki"
+doi = "10.1016/j.ifacol.2015.10.214"
+issn = "2405-8963"
+outside_kuaero = false
+
+[[record]]
+publication_date = "20150704"
+ja_booktitle = "IFAC-PapersOnLine; Part of special issue: 5th IFAC Workshop on Lagrangian and Hamiltonian Methods for Nonlinear Control (LHMNC2015)"
+en_booktitle = "IFAC-PapersOnLine; Part of special issue: 5th IFAC Workshop on Lagrangian and Hamiltonian Methods for Nonlinear Control (LHMNC2015)"
+type = "international_conference"
+volume = "48"
+number = "13"
+page_begin = "39"
+page_end = "44"
+reviewed = true
+invited = false
+en_publisher = "Elsevier BV"
+ja_publisher = "Elsevier BV"
+en_title = "On port-Hamiltonian modeling and control of quaternion systems"
+ja_title = "On port-Hamiltonian modeling and control of quaternion systems"
+en_author = "Kenji Fujimoto, Tomoya Takeuchi, Yuki Matsumoto"
+ja_author = "Kenji Fujimoto, Tomoya Takeuchi, Yuki Matsumoto"
+doi = "10.1016/j.ifacol.2015.10.211"
+issn = "2405-8963"
+outside_kuaero = false
+
+[[record]]
 publication_date = "20150701"
 ja_booktitle = "2015 American Control Conference"
 en_booktitle = "2015 American Control Conference"
@@ -4247,46 +4287,6 @@ e_issn = "1095-7138"
 issn = "0363-0129"
 wos_id = "WOS:000360666700027"
 url = "http://epubs.siam.org/doi/pdf/10.1137/11084529X"
-outside_kuaero = false
-
-[[record]]
-publication_date = "20150000"
-en_booktitle = "IFAC-PapersOnLine"
-type = "journal"
-volume = "48"
-number = "13"
-page_begin = "57"
-page_end = "62"
-reviewed = true
-invited = false
-en_publisher = "Elsevier BV"
-ja_publisher = "Elsevier BV"
-en_title = "Input and plant parameter optimization via learning optimal control of Hamiltonian systems"
-ja_title = "Input and plant parameter optimization via learning optimal control of Hamiltonian systems"
-en_author = "Satoshi Satoh, Kenji Fujimoto, Masami Saeki"
-ja_author = "Satoshi Satoh, Kenji Fujimoto, Masami Saeki"
-doi = "10.1016/j.ifacol.2015.10.214"
-issn = "2405-8963"
-outside_kuaero = false
-
-[[record]]
-publication_date = "20150000"
-en_booktitle = "IFAC-PapersOnLine"
-type = "journal"
-volume = "48"
-number = "13"
-page_begin = "39"
-page_end = "44"
-reviewed = true
-invited = false
-en_publisher = "Elsevier BV"
-ja_publisher = "Elsevier BV"
-en_title = "On port-Hamiltonian modeling and control of quaternion systems"
-ja_title = "On port-Hamiltonian modeling and control of quaternion systems"
-en_author = "Kenji Fujimoto, Tomoya Takeuchi, Yuki Matsumoto"
-ja_author = "Kenji Fujimoto, Tomoya Takeuchi, Yuki Matsumoto"
-doi = "10.1016/j.ifacol.2015.10.211"
-issn = "2405-8963"
 outside_kuaero = false
 
 [[record]]
@@ -4748,6 +4748,21 @@ e_issn = "1873-2836"
 issn = "0005-1098"
 wos_id = "WOS:000312286800006"
 outside_kuaero = false
+
+[[record]]
+publication_date = "20120910"
+ja_booktitle = "Proceedings of the 2012 IFAC Workshop on Automation in the Mining, Mineral and Metal Industries (MMM2012)"
+en_booktitle = "Proceedings of the 2012 IFAC Workshop on Automation in the Mining, Mineral and Metal Industries (MMM2012)"
+type = "international_conference"
+page_begin = "274"
+page_end = "275"
+reviewed = true
+invited = false
+en_title = "Variance Suppression for Gauge Control via Stochastic Optimal Control"
+ja_title = "Variance Suppression for Gauge Control via Stochastic Optimal Control"
+en_author = "Toshiaki Watanabe, Kenji Fujimoto, Yoshihiro Hashimoto, Yoshiharu Nishida"
+ja_author = "Toshiaki Watanabe, Kenji Fujimoto, Yoshihiro Hashimoto, Yoshiharu Nishida"
+outside_kuaero = true
 
 [[record]]
 ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム"
