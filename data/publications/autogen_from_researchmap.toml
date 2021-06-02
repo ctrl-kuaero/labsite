@@ -4028,6 +4028,24 @@ url = "http://xplorestaging.ieee.org/ielx7/7581720/7587772/07587933.pdf?arnumber
 outside_kuaero = false
 
 [[record]]
+publication_date = "20160823"
+ja_booktitle = "IFAC-PapersOnLine; Part of special issue: 10th IFAC Symposium on Nonlinear Control Systems (NOLCOS2016)"
+en_booktitle = "IFAC-PapersOnLine; Part of special issue: 10th IFAC Symposium on Nonlinear Control Systems (NOLCOS2016)"
+type = "international_conference"
+volume = "49"
+number = "18"
+page_begin = "134"
+page_end = "139"
+reviewed = true
+invited = false
+en_title = "Optimal Control of the Viscous Burgers Equation by the Hopf-Cole Transformation and Its Properties"
+ja_title = "Optimal Control of the Viscous Burgers Equation by the Hopf-Cole Transformation and Its Properties"
+en_author = "Tomofumi Iwamoto, Kenji Fujimoto"
+ja_author = "Tomofumi Iwamoto, Kenji Fujimoto"
+doi = "10.1016/j.ifacol.2016.10.152"
+outside_kuaero = false
+
+[[record]]
 publication_date = "20160706"
 ja_booktitle = "2016 AMERICAN CONTROL CONFERENCE (ACC)"
 en_booktitle = "2016 AMERICAN CONTROL CONFERENCE (ACC)"
@@ -4748,21 +4766,6 @@ e_issn = "1873-2836"
 issn = "0005-1098"
 wos_id = "WOS:000312286800006"
 outside_kuaero = false
-
-[[record]]
-publication_date = "20120910"
-ja_booktitle = "Proceedings of the 2012 IFAC Workshop on Automation in the Mining, Mineral and Metal Industries (MMM2012)"
-en_booktitle = "Proceedings of the 2012 IFAC Workshop on Automation in the Mining, Mineral and Metal Industries (MMM2012)"
-type = "international_conference"
-page_begin = "274"
-page_end = "275"
-reviewed = true
-invited = false
-en_title = "Variance Suppression for Gauge Control via Stochastic Optimal Control"
-ja_title = "Variance Suppression for Gauge Control via Stochastic Optimal Control"
-en_author = "Toshiaki Watanabe, Kenji Fujimoto, Yoshihiro Hashimoto, Yoshiharu Nishida"
-ja_author = "Toshiaki Watanabe, Kenji Fujimoto, Yoshihiro Hashimoto, Yoshiharu Nishida"
-outside_kuaero = true
 
 [[record]]
 ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム"
