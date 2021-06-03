@@ -3,13 +3,15 @@ publication_date = "20210601"
 ja_booktitle = "IEICE TRANSACTIONS on Information and Systems"
 en_booktitle = "IEICE TRANSACTIONS on Information and Systems"
 type = "journal"
+volume = "E104-D"
+number = "9"
 reviewed = true
 invited = false
 en_title = "Learning dynamic systems using Gaussian process regression with analytic ordinary differential equations as prior information"
 ja_title = "Learning dynamic systems using Gaussian process regression with analytic ordinary differential equations as prior information"
 en_author = "Shengbing Tang, Kenji Fujimoto, Ichiro Maruta"
 ja_author = "Shengbing Tang, Kenji Fujimoto, Ichiro Maruta"
-doi = "10.1587/transinf.2020EDP7186"
+url = "https://search.ieice.org/iss/"
 outside_kuaero = false
 
 [[record]]
