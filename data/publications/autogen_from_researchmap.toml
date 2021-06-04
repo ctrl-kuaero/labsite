@@ -158,7 +158,6 @@ ja_title = "A Study on Numerical Solutions of Hamilton-Jacobi-Bellman Equations 
 en_author = "Ichiro Maruta, Shuhei Nishida, Kenji Fujimoto"
 ja_author = "Ichiro Maruta, Shuhei Nishida, Kenji Fujimoto"
 doi = "10.9746/jcmsi.13.157"
-url = "https://www.jstage.jst.go.jp/article/jcmsi/13/3/13_157/_article/-char/ja/"
 outside_kuaero = false
 
 [[record]]
@@ -181,7 +180,6 @@ ja_author = "Kiyoshi Hamada, Ichiro Maruta, Kenji Fujimoto, Kenniti Hamamoto"
 doi = "10.9746/jcmsi.13.107"
 issn = "1882-4889"
 e_issn = "1884-9970"
-url = "https://www.jstage.jst.go.jp/article/jcmsi/13/3/13_107/_pdf"
 outside_kuaero = false
 
 [[record]]
@@ -204,7 +202,6 @@ ja_author = "Yuki OKURA, Kenji FUJIMOTO, Ichiro MARUTA, Akio SAITO, Hidetoshi IK
 doi = "10.9746/jcmsi.13.40"
 issn = "1882-4889"
 e_issn = "1884-9970"
-url = "https://www.jstage.jst.go.jp/article/jcmsi/13/2/13_40/_pdf"
 outside_kuaero = false
 
 [[record]]
@@ -3539,6 +3536,27 @@ outside_kuaero = false
 
 [[record]]
 publication_date = "20181130"
+en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
+type = "journal"
+volume = "11"
+number = "6"
+page_begin = "456"
+page_end = "462"
+reviewed = true
+invited = false
+en_publisher = "The Society of Instrument and Control Engineers"
+ja_publisher = "The Society of Instrument and Control Engineers"
+en_title = "System Identification of Nonlinear State-Space Models with Linearly Dependent Unknown Parameters Based on Variational Bayes"
+ja_title = "System Identification of Nonlinear State-Space Models with Linearly Dependent Unknown Parameters Based on Variational Bayes"
+en_author = "Kenji FUJIMOTO, Akihiro TANIGUCHI, Yoshiharu NISHIDA"
+ja_author = "Kenji FUJIMOTO, Akihiro TANIGUCHI, Yoshiharu NISHIDA"
+doi = "10.9746/jcmsi.11.456"
+issn = "1882-4889"
+e_issn = "1884-9970"
+outside_kuaero = false
+
+[[record]]
+publication_date = "20181130"
 ja_booktitle = "SICE Journal of Control, Measurement, and System Integration"
 en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
 type = "journal"
@@ -3553,7 +3571,6 @@ ja_title = "A Unified Approach of Controller Design and System Identification fo
 en_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro, Takayoshi Yoshimura"
 ja_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro, Takayoshi Yoshimura"
 doi = "10.9746/jcmsi.11.446"
-url = "https://www.jstage.jst.go.jp/article/jcmsi/11/6/11_446/_article/-char/en"
 outside_kuaero = false
 
 [[record]]
@@ -3594,6 +3611,27 @@ ja_author = "Yuki Okura, Kenji Fujimoto"
 doi = "10.1109/iros.2018.8594087"
 issn = "2153-0858"
 url = "http://xplorestaging.ieee.org/ielx7/8574473/8593358/08594087.pdf?arnumber=8594087"
+outside_kuaero = false
+
+[[record]]
+publication_date = "20180930"
+en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
+type = "journal"
+volume = "11"
+number = "5"
+page_begin = "419"
+page_end = "428"
+reviewed = true
+invited = false
+en_publisher = "The Society of Instrument and Control Engineers"
+ja_publisher = "The Society of Instrument and Control Engineers"
+en_title = "Numerical Solutions of Hamilton-Jacobi Inequalities by Constrained Gaussian Process Regression"
+ja_title = "Numerical Solutions of Hamilton-Jacobi Inequalities by Constrained Gaussian Process Regression"
+en_author = "Kenji FUJIMOTO, Hirofumi BEPPU, Yuji TAKAKI"
+ja_author = "Kenji FUJIMOTO, Hirofumi BEPPU, Yuji TAKAKI"
+doi = "10.9746/jcmsi.11.419"
+issn = "1882-4889"
+e_issn = "1884-9970"
 outside_kuaero = false
 
 [[record]]
@@ -3746,50 +3784,6 @@ ja_author = "Dijian CHEN, Kenji FUJIMOTO"
 doi = "10.2322/tastj.16.392"
 e_issn = "1884-0485"
 url = "https://www.jstage.jst.go.jp/article/tastj/16/5/16_392/_pdf"
-outside_kuaero = false
-
-[[record]]
-publication_date = "20180000"
-en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
-type = "journal"
-volume = "11"
-number = "5"
-page_begin = "419"
-page_end = "428"
-reviewed = true
-invited = false
-en_publisher = "The Society of Instrument and Control Engineers"
-ja_publisher = "The Society of Instrument and Control Engineers"
-en_title = "Numerical Solutions of Hamilton-Jacobi Inequalities by Constrained Gaussian Process Regression"
-ja_title = "Numerical Solutions of Hamilton-Jacobi Inequalities by Constrained Gaussian Process Regression"
-en_author = "Kenji FUJIMOTO, Hirofumi BEPPU, Yuji TAKAKI"
-ja_author = "Kenji FUJIMOTO, Hirofumi BEPPU, Yuji TAKAKI"
-doi = "10.9746/jcmsi.11.419"
-e_issn = "1884-9970"
-issn = "1882-4889"
-url = "https://www.jstage.jst.go.jp/article/jcmsi/11/5/11_419/_pdf"
-outside_kuaero = false
-
-[[record]]
-publication_date = "20180000"
-en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
-type = "journal"
-volume = "11"
-number = "6"
-page_begin = "456"
-page_end = "462"
-reviewed = true
-invited = false
-en_publisher = "The Society of Instrument and Control Engineers"
-ja_publisher = "The Society of Instrument and Control Engineers"
-en_title = "System Identification of Nonlinear State-Space Models with Linearly Dependent Unknown Parameters Based on Variational Bayes"
-ja_title = "System Identification of Nonlinear State-Space Models with Linearly Dependent Unknown Parameters Based on Variational Bayes"
-en_author = "Kenji FUJIMOTO, Akihiro TANIGUCHI, Yoshiharu NISHIDA"
-ja_author = "Kenji FUJIMOTO, Akihiro TANIGUCHI, Yoshiharu NISHIDA"
-doi = "10.9746/jcmsi.11.456"
-e_issn = "1884-9970"
-issn = "1882-4889"
-url = "https://www.jstage.jst.go.jp/article/jcmsi/11/6/11_456/_pdf"
 outside_kuaero = false
 
 [[record]]
@@ -4419,6 +4413,27 @@ ja_author = "Kenji Fujimoto, Jacquelien M, A. Scherpen"
 outside_kuaero = false
 
 [[record]]
+publication_date = "20140331"
+en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
+type = "journal"
+volume = "7"
+number = "2"
+page_begin = "96"
+page_end = "103"
+reviewed = true
+invited = false
+en_publisher = "The Society of Instrument and Control Engineers"
+ja_publisher = "The Society of Instrument and Control Engineers"
+en_title = "Optimal Gait Generation for a Compass Biped Robot via the Double Generating Functions Method"
+ja_title = "Optimal Gait Generation for a Compass Biped Robot via the Double Generating Functions Method"
+en_author = "Zhiwei HAO, Kenji FUJIMOTO, Yoshikazu HAYAKAWA"
+ja_author = "Zhiwei HAO, Kenji FUJIMOTO, Yoshikazu HAYAKAWA"
+doi = "10.9746/jcmsi.7.96"
+issn = "1882-4889"
+e_issn = "1884-9970"
+outside_kuaero = false
+
+[[record]]
 publication_date = "20140000"
 en_booktitle = "Proceedings of the IEEE Conference on Decision and Control"
 type = "international_conference"
@@ -4437,28 +4452,6 @@ ja_author = "Kenji Fujimoto, Taishi Nishiyama"
 doi = "10.1109/CDC.2014.7040141"
 issn = "0743-1546"
 scopus_id = "84988043487"
-outside_kuaero = false
-
-[[record]]
-publication_date = "20140000"
-en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
-type = "journal"
-volume = "7"
-number = "2"
-page_begin = "96"
-page_end = "103"
-reviewed = true
-invited = false
-en_publisher = "The Society of Instrument and Control Engineers"
-ja_publisher = "The Society of Instrument and Control Engineers"
-en_title = "Optimal Gait Generation for a Compass Biped Robot via the Double Generating Functions Method"
-ja_title = "Optimal Gait Generation for a Compass Biped Robot via the Double Generating Functions Method"
-en_author = "Zhiwei HAO, Kenji FUJIMOTO, Yoshikazu HAYAKAWA"
-ja_author = "Zhiwei HAO, Kenji FUJIMOTO, Yoshikazu HAYAKAWA"
-doi = "10.9746/jcmsi.7.96"
-e_issn = "1884-9970"
-issn = "1882-4889"
-url = "https://www.jstage.jst.go.jp/article/jcmsi/7/2/7_96/_pdf"
 outside_kuaero = false
 
 [[record]]
@@ -4639,6 +4632,7 @@ en_title = "Optimal Trajectory Generation for Linear Systems Based on Double Gen
 ja_title = "Optimal Trajectory Generation for Linear Systems Based on Double Generating Functions"
 en_author = "Zhiwei Hao, Kenji Fujimoto, Yoshikazu Hayakawa"
 ja_author = "Zhiwei Hao, Kenji Fujimoto, Yoshikazu Hayakawa"
+doi = "10.9746/jcmsi.6.194"
 issn = "1882-4889"
 outside_kuaero = false
 
