@@ -255,7 +255,7 @@ ja_author = "Tasuku Kodama, Kenji Fujimoto, Ichiro Maruta"
 outside_kuaero = false
 
 [[record]]
-publication_date = "20190610"
+publication_date = "20190609"
 ja_booktitle = "Proceedings of the 12th Asian Control Conference (ASCC)"
 en_booktitle = "Proceedings of the 12th Asian Control Conference (ASCC)"
 type = "international_conference"
@@ -265,8 +265,9 @@ reviewed = true
 invited = false
 en_title = "A Study on Solutions to Finite-Time Optimal Control Problems by Numerical Gaussian Processes"
 ja_title = "A Study on Solutions to Finite-Time Optimal Control Problems by Numerical Gaussian Processes"
-en_author = "Hirofumi Beppu, Ichiro Maruta, Kenji Fujimoto"
-ja_author = "Hirofumi Beppu, Ichiro Maruta, Kenji Fujimoto"
+en_author = "Hirofumi Beppu, Ichiro Maruta, Kenji Fujitmoto"
+ja_author = "Hirofumi Beppu, Ichiro Maruta, Kenji Fujitmoto"
+url = "https://ieeexplore.ieee.org/document/8765031"
 outside_kuaero = false
 
 [[record]]
@@ -368,25 +369,6 @@ url = "http://xplorestaging.ieee.org/ielx7/8369063/8371050/08371099.pdf?arnumber
 outside_kuaero = false
 
 [[record]]
-publication_date = "20180118"
-en_booktitle = "2017 IEEE 56th Annual Conference on Decision and Control, CDC 2017"
-type = "international_conference"
-volume = "2018-"
-page_begin = "3393"
-page_end = "3397"
-reviewed = true
-invited = false
-en_publisher = "Institute of Electrical and Electronics Engineers Inc."
-ja_publisher = "Institute of Electrical and Electronics Engineers Inc."
-en_title = "Closed-loop subspace identification with long data based on nuclear norm minimization"
-ja_title = "Closed-loop subspace identification with long data based on nuclear norm minimization"
-en_author = "Toshiharu Sugie, Kosei Inoue, Ichiro Maruta"
-ja_author = "Toshiharu Sugie, Kosei Inoue, Ichiro Maruta"
-doi = "10.1109/CDC.2017.8264156"
-scopus_id = "85046128248"
-outside_kuaero = false
-
-[[record]]
 publication_date = "20180109"
 ja_booktitle = "IEEE Transactions on Automatic Control"
 en_booktitle = "IEEE Transactions on Automatic Control"
@@ -409,14 +391,20 @@ publication_date = "20171212"
 ja_booktitle = "Proceedings of the 56th IEEE Conference on Decision and Control (CDC)"
 en_booktitle = "Proceedings of the 56th IEEE Conference on Decision and Control (CDC)"
 type = "international_conference"
+volume = "2018-"
 page_begin = "3393"
 page_end = "3397"
 reviewed = true
 invited = false
+en_publisher = "Institute of Electrical and Electronics Engineers Inc."
+ja_publisher = "Institute of Electrical and Electronics Engineers Inc."
 en_title = "Closed-loop Subspace Identification with Long Data based on Nuclear Norm Minimization"
 ja_title = "Closed-loop Subspace Identification with Long Data based on Nuclear Norm Minimization"
 en_author = "Toshiharu Sugie, Kosei Inoue, Ichiro Maruta"
 ja_author = "Toshiharu Sugie, Kosei Inoue, Ichiro Maruta"
+doi = "10.1109/CDC.2017.8264156"
+scopus_id = "85046128248"
+url = "https://ieeexplore.ieee.org/document/8264156"
 outside_kuaero = false
 
 [[record]]
@@ -715,7 +703,9 @@ en_title = "Synthesis of non-parametric type controllers based on I/O data from 
 ja_title = "Synthesis of non-parametric type controllers based on I/O data from closed-loop experiment"
 en_author = "Yusuke Fujimoto, Ichiro Maruta, Toshiharu Sugie"
 ja_author = "Yusuke Fujimoto, Ichiro Maruta, Toshiharu Sugie"
+doi = "10.1109/SICE.2015.7285504"
 wos_id = "WOS:000380615700206"
+url = "https://ieeexplore.ieee.org/document/7285504"
 outside_kuaero = true
 
 [[record]]
@@ -3465,21 +3455,6 @@ url = "http://xplorestaging.ieee.org/ielx7/8789884/8814292/08815020.pdf?arnumber
 outside_kuaero = false
 
 [[record]]
-publication_date = "20190609"
-ja_booktitle = "Proceedings of the 12th Asian Control Conference (ASCC)"
-en_booktitle = "Proceedings of the 12th Asian Control Conference (ASCC)"
-type = "international_conference"
-page_begin = "399"
-page_end = "404"
-reviewed = true
-invited = false
-en_title = "A Study on Solutions to Finite-Time Optimal Control Problems by Numerical Gaussian Processes"
-ja_title = "A Study on Solutions to Finite-Time Optimal Control Problems by Numerical Gaussian Processes"
-en_author = "Hirofumi Beppu, Ichiro Maruta, Kenji Fujitmoto"
-ja_author = "Hirofumi Beppu, Ichiro Maruta, Kenji Fujitmoto"
-outside_kuaero = false
-
-[[record]]
 publication_date = "20190000"
 en_booktitle = "Journal of Advanced Mechanical Design, Systems, and Manufacturing"
 type = "journal"
@@ -4681,7 +4656,7 @@ url = "http://xplorestaging.ieee.org/ielx5/9/6504746/06361273.pdf?arnumber=63612
 outside_kuaero = false
 
 [[record]]
-publication_date = "20130000"
+publication_date = "20130101"
 ja_booktitle = "鉄と鋼"
 en_booktitle = "Tetsu-to-Hagane"
 type = "journal"
@@ -4698,10 +4673,10 @@ en_title = "Variance Suppression for Gauge Control via Time-varying Stochastic O
 ja_title = "時変の確率最適制御を用いた板厚制御におけるばらつき抑制"
 en_author = "Kenji Fujimoto, Toshiaki Watanabe, Yoshihiro Hashimoto, Yoshiharu Nishida"
 ja_author = "藤本 健治, 渡邉 敏章, 橋本 芳宏, 西田 吉晴"
-cinii_na_id = "40019553280"
 doi = "10.2355/tetsutohagane.99.12"
-e_issn = "1883-2954"
 issn = "0021-1575"
+e_issn = "1883-2954"
+cinii_na_id = "40019553280"
 url = "https://www.jstage.jst.go.jp/article/tetsutohagane/99/1/99_12/_pdf"
 outside_kuaero = false
 
