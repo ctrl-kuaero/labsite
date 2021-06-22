@@ -2638,20 +2638,6 @@ ja_author = "井上 晃成, 丸田 一郎, 杉江 俊治"
 outside_kuaero = true
 
 [[record]]
-ja_booktitle = "SICE International symposium on Control Systems 2016 in Proceedings of the 3rd Multi-symposium on Control Systems: MSCS2016"
-en_booktitle = "SICE International symposium on Control Systems 2016 in Proceedings of the 3rd Multi-symposium on Control Systems: MSCS2016"
-publication_date = "20160307"
-type = "summary_international_conference"
-page_begin = "2A2-4"
-reviewed = true
-invited = false
-en_title = "Model-Free Position Control of Solar Farms Maximizing Power Generation"
-ja_title = "Model-Free Position Control of Solar Farms Maximizing Power Generation"
-en_author = "Taichi Kitao, Shun-ichi Azuma, Lotfi Mostefai, Ichiro Maruta, Toshiharu Sugie"
-ja_author = "Taichi Kitao, Shun-ichi Azuma, Lotfi Mostefai, Ichiro Maruta, Toshiharu Sugie"
-outside_kuaero = true
-
-[[record]]
 ja_booktitle = "第3回計測自動制御学会制御部門マルチシンポジウム"
 en_booktitle = "Proceedings of the 3rd Multi-symposium on Control Systems: MSCS2016"
 publication_date = "20160307"
@@ -3183,6 +3169,23 @@ en_title = "Identification of continuous-time systems based on signal projection
 ja_title = "核ノルム最小化と射影を用いた連続時間システム同定"
 en_author = "Akira Hamano, Ichiro Maruta, Toshiharu Sugie"
 ja_author = "濱野 亮, 丸田 一郎, 杉江 俊治"
+outside_kuaero = true
+
+[[record]]
+ja_booktitle = "第55回自動制御連合講演会プログラム・概要集"
+en_booktitle = "Proceedings of the 55th Japan Joint Automatic Control Conference"
+publication_date = "20121117"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "5"
+page_end = "10"
+reviewed = false
+invited = false
+en_title = "Modeling of Rechargeable Battery in Electric Vehicles by Continuous-Time System Identification Method"
+ja_title = "連続時間システム同定による電気自動車用二次電池のモデリング"
+en_author = "Takahiro Kawaguchi, Ichiro Maruta, Atsushi Baba, Shuichi Adachi"
+ja_author = "川口 貴弘, 丸田 一郎, 馬場 厚志, 足立 修一"
+j_global_id = "201202244113397644"
 outside_kuaero = true
 
 [[record]]
