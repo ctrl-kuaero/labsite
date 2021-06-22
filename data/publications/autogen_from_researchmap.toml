@@ -15,6 +15,20 @@ url = "https://search.ieice.org/iss/"
 outside_kuaero = false
 
 [[record]]
+publication_date = "20210301"
+ja_booktitle = "Proceedings of the SICE International Symposium on Control Systems 2021 (SICE ISCS)"
+en_booktitle = "Proceedings of the SICE International Symposium on Control Systems 2021 (SICE ISCS)"
+type = "international_conference"
+page_begin = "1A1-3"
+reviewed = true
+invited = false
+en_title = "Learning dynamic systems using Gaussian process regression with prior information given by analytic models"
+ja_title = "Learning dynamic systems using Gaussian process regression with prior information given by analytic models"
+en_author = "Shengbing Tang, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "Shengbing Tang, Kenji Fujimoto, Ichiro Maruta"
+outside_kuaero = false
+
+[[record]]
 publication_date = "20210218"
 ja_booktitle = "IEEE Access"
 en_booktitle = "IEEE Access"
@@ -603,6 +617,20 @@ doi = "10.4271/2016-01-1195"
 issn = "0148-7191"
 scopus_id = "84975226330"
 url = "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84975226330&origin=inward"
+outside_kuaero = true
+
+[[record]]
+publication_date = "20160307"
+ja_booktitle = "Proceedings of the SICE International Symposium on Control Systems 2016 (SICE ISCS)"
+en_booktitle = "Proceedings of the SICE International Symposium on Control Systems 2016 (SICE ISCS)"
+type = "international_conference"
+page_begin = "2A2-4"
+reviewed = true
+invited = false
+en_title = "Model-Free Position Control of Solar Farms for Maximizing Power Generation"
+ja_title = "Model-Free Position Control of Solar Farms for Maximizing Power Generation"
+en_author = "Taichi Kitao, Shun-ichi Azuma, Lotfi Mostefai, Ichiro Maruta, Toshiharu Sugie"
+ja_author = "Taichi Kitao, Shun-ichi Azuma, Lotfi Mostefai, Ichiro Maruta, Toshiharu Sugie"
 outside_kuaero = true
 
 [[record]]
@@ -1722,20 +1750,6 @@ en_title = "On Robust Feedforward Trajectory Planning with Trajectory Change"
 ja_title = "軌道変更を考慮したロバスト・フィードフォワード軌道計画について"
 en_author = "Tasuku Kodama, Kenji Fujimoto, Ichiro Maruta"
 ja_author = "児玉 匡, 藤本 健治, 丸田 一郎"
-outside_kuaero = false
-
-[[record]]
-ja_booktitle = "第8回計測自動制御学会制御部門マルチシンポジウム（SICE ISCS2021）"
-en_booktitle = "Proceedings of the 8th Multi-symposium on Control Systems (SICE ISCS2021)"
-publication_date = "20210301"
-type = "summary_international_conference"
-page_begin = "1A1-3"
-reviewed = false
-invited = false
-en_title = "Learning dynamic systems using Gaussian process regression with prior information given by analytic models"
-ja_title = "Learning dynamic systems using Gaussian process regression with prior information given by analytic models"
-en_author = "Shengbing Tang, Kenji Fujimoto, Ichiro Maruta"
-ja_author = "Shengbing Tang, Kenji Fujimoto, Ichiro Maruta"
 outside_kuaero = false
 
 [[record]]
@@ -3153,6 +3167,22 @@ ja_title = "離散時間システムによる知的PID制御器の実装と安�
 en_author = "Tomoya Onaka, Ichiro Maruta, Toshiharu Sugie"
 ja_author = "大仲 智也, 丸田 一郎, 杉江 俊治"
 j_global_id = "201302209393523957"
+outside_kuaero = true
+
+[[record]]
+ja_booktitle = "第55回自動制御連合講演会プログラム・概要集"
+en_booktitle = "Proceedings of the 55th Japan Joint Automatic Control Conference"
+publication_date = "20121117"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "68"
+page_end = "73"
+reviewed = false
+invited = false
+en_title = "Identification of continuous-time systems based on signal projection and nuclear norm minimization"
+ja_title = "核ノルム最小化と射影を用いた連続時間システム同定"
+en_author = "Akira Hamano, Ichiro Maruta, Toshiharu Sugie"
+ja_author = "濱野 亮, 丸田 一郎, 杉江 俊治"
 outside_kuaero = true
 
 [[record]]
@@ -4725,21 +4755,6 @@ wos_id = "WOS:000312286800006"
 outside_kuaero = false
 
 [[record]]
-publication_date = "20120910"
-ja_booktitle = "Proceedings of the 2012 IFAC Workshop on Automation in the Mining, Mineral and Metal Industries (MMM2012)"
-en_booktitle = "Proceedings of the 2012 IFAC Workshop on Automation in the Mining, Mineral and Metal Industries (MMM2012)"
-type = "international_conference"
-page_begin = "274"
-page_end = "275"
-reviewed = true
-invited = false
-en_title = "Variance Suppression for Gauge Control via Stochastic Optimal Control"
-ja_title = "Variance Suppression for Gauge Control via Stochastic Optimal Control"
-en_author = "Toshiaki Watanabe, Kenji Fujimoto, Yoshihiro Hashimoto, Yoshiharu Nishida"
-ja_author = "Toshiaki Watanabe, Kenji Fujimoto, Yoshihiro Hashimoto, Yoshiharu Nishida"
-outside_kuaero = true
-
-[[record]]
 ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム"
 en_booktitle = "The 7th Multi-symposium on Control Systems: MSCS2020"
 publication_date = "20200302"
@@ -5763,6 +5778,24 @@ ja_author = "石川 将人, 藤本 健治"
 issn = "0916-1600"
 cinii_na_id = "110009615721"
 url = "http://ci.nii.ac.jp/naid/110009615721/"
+outside_kuaero = false
+
+[[record]]
+ja_booktitle = "第57回システム制御情報学会研究発表講演会講演論文集"
+en_booktitle = "Proceedings of the 57th Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
+publication_date = "20130515"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "223-1"
+reviewed = false
+invited = false
+en_publisher = "The Institute of Systems, Control and Information Engineers"
+ja_publisher = "システム制御情報学会"
+en_title = "Design of distributed fault detections for interconnected systems"
+ja_title = "相互作用するシステムに対する分散的な故障検出器の設計"
+en_author = "Jun'ya Yamaguchi, Masayoshi Ishikawa, Yoshikazu Hayakawa, Kenji Fujimoto"
+ja_author = "山内 淳矢, 石川 昌義, 早川 義一, 藤本 健治"
+j_global_id = "201302249207609059"
 outside_kuaero = false
 
 [[record]]
