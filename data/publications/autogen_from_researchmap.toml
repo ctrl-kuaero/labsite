@@ -122,17 +122,21 @@ outside_kuaero = false
 
 [[record]]
 publication_date = "20200712"
-ja_booktitle = "Preprints of the 21st IFAC World Congress (Virtual)"
-en_booktitle = "Preprints of the 21st IFAC World Congress (Virtual)"
+ja_booktitle = "IFAC-PapersOnLine; Part of special issue: 21st IFAC World Congress"
+en_booktitle = "IFAC-PapersOnLine; Part of special issue: 21st IFAC World Congress"
 type = "international_conference"
-page_begin = "6797"
-page_end = "6804"
+volume = "53"
+number = "2"
+page_begin = "6715"
+page_end = "6722"
 reviewed = true
 invited = false
 en_title = "Approximate Dynamic Programming with Gaussian Processes for Optimal Control of Continuous-Time Nonlinear Systems"
 ja_title = "Approximate Dynamic Programming with Gaussian Processes for Optimal Control of Continuous-Time Nonlinear Systems"
 en_author = "Hirofumi Beppu, Ichiro Maruta, Kenji Fujimoto"
 ja_author = "Hirofumi Beppu, Ichiro Maruta, Kenji Fujimoto"
+doi = "10.1016/j.ifacol.2020.12.098"
+url = "https://www.sciencedirect.com/science/article/pii/S2405896320303542"
 outside_kuaero = false
 
 [[record]]
@@ -596,6 +600,22 @@ doi = "10.1109/CDC.2016.7798570"
 issn = "0743-1546"
 wos_id = "WOS:000400048102042"
 url = "http://dblp.uni-trier.de/db/conf/cdc/cdc2016.html#conf/cdc/KawaguchiHMA16"
+outside_kuaero = true
+
+[[record]]
+publication_date = "20161127"
+ja_booktitle = "Proceedings of the 2016 International Symposium on Nonlinear Theory and Application (NOLTA)"
+en_booktitle = "Proceedings of the 2016 International Symposium on Nonlinear Theory and Application (NOLTA)"
+type = "international_conference"
+page_begin = "80"
+page_end = "81"
+reviewed = true
+invited = false
+en_title = "A Packet-Based Energy Management System for Multi-Legged Walking Robots"
+ja_title = "A Packet-Based Energy Management System for Multi-Legged Walking Robots"
+en_author = "Yusuke Kojima, Shun-Ichi Azuma, Taichi Kitao, Ichiro Maruta, Toshiharu Sugie"
+ja_author = "Yusuke Kojima, Shun-Ichi Azuma, Taichi Kitao, Ichiro Maruta, Toshiharu Sugie"
+doi = "10.34385/proc.48.A2L-F-2"
 outside_kuaero = true
 
 [[record]]
@@ -2591,21 +2611,6 @@ ja_author = "吉川 徹哉, 丸田 一郎, 東 俊一, 杉江 俊治"
 outside_kuaero = true
 
 [[record]]
-ja_booktitle = "Proceedings of 2016 International Symposium on Nonlinear Theory and Its Applications"
-en_booktitle = "Proceedings of 2016 International Symposium on Nonlinear Theory and Its Applications"
-publication_date = "20161127"
-type = "summary_international_conference"
-page_begin = "80"
-page_end = "81"
-reviewed = true
-invited = false
-en_title = "A Packet-Based Energy Management System for Multi-Legged Walking Robots"
-ja_title = "A Packet-Based Energy Management System for Multi-Legged Walking Robots"
-en_author = "Yusuke Kojima, Shun-ichi Azuma, Taichi Kitao, Ichiro Maruta, Toshiharu Sugie"
-ja_author = "Yusuke Kojima, Shun-ichi Azuma, Taichi Kitao, Ichiro Maruta, Toshiharu Sugie"
-outside_kuaero = true
-
-[[record]]
 ja_booktitle = "第59回自動制御連合講演会予稿集"
 en_booktitle = "Proceedings of the 59th Japan Joint Automatic Control Conference"
 publication_date = "20161110"
@@ -2747,6 +2752,7 @@ en_title = "Identification of Piecewise Affine Systems(<Special Issue>Recent Tre
 ja_title = "区分的アフィンシステムの同定(<特集>システム同定と推定の最近の動向)"
 en_author = "Ichiro Maruta"
 ja_author = "丸田 一郎"
+doi = "10.11509/isciesci.59.5_180"
 cinii_na_id = "110009944721"
 outside_kuaero = true
 
@@ -3186,6 +3192,23 @@ ja_title = "連続時間システム同定による電気自動車用二次電�
 en_author = "Takahiro Kawaguchi, Ichiro Maruta, Atsushi Baba, Shuichi Adachi"
 ja_author = "川口 貴弘, 丸田 一郎, 馬場 厚志, 足立 修一"
 j_global_id = "201202244113397644"
+outside_kuaero = true
+
+[[record]]
+ja_booktitle = "第55回自動制御連合講演会プログラム・概要集"
+en_booktitle = "Proceedings of the 55th Japan Joint Automatic Control Conference"
+publication_date = "20121117"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "44"
+page_end = "48"
+reviewed = false
+invited = false
+en_title = "Open-Loop System Identification Experiments of Quadrotor Helicopter QBall"
+ja_title = "4ロータヘリコプタ QBall の開ループシステム同定実験"
+en_author = "Kentaro Arai, Ichiro Maruta, Shuichi Adachi"
+ja_author = "新井健太郎, 丸田一郎, 足立修一"
+j_global_id = "201202286568466010"
 outside_kuaero = true
 
 [[record]]
@@ -5778,6 +5801,7 @@ en_title = "The Difficulty and Joy of Nonlinear Control Theory(Questions and Ans
 ja_title = "非線形制御って何であんなに難しそうなの?(アイ・サイ問答教室,<総合特集I>非線形ダイナミクスを見極め,操る先端制御理論)"
 en_author = "Masato Ishikawa, Kenji Fujimoto"
 ja_author = "石川 将人, 藤本 健治"
+doi = "10.11509/isciesci.57.6_254"
 issn = "0916-1600"
 cinii_na_id = "110009615721"
 url = "http://ci.nii.ac.jp/naid/110009615721/"
