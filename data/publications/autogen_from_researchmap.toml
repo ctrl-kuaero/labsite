@@ -3358,47 +3358,59 @@ outside_kuaero = false
 
 [[record]]
 publication_date = "20200712"
-ja_booktitle = "Preprints of the 21st IFAC World Congress (Virtual)"
-en_booktitle = "Preprints of the 21st IFAC World Congress (Virtual)"
+ja_booktitle = "IFAC-PapersOnLine; Part of special issue: 21st IFAC World Congress"
+en_booktitle = "IFAC-PapersOnLine; Part of special issue: 21st IFAC World Congress"
 type = "international_conference"
-page_begin = "9526"
-page_end = "9533"
+volume = "53"
+number = "2"
+page_begin = "9391"
+page_end = "9398"
 reviewed = true
 invited = false
 en_title = "Flight control of flapping-wing robot with three paired direct-driven piezoelectric actuators"
 ja_title = "Flight control of flapping-wing robot with three paired direct-driven piezoelectric actuators"
 en_author = "Tomohiko Jimbo, Takashi Ozaki, Yasushi Amano, Kenji Fujimoto"
 ja_author = "Tomohiko Jimbo, Takashi Ozaki, Yasushi Amano, Kenji Fujimoto"
+doi = "10.1016/j.ifacol.2020.12.2408"
+url = "https://www.sciencedirect.com/science/article/pii/S2405896320330901"
 outside_kuaero = false
 
 [[record]]
 publication_date = "20200712"
-ja_booktitle = "Preprints of the 21st IFAC World Congress (Virtual)"
-en_booktitle = "Preprints of the 21st IFAC World Congress (Virtual)"
+ja_booktitle = "IFAC-PapersPm+ome; Part of special issue: 21st IFAC World Congress"
+en_booktitle = "IFAC-PapersPm+ome; Part of special issue: 21st IFAC World Congress"
 type = "international_conference"
-page_begin = "5672"
-page_end = "5677"
+volume = "53"
+number = "2"
+page_begin = "5598"
+page_end = "5603"
 reviewed = true
 invited = false
 en_title = "Virtual Holonomic Constraints Control for port-Hamiltonian Systems: A Case Study of Fully Actuated Mechanical Systems"
 ja_title = "Virtual Holonomic Constraints Control for port-Hamiltonian Systems: A Case Study of Fully Actuated Mechanical Systems"
 en_author = "Yuki Okura, Kenji Fujimoto, Chiaki Kojima"
 ja_author = "Yuki Okura, Kenji Fujimoto, Chiaki Kojima"
+doi = "10.1016/j.ifacol.2020.12.1573"
+url = "https://www.sciencedirect.com/science/article/pii/S2405896320321698"
 outside_kuaero = false
 
 [[record]]
 publication_date = "20200712"
-ja_booktitle = "Preprints of the 21st IFAC World Congress (Virtual)"
-en_booktitle = "Preprints of the 21st IFAC World Congress (Virtual)"
+ja_booktitle = "IFAC-PapersOnLine; Part of special issue: 21st IFAC World Congress"
+en_booktitle = "IFAC-PapersOnLine; Part of special issue: 21st IFAC World Congress"
 type = "international_conference"
-page_begin = "2307"
-page_end = "2313"
+volume = "53"
+number = "2"
+page_begin = "2273"
+page_end = "2279"
 reviewed = true
 invited = false
-en_title = "Stability Analysis for Linear Systems with Time-Varyingand Time-InvariantStochastic Parameters"
-ja_title = "Stability Analysis for Linear Systems with Time-Varyingand Time-InvariantStochastic Parameters"
+en_title = "Stability Analysis for Linear Systems with Time-Varying and Time-Invariant Stochastic Parameters"
+ja_title = "Stability Analysis for Linear Systems with Time-Varying and Time-Invariant Stochastic Parameters"
 en_author = "Yuji Ito, Kenji Fujimoto"
 ja_author = "Yuji Ito, Kenji Fujimoto"
+doi = "10.1016/j.ifacol.2020.12.015"
+url = "https://www.sciencedirect.com/science/article/pii/S240589632030255X"
 outside_kuaero = false
 
 [[record]]
@@ -3698,17 +3710,21 @@ outside_kuaero = false
 
 [[record]]
 publication_date = "20180627"
-ja_booktitle = "2018 Annual American Control Conference (ACC)"
-en_booktitle = "2018 Annual American Control Conference (ACC)"
+ja_booktitle = "Proceedings of the 2018 Annual American Control Conference (ACC)"
+en_booktitle = "Proceedings of the 2018 Annual American Control Conference (ACC)"
 type = "international_conference"
 page_begin = "1835"
 page_end = "1840"
 reviewed = true
 invited = false
+en_publisher = "Institute of Electrical and Electronics Engineers (IEEE)"
+ja_publisher = "Institute of Electrical and Electronics Engineers (IEEE)"
 en_title = "On Gaussian Kernel-based Hamilton-Jacobi-Bellman Equations forNonlinear Optimal Control"
 ja_title = "On Gaussian Kernel-based Hamilton-Jacobi-Bellman Equations forNonlinear Optimal Control"
 en_author = "Yuji Ito, Kenji Fujimoto, Takayoshi Yoshimura, Yukihiro Tadokoro"
 ja_author = "Yuji Ito, Kenji Fujimoto, Takayoshi Yoshimura, Yukihiro Tadokoro"
+doi = "10.23919/ACC.2018.8431159"
+url = "https://ieeexplore.ieee.org/document/8431159"
 outside_kuaero = false
 
 [[record]]
@@ -3722,16 +3738,18 @@ reviewed = true
 invited = false
 en_publisher = "IEEE"
 ja_publisher = "IEEE"
-en_title = "Extended Balanced Truncation for Continuous Time LTI Systems"
-ja_title = "Extended Balanced Truncation for Continuous Time LTI Systems"
+en_title = "Extended balanced truncation for continuous time LTI systems"
+ja_title = "Extended balanced truncation for continuous time LTI systems"
 en_author = "Jacquelien M.A. Scherpen, Kenji Fujimoto"
 ja_author = "Jacquelien M.A. Scherpen, Kenji Fujimoto"
+doi = "10.23919/ECC.2018.8550152"
+url = "https://ieeexplore.ieee.org/document/8550152"
 outside_kuaero = false
 
 [[record]]
 publication_date = "20180612"
-ja_booktitle = "Proceedings of 2018 European Control Conference (ECC)"
-en_booktitle = "Proceedings of 2018 European Control Conference (ECC)"
+ja_booktitle = "Proceedings of the 2018 European Control Conference (ECC)"
+en_booktitle = "Proceedings of the 2018 European Control Conference (ECC)"
 type = "international_conference"
 page_begin = "2454"
 page_end = "2459"
@@ -3743,6 +3761,8 @@ en_title = "On System Identification of Nonlinear State-Space Models Based on Va
 ja_title = "On System Identification of Nonlinear State-Space Models Based on Variational Bayes: Multimodal Distribution Case"
 en_author = "Akihiro Taniguchi, Kenji Fujimoto, Nishida Yoshiharu"
 ja_author = "Akihiro Taniguchi, Kenji Fujimoto, Nishida Yoshiharu"
+doi = "10.23919/ECC.2018.8550599"
+url = "https://ieeexplore.ieee.org/document/8550599"
 outside_kuaero = false
 
 [[record]]
@@ -3884,17 +3904,19 @@ reviewed = true
 invited = false
 en_publisher = "IEEE"
 ja_publisher = "IEEE"
-en_title = "On Variational Bayes for Identification of Nonlinear State-space Models with Linearly Dependent Unknown Parameters"
-ja_title = "On Variational Bayes for Identification of Nonlinear State-space Models withLinearly Dependent Unknown Parameters"
+en_title = "On variational Bayes for identification of nonlinear state-space models with linearly dependent unknown parameters"
+ja_title = "On variational Bayes for identification of nonlinear state-space models with linearly dependent unknown parameters"
 en_author = "Akihiro Taniguchi, Kenji Fujimoto, Yoshiharu Nishida"
 ja_author = "Akihiro Taniguchi, Kenji Fujimoto, Yoshiharu Nishida"
+doi = "10.23919/SICE.2017.8105487"
 wos_id = "WOS:000418323700131"
+url = "https://ieeexplore.ieee.org/document/8105487"
 outside_kuaero = false
 
 [[record]]
 publication_date = "20170709"
-ja_booktitle = "IFAC-PapersOnLine"
-en_booktitle = "IFAC-PapersOnLine"
+ja_booktitle = "IFAC-PapersOnLine; Part of special issue: 20th IFAC World Congress"
+en_booktitle = "IFAC-PapersOnLine; Part of special issue: 20th IFAC World Congress"
 type = "international_conference"
 volume = "50"
 number = "1"
@@ -3910,6 +3932,7 @@ en_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro, Takayoshi Yoshimura"
 ja_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro, Takayoshi Yoshimura"
 doi = "10.1016/j.ifacol.2017.08.1861"
 issn = "2405-8963"
+url = "https://www.sciencedirect.com/science/article/pii/S2405896317324874?via%3Dihub"
 outside_kuaero = false
 
 [[record]]
@@ -3929,8 +3952,8 @@ outside_kuaero = false
 
 [[record]]
 publication_date = "20161212"
-ja_booktitle = "2016 IEEE 55th Conference on Decision and Control (CDC)"
-en_booktitle = "2016 IEEE 55th Conference on Decision and Control (CDC)"
+ja_booktitle = "Proceedings of the 2016 IEEE 55th Conference on Decision and Control (CDC)"
+en_booktitle = "Proceedings of the 2016 IEEE 55th Conference on Decision and Control (CDC)"
 type = "international_conference"
 page_begin = "5390"
 page_end = "5395"
@@ -3938,18 +3961,20 @@ reviewed = true
 invited = false
 en_publisher = "IEEE"
 ja_publisher = "IEEE"
-en_title = "On Stochastic Optimal Controlfor Linear Systems with Robust Stability"
-ja_title = "On Stochastic Optimal Controlfor Linear Systems with Robust Stability"
+en_title = "On stochastic optimal control for linear systems with robust stability"
+ja_title = "On stochastic optimal control for linear systems with robust stability"
 en_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro, Takayoshi Yoshimura"
 ja_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro, Takayoshi Yoshimura"
+doi = "10.1109/CDC.2016.7799096"
 issn = "0743-1546"
 wos_id = "WOS:000400048105095"
+url = "https://ieeexplore.ieee.org/document/7799096"
 outside_kuaero = false
 
 [[record]]
 publication_date = "20161212"
-ja_booktitle = "2016 IEEE 55th Conference on Decision and Control (CDC)"
-en_booktitle = "2016 IEEE 55th Conference on Decision and Control (CDC)"
+ja_booktitle = "Proceedings of the 2016 IEEE 55th Conference on Decision and Control (CDC)"
+en_booktitle = "Proceedings of the 22016 IEEE 55th Conference on Decision and Control (CDC)"
 type = "international_conference"
 page_begin = "4469"
 page_end = "4473"
@@ -3961,16 +3986,16 @@ en_title = "A study on robust nonlinear optimal control for parameter variation"
 ja_title = "A study on robust nonlinear optimal control for parameter variation"
 en_author = "Yuki Okura, Kenji Fujimoto"
 ja_author = "Yuki Okura, Kenji Fujimoto"
+doi = "10.1109/cdc.2016.7798948"
 issn = "0743-1546"
 wos_id = "WOS:000400048104106"
-doi = "10.1109/cdc.2016.7798948"
-url = "http://xplorestaging.ieee.org/ielx7/7786694/7798233/07798948.pdf?arnumber=7798948"
+url = "https://ieeexplore.ieee.org/document/7798948"
 outside_kuaero = false
 
 [[record]]
 publication_date = "20161212"
-ja_booktitle = "2016 IEEE 55th Conference on Decision and Control (CDC)"
-en_booktitle = "2016 IEEE 55th Conference on Decision and Control (CDC)"
+ja_booktitle = "Proceedings of the 2016 IEEE 55th Conference on Decision and Control (CDC)"
+en_booktitle = "Proceedings of the 2016 IEEE 55th Conference on Decision and Control (CDC)"
 type = "international_conference"
 page_begin = "1217"
 page_end = "1222"
@@ -3978,12 +4003,14 @@ reviewed = true
 invited = false
 en_publisher = "IEEE"
 ja_publisher = "IEEE"
-en_title = "On System Identification for ARMAX ModelsBased on the Variational Bayesian Method"
-ja_title = "On System Identification for ARMAX ModelsBased on the Variational Bayesian Method"
+en_title = "On system identification for ARMAX models based on the variational Bayesian method"
+ja_title = "On system identification for ARMAX models based on the variational Bayesian method"
 en_author = "Kenji Fujimoto, Yuji Yakaki"
 ja_author = "Kenji Fujimoto, Yuji Yakaki"
+doi = "10.1109/CDC.2016.7798432"
 issn = "0743-1546"
 wos_id = "WOS:000400048101063"
+url = "https://ieeexplore.ieee.org/document/7798432"
 outside_kuaero = false
 
 [[record]]
@@ -4084,8 +4111,8 @@ outside_kuaero = false
 
 [[record]]
 publication_date = "20160706"
-ja_booktitle = "2016 AMERICAN CONTROL CONFERENCE (ACC)"
-en_booktitle = "2016 AMERICAN CONTROL CONFERENCE (ACC)"
+ja_booktitle = "Proceedings of the 2016 AMERICAN CONTROL CONFERENCE (ACC)"
+en_booktitle = "Proceedings of the 2016 AMERICAN CONTROL CONFERENCE (ACC)"
 type = "international_conference"
 page_begin = "6580"
 page_end = "6585"
@@ -4093,12 +4120,14 @@ reviewed = true
 invited = false
 en_publisher = "IEEE"
 ja_publisher = "IEEE"
-en_title = "On Linear Solutions to a Class of Risk Sensitive Control for Linear Systems with Stochastic Parameters: Infinite Time Horizon Case"
-ja_title = "On Linear Solutions to a Class of Risk Sensitive Control for Linear Systems with Stochastic Parameters: Infinite Time Horizon Case"
+en_title = "On linear solutions to a class of risk sensitive control for linear systems with stochastic parameters: Infinite time horizon case"
+ja_title = "On linear solutions to a class of risk sensitive control for linear systems with stochastic parameters: Infinite time horizon case"
 en_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro, Takayoshi Yoshimura"
 ja_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro, Takayoshi Yoshimura"
+doi = "10.1109/ACC.2016.7526706"
 issn = "0743-1619"
 wos_id = "WOS:000388376106105"
+url = "https://ieeexplore.ieee.org/document/7526706"
 outside_kuaero = false
 
 [[record]]
@@ -4124,8 +4153,8 @@ outside_kuaero = false
 
 [[record]]
 publication_date = "20151215"
-ja_booktitle = "2015 IEEE 54th Annual Conference on Decision and Control (CDC)"
-en_booktitle = "2015 IEEE 54th Annual Conference on Decision and Control (CDC)"
+ja_booktitle = "Proceedings of the 2015 IEEE 54th Annual Conference on Decision and Control (CDC)"
+en_booktitle = "Proceedings of the 2015 IEEE 54th Annual Conference on Decision and Control (CDC)"
 type = "international_conference"
 page_begin = "6524"
 page_end = "6529"
@@ -4137,13 +4166,15 @@ en_title = "On finite time optimal control for discrete-time linear systems with
 ja_title = "On finite time optimal control for discrete-time linear systems with parameter variation"
 en_author = "Kenji Fujimoto, Teppei Inoue, Shun Maruyama"
 ja_author = "Kenji Fujimoto, Teppei Inoue, Shun Maruyama"
+doi = "10.1109/CDC.2015.7403247"
 wos_id = "WOS:000381554506116"
+url = "https://ieeexplore.ieee.org/document/7403247"
 outside_kuaero = false
 
 [[record]]
 publication_date = "20151215"
-ja_booktitle = "2015 IEEE 54th Annual Conference on Decision and Control (CDC)"
-en_booktitle = "2015 IEEE 54th Annual Conference on Decision and Control (CDC)"
+ja_booktitle = "Proceedings of the 2015 IEEE 54th Annual Conference on Decision and Control (CDC)"
+en_booktitle = "Proceedings of the 2015 IEEE 54th Annual Conference on Decision and Control (CDC)"
 type = "international_conference"
 page_begin = "3236"
 page_end = "3241"
@@ -4155,13 +4186,15 @@ en_title = "A New Framework of Robust LQ Optimal Control for Parameter Variation
 ja_title = "A New Framework of Robust LQ Optimal Control for Parameter Variation and Its Application to the Double Generating Functions Method"
 en_author = "Yuki Okura, Kenji Fujimoto"
 ja_author = "Yuki Okura, Kenji Fujimoto"
+doi = "10.1109/CDC.2015.7402705"
 wos_id = "WOS:000381554503070"
+url = "https://ieeexplore.ieee.org/document/7402705"
 outside_kuaero = false
 
 [[record]]
 publication_date = "20151215"
-ja_booktitle = "2015 IEEE 54th Annual Conference on Decision and Control (CDC)"
-en_booktitle = "2015 IEEE 54th Annual Conference on Decision and Control (CDC)"
+ja_booktitle = "Proceedings of the 2015 IEEE 54th Annual Conference on Decision and Control (CDC)"
+en_booktitle = "Proceedings of the 2015 IEEE 54th Annual Conference on Decision and Control (CDC)"
 type = "international_conference"
 page_begin = "3894"
 page_end = "3899"
@@ -4173,13 +4206,15 @@ en_title = "Double Generating Function Approach to Discrete-Time Nonlinear Optim
 ja_title = "Double Generating Function Approach to Discrete-Time Nonlinear Optimal Control Problems"
 en_author = "Dijian Chen, Kenji Fujimoto, Tatsuya Suzuki"
 ja_author = "Dijian Chen, Kenji Fujimoto, Tatsuya Suzuki"
+doi = "10.1109/CDC.2015.7402825"
 wos_id = "WOS:000381554504014"
+url = "https://ieeexplore.ieee.org/document/7402825"
 outside_kuaero = false
 
 [[record]]
 publication_date = "20151215"
-ja_booktitle = "2015 IEEE 54th Annual Conference on Decision and Control (CDC)"
-en_booktitle = "2015 IEEE 54th Annual Conference on Decision and Control (CDC)"
+ja_booktitle = "Proceedings of the 2015 IEEE 54th Annual Conference on Decision and Control (CDC)"
+en_booktitle = "Proceedings of the 2015 IEEE 54th Annual Conference on Decision and Control (CDC)"
 type = "international_conference"
 page_begin = "6516"
 page_end = "6523"
@@ -4191,13 +4226,15 @@ en_title = "On Linear Solutions to a Class of Risk Sensitive Controlfor Linear S
 ja_title = "On Linear Solutions to a Class of Risk Sensitive Controlfor Linear Systems with Stochastic Parameters"
 en_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro, Takayoshi Yoshimura"
 ja_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro, Takayoshi Yoshimura"
+doi = "10.1109/CDC.2015.7403246"
 wos_id = "WOS:000381554506115"
+url = "https://ieeexplore.ieee.org/document/7403246?section=abstract"
 outside_kuaero = false
 
 [[record]]
 publication_date = "20151215"
-ja_booktitle = "2015 IEEE 54th Annual Conference on Decision and Control (CDC)"
-en_booktitle = "2015 IEEE 54th Annual Conference on Decision and Control (CDC)"
+ja_booktitle = "Proceedings of the 2015 IEEE 54th Annual Conference on Decision and Control (CDC)"
+en_booktitle = "Proceedings of the 2015 IEEE 54th Annual Conference on Decision and Control (CDC)"
 type = "international_conference"
 page_begin = "3218"
 page_end = "3223"
@@ -4209,7 +4246,9 @@ en_title = "Numerical Approach for Nonlinear Optimal Control Problems Based onDo
 ja_title = "Numerical Approach for Nonlinear Optimal Control Problems Based onDouble Generating Functions"
 en_author = "Zhiwei Hao, Qiuhua Zhang, Kenji Fujimoto"
 ja_author = "Zhiwei Hao, Qiuhua Zhang, Kenji Fujimoto"
+doi = "10.1109/CDC.2015.7402702"
 wos_id = "WOS:000381554503067"
+url = "https://ieeexplore.ieee.org/document/7402702"
 outside_kuaero = false
 
 [[record]]
@@ -4229,8 +4268,8 @@ outside_kuaero = false
 
 [[record]]
 publication_date = "20150728"
-ja_booktitle = "Proceedings of the 34th Chinese Control Conference"
-en_booktitle = "Proceedings of the 34th Chinese Control Conference"
+ja_booktitle = "Proceedings of the 34th Chinese Control Conference (CCC)"
+en_booktitle = "Proceedings of the 34th Chinese Control Conference (CCC)"
 type = "international_conference"
 page_begin = "2490"
 page_end = "2495"
@@ -4240,6 +4279,8 @@ en_title = "Double generating functions method for finite time LQ optimal trajec
 ja_title = "Double generating functions method for finite time LQ optimal trajectory generation problems"
 en_author = "Zhiwei Hao, Qiuhua Zhang, Kenji Fujimoto"
 ja_author = "Zhiwei Hao, Qiuhua Zhang, Kenji Fujimoto"
+doi = "10.1109/ChiCC.2015.7260022"
+url = "https://ieeexplore.ieee.org/document/7260022"
 outside_kuaero = false
 
 [[record]]
@@ -4304,8 +4345,8 @@ outside_kuaero = false
 
 [[record]]
 publication_date = "20150701"
-ja_booktitle = "2015 American Control Conference"
-en_booktitle = "2015 American Control Conference"
+ja_booktitle = "Proceedings of the 2015 American Control Conference"
+en_booktitle = "Proceedings of the 2015 American Control Conference"
 type = "international_conference"
 page_begin = "2032"
 page_end = "2037"
@@ -4317,8 +4358,10 @@ en_title = "A Unified Approach of Control and Identification for Optimal Control
 ja_title = "A Unified Approach of Control and Identification for Optimal Control of Non-linear Systems"
 en_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro, Takayoshi Yoshimura"
 ja_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro, Takayoshi Yoshimura"
+doi = "10.1109/ACC.2015.7171032"
 issn = "0743-1619"
 wos_id = "WOS:000370259202021"
+url = "https://www.researchgate.net/publication/280627629_A_unified_approach_of_control_and_identification_for_optimal_control_of_non-linear_systems"
 outside_kuaero = false
 
 [[record]]
@@ -4369,8 +4412,8 @@ outside_kuaero = false
 
 [[record]]
 publication_date = "20141215"
-ja_booktitle = "53rd IEEE Conference on Decision and Control"
-en_booktitle = "53rd IEEE Conference on Decision and Control"
+ja_booktitle = "Proceedings of the 53rd IEEE Conference on Decision and Control"
+en_booktitle = "Proceedings of the 53rd IEEE Conference on Decision and Control"
 type = "international_conference"
 page_begin = "6659"
 page_end = "6664"
@@ -4382,14 +4425,16 @@ en_title = "Generating Function Approach to Linear Quadratic Optimal Control Pro
 ja_title = "Generating Function Approach to Linear Quadratic Optimal Control Problem with Constraints on the State"
 en_author = "Dijian Chen, Kenji Fujimoto, Tatusya Suzuki"
 ja_author = "Dijian Chen, Kenji Fujimoto, Tatusya Suzuki"
+doi = "10.1109/CDC.2014.7040434"
 issn = "0743-1546"
 wos_id = "WOS:000370073806134"
+url = "https://ieeexplore.ieee.org/document/7040434"
 outside_kuaero = false
 
 [[record]]
 publication_date = "20140928"
-ja_booktitle = "2014 International Conference on Multisensor Fusion and Information Integration for Intelligent Systems (MFI)"
-en_booktitle = "2014 International Conference on Multisensor Fusion and Information Integration for Intelligent Systems (MFI)"
+ja_booktitle = "Proceedings of the 2014 International Conference on Multisensor Fusion and Information Integration for Intelligent Systems (MFI)"
+en_booktitle = "Proceedings of the 2014 International Conference on Multisensor Fusion and Information Integration for Intelligent Systems (MFI)"
 type = "international_conference"
 page_begin = "1"
 page_end = "6"
@@ -4401,7 +4446,9 @@ en_title = "Trajectory generation and control of a biped walking robot based on 
 ja_title = "Trajectory generation and control of a biped walking robot based on the double generating functions method"
 en_author = "Zhiwei Hao, Kotaro Asaba, Kenji Fujimoto, Yoshikazu Hayakawa, Akihiro Hasegawa, Qiuhua Zhang"
 ja_author = "Zhiwei Hao, Kotaro Asaba, Kenji Fujimoto, Yoshikazu Hayakawa, Akihiro Hasegawa, Qiuhua Zhang"
+doi = "10.1109/MFI.2014.6997707"
 wos_id = "WOS:000358878700081"
+url = "https://ieeexplore.ieee.org/document/6997707"
 outside_kuaero = false
 
 [[record]]
@@ -4421,9 +4468,11 @@ outside_kuaero = false
 
 [[record]]
 publication_date = "20140824"
-ja_booktitle = "Preprints of the 19th World Congress of the International Federation of Automatic Control"
-en_booktitle = "Preprints of the 19th World Congress of the International Federation of Automatic Control"
+ja_booktitle = "IFAC Proceedings Volumes; Part of special issue: 19th IFAC World Congress"
+en_booktitle = "IFAC Proceedings Volumes; Part of special issue: 19th IFAC World Congress"
 type = "international_conference"
+volume = "47"
+number = "3"
 page_begin = "6044"
 page_end = "6049"
 reviewed = true
@@ -4434,14 +4483,15 @@ en_title = "Discrete-Time Linear Quadratic Optimal Control with Fixed and Free T
 ja_title = "Discrete-Time Linear Quadratic Optimal Control with Fixed and Free Terminal State via Double Generating Functions"
 en_author = "Dijian Chen, Zhiwei Hao, Kenji Fujimoto, Tatsuya Suzuki"
 ja_author = "Dijian Chen, Zhiwei Hao, Kenji Fujimoto, Tatsuya Suzuki"
+doi = "10.3182/20140824-6-ZA-1003.00308"
 issn = "2405-8963"
 wos_id = "WOS:000391108000008"
 outside_kuaero = false
 
 [[record]]
 publication_date = "20140707"
-ja_booktitle = "Proceedings of the 21st International Symposium on Mathemarical Theory of Networks and Systems"
-en_booktitle = "Proceedings of the 21st International Symposium on Mathemarical Theory of Networks and Systems"
+ja_booktitle = "Proceedings of the 21st International Symposium on Mathemarical Theory of Networks and Systems (MTNS)"
+en_booktitle = "Proceedings of the 21st International Symposium on Mathemarical Theory of Networks and Systems (MTNS)"
 type = "international_conference"
 page_begin = "1498"
 page_end = "1502"
@@ -4919,6 +4969,8 @@ en_title = "Design of feedback Controllers Using Gaussian Process Regression"
 ja_title = "ガウス過程回帰を用いたフィードバック制御則の設計"
 en_author = "Yuji Ito, Kenji Fujimoto"
 ja_author = "伊藤 優司, 藤本 健治"
+doi = "10.11509/isciesci.62.10_417"
+url = "https://www.jstage.jst.go.jp/article/isciesci/62/10/62_417/_article/-char/ja/"
 outside_kuaero = false
 
 [[record]]
@@ -5466,6 +5518,7 @@ en_title = "SCI'14 ―The 58th Annual Conference of ISCIE"
 ja_title = "研究発表講演会SCI'14を開催して"
 en_author = "Kenji Fujimoto"
 ja_author = "藤本 健治"
+url = "https://www.jstage.jst.go.jp/article/isciesci/59/4/59_KJ00009904412/_pdf/-char/en"
 outside_kuaero = false
 
 [[record]]
