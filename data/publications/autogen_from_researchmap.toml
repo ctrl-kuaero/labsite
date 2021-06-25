@@ -1800,6 +1800,8 @@ en_title = "Feedback Motion Planning via Backward Integration"
 ja_title = "逆時間積分を用いたフィードバック行動計画"
 en_author = "Shuhei Nishida, Ichiro Maruta, Kenji Fujimoto"
 ja_author = "西田 周平, 丸田 一郎, 藤本 健治"
+doi = "10.11511/jacc.63.0_891"
+url = "https://www.jstage.jst.go.jp/article/jacc/63/0/63_891/_article/-char/ja/"
 outside_kuaero = false
 
 [[record]]
@@ -1832,6 +1834,8 @@ en_title = "On Maximization of Stability Probability by Constant Feedback Contro
 ja_title = "確率パラメータを含む線形システムの定数フィードバック制御による安定確率最大化"
 en_author = "Kousuke Kimura, Yuji Ito, Kenji Fujimoto, Ichiro Maruta"
 ja_author = "木村 洸介, 伊藤 優司, 藤本 健治, 丸田 一郎"
+doi = "10.11511/jacc.63.0_1"
+url = "https://www.jstage.jst.go.jp/article/jacc/63/0/63_1/_article/-char/ja/"
 outside_kuaero = false
 
 [[record]]
@@ -1845,6 +1849,7 @@ en_title = "Application of Passivity Based Sliding Mode Control for the Termial 
 ja_title = "受動性に基づくスライディングモード制御の 宇宙機の降下フェーズへの応用"
 en_author = "Naoki Sakata, Kenji Fujimoto, Ichiro Maruta"
 ja_author = "坂田 直樹, 藤本 健治, 丸田 一郎"
+url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202102264087905275"
 outside_kuaero = false
 
 [[record]]
@@ -1861,6 +1866,7 @@ en_title = "Controller Design for Nonlinear Flight Regimes with High-Accuracy Si
 ja_title = "非線形飛行領域における高精度シミュレータと深層強化学習を用いた制御器の設計"
 en_author = "Daiki Hirabayashi, Ichiro Maruta, Kenji Fujimoto"
 ja_author = "平林 大輝, 丸田 一郎, 藤本 健治"
+url = "https://ci.nii.ac.jp/naid/40022262837"
 outside_kuaero = false
 
 [[record]]
@@ -1877,6 +1883,7 @@ en_title = "Closed-loop System Identification for State-space Models by Stabiliz
 ja_title = "安定化出力誤差法を用いた状態空間モデルの閉ループシステム同定"
 en_author = "Taku Murakami, Ichiro Maruta, Kenji Fujimoto"
 ja_author = "村上 巧, 丸田 一郎, 藤本 健治"
+url = "https://ci.nii.ac.jp/naid/40022262848/"
 outside_kuaero = false
 
 [[record]]
@@ -1893,6 +1900,7 @@ en_title = "On Sliding Mode Control for Port-Hamiltonian Systems with Energy Sha
 ja_title = "エネルギー整形法を用いたポート・ハミルトン系におけるスライディングモード制御について"
 en_author = "Naoki Sakata, Kenji Fujimoto, Ichiro Maruta, Joel Ferguson"
 ja_author = "坂田 直樹, 藤本 健治, 丸田 一郎, Joel Ferguson"
+url = "https://ci.nii.ac.jp/naid/40022263250"
 outside_kuaero = false
 
 [[record]]
@@ -1908,6 +1916,7 @@ en_title = "Online estimation of Deviate Destance in Arc Welding Using UKF and g
 ja_title = "UKFとガウス過程回帰を用いたアーク溶接における狙いズレの逐次推定"
 en_author = "Keisuke Tanaka, Ichiro Maruta, Kenji Fujimoto, Y. Nishida:T. One, T. Fujii"
 ja_author = "田中 恵輔, 丸田 一郎, 藤本 健治, 西田 吉晴, 大根 努, 藤井 達也"
+url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002228413717294"
 outside_kuaero = false
 
 [[record]]
@@ -1923,6 +1932,7 @@ en_title = "Particle Filter Design Based on Reinforcement Learning and Its Appli
 ja_title = "強化学習による粒子フィルタの設計と自己位置推定への応用"
 en_author = "Ryota Yoshimura, Ichiro Maruta, Kenji Fujimoto, Ken Sato, Yusuke Kobayashi"
 ja_author = "吉村 僚太, 丸田 一郎, 藤本 健治, 佐藤 研, 小林 祐介"
+url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002268447690420"
 outside_kuaero = false
 
 [[record]]
@@ -1953,6 +1963,7 @@ en_title = "On Realization of Approximate Dynamic Programming with Gaussian Proc
 ja_title = "連続時間非線形システムに対するガウス過程を用いた近似動的計画法の実現とその収束性について"
 en_author = "Hirofumi Beppu, Ichiro Maruta, Kenji Fujimoto"
 ja_author = "別府 啓史, 丸田 一郎, 藤本 健治"
+url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002236425437216"
 outside_kuaero = false
 
 [[record]]
@@ -1968,6 +1979,7 @@ en_title = "Construction of a Database for Data-driven Optimal Control by RRT"
 ja_title = "RRTを用いたデータ駆動型最適制御におけるデータベースの構築"
 en_author = "Tomohiro Otsu, Ichiro Maruta, Kenji Fujimoto"
 ja_author = "大津 智宏, 丸田 一郎, 藤本 健治"
+url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002216061824259"
 outside_kuaero = false
 
 [[record]]
@@ -1998,6 +2010,7 @@ en_title = "On passivity-based lag compensation for nonlinear mechanical systems
 ja_title = "非線形機械システムに対する受動性に基づいた位相遅れ補償について"
 en_author = "Kiyoshi Hamada, Pablo Borja, Jacquelien M.A. Scherpen, Kenji Fujimoto, Ichiro Maruta"
 ja_author = "濱田 聖司, Pablo Borja, Jacquelien M.A. Scherpen, 藤本 健治, 丸田 一郎"
+url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002296435887611"
 outside_kuaero = false
 
 [[record]]
@@ -2013,6 +2026,7 @@ en_title = "On Path Follwing Control of Nonholonomic Port-Hamiltonian Systems by
 ja_title = "経路の束の設計による非ホロノミックなポートハミルトン系の経路追従制御について"
 en_author = "Ryoyaro Shima, Kenji Fujimoto, Ichiro Maruta"
 ja_author = "島 遼太朗, 藤本 健治, 丸田 一郎"
+url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002268842077934"
 outside_kuaero = false
 
 [[record]]
@@ -2028,6 +2042,7 @@ en_title = "On Output Consensus Control for Nonlinear Multi-Agent Systems with U
 ja_title = "非線形マルチエージェントシステムにおける時変で未知の通信遅れの下での出力合意制御について"
 en_author = "Hiroki Nakagawa, Kenji Fujimoto, Ichiro Maruta"
 ja_author = "中川 弘喜, 藤本 健治, 丸田 一郎"
+url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002262370024523"
 outside_kuaero = false
 
 [[record]]
@@ -2103,6 +2118,7 @@ en_title = "On Rendezvous Trajectory Design of Earth Orbiting Satellites in Elli
 ja_title = "パラメータ変動に対してロバストな楕円軌道上地球周回衛星へのランデブー軌道設計について"
 en_author = "Tasuku Kodama, Kenji Fujimoto, Ichiro Maruta"
 ja_author = "児玉 匡, 藤本 健治, 丸田 一郎"
+url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201902214591044817"
 outside_kuaero = false
 
 [[record]]
@@ -2175,6 +2191,7 @@ en_title = "On Essentially Global Stabilization of Spin-stabilized Spacecraft Us
 ja_title = "単一のリアクションホイールを用いたスピン安定型宇宙機の漸近安定化について"
 en_author = "Hiroaki Hashimoto, Kenji Fujimoto, Ichiro Maruta"
 ja_author = "橋本 宙明, 藤本 健治, 丸田 一郎"
+url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201902284569385498"
 outside_kuaero = false
 
 [[record]]
@@ -2190,6 +2207,7 @@ en_title = "On a method for generating easily trackable trajectory"
 ja_title = "追従し易さを考慮した軌道生成手法について"
 en_author = "Kiyoshi Hamada, Ichiro Maruta, Kenji Fujimoto, Kenniti Hamamoto"
 ja_author = "濱田 聖司, 丸田 一郎, 藤本 健治, 浜本 研一"
+url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201902225992796637"
 outside_kuaero = false
 
 [[record]]
@@ -2205,6 +2223,7 @@ en_title = "Optimization of Maps for Autonomous Vehicles Based on Reinforcement 
 ja_title = "強化学習に基づく自律移動機械用地図の最適化"
 en_author = "Ryota Yoshimura, Ichiro Maruta, Kenji Fujimoto, Ken Sato, Yusuke Kobayashi"
 ja_author = "吉村 僚太, 丸田 一郎, 藤本 健治, 佐藤 研, 小林 祐介"
+url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201902241359678141"
 outside_kuaero = false
 
 [[record]]
@@ -2235,6 +2254,7 @@ en_title = "Solutions to Hamilton-Jacobi Inequalities Using Gaussian Pocess Regr
 ja_title = "サポートベクターマシンによるデータ選択に基づくガウス過程回帰を用いたHamilton-Jacobi不等式の解法"
 en_author = "Hirofumi Beppu, Ichiro Maruta, Kenji Fujimoto"
 ja_author = "別府 啓史, 丸田 一郎, 藤本 健治"
+url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201902226975359131"
 outside_kuaero = false
 
 [[record]]
@@ -4843,6 +4863,7 @@ en_title = "Online Estimation of Deviate Distance in Arc Welding Using UKF and G
 ja_title = "UKFとガウス過程回帰を用いたアーク溶接における狙いズレの逐次推定"
 en_author = "Keisuke Tanaka, Ichiro Maruta, Kenji Fujimoto, Yoshiharu Nishida, Tsutomu One, Tatsuya Fujii"
 ja_author = "田中 恵輔, 丸田 一郎, 藤本 健治, 西田 吉晴, 大根 努, 藤井 達也"
+url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002228413717294"
 outside_kuaero = false
 
 [[record]]
@@ -4858,6 +4879,7 @@ en_title = "On Virtual Holonomic Constraints Control for port-Hamiltonian System
 ja_title = "仮想ホロノーム拘束によるポートハミルトン系の制御について"
 en_author = "Yuki Okura, Kenji Fujimoto, C. Kojima"
 ja_author = "大倉 裕貴, 藤本 健治, 小島 千昭"
+url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002282629086704"
 outside_kuaero = false
 
 [[record]]
@@ -4873,6 +4895,7 @@ en_title = "Control of a apping-wing robot and its ight demonstration"
 ja_title = "羽ばたき飛翔ロボットの制御とフライト実証実験"
 en_author = "T. Jimbo, T. Ozaki, Y. Amano, Kenji Fujimoto"
 ja_author = "神保 智彦, 尾崎 貴志, 天野 也寸志, 藤本 健治"
+url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002236404405272"
 outside_kuaero = false
 
 [[record]]
@@ -4888,6 +4911,7 @@ en_title = "On Path Following Control of Nonholonomic Port-Hamiltonian Systems b
 ja_title = "経路の束の設計による非ホロノミックなポートハミルトン系の経路追従制御について"
 en_author = "Ryotaro Shima, Kenji Fujimoto, Ichiro Maruta"
 ja_author = "島 遼太朗, 藤本 健治, 丸田 一郎"
+url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002268842077934"
 outside_kuaero = false
 
 [[record]]
@@ -4974,7 +4998,7 @@ url = "https://www.jstage.jst.go.jp/article/isciesci/62/10/62_417/_article/-char
 outside_kuaero = false
 
 [[record]]
-ja_booktitle = "第６２回システム制御情報学会研究発表講演会講演論文集"
+ja_booktitle = "第62回システム制御情報学会研究発表講演会講演論文集"
 en_booktitle = "Proceedings of the 62th Annual Conference of the Institute of Systems, Control and Information Engineers"
 publication_date = "20180516"
 type = "domestic_conference"
@@ -5438,6 +5462,7 @@ en_title = "Stabilization of spacecrafts represented by port-Hamiltonian sysems 
 ja_title = "ポート・ハミルトン系で表された宇宙機の偏差クォータニオンフィードバック安定化"
 en_author = "Yuki Matsumoto, Kenji Fujimoto"
 ja_author = "松本 祐樹, 藤本 健治"
+url = "https://ci.nii.ac.jp/naid/40020472905"
 outside_kuaero = false
 
 [[record]]
@@ -5630,6 +5655,7 @@ en_title = "A pew Framework of Robust LQ Optimal Control for Parameter Variation
 ja_title = "パラメータ変動に対してロバストなLQ最適制御の枠組みと母関数法への適用"
 en_author = "Yuki Okura, Kenji Fujimoto"
 ja_author = "大倉 裕貴, 藤本 健治"
+url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201502284657044757&rel=1"
 outside_kuaero = false
 
 [[record]]
@@ -5819,6 +5845,7 @@ en_title = "Nonlinear Control of Hamiltonian Systems with Quarternions"
 ja_title = "クォータニオン表記されたハミルトン系の非線形制御について"
 en_author = "Tomoya Takeuchi, Kenji Fujimoto"
 ja_author = "竹内 智哉, 藤本 健治"
+url = "https://ci.nii.ac.jp/naid/40020217634/"
 outside_kuaero = false
 
 [[record]]
@@ -5834,6 +5861,7 @@ en_title = "Singularity Avoidance of Control Moment Gyros Using LgV Controllers"
 ja_title = "LgV 制御器を用いたコントロール・モーメント・ジャイロの特異点回避"
 en_author = "Shotaro Wada, Kenji Fujimoto"
 ja_author = "和田 章太郎, 藤本 健治"
+url = "https://ci.nii.ac.jp/naid/40020217460"
 outside_kuaero = false
 
 [[record]]
