@@ -1818,6 +1818,8 @@ en_title = "Recursive identification of time-varying system of internal impedanc
 ja_title = "ベクトル型忘却要素を用いた時変インピーダンスの逐次推定"
 en_author = "T. Ohyama, Shuichi Adachi, Ichiro Maruta, Jumpei Katashiba, Kensuke Osamura"
 ja_author = "大山 隆景, 足立 修一, 丸田 一郎, 片芝 淳平, 長村 謙介"
+doi = "10.11511/jacc.63.0_351"
+url = "https://www.jstage.jst.go.jp/article/jacc/63/0/63_351/_article/-char/ja/"
 outside_kuaero = false
 
 [[record]]
@@ -1995,6 +1997,7 @@ en_title = "Trend and implementation of System Identification based on Gradient 
 ja_title = "勾配法にもとづくシステム同定の実装と動向"
 en_author = "Ichiro Maruta, M. Watanabe, Kenji Kashima"
 ja_author = "丸田 一郎, 渡部 萌恵, 加嶋 健司"
+url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002214089232339"
 outside_kuaero = false
 
 [[record]]
@@ -2239,6 +2242,7 @@ en_title = "System Identification of Rechargeable Batteries in Vehicles Using μ
 ja_title = "μ-マルコフモデルを用いた自動車用二次電池のシステム同定"
 en_author = "Risako Sasaki, Takahiro Kawaguchi, Ichiro Maruta, Shuichi Adachi, Jumpei Katashiba, Kensuke Osamura"
 ja_author = "佐々木 理沙子, 川口 貴弘, 丸田 一郎, 足立 修一, 片芝 惇平, 長村 謙介"
+url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201902284346695520"
 outside_kuaero = false
 
 [[record]]
@@ -3880,6 +3884,7 @@ en_title = "On Output Feedback Controller Design forGaussian Process State Space
 ja_title = "On Output Feedback Controller Design forGaussian Process State Space Models"
 en_author = "Yuji Takaki, Kenji Fujimoto"
 ja_author = "Yuji Takaki, Kenji Fujimoto"
+doi = "10.1109/CDC.2017.8264196"
 outside_kuaero = false
 
 [[record]]
@@ -4435,6 +4440,27 @@ publication_date = "20141215"
 ja_booktitle = "Proceedings of the 53rd IEEE Conference on Decision and Control"
 en_booktitle = "Proceedings of the 53rd IEEE Conference on Decision and Control"
 type = "international_conference"
+page_begin = "4820"
+page_end = "4825"
+reviewed = true
+invited = false
+en_publisher = "Institute of Electrical and Electronics Engineers Inc."
+ja_publisher = "Institute of Electrical and Electronics Engineers Inc."
+en_title = "On trajectory tracking control of port-Hamiltonian systems with quaternions"
+ja_title = "On trajectory tracking control of port-Hamiltonian systems with quaternions"
+en_author = "Kenji Fujimoto, Taishi Nishiyama"
+ja_author = "Kenji Fujimoto, Taishi Nishiyama"
+doi = "10.1109/CDC.2014.7040141"
+issn = "0743-1546"
+scopus_id = "84988043487"
+url = "https://ieeexplore.ieee.org/document/7040141"
+outside_kuaero = false
+
+[[record]]
+publication_date = "20141215"
+ja_booktitle = "Proceedings of the 53rd IEEE Conference on Decision and Control"
+en_booktitle = "Proceedings of the 53rd IEEE Conference on Decision and Control"
+type = "international_conference"
 page_begin = "6659"
 page_end = "6664"
 reviewed = true
@@ -4545,27 +4571,6 @@ e_issn = "1884-9970"
 outside_kuaero = false
 
 [[record]]
-publication_date = "20140000"
-en_booktitle = "Proceedings of the IEEE Conference on Decision and Control"
-type = "international_conference"
-volume = "2015-"
-number = "February"
-page_begin = "4820"
-page_end = "4825"
-reviewed = true
-invited = false
-en_publisher = "Institute of Electrical and Electronics Engineers Inc."
-ja_publisher = "Institute of Electrical and Electronics Engineers Inc."
-en_title = "On trajectory tracking control of port-Hamiltonian systems with quaternions"
-ja_title = "On trajectory tracking control of port-Hamiltonian systems with quaternions"
-en_author = "Kenji Fujimoto, Taishi Nishiyama"
-ja_author = "Kenji Fujimoto, Taishi Nishiyama"
-doi = "10.1109/CDC.2014.7040141"
-issn = "0743-1546"
-scopus_id = "84988043487"
-outside_kuaero = false
-
-[[record]]
 publication_date = "20131210"
 ja_booktitle = "Proceedings of the 52nd IEEE Conference on Decision and Control"
 en_booktitle = "Proceedings of the 52nd IEEE Conference on Decision and Control"
@@ -4660,26 +4665,6 @@ en_title = "Discrete-time Linear Quadratic Optimal Control via Forward Generatin
 ja_title = "Discrete-time Linear Quadratic Optimal Control via Forward Generating Functions"
 en_author = "Dijian Chen, Zhiwei Hao, Kenji Fujimoto, Tatsuya Suzuki"
 ja_author = "Dijian Chen, Zhiwei Hao, Kenji Fujimoto, Tatsuya Suzuki"
-outside_kuaero = false
-
-[[record]]
-publication_date = "20130800"
-en_booktitle = "Robotica"
-type = "journal"
-volume = "31"
-number = "5"
-page_begin = "717"
-page_end = "732"
-reviewed = true
-invited = false
-en_title = "Gait generation via unified learning optimal control of Hamiltonian systems"
-ja_title = "Gait generation via unified learning optimal control of Hamiltonian systems"
-en_author = "Satoshi Satoh, Kenji Fujimoto, Sang-Ho Hyon"
-ja_author = "Satoshi Satoh, Kenji Fujimoto, Sang-Ho Hyon"
-doi = "10.1017/S0263574712000756"
-issn = "0263-5747"
-scopus_id = "84880665465"
-url = "http://repository.kulib.kyoto-u.ac.jp/dspace/handle/2433/194118"
 outside_kuaero = false
 
 [[record]]
@@ -4779,6 +4764,26 @@ e_issn = "1558-2523"
 issn = "0018-9286"
 wos_id = "WOS:000318542200004"
 url = "http://xplorestaging.ieee.org/ielx5/9/6504746/06361273.pdf?arnumber=6361273"
+outside_kuaero = false
+
+[[record]]
+publication_date = "20130123"
+en_booktitle = "Robotica"
+type = "journal"
+volume = "31"
+number = "5"
+page_begin = "717"
+page_end = "732"
+reviewed = true
+invited = false
+en_title = "Gait generation via unified learning optimal control of Hamiltonian systems"
+ja_title = "Gait generation via unified learning optimal control of Hamiltonian systems"
+en_author = "Satoshi Satoh, Kenji Fujimoto, Sang-Ho Hyon"
+ja_author = "Satoshi Satoh, Kenji Fujimoto, Sang-Ho Hyon"
+doi = "10.1017/S0263574712000756"
+issn = "0263-5747"
+scopus_id = "84880665465"
+url = "http://repository.kulib.kyoto-u.ac.jp/dspace/handle/2433/194118"
 outside_kuaero = false
 
 [[record]]
@@ -5692,6 +5697,7 @@ en_title = "On symmetric nonlinear systems"
 ja_title = "対称な非線形系について"
 en_author = "Kenji Fujimoto, Tudor Ionescu, Jacquelien M.A. Scherpen"
 ja_author = "Kenji Fujimoto, Tudor Ionescu, Jacquelien M.A. Scherpen"
+url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201602287285070027"
 outside_kuaero = false
 
 [[record]]
