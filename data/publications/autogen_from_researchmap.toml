@@ -15,6 +15,25 @@ url = "https://search.ieice.org/iss/"
 outside_kuaero = false
 
 [[record]]
+publication_date = "20210318"
+ja_booktitle = "SICE Journal of Control, Measurement, and System Integration"
+en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
+type = "journal"
+volume = "14"
+number = "2"
+page_begin = "80"
+page_end = "89"
+en_publisher = "Taylor & Francis Online"
+ja_publisher = "Taylor & Francis Online"
+en_title = "Locally deforming continuation method based on a shooting method for a class of optimal control problems"
+ja_title = "Locally deforming continuation method based on a shooting method for a class of optimal control problems"
+en_author = "Kiyoshi Hamada, Ichiro Maruta, Kenji Fujimoto, Kenniti Hamamoto"
+ja_author = "Kiyoshi Hamada, Ichiro Maruta, Kenji Fujimoto, Kenniti Hamamoto"
+doi = "10.1080/18824889.2021.1893936"
+url = "https://www.tandfonline.com/doi/full/10.1080/18824889.2021.1893936"
+outside_kuaero = false
+
+[[record]]
 publication_date = "20210301"
 ja_booktitle = "Proceedings of the SICE International Symposium on Control Systems 2021 (SICE ISCS)"
 en_booktitle = "Proceedings of the SICE International Symposium on Control Systems 2021 (SICE ISCS)"
@@ -4831,28 +4850,6 @@ issn = "0743-1546"
 scopus_id = "84874252401"
 wos_id = "WOS:000327200404028"
 url = "https://ieeexplore.ieee.org/document/6426763"
-outside_kuaero = false
-
-[[record]]
-publication_date = "20121200"
-en_booktitle = "Automatica"
-type = "journal"
-volume = "48"
-number = "12"
-page_begin = "3054"
-page_end = "3063"
-reviewed = true
-invited = false
-en_publisher = "Elsevier BV"
-ja_publisher = "Elsevier BV"
-en_title = "Passivity based control of a class of Hamiltonian systems with nonholonomic constraints"
-ja_title = "Passivity based control of a class of Hamiltonian systems with nonholonomic constraints"
-en_author = "Kenji Fujimoto, Satoru Sakai, Toshiharu Sugie"
-ja_author = "Kenji Fujimoto, Satoru Sakai, Toshiharu Sugie"
-doi = "10.1016/j.automatica.2012.08.032"
-e_issn = "1873-2836"
-issn = "0005-1098"
-wos_id = "WOS:000312286800006"
 outside_kuaero = false
 
 [[record]]
