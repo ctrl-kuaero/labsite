@@ -1,4 +1,23 @@
 [[record]]
+publication_date = "20210714"
+ja_booktitle = "SICE Journal of Control, Measurement, and System Integration"
+en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
+type = "journal"
+volume = "14"
+number = "1"
+page_begin = "140"
+page_end = "149"
+reviewed = true
+invited = false
+en_title = "Value iteration with deep neural networks for optimal control of input-affine nonlinear systems"
+ja_title = "Value iteration with deep neural networks for optimal control of input-affine nonlinear systems"
+en_author = "Hirofumi Beppu, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "Hirofumi Beppu, Ichiro Maruta, Kenji Fujimoto"
+doi = "10.1080/18824889.2021.1936817"
+url = "https://www.tandfonline.com/doi/full/10.1080/18824889.2021.1936817"
+outside_kuaero = false
+
+[[record]]
 publication_date = "20210601"
 ja_booktitle = "IEICE TRANSACTIONS on Information and Systems"
 en_booktitle = "IEICE TRANSACTIONS on Information and Systems"
@@ -4828,28 +4847,6 @@ issn = "0021-1575"
 e_issn = "1883-2954"
 cinii_na_id = "40019553280"
 url = "https://www.jstage.jst.go.jp/article/tetsutohagane/99/1/99_12/_pdf"
-outside_kuaero = false
-
-[[record]]
-publication_date = "20121210"
-ja_booktitle = "Proceedings of the 51st IEEE Conference on Decision and Control"
-en_booktitle = "Proceedings of the 51st IEEE Conference on Decision and Control"
-type = "international_conference"
-page_begin = "3827"
-page_end = "3832"
-reviewed = true
-invited = false
-en_publisher = "IEEE"
-ja_publisher = "IEEE"
-en_title = "Optimal Trajectory Generation for Linear Systems Based on Double Generating Functions"
-ja_title = "Optimal Trajectory Generation for Linear Systems Based on Double Generating Functions"
-en_author = "Zhiwei Hao, Kenji Fujimoto, Yoshikazu Hayakawa"
-ja_author = "Zhiwei Hao, Kenji Fujimoto, Yoshikazu Hayakawa"
-doi = "10.1109/CDC.2012.6426763"
-issn = "0743-1546"
-scopus_id = "84874252401"
-wos_id = "WOS:000327200404028"
-url = "https://ieeexplore.ieee.org/document/6426763"
 outside_kuaero = false
 
 [[record]]
