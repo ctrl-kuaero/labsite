@@ -3318,6 +3318,8 @@ en_title = "On Optimal Control with Polynomial Cost Functions for Linear Systems
 ja_title = "On Optimal Control with Polynomial Cost Functions for Linear Systems with Time-Invariant Stochastic Parameters"
 en_author = "Yuji Ito, Kenji Fujimoto"
 ja_author = "Yuji Ito, Kenji Fujimoto"
+doi = "10.23919/ACC50511.2021.9483066"
+url = "https://ieeexplore.ieee.org/document/9483066"
 outside_kuaero = false
 
 [[record]]
