@@ -1,4 +1,19 @@
 [[record]]
+publication_date = "20210908"
+ja_booktitle = "Proceedings of the SICE Annual Conference 2021"
+en_booktitle = "Proceedings of the SICE Annual Conference 2021"
+type = "international_conference"
+page_begin = "596"
+page_end = "602"
+reviewed = true
+invited = false
+en_title = "Adversarial Reinforcement Learning Based Robustification of Highlighted Map for Mobile Robot Localization"
+ja_title = "Adversarial Reinforcement Learning Based Robustification of Highlighted Map for Mobile Robot Localization"
+en_author = "Ryota Yoshimura, Ichiro Maruta, Kenji Fujimoto, Ken Sato, Yusuke Kobayashi"
+ja_author = "Ryota Yoshimura, Ichiro Maruta, Kenji Fujimoto, Ken Sato, Yusuke Kobayashi"
+outside_kuaero = false
+
+[[record]]
 publication_date = "20210714"
 ja_booktitle = "SICE Journal of Control, Measurement, and System Integration"
 en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
@@ -4829,31 +4844,6 @@ doi = "10.1017/S0263574712000756"
 issn = "0263-5747"
 scopus_id = "84880665465"
 url = "http://repository.kulib.kyoto-u.ac.jp/dspace/handle/2433/194118"
-outside_kuaero = false
-
-[[record]]
-publication_date = "20130101"
-ja_booktitle = "鉄と鋼"
-en_booktitle = "Tetsu-to-Hagane"
-type = "journal"
-lang = "ja"
-volume = "99"
-number = "1"
-page_begin = "12"
-page_end = "19"
-reviewed = true
-invited = false
-en_publisher = "Iron and Steel Institute of Japan"
-ja_publisher = "Iron and Steel Institute of Japan"
-en_title = "Variance Suppression for Gauge Control via Time-varying Stochastic Optimal Control"
-ja_title = "時変の確率最適制御を用いた板厚制御におけるばらつき抑制"
-en_author = "Kenji Fujimoto, Toshiaki Watanabe, Yoshihiro Hashimoto, Yoshiharu Nishida"
-ja_author = "藤本 健治, 渡邉 敏章, 橋本 芳宏, 西田 吉晴"
-doi = "10.2355/tetsutohagane.99.12"
-issn = "0021-1575"
-e_issn = "1883-2954"
-cinii_na_id = "40019553280"
-url = "https://www.jstage.jst.go.jp/article/tetsutohagane/99/1/99_12/_pdf"
 outside_kuaero = false
 
 [[record]]
