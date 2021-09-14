@@ -1691,6 +1691,7 @@ en_title = "Sliding Mode Control for a Class of Electromechanical Systems with E
 ja_title = "エネルギー整形法を用いたあるクラスの電気機械系のスライディングモード制御"
 en_author = "Takahiro Baba, Naoki Sakata, Kenji Fujimoto, Ichiro Maruta"
 ja_author = "馬場 貴大, 坂田 直樹, 藤本 健治, 丸田 一郎"
+url = "https://ci.nii.ac.jp/naid/40022586507"
 outside_kuaero = false
 
 [[record]]
@@ -1707,6 +1708,7 @@ en_title = "Identification of Nonlinear Systems Based on State Estimation Using 
 ja_title = "深層学習による次元圧縮を用いた状態推定に基づく非線形システムの同定"
 en_author = "Keito Yamada, Ichiro Maruta, Kenji Fujimoto"
 ja_author = "山田 佳士, 丸田 一郎, 藤本 健治"
+url = "https://ci.nii.ac.jp/naid/40022585262"
 outside_kuaero = false
 
 [[record]]
@@ -1723,6 +1725,7 @@ en_title = "On sparse trajectory planning via Newton’s method for under-determ
 ja_title = "劣決定系のためのニュートン法を用いたスパース軌道計画について"
 en_author = "Yuto Kanai, Tasuku Kodama, Kiyoshi Hamada, Kenji Fujimoto, Ichiro Maruta"
 ja_author = "金井 佑人, 児玉 匡, 濱田 聖司, 藤本 健治, 丸田 一郎"
+url = "https://ci.nii.ac.jp/naid/40022585185"
 outside_kuaero = false
 
 [[record]]
@@ -1739,6 +1742,7 @@ en_title = "Time invariant Riccati equation characterization of periodic time-va
 ja_title = "周期時変フィルタの時不変リッカチ方程式による特徴づけ"
 en_author = "Hibiki Asakura, Kenji Fujimoto, Ichiro Maruta"
 ja_author = "朝倉 響, 藤本 健治, 丸田 一郎"
+url = "https://ci.nii.ac.jp/naid/40022585179/"
 outside_kuaero = false
 
 [[record]]
@@ -1755,6 +1759,7 @@ en_title = "Construction of Trajectory Database for Optimal Control Based on Uni
 ja_title = "最適制御のための等コスト面上でのデータ点分布の一様化に基づく軌道データベースの構築"
 en_author = "Takumi Wada, Ichiro Maruta, Kenji Fujimoto"
 ja_author = "和田 拓巳, 丸田 一郎, 藤本 健治"
+url = "https://ci.nii.ac.jp/naid/40022585147"
 outside_kuaero = false
 
 [[record]]
@@ -2008,6 +2013,7 @@ en_title = "State of Health Estimation of Rechargeable Batteries Using Stabilize
 ja_title = "安定化予測誤差法を用いた二次電池の健全度推定"
 en_author = "Risako Sasaki, Ichiro Maruta, Shuichi Adachi, Junpei Katashiba, Kensuke Osamura"
 ja_author = "佐々木 理沙子, 丸田 一郎, 足立 修一, 片芝 惇平, 長村 謙介"
+url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002274182528636"
 outside_kuaero = false
 
 [[record]]
