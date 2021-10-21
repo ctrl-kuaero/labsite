@@ -9,6 +9,8 @@ other = "書籍"
 other = "論文集（書籍）内論文"
 [publication_type_international_conference]
 other = "国際会議"
+[publication_type_papers_symposium]
+other = "研究論文（研究会，シンポジウム資料等）"
 [publication_type_domestic_conference]
 other = "国内会議"
 [publication_type_others]

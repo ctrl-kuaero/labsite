@@ -103,6 +103,8 @@ for i in items.values():
                 record['type'] = 'international_conference'
             elif i.get('published_paper_type') == 'summary_international_conference':
                 record['type'] = 'summary_international_conference'
+            elif i.get('published_paper_type') == 'symposium':
+                record['type'] = 'papers_symposium'
             elif i.get('published_paper_type') == 'in_book':
                 record['type'] = 'in_book'
             else:

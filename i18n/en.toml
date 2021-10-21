@@ -9,6 +9,8 @@ other = "Book"
 other = "Part of collection (book)"
 [publication_type_international_conference]
 other = "International Confenrence"
+[publication_type_papers_symposium]
+other = "Research paper (conference, symposium, etc.)"
 [publication_type_domestic_conference]
 other = "Domestic Conference"
 [publication_type_others]

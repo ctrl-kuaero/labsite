@@ -1,4 +1,64 @@
 [[record]]
+publication_date = "20211011"
+ja_booktitle = "Preprints of the 7th IFAC Workshop on Lagrangian and Hamiltonian Methods for Nonlinear Control (LHMNC21)"
+en_booktitle = "Preprints of the 7th IFAC Workshop on Lagrangian and Hamiltonian Methods for Nonlinear Control (LHMNC21)"
+type = "papers_symposium"
+page_begin = "38"
+page_end = "43"
+reviewed = true
+invited = false
+en_title = "On trajectory tracking control of simple port-Hamiltonian systems based on passivity based sliding mode control"
+ja_title = "On trajectory tracking control of simple port-Hamiltonian systems based on passivity based sliding mode control"
+en_author = "Naoki Sakata, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "Naoki Sakata, Kenji Fujimoto, Ichiro Maruta"
+outside_kuaero = false
+
+[[record]]
+publication_date = "20210915"
+ja_booktitle = "Preprints of the Third IFAC Conference on Modelling, Identification and Control of Nonlinear Systems"
+en_booktitle = "Preprints of the Third IFAC Conference on Modelling, Identification and Control of Nonlinear Systems"
+type = "papers_symposium"
+page_begin = "306"
+page_end = "311"
+reviewed = true
+invited = false
+en_title = "On Passivity-Based High-Order Compensators for Mechanical Port-Hamiltonian Systems Without Velocity Measurements"
+ja_title = "On Passivity-Based High-Order Compensators for Mechanical Port-Hamiltonian Systems Without Velocity Measurements"
+en_author = "Kiyoshi Hamada, Pablo Borja, Kenji Fujimoto, Ichiro Maruta, Jacquelien M. A. Scherpen"
+ja_author = "Kiyoshi Hamada, Pablo Borja, Kenji Fujimoto, Ichiro Maruta, Jacquelien M. A. Scherpen"
+outside_kuaero = false
+
+[[record]]
+publication_date = "20210915"
+ja_booktitle = "Preprints of the Third IFAC Conference on Modelling, Identification and Control of Nonlinear Systems"
+en_booktitle = "Preprints of the Third IFAC Conference on Modelling, Identification and Control of Nonlinear Systems"
+type = "papers_symposium"
+page_begin = "53"
+page_end = "58"
+reviewed = true
+invited = false
+en_title = "Globally Optimal Control of Nonlinear Input-Affine Systems Under Quadratic Objective Functions Based on Trajectory Database"
+ja_title = "Globally Optimal Control of Nonlinear Input-Affine Systems Under Quadratic Objective Functions Based on Trajectory Database"
+en_author = "Tomohiro Otsu, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "Tomohiro Otsu, Ichiro Maruta, Kenji Fujimoto"
+outside_kuaero = false
+
+[[record]]
+publication_date = "20210915"
+ja_booktitle = "Preprints of the Third IFAC Conference on Modelling, Identification and Control of Nonlinear Systems"
+en_booktitle = "Preprints of the Third IFAC Conference on Modelling, Identification and Control of Nonlinear Systems"
+type = "papers_symposium"
+page_begin = "41"
+page_end = "46"
+reviewed = true
+invited = false
+en_title = "Simultaneous Identification of Nonlinear Dynamics and State Distribution using Jensen-Shannon Divergence"
+ja_title = "Simultaneous Identification of Nonlinear Dynamics and State Distribution using Jensen-Shannon Divergence"
+en_author = "Kenji Kashima, Moe Watanabe, Ichiro Maruta"
+ja_author = "Kenji Kashima, Moe Watanabe, Ichiro Maruta"
+outside_kuaero = false
+
+[[record]]
 publication_date = "20210908"
 ja_booktitle = "Proceedings of the SICE Annual Conference 2021"
 en_booktitle = "Proceedings of the SICE Annual Conference 2021"
@@ -314,20 +374,6 @@ en_author = "Ryotaro Shima, Yuki Okura, Kenji Fujimoto, Ichiro Maruta"
 ja_author = "Ryotaro Shima, Yuki Okura, Kenji Fujimoto, Ichiro Maruta"
 doi = "10.1016/j.ifacol.2019.11.795"
 issn = "2405-8963"
-outside_kuaero = false
-
-[[record]]
-publication_date = "20190618"
-ja_booktitle = "Proceedings of the 32nd International Symposium on Space Technology and Science (ISTS)"
-en_booktitle = "Proceedings of the 32nd International Symposium on Space Technology and Science (ISTS)"
-type = "international_conference"
-page_begin = "2019-d-002"
-reviewed = true
-invited = false
-en_title = "On Rendezvous Trajectory Design of Earth Orbiting Satellites with Robust L1-Optimal Control for Parameter Variations"
-ja_title = "On Rendezvous Trajectory Design of Earth Orbiting Satellites with Robust L1-Optimal Control for Parameter Variations"
-en_author = "Tasuku Kodama, Kenji Fujimoto, Ichiro Maruta"
-ja_author = "Tasuku Kodama, Kenji Fujimoto, Ichiro Maruta"
 outside_kuaero = false
 
 [[record]]
@@ -3504,6 +3550,28 @@ url = "https://www.sciencedirect.com/science/article/pii/S240589632030255X"
 outside_kuaero = false
 
 [[record]]
+publication_date = "20200626"
+ja_booktitle = "IEEE Control Systems Letters"
+en_booktitle = "IEEE Control Systems Letters"
+type = "journal"
+volume = "5"
+number = "3"
+page_begin = "839"
+page_end = "844"
+reviewed = true
+invited = false
+en_publisher = "Institute of Electrical and Electronics Engineers (IEEE)"
+ja_publisher = "Institute of Electrical and Electronics Engineers (IEEE)"
+en_title = "A Passivity Based Sliding Mode Controller for Simple Port-Hamiltonian Systems"
+ja_title = "A Passivity Based Sliding Mode Controller for Simple Port-Hamiltonian Systems"
+en_author = "Kenji Fujimoto, Naoki Sakata, Ichiro Maruta, Joel Ferguson"
+ja_author = "Kenji Fujimoto, Naoki Sakata, Ichiro Maruta, Joel Ferguson"
+doi = "10.1109/LCSYS.2020.3005327"
+e_issn = "2475-1456"
+url = "https://ieeexplore.ieee.org/document/9126872"
+outside_kuaero = false
+
+[[record]]
 publication_date = "20200400"
 ja_booktitle = "JOURNAL OF SYSTEMS SCIENCE & COMPLEXITY"
 en_booktitle = "JOURNAL OF SYSTEMS SCIENCE & COMPLEXITY"
@@ -3610,6 +3678,20 @@ en_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro"
 ja_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro"
 doi = "10.23919/acc.2019.8815020"
 url = "http://xplorestaging.ieee.org/ielx7/8789884/8814292/08815020.pdf?arnumber=8815020"
+outside_kuaero = false
+
+[[record]]
+publication_date = "20190618"
+ja_booktitle = "Proceedings of the 32nd International Symposium on Space Technology and Science (ISTS)"
+en_booktitle = "Proceedings of the 32nd International Symposium on Space Technology and Science (ISTS)"
+type = "international_conference"
+page_begin = "2019-d-002"
+reviewed = true
+invited = false
+en_title = "On Rendezvous Trajectory Design of Earth Orbiting Satellites with Robust L1-Optimal Control for Parameter Variations"
+ja_title = "On Rendezvous Trajectory Design of Earth Orbiting Satellites with Robust L1-Optimal Control for Parameter Variations"
+en_author = "Tasuku Kodama, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "Tasuku Kodama, Kenji Fujimoto, Ichiro Maruta"
 outside_kuaero = false
 
 [[record]]
@@ -4788,68 +4870,6 @@ en_author = "Zhiwei Hao, Kenji Fujimoto, Yoshikazu Hayakawa"
 ja_author = "Zhiwei Hao, Kenji Fujimoto, Yoshikazu Hayakawa"
 doi = "10.1109/ACC.2013.6580839"
 url = "https://ieeexplore.ieee.org/document/6580839"
-outside_kuaero = false
-
-[[record]]
-publication_date = "20130531"
-ja_booktitle = "SICE Journal of Control, Measurement and System Integration"
-en_booktitle = "SICE Journal of Control, Measurement and System Integration"
-type = "journal"
-volume = "6"
-number = "3"
-page_begin = "194"
-page_end = "201"
-reviewed = true
-invited = false
-en_title = "Optimal Trajectory Generation for Linear Systems Based on Double Generating Functions"
-ja_title = "Optimal Trajectory Generation for Linear Systems Based on Double Generating Functions"
-en_author = "Zhiwei Hao, Kenji Fujimoto, Yoshikazu Hayakawa"
-ja_author = "Zhiwei Hao, Kenji Fujimoto, Yoshikazu Hayakawa"
-doi = "10.9746/jcmsi.6.194"
-issn = "1882-4889"
-outside_kuaero = false
-
-[[record]]
-publication_date = "20130500"
-en_booktitle = "IEEE Transactions on Automatic Control"
-type = "journal"
-volume = "58"
-number = "5"
-page_begin = "1139"
-page_end = "1153"
-reviewed = true
-invited = false
-en_publisher = "Institute of Electrical and Electronics Engineers (IEEE)"
-ja_publisher = "Institute of Electrical and Electronics Engineers (IEEE)"
-en_title = "Passivity Based Control of Stochastic Port-Hamiltonian Systems"
-ja_title = "Passivity Based Control of Stochastic Port-Hamiltonian Systems"
-en_author = "Satoshi Satoh, Kenji Fujimoto"
-ja_author = "Satoshi Satoh, Kenji Fujimoto"
-doi = "10.1109/tac.2012.2229791"
-e_issn = "1558-2523"
-issn = "0018-9286"
-wos_id = "WOS:000318542200004"
-url = "http://xplorestaging.ieee.org/ielx5/9/6504746/06361273.pdf?arnumber=6361273"
-outside_kuaero = false
-
-[[record]]
-publication_date = "20130123"
-en_booktitle = "Robotica"
-type = "journal"
-volume = "31"
-number = "5"
-page_begin = "717"
-page_end = "732"
-reviewed = true
-invited = false
-en_title = "Gait generation via unified learning optimal control of Hamiltonian systems"
-ja_title = "Gait generation via unified learning optimal control of Hamiltonian systems"
-en_author = "Satoshi Satoh, Kenji Fujimoto, Sang-Ho Hyon"
-ja_author = "Satoshi Satoh, Kenji Fujimoto, Sang-Ho Hyon"
-doi = "10.1017/S0263574712000756"
-issn = "0263-5747"
-scopus_id = "84880665465"
-url = "http://repository.kulib.kyoto-u.ac.jp/dspace/handle/2433/194118"
 outside_kuaero = false
 
 [[record]]
