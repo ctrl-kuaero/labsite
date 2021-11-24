@@ -87,6 +87,8 @@ for i in items.values():
                 record['type'] = 'summary_international_conference'
             elif i.get('misc_type') == 'technical_report':
                 record['type'] = 'technical_report'
+            elif i.get('misc_type') == 'meeting_report':
+                record['type'] = 'meeting_report'
             elif i.get('misc_type') == 'others':
                 record['type'] = 'others'
             else:
