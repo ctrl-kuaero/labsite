@@ -108,6 +108,25 @@ url = "https://www.tandfonline.com/doi/full/10.1080/18824889.2021.1936817"
 outside_kuaero = false
 
 [[record]]
+publication_date = "20210615"
+ja_booktitle = "IEEE Control Systems Letters"
+en_booktitle = "IEEE Control Systems Letters"
+type = "journal"
+volume = "6"
+page_begin = "1208"
+page_end = "1213"
+reviewed = true
+en_publisher = "Institute of Electrical and Electronics Engineers (IEEE)"
+ja_publisher = "Institute of Electrical and Electronics Engineers (IEEE)"
+en_title = "A Passivity-Based Sliding Mode Controller for a Class of Electro-Mechanical Systems"
+ja_title = "A Passivity-Based Sliding Mode Controller for a Class of Electro-Mechanical Systems"
+en_author = "Kenji Fujimoto, Takahiro Baba, Naoki Sakata, Ichiro Maruta"
+ja_author = "Kenji Fujimoto, Takahiro Baba, Naoki Sakata, Ichiro Maruta"
+doi = "10.1109/LCSYS.2021.3089541"
+url = "https://ieeexplore.ieee.org/document/9455425"
+outside_kuaero = false
+
+[[record]]
 publication_date = "20210601"
 ja_booktitle = "IEICE TRANSACTIONS on Information and Systems"
 en_booktitle = "IEICE TRANSACTIONS on Information and Systems"
@@ -4880,26 +4899,6 @@ ja_author = "Zhiwei Hao, Kenji Fujimoto, Yoshikazu Hayakawa"
 issn = "2161-2927"
 wos_id = "WOS:000393046002089"
 url = "https://ieeexplore.ieee.org/document/6639817"
-outside_kuaero = false
-
-[[record]]
-publication_date = "20130623"
-ja_booktitle = "Proceedings of the 9th Asian Control Conference (ASCC2013)"
-en_booktitle = "Proceedings of the 9th Asian Control Conference (ASCC2013)"
-type = "international_conference"
-page_begin = "1"
-page_end = "6"
-reviewed = true
-invited = false
-en_publisher = "IEEE"
-ja_publisher = "IEEE"
-en_title = "Approximate Solutions to the Hamilton-Jacobi Equations for Generating Functions: the General Cost Function Case"
-ja_title = "Approximate Solutions to the Hamilton-Jacobi Equations for Generating Functions: the General Cost Function Case"
-en_author = "Zhiwei Hao, Kenji Fujimoto, Yoshikazu Hayakawa"
-ja_author = "Zhiwei Hao, Kenji Fujimoto, Yoshikazu Hayakawa"
-doi = "10.1109/ASCC.2013.6606003"
-wos_id = "WOS:000333734900014"
-url = "https://ieeexplore.ieee.org/document/6606003"
 outside_kuaero = false
 
 [[record]]
