@@ -1781,6 +1781,22 @@ url = "https://www.jstage.jst.go.jp/article/sicetr1965/43/1/43_31/_article/-char
 outside_kuaero = true
 
 [[record]]
+ja_booktitle = "2021年度計測自動制御学会関西支部・システム制御情報学会シンポジウム講演論文集"
+en_booktitle = "Preprints of the 2021 SICE Kansai Chapter & ISCIE Symposium"
+publication_date = "20220107"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "37"
+page_end = "38"
+reviewed = false
+invited = false
+en_title = "Learning Nonlinear State-Space Model Using Deep Neaural Network with Bottleneck Structure"
+ja_title = "ボトルネック構造を持つ深層ニューラルネットワークを用いた非線形状態空間モデルの学習"
+en_author = "Keito Yamada, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "山田 佳士, 丸田 一郎, 藤本 健治"
+outside_kuaero = false
+
+[[record]]
 ja_booktitle = "第64回自動制御連合講演会講演論文集"
 en_booktitle = "Proceedings of the 64th Japan Joint Automartic Control Conference"
 publication_date = "20211113"
@@ -3392,22 +3408,6 @@ ja_title = "ノンパラメトリック区分的線形モデルのl1最適化に
 en_author = "Yusuke Fujimoto, Ichiro Maruta, Toshiharu Sugie"
 ja_author = "藤本 悠介, 丸田 一郎, 杉江 俊治"
 cinii_na_id = "40020166171"
-outside_kuaero = true
-
-[[record]]
-ja_booktitle = "第57回システム制御情報学会研究発表講演会講演論文集"
-en_booktitle = "Proceedings of the 57th Annual Conference of the Institute of Systems, Control and Information Engineergings (ISCIE)"
-publication_date = "20130515"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "313-2"
-reviewed = false
-invited = false
-en_title = "Modeling of EV Battery considering Diffusion Phenomena and Its Application to SOC Estimation"
-ja_title = "拡散現象を考慮した電気自動車用二次電池のモデリングとその充電率推定への応用"
-en_author = "Takahiro Kawaguchi, Ayane Sugiura, Ichiro Maruta, Atsushi Baba, Shuichi Adachi"
-ja_author = "川口 貴弘, 杉浦 文音, 丸田 一郎, 馬場 厚志, 足立 修一"
-cinii_na_id = "40020165861"
 outside_kuaero = true
 
 [[record]]
@@ -5884,23 +5884,6 @@ ja_title = "パラメータにばらつきを持つ離散時間線形システ�
 en_author = "Shun Maruyama, Kenji Fujimoto, Takashi Iwata"
 ja_author = "丸山 俊, 藤本 健治, 岩田 崇"
 j_global_id = "201402229988446318"
-outside_kuaero = false
-
-[[record]]
-ja_booktitle = "第56回自動制御連合講演会講演論文集"
-en_booktitle = "Proceedings of the 56th Japan Joint Automatic Control Conference"
-publication_date = "20131116"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "426"
-page_end = "430"
-reviewed = false
-invited = false
-en_title = "On Hamiltonian modeling and control of quaternion control systems"
-ja_title = "クォータニオン制御系のハミルトン系モデリングと制御について"
-en_author = "Kenji Fujimoto, Tomoya Takeuchi"
-ja_author = "藤本 健治, 竹内 智哉"
-j_global_id = "201402233220757630"
 outside_kuaero = false
 
 [[record]]
