@@ -30,47 +30,59 @@ outside_kuaero = false
 
 [[record]]
 publication_date = "20210915"
-ja_booktitle = "Preprints of the Third IFAC Conference on Modelling, Identification and Control of Nonlinear Systems"
-en_booktitle = "Preprints of the Third IFAC Conference on Modelling, Identification and Control of Nonlinear Systems"
-type = "papers_symposium"
-page_begin = "306"
-page_end = "311"
+ja_booktitle = "IFAC-PapersOnline; Part of special issue: 3rd IFAC Conference on Modelling, Identification and Control of Nonlinear Systems (MICNON2021)"
+en_booktitle = "IFAC-PapersOnline; Part of special issue: 3rd IFAC Conference on Modelling, Identification and Control of Nonlinear Systems (MICNON2021)"
+type = "journal"
+volume = "54"
+number = "14"
+page_begin = "287"
+page_end = "292"
 reviewed = true
 invited = false
 en_title = "On Passivity-Based High-Order Compensators for Mechanical Port-Hamiltonian Systems Without Velocity Measurements"
 ja_title = "On Passivity-Based High-Order Compensators for Mechanical Port-Hamiltonian Systems Without Velocity Measurements"
 en_author = "Kiyoshi Hamada, Pablo Borja, Kenji Fujimoto, Ichiro Maruta, Jacquelien M. A. Scherpen"
 ja_author = "Kiyoshi Hamada, Pablo Borja, Kenji Fujimoto, Ichiro Maruta, Jacquelien M. A. Scherpen"
+doi = "10.1016/j.ifacol.2021.10.367"
+url = "https://www.sciencedirect.com/science/article/pii/S2405896321017730"
 outside_kuaero = false
 
 [[record]]
 publication_date = "20210915"
-ja_booktitle = "Preprints of the Third IFAC Conference on Modelling, Identification and Control of Nonlinear Systems"
-en_booktitle = "Preprints of the Third IFAC Conference on Modelling, Identification and Control of Nonlinear Systems"
-type = "papers_symposium"
-page_begin = "53"
-page_end = "58"
+ja_booktitle = "IFAC-PapersOnline; Part of special issue: 3rd IFAC Conference on Modelling, Identification and Control of Nonlinear Systems (MICNON2021)"
+en_booktitle = "IFAC-PapersOnline; Part of special issue: 3rd IFAC Conference on Modelling, Identification and Control of Nonlinear Systems (MICNON2021)"
+type = "journal"
+volume = "54"
+number = "14"
+page_begin = "37"
+page_end = "42"
 reviewed = true
 invited = false
 en_title = "Globally Optimal Control of Nonlinear Input-Affine Systems Under Quadratic Objective Functions Based on Trajectory Database"
 ja_title = "Globally Optimal Control of Nonlinear Input-Affine Systems Under Quadratic Objective Functions Based on Trajectory Database"
 en_author = "Tomohiro Otsu, Ichiro Maruta, Kenji Fujimoto"
 ja_author = "Tomohiro Otsu, Ichiro Maruta, Kenji Fujimoto"
+doi = "10.1016/j.ifacol.2021.10.325"
+url = "https://www.sciencedirect.com/science/article/pii/S2405896321017304"
 outside_kuaero = false
 
 [[record]]
 publication_date = "20210915"
-ja_booktitle = "Preprints of the Third IFAC Conference on Modelling, Identification and Control of Nonlinear Systems"
-en_booktitle = "Preprints of the Third IFAC Conference on Modelling, Identification and Control of Nonlinear Systems"
-type = "papers_symposium"
-page_begin = "41"
-page_end = "46"
+ja_booktitle = "IFAC-PapersOnline; Part of special issue: 3rd IFAC Conference on Modelling, Identification and Control of Nonlinear Systems (MICNON2021)"
+en_booktitle = "IFAC-PapersOnline; Part of special issue: 3rd IFAC Conference on Modelling, Identification and Control of Nonlinear Systems (MICNON2021)"
+type = "journal"
+volume = "54"
+number = "14"
+page_begin = "25"
+page_end = "30"
 reviewed = true
 invited = false
 en_title = "Simultaneous Identification of Nonlinear Dynamics and State Distribution using Jensen-Shannon Divergence"
 ja_title = "Simultaneous Identification of Nonlinear Dynamics and State Distribution using Jensen-Shannon Divergence"
 en_author = "Kenji Kashima, Moe Watanabe, Ichiro Maruta"
 ja_author = "Kenji Kashima, Moe Watanabe, Ichiro Maruta"
+doi = "10.1016/j.ifacol.2021.10.323"
+url = "https://www.sciencedirect.com/science/article/pii/S2405896321017286"
 outside_kuaero = false
 
 [[record]]
