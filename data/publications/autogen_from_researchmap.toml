@@ -1,4 +1,21 @@
 [[record]]
+publication_date = "20220224"
+ja_booktitle = "IEEE Access"
+en_booktitle = "IEEE Access"
+type = "journal"
+page_begin = "1"
+page_end = "12"
+reviewed = true
+invited = false
+en_title = "Closed-Loop Subspace Identification for Stable/Unstable Systems using Data Compression and Nuclear Norm Minimization"
+ja_title = "Closed-Loop Subspace Identification for Stable/Unstable Systems using Data Compression and Nuclear Norm Minimization"
+en_author = "Ichiro Maruta, Toshiharu Sugie"
+ja_author = "Ichiro Maruta, Toshiharu Sugie"
+doi = "10.1109/ACCESS.2022.3154017"
+url = "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9720930"
+outside_kuaero = false
+
+[[record]]
 publication_date = "20211030"
 ja_booktitle = "Extended Abstract of the 53rd ISCIE International Symposium on Stochastic Systems Theory and Its Applications (SSS21)"
 en_booktitle = "Extended Abstract of the 53rd ISCIE International Symposium on Stochastic Systems Theory and Its Applications (SSS21)"
