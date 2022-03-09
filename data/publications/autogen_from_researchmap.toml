@@ -1,4 +1,19 @@
 [[record]]
+publication_date = "20220226"
+ja_booktitle = "Proceedings of the Joint Symposium 33rd ISTS & 10th NSAT & 14th IAA LCPM"
+en_booktitle = "Proceedings of the Joint Symposium 33rd ISTS & 10th NSAT & 14th IAA LCPM"
+type = "international_conference"
+page_begin = "2022-3-51"
+page_end = "pp. 9"
+reviewed = true
+invited = false
+en_title = "On Collision Detection for Satellite Constellations Based on Spatial Hashing"
+ja_title = "On Collision Detection for Satellite Constellations Based on Spatial Hashing"
+en_author = "Chikako Nakayama, Kenji Fujimoto, Ichiro Maruta, Kazuhiro Izui, Akihiko Honda, Yuta Aasno, Takeya Shima, Shojo Yoshikawa, Akihiko Imagi"
+ja_author = "Chikako Nakayama, Kenji Fujimoto, Ichiro Maruta, Kazuhiro Izui, Akihiko Honda, Yuta Aasno, Takeya Shima, Shojo Yoshikawa, Akihiko Imagi"
+outside_kuaero = false
+
+[[record]]
 publication_date = "20220224"
 ja_booktitle = "IEEE Access"
 en_booktitle = "IEEE Access"
@@ -1811,6 +1826,86 @@ url = "https://www.jstage.jst.go.jp/article/sicetr1965/43/1/43_31/_article/-char
 outside_kuaero = true
 
 [[record]]
+ja_booktitle = "第9回計測自動制御学会制御部門マルチシンポジウム（MSCS2022）"
+en_booktitle = "Proceedings of the 9th Multi-symposiume on Control Systems (MSCS2022)"
+publication_date = "20220307"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "3E1-6"
+page_end = "pp.6"
+reviewed = false
+invited = false
+en_title = "Collision Detection for Multiple Satellites Based on Hashing: Analysis of Computation Time"
+ja_title = "ハッシュ法を用いた複数宇宙機の衝突判定：計算時間の解析"
+en_author = "Chikako Nakayama, Kenji Fujimoto, Ichiro Maruta, Kazuhiro Izui, Akihiko Honda, Yuta Asano, Takeya Shima, Shoji Yoshikawa, Akihiko Imagi"
+ja_author = "中山 智香子, 藤本 健治, 丸田 一郎, 泉井 一浩, 本田 瑛彦, 浅野 雄太, 島 岳也, 吉河 章二, 今城 昭彦"
+outside_kuaero = false
+
+[[record]]
+ja_booktitle = "第9回計測自動制御学会制御部門マルチシンポジウム（MSCS2022）"
+en_booktitle = "Proceedings of the 9th Multi-symposiume on Control Systems (MSCS2022)"
+publication_date = "20220307"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "3D2-4"
+page_end = "pp.8"
+reviewed = false
+invited = false
+en_title = "Stability probability maximization with control performance for linear stochastic systems"
+ja_title = "線形確率系に対する制御性能を考慮した安定確率最大化について"
+en_author = "Ayumu Muramatsu, Yuji Ito, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "村松 歩武, 伊藤 優司, 藤本 健治, 丸田 一郎"
+outside_kuaero = false
+
+[[record]]
+ja_booktitle = "第9回計測自動制御学会制御部門マルチシンポジウム（MSCS2022）"
+en_booktitle = "Proceedings of the 9th Multi-symposiume on Control Systems (MSCS2022)"
+publication_date = "20220307"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "3C1-2"
+page_end = "pp.7"
+reviewed = false
+invited = false
+en_title = "On Trajectory Tracking Control of Mechanical Systems Based on Passivity Based Sliding Mode Control"
+ja_title = "受動性に基づくスライディングモード制御を用いた 機械系の軌道追従制御について"
+en_author = "Naoki Sakata, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "坂田 直樹, 藤本 健治, 丸田 一郎"
+outside_kuaero = false
+
+[[record]]
+ja_booktitle = "第9回計測自動制御学会制御部門マルチシンポジウム（MSCS2022）"
+en_booktitle = "Proceedings of the 9th Multi-symposiume on Control Systems (MSCS2022)"
+publication_date = "20220307"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "1E2-3"
+page_end = "pp.3"
+reviewed = false
+invited = false
+en_title = "Verification of the Effectiveness of Integral Compensation for Discrete-Valued Input Control of Induction Motor Using Deep Q-Network"
+ja_title = "Deep Q-Network を用いた誘導電動機の離散値入力制御における 積分補償の有効性の検証"
+en_author = "Daiki Hirabayashi, Ichiro Maruta, Kenji Fujimoto, Yoshiharu Nishida, Takashi Yamada"
+ja_author = "平林 大輝, 丸田 一郎, 藤本 健治, 西田 吉晴, 山田 崇"
+outside_kuaero = false
+
+[[record]]
+ja_booktitle = "第9回計測自動制御学会制御部門マルチシンポジウム（MSCS2022）"
+en_booktitle = "Proceedings of the 9th Multi-symposiume on Control Systems (MSCS2022)"
+publication_date = "20220307"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "1E1-4"
+page_end = "pp.7"
+reviewed = false
+invited = false
+en_title = "System Identification Separating Plant Model and Noise Model using Structured Innovation Model"
+ja_title = "構造化イノベーションモデルによるプラントモデルとノイズモデ ルを分離したシステム同定"
+en_author = "Taku Murakami, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "村上 巧, 丸田 一郎, 藤本 健治"
+outside_kuaero = false
+
+[[record]]
 ja_booktitle = "2021年度計測自動制御学会関西支部・システム制御情報学会シンポジウム講演論文集"
 en_booktitle = "Preprints of the 2021 SICE Kansai Chapter & ISCIE Symposium"
 publication_date = "20220107"
@@ -1836,9 +1931,9 @@ page_begin = "398"
 page_end = "402"
 reviewed = false
 invited = false
-en_title = "誘導電動機の離散値入力制御を行う Deep Q-Network の効率的な訓練法"
+en_title = "Efficient Training Method of Deep Q-Network for Discrete-Valued Input Control of Induction Motor"
 ja_title = "誘導電動機の離散値入力制御を行う Deep Q-Network の効率的な訓練法"
-en_author = "平林 大輝, 丸田 一郎, 藤本 健治, 西田 吉晴, 山田 崇"
+en_author = "Daiki Hirabayashi, Ichiro Maruta, Kenji Fujimoto, Yoshiharu Nishida, Takashi Yamada"
 ja_author = "平林 大輝, 丸田 一郎, 藤本 健治, 西田 吉晴, 山田 崇"
 outside_kuaero = false
 
@@ -3364,83 +3459,6 @@ j_global_id = "201402278073999650"
 outside_kuaero = true
 
 [[record]]
-ja_booktitle = "第1回計測自動制御学会制御部門マルチシンポジウム"
-en_booktitle = "The 1st Multi-symposium on Control Systems: MSCS2014"
-publication_date = "20140304"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "7E2-1"
-reviewed = false
-invited = false
-en_title = "Particle Filters for Online State Estimation from Quantized Outputs"
-ja_title = "量子化出力に基づくオンライン状態推定を実現する粒子フィルタ"
-en_author = "Yusuke Hazui, Ichiro Maruta, Toshiharu Sugie"
-ja_author = "筈井 祐介, 丸田 一郎, 杉江 俊治"
-j_global_id = "201402273383280026"
-outside_kuaero = true
-
-[[record]]
-ja_booktitle = "平成25年度 計測自動制御学会関西支部・システム制御情報学会 若手研究発表会講演論文集"
-en_booktitle = "平成25年度 計測自動制御学会関西支部・システム制御情報学会 若手研究発表会講演論文集"
-publication_date = "20140117"
-type = "others"
-lang = "ja"
-page_begin = "97"
-page_end = "100"
-reviewed = true
-invited = false
-en_title = "少数の点からなるノンパラメトリックPWAモデルの構成に関する一考察"
-ja_title = "少数の点からなるノンパラメトリックPWAモデルの構成に関する一考察"
-en_author = "Yusuke Fujimoto, Ichiro Maruta, Toshiharu Sugie"
-ja_author = "藤本悠介, 丸田一郎, 杉江俊治"
-outside_kuaero = true
-
-[[record]]
-ja_booktitle = "第57回システム制御情報学会研究発表講演会講演論文集"
-en_booktitle = "Proceedings of the 57th Annual Conference of the Institute of Systems, Control and Information Engineergings (ISCIE)"
-publication_date = "20130515"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "331-2"
-reviewed = false
-invited = false
-en_title = "Optimal Control of Multi-Agent Markov Decision Processes and Its Application to Real-Time Pricing"
-ja_title = "マルチエージェントマルコフ決定過程の最適制御とリアルタイムプライシングへの応用"
-en_author = "Koichi Kobayashi, Ichiro Maruta, Kazunori Sakurama, Shun-ichi Azuma"
-ja_author = "小林 孝一, 丸田 一郎, 桜間 一徳, 東 俊一"
-outside_kuaero = true
-
-[[record]]
-ja_booktitle = "第57回システム制御情報学会研究発表講演会講演論文集"
-en_booktitle = "Proceedings of the 57th Annual Conference of the Institute of Systems, Control and Information Engineergings (ISCIE)"
-publication_date = "20130515"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "313-5"
-reviewed = false
-invited = false
-en_title = "Estimation of Head-Related Transfer Function based on a Parametric Model"
-ja_title = "パラメトリックモデルに基づく頭部伝達関数の推定"
-en_author = "K. Ishikawa, S. Kanai, Shuichi Adachi, Ichiro Maruta, K. Matsui, A. Ando"
-ja_author = "石川 健太郎, 金井 関利, 足立 修一, 丸田 一郎, 松井 健太郎, 安藤 彰男"
-outside_kuaero = true
-
-[[record]]
-ja_booktitle = "第57回システム制御情報学会研究発表講演会講演論文集"
-en_booktitle = "Proceedings of the 57th Annual Conference of the Institute of Systems, Control and Information Engineergings (ISCIE)"
-publication_date = "20130515"
-type = "domestic_conference"
-lang = "ja"
-reviewed = false
-invited = false
-en_title = "Compression of nonparametric PWA models based on l1 optimization"
-ja_title = "ノンパラメトリック区分的線形モデルのl1最適化に基づく圧縮"
-en_author = "Yusuke Fujimoto, Ichiro Maruta, Toshiharu Sugie"
-ja_author = "藤本 悠介, 丸田 一郎, 杉江 俊治"
-cinii_na_id = "40020166171"
-outside_kuaero = true
-
-[[record]]
 publication_date = "20151210"
 type = "book"
 book_owner_role = "joint_work"
@@ -4912,26 +4930,6 @@ ja_author = "Dijian Chen, Zhiwei Hao, Kenji Fujimoto, Tatsuya Suzuki"
 outside_kuaero = false
 
 [[record]]
-publication_date = "20130726"
-ja_booktitle = "Proceedings of the 32nd Chinese Control Conference"
-en_booktitle = "Proceedings of the 32nd Chinese Control Conference"
-type = "international_conference"
-page_begin = "2338"
-page_end = "2343"
-reviewed = true
-invited = false
-en_publisher = "IEEE"
-ja_publisher = "IEEE"
-en_title = "Application of the double generating function method to optimal gait generation for a biped robot"
-ja_title = "Application of the double generating function method to optimal gait generation for a biped robot"
-en_author = "Zhiwei Hao, Kenji Fujimoto, Yoshikazu Hayakawa"
-ja_author = "Zhiwei Hao, Kenji Fujimoto, Yoshikazu Hayakawa"
-issn = "2161-2927"
-wos_id = "WOS:000393046002089"
-url = "https://ieeexplore.ieee.org/document/6639817"
-outside_kuaero = false
-
-[[record]]
 ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム"
 en_booktitle = "The 7th Multi-symposium on Control Systems: MSCS2020"
 publication_date = "20200302"
@@ -5834,86 +5832,6 @@ issn = "0743-1546"
 j_global_id = "201402295302956415"
 cinii_na_id = "40020358783"
 wos_id = "WOS:000370073804156"
-outside_kuaero = false
-
-[[record]]
-ja_booktitle = "第1回 計測自動制御学会 制御部門マルチシンポジウム予稿集"
-en_booktitle = "Proceedings of the 1st Multi-symposium on Control Systems"
-publication_date = "20140304"
-type = "domestic_conference"
-page_begin = "6B1-3"
-reviewed = false
-invited = false
-en_title = "Stochastic Characterization of Steel Factory Energy Consumption"
-ja_title = "Stochastic Characterization of Steel Factory Energy Consumption"
-en_author = "Ahmet Cetinkaya, Shun Maruyama, Tomohisa Hayakawa, Kenji Fujimoto, Noboru Murata"
-ja_author = "Cetinkaya Ahmet, 丸山 俊, 早川 朋久, 藤本 健治, 村田 昇"
-j_global_id = "201402202293662588"
-outside_kuaero = false
-
-[[record]]
-ja_booktitle = "第1回 計測自動制御学会 制御部門マルチシンポジウム予稿集"
-en_booktitle = "Proceedings of the 1st Multi-symposium on Control Systems"
-publication_date = "20140304"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "6B1-2"
-reviewed = false
-invited = false
-en_title = "On a quadratic programming method for stochastic future estimation"
-ja_title = "確率的な予測データを扱うための2次計画法について"
-en_author = "Kenji Fujimoto, Shun Maruyama, Noboru Murata, Tomohisa Hayakawa"
-ja_author = "藤本 健治, 丸山 俊, 村田 昇, 早川 朋久"
-j_global_id = "201402229420071000"
-outside_kuaero = false
-
-[[record]]
-ja_booktitle = "第1回 計測自動制御学会 制御部門マルチシンポジウム予稿集"
-en_booktitle = "Proceedings of the 1st Multi-symposium on Control Systems"
-publication_date = "20140304"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "6B1-4"
-reviewed = false
-invited = false
-en_title = "Statistical analysis and modeling of factory electricity consumption"
-ja_title = "工場電力需要データの解析とモデリング"
-en_author = "Noboru Murata, Kenji Fujimoto, Tomohisa Hayakawa"
-ja_author = "村田 昇, 藤本 健治, 早川 朋久"
-j_global_id = "201402276742414890"
-outside_kuaero = false
-
-[[record]]
-ja_booktitle = "第1回 計測自動制御学会 制御部門マルチシンポジウム予稿集"
-en_booktitle = "Proceedings of the 1st Multi-symposium on Control Systems"
-publication_date = "20140304"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "7D2-4"
-reviewed = false
-invited = false
-en_title = "On a robust algorithm for variational Bayes estimation"
-ja_title = "ロバストな変分ベイズアルゴリズムの提案"
-en_author = "Takayo Ishigami, Kenji Fujimoto, Yoshiharu Nishida"
-ja_author = "石神 孝容, 藤本 健治, 西田 吉晴"
-j_global_id = "201402281029325252"
-outside_kuaero = false
-
-[[record]]
-ja_booktitle = "第56回自動制御連合講演会講演論文集"
-en_booktitle = "Proceedings of the 56th Japan Joint Automatic Control Conference"
-publication_date = "20131116"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "1613"
-page_end = "1616"
-reviewed = false
-invited = false
-en_title = "Finite time optimal control for discrete-time linear systems with parameter variation"
-ja_title = "パラメータにばらつきを持つ離散時間線形システムに対する有限時間最適制御"
-en_author = "Shun Maruyama, Kenji Fujimoto, Takashi Iwata"
-ja_author = "丸山 俊, 藤本 健治, 岩田 崇"
-j_global_id = "201402229988446318"
 outside_kuaero = false
 
 [[record]]
