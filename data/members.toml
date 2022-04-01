@@ -27,50 +27,16 @@ ja_position = "博士後期課程"
 en_position = "Ph.D. Candidate"
 
 [[list]]
-ja_name = "濱田 聖司"
-en_name = "Kiyoshi HAMADA"
-ja_position = "博士後期課程"
-en_position = "Ph.D. Student"
-ja_link_text = '<span class="tag is-primary">Personal Page</span>'
-en_link_text = '<span class="tag is-primary">Personal Page</span>'
-ja_link_url = "https://control.kuaero.kyoto-u.ac.jp/~hamada/ja/"
-en_link_url = "https://control.kuaero.kyoto-u.ac.jp/~hamada/en/"
-
-[[list]]
-ja_name = "別府 啓史"
-en_name = "Hirofumi BEPPU"
-ja_position = "博士後期課程<br>日本学術振興会<br>特別研究員DC1"
-en_position = "Ph.D. Candidate"
-
-[[list]]
 ja_name = "TANG, Shengbing"
 en_name = "Shengbing TANG"
 ja_position = "博士後期課程"
 en_position = "Ph.D. Student"
 
 [[list]]
-ja_name = "平林 大輝"
-en_name = "Daiki HIRABAYASHI"
-ja_position = "修士課程"
-en_position = "Master's Student"
-
-[[list]]
-ja_name = "村上 巧"
-en_name = "Taku MURAKAMI"
-ja_position = "修士課程"
-en_position = "Master's Student"
-
-[[list]]
 ja_name = "坂田 直樹"
 en_name = "Naoki SAKATA"
-ja_position = "修士課程"
-en_position = "Master's Student"
-
-[[list]]
-ja_name = "中山 智香子"
-en_name = "Chikako NAKAYAMA"
-ja_position = "修士課程"
-en_position = "Master's Student"
+ja_position = "博士後期課程"
+en_position = "Ph.D. Student"
 
 [[list]]
 ja_name = "馬場 貴大"
@@ -99,26 +65,51 @@ en_position = "Master's Student"
 [[list]]
 ja_name = "井池 隆太"
 en_name = "Ryuta IIKE"
-ja_position = "学部生"
-en_position = "Undergraduate"
-
-[[list]]
-ja_name = "加藤 嵩大"
-en_name = "Takahiro KATO"
-ja_position = "学部生"
-en_position = "Undergraduate"
-
-[[list]]
-ja_name = "服部 達哉"
-en_name = "Tatsuya HATTORI"
-ja_position = "学部生"
-en_position = "Undergraduate"
+ja_position = "修士課程"
+en_position = "Master's Student"
 
 [[list]]
 ja_name = "山本 慶太郎"
 en_name = "Keitaro YAMAMOTO"
+ja_position = "修士課程"
+en_position = "Master's Student"
+
+[[list]]
+ja_name = "朝倉 響"
+en_name = "Hibiki Asakura"
+ja_position = "修士課程"
+en_position = "Master's Student"
+
+[[list]]
+ja_name = "辻 康生"
+en_name = "Kosei TSUJI"
+ja_position = "修士課程"
+en_position = "Master's Student"
+
+[[list]]
+ja_name = ""
+en_name = ""
 ja_position = "学部生"
 en_position = "Undergraduate"
+
+[[list]]
+ja_name = ""
+en_name = ""
+ja_position = "学部生"
+en_position = "Undergraduate"
+
+[[list]]
+ja_name = ""
+en_name = ""
+ja_position = "学部生"
+en_position = "Undergraduate"
+
+[[list]]
+ja_name = ""
+en_name = ""
+ja_position = "学部生"
+en_position = "Undergraduate"
+
 
 [[list]]
 ja_name = "稲本 千尋"
