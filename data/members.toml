@@ -111,6 +111,12 @@ ja_position = "学部生"
 en_position = "Undergraduate"
 
 [[list]]
+ja_name = "Gunnar Axel SODERLIND"
+en_name = "Gunnar Axel SODERLIND"
+ja_position = "特別聴講学生"
+en_position = "Special Auditing Student"
+
+[[list]]
 ja_name = "稲本 千尋"
 en_name = "Chihiro INAMOTO"
 ja_position = "技術補佐員"
