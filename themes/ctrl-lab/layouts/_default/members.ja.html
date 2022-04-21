@@ -29,7 +29,11 @@
                                     <span style="white-space:nowrap;">{{ index .ja_name }}</span>
                                 </div>
                                 <div class="namesub" style="font-size:60%;min-width:8rem;text-align-last:justify;">
+                                    {{ if (eq (len $en_names) 2) }}
                                     {{ index $en_names 1 }}, {{ index $en_names 0 }}
+                                    {{ else }}
+                                    {{ index $en_names 2 }}, {{ index $en_names 0 }} {{ index $en_names 1 }}                                    
+                                    {{ end }}                                    
                                 </div>
                             </div>
                             {{ if .ja_link_url }}
@@ -59,11 +63,15 @@
                         </div>
                         <div style="margin-right:1em;">
                             <div class="namemain" style="width:8rem;text-align-last:justify;">
-                                <span style="white-space:nowrap;">{{ index $ja_names 0 }} {{ index $ja_names 1 }}</span>
+                                <span style="white-space:nowrap;">{{ index .ja_name }}</span>
                             </div>
                             <div class="namesub"
                                 style="font-size:60%;min-width:8rem;text-align-last:justify; white-space: nowrap;">
+                                {{ if (eq (len $en_names) 2) }}
                                 {{ index $en_names 1 }}, {{ index $en_names 0 }}
+                                {{ else }}
+                                {{ index $en_names 2 }}, {{ index $en_names 0 }} {{ index $en_names 1 }}                                    
+                                {{ end }}             
                             </div>
                         </div>
                         {{ if .ja_link_url }}
