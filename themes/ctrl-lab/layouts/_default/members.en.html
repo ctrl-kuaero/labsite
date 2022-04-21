@@ -25,7 +25,11 @@
                         </div>
                         <div style="margin-right:1em;width:20rem;">
                             <div class="namemain">
+                                {{ if (eq (len $en_names) 2) }}
                                 {{ index $en_names 0 }} {{ index $en_names 1 }}
+                                {{ else }}
+                                {{ index $en_names 0 }} {{ index $en_names 1 }} {{ index $en_names 2 }}                                    
+                                {{ end }}             
                             </div>
                             {{ if .en_link_url }}
                             <div>
@@ -55,7 +59,11 @@
                         </div>
                         <div style="margin-right:1em;">
                             <div class="namemain">
+                                {{ if (eq (len $en_names) 2) }}
                                 {{ index $en_names 0 }} {{ index $en_names 1 }}
+                                {{ else }}
+                                {{ index $en_names 0 }} {{ index $en_names 1 }} {{ index $en_names 2 }}                                    
+                                {{ end }}       
                             </div>
                         </div>
                         {{ if .en_link_url }}
