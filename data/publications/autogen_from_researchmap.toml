@@ -19,6 +19,25 @@ ja_booktitle = "IEEE Access"
 en_booktitle = "IEEE Access"
 type = "journal"
 volume = "10"
+page_begin = "24215"
+page_end = "24231"
+reviewed = true
+invited = false
+en_publisher = "Institute of Electrical and Electronics Engineers (IEEE)"
+ja_publisher = "Institute of Electrical and Electronics Engineers (IEEE)"
+en_title = "Actively Learning Gaussian Process Dynamical Systems Through Global and Local Explorations"
+ja_title = "Actively Learning Gaussian Process Dynamical Systems Through Global and Local Explorations"
+en_author = "Shengbing Tang, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "Shengbing Tang, Kenji Fujimoto, Ichiro Maruta"
+url = "https://ieeexplore.ieee.org/document/9720915"
+outside_kuaero = false
+
+[[record]]
+publication_date = "20220224"
+ja_booktitle = "IEEE Access"
+en_booktitle = "IEEE Access"
+type = "journal"
+volume = "10"
 page_begin = "21412"
 page_end = "21423"
 reviewed = true
@@ -4912,21 +4931,6 @@ en_title = "Control of a biped robot via iterative learning controlwith a ZMP ba
 ja_title = "Control of a biped robot via iterative learning controlwith a ZMP based cost function"
 en_author = "Kotaro Asaba, Kenji fujimoto, Yoshikazu Hayakawa"
 ja_author = "Kotaro Asaba, Kenji fujimoto, Yoshikazu Hayakawa"
-outside_kuaero = false
-
-[[record]]
-publication_date = "20130914"
-ja_booktitle = "Proceedings of the SICE Annual Conference 2013"
-en_booktitle = "Proceedings of the SICE Annual Conference 2013"
-type = "international_conference"
-page_begin = "1475"
-page_end = "1478"
-reviewed = true
-invited = false
-en_title = "Discrete-time Linear Quadratic Optimal Control via Forward Generating Functions"
-ja_title = "Discrete-time Linear Quadratic Optimal Control via Forward Generating Functions"
-en_author = "Dijian Chen, Zhiwei Hao, Kenji Fujimoto, Tatsuya Suzuki"
-ja_author = "Dijian Chen, Zhiwei Hao, Kenji Fujimoto, Tatsuya Suzuki"
 outside_kuaero = false
 
 [[record]]
