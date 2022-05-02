@@ -1,4 +1,23 @@
 [[record]]
+publication_date = "20220501"
+ja_booktitle = "IEICE Transactions on Information and Systems"
+en_booktitle = "IEICE Transactions on Information and Systems"
+type = "journal"
+volume = "E105.D"
+number = "5"
+page_begin = "1010"
+page_end = "1023"
+reviewed = true
+en_publisher = "Institute of Electronics, Information and Communication Engineers"
+ja_publisher = "電子情報通信学会"
+en_title = "Particle Filter Design Based on Reinforcement Learning and Its Application to Mobile Robot Localization"
+ja_title = "Particle Filter Design Based on Reinforcement Learning and Its Application to Mobile Robot Localization"
+en_author = "Ryota Yoshimura, Ichiro Maruta, Kenji Fujimoto, Ken Sato, Yusuke Kobayashi"
+ja_author = "Ryota Yoshimura, Ichiro Maruta, Kenji Fujimoto, Ken Sato, Yusuke Kobayashi"
+url = "https://www.jstage.jst.go.jp/article/transinf/E105.D/5/E105.D_2021EDP7192/_article"
+outside_kuaero = false
+
+[[record]]
 publication_date = "20220226"
 ja_booktitle = "Proceedings of the Joint Symposium 33rd ISTS & 10th NSAT & 14th IAA LCPM"
 en_booktitle = "Proceedings of the Joint Symposium 33rd ISTS & 10th NSAT & 14th IAA LCPM"
@@ -4916,21 +4935,6 @@ doi = "10.9746/sicetr.49.846"
 issn = "0453-4654"
 cinii_na_id = "130004549757"
 url = "http://ci.nii.ac.jp/naid/130004549757/"
-outside_kuaero = false
-
-[[record]]
-publication_date = "20130914"
-ja_booktitle = "Proceedings of the SICE Annual Conference 2013"
-en_booktitle = "Proceedings of the SICE Annual Conference 2013"
-type = "international_conference"
-page_begin = "2161"
-page_end = "2165"
-reviewed = true
-invited = false
-en_title = "Control of a biped robot via iterative learning controlwith a ZMP based cost function"
-ja_title = "Control of a biped robot via iterative learning controlwith a ZMP based cost function"
-en_author = "Kotaro Asaba, Kenji fujimoto, Yoshikazu Hayakawa"
-ja_author = "Kotaro Asaba, Kenji fujimoto, Yoshikazu Hayakawa"
 outside_kuaero = false
 
 [[record]]
