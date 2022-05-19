@@ -1864,6 +1864,70 @@ url = "https://www.jstage.jst.go.jp/article/sicetr1965/43/1/43_31/_article/-char
 outside_kuaero = true
 
 [[record]]
+ja_booktitle = "第66回システム制御情報学会研究発表講演会講演論文集"
+en_booktitle = "Proceedings of the 66th Annual Conference of the Institute of Systems, Control and Information Engineers"
+publication_date = "20220518"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "1103"
+page_end = "1110"
+reviewed = false
+invited = false
+en_title = "Input-to-state stability of mechanical systems controlled by the KPES method and stabilization via output feedback"
+ja_title = "PES 法を適用した機械系の入力状態安定性と出力フィードバック安定化について"
+en_author = "Takahiro Kato, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "加藤 嵩大, 藤本 健治, 丸田 一郎"
+outside_kuaero = false
+
+[[record]]
+ja_booktitle = "第66回システム制御情報学会研究発表講演会講演論文集"
+en_booktitle = "Proceedings of the 66th Annual Conference of the Institute of Systems, Control and Information Engineers"
+publication_date = "20220518"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "942"
+page_end = "949"
+reviewed = false
+invited = false
+en_title = "CLOT-Optimal Trajectory Planning by a Newton Method and Its Application to the Circle Restricted Three-Body Problem"
+ja_title = "ニュートン法を用いた CLOT 最適な軌道計画と円制限三体問題への適用"
+en_author = "Keitaro Yamamoto, Kiyoshi Hamada, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "山本 慶太郎, 濱田 聖司, 藤本 健治, 丸田 一郎"
+outside_kuaero = false
+
+[[record]]
+ja_booktitle = "第66回システム制御情報学会研究発表講演会講演論文集"
+en_booktitle = "Proceedings of the 66th Annual Conference of the Institute of Systems, Control and Information Engineers"
+publication_date = "20220518"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "551"
+page_end = "558"
+reviewed = false
+invited = false
+en_title = "Model Predictive Control Based on State Estimator and Output Predictor Obtained by Nonlinear Subspace Identification"
+ja_title = "非線形部分空間同定法で得られた状態推定器および出力予測器に基づくモデル予測制御"
+en_author = "Tatsuya Hattori, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "服部 達哉, 丸田 一郎, 藤本 健治"
+outside_kuaero = false
+
+[[record]]
+ja_booktitle = "第66回システム制御情報学会研究発表講演会講演論文集"
+en_booktitle = "Proceedings of the 66th Annual Conference of the Institute of Systems, Control and Information Engineers"
+publication_date = "20220518"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "463"
+page_end = "470"
+reviewed = false
+invited = false
+en_title = "An Efficient Training Method of Neural Network for Optimal Control Based on Trajectory Database"
+ja_title = "最適制御器を構築するニューラルネットワークの軌道データベースに基づく効率的な訓練法"
+en_author = "Ryuta Iike, Hirofumi Beppu, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "井池 隆太, 別府 啓史, 丸田 一郎, 藤本 健治"
+outside_kuaero = false
+
+[[record]]
 ja_booktitle = "第9回計測自動制御学会制御部門マルチシンポジウム（MSCS2022）"
 en_booktitle = "Proceedings of the 9th Multi-symposiume on Control Systems (MSCS2022)"
 publication_date = "20220307"
@@ -3433,70 +3497,6 @@ ja_author = "羽鳥 萌, 室井 秀夫, 丸田 一郎, 足立 修一"
 outside_kuaero = true
 
 [[record]]
-ja_booktitle = "第1回計測自動制御学会制御部門マルチシンポジウム"
-en_booktitle = "The 1st Multi-symposium on Control Systems: MSCS2014"
-publication_date = "20140304"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "5E5-4"
-reviewed = false
-invited = false
-en_title = "Nonlinear model Predictive Control Based on Real-Time Design of Switching Linear Controllers"
-ja_title = "スイッチング線形制御器のリアルタイム設計に基づいた非線形モデル予測制御"
-en_author = "Kazufumi Kamo, Ichiro Maruta, Toshiharu Sugie"
-ja_author = "加茂 和史, 丸田一郎, 杉江俊治"
-j_global_id = "201402212594922165"
-outside_kuaero = true
-
-[[record]]
-ja_booktitle = "第1回計測自動制御学会制御部門マルチシンポジウム"
-en_booktitle = "The 1st Multi-symposium on Control Systems: MSCS2014"
-publication_date = "20140304"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "5G3-4"
-reviewed = false
-invited = false
-en_title = "Closed Loop Stability Analysis for Active Disturbance Rejection Controllers"
-ja_title = "能動的外乱除去制御器を用いた場合の閉ループ系安定性解析"
-en_author = "Kaiji Sugiyama, Ichiro Maruta, Toshiharu Sugie"
-ja_author = "杉山 開路, 丸田 一郎, 杉江 俊治"
-j_global_id = "201402253365045132"
-outside_kuaero = true
-
-[[record]]
-ja_booktitle = "第1回計測自動制御学会制御部門マルチシンポジウム"
-en_booktitle = "The 1st Multi-symposium on Control Systems: MSCS2014"
-publication_date = "20140304"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "6C3-4"
-reviewed = false
-invited = false
-en_title = "A Study on Demand Response models for Real-Time Pricing"
-ja_title = "リアルタイムプライシングのための需要応答モデルに関する考察"
-en_author = "Ichiro Maruta"
-ja_author = "丸田 一郎"
-j_global_id = "201402297523755530"
-outside_kuaero = true
-
-[[record]]
-ja_booktitle = "第1回計測自動制御学会制御理部門マルチシンポジウム"
-en_booktitle = "The 1st Multi-symposium on Control Systems: MSCS2014"
-publication_date = "20140304"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "7D2-3"
-reviewed = false
-invited = false
-en_title = "Efficient construction of non-parametric PWA models"
-ja_title = "効率的なノンパラメトリックPWAモデルの構築"
-en_author = "Yusuke Fujimoto, Ichiro Maruta, Toshiharu Sugie"
-ja_author = "藤本 悠介, 丸田 一郎, 杉江 俊治"
-j_global_id = "201402278073999650"
-outside_kuaero = true
-
-[[record]]
 publication_date = "20151210"
 type = "book"
 book_owner_role = "joint_work"
@@ -4938,6 +4938,22 @@ url = "http://ci.nii.ac.jp/naid/130004549757/"
 outside_kuaero = false
 
 [[record]]
+ja_booktitle = "第66回システム制御情報学会研究発表講演会講演論文集"
+en_booktitle = "Proceedings of the 66th Annual Conference of the Institute of Systems, Control and Information Engineers"
+publication_date = "20220518"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "1103"
+page_end = "1110"
+reviewed = false
+invited = false
+en_title = "Input-to-state stability of mechanical systems controlled by the KPES method and stabilization via output feedback"
+ja_title = "KPES 法を適用した機械系の入力状態安定性と出力フィードバック安定化について"
+en_author = "Takahiro Kato, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "加藤 嵩大, 藤本 健治, 丸田 一郎"
+outside_kuaero = false
+
+[[record]]
 ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム"
 en_booktitle = "The 7th Multi-symposium on Control Systems: MSCS2020"
 publication_date = "20200302"
@@ -5762,84 +5778,6 @@ ja_title = "パラメータ変動に対してロバストなLQ最適制御の枠
 en_author = "Yuki Okura, Kenji Fujimoto"
 ja_author = "大倉 裕貴, 藤本 健治"
 url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201502284657044757&rel=1"
-outside_kuaero = false
-
-[[record]]
-ja_booktitle = "第58回宇宙科学技術連合講演会講演集"
-en_booktitle = "Proceedings of 58th Space Sciences and Technology Conference"
-publication_date = "20141112"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "1E16"
-reviewed = false
-invited = false
-en_publisher = "The Japan Society for Aeronautical and Space Sciences"
-ja_publisher = "日本航空宇宙学会"
-en_title = "On trajectory tracking control of port-Hamiltonian systems with quaternions"
-ja_title = "クォータニオン変数を有するハミルトン系の軌道追従制御について"
-en_author = "Kenji Fujimoto, Taishi Nishiyama"
-ja_author = "藤本 健治, 西山 泰史"
-issn = "1884-1945"
-j_global_id = "201402265320460072"
-cinii_na_id = "40020266705"
-url = "http://ci.nii.ac.jp/naid/40020266705/"
-outside_kuaero = false
-
-[[record]]
-ja_booktitle = "第57回自動制御連合講演会講演予稿集"
-en_booktitle = "Proceedings of the 57th Japan Joint Automatic Control Conference"
-publication_date = "20141110"
-type = "domestic_conference"
-page_begin = "131"
-page_end = "134"
-reviewed = false
-invited = false
-en_title = "On symmetric nonlinear systems"
-ja_title = "対称な非線形系について"
-en_author = "Kenji Fujimoto, Tudor Ionescu, Jacquelien M.A. Scherpen"
-ja_author = "Kenji Fujimoto, Tudor Ionescu, Jacquelien M.A. Scherpen"
-url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201602287285070027"
-outside_kuaero = false
-
-[[record]]
-ja_booktitle = "第58回システム制御情報学会研究発表講演会講演論文集"
-en_booktitle = "Proceedings of the 58th Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
-publication_date = "20140521"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "321-2"
-reviewed = false
-invited = false
-en_publisher = "The Institute of Systems, Control and Information Engineers"
-ja_publisher = "システム制御情報学会"
-en_title = "Parameter estimation based on Bayesian inference and optimal control for helicopter with two degrees of freedom"
-ja_title = "2軸ヘリコプタのベイズ推定によるパラメータ推定と確率最適制御"
-en_author = "Teppei Inoue, Kenji Fujimoto"
-ja_author = "井上 鉄平, 藤本 健治"
-j_global_id = "201402294886139824"
-cinii_na_id = "40020362833"
-url = "http://ci.nii.ac.jp/naid/40020362833/"
-outside_kuaero = false
-
-[[record]]
-ja_booktitle = "第58回システム制御情報学会研究発表講演会講演論文集"
-en_booktitle = "Proceedings of the 58th Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
-publication_date = "20140521"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "122-5"
-reviewed = false
-invited = false
-en_publisher = "The Institute of Systems, Control and Information Engineers"
-ja_publisher = "システム制御情報学会"
-en_title = "On trajectory tracking control of port-controlled Hamiltonian systems with quaternion representation"
-ja_title = "クォータニオン表現されたポート・ハミルトン系の軌道追従制御ついて"
-en_author = "Taishi Nishiyama, Kenji Fujimoto"
-ja_author = "西山 泰史, 藤本 健治"
-issn = "0743-1546"
-j_global_id = "201402295302956415"
-cinii_na_id = "40020358783"
-wos_id = "WOS:000370073804156"
 outside_kuaero = false
 
 [[record]]
