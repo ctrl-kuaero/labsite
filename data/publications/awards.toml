@@ -1,4 +1,26 @@
 [[record]]
+en_author = "Keitaro Yamamoto"
+ja_author = "山本 慶太郎"
+en_giver = "The Executive Committee of the 66th Annual Conference of the Institute of Systems, Control and Information Engineers"
+ja_giver = "第66回システム制御情報学会研究発表講演会実行委員会"
+en_title = "The Award of the Excellent Student Presetation"
+ja_title = "SCI学生発表賞"
+publication_date = "20220520"
+type = "award"
+url = "https://sci22.iscie.or.jp/award/"
+
+[[record]]
+en_author = "Ryuta Iike"
+ja_author = "井池 隆太"
+en_giver = "The Executive Committee of the 66th Annual Conference of the Institute of Systems, Control and Information Engineers"
+ja_giver = "第66回システム制御情報学会研究発表講演会実行委員会"
+en_title = "The Award of the Excellent Student Presetation"
+ja_title = "SCI学生発表賞"
+publication_date = "20220519"
+type = "award"
+url = "https://sci22.iscie.or.jp/award/"
+
+[[record]]
 en_author = "Takahiro Baba"
 ja_author = "馬場 貴大"
 en_giver = "he Institute of Systems, Control and Information Engineers"
@@ -33,7 +55,7 @@ url = "https://www.t.kyoto-u.ac.jp/ja/news/topics/sa/20210705"
 [[record]]
 en_author = "Takahiro Baba"
 ja_author = "馬場 貴大"
-en_giver = "The Executive Committee of the 64rd Annual Conference of the Institute of Systems, Control and Information Engineers"
+en_giver = "The Executive Committee of the 65th Annual Conference of the Institute of Systems, Control and Information Engineers"
 ja_giver = "第65回システム制御情報学会研究発表講演会実行委員会"
 en_title = "The Award of the Excellent Student Presetation"
 ja_title = "SCI学生発表賞"
