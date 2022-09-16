@@ -1,4 +1,48 @@
 [[record]]
+publication_date = "20220906"
+ja_booktitle = "Proceedings of the SICE Annual Conference 2022"
+en_booktitle = "Proceedings of the SICE Annual Conference 2022"
+type = "international_conference"
+page_begin = "892"
+page_end = "895"
+reviewed = true
+invited = false
+en_title = "On an observer-based approach for continuous-time closed loop identification — Convexity and numerical evaluation"
+ja_title = "On an observer-based approach for continuous-time closed loop identification — Convexity and numerical evaluation"
+en_author = "Ichiro Maruta, Toshiharu Sugie"
+ja_author = "Ichiro Maruta, Toshiharu Sugie"
+outside_kuaero = false
+
+[[record]]
+publication_date = "20220906"
+ja_booktitle = "Proceedings of the SICE Annual Conference 2022"
+en_booktitle = "Proceedings of the SICE Annual Conference 2022"
+type = "international_conference"
+page_begin = "694"
+page_end = "697"
+reviewed = true
+invited = false
+en_title = "An Efficient Training Method of Optimal Neural Network Controller Based on Trajectory Database"
+ja_title = "An Efficient Training Method of Optimal Neural Network Controller Based on Trajectory Database"
+en_author = "Ryuta Iike, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "Ryuta Iike, Ichiro Maruta, Kenji Fujimoto"
+outside_kuaero = false
+
+[[record]]
+publication_date = "20220906"
+ja_booktitle = "Proceedings of the SICE Annual Conference 2022"
+en_booktitle = "Proceedings of the SICE Annual Conference 2022"
+type = "international_conference"
+page_begin = "559"
+page_end = "561"
+invited = false
+en_title = "Uniformization of Data Points in Trajectory Database for Optimal Control Using Coverage Control"
+ja_title = "Uniformization of Data Points in Trajectory Database for Optimal Control Using Coverage Control"
+en_author = "Takumi Wada, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "Takumi Wada, Ichiro Maruta, Kenji Fujimoto"
+outside_kuaero = false
+
+[[record]]
 publication_date = "20220501"
 ja_booktitle = "IEICE Transactions on Information and Systems"
 en_booktitle = "IEICE Transactions on Information and Systems"
@@ -1188,13 +1232,16 @@ page_begin = "141"
 page_end = "148"
 reviewed = true
 invited = false
+en_publisher = "システム制御情報学会"
+ja_publisher = "システム制御情報学会"
 en_title = "Simplification of Non-parametric PWA Models based on $\\ell_1$ Optimization"
 ja_title = "ノンパラメトリック区分的アフィンモデルの$\\ell_1$最適化に基づく単純化"
 en_author = "Yusuke Fujimoto, Ichiro Maruta, Toshiharu Sugie"
 ja_author = "藤本 悠介, 丸田 一郎, 杉江 俊治"
-doi = "10.5687/iscie.27.141"
 issn = "1342-5668"
 cinii_na_id = "40020039915"
+cinii_nc_id = "AN1013280X"
+doi = "10.5687/iscie.27.141"
 outside_kuaero = true
 
 [[record]]
@@ -1248,6 +1295,8 @@ page_begin = "763"
 page_end = "769"
 reviewed = true
 invited = false
+en_publisher = "The Society of Instrument and Control Engineers"
+ja_publisher = "The Society of Instrument and Control Engineers"
 en_title = "Identification of Continuous-time Systems Based on Signal Projection and Nuclear Norm Minimization"
 ja_title = "核ノルム最小化と射影を用いた連続時間システム同定"
 en_author = "Akira Hamano, Ichiro Maruta, Toshiharu Sugie"
@@ -1255,6 +1304,7 @@ ja_author = "濱野 晃, 丸田一郎, 杉江俊治"
 doi = "10.9746/sicetr.49.763"
 issn = "0453-4654"
 cinii_na_id = "40019791749"
+cinii_nc_id = "AN00072392"
 outside_kuaero = true
 
 [[record]]
@@ -1269,12 +1319,17 @@ page_begin = "670"
 page_end = "677"
 reviewed = true
 invited = false
+en_publisher = "The Society of Instrument and Control Engineers"
+ja_publisher = "The Society of Instrument and Control Engineers"
 en_title = "Continuous-time System Identification of Rechargeable Battery in Electric Vehicles in Consideration of Diffusion Phenomena"
 ja_title = "拡散現象を考慮した電気自動車用二次電池の連続時間システム同定"
 en_author = "Takahiro Kawaguchi, Ichiro Maruta, Atsushi Baba, Shuichi Adachi"
 ja_author = "川口 貴弘, 丸田 一郎, 馬場 厚志, 足立 修一"
 doi = "10.9746/sicetr.49.670"
+issn = "0453-4654"
 cinii_na_id = "40019776276"
+cinii_nc_id = "AN00072392"
+url = "https://jlc.jst.go.jp/DN/JALC/10021794956?from=CiNii"
 outside_kuaero = true
 
 [[record]]
@@ -1289,6 +1344,8 @@ page_begin = "727"
 page_end = "732"
 reviewed = true
 invited = false
+en_publisher = "The Society of Instrument and Control Engineers"
+ja_publisher = "The Society of Instrument and Control Engineers"
 en_title = "On Stabilization by Intelligent PID Control"
 ja_title = "知的PID制御系の安定化に関する一考察"
 en_author = "Inagaki Satoshi, Ichiro Maruta, Toshiharu Sugie"
@@ -1296,6 +1353,7 @@ ja_author = "稲垣 聡, 丸田 一郎, 杉江 俊治"
 doi = "10.9746/sicetr.49.727"
 issn = "0453-4654"
 cinii_na_id = "40019776484"
+cinii_nc_id = "AN00072392"
 outside_kuaero = true
 
 [[record]]
@@ -1310,12 +1368,16 @@ page_begin = "321"
 page_end = "330"
 reviewed = true
 invited = false
+en_publisher = "The Acoustical Society of Japan (ASJ)"
+ja_publisher = "一般社団法人日本音響学会"
 en_title = "Multidirectional simultaneous estimation of head-related transfer function in a 3-dimensional space by system identification"
 ja_title = "システム同定理論を用いた頭部伝達関数の3次元空間多方向同時推定"
 en_author = "Kentaro Ishikawa, Yurika Tokuzumi, Ichiro Maruta, Shuichi Adachi, Kentaro Matsui, Akio Ando"
 ja_author = "石川 健太郎, 徳住 ゆりか, 丸田 一郎, 足立 修一, 松井 健太郎, 安藤 彰男"
-doi = "10.20697/jasj.69.7_321"
+issn = "0369-4232"
 cinii_na_id = "110009624792"
+cinii_nc_id = "AN00186234"
+doi = "10.20697/jasj.69.7_321"
 url = "https://www.jstage.jst.go.jp/article/jasj/69/7/69_KJ00008760760/_article/-char/ja/"
 outside_kuaero = true
 
@@ -1331,12 +1393,17 @@ page_begin = "655"
 page_end = "657"
 reviewed = true
 invited = false
+en_publisher = "The Society of Instrument and Control Engineers"
+ja_publisher = "The Society of Instrument and Control Engineers"
 en_title = "Modeling of Systems with Circulation Using l1-norm Optimization"
 ja_title = "l1最適化を用いた循環構造を有するシステムのモデリング"
 en_author = "Kentaro Ishikawa, Ichiro Maruta, Shuichi Adachi"
 ja_author = "石川 健太郎, 丸田 一郎, 足立 修一"
 doi = "10.9746/sicetr.49.655"
+issn = "0453-4654"
 cinii_na_id = "40019756797"
+cinii_nc_id = "AN00072392"
+url = "https://jlc.jst.go.jp/DN/JALC/10020766053?from=CiNii"
 outside_kuaero = true
 
 [[record]]
@@ -1433,12 +1500,17 @@ page_begin = "281"
 page_end = "286"
 reviewed = true
 invited = false
+en_publisher = "THE INSTITUTE OF SYSTEMS, CONTROL AND INFORMATION ENGINEERS (ISCIE)"
+ja_publisher = "一般社団法人 システム制御情報学会"
 en_title = "A Demonstration Experiment on Stochastic Fluctuation for a Conjecture on the Control Performance Improvements"
 ja_title = "ゆらぎによる安定性能改善の仮説に基づいた実証実験"
 en_author = "Shun Ushida, Nobuhiro Shinohara, Shun-ichi Azuma, Ichiro Maruta, Toshiharu Sugie"
 ja_author = "牛田 俊, 篠原 暢宏, 東 俊一, 丸田 一郎, 杉江 俊治"
 doi = "10.5687/iscie.24.281"
+issn = "1342-5668"
 cinii_na_id = "10030510123"
+cinii_nc_id = "AN1013280X"
+url = "https://jlc.jst.go.jp/DN/JALC/00385601083?from=CiNii"
 outside_kuaero = true
 
 [[record]]
@@ -1532,12 +1604,17 @@ page_begin = "237"
 page_end = "244"
 reviewed = true
 invited = false
+en_publisher = "The Society of Instrument and Control Engineers"
+ja_publisher = "The Society of Instrument and Control Engineers"
 en_title = "Modeling of R/C Servo Motor and Application to Underactuated Mechanical Systems"
 ja_title = "Ｒ／Ｃサーボモータのモデリングと劣駆動機械系への応用"
 en_author = "Masato Ishikawa, Ryohei Kitayoshi, Takashi Wada, Ichiro Maruta, Toshiharu Sugie"
 ja_author = "石川 将人, 北吉 良平, 和田 尭, 丸田 一郎, 杉江 俊治"
 doi = "10.9746/sicetr.46.237"
+issn = "0453-4654"
 cinii_na_id = "10026208089"
+cinii_nc_id = "AN00072392"
+url = "https://jlc.jst.go.jp/DN/JALC/00350722133?from=CiNii"
 outside_kuaero = true
 
 [[record]]
@@ -1552,12 +1629,17 @@ page_begin = "133"
 page_end = "138"
 reviewed = true
 invited = false
+en_publisher = "The Society of Instrument and Control Engineers"
+ja_publisher = "The Society of Instrument and Control Engineers"
 en_title = "Projection-based Identification of Continuous-time Systems from a Single Set of I/O Data"
 ja_title = "反復実験の不要な射影型連続時間システム同定"
 en_author = "Ichiro Maruta, Toshiharu Sugie"
 ja_author = "丸田 一郎, 杉江 俊治"
 doi = "10.9746/sicetr.46.133"
+issn = "0453-4654"
 cinii_na_id = "10026207887"
+cinii_nc_id = "AN00072392"
+url = "https://jlc.jst.go.jp/DN/JALC/00349412595?from=CiNii"
 outside_kuaero = true
 
 [[record]]
@@ -1692,12 +1774,17 @@ page_begin = "144"
 page_end = "152"
 reviewed = true
 invited = false
+en_publisher = "The Society of Instrument and Control Engineers"
+ja_publisher = "The Society of Instrument and Control Engineers"
 en_title = "Reset-free Iterative Learning Control and Its Application to Continuous-time System Identification"
 ja_title = "初期化の不要な反復学習とその連続時間システム同定への応用"
 en_author = "Ichiro Maruta, Toshiharu Sugie"
 ja_author = "丸田 一郎, 杉江 俊治"
 doi = "10.9746/sicetr.45.144"
+issn = "0453-4654"
 cinii_na_id = "10024757978"
+cinii_nc_id = "AN00072392"
+url = "https://jlc.jst.go.jp/DN/JALC/00328830587?from=CiNii"
 outside_kuaero = true
 
 [[record]]
@@ -1772,12 +1859,16 @@ page_begin = "288"
 page_end = "290"
 reviewed = true
 invited = false
+en_publisher = "計測自動制御学会"
+ja_publisher = "計測自動制御学会"
 en_title = "Compensation of Actuator Nonlinearity Using Discrete-valued Input Control Based on Feedback Modulator"
 ja_title = "フィードバック変調器を用いた離散値入力制御におけるアクチュエータ非線形性の補償"
 en_author = "Masato Ishikawa, Ichiro Maruta, Toshiharu Sugie"
 ja_author = "石川 将人, 丸田 一郎, 杉江 俊治"
-doi = "10.9746/ve.sicetr1965.44.288"
+issn = "0453-4654"
 cinii_na_id = "10021990213"
+cinii_nc_id = "AN00072392"
+doi = "10.9746/ve.sicetr1965.44.288"
 url = "https://www.jstage.jst.go.jp/article/sicetr1965/44/3/44_288/_article/-char/ja/"
 outside_kuaero = true
 
@@ -1823,44 +1914,6 @@ doi = "10.1109/CDC.2007.4434126"
 issn = "0743-1546"
 wos_id = "WOS:000255181700123"
 url = "https://ieeexplore.ieee.org/document/4434126/authors#authors"
-outside_kuaero = true
-
-[[record]]
-publication_date = "20070702"
-ja_booktitle = "Proceedings of the European Control Conference (ECC'07)"
-en_booktitle = "Proceedings of the European Control Conference (ECC'07)"
-type = "international_conference"
-page_begin = "3269"
-page_end = "3274"
-reviewed = true
-invited = false
-en_title = "Practical Controller Design for Discrete-valued Input Systems using Feedback Modulators"
-ja_title = "Practical Controller Design for Discrete-valued Input Systems using Feedback Modulators"
-en_author = "Masato Ishikawa, Ichiro Maruta, Toshiharu Sugie"
-ja_author = "Masato Ishikawa, Ichiro Maruta, Toshiharu Sugie"
-doi = "10.23919/ECC.2007.7068292"
-url = "https://ieeexplore.ieee.org/document/7068292"
-outside_kuaero = true
-
-[[record]]
-publication_date = "20070131"
-ja_booktitle = "計測自動制御学会論文集"
-en_booktitle = "Transactions of the Society of Instrument and Control Engineers"
-type = "journal"
-lang = "ja"
-volume = "43"
-number = "1"
-page_begin = "31"
-page_end = "36"
-reviewed = true
-invited = false
-en_title = "Quantized Controller Design Using Feedback Modulators"
-ja_title = "フィードバック変調器を用いた離散値入力制御系の設計"
-en_author = "Masato Ishikawa, Ichiro Maruta, Toshiharu Sugie"
-ja_author = "石川 将人, 丸田 一郎, 杉江 俊治"
-doi = "10.9746/ve.sicetr1965.43.31"
-cinii_na_id = "10018479871"
-url = "https://www.jstage.jst.go.jp/article/sicetr1965/43/1/43_31/_article/-char/ja/"
 outside_kuaero = true
 
 [[record]]
@@ -2955,14 +3008,19 @@ en_booktitle = "Proceedings of the 60th Japan Joint Automatic Control Conference
 publication_date = "20171110"
 type = "domestic_conference"
 lang = "ja"
+volume = "60"
 page_begin = "SuD1-6"
+page_end = "1263"
 reviewed = false
 invited = false
+en_publisher = "The Japan Joint Automatic Control Conference"
+ja_publisher = "自動制御連合講演会"
 en_title = "Multi-rate State Estimation of Vehicles Using a Periodic Steady H∞ Filter"
 ja_title = "周期的定常H∞フィルタを用いた車両系のマルチレート状態推定"
 en_author = "Myu Uehara, Ichiro Maruta, Kenji Fujimoto, Kennichi Hamamoto"
 ja_author = "上原 水優, 丸田 一郎, 藤本 健治, 浜本 研一"
 doi = "10.11511/jacc.60.0_1258"
+cinii_na_id = "130006251172"
 outside_kuaero = false
 
 [[record]]
@@ -3006,13 +3064,18 @@ en_booktitle = "Proceetings of the 61st Annual Conference of the Institute of Sy
 publication_date = "20170523"
 type = "domestic_conference"
 lang = "ja"
+volume = "61"
 page_begin = "146-2"
 reviewed = false
 invited = false
+en_publisher = "システム制御情報学会"
+ja_publisher = "システム制御情報学会"
 en_title = "On Input Design for Kernel-Based System Identification with Frequency-Domain Weight"
 ja_title = "カーネル型システム同定における周波数重み付入力設計に関する考察"
 en_author = "Yusuke Fujimoto, Ichiro Maruta, Toshiharu Sugie"
 ja_author = "藤本 悠介, 丸田 一郎, 杉江 俊治"
+cinii_na_id = "40021219388"
+url = "http://id.ndl.go.jp/bib/028287682"
 outside_kuaero = true
 
 [[record]]
@@ -3021,13 +3084,18 @@ en_booktitle = "Proceedings of the 61st Annual Conference of the Institute of Sy
 publication_date = "20170523"
 type = "domestic_conference"
 lang = "ja"
+volume = "61"
 page_begin = "146-3"
 reviewed = false
 invited = false
+en_publisher = "システム制御情報学会"
+ja_publisher = "システム制御情報学会"
 en_title = "Study of closed-loop identification for Lure system with dead-zone nonlinearity"
 ja_title = "不感帯を含むルーリエ系に対する閉ループ同定の検討"
 en_author = "M. Itamoto, M. Inoue, Ichiro Maruta, Takahiro Kawaguchi, Shuichi Adachi"
 ja_author = "坂本 真輝, 井上 正樹, 丸田 一郎, 川口 貴弘, 足立 修一"
+cinii_na_id = "40021219395"
+url = "http://id.ndl.go.jp/bib/028287691"
 outside_kuaero = true
 
 [[record]]
@@ -3036,14 +3104,18 @@ en_booktitle = "Proceedings of the 61st Annual Conference of the Institute of Sy
 publication_date = "20170523"
 type = "domestic_conference"
 lang = "ja"
+volume = "61"
 page_begin = "311-6"
 reviewed = false
 invited = false
+en_publisher = "システム制御情報学会"
+ja_publisher = "システム制御情報学会"
 en_title = "Closed-loop identification of multicopter with data from manual operation"
 ja_title = "手動操縦データに基づくマルチコプターの閉ループ同定"
 en_author = "Takamasa Hori, Ichiro Maruta, Toshiharu Sugie"
 ja_author = "堀 隆昌, 丸田 一郎, 杉江 俊治"
 cinii_na_id = "40021220195"
+url = "http://id.ndl.go.jp/bib/028289024"
 outside_kuaero = true
 
 [[record]]
@@ -3234,13 +3306,18 @@ en_booktitle = "Proceedings of the 59th Annual Conference of the Institute of Sy
 publication_date = "20150520"
 type = "domestic_conference"
 lang = "ja"
+volume = "59"
 page_begin = "222-2"
 reviewed = false
 invited = false
+en_publisher = "システム制御情報学会"
+ja_publisher = "システム制御情報学会"
 en_title = "A Study on System Identification Using lebesgue-Sampled Data"
 ja_title = "ルベーグサンプリングを用いたシステム同定に関する一考察"
 en_author = "Sosaburo Hikono, Ichiro Maruta, Atsushi Baba, Shuichi Adachi"
 ja_author = "彦野 壮三朗, 丸田 一郎, 馬場 厚志, 足立 修一"
+cinii_na_id = "40020473620"
+url = "http://id.ndl.go.jp/bib/026412245"
 outside_kuaero = true
 
 [[record]]
@@ -3249,9 +3326,12 @@ en_booktitle = "Proceedings of the 59th Annual Conference of the Institute of Sy
 publication_date = "20150520"
 type = "domestic_conference"
 lang = "ja"
+volume = "59"
 page_begin = "324-5"
 reviewed = false
 invited = false
+en_publisher = "システム制御情報学会"
+ja_publisher = "システム制御情報学会"
 en_title = "Finite alphabet control with A* algorithm"
 ja_title = "A*アルゴリズムによる有限アルファベット制御"
 en_author = "Mami Yomoda, Ichiro Maruta, Toshiharu Sugie"
@@ -3265,9 +3345,12 @@ en_booktitle = "Proceedings of the 59th Annual Conference of the Institute of Sy
 publication_date = "20150520"
 type = "domestic_conference"
 lang = "ja"
+volume = "59"
 page_begin = "342-6"
 reviewed = false
 invited = false
+en_publisher = "システム制御情報学会"
+ja_publisher = "システム制御情報学会"
 en_title = "Subspace identification for positive systems"
 ja_title = "非負システムを対象とする部分空間同定法"
 en_author = "Kosei Inoue, Ichiro Maruta, Toshiharu Sugie"
@@ -3287,12 +3370,16 @@ page_begin = "180"
 page_end = "185"
 reviewed = false
 invited = true
+en_publisher = "Institute of Systems, Control and Information Engineers"
+ja_publisher = "システム制御情報学会"
 en_title = "Identification of Piecewise Affine Systems(<Special Issue>Recent Trends in System Identification and Estimation)"
 ja_title = "区分的アフィンシステムの同定(<特集>システム同定と推定の最近の動向)"
 en_author = "Ichiro Maruta"
 ja_author = "丸田 一郎"
-doi = "10.11509/isciesci.59.5_180"
+issn = "0916-1600"
 cinii_na_id = "110009944721"
+cinii_nc_id = "AN10062329"
+doi = "10.11509/isciesci.59.5_180"
 outside_kuaero = true
 
 [[record]]
@@ -3473,13 +3560,17 @@ en_booktitle = "Proceedings of the 58th Annual Conference of the Institute of Sy
 publication_date = "20140521"
 type = "domestic_conference"
 lang = "ja"
+volume = "58"
 page_begin = "321-3"
 reviewed = false
 invited = false
+en_publisher = "システム制御情報学会"
+ja_publisher = "システム制御情報学会"
 en_title = "Stabilization of an Inverted pendulum on a Quadcopter"
 ja_title = "クアッドコプター上の倒立振子の安定化"
 en_author = "Shin'ichiro Shirahori, Ichiro Maruta, Toshiharu Sugie"
 ja_author = "白堀慎一郎, 丸田一郎, 杉江俊治"
+cinii_na_id = "40020362838"
 j_global_id = "201402279428453413"
 outside_kuaero = true
 
@@ -4896,51 +4987,6 @@ url = "https://ieeexplore.ieee.org/document/6760783"
 outside_kuaero = false
 
 [[record]]
-publication_date = "20131103"
-ja_booktitle = "2013 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
-en_booktitle = "2013 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
-type = "international_conference"
-page_begin = "3108"
-page_end = "3113"
-reviewed = true
-invited = false
-en_publisher = "IEEE"
-ja_publisher = "IEEE"
-en_title = "On-demand Optimal Gait Generation for a Compass Biped Robot Based on the Double Generating Function Method"
-ja_title = "On-demand Optimal Gait Generation for a Compass Biped Robot Based on the Double Generating Function Method"
-en_author = "Zhiwei Hao, Kenji Fujimoto, Yoshikazu Hayakawa"
-ja_author = "Zhiwei Hao, Kenji Fujimoto, Yoshikazu Hayakawa"
-doi = "10.1109/IROS.2013.6696797"
-issn = "2153-0858"
-wos_id = "WOS:000331367403026"
-url = "https://ieeexplore.ieee.org/document/6696797"
-outside_kuaero = false
-
-[[record]]
-publication_date = "20130930"
-ja_booktitle = "計測自動制御学会論文集"
-en_booktitle = "Transactions of the Society of Instrument and Control Engineers"
-type = "journal"
-lang = "ja"
-volume = "49"
-number = "9"
-page_begin = "846"
-page_end = "854"
-reviewed = true
-invited = false
-en_publisher = "The Society of Instrument and Control Engineers"
-ja_publisher = "公益社団法人 計測自動制御学会"
-en_title = "Optimal Gait Generation via Trajectory Learning and Robot Parameter Tuning Based on Learning Optimal Control"
-ja_title = "学習最適制御に基づく軌道学習と身体パラメータ調整による最適歩容生成"
-en_author = "Satoshi Satoh, Kenji Fujimoto, Masami Saeki"
-ja_author = "佐藤 訓志, 藤本 健治, 佐伯 正美"
-doi = "10.9746/sicetr.49.846"
-issn = "0453-4654"
-cinii_na_id = "130004549757"
-url = "http://ci.nii.ac.jp/naid/130004549757/"
-outside_kuaero = false
-
-[[record]]
 ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム"
 en_booktitle = "The 7th Multi-symposium on Control Systems: MSCS2020"
 publication_date = "20200302"
@@ -5143,13 +5189,19 @@ en_booktitle = "Proceedings of the 60st Japan Joint Automatic Control Conference
 publication_date = "20171110"
 type = "domestic_conference"
 lang = "ja"
+volume = "60"
 page_begin = "SaE3-6"
+page_end = "688"
 reviewed = false
 invited = false
+en_publisher = "The Japan Joint Automatic Control Conference"
+ja_publisher = "自動制御連合講演会"
 en_title = "On Variable Impedance Control of Port-Hamiltonian Systems"
 ja_title = "ポートハミルトン系の可変インピーダンス制御について"
 en_author = "Yuki Okura, Kenji Fujimoto"
 ja_author = "大倉 裕貴, 藤本 健治"
+doi = "10.11511/jacc.60.0_683"
+cinii_na_id = "130006251440"
 j_global_id = "201802283672664789"
 outside_kuaero = false
 
@@ -5181,11 +5233,17 @@ page_begin = "650"
 page_end = "655"
 reviewed = true
 invited = true
+en_publisher = "The Society of Instrument and Control Engineers"
+ja_publisher = "公益社団法人 計測自動制御学会"
 en_title = "Construction of Robust Filters Using Beta Divergences"
 ja_title = "ベータダイバージェンスを用いたロバストフィルタの構築"
 en_author = "Shuichi Fukunaga, Kenji Fujimoto"
 ja_author = "福永 修一, 藤本 健治"
 doi = "10.11499/sicejl.56.650"
+issn = "0453-4662"
+cinii_na_id = "130006083188"
+cinii_nc_id = "AN00072406"
+url = "http://id.ndl.go.jp/bib/028541544"
 outside_kuaero = false
 
 [[record]]
@@ -5194,6 +5252,7 @@ en_booktitle = "Proceedings of the 61st Annual Conference of the Institute of Sy
 publication_date = "20170523"
 type = "domestic_conference"
 lang = "ja"
+volume = "61"
 page_begin = "321-3"
 reviewed = false
 invited = false
@@ -5213,6 +5272,7 @@ en_booktitle = "Proceedings of the 61st Annual Conference of the Institute of Sy
 publication_date = "20170523"
 type = "domestic_conference"
 lang = "ja"
+volume = "61"
 page_begin = "136-8"
 reviewed = false
 invited = false
@@ -5223,6 +5283,7 @@ ja_title = "ガウス過程回帰を用いたHamilton-Jacobi不等式の数値�
 en_author = "Hirofumi Beppu, Yuji Takaki, Kenji Fujimoto"
 ja_author = "別府 啓史, 高木 友士, 藤本 健治"
 cinii_na_id = "40021218878"
+url = "http://id.ndl.go.jp/bib/028286629"
 outside_kuaero = false
 
 [[record]]
@@ -5231,6 +5292,7 @@ en_booktitle = "Proceedings of the 61st Annual Conference of the Institute of Sy
 publication_date = "20170523"
 type = "domestic_conference"
 lang = "ja"
+volume = "61"
 page_begin = "321-2"
 reviewed = false
 invited = false
@@ -5240,8 +5302,8 @@ en_title = "On trajectory generation with state constraints for a four wheel rov
 ja_title = "二輪ローバーの状態制約を満たした軌道生成手法の検討"
 en_author = "Kiyoshi Hamada, Kenji Fujimoto, Kennichi Hamamoto"
 ja_author = "濱田 聖司, 藤本 健治, 浜本 研一"
-j_global_id = "201702244064539225"
 cinii_na_id = "40021220350"
+j_global_id = "201702244064539225"
 url = "https://ci.nii.ac.jp/naid/40021220350/"
 outside_kuaero = false
 
@@ -5547,13 +5609,20 @@ en_booktitle = "Proceedings of 59th Space Sciences and Technology Conference"
 publication_date = "20151007"
 type = "domestic_conference"
 lang = "ja"
+volume = "59"
 page_begin = "2J10"
 reviewed = false
 invited = false
+en_publisher = "日本航空宇宙学会"
+ja_publisher = "日本航空宇宙学会"
 en_title = "Study of obstacle avoidance problem for spacecrafts represented by port-Hamiltonian systems"
 ja_title = "ポート・ハミルトン系で表された宇宙機の障害物回避問題の検討"
 en_author = "Yuki Matsumoto, Kenji Fujimoto"
 ja_author = "松本 祐樹, 藤本 健治"
+issn = "1884-1945"
+cinii_na_id = "40020619428"
+cinii_nc_id = "AA11800503"
+url = "http://id.ndl.go.jp/bib/026804545"
 outside_kuaero = false
 
 [[record]]
@@ -5562,6 +5631,7 @@ en_booktitle = "Proceedings of the 59th Annual Conference of the Institute of Sy
 publication_date = "20150520"
 type = "domestic_conference"
 lang = "ja"
+volume = "59"
 page_begin = "154-4"
 reviewed = false
 invited = false
@@ -5571,7 +5641,7 @@ en_title = "Stabilization of spacecrafts represented by port-Hamiltonian sysems 
 ja_title = "ポート・ハミルトン系で表された宇宙機の偏差クォータニオンフィードバック安定化"
 en_author = "Yuki Matsumoto, Kenji Fujimoto"
 ja_author = "松本 祐樹, 藤本 健治"
-url = "https://ci.nii.ac.jp/naid/40020472905"
+cinii_na_id = "40020472905"
 outside_kuaero = false
 
 [[record]]
@@ -5580,6 +5650,7 @@ en_booktitle = "Proceedings of the 59th Annual Conference of the Institute of Sy
 publication_date = "20150520"
 type = "domestic_conference"
 lang = "ja"
+volume = "59"
 page_begin = "324-1"
 reviewed = false
 invited = false
@@ -5589,8 +5660,8 @@ en_title = "Model reduction for dynamically substructured systems based on balan
 ja_title = "平衡化打切法を用いたdynamically substructured sytemsのモデル低次元化"
 en_author = "Yusuke Shiomi, Kenji Fujimoto"
 ja_author = "塩見 勇祐, 藤本 健治"
-j_global_id = "201502223443531384"
 cinii_na_id = "40020474779"
+j_global_id = "201502223443531384"
 url = "http://ci.nii.ac.jp/naid/40020474779/"
 outside_kuaero = false
 
@@ -5600,6 +5671,7 @@ en_booktitle = "Proceedings of the 59th Annual Conference of the Institute of Sy
 publication_date = "20150520"
 type = "domestic_conference"
 lang = "ja"
+volume = "59"
 page_begin = "264-3"
 reviewed = false
 invited = false
@@ -5609,8 +5681,8 @@ en_title = "System identification for ARMAX models based on the variational Baye
 ja_title = "変分ベイズ法に基づくARMAXモデルのシステム同定"
 en_author = "Yuji Takaki, Kenji Fujimoto"
 ja_author = "高木 友士, 藤本 健治"
-j_global_id = "201502246135150647"
 cinii_na_id = "40020473987"
+j_global_id = "201502246135150647"
 url = "http://ci.nii.ac.jp/naid/40020473987/"
 outside_kuaero = false
 
@@ -5620,6 +5692,7 @@ en_booktitle = "Proceedings of the 59th Annual Conference of the Institute of Sy
 publication_date = "20150520"
 type = "domestic_conference"
 lang = "ja"
+volume = "59"
 page_begin = "144-4"
 reviewed = false
 invited = false
@@ -5629,8 +5702,8 @@ en_title = "Optimal trajectory generation for non-linear system via double gener
 ja_title = "非線形系に対する二重母関数法を用いた最適軌道生成の数値計算"
 en_author = "Hogyo Hoshiyama, Kenji Fujimoto"
 ja_author = "星山 法行, 藤本 健治"
-j_global_id = "201502275468758910"
 cinii_na_id = "40020472374"
+j_global_id = "201502275468758910"
 url = "http://ci.nii.ac.jp/naid/40020472374/"
 outside_kuaero = false
 
@@ -5652,6 +5725,9 @@ en_title = "SCI'14 ―The 58th Annual Conference of ISCIE"
 ja_title = "研究発表講演会SCI'14を開催して"
 en_author = "Kenji Fujimoto"
 ja_author = "藤本 健治"
+issn = "0916-1600"
+cinii_na_id = "110009930864"
+cinii_nc_id = "AN10062329"
 url = "https://www.jstage.jst.go.jp/article/isciesci/59/4/59_KJ00009904412/_pdf/-char/en"
 outside_kuaero = false
 
