@@ -182,99 +182,19 @@
                 {{- if .r.publication_date }}
                 <span class="year" style="margin-left:0.3em;">({{- partial "format-date.html" (dict "date" .r.publication_date "lang" $page_lang) }})</span>
                 {{- end }}
-
-                {{- if or .r.doi .r.cinii_na_id .r.cinii_nc_id .r.j_global_id .r.url .r.issn .r.e_issn .r.isbn}}
+                {{ with .r.ids }}
                 <div class="field is-grouped is-grouped-multiline" style="margin-top:0.2em;">
-                    {{- if .r.doi -}}
-                    <div class="control" style="vertical-align:0.05em;">
-                        <a href="https://doi.org/{{ .r.doi }}">
-                            <div class="tags has-addons">
-                                <span class="tag is-primary" style="font-size: 60%; font-weight:700">DOI</span>
-                                <span class="tag is-primary" style="font-size: 60%; font-weight:400"><span
-                                        class="limitter">{{ .r.doi }}</span></span>
-                            </div>
-                        </a>
-                    </div>
-                    {{- end -}}
-
-                    {{- if .r.cinii_na_id }}
-                    <div class="control" style="vertical-align:0.05em;">
-                        <a href="https://ci.nii.ac.jp/naid/{{ .r.cinii_na_id }}/">
-                            <div class="tags has-addons">
-                                <span class="tag is-primary" style="font-size: 60%; font-weight:700">CiNii</span>
-                                <span class="tag is-primary" style="font-size: 60%; font-weight:400"><span
-                                        class="limitter">{{ .r.cinii_na_id }}</span></span>
-                            </div>
-                        </a>
-                    </div>
-                    {{- end -}}
-
-                    {{- if .r.cinii_nc_id }}
-                    <div class="control" style="vertical-align:0.05em;">
-                        <a href="https://ci.nii.ac.jp/ncid/{{ .r.cinii_nc_id }}/">
-                            <div class="tags has-addons">
-                                <span class="tag is-primary" style="font-size: 60%; font-weight:700">CiNii</span>
-                                <span class="tag is-primary" style="font-size: 60%; font-weight:400"><span
-                                        class="limitter">{{ .r.cinii_nc_id }}</span></span>
-                            </div>
-                        </a>
-                    </div>
-                    {{- end -}}
-
-                    {{- if .r.j_global_id }}
-                    <div class="control" style="vertical-align:0.05em;">
-                        <a href="http://jglobal.jst.go.jp/detail?JGLOBAL_ID={{ .r.j_global_id }}">
-                            <div class="tags has-addons">
-                                <span class="tag is-primary" style="font-size: 60%; font-weight:700">J-GLOBAL ID</span>
-                                <span class="tag is-primary" style="font-size: 60%; font-weight:400"><span
-                                        class="limitter">{{ .r.j_global_id }}</span></span>
-                            </div>
-                        </a>
-                    </div>
-                    {{- end -}}
-
-                    {{- if .r.url }}
-                    <div class="control" style="vertical-align:0.05em;">
-                        <a href="{{ .r.url }}">
-                            <div class="tags has-addons">
-                                <span class="tag is-primary" style="font-size: 60%; font-weight:700">URL</span>
-                                <span class="tag is-primary" style="font-size: 60%; font-weight:400"><span
-                                        class="limitter">{{ .r.url }}</span></span>
-                            </div>
-                        </a>
-                    </div>
-                    {{- end }}
-
-                    {{- if .r.isbn }}
-                    <div class="control" style="vertical-align:0.05em;">
-                        <div class="tags has-addons">
-                            <span class="tag is-white" style="font-size: 60%; font-weight:700">ISBN</span>
-                            <span class="tag is-white" style="font-size: 60%; font-weight:400"><span
-                                    class="limitter">{{ .r.isbn }}</span></span>
-                        </div>
-                    </div>
-                    {{- end }}
-
-                    {{- if .r.issn }}
-                    <div class="control" style="vertical-align:0.05em;">
-                        <div class="tags has-addons">
-                            <span class="tag is-white" style="font-size: 60%; font-weight:700">ISSN</span>
-                            <span class="tag is-white" style="font-size: 60%; font-weight:400"><span
-                                    class="limitter">{{ .r.issn }}</span></span>
-                        </div>
-                    </div>
-                    {{- end }}
-
-                    {{- if .r.e_issn }}
-                    <div class="control" style="vertical-align:0.05em;">
-                        <div class="tags has-addons">
-                            <span class="tag is-white" style="font-size: 60%; font-weight:700">e-ISSN</span>
-                            <span class="tag is-white" style="font-size: 60%; font-weight:400"><span
-                                    class="limitter">{{ .r.e_issn }}</span></span>
-                        </div>
-                    </div>
-                    {{- end }}
-                    
+                    {{ range . }}
+                        <div class="control" style="vertical-align:0.05em;">
+                            {{ with .url }} <a href="{{.}}"> {{ end }}
+                                <div class="tags has-addons">
+                                    <span class="tag {{ if .url }}is-primary{{else}}is-white {{end}}" style="font-size: 60%; font-weight:700">{{ .label }}</span>
+                                    <span class="tag {{ if .url }}is-primary{{else}}is-white {{end}}" style="font-size: 60%; font-weight:400"><span
+                                            class="limitter">{{ .id }}</span></span>
+                                </div>
+                            {{ with .url }} </a> {{ end }}
+                        </div>                    
+                    {{ end }}
                 </div>
                 {{- end }}
 

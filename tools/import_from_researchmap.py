@@ -1,5 +1,6 @@
 import requests,json,sys,os, time
 import toml
+from urllib.parse import urlparse
 from pprint import pprint
 
 requests.packages.urllib3.util.ssl_.DEFAULT_CIPHERS += ':HIGH:!DH:!aNULL'
@@ -171,40 +172,149 @@ for i in items.values():
             ja_authors = en_authors
         record['ja_author'] = ', '.join(ja_authors)
         
-        for idtype, idval in i.get('identifiers',{}).items():
-            record[idtype] = idval[0]
+        ids = {}
+
+        for idtype,idval in i.get('identifiers',{}).items():
+            idstr = idval[0]+""
+            if idtype == "doi":
+                ids[idtype] = {
+                    'label': "DOI",
+                    'id': idstr,
+                    "url": "https://doi.org/"+idstr
+                }
+            elif idtype == "cinii_na_id":
+                ids[idtype] = {
+                    'label': "CiNii",
+                    'id': idstr,
+                    "url": "https://ci.nii.ac.jp/naid/"+idstr
+                }
+            elif idtype == "cinii_nc_id":
+                ids[idtype] = {
+                    'label': "CiNii",
+                    'id': idstr,
+                    "url": "https://ci.nii.ac.jp/ncid/"+idstr
+                }
+            elif idtype == "cinii_cr_id":
+                ids[idtype] = {
+                    'label': "CiNii",
+                    'id': idstr,
+                    "url": "https://cir.nii.ac.jp/crid/"+idstr
+                }                
+            elif idtype == "j_global_id":
+                ids[idtype] = {
+                    'label': "J-GLOBAL ID",
+                    'id': idstr,
+                    "url": "http://jglobal.jst.go.jp/detail?JGLOBAL_ID="+idstr
+                }
+            elif idtype == "issn":
+                ids[idtype] = {
+                    'label': "ISSN",
+                    'id': idstr,
+                }
+            elif idtype == "isbn":
+                ids[idtype] = {
+                    'label': "ISBN",
+                    'id': idstr,
+                }
+            elif idtype == "e_issn":
+                ids[idtype] = {
+                    'label': "e-ISSN",
+                    'id': idstr,
+                }
+            elif idtype == "dblp_id":
+                ids[idtype] = {
+                    'label': "DBLP",
+                    'id': idstr,
+                    'url': 'https://dblp.uni-trier.de/rec/'+idstr
+                }    
+            elif idtype == "arxiv_id":
+                ids[idtype] = {
+                    'label': "arXiv",
+                    'id': idstr.split(':')[1],
+                    "url": "http://arxiv.org/abs/"+idstr
+                }                  
+            elif idtype == "scopus_id":
+                # Scopus ID はとりあえず無視（文献のIDに対応するページが不明）
+                continue
+            elif idtype == "wos_id":
+                # Web of Science ID はとりあえず無視（文献のIDに対応するページが不明）
+                continue
+            else:
+                raise Exception('Unknown id type: '+idtype)      
+
         for info in i.get('see_also',[]):
-            if info['label'] == 'url':
-                record['url'] = info['@id']
-            elif info['label'] == 'doi':
-                if not 'doi' in record:
-                    raise Exception('doi is not contained in appropriate form')
-            elif info['label'] == 'wos':
-                if not 'wos_id' in record:
-                    raise Exception('wos is not contained in appropriate form')
-            elif info['label'] == 'cinii':
-                if not 'cinii_na_id' in record:
-                    raise Exception('cinii_na_id is not contained in appropriate form')
-            elif info['label'] == 'cinii_nr_id':
-                if not 'cinii_nr_id' in record:
-                    raise Exception('cinii_nr_id is not contained in appropriate form')
-            elif info['label'] == 'j_global':
-                if not 'j_global_id' in record:
-                    raise Exception('j_global_id is not contained in appropriate form')
-            elif info['label'] == 'cinii_books':
-                if not 'cinii_nc_id' in record:
-                    raise Exception('cinii_nc_id is not contained in appropriate form')
-            elif info['label'] == 'cinii_articles':
-                if not 'cinii_na_id' in record:
-                    raise Exception('see_also label is cinii_articles cinii_na_id is not contained in appropriate form')
+            id_parsed = urlparse(info['@id'])
+            fragments = id_parsed.path.split('/')
+            if info['label'] == 'arxiv':
+                ids['arxiv_id'] = {
+                    'label': "arXiv",
+                    'id': id_parsed.path.split(':')[1],
+                    "url": info['@id']
+                }  
+            elif info['label'] == 'DBLP':
+                ids['DBLP'] = {
+                    'label': "DBLP",
+                    'id': '/'.join(fragments[2:]),
+                    "url": info['@id']
+                } 
+            elif id_parsed.hostname == 'doi.org':
+                if 'doi' in ids:
+                    continue
+                else:
+                    ids['doi'] = {
+                        'label': "DOI",
+                        'id': '/'.join(fragments[1:]),
+                        "url": info['@id']
+                    } 
+ 
             elif info['label'] == 'web_of_science':
-                if not 'wos_id' in record:
-                    raise Exception('see_also label is web_of_science wos_id is not contained in appropriate form')
-            elif info['label'] == 'arxiv':
-                record['url'] = info['@id']
+                # Web of Science ID はとりあえず無視
+                continue
+            elif id_parsed.hostname == 'ci.nii.ac.jp' or id_parsed.hostname == 'cir.nii.ac.jp':
+                if fragments[1] == 'naid':
+                    ids['cinii_na_id'] = {
+                        'label': "CiNii",
+                        'id': fragments[2],
+                        "url": info['@id']
+                    }
+                elif fragments[1] == 'ncid':
+                    ids['cinii_nc_id'] = {
+                        'label': "CiNii",
+                        'id': fragments[2],
+                        "url": info['@id']
+                    }
+                elif fragments[1] == 'crid':
+                    ids['cinii_cr_id'] = {
+                        'label': "CiNii",
+                        'id': fragments[2],
+                        "url": info['@id']
+                    }
+                else:
+                   raise Exception('unknown cinii URL: '+info['@id']) 
+            elif info["label"] == 'j_global':
+                if 'j_global_id' in ids:
+                    continue
+                else:
+                    raise Exception('j_global exists in see_also but not in identifier')
+            elif info['label'] == 'url':
+                if id_parsed.hostname == 'arxiv.org':
+                    if not ('arxiv_id' in ids):
+                        ids['arxiv_id'] = {
+                            'label': "arXiv",
+                            'id': fragments[2],
+                            "url": info['@id']
+                        }
+                else:
+                    ids['url'] = {
+                        'label': "URL",
+                        'id': info['@id'],
+                        "url": info['@id']
+                    }
             else:
                 pprint(i)
-                raise Exception('unknown see_also type')
+                raise Exception('unknown see_also type: '+info['label'])
+        if len(ids)>0:
+            record["ids"] = ids
         record['outside_kuaero'] = not i.get('inlab')
     except Exception as e:
         pprint(i)
