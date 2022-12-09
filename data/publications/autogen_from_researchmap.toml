@@ -1287,9 +1287,9 @@ url = "https://doi.org/10.9746/sicetr.51.494"
 [record.ids.issn]
 label = "ISSN"
 id = "0453-4654"
-[record.ids.url]
-label = "URL"
-id = "http://jglobal.jst.go.jp/detail.php?from=API&JGLOBAL_ID=201502205374534956"
+[record.ids.j_global_id]
+label = "J-GLOBAL ID"
+id = "201502205374534956"
 url = "http://jglobal.jst.go.jp/detail.php?from=API&JGLOBAL_ID=201502205374534956"
 [[record]]
 publication_date = "20150728"
@@ -2999,9 +2999,9 @@ en_author = "Naoki Sakata, Kenji Fujimoto, Ichiro Maruta"
 ja_author = "坂田 直樹, 藤本 健治, 丸田 一郎"
 outside_kuaero = false
 
-[record.ids.url]
-label = "URL"
-id = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202102264087905275"
+[record.ids.j_global_id]
+label = "J-GLOBAL ID"
+id = "202102264087905275"
 url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202102264087905275"
 [[record]]
 ja_booktitle = "第64回システム制御情報学会研究発表講演会講演論文集"
@@ -3078,9 +3078,9 @@ en_author = "Keisuke Tanaka, Ichiro Maruta, Kenji Fujimoto, Y. Nishida:T. One, T
 ja_author = "田中 恵輔, 丸田 一郎, 藤本 健治, 西田 吉晴, 大根 努, 藤井 達也"
 outside_kuaero = false
 
-[record.ids.url]
-label = "URL"
-id = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002228413717294"
+[record.ids.j_global_id]
+label = "J-GLOBAL ID"
+id = "202002228413717294"
 url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002228413717294"
 [[record]]
 ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム"
@@ -3117,9 +3117,9 @@ en_author = "Risako Sasaki, Ichiro Maruta, Shuichi Adachi, Junpei Katashiba, Ken
 ja_author = "佐々木 理沙子, 丸田 一郎, 足立 修一, 片芝 惇平, 長村 謙介"
 outside_kuaero = false
 
-[record.ids.url]
-label = "URL"
-id = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002274182528636"
+[record.ids.j_global_id]
+label = "J-GLOBAL ID"
+id = "202002274182528636"
 url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002274182528636"
 [[record]]
 ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム"
@@ -3136,9 +3136,9 @@ en_author = "Hirofumi Beppu, Ichiro Maruta, Kenji Fujimoto"
 ja_author = "別府 啓史, 丸田 一郎, 藤本 健治"
 outside_kuaero = false
 
-[record.ids.url]
-label = "URL"
-id = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002236425437216"
+[record.ids.j_global_id]
+label = "J-GLOBAL ID"
+id = "202002236425437216"
 url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002236425437216"
 [[record]]
 ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム"
@@ -3155,9 +3155,9 @@ en_author = "Tomohiro Otsu, Ichiro Maruta, Kenji Fujimoto"
 ja_author = "大津 智宏, 丸田 一郎, 藤本 健治"
 outside_kuaero = false
 
-[record.ids.url]
-label = "URL"
-id = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002216061824259"
+[record.ids.j_global_id]
+label = "J-GLOBAL ID"
+id = "202002216061824259"
 url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002216061824259"
 [[record]]
 ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム"
@@ -3174,9 +3174,9 @@ en_author = "Ichiro Maruta, M. Watanabe, Kenji Kashima"
 ja_author = "丸田 一郎, 渡部 萌恵, 加嶋 健司"
 outside_kuaero = false
 
-[record.ids.url]
-label = "URL"
-id = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002214089232339"
+[record.ids.j_global_id]
+label = "J-GLOBAL ID"
+id = "202002214089232339"
 url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002214089232339"
 [[record]]
 ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム"
@@ -3193,9 +3193,9 @@ en_author = "Kiyoshi Hamada, Pablo Borja, Jacquelien M.A. Scherpen, Kenji Fujimo
 ja_author = "濱田 聖司, Pablo Borja, Jacquelien M.A. Scherpen, 藤本 健治, 丸田 一郎"
 outside_kuaero = false
 
-[record.ids.url]
-label = "URL"
-id = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002296435887611"
+[record.ids.j_global_id]
+label = "J-GLOBAL ID"
+id = "202002296435887611"
 url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002296435887611"
 [[record]]
 ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム"
@@ -3212,9 +3212,9 @@ en_author = "Ryoyaro Shima, Kenji Fujimoto, Ichiro Maruta"
 ja_author = "島 遼太朗, 藤本 健治, 丸田 一郎"
 outside_kuaero = false
 
-[record.ids.url]
-label = "URL"
-id = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002268842077934"
+[record.ids.j_global_id]
+label = "J-GLOBAL ID"
+id = "202002268842077934"
 url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002268842077934"
 [[record]]
 ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム"
@@ -3231,9 +3231,9 @@ en_author = "Hiroki Nakagawa, Kenji Fujimoto, Ichiro Maruta"
 ja_author = "中川 弘喜, 藤本 健治, 丸田 一郎"
 outside_kuaero = false
 
-[record.ids.url]
-label = "URL"
-id = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002262370024523"
+[record.ids.j_global_id]
+label = "J-GLOBAL ID"
+id = "202002262370024523"
 url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002262370024523"
 [[record]]
 ja_booktitle = "第56回日本航空宇宙学会関西･中部支部合同秋季大会論文集"
@@ -3310,9 +3310,9 @@ en_author = "Tasuku Kodama, Kenji Fujimoto, Ichiro Maruta"
 ja_author = "児玉 匡, 藤本 健治, 丸田 一郎"
 outside_kuaero = false
 
-[record.ids.url]
-label = "URL"
-id = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201902214591044817"
+[record.ids.j_global_id]
+label = "J-GLOBAL ID"
+id = "201902214591044817"
 url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201902214591044817"
 [[record]]
 ja_booktitle = "第63回システム制御情報学会研究発表講演会講演論文集"
@@ -3395,9 +3395,9 @@ en_author = "Hiroaki Hashimoto, Kenji Fujimoto, Ichiro Maruta"
 ja_author = "橋本 宙明, 藤本 健治, 丸田 一郎"
 outside_kuaero = false
 
-[record.ids.url]
-label = "URL"
-id = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201902284569385498"
+[record.ids.j_global_id]
+label = "J-GLOBAL ID"
+id = "201902284569385498"
 url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201902284569385498"
 [[record]]
 ja_booktitle = "第6回 計測自動制御学会 制御部門マルチシンポジウム 予稿集"
@@ -3414,9 +3414,9 @@ en_author = "Kiyoshi Hamada, Ichiro Maruta, Kenji Fujimoto, Kenniti Hamamoto"
 ja_author = "濱田 聖司, 丸田 一郎, 藤本 健治, 浜本 研一"
 outside_kuaero = false
 
-[record.ids.url]
-label = "URL"
-id = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201902225992796637"
+[record.ids.j_global_id]
+label = "J-GLOBAL ID"
+id = "201902225992796637"
 url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201902225992796637"
 [[record]]
 ja_booktitle = "第6回 計測自動制御学会 制御部門マルチシンポジウム 予稿集"
@@ -3453,9 +3453,9 @@ en_author = "Risako Sasaki, Takahiro Kawaguchi, Ichiro Maruta, Shuichi Adachi, J
 ja_author = "佐々木 理沙子, 川口 貴弘, 丸田 一郎, 足立 修一, 片芝 惇平, 長村 謙介"
 outside_kuaero = false
 
-[record.ids.url]
-label = "URL"
-id = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201902284346695520"
+[record.ids.j_global_id]
+label = "J-GLOBAL ID"
+id = "201902284346695520"
 url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201902284346695520"
 [[record]]
 ja_booktitle = "第6回 計測自動制御学会 制御部門マルチシンポジウム 予稿集"
@@ -3472,9 +3472,9 @@ en_author = "Hirofumi Beppu, Ichiro Maruta, Kenji Fujimoto"
 ja_author = "別府 啓史, 丸田 一郎, 藤本 健治"
 outside_kuaero = false
 
-[record.ids.url]
-label = "URL"
-id = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201902226975359131"
+[record.ids.j_global_id]
+label = "J-GLOBAL ID"
+id = "201902226975359131"
 url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201902226975359131"
 [[record]]
 ja_booktitle = "第61回自動制御連合講演会講演論文集"
@@ -4076,10 +4076,6 @@ outside_kuaero = true
 [record.ids.j_global_id]
 label = "J-GLOBAL ID"
 id = "201602209534047773"
-url = "http://jglobal.jst.go.jp/detail?JGLOBAL_ID=201602209534047773"
-[record.ids.url]
-label = "URL"
-id = "http://jglobal.jst.go.jp/public/201602209534047773"
 url = "http://jglobal.jst.go.jp/public/201602209534047773"
 [[record]]
 ja_booktitle = "第59回システム制御情報学会研究発表講演会講演論文集"
@@ -6249,9 +6245,9 @@ en_author = "Keisuke Tanaka, Ichiro Maruta, Kenji Fujimoto, Yoshiharu Nishida, T
 ja_author = "田中 恵輔, 丸田 一郎, 藤本 健治, 西田 吉晴, 大根 努, 藤井 達也"
 outside_kuaero = false
 
-[record.ids.url]
-label = "URL"
-id = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002228413717294"
+[record.ids.j_global_id]
+label = "J-GLOBAL ID"
+id = "202002228413717294"
 url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002228413717294"
 [[record]]
 ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム"
@@ -6268,9 +6264,9 @@ en_author = "Yuki Okura, Kenji Fujimoto, C. Kojima"
 ja_author = "大倉 裕貴, 藤本 健治, 小島 千昭"
 outside_kuaero = false
 
-[record.ids.url]
-label = "URL"
-id = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002282629086704"
+[record.ids.j_global_id]
+label = "J-GLOBAL ID"
+id = "202002282629086704"
 url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002282629086704"
 [[record]]
 ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム"
@@ -6287,9 +6283,9 @@ en_author = "T. Jimbo, T. Ozaki, Y. Amano, Kenji Fujimoto"
 ja_author = "神保 智彦, 尾崎 貴志, 天野 也寸志, 藤本 健治"
 outside_kuaero = false
 
-[record.ids.url]
-label = "URL"
-id = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002236404405272"
+[record.ids.j_global_id]
+label = "J-GLOBAL ID"
+id = "202002236404405272"
 url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002236404405272"
 [[record]]
 ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム"
@@ -6306,9 +6302,9 @@ en_author = "Ryotaro Shima, Kenji Fujimoto, Ichiro Maruta"
 ja_author = "島 遼太朗, 藤本 健治, 丸田 一郎"
 outside_kuaero = false
 
-[record.ids.url]
-label = "URL"
-id = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002268842077934"
+[record.ids.j_global_id]
+label = "J-GLOBAL ID"
+id = "202002268842077934"
 url = "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202002268842077934"
 [[record]]
 ja_booktitle = "第61回自動制御連合講演会講演論文集"

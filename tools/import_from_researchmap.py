@@ -2,6 +2,7 @@ import requests,json,sys,os, time
 import toml
 from urllib.parse import urlparse
 from pprint import pprint
+import re
 
 requests.packages.urllib3.util.ssl_.DEFAULT_CIPHERS += ':HIGH:!DH:!aNULL'
 
@@ -302,6 +303,15 @@ for i in items.values():
                         ids['arxiv_id'] = {
                             'label': "arXiv",
                             'id': fragments[2],
+                            "url": info['@id']
+                        }
+                elif id_parsed.hostname == 'jglobal.jst.go.jp':
+                    m = re.search(r'(\d{18})',info['@id'])
+                    print(m)
+                    if m:
+                        ids['j_global_id'] = {
+                            'label': "J-GLOBAL ID",
+                            'id': m.group(0),
                             "url": info['@id']
                         }
                 else:
