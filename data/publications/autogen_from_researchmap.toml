@@ -1,4 +1,82 @@
 [[record]]
+publication_date = "20230104"
+ja_booktitle = "Preprints, 12th IFAC Symposium on Nonlinear Control Systems (NOLCOS2022)"
+en_booktitle = "Preprints, 12th IFAC Symposium on Nonlinear Control Systems (NOLCOS2022)"
+type = "papers_symposium"
+page_begin = "150"
+page_end = "155"
+reviewed = true
+invited = false
+en_title = "New potential functions for passivity based sliding mode control"
+ja_title = "New potential functions for passivity based sliding mode control"
+en_author = "Naoki Sakata, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "Naoki Sakata, Kenji Fujimoto, Ichiro Maruta"
+outside_kuaero = false
+
+[[record]]
+publication_date = "20230104"
+ja_booktitle = "Preprints, 12th IFAC Symposium on Nonlinear Control Systems (NOLCOS2022)"
+en_booktitle = "Preprints, 12th IFAC Symposium on Nonlinear Control Systems (NOLCOS2022)"
+type = "papers_symposium"
+page_begin = "102"
+page_end = "107"
+reviewed = true
+invited = false
+en_title = "Subspace State-Space Identification of Nonlinear Dynamical System Using Deep Neural Network with a Bottleneck"
+ja_title = "Subspace State-Space Identification of Nonlinear Dynamical System Using Deep Neural Network with a Bottleneck"
+en_author = "Keito Yamada, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "Keito Yamada, Ichiro Maruta, Kenji Fujimoto"
+outside_kuaero = false
+
+[[record]]
+publication_date = "20221206"
+ja_booktitle = "Proceedings of the 61st IEEE Conference on Decision and Control (CDC22)"
+en_booktitle = "Proceedings of the 61st IEEE Conference on Decision and Control (CDC22)"
+type = "international_conference"
+page_begin = "2172"
+page_end = "2177"
+reviewed = true
+invited = false
+en_title = "Direct closed-loop identification of continuous-time systems using fixed-pole observer model"
+ja_title = "Direct closed-loop identification of continuous-time systems using fixed-pole observer model"
+en_author = "Ichiro Maruta, Toshiharu Sugie"
+ja_author = "Ichiro Maruta, Toshiharu Sugie"
+outside_kuaero = false
+
+[record.ids.doi]
+label = "DOI"
+id = "10.1109/CDC51059.2022.9993074"
+url = "https://doi.org/10.1109/CDC51059.2022.9993074"
+[record.ids.url]
+label = "URL"
+id = "https://ieeexplore.ieee.org/document/9993074"
+url = "https://ieeexplore.ieee.org/document/9993074"
+[[record]]
+publication_date = "20221206"
+ja_booktitle = "Proceedings of the 61st IEEE Conference on Decision and Control (CDC22)"
+en_booktitle = "Proceedings of the 61st IEEE Conference on Decision and Control (CDC22)"
+type = "international_conference"
+page_begin = "7443"
+page_end = "7448"
+reviewed = true
+invited = false
+en_publisher = "IEEE"
+ja_publisher = "IEEE"
+en_title = "ℓ1-Optimal Newton Method for Nonlinear ℓ1-Optimal Control Problem"
+ja_title = "ℓ1-Optimal Newton Method for Nonlinear ℓ1-Optimal Control Problem"
+en_author = "Kiyoshi Hamada, Keitaro Yamamoto, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "Kiyoshi Hamada, Keitaro Yamamoto, Kenji Fujimoto, Ichiro Maruta"
+outside_kuaero = false
+
+[record.ids.doi]
+label = "DOI"
+id = "10.1109/CDC51059.2022.9993320"
+url = "https://doi.org/10.1109/CDC51059.2022.9993320"
+[record.ids.url]
+label = "URL"
+id = "https://ieeexplore.ieee.org/document/9993320"
+url = "https://ieeexplore.ieee.org/document/9993320"
+[[record]]
 publication_date = "20220906"
 ja_booktitle = "Proceedings of the SICE Annual Conference 2022"
 en_booktitle = "Proceedings of the SICE Annual Conference 2022"
@@ -2356,122 +2434,6 @@ label = "URL"
 id = "https://ieeexplore.ieee.org/document/4738992"
 url = "https://ieeexplore.ieee.org/document/4738992"
 [[record]]
-publication_date = "20080706"
-ja_booktitle = "Proceedings of the 17th IFAC World Congress"
-en_booktitle = "Proceedings of the 17th IFAC World Congress"
-type = "international_conference"
-page_begin = "7843"
-page_end = "7848"
-reviewed = true
-invited = false
-en_title = "Synthesis of fixed-structure H-infinity controllers via constrained particle swarm optimization"
-ja_title = "Synthesis of fixed-structure H-infinity controllers via constrained particle swarm optimization"
-en_author = "Ichiro Maruta, Tae-Hyoung Kim, Toshiharu Sugie"
-ja_author = "Ichiro Maruta, Tae-Hyoung Kim, Toshiharu Sugie"
-outside_kuaero = true
-
-[record.ids.doi]
-label = "DOI"
-id = "10.3182/20080706-5-KR-1001.2065"
-url = "https://doi.org/10.3182/20080706-5-KR-1001.2065"
-[[record]]
-publication_date = "20080331"
-ja_booktitle = "計測自動制御学会論文集"
-en_booktitle = "Transactions of the Society of Instrument and Control Engineers"
-type = "journal"
-lang = "ja"
-volume = "44"
-number = "3"
-page_begin = "288"
-page_end = "290"
-reviewed = true
-invited = false
-en_publisher = "計測自動制御学会"
-ja_publisher = "計測自動制御学会"
-en_title = "Compensation of Actuator Nonlinearity Using Discrete-valued Input Control Based on Feedback Modulator"
-ja_title = "フィードバック変調器を用いた離散値入力制御におけるアクチュエータ非線形性の補償"
-en_author = "Masato Ishikawa, Ichiro Maruta, Toshiharu Sugie"
-ja_author = "石川 将人, 丸田 一郎, 杉江 俊治"
-outside_kuaero = true
-
-[record.ids.issn]
-label = "ISSN"
-id = "0453-4654"
-[record.ids.cinii_na_id]
-label = "CiNii"
-id = "10021990213"
-url = "http://ci.nii.ac.jp/naid/10021990213"
-[record.ids.cinii_nc_id]
-label = "CiNii"
-id = "AN00072392"
-url = "http://ci.nii.ac.jp/ncid/AN00072392"
-[record.ids.doi]
-label = "DOI"
-id = "10.9746/ve.sicetr1965.44.288"
-url = "https://doi.org/10.9746/ve.sicetr1965.44.288"
-[record.ids.url]
-label = "URL"
-id = "https://www.jstage.jst.go.jp/article/sicetr1965/44/3/44_288/_article/-char/ja/"
-url = "https://www.jstage.jst.go.jp/article/sicetr1965/44/3/44_288/_article/-char/ja/"
-[[record]]
-publication_date = "20071221"
-ja_booktitle = "Automatica"
-en_booktitle = "Automatica"
-type = "journal"
-volume = "44"
-number = "4"
-page_begin = "1104"
-page_end = "1110"
-reviewed = true
-invited = false
-en_publisher = "PERGAMON-ELSEVIER SCIENCE LTD"
-ja_publisher = "PERGAMON-ELSEVIER SCIENCE LTD"
-en_title = "Robust PID controller tuning based on the constrained particle swarm optimization"
-ja_title = "Robust PID controller tuning based on the constrained particle swarm optimization"
-en_author = "Tae-Hyoung Kim, Ichiro Maruta, Toshiharu Sugie"
-ja_author = "Tae-Hyoung Kim, Ichiro Maruta, Toshiharu Sugie"
-outside_kuaero = true
-
-[record.ids.doi]
-label = "DOI"
-id = "10.1016/j.automatica.2007.08.017"
-url = "https://doi.org/10.1016/j.automatica.2007.08.017"
-[record.ids.issn]
-label = "ISSN"
-id = "0005-1098"
-[record.ids.url]
-label = "URL"
-id = "https://www.sciencedirect.com/science/article/abs/pii/S0005109807004013"
-url = "https://www.sciencedirect.com/science/article/abs/pii/S0005109807004013"
-[[record]]
-publication_date = "20071212"
-ja_booktitle = "Proceedings of the 46th IEEE Conference on Decision and Control (CDC2007)"
-en_booktitle = "Proceedings of the 46th IEEE Conference on Decision and Control (CDC2007)"
-type = "international_conference"
-page_begin = "200"
-page_end = "205"
-reviewed = true
-invited = false
-en_publisher = "IEEE"
-ja_publisher = "IEEE"
-en_title = "Particle swarm optimization based robust PID controller tuning scheme"
-ja_title = "Particle swarm optimization based robust PID controller tuning scheme"
-en_author = "Tae-Hyoung Kim, Ichiro Maruta, Toshiharu Sugie"
-ja_author = "Tae-Hyoung Kim, Ichiro Maruta, Toshiharu Sugie"
-outside_kuaero = true
-
-[record.ids.doi]
-label = "DOI"
-id = "10.1109/CDC.2007.4434126"
-url = "https://doi.org/10.1109/CDC.2007.4434126"
-[record.ids.issn]
-label = "ISSN"
-id = "0743-1546"
-[record.ids.url]
-label = "URL"
-id = "https://ieeexplore.ieee.org/document/4434126/authors#authors"
-url = "https://ieeexplore.ieee.org/document/4434126/authors#authors"
-[[record]]
 ja_booktitle = "第65回自動制御連合講演会論文集"
 en_booktitle = "Proceedings of the 65th Japan Joint Automartic Control Conference"
 publication_date = "20221112"
@@ -4706,6 +4668,8 @@ page_begin = "5598"
 page_end = "5603"
 reviewed = true
 invited = false
+en_publisher = "Elsevier BV"
+ja_publisher = "Elsevier BV"
 en_title = "Virtual Holonomic Constraints Control for port-Hamiltonian Systems: A Case Study of Fully Actuated Mechanical Systems"
 ja_title = "Virtual Holonomic Constraints Control for port-Hamiltonian Systems: A Case Study of Fully Actuated Mechanical Systems"
 en_author = "Yuki Okura, Kenji Fujimoto, Chiaki Kojima"
@@ -4716,6 +4680,9 @@ outside_kuaero = false
 label = "DOI"
 id = "10.1016/j.ifacol.2020.12.1573"
 url = "https://doi.org/10.1016/j.ifacol.2020.12.1573"
+[record.ids.issn]
+label = "ISSN"
+id = "2405-8963"
 [record.ids.url]
 label = "URL"
 id = "https://www.sciencedirect.com/science/article/pii/S2405896320321698"
@@ -6161,75 +6128,6 @@ en_author = "Dijian Chen, Kenji Fujimoto, Tatsuya Suzuki"
 ja_author = "Dijian Chen, Kenji Fujimoto, Tatsuya Suzuki"
 outside_kuaero = false
 
-[[record]]
-publication_date = "20140824"
-ja_booktitle = "IFAC Proceedings Volumes; Part of special issue: 19th IFAC World Congress"
-en_booktitle = "IFAC Proceedings Volumes; Part of special issue: 19th IFAC World Congress"
-type = "international_conference"
-volume = "47"
-number = "3"
-page_begin = "6044"
-page_end = "6049"
-reviewed = true
-invited = false
-en_publisher = "ELSEVIER SCIENCE BV"
-ja_publisher = "ELSEVIER SCIENCE BV"
-en_title = "Discrete-Time Linear Quadratic Optimal Control with Fixed and Free Terminal State via Double Generating Functions"
-ja_title = "Discrete-Time Linear Quadratic Optimal Control with Fixed and Free Terminal State via Double Generating Functions"
-en_author = "Dijian Chen, Zhiwei Hao, Kenji Fujimoto, Tatsuya Suzuki"
-ja_author = "Dijian Chen, Zhiwei Hao, Kenji Fujimoto, Tatsuya Suzuki"
-outside_kuaero = false
-
-[record.ids.doi]
-label = "DOI"
-id = "10.3182/20140824-6-ZA-1003.00308"
-url = "https://doi.org/10.3182/20140824-6-ZA-1003.00308"
-[record.ids.issn]
-label = "ISSN"
-id = "2405-8963"
-[[record]]
-publication_date = "20140707"
-ja_booktitle = "Proceedings of the 21st International Symposium on Mathemarical Theory of Networks and Systems (MTNS)"
-en_booktitle = "Proceedings of the 21st International Symposium on Mathemarical Theory of Networks and Systems (MTNS)"
-type = "international_conference"
-page_begin = "1498"
-page_end = "1502"
-reviewed = true
-invited = false
-en_title = "On balanced truncation for symmetric nonlinear systems"
-ja_title = "On balanced truncation for symmetric nonlinear systems"
-en_author = "Kenji Fujimoto, Jacquelien M, A. Scherpen"
-ja_author = "Kenji Fujimoto, Jacquelien M, A. Scherpen"
-outside_kuaero = false
-
-[[record]]
-publication_date = "20140331"
-en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
-type = "journal"
-volume = "7"
-number = "2"
-page_begin = "96"
-page_end = "103"
-reviewed = true
-invited = false
-en_publisher = "The Society of Instrument and Control Engineers"
-ja_publisher = "The Society of Instrument and Control Engineers"
-en_title = "Optimal Gait Generation for a Compass Biped Robot via the Double Generating Functions Method"
-ja_title = "Optimal Gait Generation for a Compass Biped Robot via the Double Generating Functions Method"
-en_author = "Zhiwei HAO, Kenji FUJIMOTO, Yoshikazu HAYAKAWA"
-ja_author = "Zhiwei HAO, Kenji FUJIMOTO, Yoshikazu HAYAKAWA"
-outside_kuaero = false
-
-[record.ids.doi]
-label = "DOI"
-id = "10.9746/jcmsi.7.96"
-url = "https://doi.org/10.9746/jcmsi.7.96"
-[record.ids.issn]
-label = "ISSN"
-id = "1882-4889"
-[record.ids.e_issn]
-label = "e-ISSN"
-id = "1884-9970"
 [[record]]
 ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム"
 en_booktitle = "The 7th Multi-symposium on Control Systems: MSCS2020"
