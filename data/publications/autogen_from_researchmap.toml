@@ -2434,6 +2434,22 @@ label = "URL"
 id = "https://ieeexplore.ieee.org/document/4738992"
 url = "https://ieeexplore.ieee.org/document/4738992"
 [[record]]
+ja_booktitle = "2022年度計測自動制御学会関西支部・システム制御情報学会シンポジウム講演論文集"
+en_booktitle = "Preprints of the 2022 SICE Kansai Chapter & ISCIE Symposium"
+publication_date = "20230111"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "21"
+page_end = "22"
+reviewed = false
+invited = false
+en_title = "Elimination of Suboptimal Solutions in Trajctory Database Based on Parallel Trajectory Generation by Neural Networks for Data-driven Optimal Control"
+ja_title = "データ駆動型最適制御のためのニューラルネットワークによる並列軌道生成に基づく軌道データべース内の準最適解除法"
+en_author = "Ryuta Iike, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "井池 隆太, 丸田 一郎, 藤本 健治"
+outside_kuaero = false
+
+[[record]]
 ja_booktitle = "第65回自動制御連合講演会論文集"
 en_booktitle = "Proceedings of the 65th Japan Joint Automartic Control Conference"
 publication_date = "20221112"
@@ -2463,6 +2479,21 @@ en_title = "Uniformization of Data Points in Trajectory Database for Optimal Con
 ja_title = "被覆制御を用いた最適制御のための軌道データベースのデータ点の一様化"
 en_author = "Takumi Wada, Ichiro Maruta, Kenji Fujimoto"
 ja_author = "和田拓巳, 丸田一郎, 藤本健治"
+outside_kuaero = false
+
+[[record]]
+ja_booktitle = "第66回宇宙科学技術連合講演会講演集"
+en_booktitle = "Proceedings of 66th Space Sciences and Technology Conference"
+publication_date = "20221101"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "1L01"
+reviewed = false
+invited = false
+en_title = "Earth-Moon transfer orbit design using the ℓ1/CLOT optimal Newton method"
+ja_title = "ℓ1/CLOT 最適ニュートン法を用いた地球-月遷移軌道設計"
+en_author = "Keitaro Yamamoto, Kiyoshi Hamada, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "山本 慶太郎, 濱田 聖司, 藤本 健治, 丸田 一郎"
 outside_kuaero = false
 
 [[record]]
@@ -4369,50 +4400,6 @@ url = "http://ci.nii.ac.jp/naid/130005146100"
 label = "URL"
 id = "https://jlc.jst.go.jp/DN/JLC/20022429757?from=CiNii"
 url = "https://jlc.jst.go.jp/DN/JLC/20022429757?from=CiNii"
-[[record]]
-ja_booktitle = "電子情報通信学会ソサイエティ大会講演論文集"
-en_booktitle = "Proceedings of the Society Conference of IEICE"
-publication_date = "20140909"
-type = "domestic_conference"
-lang = "ja"
-volume = "2014"
-page_begin = "\"SS"
-page_end = "50\""
-en_publisher = "The Institute of Electronics, Information and Communication Engineers"
-ja_publisher = "一般社団法人電子情報通信学会"
-en_title = "AI-2-1 Design Principles of Real-Time Pricing : (I) Demand Response Model"
-ja_title = "AI-2-1 リアルタイムプライシングの設計原理 : I 需要応答モデル(AI-2.エネルギー管理システムにおける数理モデル,依頼シンポジウム,ソサイエティ企画)"
-en_author = "Maruta Ichiro"
-ja_author = "丸田 一郎"
-outside_kuaero = true
-
-[record.ids.cinii_na_id]
-label = "CiNii"
-id = "110009881629"
-url = "http://ci.nii.ac.jp/naid/110009881629"
-[record.ids.cinii_nc_id]
-label = "CiNii"
-id = "AN10489017"
-url = "http://ci.nii.ac.jp/ncid/AN10489017"
-[[record]]
-ja_booktitle = "第58回システム制御情報学会研究発表講演会講演論文集"
-en_booktitle = "Proceedings of the 58th Japan Joint Automatic Control Conference"
-publication_date = "20140521"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "253-3"
-reviewed = false
-invited = false
-en_title = "Subspace System Identification using matrix Sketching"
-ja_title = "行列圧縮を用いた部分空間システム同定"
-en_author = "Noriaki Ikenishi, Ichiro Maruta, Toshiharu Sugie"
-ja_author = "池西紀明, 丸田一郎, 杉江俊治"
-outside_kuaero = true
-
-[record.ids.j_global_id]
-label = "J-GLOBAL ID"
-id = "201402277811495127"
-url = "http://jglobal.jst.go.jp/detail?JGLOBAL_ID=201402277811495127"
 [[record]]
 publication_date = "20151210"
 type = "book"
@@ -7118,44 +7105,6 @@ outside_kuaero = false
 label = "J-GLOBAL ID"
 id = "201502232824927615"
 url = "http://jglobal.jst.go.jp/detail?JGLOBAL_ID=201502232824927615"
-[[record]]
-ja_booktitle = "第2回 計測自動制御学会 制御部門マルチシンポジウム予稿集"
-en_booktitle = "Proceedings of the 2nd Multi-symposium on Control Systems"
-publication_date = "20150304"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "512-2"
-reviewed = false
-invited = false
-en_title = "System Identi cation for State-space Models based on the Gradient Bayes Method"
-ja_title = "勾配ベイズ法によるロバストな状態空間モデルのシステム同定"
-en_author = "Takayo Ishigami, Kenji Fujimoto, Yoshiharu Nishida"
-ja_author = "石神 孝容, 藤本 健治, 西田 吉晴"
-outside_kuaero = false
-
-[record.ids.j_global_id]
-label = "J-GLOBAL ID"
-id = "201502248401441795"
-url = "http://jglobal.jst.go.jp/detail?JGLOBAL_ID=201502248401441795"
-[[record]]
-ja_booktitle = "第2回 計測自動制御学会 制御部門マルチシンポジウム予稿集"
-en_booktitle = "Proceedings of the 2nd Multi-symposium on Control Systems"
-publication_date = "20150304"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "512-1"
-reviewed = false
-invited = false
-en_title = "A Unified Method of Identification and Control for Optimal Control of Non-linear Systems"
-ja_title = "非線形最適制御のためのシステム同定と制御器設計の統合化手法"
-en_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro, Takayoshi Yoshimura"
-ja_author = "伊藤 優司, 藤本 健治, 田所 幸浩, 吉村 貴克"
-outside_kuaero = false
-
-[record.ids.j_global_id]
-label = "J-GLOBAL ID"
-id = "201502281430760910"
-url = "http://jglobal.jst.go.jp/detail?JGLOBAL_ID=201502281430760910"
 [[record]]
 publication_date = "20150725"
 type = "book"
