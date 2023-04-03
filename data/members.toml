@@ -27,30 +27,6 @@ ja_position = "博士後期課程"
 en_position = "Ph.D. Student"
 
 [[list]]
-ja_name = "馬場 貴大"
-en_name = "Takahiro BABA"
-ja_position = "修士課程"
-en_position = "Master's Student"
-
-[[list]]
-ja_name = "山田 佳士"
-en_name = "Keito YAMADA"
-ja_position = "修士課程"
-en_position = "Master's Student"
-
-[[list]]
-ja_name = "和田 拓巳"
-en_name = "Takumi WADA"
-ja_position = "修士課程"
-en_position = "Master's Student"
-
-[[list]]
-ja_name = "田中 祥貴"
-en_name = "Yoshiki TANAKA"
-ja_position = "修士課程"
-en_position = "Master's Student"
-
-[[list]]
 ja_name = "井池 隆太"
 en_name = "Ryuta IIKE"
 ja_position = "修士課程"
@@ -75,26 +51,50 @@ ja_position = "修士課程"
 en_position = "Master's Student"
 
 [[list]]
-ja_name = "大上 耕平"
-en_name = "Kohei OUE"
-ja_position = "学部生"
-en_position = "Undergraduate"
-
-[[list]]
 ja_name = "佐藤 瑛起"
 en_name = "Eiki SATO"
-ja_position = "学部生"
-en_position = "Undergraduate"
+ja_position = "修士課程"
+en_position = "Master's Student"
 
 [[list]]
 ja_name = "桝谷 昴平"
 en_name = "Kohei MASUTANI"
-ja_position = "学部生"
-en_position = "Undergraduate"
+ja_position = "修士課程"
+en_position = "Master's Student"
 
 [[list]]
 ja_name = "山﨑 陽之"
 en_name = "Haruyuki YAMASAKI"
+ja_position = "修士課程"
+en_position = "Master's Student"
+
+[[list]]
+ja_name = "中平 幸輝"
+en_name = "Koki NAKAHIRA"
+ja_position = "修士課程"
+en_position = "Master's Student"
+
+[[list]]
+ja_name = ""
+en_name = ""
+ja_position = "学部生"
+en_position = "Undergraduate"
+
+[[list]]
+ja_name = ""
+en_name = ""
+ja_position = "学部生"
+en_position = "Undergraduate"
+
+[[list]]
+ja_name = ""
+en_name = ""
+ja_position = "学部生"
+en_position = "Undergraduate"
+
+[[list]]
+ja_name = ""
+en_name = ""
 ja_position = "学部生"
 en_position = "Undergraduate"
 
