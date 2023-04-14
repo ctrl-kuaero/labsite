@@ -2434,6 +2434,66 @@ label = "URL"
 id = "https://ieeexplore.ieee.org/document/4738992"
 url = "https://ieeexplore.ieee.org/document/4738992"
 [[record]]
+ja_booktitle = "第10回計測自動制御学会制御部門マルチシンポジウム（MSCS2023）"
+en_booktitle = "Proceedings of the 10th Multi-symposium on Control Systems (MSCS2023)"
+publication_date = "20230308"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "3M3-1"
+reviewed = false
+invited = false
+en_title = "On Passivity Based Integral Sliding Mode Control for Electro-Mechanical Systems"
+ja_title = "電気機械系に対する受動性に基づく インテグラルスライディングモード制御について"
+en_author = "Takahiro Baba, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "馬場 貴大, 藤本 健治, 丸田 一郎"
+outside_kuaero = false
+
+[[record]]
+ja_booktitle = "第10回計測自動制御学会制御部門マルチシンポジウム（MSCS2023）"
+en_booktitle = "Proceedings of the 10th Multi-symposium on Control Systems (MSCS2023)"
+publication_date = "20230308"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "3A3-5"
+reviewed = false
+invited = false
+en_title = "Exhaustive Exploration of Solutions on Stable Manifold in Optimal Control Problem Using Coverage Control"
+ja_title = "最適制御問題における安定多様体上の解の 被覆制御を用いた網羅的な探索"
+en_author = "Takumi Wada, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "和田 拓巳, 丸田 一郎, 藤本 健治"
+outside_kuaero = false
+
+[[record]]
+ja_booktitle = "第10回計測自動制御学会制御部門マルチシンポジウム（MSCS2023）"
+en_booktitle = "Proceedings of the 10th Multi-symposium on Control Systems (MSCS2023)"
+publication_date = "20230308"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "3A3-4"
+reviewed = false
+invited = false
+en_title = "Nonlinear System Identification with Neural Networks Considering State and Output Uncertainty"
+ja_title = "状態・出力の不確実性を考慮したニューラルネットワークによる 非線形システム同定"
+en_author = "Keito Yamada, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "山田 佳士, 丸田 一郎, 藤本 健治"
+outside_kuaero = false
+
+[[record]]
+ja_booktitle = "第10回計測自動制御学会制御部門マルチシンポジウム（MSCS2023）"
+en_booktitle = "Proceedings of the 10th Multi-symposium on Control Systems (MSCS2023)"
+publication_date = "20230308"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "1A6-4"
+reviewed = false
+invited = false
+en_title = "On Robust Trajectory Design for Stochastic Parameter Variations"
+ja_title = "確率的なパラメータ変動に対してロバストな軌道設計法について"
+en_author = "Yoshiki Tanaka, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "田中 祥貴, 藤本 健治, 丸田 一郎"
+outside_kuaero = false
+
+[[record]]
 ja_booktitle = "2022年度計測自動制御学会関西支部・システム制御情報学会シンポジウム講演論文集"
 en_booktitle = "Preprints of the 2022 SICE Kansai Chapter & ISCIE Symposium"
 publication_date = "20230111"
@@ -4277,130 +4337,6 @@ label = "URL"
 id = "https://jlc.jst.go.jp/DN/JLC/20022430043?from=CiNii"
 url = "https://jlc.jst.go.jp/DN/JLC/20022430043?from=CiNii"
 [[record]]
-ja_booktitle = "第57回自動制御連合講演会講演論文集"
-en_booktitle = "Proceedings of the 57th Japan Joint Automatic Control Conference"
-publication_date = "20141110"
-type = "domestic_conference"
-lang = "ja"
-volume = "57"
-page_begin = "1439"
-page_end = "1442"
-reviewed = false
-invited = false
-en_publisher = "The Japan Joint Automatic Control Conference"
-ja_publisher = "自動制御連合講演会"
-en_title = "Modeling of Rechargeable Li-ion Battery in Consideration of Hysteresis Phenomena"
-ja_title = "ヒステリシス特性を考慮したリチウムイオン二次電池のモデリング"
-en_author = "Ayane Sugiura, Ichiro Maruta, Atsushi Baba, Shuichi Adachi"
-ja_author = "杉浦 文音, 丸田 一郎, 馬場 厚志, 足立 修一"
-outside_kuaero = true
-
-[record.ids.doi]
-label = "DOI"
-id = "10.11511/jacc.57.0_1439"
-url = "https://doi.org/10.11511/jacc.57.0_1439"
-[record.ids.cinii_na_id]
-label = "CiNii"
-id = "130005145929"
-url = "http://ci.nii.ac.jp/naid/130005145929"
-[record.ids.url]
-label = "URL"
-id = "https://jlc.jst.go.jp/DN/JLC/20022404587?from=CiNii"
-url = "https://jlc.jst.go.jp/DN/JLC/20022404587?from=CiNii"
-[[record]]
-ja_booktitle = "第57回自動制御連合講演会講演論文集"
-en_booktitle = "Proceedings of the 57th Japan Joint Automatic Control Conference"
-publication_date = "20141110"
-type = "domestic_conference"
-lang = "ja"
-volume = "57"
-page_begin = "1618"
-page_end = "1624"
-reviewed = false
-invited = false
-en_publisher = "The Japan Joint Automatic Control Conference"
-ja_publisher = "自動制御連合講演会"
-en_title = "Synthesis of non-parametric type controllers based on I/O data"
-ja_title = "入出力データに基づくノンパラメトリック型制御器の設計"
-en_author = "Yusuke Fujimoto, Ichiro Maruta, Toshiharu Sugie"
-ja_author = "藤本 悠介, 丸田 一郎, 杉江 俊治"
-outside_kuaero = true
-
-[record.ids.doi]
-label = "DOI"
-id = "10.11511/jacc.57.0_1618"
-url = "https://doi.org/10.11511/jacc.57.0_1618"
-[record.ids.cinii_na_id]
-label = "CiNii"
-id = "130005145999"
-url = "http://ci.nii.ac.jp/naid/130005145999"
-[record.ids.url]
-label = "URL"
-id = "https://jlc.jst.go.jp/DN/JLC/20022405324?from=CiNii"
-url = "https://jlc.jst.go.jp/DN/JLC/20022405324?from=CiNii"
-[[record]]
-ja_booktitle = "第57回自動制御連合講演会講演論文集"
-en_booktitle = "Proceedings of the 57th Japan Joint Automatic Control Conference"
-publication_date = "20141110"
-type = "domestic_conference"
-lang = "ja"
-volume = "57"
-page_begin = "1443"
-page_end = "1444"
-reviewed = false
-invited = false
-en_publisher = "The Japan Joint Automatic Control Conference"
-ja_publisher = "自動制御連合講演会"
-en_title = "Simultaneous Estimation of a State of Charge and Physical Parameters of Lithium-ion Rechargeable Battery in Consideration of Temperature Characteristics"
-ja_title = "温度特性を考慮したリチウムイオン二次電池の充電率と物理パラメータの同時推定"
-en_author = "Sosaburo Hikono, Ayane Sugiura, Atsushi Baba, Ichiro Maruta, Shuichi Adachi"
-ja_author = "彦野 壮三朗, 杉浦 文音, 馬場 厚志, 丸田 一郎, 足立 修一"
-outside_kuaero = true
-
-[record.ids.doi]
-label = "DOI"
-id = "10.11511/jacc.57.0_1443"
-url = "https://doi.org/10.11511/jacc.57.0_1443"
-[record.ids.cinii_na_id]
-label = "CiNii"
-id = "130005146034"
-url = "http://ci.nii.ac.jp/naid/130005146034"
-[record.ids.url]
-label = "URL"
-id = "https://jlc.jst.go.jp/DN/JLC/20022405959?from=CiNii"
-url = "https://jlc.jst.go.jp/DN/JLC/20022405959?from=CiNii"
-[[record]]
-ja_booktitle = "第57回自動制御連合講演会プログラム・概要集"
-en_booktitle = "Proceedings of the 57th Japan Joint Automatic Control Conference"
-publication_date = "20141110"
-type = "domestic_conference"
-lang = "ja"
-volume = "57"
-page_begin = "616"
-page_end = "618"
-reviewed = false
-invited = false
-en_publisher = "The Japan Joint Automatic Control Conference"
-ja_publisher = "自動制御連合講演会"
-en_title = "Control education using real-time simulators"
-ja_title = "リアルタイムシミュレータを用いた制御教育"
-en_author = "Ichiro Maruta"
-ja_author = "丸田 一郎"
-outside_kuaero = true
-
-[record.ids.doi]
-label = "DOI"
-id = "10.11511/jacc.57.0_616"
-url = "https://doi.org/10.11511/jacc.57.0_616"
-[record.ids.cinii_na_id]
-label = "CiNii"
-id = "130005146100"
-url = "http://ci.nii.ac.jp/naid/130005146100"
-[record.ids.url]
-label = "URL"
-id = "https://jlc.jst.go.jp/DN/JLC/20022429757?from=CiNii"
-url = "https://jlc.jst.go.jp/DN/JLC/20022429757?from=CiNii"
-[[record]]
 publication_date = "20151210"
 type = "book"
 book_owner_role = "joint_work"
@@ -4442,6 +4378,27 @@ id = "9784501328900"
 label = "CiNii"
 id = "BB10368424"
 url = "http://ci.nii.ac.jp/ncid/BB10368424"
+[[record]]
+publication_date = "20230321"
+ja_booktitle = "IEEE Transactions on Cybernetics"
+en_booktitle = "IEEE Transactions on Cybernetics"
+type = "journal"
+reviewed = true
+invited = false
+en_title = "Stochastic Optimal Linear Control for Generalized Cost Functions with Time-Invariant Stochastic Parameters"
+ja_title = "Stochastic Optimal Linear Control for Generalized Cost Functions with Time-Invariant Stochastic Parameters"
+en_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro"
+ja_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro"
+outside_kuaero = false
+
+[record.ids.doi]
+label = "DOI"
+id = "10.1109/TCYB.2023.3252673"
+url = "https://doi.org/10.1109/TCYB.2023.3252673"
+[record.ids.url]
+label = "URL"
+id = "https://ieeexplore.ieee.org/document/10077586"
+url = "https://ieeexplore.ieee.org/document/10077586"
 [[record]]
 publication_date = "20220100"
 ja_booktitle = "IEICE TRANSACTIONS ON FUNDAMENTALS OF ELECTRONICS COMMUNICATIONS AND COMPUTER SCIENCES"
@@ -6101,21 +6058,6 @@ label = "URL"
 id = "https://ieeexplore.ieee.org/document/6997707"
 url = "https://ieeexplore.ieee.org/document/6997707"
 [[record]]
-publication_date = "20140909"
-ja_booktitle = "Proceedings of the SICE Annual Conference 2014"
-en_booktitle = "Proceedings of the SICE Annual Conference 2014"
-type = "international_conference"
-page_begin = "1055"
-page_end = "1058"
-reviewed = true
-invited = false
-en_title = "Solving Discrete-Time Nonlinear Optimal Control Problem by Generating Function Approach"
-ja_title = "Solving Discrete-Time Nonlinear Optimal Control Problem by Generating Function Approach"
-en_author = "Dijian Chen, Kenji Fujimoto, Tatsuya Suzuki"
-ja_author = "Dijian Chen, Kenji Fujimoto, Tatsuya Suzuki"
-outside_kuaero = false
-
-[[record]]
 ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム"
 en_booktitle = "The 7th Multi-symposium on Control Systems: MSCS2020"
 publication_date = "20200302"
@@ -7013,98 +6955,6 @@ url = "http://ci.nii.ac.jp/naid/40020472374/"
 label = "J-GLOBAL ID"
 id = "201502275468758910"
 url = "http://jglobal.jst.go.jp/detail?JGLOBAL_ID=201502275468758910"
-[[record]]
-ja_booktitle = "システム／制御／情報"
-en_booktitle = "SYSTEMS, CONTROL AND INFORMATION"
-publication_date = "20150415"
-type = "explanation_journal"
-lang = "ja"
-volume = "59"
-number = "4"
-page_begin = "159"
-page_end = "159"
-reviewed = true
-invited = true
-en_publisher = "The Institute of Systems, Control and Information Engineers"
-ja_publisher = "システム制御情報学会"
-en_title = "SCI'14 ―The 58th Annual Conference of ISCIE"
-ja_title = "研究発表講演会SCI'14を開催して"
-en_author = "Kenji Fujimoto"
-ja_author = "藤本 健治"
-outside_kuaero = false
-
-[record.ids.issn]
-label = "ISSN"
-id = "0916-1600"
-[record.ids.cinii_na_id]
-label = "CiNii"
-id = "110009930864"
-url = "http://ci.nii.ac.jp/naid/110009930864"
-[record.ids.cinii_nc_id]
-label = "CiNii"
-id = "AN10062329"
-url = "http://ci.nii.ac.jp/ncid/AN10062329"
-[record.ids.url]
-label = "URL"
-id = "https://www.jstage.jst.go.jp/article/isciesci/59/4/59_KJ00009904412/_pdf/-char/en"
-url = "https://www.jstage.jst.go.jp/article/isciesci/59/4/59_KJ00009904412/_pdf/-char/en"
-[[record]]
-ja_booktitle = "第2回 計測自動制御学会 制御部門マルチシンポジウム予稿集"
-en_booktitle = "Proceedings of the 2nd Multi-symposium on Control Systems"
-publication_date = "20150304"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "PS-33"
-reviewed = false
-invited = false
-en_title = "Discretization of a continuum traffic model based on particle methods and its propeties"
-ja_title = "粒子法に基づく連続体交通流モデルの離散化とその性質"
-en_author = "Tomofumi Iwamoto, Kenji Fujimoto"
-ja_author = "岩本 智文, 藤本 健治"
-outside_kuaero = false
-
-[record.ids.j_global_id]
-label = "J-GLOBAL ID"
-id = "201502208650060554"
-url = "http://jglobal.jst.go.jp/detail?JGLOBAL_ID=201502208650060554"
-[[record]]
-ja_booktitle = "第2回 計測自動制御学会 制御部門マルチシンポジウム予稿集"
-en_booktitle = "Proceedings of the 2nd Multi-symposium on Control Systems"
-publication_date = "20150304"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "731-2"
-reviewed = false
-invited = false
-en_title = "Prevention of Pilot-Induced Oscillation Using LMI based Anti-windup Design"
-ja_title = "LMIに基づくAnti-windup補償器によるPilot-Induced Oscillationの抑制"
-en_author = "Hiroki Yamamoto, Kenji Fujimoto"
-ja_author = "山本 啓貴, 藤本 健治"
-outside_kuaero = false
-
-[record.ids.j_global_id]
-label = "J-GLOBAL ID"
-id = "201502220052568144"
-url = "http://jglobal.jst.go.jp/detail?JGLOBAL_ID=201502220052568144"
-[[record]]
-ja_booktitle = "第2回 計測自動制御学会 制御部門マルチシンポジウム予稿集"
-en_booktitle = "Proceedings of the 2nd Multi-symposium on Control Systems"
-publication_date = "20150304"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "PS-25"
-reviewed = false
-invited = false
-en_title = "Online trajectory generation and experiment of a biped walking robot based on the generating function method"
-ja_title = "母関数法を用いた二足歩行ロボットのオンライン歩容生成と実機実験"
-en_author = "Takashi Yamada, Kenji Fujimoto"
-ja_author = "山田 崇, 藤本 健治"
-outside_kuaero = false
-
-[record.ids.j_global_id]
-label = "J-GLOBAL ID"
-id = "201502232824927615"
-url = "http://jglobal.jst.go.jp/detail?JGLOBAL_ID=201502232824927615"
 [[record]]
 publication_date = "20150725"
 type = "book"
