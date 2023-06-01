@@ -10,6 +10,17 @@ type = "award"
 url = "https://sci23.iscie.or.jp/award/"
 
 [[record]]
+en_author = "Kohei Masutani"
+ja_author = "桝谷 昴平"
+en_giver = "The Executive Committee of the 67th Annual Conference of the Institute of Systems, Control and Information Engineers"
+ja_giver = "第67回システム制御情報学会研究発表講演会実行委員会"
+en_title = "The Award of the Excellent Student Presetation"
+ja_title = "SCI学生発表賞"
+publication_date = "20230518"
+type = "award"
+url = "https://sci23.iscie.or.jp/award/"
+
+[[record]]
 en_author = "Keito Yamada"
 ja_author = "山田 佳士"
 en_giver = "The Institute of Systems, Control and Information Engineers"
