@@ -10,6 +10,28 @@ type = "award"
 url = ""
 
 [[record]]
+en_author = "Eiki Sato"
+ja_author = "佐藤 瑛起"
+en_giver = "The Executive Committee of the 67th Annual Conference of the Institute of Systems, Control and Information Engineers"
+ja_giver = "第67回システム制御情報学会研究発表講演会実行委員会"
+en_title = "The Award of the Excellent Student Presetation"
+ja_title = "SCI学生発表賞"
+publication_date = "20230517"
+type = "award"
+url = "https://sci23.iscie.or.jp/award/"
+
+[[record]]
+en_author = "Haruyuki Yamasaki"
+ja_author = "山﨑 陽之"
+en_giver = "The Executive Committee of the 67th Annual Conference of the Institute of Systems, Control and Information Engineers"
+ja_giver = "第67回システム制御情報学会研究発表講演会実行委員会"
+en_title = "The Award of the Excellent Student Presetation"
+ja_title = "SCI学生発表賞"
+publication_date = "20230517"
+type = "award"
+url = "https://sci23.iscie.or.jp/award/"
+
+[[record]]
 en_author = "Systems and Control Laboratory, Kyoto University"
 ja_author = "京都大学　藤本研究室"
 en_giver = "Japan Electric Measuring Instruments Manufacturers' Association"
