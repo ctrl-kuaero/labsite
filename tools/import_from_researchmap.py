@@ -4,8 +4,6 @@ from urllib.parse import urlparse
 from pprint import pprint
 import re
 
-requests.packages.urllib3.util.ssl_.DEFAULT_CIPHERS += ':HIGH:!DH:!aNULL'
-
 members = ['maruta','fujimoto_kenji']
 
 inlab = {
@@ -307,7 +305,6 @@ for i in items.values():
                         }
                 elif id_parsed.hostname == 'jglobal.jst.go.jp':
                     m = re.search(r'(\d{18})',info['@id'])
-                    print(m)
                     if m:
                         ids['j_global_id'] = {
                             'label': "J-GLOBAL ID",
