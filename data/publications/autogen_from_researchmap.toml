@@ -5983,6 +5983,32 @@ label = "URL"
 id = "https://ieeexplore.ieee.org/document/7040434"
 url = "https://ieeexplore.ieee.org/document/7040434"
 [[record]]
+ja_booktitle = "システム／制御／情報"
+en_booktitle = "SYSTEMS, CONTROL AND INFORMATION"
+publication_date = "20201200"
+type = "explanation_journal"
+lang = "ja"
+volume = "64"
+number = "12"
+page_begin = "483"
+page_end = "490"
+reviewed = true
+invited = true
+en_title = "Frontiers in Mechanical Systems Control Using Port-Hamiltonian Models"
+ja_title = "ポート・ハミルトン系モデルを用いた機械システム制御の最前線"
+en_author = "Kenji Fujimoto"
+ja_author = "藤本 健治"
+outside_kuaero = false
+
+[record.ids.doi]
+label = "DOI"
+id = "10.11509/isciesci.64.12_483"
+url = "https://doi.org/10.11509/isciesci.64.12_483"
+[record.ids.url]
+label = "URL"
+id = "https://www.jstage.jst.go.jp/article/isciesci/64/12/64_483/_article/-char/ja/"
+url = "https://www.jstage.jst.go.jp/article/isciesci/64/12/64_483/_article/-char/ja/"
+[[record]]
 ja_booktitle = "第7回計測自動制御学会制御部門マルチシンポジウム"
 en_booktitle = "The 7th Multi-symposium on Control Systems: MSCS2020"
 publication_date = "20200302"
@@ -6747,39 +6773,6 @@ outside_kuaero = false
 label = "J-GLOBAL ID"
 id = "201602207966088451"
 url = "http://jglobal.jst.go.jp/detail?JGLOBAL_ID=201602207966088451"
-[[record]]
-ja_booktitle = "第59回宇宙科学技術連合講演会講演集"
-en_booktitle = "Proceedings of 59th Space Sciences and Technology Conference"
-publication_date = "20151007"
-type = "domestic_conference"
-lang = "ja"
-volume = "59"
-page_begin = "2J10"
-reviewed = false
-invited = false
-en_publisher = "日本航空宇宙学会"
-ja_publisher = "日本航空宇宙学会"
-en_title = "Study of obstacle avoidance problem for spacecrafts represented by port-Hamiltonian systems"
-ja_title = "ポート・ハミルトン系で表された宇宙機の障害物回避問題の検討"
-en_author = "Yuki Matsumoto, Kenji Fujimoto"
-ja_author = "松本 祐樹, 藤本 健治"
-outside_kuaero = false
-
-[record.ids.issn]
-label = "ISSN"
-id = "1884-1945"
-[record.ids.cinii_na_id]
-label = "CiNii"
-id = "40020619428"
-url = "http://ci.nii.ac.jp/naid/40020619428"
-[record.ids.cinii_nc_id]
-label = "CiNii"
-id = "AA11800503"
-url = "http://ci.nii.ac.jp/ncid/AA11800503"
-[record.ids.url]
-label = "URL"
-id = "http://id.ndl.go.jp/bib/026804545"
-url = "http://id.ndl.go.jp/bib/026804545"
 [[record]]
 publication_date = "20150725"
 type = "book"
