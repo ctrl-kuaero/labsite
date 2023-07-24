@@ -1,4 +1,49 @@
 [[record]]
+publication_date = "20230709"
+ja_booktitle = "Preprints of the 22nd IFAC World Congress"
+en_booktitle = "Preprints of the 22nd IFAC World Congress"
+type = "international_conference"
+page_begin = "10230"
+page_end = "10235"
+reviewed = true
+invited = false
+en_title = "An ISS property of mechanical port-Hamiltonian systems with KPES for output feedback control"
+ja_title = "An ISS property of mechanical port-Hamiltonian systems with KPES for output feedback control"
+en_author = "Naoki Sakata, Takahiro Kato, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "Naoki Sakata, Takahiro Kato, Kenji Fujimoto, Ichiro Maruta"
+outside_kuaero = false
+
+[[record]]
+publication_date = "20230709"
+ja_booktitle = "Preprints of the 22nd IFAC World Congress"
+en_booktitle = "Preprints of the 22nd IFAC World Congress"
+type = "international_conference"
+page_begin = "10108"
+page_end = "10111"
+reviewed = true
+invited = false
+en_title = "On distributed optimal control of satellite constellation separation with differential drag"
+ja_title = "On distributed optimal control of satellite constellation separation with differential drag"
+en_author = "Hibiki Asakura, Kenji Fujimoto, Ichiro Maruta, Kazuhiro Izui, Takeya Shima, Akihiko Honda, Takumi Noro, Shoji Yoshikawa, Akihiko Imagi"
+ja_author = "Hibiki Asakura, Kenji Fujimoto, Ichiro Maruta, Kazuhiro Izui, Takeya Shima, Akihiko Honda, Takumi Noro, Shoji Yoshikawa, Akihiko Imagi"
+outside_kuaero = false
+
+[[record]]
+publication_date = "20230709"
+ja_booktitle = "Preprints of the 22nd IFAC World Congress"
+en_booktitle = "Preprints of the 22nd IFAC World Congress"
+type = "international_conference"
+page_begin = "446"
+page_end = "451"
+reviewed = true
+invited = false
+en_title = "Aerospace industrial benchmarking and fault-tolerant control design using NARX model-based observer"
+ja_title = "Aerospace industrial benchmarking and fault-tolerant control design using NARX model-based observer"
+en_author = "Kosei TSuji, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "Kosei TSuji, Ichiro Maruta, Kenji Fujimoto"
+outside_kuaero = false
+
+[[record]]
 publication_date = "20230603"
 ja_booktitle = "Proceedings of the Joint Symposium 34th ISTS & 12th NSAT"
 en_booktitle = "Proceedings of the Joint Symposium 34th ISTS & 12th NSAT"
@@ -2325,102 +2370,6 @@ url = "https://doi.org/10.1109/CCA.2009.5280987"
 label = "ISSN"
 id = "1085-1992"
 [[record]]
-publication_date = "20090706"
-ja_booktitle = "IFAC Proceedings Volumes, Part of special issue: 15th IFAC Symposium on System Identification"
-en_booktitle = "IFAC Proceedings Volumes, Part of special issue: 15th IFAC Symposium on System Identification"
-type = "international_conference"
-volume = "42"
-number = "10"
-page_begin = "414"
-page_end = "419"
-reviewed = true
-invited = false
-en_title = "Novel closed-loop identification algorithm based on the finite-dimensional signal subspace"
-ja_title = "Novel closed-loop identification algorithm based on the finite-dimensional signal subspace"
-en_author = "Ichiro Maruta, Toshiharu Sugie"
-ja_author = "Ichiro Maruta, Toshiharu Sugie"
-outside_kuaero = true
-
-[record.ids.doi]
-label = "DOI"
-id = "10.3182/20090706-3-FR-2004.0145"
-url = "https://doi.org/10.3182/20090706-3-FR-2004.0145"
-[record.ids.issn]
-label = "ISSN"
-id = "1474-6670"
-[record.ids.url]
-label = "URL"
-id = "https://www.sciencedirect.com/science/article/pii/S1474667016386827?via%3Dihub"
-url = "https://www.sciencedirect.com/science/article/pii/S1474667016386827?via%3Dihub"
-[[record]]
-publication_date = "20090331"
-ja_booktitle = "計測自動制御学会論文集"
-en_booktitle = "Transactions of the Society of Instrument and Control Engineers"
-type = "journal"
-lang = "ja"
-volume = "45"
-number = "3"
-page_begin = "144"
-page_end = "152"
-reviewed = true
-invited = false
-en_publisher = "The Society of Instrument and Control Engineers"
-ja_publisher = "The Society of Instrument and Control Engineers"
-en_title = "Reset-free Iterative Learning Control and Its Application to Continuous-time System Identification"
-ja_title = "初期化の不要な反復学習とその連続時間システム同定への応用"
-en_author = "Ichiro Maruta, Toshiharu Sugie"
-ja_author = "丸田 一郎, 杉江 俊治"
-outside_kuaero = true
-
-[record.ids.doi]
-label = "DOI"
-id = "10.9746/sicetr.45.144"
-url = "https://doi.org/10.9746/sicetr.45.144"
-[record.ids.issn]
-label = "ISSN"
-id = "0453-4654"
-[record.ids.cinii_na_id]
-label = "CiNii"
-id = "10024757978"
-url = "http://ci.nii.ac.jp/naid/10024757978"
-[record.ids.cinii_nc_id]
-label = "CiNii"
-id = "AN00072392"
-url = "http://ci.nii.ac.jp/ncid/AN00072392"
-[record.ids.url]
-label = "URL"
-id = "https://jlc.jst.go.jp/DN/JALC/00328830587?from=CiNii"
-url = "https://jlc.jst.go.jp/DN/JALC/00328830587?from=CiNii"
-[[record]]
-publication_date = "20090101"
-ja_booktitle = "AUTOMATICA"
-en_booktitle = "AUTOMATICA"
-type = "journal"
-volume = "45"
-number = "2"
-page_begin = "553"
-page_end = "559"
-reviewed = true
-invited = false
-en_publisher = "PERGAMON-ELSEVIER SCIENCE LTD"
-ja_publisher = "PERGAMON-ELSEVIER SCIENCE LTD"
-en_title = "Fixed-structure H-infinity controller synthesis: A meta-heuristic approach using simple constrained particle swarm optimization"
-ja_title = "Fixed-structure H-infinity controller synthesis: A meta-heuristic approach using simple constrained particle swarm optimization"
-en_author = "Ichiro Maruta, Tae-Hyoung Kim, Toshiharu Sugie"
-ja_author = "Ichiro Maruta, Tae-Hyoung Kim, Toshiharu Sugie"
-outside_kuaero = true
-
-[record.ids.doi]
-label = "DOI"
-id = "10.1016/j.automatica.2008.09.019"
-url = "https://doi.org/10.1016/j.automatica.2008.09.019"
-[record.ids.issn]
-label = "ISSN"
-id = "0005-1098"
-[record.ids.e_issn]
-label = "e-ISSN"
-id = "1873-2836"
-[[record]]
 ja_booktitle = "第67回システム制御情報学会研究発表講演会研究発表講演会講演論文予稿集"
 en_booktitle = "Proceedings of the 67th Annual Conference of the Institute of Systems, Control and Information Engineers"
 publication_date = "20230517"
@@ -2560,6 +2509,27 @@ en_author = "Ryuta Iike, Ichiro Maruta, Kenji Fujimoto"
 ja_author = "井池 隆太, 丸田 一郎, 藤本 健治"
 outside_kuaero = false
 
+[[record]]
+ja_booktitle = "arXiv e-prints"
+en_booktitle = "arXiv e-prints"
+publication_date = "20221230"
+type = "technical_report"
+reviewed = false
+invited = true
+en_title = "Passivity-based sliding mode control for mechanical port-Hamiltonian systems"
+ja_title = "Passivity-based sliding mode control for mechanical port-Hamiltonian systems"
+en_author = "Naoki Sakata, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "Naoki Sakata, Kenji Fujimoto, Ichiro Maruta"
+outside_kuaero = false
+
+[record.ids.arxiv_id]
+label = "arXiv"
+id = "2212.14543"
+url = "https://arxiv.org/abs/2212.14543"
+[record.ids.doi]
+label = "DOI"
+id = "10.48550/arXiv.2212.14543"
+url = "https://doi.org/10.48550/arXiv.2212.14543"
 [[record]]
 ja_booktitle = "第65回自動制御連合講演会論文集"
 en_booktitle = "Proceedings of the 65th Japan Joint Automartic Control Conference"
@@ -3003,6 +2973,7 @@ ja_author = "児玉 匡, 藤本 健治, 丸田 一郎"
 outside_kuaero = false
 
 [[record]]
+ja_booktitle = "arXiv e-prints"
 en_booktitle = "arXiv e-prints"
 publication_date = "20201215"
 type = "technical_report"
@@ -4251,41 +4222,6 @@ outside_kuaero = true
 label = "CiNii"
 id = "40020475081"
 url = "http://ci.nii.ac.jp/naid/40020475081"
-[[record]]
-ja_booktitle = "システム/制御/情報 : システム制御情報学会誌"
-en_booktitle = "Systems, control and information"
-publication_date = "20150515"
-type = "explanation_journal"
-lang = "ja"
-volume = "59"
-number = "5"
-page_begin = "180"
-page_end = "185"
-reviewed = false
-invited = true
-en_publisher = "Institute of Systems, Control and Information Engineers"
-ja_publisher = "システム制御情報学会"
-en_title = "Identification of Piecewise Affine Systems(<Special Issue>Recent Trends in System Identification and Estimation)"
-ja_title = "区分的アフィンシステムの同定(<特集>システム同定と推定の最近の動向)"
-en_author = "Ichiro Maruta"
-ja_author = "丸田 一郎"
-outside_kuaero = true
-
-[record.ids.issn]
-label = "ISSN"
-id = "0916-1600"
-[record.ids.cinii_na_id]
-label = "CiNii"
-id = "110009944721"
-url = "http://ci.nii.ac.jp/naid/110009944721"
-[record.ids.cinii_nc_id]
-label = "CiNii"
-id = "AN10062329"
-url = "http://ci.nii.ac.jp/ncid/AN10062329"
-[record.ids.doi]
-label = "DOI"
-id = "10.11509/isciesci.59.5_180"
-url = "https://doi.org/10.11509/isciesci.59.5_180"
 [[record]]
 publication_date = "20151210"
 type = "book"
@@ -5895,94 +5831,6 @@ label = "URL"
 id = "http://epubs.siam.org/doi/pdf/10.1137/11084529X"
 url = "http://epubs.siam.org/doi/pdf/10.1137/11084529X"
 [[record]]
-publication_date = "20150000"
-en_booktitle = "IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences"
-type = "journal"
-volume = "E98.A"
-number = "3"
-page_begin = "833"
-page_end = "842"
-reviewed = true
-invited = false
-en_publisher = "Institute of Electronics, Information and Communications Engineers (IEICE)"
-ja_publisher = "Institute of Electronics, Information and Communications Engineers (IEICE)"
-en_title = "Discrete-Time Linear Quadratic Optimal Control via Double Generating Functions"
-ja_title = "Discrete-Time Linear Quadratic Optimal Control via Double Generating Functions"
-en_author = "Dijian CHEN, Zhiwei HAO, Kenji FUJIMOTO, Tatsuya SUZUKI"
-ja_author = "Dijian CHEN, Zhiwei HAO, Kenji FUJIMOTO, Tatsuya SUZUKI"
-outside_kuaero = false
-
-[record.ids.doi]
-label = "DOI"
-id = "10.1587/transfun.e98.a.833"
-url = "https://doi.org/10.1587/transfun.e98.a.833"
-[record.ids.e_issn]
-label = "e-ISSN"
-id = "1745-1337"
-[record.ids.issn]
-label = "ISSN"
-id = "0916-8508"
-[record.ids.url]
-label = "URL"
-id = "https://www.jstage.jst.go.jp/article/transfun/E98.A/3/E98.A_833/_pdf"
-url = "https://www.jstage.jst.go.jp/article/transfun/E98.A/3/E98.A_833/_pdf"
-[[record]]
-publication_date = "20141215"
-ja_booktitle = "Proceedings of the 53rd IEEE Conference on Decision and Control"
-en_booktitle = "Proceedings of the 53rd IEEE Conference on Decision and Control"
-type = "international_conference"
-page_begin = "4820"
-page_end = "4825"
-reviewed = true
-invited = false
-en_publisher = "Institute of Electrical and Electronics Engineers Inc."
-ja_publisher = "Institute of Electrical and Electronics Engineers Inc."
-en_title = "On trajectory tracking control of port-Hamiltonian systems with quaternions"
-ja_title = "On trajectory tracking control of port-Hamiltonian systems with quaternions"
-en_author = "Kenji Fujimoto, Taishi Nishiyama"
-ja_author = "Kenji Fujimoto, Taishi Nishiyama"
-outside_kuaero = false
-
-[record.ids.doi]
-label = "DOI"
-id = "10.1109/CDC.2014.7040141"
-url = "https://doi.org/10.1109/CDC.2014.7040141"
-[record.ids.issn]
-label = "ISSN"
-id = "0743-1546"
-[record.ids.url]
-label = "URL"
-id = "https://ieeexplore.ieee.org/document/7040141"
-url = "https://ieeexplore.ieee.org/document/7040141"
-[[record]]
-publication_date = "20141215"
-ja_booktitle = "Proceedings of the 53rd IEEE Conference on Decision and Control"
-en_booktitle = "Proceedings of the 53rd IEEE Conference on Decision and Control"
-type = "international_conference"
-page_begin = "6659"
-page_end = "6664"
-reviewed = true
-invited = false
-en_publisher = "IEEE"
-ja_publisher = "IEEE"
-en_title = "Generating Function Approach to Linear Quadratic Optimal Control Problem with Constraints on the State"
-ja_title = "Generating Function Approach to Linear Quadratic Optimal Control Problem with Constraints on the State"
-en_author = "Dijian Chen, Kenji Fujimoto, Tatusya Suzuki"
-ja_author = "Dijian Chen, Kenji Fujimoto, Tatusya Suzuki"
-outside_kuaero = false
-
-[record.ids.doi]
-label = "DOI"
-id = "10.1109/CDC.2014.7040434"
-url = "https://doi.org/10.1109/CDC.2014.7040434"
-[record.ids.issn]
-label = "ISSN"
-id = "0743-1546"
-[record.ids.url]
-label = "URL"
-id = "https://ieeexplore.ieee.org/document/7040434"
-url = "https://ieeexplore.ieee.org/document/7040434"
-[[record]]
 ja_booktitle = "システム／制御／情報"
 en_booktitle = "SYSTEMS, CONTROL AND INFORMATION"
 publication_date = "20201200"
@@ -6754,25 +6602,6 @@ outside_kuaero = false
 label = "J-GLOBAL ID"
 id = "201602275374549168"
 url = "http://jglobal.jst.go.jp/detail?JGLOBAL_ID=201602275374549168"
-[[record]]
-ja_booktitle = "第58回 自動制御連合講演会論文集"
-en_booktitle = "Proceedings of the 58st Japan Joint Automatic Control Conference"
-publication_date = "20151114"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "2D2-6"
-reviewed = false
-invited = false
-en_title = "A Study on Robust Nonlinear Optimal Control for Parameter Variation"
-ja_title = "パラメータ変動に対してロバストな非線形最適制御の枠組みについて"
-en_author = "Yuki Okura, Kenji Fujimoto"
-ja_author = "大倉 裕貴, 藤本 健治"
-outside_kuaero = false
-
-[record.ids.j_global_id]
-label = "J-GLOBAL ID"
-id = "201602207966088451"
-url = "http://jglobal.jst.go.jp/detail?JGLOBAL_ID=201602207966088451"
 [[record]]
 publication_date = "20150725"
 type = "book"
