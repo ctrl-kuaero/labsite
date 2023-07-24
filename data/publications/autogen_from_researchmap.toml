@@ -700,24 +700,20 @@ volume = "5"
 number = "3"
 page_begin = "839"
 page_end = "844"
-reviewed = true
-invited = false
-en_publisher = "Institute of Electrical and Electronics Engineers (IEEE)"
-ja_publisher = "Institute of Electrical and Electronics Engineers (IEEE)"
 en_title = "A Passivity Based Sliding Mode Controller for Simple Port-Hamiltonian Systems"
 ja_title = "A Passivity Based Sliding Mode Controller for Simple Port-Hamiltonian Systems"
 en_author = "Kenji Fujimoto, Naoki Sakata, Ichiro Maruta, Joel Ferguson"
 ja_author = "Kenji Fujimoto, Naoki Sakata, Ichiro Maruta, Joel Ferguson"
 outside_kuaero = false
 
+[record.ids.url]
+label = "URL"
+id = "https://ieeexplore.ieee.org/document/9126872/authors"
+url = "https://ieeexplore.ieee.org/document/9126872/authors"
 [record.ids.doi]
 label = "DOI"
 id = "10.1109/LCSYS.2020.3005327"
 url = "https://doi.org/10.1109/LCSYS.2020.3005327"
-[record.ids.url]
-label = "URL"
-id = "https://ieeexplore.ieee.org/document/9126872"
-url = "https://ieeexplore.ieee.org/document/9126872"
 [[record]]
 publication_date = "20200531"
 ja_booktitle = "SICE Journal of Control, Measurement, and System Integration"
@@ -4508,36 +4504,6 @@ url = "https://doi.org/10.1016/j.ifacol.2020.12.015"
 label = "URL"
 id = "https://www.sciencedirect.com/science/article/pii/S240589632030255X"
 url = "https://www.sciencedirect.com/science/article/pii/S240589632030255X"
-[[record]]
-publication_date = "20200626"
-ja_booktitle = "IEEE Control Systems Letters"
-en_booktitle = "IEEE Control Systems Letters"
-type = "journal"
-volume = "5"
-number = "3"
-page_begin = "839"
-page_end = "844"
-reviewed = true
-invited = false
-en_publisher = "Institute of Electrical and Electronics Engineers (IEEE)"
-ja_publisher = "Institute of Electrical and Electronics Engineers (IEEE)"
-en_title = "A Passivity Based Sliding Mode Controller for Simple Port-Hamiltonian Systems"
-ja_title = "A Passivity Based Sliding Mode Controller for Simple Port-Hamiltonian Systems"
-en_author = "Kenji Fujimoto, Naoki Sakata, Ichiro Maruta, Joel Ferguson"
-ja_author = "Kenji Fujimoto, Naoki Sakata, Ichiro Maruta, Joel Ferguson"
-outside_kuaero = false
-
-[record.ids.doi]
-label = "DOI"
-id = "10.1109/LCSYS.2020.3005327"
-url = "https://doi.org/10.1109/LCSYS.2020.3005327"
-[record.ids.e_issn]
-label = "e-ISSN"
-id = "2475-1456"
-[record.ids.url]
-label = "URL"
-id = "https://ieeexplore.ieee.org/document/9126872"
-url = "https://ieeexplore.ieee.org/document/9126872"
 [[record]]
 publication_date = "20200400"
 ja_booktitle = "JOURNAL OF SYSTEMS SCIENCE & COMPLEXITY"
