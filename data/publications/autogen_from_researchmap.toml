@@ -44,6 +44,30 @@ ja_author = "Kosei TSuji, Ichiro Maruta, Kenji Fujimoto"
 outside_kuaero = false
 
 [[record]]
+publication_date = "20230628"
+ja_booktitle = "IEEE Control Systems Letters"
+en_booktitle = "IEEE Control Systems Letters"
+type = "journal"
+volume = "7"
+page_begin = "2946"
+page_end = "2951"
+reviewed = true
+invited = false
+en_title = "A Passivity-Based Integral Sliding Mode Controller for Mechanical Port-Hamiltonian Systems"
+ja_title = "A Passivity-Based Integral Sliding Mode Controller for Mechanical Port-Hamiltonian Systems"
+en_author = "Takahiro Baba, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "Takahiro Baba, Kenji Fujimoto, Ichiro Maruta"
+outside_kuaero = false
+
+[record.ids.url]
+label = "URL"
+id = "https://ieeexplore.ieee.org/document/10167721/authors#authors"
+url = "https://ieeexplore.ieee.org/document/10167721/authors#authors"
+[record.ids.doi]
+label = "DOI"
+id = "10.1109/LCSYS.2023.3290497"
+url = "https://doi.org/10.1109/LCSYS.2023.3290497"
+[[record]]
 publication_date = "20230603"
 ja_booktitle = "Proceedings of the Joint Symposium 34th ISTS & 12th NSAT"
 en_booktitle = "Proceedings of the Joint Symposium 34th ISTS & 12th NSAT"
@@ -427,31 +451,6 @@ label = "URL"
 id = "https://www.tandfonline.com/doi/full/10.1080/18824889.2021.1936817"
 url = "https://www.tandfonline.com/doi/full/10.1080/18824889.2021.1936817"
 [[record]]
-publication_date = "20210615"
-ja_booktitle = "IEEE Control Systems Letters"
-en_booktitle = "IEEE Control Systems Letters"
-type = "journal"
-volume = "6"
-page_begin = "1208"
-page_end = "1213"
-reviewed = true
-en_publisher = "Institute of Electrical and Electronics Engineers (IEEE)"
-ja_publisher = "Institute of Electrical and Electronics Engineers (IEEE)"
-en_title = "A Passivity-Based Sliding Mode Controller for a Class of Electro-Mechanical Systems"
-ja_title = "A Passivity-Based Sliding Mode Controller for a Class of Electro-Mechanical Systems"
-en_author = "Kenji Fujimoto, Takahiro Baba, Naoki Sakata, Ichiro Maruta"
-ja_author = "Kenji Fujimoto, Takahiro Baba, Naoki Sakata, Ichiro Maruta"
-outside_kuaero = false
-
-[record.ids.doi]
-label = "DOI"
-id = "10.1109/LCSYS.2021.3089541"
-url = "https://doi.org/10.1109/LCSYS.2021.3089541"
-[record.ids.url]
-label = "URL"
-id = "https://ieeexplore.ieee.org/document/9455425"
-url = "https://ieeexplore.ieee.org/document/9455425"
-[[record]]
 publication_date = "20210601"
 ja_booktitle = "IEICE TRANSACTIONS on Information and Systems"
 en_booktitle = "IEICE TRANSACTIONS on Information and Systems"
@@ -586,7 +585,6 @@ url = "https://ieeexplore.ieee.org/document/9247228"
 [[record]]
 publication_date = "20201021"
 ja_booktitle = "IEEE Control Systems Letters"
-en_booktitle = "IEEE Control Systems Letters"
 type = "journal"
 volume = "5"
 number = "4"
@@ -594,22 +592,20 @@ page_begin = "1285"
 page_end = "1290"
 reviewed = true
 invited = false
-en_publisher = "Institute of Electrical and Electronics Engineers (IEEE)"
-ja_publisher = "Institute of Electrical and Electronics Engineers (IEEE)"
 en_title = "Passivity-Based Lag-Compensators With Input Saturation for Mechanical Port-Hamiltonian Systems Without Velocity Measurements"
 ja_title = "Passivity-Based Lag-Compensators With Input Saturation for Mechanical Port-Hamiltonian Systems Without Velocity Measurements"
-en_author = "Kiyoshi Hamada, Pablo Borja, Jacquelien M. A. Scherpen, Kenji Fujimoto, Ichiro Maruta"
-ja_author = "Kiyoshi Hamada, Pablo Borja, Jacquelien M. A. Scherpen, Kenji Fujimoto, Ichiro Maruta"
+en_author = "Kiyoshi Hamada, Pablo Borja, Jecquelien M, A. Scherpen, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "Kiyoshi Hamada, Pablo Borja, Jecquelien M, A. Scherpen, Kenji Fujimoto, Ichiro Maruta"
 outside_kuaero = false
 
-[record.ids.doi]
-label = "DOI"
-id = "10.1109/LCSYS.2020.3032890"
-url = "https://doi.org/10.1109/LCSYS.2020.3032890"
 [record.ids.url]
 label = "URL"
 id = "https://ieeexplore.ieee.org/document/9234525"
 url = "https://ieeexplore.ieee.org/document/9234525"
+[record.ids.doi]
+label = "DOI"
+id = "10.1109/LCSYS.2020.3032890"
+url = "https://doi.org/10.1109/LCSYS.2020.3032890"
 [[record]]
 publication_date = "20200923"
 ja_booktitle = "Proceedings of the SICE Annual Conference 2020"
@@ -4381,36 +4377,6 @@ url = "https://doi.org/10.1109/CDC42340.2020.9303974"
 label = "URL"
 id = "https://ieeexplore.ieee.org/document/9303974"
 url = "https://ieeexplore.ieee.org/document/9303974"
-[[record]]
-publication_date = "20201021"
-ja_booktitle = "IEEE Control Systems Letters"
-en_booktitle = "IEEE Control Systems Letters"
-type = "journal"
-volume = "5"
-number = "4"
-page_begin = "1285"
-page_end = "1290"
-reviewed = true
-invited = false
-en_publisher = "Institute of Electrical and Electronics Engineers (IEEE)"
-ja_publisher = "Institute of Electrical and Electronics Engineers (IEEE)"
-en_title = "Passivity-Based Lag-Compensators With Input Saturation for Mechanical Port-Hamiltonian Systems Without Velocity Measurements"
-ja_title = "Passivity-Based Lag-Compensators With Input Saturation for Mechanical Port-Hamiltonian Systems Without Velocity Measurements"
-en_author = "Kiyoshi Hamada, Pablo Borja, Jacquelien M. A. Scherpen, Kenji Fujimoto, Ichiro Maruta"
-ja_author = "Kiyoshi Hamada, Pablo Borja, Jacquelien M. A. Scherpen, Kenji Fujimoto, Ichiro Maruta"
-outside_kuaero = false
-
-[record.ids.doi]
-label = "DOI"
-id = "10.1109/LCSYS.2020.3032890"
-url = "https://doi.org/10.1109/LCSYS.2020.3032890"
-[record.ids.e_issn]
-label = "e-ISSN"
-id = "2475-1456"
-[record.ids.url]
-label = "URL"
-id = "https://ieeexplore.ieee.org/document/9234525"
-url = "https://ieeexplore.ieee.org/document/9234525"
 [[record]]
 publication_date = "20201018"
 ja_booktitle = "Proceedings of the IECON 2020 The 46th Annual Conference of the IEEE Industrial Electronics Society"
