@@ -1,4 +1,34 @@
 [[record]]
+publication_date = "20230906"
+ja_booktitle = "Proceedings of the 2023 62nd Annual Conference of the Society of Instrumento and Control Engineers of Japan (SICE)"
+en_booktitle = "Proceedings of the 2023 62nd Annual Conference of the Society of Instrumento and Control Engineers of Japan (SICE)"
+type = "international_conference"
+page_begin = "158"
+page_end = "161"
+reviewed = true
+invited = false
+en_title = "Identification and Control Experiment of a Camera-Equipped Front-Wheel Steering Vehicle as a Nonlinear Massive Multiple Output System Using Deep Neural Networks"
+ja_title = "Identification and Control Experiment of a Camera-Equipped Front-Wheel Steering Vehicle as a Nonlinear Massive Multiple Output System Using Deep Neural Networks"
+en_author = "Haruyuki Yamasaki, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "Haruyuki Yamasaki, Ichiro Maruta, Kenji Fujimoto"
+outside_kuaero = false
+
+[[record]]
+publication_date = "20230906"
+ja_booktitle = "Proceedings of the 2023 62nd Annual Conference of the Society of Instrumento and Control Engineers of Japan (SICE)"
+en_booktitle = "Proceedings of the 2023 62nd Annual Conference of the Society of Instrumento and Control Engineers of Japan (SICE)"
+type = "international_conference"
+page_begin = "154"
+page_end = "157"
+reviewed = true
+invited = false
+en_title = "Nonlinear Optimal Control Using a Trajectory Database Dealing with Time Delays and Disturbances: Experimental Application to a Quadcopter"
+ja_title = "Nonlinear Optimal Control Using a Trajectory Database Dealing with Time Delays and Disturbances: Experimental Application to a Quadcopter"
+en_author = "Eiki Sato, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "Eiki Sato, Ichiro Maruta, Kenji Fujimoto"
+outside_kuaero = false
+
+[[record]]
 publication_date = "20230709"
 ja_booktitle = "Preprints of the 22nd IFAC World Congress"
 en_booktitle = "Preprints of the 22nd IFAC World Congress"
@@ -2316,51 +2346,6 @@ url = "https://doi.org/10.1109/CDC.2009.5400191"
 [record.ids.issn]
 label = "ISSN"
 id = "0743-1546"
-[[record]]
-publication_date = "20091021"
-ja_booktitle = "IFAC Proceedings Volumes (IFAC-PapersOnline)"
-en_booktitle = "IFAC Proceedings Volumes (IFAC-PapersOnline)"
-type = "international_conference"
-volume = "42"
-number = "24"
-page_begin = "317"
-page_end = "321"
-reviewed = true
-invited = false
-en_title = "Rapid Prototyping for Control Education using Arduino and Open-Source Technologies"
-ja_title = "Rapid Prototyping for Control Education using Arduino and Open-Source Technologies"
-en_author = "Masato Ishikawa, Ichiro Maruta"
-ja_author = "Masato Ishikawa, Ichiro Maruta"
-outside_kuaero = true
-
-[record.ids.doi]
-label = "DOI"
-id = "10.3182/20091021-3-JP-2009.00060"
-url = "https://doi.org/10.3182/20091021-3-JP-2009.00060"
-[[record]]
-publication_date = "20090708"
-ja_booktitle = "2009 IEEE Control Applications, (CCA) & Intelligent Control, (ISIC)"
-en_booktitle = "2009 IEEE Control Applications, (CCA) & Intelligent Control, (ISIC)"
-type = "international_conference"
-page_begin = "1378"
-page_end = "1383"
-reviewed = true
-invited = false
-en_publisher = "IEEE"
-ja_publisher = "IEEE"
-en_title = "Practical Modeling and System Identification of R/C Servo Motors"
-ja_title = "Practical modeling and system identification of R/C servo motors"
-en_author = "Takashi Wada, Masato Ishikawa, Ryohei Kitayoshi, Ichiro Maruta, Toshiharu Sugie"
-ja_author = "Takashi Wada, Masato Ishikawa, Ryohei Kitayoshi, Ichiro Maruta, Toshiharu Sugie"
-outside_kuaero = true
-
-[record.ids.doi]
-label = "DOI"
-id = "10.1109/CCA.2009.5280987"
-url = "https://doi.org/10.1109/CCA.2009.5280987"
-[record.ids.issn]
-label = "ISSN"
-id = "1085-1992"
 [[record]]
 ja_booktitle = "第67回システム制御情報学会研究発表講演会研究発表講演会講演論文予稿集"
 en_booktitle = "Proceedings of the 67th Annual Conference of the Institute of Systems, Control and Information Engineers"
@@ -5702,66 +5687,6 @@ url = "https://doi.org/10.1016/j.ifacol.2015.10.211"
 [record.ids.issn]
 label = "ISSN"
 id = "2405-8963"
-[[record]]
-publication_date = "20150701"
-ja_booktitle = "Proceedings of the 2015 American Control Conference"
-en_booktitle = "Proceedings of the 2015 American Control Conference"
-type = "international_conference"
-page_begin = "2032"
-page_end = "2037"
-reviewed = true
-invited = false
-en_publisher = "IEEE"
-ja_publisher = "IEEE"
-en_title = "A Unified Approach of Control and Identification for Optimal Control of Non-linear Systems"
-ja_title = "A Unified Approach of Control and Identification for Optimal Control of Non-linear Systems"
-en_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro, Takayoshi Yoshimura"
-ja_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro, Takayoshi Yoshimura"
-outside_kuaero = false
-
-[record.ids.doi]
-label = "DOI"
-id = "10.1109/ACC.2015.7171032"
-url = "https://doi.org/10.1109/ACC.2015.7171032"
-[record.ids.issn]
-label = "ISSN"
-id = "0743-1619"
-[record.ids.url]
-label = "URL"
-id = "https://www.researchgate.net/publication/280627629_A_unified_approach_of_control_and_identification_for_optimal_control_of_non-linear_systems"
-url = "https://www.researchgate.net/publication/280627629_A_unified_approach_of_control_and_identification_for_optimal_control_of_non-linear_systems"
-[[record]]
-publication_date = "20150100"
-en_booktitle = "SIAM Journal on Control and Optimization"
-type = "journal"
-volume = "53"
-number = "4"
-page_begin = "2424"
-page_end = "2448"
-reviewed = true
-invited = false
-en_publisher = "Society for Industrial & Applied Mathematics (SIAM)"
-ja_publisher = "Society for Industrial & Applied Mathematics (SIAM)"
-en_title = "Scalable Reduction of Elastic Continuum for Boundary Energy Control"
-ja_title = "Scalable Reduction of Elastic Continuum for Boundary Energy Control"
-en_author = "Gou Nishida, Kenji Fujimoto, Daiji Ichishima"
-ja_author = "Gou Nishida, Kenji Fujimoto, Daiji Ichishima"
-outside_kuaero = false
-
-[record.ids.doi]
-label = "DOI"
-id = "10.1137/11084529x"
-url = "https://doi.org/10.1137/11084529x"
-[record.ids.e_issn]
-label = "e-ISSN"
-id = "1095-7138"
-[record.ids.issn]
-label = "ISSN"
-id = "0363-0129"
-[record.ids.url]
-label = "URL"
-id = "http://epubs.siam.org/doi/pdf/10.1137/11084529X"
-url = "http://epubs.siam.org/doi/pdf/10.1137/11084529X"
 [[record]]
 ja_booktitle = "システム／制御／情報"
 en_booktitle = "SYSTEMS, CONTROL AND INFORMATION"
