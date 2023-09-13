@@ -21,6 +21,17 @@ type = "award"
 url = "https://www.sice.jp/wp-content/uploads/file/2023.pdf"
 
 [[record]]
+en_author = "Kiyoshi Hamada"
+ja_author = "濱田 聖司"
+en_giver = "The Society of Instrument and Control Engineers"
+ja_giver = "計測自動制御学会"
+en_title = "The Outstanding Paper Award in 2023 from The Society of Instrument and Control Engineers"
+ja_title = "2023年度計測自動制御学会論文賞"
+publication_date = "20230908"
+type = "award"
+url = "https://www.sice.jp/wp-content/uploads/file/2023.pdf"
+
+[[record]]
 en_author = "Kohei Oue"
 ja_author = "大上 耕平"
 en_giver = "The Executive Committee of the 67th Annual Conference of the Institute of Systems, Control and Information Engineers"
