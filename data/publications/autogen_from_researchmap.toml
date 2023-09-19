@@ -1,7 +1,7 @@
 [[record]]
 publication_date = "20230906"
-ja_booktitle = "Proceedings of the 2023 62nd Annual Conference of the Society of Instrumento and Control Engineers of Japan (SICE)"
-en_booktitle = "Proceedings of the 2023 62nd Annual Conference of the Society of Instrumento and Control Engineers of Japan (SICE)"
+ja_booktitle = "Proceedings of the 2023 62nd Annual Conference of the Society of Instrument and Control Engineers of Japan (SICE)"
+en_booktitle = "Proceedings of the 2023 62nd Annual Conference of the Society of Instrument and Control Engineers of Japan (SICE)"
 type = "international_conference"
 page_begin = "158"
 page_end = "161"
@@ -15,8 +15,8 @@ outside_kuaero = false
 
 [[record]]
 publication_date = "20230906"
-ja_booktitle = "Proceedings of the 2023 62nd Annual Conference of the Society of Instrumento and Control Engineers of Japan (SICE)"
-en_booktitle = "Proceedings of the 2023 62nd Annual Conference of the Society of Instrumento and Control Engineers of Japan (SICE)"
+ja_booktitle = "Proceedings of the 2023 62nd Annual Conference of the Society of Instrument and Control Engineers of Japan (SICE)"
+en_booktitle = "Proceedings of the 2023 62nd Annual Conference of the Society of Instrument and Control Engineers of Japan (SICE)"
 type = "international_conference"
 page_begin = "154"
 page_end = "157"
@@ -69,8 +69,8 @@ reviewed = true
 invited = false
 en_title = "Aerospace industrial benchmarking and fault-tolerant control design using NARX model-based observer"
 ja_title = "Aerospace industrial benchmarking and fault-tolerant control design using NARX model-based observer"
-en_author = "Kosei TSuji, Ichiro Maruta, Kenji Fujimoto"
-ja_author = "Kosei TSuji, Ichiro Maruta, Kenji Fujimoto"
+en_author = "Kosei Tsuji, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "Kosei Tsuji, Ichiro Maruta, Kenji Fujimoto"
 outside_kuaero = false
 
 [[record]]
