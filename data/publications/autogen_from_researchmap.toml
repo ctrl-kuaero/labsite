@@ -2347,6 +2347,40 @@ url = "https://doi.org/10.1109/CDC.2009.5400191"
 label = "ISSN"
 id = "0743-1546"
 [[record]]
+ja_booktitle = "第66回自動制御連合講演会講演論文集"
+en_booktitle = "Proceedings of the 66th Japan Joint Automatic Control Conference"
+publication_date = "20231007"
+type = "domestic_conference"
+lang = "ja"
+volume = "1C2-3"
+page_begin = "356"
+page_end = "360"
+reviewed = false
+invited = false
+en_title = "System Identification using Piecewise-Constant Finite Impulse Response Model for Predicting Step Response Values"
+ja_title = "ステップ応答値の予測のための区分定数有限インパルス応答モデルを用いたシステム同定法"
+en_author = "Takahiro Kawaguchi, Ichiro Maruta, Shuichi Adachi"
+ja_author = "川口 貴弘, 丸田 一郎, 足立 修一"
+outside_kuaero = false
+
+[[record]]
+ja_booktitle = "第66回自動制御連合講演会講演論文集"
+en_booktitle = "Proceedings of the 66th Japan Joint Automatic Control Conference"
+publication_date = "20231007"
+type = "domestic_conference"
+lang = "ja"
+volume = "1B1-4"
+page_begin = "48"
+page_end = "51"
+reviewed = false
+invited = false
+en_title = "System identification of nonlinear dynamical systems with hysteresis using deep neural network"
+ja_title = "深層ニューラルネットを用いたヒステリシスを含む非線形動的システムの同定"
+en_author = "Kosei Tsuji, Ichiro Maruta, Kenji Fujimoto, Yoshiharu Nishida, Mutsuki Ohara"
+ja_author = "辻 康生, 丸田 一郎, 藤本 健治, 西田 吉晴, 尾原 睦月"
+outside_kuaero = false
+
+[[record]]
 ja_booktitle = "第67回システム制御情報学会研究発表講演会研究発表講演会講演論文予稿集"
 en_booktitle = "Proceedings of the 67th Annual Conference of the Institute of Systems, Control and Information Engineers"
 publication_date = "20230517"
@@ -4155,50 +4189,6 @@ url = "http://ci.nii.ac.jp/naid/40020473620"
 label = "URL"
 id = "http://id.ndl.go.jp/bib/026412245"
 url = "http://id.ndl.go.jp/bib/026412245"
-[[record]]
-ja_booktitle = "第59回システム制御情報学会研究発表講演会講演論文集"
-en_booktitle = "Proceedings of the 59th Annual Conference of the Institute of Systems, Control and Information Engineers (ISCIE)"
-publication_date = "20150520"
-type = "domestic_conference"
-lang = "ja"
-volume = "59"
-page_begin = "324-5"
-reviewed = false
-invited = false
-en_publisher = "システム制御情報学会"
-ja_publisher = "システム制御情報学会"
-en_title = "Finite alphabet control with A* algorithm"
-ja_title = "A*アルゴリズムによる有限アルファベット制御"
-en_author = "Mami Yomoda, Ichiro Maruta, Toshiharu Sugie"
-ja_author = "四方田 真美, 丸田 一郎, 杉江 俊治"
-outside_kuaero = true
-
-[record.ids.cinii_na_id]
-label = "CiNii"
-id = "40020474802"
-url = "http://ci.nii.ac.jp/naid/40020474802"
-[[record]]
-ja_booktitle = "第59回システム制御情報学会研究発表講演会講演論文集"
-en_booktitle = "Proceedings of the 59th Annual Conference of the Institute of Systems, Control and Information Engineers"
-publication_date = "20150520"
-type = "domestic_conference"
-lang = "ja"
-volume = "59"
-page_begin = "342-6"
-reviewed = false
-invited = false
-en_publisher = "システム制御情報学会"
-ja_publisher = "システム制御情報学会"
-en_title = "Subspace identification for positive systems"
-ja_title = "非負システムを対象とする部分空間同定法"
-en_author = "Kosei Inoue, Ichiro Maruta, Toshiharu Sugie"
-ja_author = "井上 晃成, 丸田 一郎, 杉江 俊治"
-outside_kuaero = true
-
-[record.ids.cinii_na_id]
-label = "CiNii"
-id = "40020475081"
-url = "http://ci.nii.ac.jp/naid/40020475081"
 [[record]]
 publication_date = "20151210"
 type = "book"
@@ -6440,25 +6430,6 @@ outside_kuaero = false
 label = "J-GLOBAL ID"
 id = "201602281126771024"
 url = "http://jglobal.jst.go.jp/detail?JGLOBAL_ID=201602281126771024"
-[[record]]
-ja_booktitle = "第58回自動制御連合講演会講演論文集"
-en_booktitle = "Proceedings of the 58th Japan Joint Automatic Control Conference"
-publication_date = "20151114"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "2D2-5"
-reviewed = false
-invited = false
-en_title = "Stochastic optimal control for variance suppression considering reliability"
-ja_title = "信頼度を考慮したばらつき抑制のための確率最適制御"
-en_author = "Teppei Inoue, Kenji Fujimoto"
-ja_author = "井上 鉄平, 藤本 健治"
-outside_kuaero = false
-
-[record.ids.j_global_id]
-label = "J-GLOBAL ID"
-id = "201602275374549168"
-url = "http://jglobal.jst.go.jp/detail?JGLOBAL_ID=201602275374549168"
 [[record]]
 publication_date = "20150725"
 type = "book"
