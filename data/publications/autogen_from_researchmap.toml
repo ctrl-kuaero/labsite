@@ -2347,6 +2347,36 @@ url = "https://doi.org/10.1109/CDC.2009.5400191"
 label = "ISSN"
 id = "0743-1546"
 [[record]]
+ja_booktitle = "第67回宇宙科学技術連合講演会講演集"
+en_booktitle = "Proceedings of the 66th Japan Joint Automatic Control Conference"
+publication_date = "20231017"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "3G03"
+reviewed = false
+invited = false
+en_title = "Proposal of L1-sequential convex programming and its application to constrained sparse trajectory design"
+ja_title = "L1 逐次凸計画法の提案と制約付きスパース軌道設計への応用"
+en_author = "Keitaro Yamamoto, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "山本 慶太郎, 藤本 健治, 丸田 一郎"
+outside_kuaero = false
+
+[[record]]
+ja_booktitle = "第67回宇宙科学技術連合講演会講演集"
+en_booktitle = "Proceeding of 67th Space Sciences and Technology Conference"
+publication_date = "20231017"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "3G02"
+reviewed = false
+invited = false
+en_title = "On analytical optimal solutions for satellite constellation separation with differential drag"
+ja_title = "大気抵抗を用いた衛星コンステレーション展開の解析的最適解"
+en_author = "Hibiki Asakura, Kenji Fujimoto, Ichiro Maruta, Kazuhiro Izui, Takeya Shima, Akihiko Honda, Takumi Noro, Akihiko Imagi, Shoji Yoshikawa"
+ja_author = "朝倉 響, 藤本 健治, 丸田 一郎, 泉井 一浩, 島 岳也, 本田 瑛彦, 野呂 拓臣, 今城 昭彦, 古河 章二"
+outside_kuaero = false
+
+[[record]]
 ja_booktitle = "第66回自動制御連合講演会講演論文集"
 en_booktitle = "Proceedings of the 66th Japan Joint Automatic Control Conference"
 publication_date = "20231007"
@@ -4144,51 +4174,6 @@ en_author = "Taici Kitao, Shun-ichi Azuma, Lotfi Mostefai, Ichiro Maruta, Toshih
 ja_author = "北尾太市, 東俊一, L. Mostefai, 丸田一郎, 杉江俊治"
 outside_kuaero = true
 
-[[record]]
-ja_booktitle = "第3回 計測自動制御学会制御部門マルチシンポジウム(CD-ROM)"
-en_booktitle = "Proceedings of the 3rd Multi-Symposium on Control Systems"
-publication_date = "20160307"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "2C1‐3"
-reviewed = false
-invited = false
-en_title = "System Identification Method Using Lebesgue Sampling and Its Statistical Property"
-ja_title = "ルベーグサンプリングを用いたシステム同定法とその統計的性質"
-en_author = "Takahiro Kawaguchi, Sosaburo Hikono, Ichiro Maruta, Shuichi Adachi"
-ja_author = "川口 貴弘, 彦野 壮三朗, 丸田 一郎, 足立 修一"
-outside_kuaero = true
-
-[record.ids.j_global_id]
-label = "J-GLOBAL ID"
-id = "201602209534047773"
-url = "http://jglobal.jst.go.jp/public/201602209534047773"
-[[record]]
-ja_booktitle = "第59回システム制御情報学会研究発表講演会講演論文集"
-en_booktitle = "Proceedings of the 59th Annual Conference of the Institute of Systems, Control and Information Engineers"
-publication_date = "20150520"
-type = "domestic_conference"
-lang = "ja"
-volume = "59"
-page_begin = "222-2"
-reviewed = false
-invited = false
-en_publisher = "システム制御情報学会"
-ja_publisher = "システム制御情報学会"
-en_title = "A Study on System Identification Using lebesgue-Sampled Data"
-ja_title = "ルベーグサンプリングを用いたシステム同定に関する一考察"
-en_author = "Sosaburo Hikono, Ichiro Maruta, Atsushi Baba, Shuichi Adachi"
-ja_author = "彦野 壮三朗, 丸田 一郎, 馬場 厚志, 足立 修一"
-outside_kuaero = true
-
-[record.ids.cinii_na_id]
-label = "CiNii"
-id = "40020473620"
-url = "http://ci.nii.ac.jp/naid/40020473620"
-[record.ids.url]
-label = "URL"
-id = "http://id.ndl.go.jp/bib/026412245"
-url = "http://id.ndl.go.jp/bib/026412245"
 [[record]]
 publication_date = "20151210"
 type = "book"
@@ -6392,44 +6377,6 @@ outside_kuaero = false
 label = "J-GLOBAL ID"
 id = "201602235134369608"
 url = "http://jglobal.jst.go.jp/detail?JGLOBAL_ID=201602235134369608"
-[[record]]
-ja_booktitle = "第3回 計測自動制御学会 制御部門マルチシンポジウム予稿集"
-en_booktitle = "Proceedings of the 3rd Multi-symposium on Control Systems"
-publication_date = "20160307"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "2C2-1"
-reviewed = false
-invited = false
-en_title = "Risk Sensitive Linear Control for Linear Systems with Stochastic Parameters"
-ja_title = "確率パラメータをもつ線形システムのリスク鋭敏型線形制御"
-en_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro, Takayohi Yoshimura"
-ja_author = "伊藤 優司, 藤本 健治, 田所 幸浩, 吉村 貴克"
-outside_kuaero = false
-
-[record.ids.j_global_id]
-label = "J-GLOBAL ID"
-id = "201602240231373206"
-url = "http://jglobal.jst.go.jp/detail?JGLOBAL_ID=201602240231373206"
-[[record]]
-ja_booktitle = "第3回 計測自動制御学会 制御部門マルチシンポジウム予稿集"
-en_booktitle = "Proceedings of the 3rd Multi-symposium on Control Systems"
-publication_date = "20160307"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "1C1-2"
-reviewed = false
-invited = false
-en_title = "Nonlinear optimal control of the viscous Burgers equation using the Hopf-Cole transformation and state feedback"
-ja_title = "Hopf-Cole変換と状態フィードバックを用いた粘性Burgers方程式の非線形最適制御"
-en_author = "Tomofumi Iwamoto, Kenji Fujimoto"
-ja_author = "岩本 智文, 藤本 健治"
-outside_kuaero = false
-
-[record.ids.j_global_id]
-label = "J-GLOBAL ID"
-id = "201602281126771024"
-url = "http://jglobal.jst.go.jp/detail?JGLOBAL_ID=201602281126771024"
 [[record]]
 publication_date = "20150725"
 type = "book"
