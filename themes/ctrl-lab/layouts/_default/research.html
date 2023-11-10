@@ -30,7 +30,7 @@
                     {{ end }}
                 </h2>
                 <div class="columns is-centered">
-                    {{ if (modBool $content_num 2) }}
+                    {{ if (and ( (modBool $content_num 2)) ($currentPage.Resources.GetMatch .fig_name)) }}
                     <div class="column is-4" style="order: 0;">
                     {{ else }}
                     <div class="column is-4" style="order: 1;">
