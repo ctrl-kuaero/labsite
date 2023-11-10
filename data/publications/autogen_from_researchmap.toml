@@ -2411,6 +2411,20 @@ ja_author = "辻 康生, 丸田 一郎, 藤本 健治, 西田 吉晴, 尾原 睦
 outside_kuaero = false
 
 [[record]]
+ja_booktitle = "Proceedings of the Joint Symposium 34th ISTS & 12th NSAT"
+en_booktitle = "Proceedings of the Joint Symposium 34th ISTS & 12th NSAT"
+publication_date = "20230603"
+type = "summary_international_conference"
+page_begin = "2023-d-18"
+reviewed = false
+invited = false
+en_title = "Distributed Control for Satellite Constellation Separation with Differential Drag"
+ja_title = "Distributed Control for Satellite Constellation Separation with Differential Drag"
+en_author = "Takeya Shima, Akihiko Honda, Takumi Noro, Shoji Yoshikawa, Akihiko Imagi, Hibiki Asakura, Kenji Fujimoto, Ichiro Maruta, Kazuhiro Izui"
+ja_author = "Takeya Shima, Akihiko Honda, Takumi Noro, Shoji Yoshikawa, Akihiko Imagi, Hibiki Asakura, Kenji Fujimoto, Ichiro Maruta, Kazuhiro Izui"
+outside_kuaero = false
+
+[[record]]
 ja_booktitle = "第67回システム制御情報学会研究発表講演会研究発表講演会講演論文予稿集"
 en_booktitle = "Proceedings of the 67th Annual Conference of the Institute of Systems, Control and Information Engineers"
 publication_date = "20230517"
@@ -4157,21 +4171,6 @@ en_title = "Development of a packet-based energy management system for multi-leg
 ja_title = "多脚歩行ロボットのための電力パケット型エネルギー管理システムの開発"
 en_author = "Yusuke Kojima, Shun-ichi Azuma, Taichi Kitao, Ichiro Maruta, Toshiharu Sugie"
 ja_author = "児嶋佑典, 東俊一, 北尾太市, 丸田一郎, 杉江俊治"
-outside_kuaero = true
-
-[[record]]
-ja_booktitle = "第3回計測自動制御学会制御部門マルチシンポジウム"
-en_booktitle = "Proceedings of the 3rd Multi-symposium on Control Systems: MSCS2016"
-publication_date = "20160307"
-type = "others"
-lang = "ja"
-page_begin = "PS-18"
-reviewed = false
-invited = false
-en_title = "Model-Free Position Control of Solar Farms for Maximizing Power Generation"
-ja_title = "ソーラーファームのデータ駆動型発電量最大化制御"
-en_author = "Taici Kitao, Shun-ichi Azuma, Lotfi Mostefai, Ichiro Maruta, Toshiharu Sugie"
-ja_author = "北尾太市, 東俊一, L. Mostefai, 丸田一郎, 杉江俊治"
 outside_kuaero = true
 
 [[record]]
@@ -6358,25 +6357,6 @@ url = "http://jglobal.jst.go.jp/detail?JGLOBAL_ID=201602282545875519"
 label = "CiNii"
 id = "40020836666"
 url = "http://ci.nii.ac.jp/naid/40020836666/"
-[[record]]
-ja_booktitle = "第3回 計測自動制御学会 制御部門マルチシンポジウム予稿集"
-en_booktitle = "Proceedings of the 3rd Multi-symposium on Control Systems"
-publication_date = "20160307"
-type = "domestic_conference"
-lang = "ja"
-page_begin = "2C2-4"
-reviewed = false
-invited = false
-en_title = "Active learning based on mutual information in frequency domain"
-ja_title = "周波数領域における相互情報量を用いた能動学習"
-en_author = "Teppei Inoue, Kenji Fujimoto"
-ja_author = "井上 鉄平, 藤本 健治"
-outside_kuaero = false
-
-[record.ids.j_global_id]
-label = "J-GLOBAL ID"
-id = "201602235134369608"
-url = "http://jglobal.jst.go.jp/detail?JGLOBAL_ID=201602235134369608"
 [[record]]
 publication_date = "20150725"
 type = "book"
