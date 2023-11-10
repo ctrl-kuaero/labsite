@@ -3,26 +3,45 @@
 <section class="section" id="main">
     <div class="container">
         <div class="homepage-content content">
-            <h1>研究紹介</h1>
-            制御工学研究室では...を目指して研究しています．
-            <hr>
-            <h2>最適制御</h2>
-            <h3>燃料消費を最小にするための制御</h3>
-            <h3>システムの非線形性を考慮した最適制御</h3>
-            <hr>
-            <h2>受動性に基づく制御</h2>
-            <h3>ポートハミルトン系</h3>
-            <hr>
-            <h2>非線形システム同定</h2>
-            <h3>Neuralネットを用いたモデルの構築</h3>
-            非線形システムの同定方法の中で、深層ニューラルネットワークの使用が注目されています。
-            <div class="columns is-centered" style="padding:2em;">
+            <h1>研究内容</h1>
+            <div class="columns is-centered" style="padding-bottom:2em;">
                 <div class="column is-12">
-                    {{ with .Resources.GetMatch "test.jpg" }}
-                    {{ $image := .Fit "1600x800 q90" }}
-                    <img src="{{ $image.RelPermalink }}" width="50%" alt="" align="right">
+                    {{ $currentPage := .Page }}
+                    <p>
+                        {{ with index $currentPage.Data.research_ex "main" }}
+                            {{ .ja_content }}
+                        {{ end }}
+                    </p>
+                </div>
+            </div>
+            <hr/>
+            <div style="padding-bottom:2em;">
+                {{ $content_num := 0 }}
+                {{ range $.Site.Data.research_ex.list }}
+                <h2>{{ .ja_title }}</h2>
+                <div class="columns is-centered">
+                    {{ if (modBool $content_num 2) }}
+                    <div class="column is-4">
+                        {{ with $currentPage.Resources.GetMatch .fig_name }}
+                        {{ $image := .Fill "1600x800 q90" }}
+                        <img src="{{ $image.RelPermalink }}" width="100%" alt="">
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                    <div class="column is-8">
+                        {{ .ja_content | markdownify }}
+                    </div>
+                    {{ if not (modBool $content_num 2) }}
+                    <div class="column is-4">
+                        {{ with $currentPage.Resources.GetMatch .fig_name }}
+                        {{ $image := .Fill "1600x800 q90" }}
+                        <img src="{{ $image.RelPermalink }}" width="100%" alt="">
+                        {{ end }}
+                    </div>
                     {{ end }}
                 </div>
+                {{ $content_num = add $content_num 1 }}
+                {{ end }}
             </div>
         </div>
     </div>
