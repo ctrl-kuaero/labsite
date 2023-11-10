@@ -1,44 +1,38 @@
 {{ define "main" }}
 {{- partial "nav.html" . -}}
+{{ $currentPage := .Page }}
 <section class="section" id="main">
     <div class="container">
         <div class="homepage-content content">
             <h1>研究内容</h1>
-            <div class="columns is-centered" style="padding-bottom:2em;">
+            <div class="columns is-centered" >
                 <div class="column is-12">
-                    {{ $currentPage := .Page }}
                     <p>
-                        {{ with index $currentPage.Data.research_ex "main" }}
-                            {{ .ja_content }}
+                        {{ with index .Site.Data.research_ex "main" }}
+                        {{ .ja_content | markdownify }}
+                        <hr/>
                         {{ end }}
                     </p>
                 </div>
             </div>
-            <hr/>
             <div style="padding-bottom:2em;">
                 {{ $content_num := 0 }}
                 {{ range $.Site.Data.research_ex.list }}
                 <h2>{{ .ja_title }}</h2>
                 <div class="columns is-centered">
                     {{ if (modBool $content_num 2) }}
-                    <div class="column is-4">
+                    <div class="column is-4" style="order: 0;">
+                    {{ else }}
+                    <div class="column is-4" style="order: 1;">
+                    {{ end }}
                         {{ with $currentPage.Resources.GetMatch .fig_name }}
                         {{ $image := .Fill "1600x800 q90" }}
                         <img src="{{ $image.RelPermalink }}" width="100%" alt="">
                         {{ end }}
                     </div>
-                    {{ end }}
                     <div class="column is-8">
                         {{ .ja_content | markdownify }}
                     </div>
-                    {{ if not (modBool $content_num 2) }}
-                    <div class="column is-4">
-                        {{ with $currentPage.Resources.GetMatch .fig_name }}
-                        {{ $image := .Fill "1600x800 q90" }}
-                        <img src="{{ $image.RelPermalink }}" width="100%" alt="">
-                        {{ end }}
-                    </div>
-                    {{ end }}
                 </div>
                 {{ $content_num = add $content_num 1 }}
                 {{ end }}
