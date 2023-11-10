@@ -4,12 +4,16 @@
 <section class="section" id="main">
     <div class="container">
         <div class="homepage-content content">
-            <h1>研究内容</h1>
+            <h1>{{ .Title }}</h1>
             <div class="columns is-centered" >
                 <div class="column is-12">
                     <p>
                         {{ with index .Site.Data.research_ex "main" }}
+                        {{ if (eq $.Page.Lang "en") }}
+                        {{ .en_content | markdownify }}
+                        {{ else }}
                         {{ .ja_content | markdownify }}
+                        {{ end }}
                         <hr/>
                         {{ end }}
                     </p>
@@ -18,7 +22,13 @@
             <div style="padding-bottom:2em;">
                 {{ $content_num := 0 }}
                 {{ range $.Site.Data.research_ex.list }}
-                <h2>{{ .ja_title }}</h2>
+                <h2>
+                    {{ if (eq $.Page.Lang "en") }}
+                    {{ .en_title }}
+                    {{ else }}
+                    {{ .ja_title }}
+                    {{ end }}
+                </h2>
                 <div class="columns is-centered">
                     {{ if (modBool $content_num 2) }}
                     <div class="column is-4" style="order: 0;">
@@ -31,7 +41,11 @@
                         {{ end }}
                     </div>
                     <div class="column is-8">
+                        {{ if (eq $.Page.Lang "en") }}
+                        {{ .en_content | markdownify }}
+                        {{ else }}
                         {{ .ja_content | markdownify }}
+                        {{ end }}
                     </div>
                 </div>
                 {{ $content_num = add $content_num 1 }}
