@@ -29,14 +29,16 @@
                     {{ end }}
                 </h2>
                 <div class="columns is-centered">
-                    {{ if ($.Page.Resources.GetMatch .fig_name) }}
+                    {{ if ($.Page.Resources.GetMatch (index .fig_name 0 )) }}
                         {{ if (modBool $content_num 2) }}
                         <div class="column is-4" style="order: 0;">
                         {{ else }}
                         <div class="column is-4" style="order: 1;">
                         {{ end }}
-                        {{ with $.Page.Resources.GetMatch .fig_name }}
-                            <img src="{{ .RelPermalink }}" width="100%" alt="" style="border-radius: 10pt;"/>
+                        {{ range $fig := .fig_name }}
+                            {{ with $.Page.Resources.GetMatch $fig }}
+                                <img src="{{ .RelPermalink }}" width="100%" alt="" style="border-radius: 10pt;"/>
+                            {{ end }}
                         {{ end }}
                         </div>
                         <div class="column is-8">
