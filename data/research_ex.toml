@@ -6,8 +6,10 @@ ja_content = """
 「おやおや、これはみごとな桃だこと。おじいさんへのおみやげに、どれどれ、うちへ持って帰りましょう。」"""
 en_content = "Nyan"
 
+
+
 [[list]]
-en_title = "Optimal Control"
+en_title = "Nyan"
 ja_title = "最適制御"
 en_content = """
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce orci turpis, semper nec dolor id, maximus accumsan arcu. Nam consectetur ligula non nulla viverra commodo. Ut sollicitudin commodo luctus. Sed maximus urna magna. Aenean non purus tellus. Vivamus hendrerit libero ut libero posuere finibus. Nullam condimentum erat vitae nulla dignissim fermentum. Maecenas euismod viverra viverra. Etiam convallis sit amet metus eget faucibus. Ut ipsum turpis, sagittis hendrerit vestibulum sit amet, feugiat et lorem. Mauris euismod sit amet neque eu ultrices. Pellentesque vitae varius sapien. Nam in porta erat, sit amet laoreet neque. """
@@ -16,10 +18,10 @@ ja_content = """
 まいにち、おじいさんは山へしば刈りに、おばあさんは川へ洗濯に行きました。  
 ある日、おばあさんが、川のそばで、せっせと洗濯をしていますと、川上から、大きな桃ももが一つ、「ドンブラコッコ、スッコッコ。ドンブラコッコ、スッコッコ。」と流れて来ました。  
 「おやおや、これはみごとな桃だこと。おじいさんへのおみやげに、どれどれ、うちへ持って帰りましょう。」"""
-fig_name = "ku.jpg"
+fig_name = ["ku.jpg", "ut.png"]
 
 [[list]]
-en_title = "Passivity Based Control"
+en_title = "Nyaan"
 ja_title = "受動性を用いた制御"
 en_content = """
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce orci turpis, semper nec dolor id, maximus accumsan arcu. Nam consectetur ligula non nulla viverra commodo. Ut sollicitudin commodo luctus. Sed maximus urna magna. Aenean non purus tellus. Vivamus hendrerit libero ut libero posuere finibus. Nullam condimentum erat vitae nulla dignissim fermentum. Maecenas euismod viverra viverra. Etiam convallis sit amet metus eget faucibus. Ut ipsum turpis, sagittis hendrerit vestibulum sit amet, feugiat et lorem. Mauris euismod sit amet neque eu ultrices. Pellentesque vitae varius sapien. Nam in porta erat, sit amet laoreet neque. """
@@ -28,10 +30,10 @@ ja_content = """
 まいにち、おじいさんは山へしば刈りに、おばあさんは川へ洗濯に行きました。  
 ある日、おばあさんが、川のそばで、せっせと洗濯をしていますと、川上から、大きな桃ももが一つ、「ドンブラコッコ、スッコッコ。ドンブラコッコ、スッコッコ。」と流れて来ました。  
 「おやおや、これはみごとな桃だこと。おじいさんへのおみやげに、どれどれ、うちへ持って帰りましょう。」"""
-fig_name = "ut.png"
+fig_name = ["ut.png"]
 
 [[list]]
-en_title = "Nonlinear system identification"
+en_title = "NyanNyan"
 ja_title = "NNを用いた非線形システム同定"
 en_content = """
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce orci turpis, semper nec dolor id, maximus accumsan arcu. Nam consectetur ligula non nulla viverra commodo. Ut sollicitudin commodo luctus. Sed maximus urna magna. Aenean non purus tellus. Vivamus hendrerit libero ut libero posuere finibus. Nullam condimentum erat vitae nulla dignissim fermentum. Maecenas euismod viverra viverra. Etiam convallis sit amet metus eget faucibus. Ut ipsum turpis, sagittis hendrerit vestibulum sit amet, feugiat et lorem. Mauris euismod sit amet neque eu ultrices. Pellentesque vitae varius sapien. Nam in porta erat, sit amet laoreet neque. """
@@ -40,10 +42,10 @@ ja_content = """
 まいにち、おじいさんは山へしば刈りに、おばあさんは川へ洗濯に行きました。
 ある日、おばあさんが、川のそばで、せっせと洗濯をしていますと、川上から、大きな桃ももが一つ、「ドンブラコッコ、スッコッコ。ドンブラコッコ、スッコッコ。」と流れて来ました。
 「おやおや、これはみごとな桃だこと。おじいさんへのおみやげに、どれどれ、うちへ持って帰りましょう。」"""
-fig_name = "su.jpeg"
+fig_name = ["su.jpeg"]
 
 [[list]]
-en_title = "Optimal Control"
+en_title = "MEOW"
 ja_title = "最適制御"
 en_content = """
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce orci turpis, semper nec dolor id, maximus accumsan arcu. Nam consectetur ligula non nulla viverra commodo. Ut sollicitudin commodo luctus. Sed maximus urna magna. Aenean non purus tellus. Vivamus hendrerit libero ut libero posuere finibus. Nullam condimentum erat vitae nulla dignissim fermentum. Maecenas euismod viverra viverra. Etiam convallis sit amet metus eget faucibus. Ut ipsum turpis, sagittis hendrerit vestibulum sit amet, feugiat et lorem. Mauris euismod sit amet neque eu ultrices. Pellentesque vitae varius sapien. Nam in porta erat, sit amet laoreet neque. """
@@ -54,7 +56,7 @@ ja_content = """
 「おやおや、これはみごとな桃だこと。おじいさんへのおみやげに、どれどれ、うちへ持って帰りましょう。」"""
 
 [[list]]
-en_title = "Passivity Based Control"
+en_title = "meow"
 ja_title = "受動性を用いた制御"
 en_content = """
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce orci turpis, semper nec dolor id, maximus accumsan arcu. Nam consectetur ligula non nulla viverra commodo. Ut sollicitudin commodo luctus. Sed maximus urna magna. Aenean non purus tellus. Vivamus hendrerit libero ut libero posuere finibus. Nullam condimentum erat vitae nulla dignissim fermentum. Maecenas euismod viverra viverra. Etiam convallis sit amet metus eget faucibus. Ut ipsum turpis, sagittis hendrerit vestibulum sit amet, feugiat et lorem. Mauris euismod sit amet neque eu ultrices. Pellentesque vitae varius sapien. Nam in porta erat, sit amet laoreet neque. """
@@ -66,7 +68,7 @@ ja_content = """
 fig_name = "su_.jpeg"
 
 [[list]]
-en_title = "Nonlinear system identification"
+en_title = "meoow"
 ja_title = "NNを用いた非線形システム同定"
 en_content = """
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce orci turpis, semper nec dolor id, maximus accumsan arcu. Nam consectetur ligula non nulla viverra commodo. Ut sollicitudin commodo luctus. Sed maximus urna magna. Aenean non purus tellus. Vivamus hendrerit libero ut libero posuere finibus. Nullam condimentum erat vitae nulla dignissim fermentum. Maecenas euismod viverra viverra. Etiam convallis sit amet metus eget faucibus. Ut ipsum turpis, sagittis hendrerit vestibulum sit amet, feugiat et lorem. Mauris euismod sit amet neque eu ultrices. Pellentesque vitae varius sapien. Nam in porta erat, sit amet laoreet neque. """
