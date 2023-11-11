@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{- partial "nav.html" . -}}
-{{ $currentPage := .Page }}
+{{ $data := .Site.Data.research_ex }}
 <section class="section" id="main">
     <div class="container">
         <div class="homepage-content content">
@@ -8,47 +8,48 @@
             <div class="columns is-centered" >
                 <div class="column is-12">
                     <p>
-                        {{ with index .Site.Data.research_ex "main" }}
-                        {{ if (eq $.Page.Lang "en") }}
-                        {{ .en_content | markdownify }}
-                        {{ else }}
-                        {{ .ja_content | markdownify }}
-                        {{ end }}
-                        <hr/>
+                        {{ with index $.Site.Data.research_ex "main" }}
+                            {{ if (eq $.Page.Lang "en") }}
+                                {{ .en_content | markdownify }}
+                            {{ else }}
+                                {{ .ja_content | markdownify }}
+                            {{ end }}
+                            <hr/>
                         {{ end }}
                     </p>
                 </div>
             </div>
             <div style="padding-bottom:2em;">
-                {{ $content_num := 0 }}
-                {{ range $.Site.Data.research_ex.list }}
+                {{ range $content_num, $item := $.Site.Data.research_ex.list }}
                 <h2>
                     {{ if (eq $.Page.Lang "en") }}
-                    {{ .en_title }}
+                        {{ .en_title }}
                     {{ else }}
-                    {{ .ja_title }}
+                        {{ .ja_title }}
                     {{ end }}
                 </h2>
                 <div class="columns is-centered">
-                    {{ if (and ( (modBool $content_num 2)) ($currentPage.Resources.GetMatch .fig_name)) }}
-                    <div class="column is-4" style="order: 0;">
-                    {{ else }}
-                    <div class="column is-4" style="order: 1;">
-                    {{ end }}
-                        {{ with $currentPage.Resources.GetMatch .fig_name }}
-                        {{ $image := .Fill "1600x800 q90" }}
-                        <img src="{{ $image.RelPermalink }}" width="100%" alt="">
-                        {{ end }}
-                    </div>
-                    <div class="column is-8">
-                        {{ if (eq $.Page.Lang "en") }}
-                        {{ .en_content | markdownify }}
+                    {{ if ($.Page.Resources.GetMatch .fig_name) }}
+                        {{ if (modBool $content_num 2) }}
+                        <div class="column is-4" style="order: 0;">
                         {{ else }}
-                        {{ .ja_content | markdownify }}
+                        <div class="column is-4" style="order: 1;">
                         {{ end }}
-                    </div>
+                        {{ with $.Page.Resources.GetMatch .fig_name }}
+                            <img src="{{ .RelPermalink }}" width="100%" alt="" style="border-radius: 10pt;"/>
+                        {{ end }}
+                        </div>
+                        <div class="column is-8">
+                    {{ else }}
+                        <div class="column is-12">
+                    {{ end }}
+                            {{ if (eq $.Page.Lang "en") }}
+                                {{ .en_content | markdownify }}
+                            {{ else }}
+                                {{ .ja_content | markdownify }}
+                            {{ end }}
+                        </div>
                 </div>
-                {{ $content_num = add $content_num 1 }}
                 {{ end }}
             </div>
         </div>
