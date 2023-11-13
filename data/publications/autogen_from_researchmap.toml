@@ -481,6 +481,28 @@ label = "URL"
 id = "https://www.tandfonline.com/doi/full/10.1080/18824889.2021.1936817"
 url = "https://www.tandfonline.com/doi/full/10.1080/18824889.2021.1936817"
 [[record]]
+publication_date = "20210615"
+ja_booktitle = "IEEE Control Systems Letters"
+en_booktitle = "IEEE Control Systems Letters"
+type = "journal"
+volume = "6"
+page_begin = "1208"
+page_end = "1213"
+reviewed = true
+invited = false
+en_publisher = "IEEE"
+ja_publisher = "IEEE"
+en_title = "A Passivity-Based Sliding Mode Controller for a Class of Electro-Mechanical Systems"
+ja_title = "A Passivity-Based Sliding Mode Controller for a Class of Electro-Mechanical Systems"
+en_author = "Kenji Fujimoto, Takahiro Baba, Naoki Sakata, Ichiro Maruta"
+ja_author = "Kenji Fujimoto, Takahiro Baba, Naoki Sakata, Ichiro Maruta"
+outside_kuaero = false
+
+[record.ids.doi]
+label = "DOI"
+id = "10.1109/LCSYS.2021.3089541"
+url = "https://doi.org/10.1109/LCSYS.2021.3089541"
+[[record]]
 publication_date = "20210601"
 ja_booktitle = "IEICE TRANSACTIONS on Information and Systems"
 en_booktitle = "IEICE TRANSACTIONS on Information and Systems"
@@ -2322,30 +2344,6 @@ id = "0191-2216"
 label = "URL"
 id = "https://ieeexplore.ieee.org/document/5400191?arnumber=5400191"
 url = "https://ieeexplore.ieee.org/document/5400191?arnumber=5400191"
-[[record]]
-publication_date = "20091215"
-ja_booktitle = "Proceedings of the 48h IEEE Conference on Decision and Control (CDC) held jointly with 2009 28th Chinese Control Conference"
-en_booktitle = "Proceedings of the 48h IEEE Conference on Decision and Control (CDC) held jointly with 2009 28th Chinese Control Conference"
-type = "international_conference"
-page_begin = "7244"
-page_end = "7249"
-reviewed = true
-invited = false
-en_publisher = "IEEE"
-ja_publisher = "IEEE"
-en_title = "Identification of linear continuous-time systems based on the signal projection"
-ja_title = "Identification of linear continuous-time systems based on the signal projection"
-en_author = "Ichiro Maruta, Toshiharu Sugie"
-ja_author = "Ichiro Maruta, Toshiharu Sugie"
-outside_kuaero = true
-
-[record.ids.doi]
-label = "DOI"
-id = "10.1109/CDC.2009.5400191"
-url = "https://doi.org/10.1109/CDC.2009.5400191"
-[record.ids.issn]
-label = "ISSN"
-id = "0743-1546"
 [[record]]
 ja_booktitle = "第67回宇宙科学技術連合講演会講演集"
 en_booktitle = "Proceedings of the 66th Japan Joint Automatic Control Conference"
@@ -5632,32 +5630,6 @@ outside_kuaero = false
 label = "DOI"
 id = "10.1016/j.ifacol.2015.10.214"
 url = "https://doi.org/10.1016/j.ifacol.2015.10.214"
-[record.ids.issn]
-label = "ISSN"
-id = "2405-8963"
-[[record]]
-publication_date = "20150704"
-ja_booktitle = "IFAC-PapersOnLine; Part of special issue: 5th IFAC Workshop on Lagrangian and Hamiltonian Methods for Nonlinear Control (LHMNC2015)"
-en_booktitle = "IFAC-PapersOnLine; Part of special issue: 5th IFAC Workshop on Lagrangian and Hamiltonian Methods for Nonlinear Control (LHMNC2015)"
-type = "international_conference"
-volume = "48"
-number = "13"
-page_begin = "39"
-page_end = "44"
-reviewed = true
-invited = false
-en_publisher = "Elsevier BV"
-ja_publisher = "Elsevier BV"
-en_title = "On port-Hamiltonian modeling and control of quaternion systems"
-ja_title = "On port-Hamiltonian modeling and control of quaternion systems"
-en_author = "Kenji Fujimoto, Tomoya Takeuchi, Yuki Matsumoto"
-ja_author = "Kenji Fujimoto, Tomoya Takeuchi, Yuki Matsumoto"
-outside_kuaero = false
-
-[record.ids.doi]
-label = "DOI"
-id = "10.1016/j.ifacol.2015.10.211"
-url = "https://doi.org/10.1016/j.ifacol.2015.10.211"
 [record.ids.issn]
 label = "ISSN"
 id = "2405-8963"
