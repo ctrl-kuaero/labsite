@@ -24,12 +24,12 @@ weight   = 15
 [[list]]
 ja_title   = "数理最適化アルゴリズムの構築"
 ja_content = """
-宇宙機は燃料補給が困難であるため，消費燃料を最小にすることが重要な課題となってきます．消費燃料が最小の軌道はL1最適制御問題を解くことによって得ることができますが，求解が難しい問題として知られています．本研究室では，このL1最適制御問題を効率的に解くことができるアルゴリズムの研究を行っています．
+宇宙機は燃料補給が困難であるため，消費燃料を最小にすることが重要な課題となってきます．消費燃料が最小の軌道は $L_1$ 最適制御問題を解くことによって得ることができますが，求解が難しい問題として知られています．本研究室では，この $L_1$ 最適制御問題を効率的に解くことができるアルゴリズムの研究を行っています．
 また，大域的な最適解を見つけるために確率的なパラメータを用いた最適化アルゴリズムについても研究を行っています．これにより，確定的な方法では局所最適解しか見つからないような問題に対しても大域的最適解を見つけることが期待されます．
 このように，様々な用途に合わせて最適化アルゴリズムの開発および収束性等の理論的証明を行っております．"""
 en_title   = "Construction of Mathematical Optimization Algorithms"
 en_content = """
-Refueling spacecraft in space is difficult, so it is important issue to minimize fuel consumption. The trajectory with the minimum fuel consumption can be obtained by solving the L1 optimal control problem, which is known to be difficult to solve. We are conducting research on algorithms that can efficiently solve the L1 optimal control problem.
+Refueling spacecraft in space is difficult, so it is important issue to minimize fuel consumption. The trajectory with the minimum fuel consumption can be obtained by solving the $L_1$ optimal control problem, which is known to be difficult to solve. We are conducting research on algorithms that can efficiently solve the $L_1$ optimal control problem.
 Furthermore, we are researching optimization algorithms that utilize stochastic parameters to find global optimal solutions. This approach is expected to identify global optimal solutions even for problems where deterministic methods may only find local optimal solutions.
 In this way, we are developing optimization algorithms tailored to various applications and conducting theoretical proofs of convergence and other properties.
 Our work involves developing optimization algorithms for various applications and conducting theoretical proofs of convergence and other properties."""
@@ -56,7 +56,7 @@ We propose a system identification method using machine learning to construct a 
 The models constructed using this method have the advantage of being applicable to model predictive control (MPC) which is attracted recently.
 Through this approach, we expect to identify and control various systems, including nonlinear and MIMO systems.
 Currently, our focus is on identifying systems, including physical phenomena that were previously challenging to model, and applying the proposed model to real systems. """
-fig_name = ["ku.jpg"]
+fig_name = ["epnet.svg"]
 weight   = 25
 
 
@@ -69,5 +69,5 @@ ja_content = """
 en_title   = "受動性"
 en_content = """
 にもとづきたい"""
-fig_name = ["su.jpeg"]
+fig_name = ["ku.jpg"]
 weight   = 30
