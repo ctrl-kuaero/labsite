@@ -1,79 +1,73 @@
 [main]
 ja_content = """
-むかし、むかし、あるところに、おじいさんとおばあさんがありました。  
-まいにち、おじいさんは山へしば刈りに、おばあさんは川へ洗濯に行きました。  
-ある日、おばあさんが、川のそばで、せっせと洗濯をしていますと、川上から、大きな桃ももが一つ、「ドンブラコッコ、スッコッコ。ドンブラコッコ、スッコッコ。」と流れて来ました。  
-「おやおや、これはみごとな桃だこと。おじいさんへのおみやげに、どれどれ、うちへ持って帰りましょう。」"""
+制御研では，非線形制御・最適制御・確率システム・モデル低次元化・ロボット工学・機械学習・信頼性工学など，航空宇宙システムを扱うためのシステム制御理論に関する応用と研究を行っています．
+航空宇宙の大規模システムのための力学的なモデリングと制御手法の開発を目指しており，理論の考案・数値シミュレーション・実機実験など，様々なアプローチから研究を進めています．"""
 en_content = "Nyan"
 
 
 
-[[list]]
-en_title = "Nyan"
-ja_title = "最適制御"
-en_content = """
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce orci turpis, semper nec dolor id, maximus accumsan arcu. Nam consectetur ligula non nulla viverra commodo. Ut sollicitudin commodo luctus. Sed maximus urna magna. Aenean non purus tellus. Vivamus hendrerit libero ut libero posuere finibus. Nullam condimentum erat vitae nulla dignissim fermentum. Maecenas euismod viverra viverra. Etiam convallis sit amet metus eget faucibus. Ut ipsum turpis, sagittis hendrerit vestibulum sit amet, feugiat et lorem. Mauris euismod sit amet neque eu ultrices. Pellentesque vitae varius sapien. Nam in porta erat, sit amet laoreet neque. """
-ja_content = """
-むかし、むかし、あるところに、おじいさんとおばあさんがありました。  
-まいにち、おじいさんは山へしば刈りに、おばあさんは川へ洗濯に行きました。  
-ある日、おばあさんが、川のそばで、せっせと洗濯をしていますと、川上から、大きな桃ももが一つ、「ドンブラコッコ、スッコッコ。ドンブラコッコ、スッコッコ。」と流れて来ました。  
-「おやおや、これはみごとな桃だこと。おじいさんへのおみやげに、どれどれ、うちへ持って帰りましょう。」"""
-fig_name = ["ku.jpg", "ut.png"]
 
 [[list]]
-en_title = "Nyaan"
-ja_title = "受動性を用いた制御"
-en_content = """
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce orci turpis, semper nec dolor id, maximus accumsan arcu. Nam consectetur ligula non nulla viverra commodo. Ut sollicitudin commodo luctus. Sed maximus urna magna. Aenean non purus tellus. Vivamus hendrerit libero ut libero posuere finibus. Nullam condimentum erat vitae nulla dignissim fermentum. Maecenas euismod viverra viverra. Etiam convallis sit amet metus eget faucibus. Ut ipsum turpis, sagittis hendrerit vestibulum sit amet, feugiat et lorem. Mauris euismod sit amet neque eu ultrices. Pellentesque vitae varius sapien. Nam in porta erat, sit amet laoreet neque. """
+ja_title   = "データ駆動型最適フィードバック制御"
 ja_content = """
-むかし、むかし、あるところに、おじいさんとおばあさんがありました。  
-まいにち、おじいさんは山へしば刈りに、おばあさんは川へ洗濯に行きました。  
-ある日、おばあさんが、川のそばで、せっせと洗濯をしていますと、川上から、大きな桃ももが一つ、「ドンブラコッコ、スッコッコ。ドンブラコッコ、スッコッコ。」と流れて来ました。  
-「おやおや、これはみごとな桃だこと。おじいさんへのおみやげに、どれどれ、うちへ持って帰りましょう。」"""
+制御を行う際には，目標状態に至るまでの過渡応答が望ましい，消費する入力エネルギーを小さくする，などの仕様が要求されます．このような仕様の達成度を定量的に表した評価関数の値を最大，あるいは最小にする制御を最適制御と呼びます．
+最適フィードバック制御則はHamilton-Jacobi-Bellman（HJB）方程式の解である価値関数を求めることで設計できますが，この求解は極めて困難です．
+一方，最適制御入力を時系列データとして求める問題は，変分法によりハミルトンの正準方程式に帰着されます．本研究室ではHJB方程式を直接解くのではなく，ハミルトンの正準方程式の解が登録されたデータベースに基づく最適フィードバック制御則の構築を提案しています．現在は，ニューラルネットワークによる価値関数のモデリングやドローンへの実機適用を通した有効性の検証を行っています．"""
+en_title   = "Data-Driven Optimal Feedback Control"
+en_content = """
+When controlling a system, we aim for a desirable transient response and reducing input energy consumption. Control that maximizes or minimizes the value of a cost function, quantifying the achievement of such specifications, is called optimal control. The optimal feedback control law can be designed by obtaining the value function, a solution of the Hamilton-Jacobi-Bellman (HJB) equation. However, solving the HJB equation is extremely challenging.
+On the other hand, the problem of obtaining optimal control inputs as time series data is attributed to the Hamilton's equations through calculus of variations. In our lab, we propose building optimal feedback control laws based on a database containing solutions of the Hamilton's equations instead of directly solving the HJB equation. Currently, we are modeling the value function using neural networks and validating effectiveness of proposed method by applying it to real-world scenarios, such as drone applications."""
 fig_name = ["ut.png"]
+weight   = 15
+
 
 [[list]]
-en_title = "NyanNyan"
-ja_title = "NNを用いた非線形システム同定"
-en_content = """
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce orci turpis, semper nec dolor id, maximus accumsan arcu. Nam consectetur ligula non nulla viverra commodo. Ut sollicitudin commodo luctus. Sed maximus urna magna. Aenean non purus tellus. Vivamus hendrerit libero ut libero posuere finibus. Nullam condimentum erat vitae nulla dignissim fermentum. Maecenas euismod viverra viverra. Etiam convallis sit amet metus eget faucibus. Ut ipsum turpis, sagittis hendrerit vestibulum sit amet, feugiat et lorem. Mauris euismod sit amet neque eu ultrices. Pellentesque vitae varius sapien. Nam in porta erat, sit amet laoreet neque. """
+ja_title   = "数理最適化アルゴリズムの構築"
 ja_content = """
-むかし、むかし、あるところに、おじいさんとおばあさんがありました。
-まいにち、おじいさんは山へしば刈りに、おばあさんは川へ洗濯に行きました。
-ある日、おばあさんが、川のそばで、せっせと洗濯をしていますと、川上から、大きな桃ももが一つ、「ドンブラコッコ、スッコッコ。ドンブラコッコ、スッコッコ。」と流れて来ました。
-「おやおや、これはみごとな桃だこと。おじいさんへのおみやげに、どれどれ、うちへ持って帰りましょう。」"""
+宇宙機は燃料補給が困難であるため，消費燃料を最小にすることが重要な課題となってきます．消費燃料が最小の軌道はL1最適制御問題を解くことによって得ることができますが，求解が難しい問題として知られています．本研究室では，このL1最適制御問題を効率的に解くことができるアルゴリズムの研究を行っています．
+また，大域的な最適解を見つけるために確率的なパラメータを用いた最適化アルゴリズムについても研究を行っています．これにより，確定的な方法では局所最適解しか見つからないような問題に対しても大域的最適解を見つけることが期待されます．
+このように，様々な用途に合わせて最適化アルゴリズムの開発および収束性等の理論的証明を行っております．"""
+en_title   = "Construction of Mathematical Optimization Algorithms"
+en_content = """
+Refueling spacecraft in space is difficult, so it is important issue to minimize fuel consumption. The trajectory with the minimum fuel consumption can be obtained by solving the L1 optimal control problem, which is known to be difficult to solve. We are conducting research on algorithms that can efficiently solve the L1 optimal control problem.
+Furthermore, we are researching optimization algorithms that utilize stochastic parameters to find global optimal solutions. This approach is expected to identify global optimal solutions even for problems where deterministic methods may only find local optimal solutions.
+In this way, we are developing optimization algorithms tailored to various applications and conducting theoretical proofs of convergence and other properties.
+Our work involves developing optimization algorithms for various applications and conducting theoretical proofs of convergence and other properties."""
+fig_name = ["trajectory.svg"]
+weight   = 20
+
+
+
+[[list]]
+ja_title   = "機械学習を用いた非線形システム同定"
+ja_content = """
+航空宇宙機などのシステムを制御するには，そのシステムの数理モデルが必要不可欠です．
+しかし，多くのシステムは複雑で，物理的な事前知識のみから数理モデルを構築することは困難です．
+そこで，実験データから数理モデルを構築するシステム同定が盛んに研究されています．
+我々は，機械学習を利用して、過去の動作履歴から未来の動作を多段階的に予測するモデルを構築するシステム同定法を提案しています．
+この方法によって構築したモデルは，近年注目を集めているモデル予測制御に適用することができるという利点があり，非線形，多入力多出力システムを含む様々なシステムを同定，制御できるようになることが期待できます．
+現在は，これまでモデル化できなかった物理現象を含むシステムの同定や，現実のシステムへの適用に取り組んでいます．"""
+en_title   = "Nonlinear System Identification using Machine Learning"
+en_content = """
+To control systems like aerospace vehicles, a mathematical model is required.
+However, many systems are too intricate to construct a mathematical model based solely on physical prior knowledge.
+Therefore, system identification, which involves building mathematical models from experimental data, is actively researched.
+We propose a system identification method using machine learning to construct a model that predict future outputs based on past data.
+The models constructed using this method have the advantage of being applicable to model predictive control (MPC) which is attracted recently.
+Through this approach, we expect to identify and control various systems, including nonlinear and MIMO systems.
+Currently, our focus is on identifying systems, including physical phenomena that were previously challenging to model, and applying the proposed model to real systems. """
+fig_name = ["ku.jpg"]
+weight   = 25
+
+
+
+
+[[list]]
+ja_title   = "ぽーと"
+ja_content = """
+はみるとん"""
+en_title   = "受動性"
+en_content = """
+にもとづきたい"""
 fig_name = ["su.jpeg"]
-
-[[list]]
-en_title = "MEOW"
-ja_title = "最適制御"
-en_content = """
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce orci turpis, semper nec dolor id, maximus accumsan arcu. Nam consectetur ligula non nulla viverra commodo. Ut sollicitudin commodo luctus. Sed maximus urna magna. Aenean non purus tellus. Vivamus hendrerit libero ut libero posuere finibus. Nullam condimentum erat vitae nulla dignissim fermentum. Maecenas euismod viverra viverra. Etiam convallis sit amet metus eget faucibus. Ut ipsum turpis, sagittis hendrerit vestibulum sit amet, feugiat et lorem. Mauris euismod sit amet neque eu ultrices. Pellentesque vitae varius sapien. Nam in porta erat, sit amet laoreet neque. """
-ja_content = """
-むかし、むかし、あるところに、おじいさんとおばあさんがありました。  
-まいにち、おじいさんは山へしば刈りに、おばあさんは川へ洗濯に行きました。  
-ある日、おばあさんが、川のそばで、せっせと洗濯をしていますと、川上から、大きな桃ももが一つ、「ドンブラコッコ、スッコッコ。ドンブラコッコ、スッコッコ。」と流れて来ました。  
-「おやおや、これはみごとな桃だこと。おじいさんへのおみやげに、どれどれ、うちへ持って帰りましょう。」"""
-
-[[list]]
-en_title = "meow"
-ja_title = "受動性を用いた制御"
-en_content = """
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce orci turpis, semper nec dolor id, maximus accumsan arcu. Nam consectetur ligula non nulla viverra commodo. Ut sollicitudin commodo luctus. Sed maximus urna magna. Aenean non purus tellus. Vivamus hendrerit libero ut libero posuere finibus. Nullam condimentum erat vitae nulla dignissim fermentum. Maecenas euismod viverra viverra. Etiam convallis sit amet metus eget faucibus. Ut ipsum turpis, sagittis hendrerit vestibulum sit amet, feugiat et lorem. Mauris euismod sit amet neque eu ultrices. Pellentesque vitae varius sapien. Nam in porta erat, sit amet laoreet neque. """
-ja_content = """
-むかし、むかし、あるところに、おじいさんとおばあさんがありました。  
-まいにち、おじいさんは山へしば刈りに、おばあさんは川へ洗濯に行きました。  
-ある日、おばあさんが、川のそばで、せっせと洗濯をしていますと、川上から、大きな桃ももが一つ、「ドンブラコッコ、スッコッコ。ドンブラコッコ、スッコッコ。」と流れて来ました。  
-「おやおや、これはみごとな桃だこと。おじいさんへのおみやげに、どれどれ、うちへ持って帰りましょう。」"""
-fig_name = "su_.jpeg"
-
-[[list]]
-en_title = "meoow"
-ja_title = "NNを用いた非線形システム同定"
-en_content = """
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce orci turpis, semper nec dolor id, maximus accumsan arcu. Nam consectetur ligula non nulla viverra commodo. Ut sollicitudin commodo luctus. Sed maximus urna magna. Aenean non purus tellus. Vivamus hendrerit libero ut libero posuere finibus. Nullam condimentum erat vitae nulla dignissim fermentum. Maecenas euismod viverra viverra. Etiam convallis sit amet metus eget faucibus. Ut ipsum turpis, sagittis hendrerit vestibulum sit amet, feugiat et lorem. Mauris euismod sit amet neque eu ultrices. Pellentesque vitae varius sapien. Nam in porta erat, sit amet laoreet neque. """
-ja_content = """
-むかし、むかし、あるところに、おじいさんとおばあさんがありました。
-まいにち、おじいさんは山へしば刈りに、おばあさんは川へ洗濯に行きました。
-ある日、おばあさんが、川のそばで、せっせと洗濯をしていますと、川上から、大きな桃ももが一つ、「ドンブラコッコ、スッコッコ。ドンブラコッコ、スッコッコ。」と流れて来ました。
-「おやおや、これはみごとな桃だこと。おじいさんへのおみやげに、どれどれ、うちへ持って帰りましょう。」"""
+weight   = 30
