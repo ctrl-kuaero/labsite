@@ -6,22 +6,14 @@
             <h1>{{ .Title }}</h1>
 
             <div style="padding-bottom:2em;">
-                <div class="columns is-multiline">
                     {{ range $content_num, $item := $.Site.Data.research_ex.main }}
-                    <div class="columns is-centered">
-                        {{ if ($.Page.Resources.GetMatch (index .fig_name 0 )) }}
+                    <div class="columns is-multiline">
+                        {{ if ($.Page.Resources.GetMatch (index $item.fig_name 0 )) }}
                             {{ if (modBool $content_num 2) }}
-                            <div class="column is-4" style="order: 0;">
+                            <div class="column is-8" style="order: 1;">
                             {{ else }}
-                            <div class="column is-4" style="order: 1;">
+                            <div class="column is-8" style="order: 0;">
                             {{ end }}
-                            {{ range $fig := .fig_name }}
-                            {{ with $.Page.Resources.GetMatch $fig }}
-                                <img src="{{ .RelPermalink }}" width="100%" alt="" style="border-radius: 10pt;"/>
-                            {{ end }}
-                            {{ end }}
-                            </div>
-                            <div class="column is-8">
                         {{ else }}
                             <div class="column is-12">
                         {{ end }}
@@ -31,44 +23,60 @@
                                     {{ .ja_content | markdownify }}
                                 {{ end }}
                             </div>
+
+                        {{ if ($.Page.Resources.GetMatch (index $item.fig_name 0 )) }}
+                            <div class="column is-4">
+                                {{ range $fig := $item.fig_name }}
+                                {{ with $.Page.Resources.GetMatch $fig }}
+                                <img src="{{ .RelPermalink }}" width="100%" alt="" style="border-radius: 10pt;"/>
+                                {{ end }}
+                                {{ end }}
+                            </div>
+                        {{ end }}
                     </div>
                     {{end}}
                 </div>
             </div>
 
             <hr/>
-            
+
             <div style="padding-bottom:2em;">
                 <div class="columns is-centered is-multiline">
                 {{ range $content_num, $item := sort $.Site.Data.research_ex.list "date" "desc" }}
                     <div class="column is-6">
                         <div class="card">
                             <header class="card-header">
-                                <h3 class="card-header-title">
+                                <p class="card-header-title is-centered">
                                     {{ if (eq $.Page.Lang "en") }}
                                         {{ .en_title }}
                                     {{ else }}
                                         {{ .ja_title }}
                                     {{ end }}
-                                </h3>
+                                </p>
                             </header>
                             <div class="card-content">
                                 <div class="card-image">
-                                    <figure class="image is-2by1">
+                                    <button class="button js-modal-trigger is-fullwidth" data-target="modal{{$content_num}}" style="height:auto; border:0;">
                                         {{ with $.Page.Resources.GetMatch (index .fig_name 0) }}
-                                        {{ $image := .Fill "1600x800 q90" }}
-                                        <img src="{{ $image.RelPermalink }}" width="100%" alt="">
+                                        {{ $image := .Fill "1618x1000 q90" }}
+                                        <img src="{{ $image.RelPermalink }}" alt="">
                                         {{ end }}
-                                    </figure>
+                                    </button>
                                 </div>
                             </div>
-                            <footer class="card-footer">
-                                <button class="button js-modal-trigger card-footer-item" data-target="modal{{$content_num}}">Detail</button>
+                            <footer class="">
+                                <div class="columns is-centered is-mobile">
+                                    <div class="column is-half is-offset-one-quater">
+                                        <button class="button js-modal-trigger is-fullwidth" data-target="modal{{$content_num}}">More detail</button>
+                                    </div>
+                                </div>
                             </footer>
                         </div>
                     </div>
+
                     <div class="modal" id="modal{{$content_num}}">
-                        <div class="modal-background"></div>
+                        <div class="modal-background">
+                        </div>
                         <div class="modal-card">
                             <header class="modal-card-head">
                                 <p class="modal-card-title" style="font-weight:400;">
@@ -80,25 +88,37 @@
                                 </p>
                             </header>
                             <section class="modal-card-body">
-                                <p style="color:black; font-weight:400; padding:0 1rem;">
+                                <p style="font-weight:400; padding:0 1rem;">
                                     {{ if (eq $.Page.Lang "en") }}
                                         {{ .en_content | markdownify }}
                                     {{ else }}
                                         {{ .ja_content | markdownify }}
                                     {{ end }}
                                 </p>
+                                <div class="columns is-centered is-multiline is-mobile">
+                                <div class="column is-11">
+                                <div class="columns is-centered is-multiline">
                                 {{ range $fig := .fig_name }}
                                 {{ with $.Page.Resources.GetMatch $fig }}
-                                    <img src="{{ .RelPermalink }}" width="100%" alt="" style="border-radius: 10pt;"/>
+                                    <div class="column is-half">
+                                        <img src="{{ .RelPermalink }}"  alt="" style="max-height:300px; overflow:hidden; height:100%; width:auto; display:block; padding:.75rem; border-radius: 1rem; margin:0 auto; "/>
+                                    </div>
                                 {{ end }}
                                 {{ end }}
+                                </div>
+                                </div>
+                                </div>
                             </section>
-                            <footer class="modal-card-foot"></footer>
+                            <footer class="modal-card-foot">
+                            </footer>
                         </div>
                     </div>
                 {{ end }}
                 </div>
             </div>
+            
+
+
         </div>
     </div>
 
@@ -123,6 +143,11 @@
           $close.addEventListener('click', () => {
             closeModal($target);
           });
+        });
+        document.querySelector("a").addEventListener("click",(event) => {
+            const modal = $trigger.dataset.target;
+          const $target = document.getElementById(modal);
+            openModal($target);
         });
       </script>
 </section>
