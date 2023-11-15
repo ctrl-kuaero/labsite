@@ -18,7 +18,7 @@ en_content = """
 When controlling a system, we aim for a desirable transient response and reducing input energy consumption. Control that maximizes or minimizes the value of a cost function, quantifying the achievement of such specifications, is called optimal control. The optimal feedback control law can be designed by obtaining the value function, a solution of the Hamilton-Jacobi-Bellman (HJB) equation. However, solving the HJB equation is extremely challenging.
 On the other hand, the problem of obtaining optimal control inputs as time series data is attributed to the Hamilton's equations through calculus of variations. In our lab, we propose building optimal feedback control laws based on a database containing solutions of the Hamilton's equations instead of directly solving the HJB equation. Currently, we are modeling the value function using neural networks and validating effectiveness of proposed method by applying it to real-world scenarios, such as drone applications."""
 fig_name = ["ut.png", "ku.jpg"]
-weight   = 15
+date     = 20231115
 
 
 [[list]]
@@ -34,7 +34,7 @@ Furthermore, we are researching optimization algorithms that utilize stochastic 
 In this way, we are developing optimization algorithms tailored to various applications and conducting theoretical proofs of convergence and other properties.
 Our work involves developing optimization algorithms for various applications and conducting theoretical proofs of convergence and other properties."""
 fig_name = ["trajectory.png"]
-weight   = 20
+date     = 20231115
 
 
 
@@ -57,7 +57,7 @@ The models constructed using this method have the advantage of being applicable 
 Through this approach, we expect to identify and control various systems, including nonlinear and MIMO systems.
 Currently, our focus is on identifying systems, including physical phenomena that were previously challenging to model, and applying the proposed model to real systems. """
 fig_name = ["epnet.png"]
-weight   = 25
+date     = 20231115
 
 
 
@@ -70,7 +70,7 @@ en_title   = "受動性"
 en_content = """
 にもとづきたい"""
 fig_name = ["ku.jpg"]
-weight   = 30
+date     = 20231115
 
 
 [[list]]

@@ -22,7 +22,7 @@
             
             <div style="padding-bottom:2em;">
                 <div class="columns is-centered is-multiline">
-                {{ range $content_num, $item := sort $.Site.Data.research_ex.list "weight" }}
+                {{ range $content_num, $item := sort $.Site.Data.research_ex.list "date" "desc" }}
                     <div class="column is-6">
                         <div class="card">
                             <header class="card-header">
