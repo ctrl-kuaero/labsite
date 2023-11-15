@@ -4,21 +4,39 @@
     <div class="container">
         <div class="homepage-content content">
             <h1>{{ .Title }}</h1>
-            <div class="columns is-centered" >
-                <div class="column is-12">
-                    <p>
-                        {{ with index $.Site.Data.research_ex "main" }}
-                            {{ if (eq $.Page.Lang "en") }}
-                                {{ .en_content | markdownify }}
+
+            <div style="padding-bottom:2em;">
+                <div class="columns is-multiline">
+                    {{ range $content_num, $item := $.Site.Data.research_ex.main }}
+                    <div class="columns is-centered">
+                        {{ if ($.Page.Resources.GetMatch (index .fig_name 0 )) }}
+                            {{ if (modBool $content_num 2) }}
+                            <div class="column is-4" style="order: 0;">
                             {{ else }}
-                                {{ .ja_content | markdownify }}
+                            <div class="column is-4" style="order: 1;">
                             {{ end }}
-                            <hr/>
+                            {{ range $fig := .fig_name }}
+                            {{ with $.Page.Resources.GetMatch $fig }}
+                                <img src="{{ .RelPermalink }}" width="100%" alt="" style="border-radius: 10pt;"/>
+                            {{ end }}
+                            {{ end }}
+                            </div>
+                            <div class="column is-8">
+                        {{ else }}
+                            <div class="column is-12">
                         {{ end }}
-                    </p>
+                                {{ if (eq $.Page.Lang "en") }}
+                                    {{ .en_content | markdownify }}
+                                {{ else }}
+                                    {{ .ja_content | markdownify }}
+                                {{ end }}
+                            </div>
+                    </div>
+                    {{end}}
                 </div>
             </div>
 
+            <hr/>
             
             <div style="padding-bottom:2em;">
                 <div class="columns is-centered is-multiline">
@@ -78,48 +96,8 @@
                             <footer class="modal-card-foot"></footer>
                         </div>
                     </div>
-
                 {{ end }}
                 </div>
-                <hr/>
-
-
-            <div style="padding-bottom:2em;">
-                <div class="columns is-multiline">
-                {{ range $content_num, $item := sort $.Site.Data.research_ex.list "weight" }}
-                <h2>
-                    {{ if (eq $.Page.Lang "en") }}
-                        {{ .en_title }}
-                    {{ else }}
-                        {{ .ja_title }}
-                    {{ end }}
-                </h2>
-                <div class="columns is-centered">
-                    {{ if ($.Page.Resources.GetMatch (index .fig_name 0 )) }}
-                    {{.figname}}
-                        {{ if (modBool $content_num 2) }}
-                        <div class="column is-4" style="order: 0;">
-                        {{ else }}
-                        <div class="column is-4" style="order: 1;">
-                        {{ end }}
-                        {{ range $fig := .fig_name }}
-                        {{ with $.Page.Resources.GetMatch $fig }}
-                            <img src="{{ .RelPermalink }}" width="100%" alt="" style="border-radius: 10pt;"/>
-                        {{ end }}
-                        {{ end }}
-                        </div>
-                        <div class="column is-8">
-                    {{ else }}
-                        <div class="column is-12">
-                    {{ end }}
-                            {{ if (eq $.Page.Lang "en") }}
-                                {{ .en_content | markdownify }}
-                            {{ else }}
-                                {{ .ja_content | markdownify }}
-                            {{ end }}
-                        </div>
-                </div>
-                {{end}}
             </div>
         </div>
     </div>
