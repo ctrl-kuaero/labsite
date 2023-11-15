@@ -52,6 +52,7 @@ $size-h6: $size-h5*1;
 $card-color: $white;
 $card-background-color: rgba($primary,0);
 $card-shadow: 0 0 0 2px rgba($white, 0.4);
+$card-header-color: $white;
 
 $radius: 0px;
 $tag-background-color: transparent;
@@ -77,3 +78,11 @@ $strong-color: lighten($text-color,20);
 $section-padding: 3rem 1rem;
 $section-padding-medium: 3rem 1rem;
 $section-padding-large: 3rem 1rem;
+
+$modal-content-width: 60rem;
+$modal-card-head-background-color: darken($text-color,70);
+$modal-card-body-background-color: darken($text-color,70);
+$modal-card-title-color: $text-color;
+$modal-card-foot-border-top: 0pt;
+$modal-card-title-line-height: 1;
+$modal-card-spacing: 2rem;
