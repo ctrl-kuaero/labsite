@@ -45,8 +45,8 @@
                     {{ range $page_num, $item := .Pages.ByDate.Reverse }}
                     <div class="column is-6">
                         <div class="card">
-                            <header class="card-header">
-                                <p class="card-header-title is-size-5 is-centered" style="text-align: center;">
+                            <header class="card-header" style="height:4rem">
+                                <p class="card-header-title is-size-5 is-centered" style="text-align: center; padding-top:1.5rem;">
                                     {{ .Title }}
                                 </p>
                             </header>
@@ -68,7 +68,7 @@
                                         {{ $bool := $scr.Get "flag" }}
                                     {{ if eq $bool "no-img" }}
                                     <div class="block" style="aspect-ratio:1.618/1; width:100%;">
-                                        <p class="is-size-5 has-text-centered has-text-grey-light" style="padding-top:20%;">
+                                        <p class="is-size-5 has-text-centered has-text-grey-light" style="padding-top:25%;">
                                             No Image.
                                         </p>
                                   </div>
@@ -78,7 +78,7 @@
                             <footer class="">
                                 <div class="columns is-centered is-mobile">
                                     <div class="column is-half is-offset-one-quater">
-                                        <button class="button js-modal-trigger is-fullwidth" data-target="modal{{$page_num}}">More details</button>
+                                        <button class="button js-modal-trigger is-fullwidth" data-target="modal{{$page_num}}">More Details</button>
                                     </div>
                                 </div>
                             </footer>
@@ -91,7 +91,7 @@
                         </div>
                         <div class="modal-card">
                             <header class="modal-card-head">
-                                <p class="modal-card-title has-text-weight-semibold">
+                                <p class="modal-card-title is-size-5 has-text-weight-light">
                                     {{ .Title }}
                                 </p>
                             </header>
