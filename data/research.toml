@@ -8,7 +8,7 @@ ja_content = """
 近年は、解析力学に基づく力学的な非線形制御、データベースに基づく非線形最適制御等のテーマを重点的に開発している。"""
 en_content = """
 """
-fig_name = ["drone.png"]
+fig_name = "drone.png"
 
 
 [[general]]
@@ -20,7 +20,7 @@ ja_content = """
 """
 en_content = """
 """
-fig_name = ["car.png"]
+fig_name = "car.png"
 
 
 [[general]]
@@ -31,5 +31,41 @@ ja_content = """
 当分野では、特に宇宙機制御に有効な方策として、スパース最適化などの非線形最適化手法を用いた省エネ制御のための軌道計画法や、宇宙機の力学系としての性質を利用した姿勢制御やランデブー制御などの手法を開発しており、航空宇宙の様々な問題に応用している。"""
 en_content = """
 """
-fig_name = ["trajectory.png"]
+fig_name = "trajectory.png"
 
+
+[[gallery]]
+ja_caption = "カメラを用いたラジコンカー自動運転"
+en_caption = ""
+fig_name = "car.png"
+date     = 20231111
+
+[[gallery]]
+ja_caption = "ドローンのフリップ実験"
+en_caption = ""
+fig_name = "drone.png"
+date     = 20231112
+
+[[gallery]]
+ja_caption = "地球から月への最適な遷移軌道"
+en_caption = ""
+fig_name = "trajectory.png"
+date     = 20231113
+
+[[gallery]]
+ja_caption = "カメラを用いたラジコンカー自動運転"
+en_caption = ""
+fig_name = "car.png"
+date     = 20231114
+
+[[gallery]]
+ja_caption = "ドローンのフリップ実験"
+en_caption = ""
+fig_name = "drone.png"
+date     = 20231116
+
+[[gallery]]
+ja_caption = "地球から月への最適な遷移軌道"
+en_caption = ""
+fig_name = "trajectory.png"
+date     = 20231115
