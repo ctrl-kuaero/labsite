@@ -7,13 +7,13 @@
 
             <div style="padding-bottom:2em;">
                     {{ range $content_num, $item := $.Site.Data.research.general }}
-                    <div class="columns is-multiline">
-                        {{ if ($.Page.Resources.GetMatch (index $item.fig_name 0 )) }}
-                            {{ if (modBool $content_num 2) }}
-                            <div class="column is-8" style="order: 1;">
-                            {{ else }}
-                            <div class="column is-8" style="order: 0;">
-                            {{ end }}
+                    <div class="columns is-multiline is-centered">
+                        {{ if $.Page.Resources.GetMatch $item.fig_name }}
+                        {{ if (modBool $content_num 2) }}
+                        <div class="column is-8-tablet is-12-mobile" style="order: 1;">
+                        {{ else }}
+                        <div class="column is-8-tablet is-12-mobile" style="order: 0;">
+                        {{ end }}
                         {{ else }}
                             <div class="column is-12">
                         {{ end }}
@@ -23,14 +23,9 @@
                                     {{ .ja_content | markdownify }}
                                 {{ end }}
                             </div>
-
-                        {{ if ($.Page.Resources.GetMatch (index $item.fig_name 0 )) }}
-                            <div class="column is-4">
-                                {{ range $fig := $item.fig_name }}
-                                {{ with $.Page.Resources.GetMatch $fig }}
+                        {{ with $.Page.Resources.GetMatch $item.fig_name }}
+                            <div class="column is-4-tablet is-10-mobile is-offset-1-mobile">
                                 <img src="{{ .RelPermalink }}" width="100%" alt="" style="border-radius: 10pt;"/>
-                                {{ end }}
-                                {{ end }}
                             </div>
                         {{ end }}
                     </div>
@@ -40,17 +35,20 @@
 
             <hr/>
 
-            <div style="padding-bottom:2em;">
-                <div class="columns is-centered is-multiline">
+            <div style="padding:2em 0;">
+                <div class="columns is-variable is-6 is-centered is-multiline is-mobile">
                     {{ range $page_num, $item := .Pages.ByDate.Reverse }}
-                    <div class="column is-6">
+                    {{ if $item.Params.is_gallery }}
+                        {{ continue }}
+                    {{ end }}
+                    <div class="column is-5-tablet is-10-mobile">
                         <div class="card">
-                            <header class="card-header" style="height:4rem">
-                                <p class="card-header-title is-size-5 is-centered" style="text-align: center; padding-top:1.5rem;">
+                            <header class="card-header" style="height:5rem">
+                                <p class="card-header-title is-size-5 is-centered has-text-centered p-6">
                                     {{ .Title }}
                                 </p>
                             </header>
-                            <div class="card-content">
+                            <div class="card-content" style="padding:0 1.5rem;">
                                 <div class="card-image">
                                         {{ $img_list := .Resources.ByType "image" }}
                                         {{ $scr := newScratch }}
@@ -75,9 +73,9 @@
                                     {{ end }}
                                 </div>
                             </div>
-                            <footer class="">
-                                <div class="columns is-centered is-mobile">
-                                    <div class="column is-half is-offset-one-quater">
+                            <footer class="card-footer" style="padding-top:0.75rem;">
+                                <div class="columns card-footer-item is-mobile is-centered">
+                                    <div class="column is-8">
                                         <button class="button js-modal-trigger is-fullwidth" data-target="modal{{$page_num}}">More Details</button>
                                     </div>
                                 </div>
@@ -100,15 +98,11 @@
                                     {{ .Content }}
                                 </p>
                                 <div class="columns is-centered is-multiline is-mobile">
-                                <div class="column is-11">
-                                <div class="columns is-centered is-multiline">
                                     {{ range .Resources.ByType "image" }}
-                                    <div class="column is-half">
-                                        <img src="{{ .RelPermalink }}"  alt="" style="max-height:300px; overflow:hidden; height:100%; width:auto; display:block; padding:.75rem; border-radius: 1rem; margin:0 auto; "/>
+                                    <div class="column is-6-tablet is-12-mobile">
+                                        <img src="{{ .RelPermalink }}"  alt="" style="max-height:300px; overflow:hidden; width:auto; display:block; padding:.75rem; border-radius: 1rem; margin:0 auto; "/>
                                     </div>
                                     {{ end }}
-                                </div>
-                                </div>
                                 </div>
                             </section>
                             <footer class="modal-card-foot">
@@ -117,10 +111,39 @@
                     </div>
                     {{ end }}
                 </div>
+
+
             </div>
-            
+
+            <hr/>
 
 
+            <p class="is-size-3 has-text-weight-light">
+                {{ if (eq $.Page.Lang "en") }}
+                    Gallery
+                {{ else }}
+                    ギャラリー
+                {{ end }}
+            </p>
+            <p>
+                研究で得られた成果物や，実機適用の様子などを紹介します．
+            </p>
+            <div class="columns is-flex is-vcentered is-centered is-multiline is-mobile" style="padding-top:1rem;">
+                {{ range (sort $.Site.Data.research.gallery "date" "desc") }}
+                    <div class="column is-4-tablet is-6-mobile">
+                        {{ with $.Page.Resources.GetMatch .fig_name }}
+                            <img src="{{ .RelPermalink }}" width="100%" alt="" style="border-radius: 10pt;"/>
+                        {{ end }}
+                        <p class="has-text-centered" style="padding-bottom:.5rem;">
+                            {{ if (eq $.Page.Lang "en") }}
+                                {{ .en_caption }}
+                            {{ else }}
+                                {{ .ja_caption }}
+                            {{ end }}
+                        </p>
+                    </div>
+                {{ end }}
+            </div>
         </div>
     </div>
 
