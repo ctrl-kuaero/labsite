@@ -44,7 +44,7 @@
                     <div class="column is-5-tablet is-10-mobile">
                         <div class="card">
                             <header class="card-header" style="height:5rem">
-                                <p class="card-header-title is-size-5 is-centered has-text-centered p-6">
+                                <p class="card-header-title is-size-5 is-size-6-touch is-centered has-text-centered p-6">
                                     {{ .Title }}
                                 </p>
                             </header>
@@ -89,7 +89,7 @@
                         </div>
                         <div class="modal-card">
                             <header class="modal-card-head">
-                                <p class="modal-card-title is-size-5 has-text-weight-light">
+                                <p class="is-size-5 has-text-weight-light">
                                     {{ .Title }}
                                 </p>
                             </header>
@@ -111,27 +111,30 @@
                     </div>
                     {{ end }}
                 </div>
-
-
             </div>
 
             <hr/>
 
-
-            <p class="is-size-3 has-text-weight-light">
-                {{ if (eq $.Page.Lang "en") }}
+            {{ if (eq $.Page.Lang "en") }}
+                <p class="is-size-3 has-text-weight-light">
                     Gallery
-                {{ else }}
+                </p>
+                <p>
+                    Images and movies of our research results and applications.
+                </p>
+            {{ else }}
+                <p class="is-size-3 has-text-weight-light">
                     ギャラリー
-                {{ end }}
-            </p>
-            <p>
-                研究で得られた成果物や，実機適用の様子などを紹介します．
-            </p>
+                </p>
+                <p>
+                    研究で得られた成果物や，実機適用の様子などを紹介します．
+                </p>
+            {{ end }}
             <div class="columns is-flex is-vcentered is-centered is-multiline is-mobile" style="padding-top:1rem;">
+                {{ $gallery := .Site.GetPage "/gallery" }}
                 {{ range (sort $.Site.Data.research.gallery "date" "desc") }}
                     <div class="column is-4-tablet is-6-mobile">
-                        {{ with $.Page.Resources.GetMatch .fig_name }}
+                        {{ with $gallery.Resources.GetMatch .fig_name }}
                             <img src="{{ .RelPermalink }}" width="100%" alt="" style="border-radius: 10pt;"/>
                         {{ end }}
                         <p class="has-text-centered" style="padding-bottom:.5rem;">
@@ -150,29 +153,47 @@
 
 
     <script>
+        document.addEventListener('DOMContentLoaded', () => {
+        // Functions to open and close a modal
         function openModal($el) {
-          $el.classList.add('is-active');
+            $el.classList.add('is-active');
         }
+
         function closeModal($el) {
-          $el.classList.remove('is-active');
+            $el.classList.remove('is-active');
         }
+
+        function closeAllModals() {
+            (document.querySelectorAll('.modal') || []).forEach(($modal) => {
+            closeModal($modal);
+            });
+        }
+
+        // Add a click event on buttons to open a specific modal
         (document.querySelectorAll('.js-modal-trigger') || []).forEach(($trigger) => {
-          const modal = $trigger.dataset.target;
-          const $target = document.getElementById(modal);
-          $trigger.addEventListener('click', () => {
-            openModal($target);
-          });
-        });
-        (document.querySelectorAll('.modal-background, .modal-close, .modal-card-head .delete, .modal-card-foot .button') || []).forEach(($close) => {
-          const $target = $close.closest('.modal');
-          $close.addEventListener('click', () => {
-            closeModal($target);
-          });
-        });
-        document.querySelector("a").addEventListener("click",(event) => {
             const modal = $trigger.dataset.target;
-          const $target = document.getElementById(modal);
+            const $target = document.getElementById(modal);
+
+            $trigger.addEventListener('click', () => {
             openModal($target);
+            });
+        });
+
+        // Add a click event on various child elements to close the parent modal
+        (document.querySelectorAll('.modal-background, .modal-close, .modal-card-head .delete, .modal-card-foot .button') || []).forEach(($close) => {
+            const $target = $close.closest('.modal');
+
+            $close.addEventListener('click', () => {
+            closeModal($target);
+            });
+        });
+
+        // Add a keyboard event to close all modals
+        document.addEventListener('keydown', (event) => {
+            if (event.code === 'Escape') {
+            closeAllModals();
+            }
+        });
         });
       </script>
 </section>
