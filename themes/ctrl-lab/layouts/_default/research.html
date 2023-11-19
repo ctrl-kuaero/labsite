@@ -115,38 +115,38 @@
 
             <hr/>
 
-            {{ if (eq $.Page.Lang "en") }}
-                <p class="is-size-3 has-text-weight-light">
-                    Gallery
-                </p>
-                <p>
-                    Images and movies of our research results and applications.
-                </p>
-            {{ else }}
-                <p class="is-size-3 has-text-weight-light">
-                    ギャラリー
-                </p>
-                <p>
-                    研究で得られた成果物や，実機適用の様子などを紹介します．
-                </p>
-            {{ end }}
-            <div class="columns is-flex is-vcentered is-centered is-multiline is-mobile" style="padding-top:1rem;">
-                {{ $gallery := .Site.GetPage "/gallery" }}
-                {{ range (sort $.Site.Data.research.gallery "date" "desc") }}
-                    <div class="column is-4-tablet is-6-mobile">
-                        {{ with $gallery.Resources.GetMatch .fig_name }}
-                            <img src="{{ .RelPermalink }}" width="100%" alt="" style="border-radius: 10pt;"/>
-                        {{ end }}
-                        <p class="has-text-centered" style="padding-bottom:.5rem;">
-                            {{ if (eq $.Page.Lang "en") }}
-                                {{ .en_caption }}
-                            {{ else }}
-                                {{ .ja_caption }}
-                            {{ end }}
-                        </p>
-                    </div>
+            
+
+            {{ with $gallery := .Site.GetPage "/gallery" }}
+                {{ $sortedList := slice }}
+                {{ range $gallery.Params.gallery_item }}
+                    {{ $sortedList = $sortedList | append . }}
                 {{ end }}
-            </div>
+                {{ $sortedList = sort $sortedList "date" "desc" }}
+                <p class="is-size-3 has-text-weight-light">
+                    {{ .Title }}
+                </p>
+                <p>
+                    {{ .Params.subtitle }}
+                </p>
+                <div class="columns is-flex is-vcentered is-centered is-multiline is-mobile" style="padding-top:1rem;">
+                    {{ range $sortedList }}
+                        <div class="column is-4-tablet is-6-mobile">
+                            {{ with $gallery.Resources.GetMatch .src }}
+                                {{ if eq .MediaType.MainType "image" }}
+                                <img src="{{ .RelPermalink }}" width="100%" alt="" style="border-radius: 10pt;"/>
+                                {{ else if eq .MediaType.MainType "video" }}
+                                <video controls src="{{ .RelPermalink }}"></video>
+                                {{ end }}
+                            {{ end }}
+                            <p class="has-text-centered" style="padding-bottom:.5rem;">
+                                {{ .caption }}
+                            </p>
+                        </div>
+                    {{end}}
+                </div>
+            {{ end }}
+
         </div>
     </div>
 
