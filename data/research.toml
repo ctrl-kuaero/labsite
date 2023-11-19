@@ -33,39 +33,3 @@ en_content = """
 """
 fig_name = "trajectory.png"
 
-
-[[gallery]]
-ja_caption = "カメラを用いたラジコンカー自動運転"
-en_caption = ""
-fig_name = "car.png"
-date     = 20231111
-
-[[gallery]]
-ja_caption = "ドローンのフリップ実験"
-en_caption = ""
-fig_name = "drone.png"
-date     = 20231112
-
-[[gallery]]
-ja_caption = "地球から月への最適な遷移軌道"
-en_caption = ""
-fig_name = "trajectory.png"
-date     = 20231113
-
-[[gallery]]
-ja_caption = "カメラを用いたラジコンカー自動運転"
-en_caption = ""
-fig_name = "car.png"
-date     = 20231114
-
-[[gallery]]
-ja_caption = "ドローンのフリップ実験"
-en_caption = ""
-fig_name = "drone.png"
-date     = 20231116
-
-[[gallery]]
-ja_caption = "地球から月への最適な遷移軌道"
-en_caption = ""
-fig_name = "trajectory.png"
-date     = 20231115
