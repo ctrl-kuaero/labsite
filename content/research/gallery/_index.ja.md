@@ -8,17 +8,14 @@ gallery_item:
   src: "car.png"
   date: 20231111
 - caption: "ドローンのフリップ実験"
-  src: "drone.png"
-  date: 20231112
+  src: "drone_flip.mp4"
+  date: 20231121
 - caption: "地球から月への最適な遷移軌道"
   src: "trajectory.png"
   date: 20231113
 - caption: "カメラを用いたラジコンカー自動運転"
   src: "car.png"
   date: 20231116
-- caption: "ドローンのフリップ実験"
-  src: "drone.png"
-  date: 20231114
 - caption: "地球から月への最適な遷移軌道"
   src: "trajectory.png"
   date: 20231115
