@@ -16,9 +16,6 @@ gallery_item:
 - caption: "car with camera"
   src: "car.png"
   date: 20231116
-- caption: "Earth to Moon transfer orbit"
-  src: "trajectory.png"
-  date: 20231115
 - caption: "Inverted pendulum made of LEGO"
   src: "penpen.mp4"
   date: 20221231

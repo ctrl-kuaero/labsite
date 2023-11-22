@@ -16,9 +16,6 @@ gallery_item:
 - caption: "カメラを用いたラジコンカー自動運転"
   src: "car.png"
   date: 20231116
-- caption: "地球から月への最適な遷移軌道"
-  src: "trajectory.png"
-  date: 20231115
 - caption: "レゴで作った倒立振子"
   src: "penpen.mp4"
   date: 20221231
