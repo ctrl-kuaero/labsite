@@ -1,12 +1,23 @@
 [[general]]
 ja_content = """
 ## システム制御 
-システムとは入出力を持つ対象を数理的に表現したものであり、特にダイナミクスを有するシステムの解析・設計手法がシステム制御である。
-当分野では航空宇宙に限らず機械・電気・物理・化学・情報・社会など、様々なシステムを扱うためのシステム制御理論の構築を行っている。
-扱う主なテーマは非線形制御、最適制御、確率システム制御、ロボット工学、機械学習などである。  
-これらの理論の構築には、多くの分野の知識を総動員する必要があり、特に線形代数、微分幾何、関数解析、解析力学、航空宇宙力学、確率統計、統計的学習、メカトロニクス、計算機等の知識を融合して行う。
-近年は、解析力学に基づく力学的な非線形制御、データベースに基づく非線形最適制御等のテーマを重点的に開発している。"""
+システムとは入出力を持つ対象を数理的に表現したもので，特にダイナミクスを有するシステムの解析・設計手法をシステム制御と言います．
+当分野では航空宇宙に限らず機械・電気・物理・化学・情報・社会など，様々なシステムを扱うためのシステム制御理論の構築を行っています．
+扱う主なテーマは非線形制御，最適制御，確率システム制御，ロボット工学，機械学習などです．  
+
+これらの理論の構築には，多くの分野の知識を総動員する必要があり，特に線形代数，微分幾何，関数解析，解析力学，航空宇宙力学，確率統計，統計的学習，メカトロニクス，計算機等の知識を融合して行っています．
+近年は，解析力学に基づく力学的な非線形制御，データベースに基づく非線形最適制御等のテーマを重点的に開発しています．"""
+
 en_content = """
+## System Control
+A "system" is a mathematical representation of an object with input and output.
+The analysis and design methodology of systems with dynamics is referred to as "system control". 
+In this laboratory, we construct the theory of system control, not limited to aerospace, but various systems such as mechanical, electrical, physical, chemical, informational, and social systems.
+
+The main themes we research include nonlinear control, optimal control, probabilistic system control, robotics, machine learning, and more. 
+The development of these theories requires combining knowledge from various fields, especially linear algebra, differential geometry, functional analysis, analytical mechanics, aerospace dynamics, probability statistics, statistical learning, mechatronics, and computer science.
+
+In recent years, we have emphasized developing topics such as nonlinear control for mechanical systems with analytical mechanics and nonlinear optimal control based on databases.
 """
 fig_name = "drone.png"
 
@@ -14,11 +25,21 @@ fig_name = "drone.png"
 [[general]]
 ja_content = """
 ## システム同定
-システムの制御においては対象システムのダイナミクスを表す数理モデルが重要であり、設計した制御器の性能や安全性は用いられた数理モデルの精度に強く依存する。
-しかし、複雑なダイナミクスを持つシステムのモデルを構築することは困難であり、大量のデータに基づき系統的にモデル構築を行う方法、すなわちシステム同定法が必要とされる。
-当分野では、機械学習手法を用い、強い非線形性を持つシステムのモデルを構築可能なシステム同定法と、得られたモデルを活用する制御理論の開発に取り組んでいる。
+システムの制御においては対象システムのダイナミクスを表す数理モデルが重要で，設計した制御器の性能や安全性は用いられた数理モデルの精度に強く依存します．
+しかし，複雑なダイナミクスを持つシステムのモデルを構築することは困難であり，大量のデータに基づき系統的にモデル構築を行う方法，すなわちシステム同定法と呼ばれるものが必要となってきます．
+
+当分野では，機械学習手法を用いて，強い非線形性を持つシステムのモデル構築が可能なシステム同定法と，得られたモデルを活用する制御理論の開発に取り組んでいます．
 """
+
 en_content = """
+## System Identification
+When controlling systems, mathematical models representing the dynamics of the target system are crucial. 
+The performance and safety of designed controllers strongly depend on the accuracy of the mathematical model used. 
+However, constructing models for systems with complex dynamics is challenging.
+Hence, model construction of systems based on large amounts of data, known as "system identification," becomes necessary.
+
+We are working on the development of system identification methods using machine learning that can construct models for systems with strong nonlinearity.
+We also develop control theories that leverage the identified models.
 """
 fig_name = "car.png"
 
@@ -26,10 +47,22 @@ fig_name = "car.png"
 [[general]]
 ja_content = """
 ## 航空宇宙システム
-航空機や宇宙機は制御が不可欠なシステムであり、高精度かつ信頼性の高い制御システムの構築が求められている。航空機の分野では、流体を含めた複雑なモデルの扱いから管制システムを含めた大規模系の制御まで多機能な制御が必要である。
-一方、宇宙機のミッションでは、極限状態である宇宙空間で動作させるため究極の省燃費な制御と高精度な制御の両立が求められている。
-当分野では、特に宇宙機制御に有効な方策として、スパース最適化などの非線形最適化手法を用いた省エネ制御のための軌道計画法や、宇宙機の力学系としての性質を利用した姿勢制御やランデブー制御などの手法を開発しており、航空宇宙の様々な問題に応用している。"""
-en_content = """
+航空機や宇宙機は制御が不可欠なシステムであり，高精度かつ信頼性の高い制御システムの構築が求められています．
+航空機の分野では，流体を含めた複雑なモデルの扱いから管制システムを含めた大規模系の制御まで多機能な制御が必要となってくることになります．
+一方，宇宙機のミッションでは，極限状態である宇宙空間で動作させるため究極の省燃費な制御と高精度な制御の両立が求められます．
+
+当分野では，特に宇宙機制御に有効な方策として，スパース最適化などの非線形最適化手法を用いた省エネ制御のための軌道計画法や，宇宙機の力学系としての性質を利用した姿勢制御やランデブー制御などの手法を開発しており，航空宇宙の様々な問題に応用しています．
 """
+
+en_content = """
+## Aerospace Systems
+Aircraft and spacecraft system require control, especially high-precision and high-reliable control. 
+In aviation, the need for multifunctional control arises, ranging from complex models (ex. fluids) to large-scale systems (ex. traffic control).
+Space missions require a delicate balance between high efficiency for fuel and high precision for control in extreme conditions of outer space. 
+
+Our laboratory specializes in developing strategies for aerospace control, including energy-efficient control through trajectory planning using nonlinear optimization methods like sparse optimization or control methods for space rendezvous and attitude stationary, utilizing the spacecraft's dynamical properties. 
+These approaches find applications in various aerospace challenges.
+"""
+
 fig_name = "trajectory.png"
 
