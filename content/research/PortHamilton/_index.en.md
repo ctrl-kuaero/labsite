@@ -1,10 +1,8 @@
 ---
-title: "Passivity-based control using Port-Hamiltonian representation"
-date: 2023-11-17 # ソート用
+title: "Control of Port-Hamiltonian Systems"
+date: 2023-11-27 # ソート用
 ---
 
-Passivity-based control is a method that easily stabilizes systems by utilizing a property of physical systems called passivity in control.
-The fundamental idea is to use the conserved quantity (energy) of mechanical systems as a candidate Lyapunov function in control.
-This method can be applied to nonlinear systems, such as spacecrafts, which are difficult to control using linear control methods.
-We are developing nonlinear controllers that achieve Lyapunov stability of closed-loop systems by designing artificial potential functions dependent on position and velocity for systems described by the port-Hamiltonian model.
-Recently, by sharpening these potential functions, we have been developing a method to realize a robust controller, known as sliding mode control, within the framework of passivity-based control.
+Nonlinear systems, unlike linear systems, are difficult to ensure stability. On the other hand, port-Hamiltonian systems are described by Hamilton's canonical equations with control input, which represent many physical systems. Such systems have the advantage that we can utilize the Hamiltonian function, representing the system's energy, as a Lyapunov function candidate in control. This control method is called “passivity-based control." 
+
+Our research group develops nonlinear controllers for mechanical port-Hamiltonian systems by designing artificial potential functions that depend on position and velocity. The method enables us to ensure Lyapunov stability of the closed-loop system. Recently, we have worked on developing techniques to realize sliding mode control in the framework of passivity-based control by using nondifferentiable potential functions.
