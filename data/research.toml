@@ -11,7 +11,7 @@ ja_content = """
 en_content = """
 ## System Control
 A "system" is a mathematical representation of an object with input and output.
-The analysis and design methodology of systems with dynamics is referred to as "system control". 
+The analysis and design methodology of systems with dynamics is referred to as "system control." 
 In this laboratory, we construct the theory of system control, not limited to aerospace, but various systems such as mechanical, electrical, physical, chemical, informational, and social systems.
 
 The main themes we research include nonlinear control, optimal control, probabilistic system control, robotics, machine learning, and more. 
@@ -56,8 +56,8 @@ ja_content = """
 
 en_content = """
 ## Aerospace Systems
-Aircraft and spacecraft system require control, especially high-precision and high-reliable control. 
-In aviation, the need for multifunctional control arises, ranging from complex models (ex. fluids) to large-scale systems (ex. traffic control).
+Aircraft and spacecraft system require control, especially highly precise and highly reliable control. 
+In aviation, the need for multifunctional control arises, ranging from complex models (e.g. fluids) to controlling large-scale systems (e.g. traffic control).
 Space missions require a delicate balance between high efficiency for fuel and high precision for control in extreme conditions of outer space. 
 
 Our laboratory specializes in developing strategies for aerospace control, including energy-efficient control through trajectory planning using nonlinear optimization methods like sparse optimization or control methods for space rendezvous and attitude stationary, utilizing the spacecraft's dynamical properties. 
