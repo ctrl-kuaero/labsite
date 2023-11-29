@@ -17,7 +17,7 @@ In this laboratory, we construct the theory of system control, not limited to ae
 The main themes we research include nonlinear control, optimal control, probabilistic system control, robotics, machine learning, and more. 
 The development of these theories requires combining knowledge from various fields, especially linear algebra, differential geometry, functional analysis, analytical mechanics, aerospace dynamics, probability statistics, statistical learning, mechatronics, and computer science.
 
-In recent years, we have emphasized developing topics such as nonlinear control for mechanical systems with analytical mechanics and nonlinear optimal control based on databases.
+In recent years, we have focused on developing topics such as nonlinear control for mechanical systems with analytical mechanics and nonlinear optimal control based on databases.
 """
 fig_name = "drone.png"
 
@@ -34,7 +34,7 @@ ja_content = """
 en_content = """
 ## System Identification
 When controlling systems, mathematical models representing the dynamics of the target system are crucial. 
-The performance and safety of designed controllers strongly depend on the accuracy of the mathematical model used. 
+The performance and safety of designed controllers strongly depend on the accuracy of the mathematical model. 
 However, constructing models for systems with complex dynamics is challenging.
 Hence, model construction of systems based on large amounts of data, known as "system identification," becomes necessary.
 
@@ -51,17 +51,17 @@ ja_content = """
 航空機の分野では，流体を含めた複雑なモデルの扱いから管制システムを含めた大規模系の制御まで多機能な制御が必要となってくることになります．
 一方，宇宙機のミッションでは，極限状態である宇宙空間で動作させるため究極の省燃費な制御と高精度な制御の両立が求められます．
 
-当分野では，特に宇宙機制御に有効な方策として，スパース最適化などの非線形最適化手法を用いた省エネ制御のための軌道計画法や，宇宙機の力学系としての性質を利用した姿勢制御やランデブー制御などの手法を開発しており，航空宇宙の様々な問題に応用しています．
+当分野では，特に航空宇宙システムへの制御に有効な方策として，スパース最適化などの非線形最適化手法を用いた省エネ制御のための軌道計画法や，宇宙機の力学系としての性質を利用した姿勢制御やランデブー制御などの手法を開発しており，航空宇宙の様々な問題に応用しています．
 """
 
 en_content = """
 ## Aerospace Systems
-Aircraft and spacecraft system require control, especially highly precise and highly reliable control. 
+Aircraft and spacecraft systems require control, especially highly precise and highly reliable control. 
 In aviation, the need for multifunctional control arises, ranging from complex models (e.g. fluids) to controlling large-scale systems (e.g. traffic control).
 Space missions require a delicate balance between high efficiency for fuel and high precision for control in extreme conditions of outer space. 
 
-Our laboratory specializes in developing strategies for aerospace control, including energy-efficient control through trajectory planning using nonlinear optimization methods like sparse optimization or control methods for space rendezvous and attitude stationary, utilizing the spacecraft's dynamical properties. 
-These approaches find applications in various aerospace challenges.
+We specialize in developing strategies for aerospace control, including energy-efficient control through trajectory planning using nonlinear optimization methods such as sparse optimization and control methods for space rendezvous and attitude stationary, utilizing the spacecraft's dynamical properties. 
+These approaches find applications in a variety of challenges in aeronautics and astronautics.
 """
 
 fig_name = "trajectory.png"
