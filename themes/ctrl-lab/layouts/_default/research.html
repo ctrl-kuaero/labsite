@@ -38,7 +38,8 @@
             <div style="padding:2em 0;">
                 <div class="columns is-variable is-6 is-centered is-multiline is-mobile">
                     {{ range $page_num, $item := .Pages.ByDate.Reverse }}
-                    {{ if $item.Params.is_gallery }}
+                    {{/* if or ($item.Params.is_gallery)  (not $item.Params.author ) */}}
+                    {{ if ($item.Params.is_gallery) }}
                         {{ continue }}
                     {{ end }}
                     <div class="column is-5-tablet is-10-mobile">
