@@ -1,7 +1,7 @@
 ---
 title: "数理最適化アルゴリズムの構築"
-layout: list
 date: 2023-11-22
+author: ""
 ---
 
 

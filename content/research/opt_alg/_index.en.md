@@ -1,6 +1,5 @@
 ---
 title: "Construction of Mathematical Optimization Algorithms"
-layout: list
 date: 2023-11-22
 ---
 
