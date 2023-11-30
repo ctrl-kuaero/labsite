@@ -1,6 +1,6 @@
 ---
 title: "Data-Driven Optimal Feedback Control"
-date: 2023-11-10 # ソート用
+date: 2023-11-10
 ---
 
 When controlling a system, some properties, for example, fast response and small input energy consumption, may be required.  
@@ -12,4 +12,4 @@ An optimal feedback control law can be derived from a value function that is a s
 
 In this laboratory, therefore, instead of directly solving the HJB equation, we calculate an optimal feedback control law based on a database containing solutions to Hamilton's canonical equations. 
 During control, the optimal input at each time is determined by finding the nearest data among the database to the current state.
-Recently, we have been conducting further research, such as modeling value functions using neural networks and verifying the effectiveness of this method by applying it to real machines, such as drones. 
+Recently, we have been conducting further research, such as value functions modeling using neural networks and verifying the effectiveness of this method by applying it to real machines, such as drones. 
