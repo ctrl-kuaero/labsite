@@ -10,6 +10,6 @@ However, when the obtained feedforward optimal control is applied to the real sy
 Hence, it is better to have a feedback structure in control.
 An optimal feedback control law can be derived from a value function that is a solution to the Hamilton-Jacobi-Bellman (HJB) equation, but finding this solution is extremely difficult.
 
-In this laboratory, therefore, instead of directly solving the HJB equation, we calculate an optimal feedback control law based on a database containing solutions to Hamilton's canonical equations. 
+In this laboratory, therefore, instead of directly solving the HJB equation, we calculate an optimal feedback control input based on a database containing solutions to Hamilton's canonical equations. 
 During control, the optimal input at each time is determined by finding the nearest data among the database to the current state.
 Recently, we have been conducting further research, such as value functions modeling using neural networks and verifying the effectiveness of this method by applying it to real machines, such as drones. 
