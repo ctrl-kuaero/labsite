@@ -91,15 +91,13 @@
                         <div class="modal-card">
                             <header class="modal-card-head">
                                 <p class="is-size-5 has-text-weight-light">
-                                    {{ .Title }}
+                                    {{ $item.Title }}
                                 </p>
                             </header>
                             <section class="modal-card-body has-text-weight-medium">
-                                <p class="" style="padding:0 1rem;">
-                                    {{ .Content }}
-                                </p>
-                                <div class="columns is-centered is-multiline is-mobile is-vcentered">
-                                    {{ range .Resources.ByType "image" }}
+                                {{ $item.Content | markdownify }}
+                                <div class="columns is-centered is-multiline is-mobile is-vcentered" style="margin-top:1rem;">
+                                    {{ range $item.Resources.ByType "image" }}
                                     <div class="column is-6-tablet is-12-mobile">
                                         <img src="{{ .RelPermalink }}"  alt="" style="max-height:300px; overflow:hidden; width:auto; display:block; padding:.75rem; border-radius: 1rem; margin:0 auto; "/>
                                     </div>
