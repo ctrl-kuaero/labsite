@@ -1,6 +1,7 @@
 ---
 title: "Control of Port-Hamiltonian Systems"
 date: 2023-11-27
+author: "N.Sakata，K.Masutani"
 ---
 
 
