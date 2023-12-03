@@ -130,12 +130,12 @@
                 </p>
                 <div class="columns is-flex is-vcentered is-centered is-multiline is-mobile is-vcentered" style="padding-top:1rem;">
                     {{ range $sortedList }}
-                        <div class="column is-4-tablet is-6-mobile">
+                        <div class="column is-10-mobile is-5-tablet is-4-desktop">
                             {{ with $gallery.Resources.GetMatch .src }}
                                 {{ if eq .MediaType.MainType "image" }}
                                 <img src="{{ .RelPermalink }}" width="100%" alt="" style="border-radius: 10pt;"/>
                                 {{ else if eq .MediaType.MainType "video" }}
-                                <video controls src="{{ .RelPermalink }}"></video>
+                                <video controls src="{{ .RelPermalink }}#t=0.001"></video>
                                 {{ end }}
                             {{ end }}
                             <p class="has-text-centered" style="padding-bottom:.5rem;">
