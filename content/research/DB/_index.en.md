@@ -3,7 +3,7 @@ title: "Data-Driven Optimal Feedback Control"
 date: 2023-11-10
 ---
 
-When controlling a system, some properties, for example, fast response and small input energy consumption, may be required.  
+When controlling a system, some properties, for example, fast response and small input energy consumption, may be required. 
 A control that maximizes or minimizes the value of the objective function, which represents the quantity of the achievement of target goals, is called an "optimal control." 
 The problem of finding optimal control inputs as time series data can be reduced to Hamilton's canonical equations using the calculus of variations.
 However, when the obtained feedforward optimal control is applied to the real system, challenges, such as instability or undesirable performance, may arise due to uncertainties, disturbances, or modeling errors. 
