@@ -11,7 +11,7 @@ Control of systems, such as spacecraft and aircraft, requires identification of 
 Therefore, “system identification,” a method of constructing mathematical models from data obtained by measuring system behavior, has been actively researched.
 
 Our aim is to construct state-space models of highly nonlinear systems, and we have proposed a system identification method utilizing neural networks that can approximate any continuous function.	
-The proposed structure of the model consists of a state estimator $E_{\theta}$ and an output predictor $P_{\phi}$, which can reconstruct the original state-space model.
+The proposed architecture consists of a state estimator $E_{\theta}$ and an output predictor $P_{\phi}$, and because of this structure, we can reconstruct the original dynamics.
 Since these components are neural networks, the identification of nonlinear systems is possible.
 The model also has the advantage of being applicable to controllers that require fast online computation, including model predictive control, because the structure enables multi-step-ahead prediction in a single computation. 
 
