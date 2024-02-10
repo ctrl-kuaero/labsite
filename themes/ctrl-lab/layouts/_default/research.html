@@ -5,30 +5,27 @@
         <div class="homepage-content content">
             <h1>{{ .Title }}</h1>
 
+
             <div style="padding-bottom:2em;">
-                    {{ range $content_num, $item := $.Site.Data.research.general }}
-                    <div class="columns is-multiline is-centered is-vcentered">
-                        {{ if $.Page.Resources.GetMatch $item.fig_name }}
+                {{ range $content_num, $item := .Params.general_item }}
+                <div class="columns is-multiline is-centered is-vcentered">
+                    {{ if $.Page.Resources.GetMatch $item.fig_name }}
                         {{ if (modBool $content_num 2) }}
                         <div class="column is-8-tablet is-12-mobile" style="order: 1;">
                         {{ else }}
                         <div class="column is-8-tablet is-12-mobile" style="order: 0;">
                         {{ end }}
-                        {{ else }}
+                    {{ else }}
                             <div class="column is-12">
-                        {{ end }}
-                                {{ if (eq $.Page.Lang "en") }}
-                                    {{ .en_content | markdownify }}
-                                {{ else }}
-                                    {{ .ja_content | markdownify }}
-                                {{ end }}
+                    {{ end }}
+                                {{ .content | markdownify }}
                             </div>
                         {{ with $.Page.Resources.GetMatch $item.fig_name }}
                             <div class="column is-4-tablet is-10-mobile is-offset-1-mobile">
                                 <img src="{{ .RelPermalink }}" width="100%" alt="" style="border-radius: 10pt;"/>
                             </div>
                         {{ end }}
-                    </div>
+                        </div>
                     {{end}}
                 </div>
             </div>
