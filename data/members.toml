@@ -99,26 +99,32 @@ ja_position = "修士課程"
 en_position = "Master's Student"
 
 [[list]]
-ja_name = ""
-en_name = ""
+ja_name = "石川 歩睦"
+en_name = "Ayumu Ishikawa"
 ja_position = "学部生"
 en_position = "Undergraduate"
 
 [[list]]
-ja_name = ""
-en_name = ""
+ja_name = "山形 克聡"
+en_name = "Katsusa Yamagata"
 ja_position = "学部生"
 en_position = "Undergraduate"
 
 [[list]]
-ja_name = ""
-en_name = ""
+ja_name = "山本 輝汰"
+en_name = "Hinata Yamamoto"
 ja_position = "学部生"
 en_position = "Undergraduate"
 
 [[list]]
-ja_name = ""
-en_name = ""
+ja_name = "髙田 侍郎"
+en_name = "Jiro Takada"
+ja_position = "学部生"
+en_position = "Undergraduate"
+
+[[list]]
+ja_name = "中田 修史"
+en_name = "Shuji Nakada"
 ja_position = "学部生"
 en_position = "Undergraduate"
 
