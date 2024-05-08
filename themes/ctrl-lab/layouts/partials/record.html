@@ -169,7 +169,7 @@
                 <span class="sep">,</span> no. {{ .r.number -}}
                 {{- end -}}
                 {{- if (and .r.page_begin .r.page_end) -}}
-                <span class="sep">,</span> pp. {{ .r.page_begin }}&ndash;{{ .r.page_end }}
+                <span class="sep">,</span> pp. {{ .r.page_begin }}–{{ .r.page_end }}
                 {{- else if .r.page_begin -}}
                 <span class="sep">,</span> {{ .r.page_begin }}
                 {{- end -}}
