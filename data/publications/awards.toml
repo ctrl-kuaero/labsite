@@ -32,8 +32,8 @@ type = "award"
 url = "https://sci24.iscie.or.jp/award/"
 
 [[record]]
-en_author = "HA, Gyeongrok"
-ja_author = "HA, Gyeongro"
+en_author = "HA Gyeongrok"
+ja_author = "HA Gyeongrok"
 en_giver = "The Executive Committee of the 68th Annual Conference of the Institute of Systems, Control and Information Engineers"
 ja_giver = "第68回システム制御情報学会研究発表講演会実行委員会"
 en_title = "The Award of the Excellent Student Presetation"
