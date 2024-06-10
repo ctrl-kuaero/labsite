@@ -1,4 +1,48 @@
 [[record]]
+en_author = "Yutatsu Nakao"
+ja_author = "中尾 悠達"
+en_giver = "The Executive Committee of the 68th Annual Conference of the Institute of Systems, Control and Information Engineers"
+ja_giver = "第68回システム制御情報学会研究発表講演会実行委員会"
+en_title = "The Award of the Excellent Student Presetation"
+ja_title = "SCI学生発表賞"
+publication_date = "20240526"
+type = "award"
+url = "https://sci24.iscie.or.jp/award/"
+
+[[record]]
+en_author = "Fumiya Aono"
+ja_author = "青野 郁也"
+en_giver = "The Executive Committee of the 68th Annual Conference of the Institute of Systems, Control and Information Engineers"
+ja_giver = "第68回システム制御情報学会研究発表講演会実行委員会"
+en_title = "The Award of the Excellent Student Presetation"
+ja_title = "SCI学生発表賞"
+publication_date = "20240525"
+type = "award"
+url = "https://sci24.iscie.or.jp/award/"
+
+[[record]]
+en_author = "Naoki Akiyama"
+ja_author = "秋山 直樹"
+en_giver = "The Executive Committee of the 68th Annual Conference of the Institute of Systems, Control and Information Engineers"
+ja_giver = "第68回システム制御情報学会研究発表講演会実行委員会"
+en_title = "The Award of the Excellent Student Presetation"
+ja_title = "SCI学生発表賞"
+publication_date = "20240525"
+type = "award"
+url = "https://sci24.iscie.or.jp/award/"
+
+[[record]]
+en_author = "HA, Gyeongrok"
+ja_author = "HA, Gyeongro"
+en_giver = "The Executive Committee of the 68th Annual Conference of the Institute of Systems, Control and Information Engineers"
+ja_giver = "第68回システム制御情報学会研究発表講演会実行委員会"
+en_title = "The Award of the Excellent Student Presetation"
+ja_title = "SCI学生発表賞"
+publication_date = "20240524"
+type = "award"
+url = "https://sci24.iscie.or.jp/award/"
+
+[[record]]
 en_author = "Kohei Oue"
 ja_author = "大上 耕平"
 en_giver = "The Institute of Systems, Control and Information Engineers"
