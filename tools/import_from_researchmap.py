@@ -238,6 +238,9 @@ for i in items.values():
             elif idtype == "wos_id":
                 # Web of Science ID はとりあえず無視（文献のIDに対応するページが不明）
                 continue
+            elif idtype == "orcid_put_cd":
+                # ORCID ID はとりあえず無視（文献のIDに対応するページが不明）
+                continue
             else:
                 raise Exception('Unknown id type: '+idtype)      
 
