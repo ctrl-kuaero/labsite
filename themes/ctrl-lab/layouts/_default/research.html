@@ -1,0 +1,196 @@
+{{ define "main" }}
+{{- partial "nav.html" . -}}
+<section class="section" id="main">
+    <div class="container">
+        <div class="homepage-content content">
+            <h1>{{ .Title }}</h1>
+
+
+            <div style="padding-bottom:2em;">
+                {{ range $content_num, $item := .Params.general_item }}
+                <div class="columns is-multiline is-centered is-vcentered">
+                    {{ if $.Page.Resources.GetMatch $item.fig_name }}
+                        {{ if (modBool $content_num 2) }}
+                        <div class="column is-8-tablet is-12-mobile" style="order: 1;">
+                        {{ else }}
+                        <div class="column is-8-tablet is-12-mobile" style="order: 0;">
+                        {{ end }}
+                    {{ else }}
+                            <div class="column is-12">
+                    {{ end }}
+                                {{ .content | markdownify }}
+                            </div>
+                        {{ with $.Page.Resources.GetMatch $item.fig_name }}
+                            <div class="column is-4-tablet is-10-mobile is-offset-1-mobile">
+                                <img src="{{ .RelPermalink }}" width="100%" alt="" style="border-radius: 10pt;"/>
+                            </div>
+                        {{ end }}
+                        </div>
+                    {{end}}
+                </div>
+            </div>
+
+            <hr/>
+
+            <div style="padding:2em 0;">
+                <div class="columns is-variable is-6 is-centered is-multiline is-mobile">
+                    {{ range $page_num, $item := .Pages.ByDate.Reverse }}
+                    {{/* if or ($item.Params.is_gallery)  (not $item.Params.author ) */}}
+                    {{ if ($item.Params.is_gallery) }}
+                        {{ continue }}
+                    {{ end }}
+                    <div class="column is-5-tablet is-10-mobile">
+                        <div class="card">
+                            <header class="card-header" style="height:5rem">
+                                <p class="card-header-title is-size-5 is-centered has-text-centered p-6">
+                                    {{ .Title }}
+                                </p>
+                            </header>
+                            <div class="card-content" style="padding:0 1.5rem;">
+                                <div class="card-image">
+                                        {{ $img_list := .Resources.ByType "image" }}
+                                        {{ $scr := newScratch }}
+                                        {{ $scr.Set "flag" "no-img" }}
+                                        {{ range $img_list }}
+                                        {{ if findRE `.*\.png` . }}
+                                            {{ $scr.Set "flag" "img-exists" }}
+                                            {{ $image := .Fill "1618x1000 q90"}}
+                                            <button class="button js-modal-trigger is-fullwidth" data-target="modal{{$page_num}}" style="height:auto; border:0; padding:0;">
+                                                <img src="{{ $image.RelPermalink }}" alt="">
+                                            </button>
+                                            {{ break }}
+                                        {{ end }}
+                                        {{ end }}
+                                        {{ $bool := $scr.Get "flag" }}
+                                    {{ if eq $bool "no-img" }}
+                                    <div class="block" style="aspect-ratio:1.618/1; width:100%;">
+                                        <p class="is-size-5 has-text-centered has-text-grey-light" style="padding-top:25%;">
+                                            No Image.
+                                        </p>
+                                  </div>
+                                    {{ end }}
+                                </div>
+                            </div>
+                            <footer class="card-footer" style="padding-top:0.75rem;">
+                                <div class="columns card-footer-item is-mobile is-centered">
+                                    <div class="column is-8">
+                                        <button class="button js-modal-trigger is-fullwidth" data-target="modal{{$page_num}}">More Details</button>
+                                    </div>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+
+
+                    <div class="modal" id="modal{{$page_num}}">
+                        <div class="modal-background">
+                        </div>
+                        <div class="modal-card">
+                            <header class="modal-card-head">
+                                <p class="is-size-5 has-text-weight-light">
+                                    {{ $item.Title }}
+                                </p>
+                            </header>
+                            <section class="modal-card-body has-text-weight-medium">
+                                {{ $item.Content | markdownify }}
+                                <div class="columns is-centered is-multiline is-mobile is-vcentered" style="margin-top:1rem;">
+                                    {{ range $item.Resources.ByType "image" }}
+                                    <div class="column is-6-tablet is-12-mobile">
+                                        <img src="{{ .RelPermalink }}"  alt="" style="max-height:300px; overflow:hidden; width:auto; display:block; padding:.75rem; border-radius: 1rem; margin:0 auto; "/>
+                                    </div>
+                                    {{ end }}
+                                </div>
+                            </section>
+                            <footer class="modal-card-foot">
+                            </footer>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+
+            <hr/>
+
+            
+
+            {{ with $gallery := .Site.GetPage "/gallery" }}
+                {{ $sortedList := slice }}
+                {{ range $gallery.Params.gallery_item }}
+                    {{ $sortedList = $sortedList | append . }}
+                {{ end }}
+                {{ $sortedList = sort $sortedList "date" "desc" }}
+                <p class="is-size-3 has-text-weight-light">
+                    {{ .Title }}
+                </p>
+                <p>
+                    {{ .Params.subtitle }}
+                </p>
+                <div class="columns is-flex is-vcentered is-centered is-multiline is-mobile is-vcentered" style="padding-top:1rem;">
+                    {{ range $sortedList }}
+                        <div class="column is-10-mobile is-5-tablet is-4-desktop">
+                            {{ with $gallery.Resources.GetMatch .src }}
+                                {{ if eq .MediaType.MainType "image" }}
+                                <img src="{{ .RelPermalink }}" width="100%" alt="" style="border-radius: 10pt;"/>
+                                {{ else if eq .MediaType.MainType "video" }}
+                                <video controls src="{{ .RelPermalink }}#t=0.001"></video>
+                                {{ end }}
+                            {{ end }}
+                            <p class="has-text-centered" style="padding-bottom:.5rem;">
+                                {{ .caption }}
+                            </p>
+                        </div>
+                    {{end}}
+                </div>
+            {{ end }}
+
+        </div>
+    </div>
+
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+        // Functions to open and close a modal
+        function openModal($el) {
+            $el.classList.add('is-active');
+        }
+
+        function closeModal($el) {
+            $el.classList.remove('is-active');
+        }
+
+        function closeAllModals() {
+            (document.querySelectorAll('.modal') || []).forEach(($modal) => {
+            closeModal($modal);
+            });
+        }
+
+        // Add a click event on buttons to open a specific modal
+        (document.querySelectorAll('.js-modal-trigger') || []).forEach(($trigger) => {
+            const modal = $trigger.dataset.target;
+            const $target = document.getElementById(modal);
+
+            $trigger.addEventListener('click', () => {
+            openModal($target);
+            });
+        });
+
+        // Add a click event on various child elements to close the parent modal
+        (document.querySelectorAll('.modal-background, .modal-close, .modal-card-head .delete, .modal-card-foot .button') || []).forEach(($close) => {
+            const $target = $close.closest('.modal');
+
+            $close.addEventListener('click', () => {
+            closeModal($target);
+            });
+        });
+
+        // Add a keyboard event to close all modals
+        document.addEventListener('keydown', (event) => {
+            if (event.code === 'Escape') {
+            closeAllModals();
+            }
+        });
+        });
+      </script>
+</section>
+{{ end }}
