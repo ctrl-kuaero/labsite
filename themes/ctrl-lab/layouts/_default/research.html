@@ -113,7 +113,7 @@
 
             
 
-            {{ with $gallery := .Site.GetPage "/gallery" }}
+            {{ with $gallery := .Site.GetPage "/research/gallery" }}
                 {{ $sortedList := slice }}
                 {{ range $gallery.Params.gallery_item }}
                     {{ $sortedList = $sortedList | append . }}
