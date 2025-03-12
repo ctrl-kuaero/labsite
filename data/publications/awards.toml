@@ -1,4 +1,26 @@
 [[record]]
+en_author = "Naoki Sakata"
+ja_author = "坂田 直樹"
+en_giver = "The Society of Instrument and Control Engineers, Control Division"
+ja_giver = "計測自動制御学会 制御部門"
+en_title = "2025 Control Division Young Author's Award: Fundamental Area"
+ja_title = "2025年制御部門奨励賞（基礎分野）"
+publication_date = "20250304"
+type = "award"
+url = "https://www.sice-ctrl.jp/about/award/honorees/young-fundamental/"
+
+[[record]]
+en_author = "Hibiki Asakura"
+ja_author = "朝倉 響"
+en_giver = "The Society of Instrument and Control Engineers, Control Division"
+ja_giver = "計測自動制御学会 制御部門"
+en_title = "2025 Control Division Young Author's Award: Technology Area"
+ja_title = "2025年制御部門奨励賞（技術分野）"
+publication_date = "20250304"
+type = "award"
+url = "https://www.sice-ctrl.jp/about/award/honorees/young-technology/"
+
+[[record]]
 en_author = "Yutatsu Nakao"
 ja_author = "中尾 悠達"
 en_giver = "The Executive Committee of the 68th Annual Conference of the Institute of Systems, Control and Information Engineers"
