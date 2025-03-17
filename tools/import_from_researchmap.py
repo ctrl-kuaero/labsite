@@ -1,6 +1,6 @@
-import requests,json,sys,os, time
+import requests, json, sys, os, time
 import toml
-from urllib.parse import urlparse
+from urllib.parse import urlparse, parse_qs
 from pprint import pprint
 import re
 
@@ -17,15 +17,97 @@ inlab = {
     },
 }
 
-#download json files from researchmap
+def fetch_all_items(base_url, name, item_type):
+    """
+    Fetch all items of a specific type for a member, handling pagination.
+    
+    Args:
+        base_url (str): Base URL for the API
+        name (str): Member name
+        item_type (str): Type of item to fetch
+        
+    Returns:
+        dict: Combined JSON response with all items
+    """
+    print(f"Fetching {item_type} for {name}...")
+    
+    # Initial request
+    url = f"{base_url}{name}/{item_type}"
+    all_items = []
+    page_count = 1
+    
+    while url:
+        print(f"  Fetching page {page_count}...")
+        response = requests.get(url)
+        
+        # Check if request was successful
+        if response.status_code != 200:
+            print(f"Error fetching {url}: {response.status_code}")
+            break
+            
+        # Parse the current page data
+        data = json.loads(response.text)
+        
+        # Add items from current page to our collection
+        if 'items' in data:
+            all_items.extend(data['items'])
+            print(f"  Found {len(data['items'])} items on page {page_count}")
+        
+        # Check for next page in Link header
+        next_url = None
+        if 'Link' in response.headers:
+            links = response.headers['Link'].split(',')
+            for link in links:
+                if 'rel="next"' in link:
+                    # Extract URL from link
+                    next_url = link.split(';')[0].strip('<>').strip()
+                    break
+        
+        # If no next URL found in headers, try to construct it from the response data
+        if not next_url and 'totalResults' in data and 'itemsPerPage' in data:
+            total = data['totalResults']
+            per_page = data['itemsPerPage']
+            current_start = 0
+            
+            # If we have a start parameter in the current URL, extract it
+            if '?' in url:
+                query_params = parse_qs(urlparse(url).query)
+                if 'start' in query_params:
+                    current_start = int(query_params['start'][0])
+            
+            # Calculate next start position
+            next_start = current_start + per_page
+            
+            # If there are more items to fetch
+            if next_start < total:
+                # Construct next URL
+                if '?' in url:
+                    base_part = url.split('?')[0]
+                    next_url = f"{base_part}?start={next_start}&limit={per_page}"
+                else:
+                    next_url = f"{url}?start={next_start}&limit={per_page}"
+        
+        # Update URL for next iteration or exit loop if no more pages
+        url = next_url
+        page_count += 1
+    
+    # Construct a response object similar to the original API response
+    combined_response = {
+        'items': all_items
+    }
+    
+    print(f"Total {len(all_items)} {item_type} items fetched for {name}")
+    return combined_response
+
+# Download JSON files from researchmap
 url = "https://api.researchmap.jp/"
-itemslist = ["published_papers","research_projects","misc","presentations","books_etc"]
-jsonfiles={}
+itemslist = ["published_papers", "research_projects", "misc", "presentations", "books_etc"]
+jsonfiles = {}
+
 for name in members:
-  jsonfiles[name]={}
-  for it in itemslist:
-    r1 = requests.get(url+name+'/'+it)
-    jsonfiles[name][it]=json.loads(r1.text)
+    jsonfiles[name] = {}
+    for it in itemslist:
+        jsonfiles[name][it] = fetch_all_items(url, name, it)
 
 
 items = {}
@@ -79,21 +161,27 @@ for i in items.values():
             record['en_booktitle'] = i['publication_name'].get('en')
             record['publication_date'] = i['publication_date'].replace('-','')
             record['publication_date'] = record['publication_date'] + "0"*(8 - len(record['publication_date']))
-            if i.get('misc_type') == 'summary_national_conference':
+            misc_type = i.get('misc_type')
+            if misc_type == 'summary_national_conference':
                 record['type'] = 'domestic_conference'
-            elif i.get('misc_type') == 'introduction_scientific_journal':
+            elif misc_type == 'introduction_scientific_journal':
                 record['type'] = 'explanation_journal'
-            elif i.get('misc_type') == 'summary_international_conference':
+            elif misc_type == 'summary_international_conference':
                 record['type'] = 'summary_international_conference'
-            elif i.get('misc_type') == 'technical_report':
+            elif misc_type == 'technical_report':
                 record['type'] = 'technical_report'
-            elif i.get('misc_type') == 'meeting_report':
+            elif misc_type == 'meeting_report':
                 record['type'] = 'meeting_report'
-            elif i.get('misc_type') == 'others':
+            elif misc_type == 'others':
+                record['type'] = 'others'
+            elif misc_type is None:
+                # If misc_type is None, default to 'others'
+                print(f"Warning: misc_type is None for item {i.get('@id')}. Defaulting to 'others'.")
                 record['type'] = 'others'
             else:
-                pprint(i)
-                raise Exception('can not identify type (unknown misc_type)')
+                # For unknown misc_type values, print the value and default to 'others'
+                print(f"Warning: Unknown misc_type '{misc_type}' for item {i.get('@id')}. Defaulting to 'others'.")
+                record['type'] = 'others'
         elif i.get('@type') == 'published_papers':
             record['publication_date'] = i['publication_date'].replace('-','')
             record['publication_date'] = record['publication_date'] + "0"*(8 - len(record['publication_date']))
@@ -269,8 +357,8 @@ for i in items.values():
                         "url": info['@id']
                     } 
  
-            elif info['label'] == 'web_of_science':
-                # Web of Science ID はとりあえず無視
+            elif info['label'] == 'web_of_science' or info['label'] == 'scopus' or info['label'] == 'scopus_citedby':
+                # Web of Science ID, Scopus ID, Scopus Citedby はとりあえず無視
                 continue
             elif id_parsed.hostname == 'ci.nii.ac.jp' or id_parsed.hostname == 'cir.nii.ac.jp':
                 if fragments[1] == 'naid':
@@ -335,5 +423,3 @@ for i in items.values():
 # 出力
 
 toml.dump({'record':records}, open('data/publications/autogen_from_researchmap.toml', mode='w', encoding='utf-8'))
-
-
