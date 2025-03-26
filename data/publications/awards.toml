@@ -32,6 +32,17 @@ type = "award"
 url = "https://www.sice-ctrl.jp/about/award/honorees/young-technology/"
 
 [[record]]
+en_author = "Hinata Yamamoto"
+ja_author = "山本 輝汰"
+en_giver = "The Japan Society of Aeronautical and Space Sciences"
+ja_giver = "日本航空宇宙学会"
+en_title = "JSASS Student Award of 2024"
+ja_title = "令和6年度日本航空宇宙学会学生賞"
+publication_date = "20250219"
+type = "award"
+url = "https://www.jsass.or.jp/award/102/"
+
+[[record]]
 en_author = "Yutatsu Nakao"
 ja_author = "中尾 悠達"
 en_giver = "The Executive Committee of the 68th Annual Conference of the Institute of Systems, Control and Information Engineers"
