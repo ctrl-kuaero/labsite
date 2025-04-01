@@ -18,13 +18,17 @@ en_link_text = '<span class="tag is-primary">Personal Page</span>'
 ja_link_url = "https://control.kuaero.kyoto-u.ac.jp/~maruta/ja/"
 en_link_url = "https://control.kuaero.kyoto-u.ac.jp/~maruta/"
 
-
-
 [[list]]
-ja_name = "坂田 直樹"
-en_name = "Naoki SAKATA"
-ja_position = "博士後期課程"
-en_position = "Ph.D. Student"
+ja_name = "鹿田 佳那"
+en_name = "Kana SHIKADA"
+ja_position = "助教"
+en_position = "Assistant Professor"
+ja_link_text = '<span class="'
+en_link_text = '<span class="'
+ja_link_url = "https://"
+en_link_url = "https://"
+
+
 
 [[list]]
 ja_name = "岩瀬 正興"
@@ -37,36 +41,6 @@ ja_name = "辻 康生"
 en_name = "Kosei TSUJI"
 ja_position = "博士後期課程"
 en_position = "Ph.D. Student"
-
-[[list]]
-ja_name = "佐藤 瑛起"
-en_name = "Eiki SATO"
-ja_position = "修士課程"
-en_position = "Master's Student"
-
-[[list]]
-ja_name = "桝谷 昂平"
-en_name = "Kohei MASUTANI"
-ja_position = "修士課程"
-en_position = "Master's Student"
-
-[[list]]
-ja_name = "山﨑 陽之"
-en_name = "Haruyuki YAMASAKI"
-ja_position = "修士課程"
-en_position = "Master's Student"
-
-[[list]]
-ja_name = "中平 幸輝"
-en_name = "Koki NAKAHIRA"
-ja_position = "修士課程"
-en_position = "Master's Student"
-
-[[list]]
-ja_name = "岡　洸斗"
-en_name = "Hiroto OKA"
-ja_position = "修士課程"
-en_position = "Master's Student"
 
 [[list]]
 ja_name = "ハ ギョンロク"
@@ -101,32 +75,32 @@ en_position = "Master's Student"
 [[list]]
 ja_name = "石川 歩睦"
 en_name = "Ayumu Ishikawa"
-ja_position = "学部生"
-en_position = "Undergraduate"
+ja_position = "修士課程"
+en_position = "Master's Student"
 
 [[list]]
 ja_name = "山形 克聡"
 en_name = "Katsusa Yamagata"
-ja_position = "学部生"
-en_position = "Undergraduate"
-
-[[list]]
-ja_name = "山本 輝汰"
-en_name = "Hinata Yamamoto"
-ja_position = "学部生"
-en_position = "Undergraduate"
-
-[[list]]
-ja_name = "髙田 侍郎"
-en_name = "Jiro Takada"
-ja_position = "学部生"
-en_position = "Undergraduate"
+ja_position = "修士課程"
+en_position = "Master's Student"
 
 [[list]]
 ja_name = "中田 修史"
 en_name = "Shuji Nakada"
-ja_position = "学部生"
-en_position = "Undergraduate"
+ja_position = "修士課程"
+en_position = "Master's Student"
+
+[[list]]
+ja_name = "若林 大翔"
+en_name = "Hiroto WAKABAYASHI"
+ja_position = "修士課程"
+en_position = "Master's Student"
+
+[[list]]
+ja_name = "中島 海知"
+en_name = "Kaichi NAKASHIMA"
+ja_position = "修士課程"
+en_position = "Master's Student"
 
 
 
