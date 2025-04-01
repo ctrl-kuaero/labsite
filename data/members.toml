@@ -23,10 +23,10 @@ ja_name = "鹿田 佳那"
 en_name = "Kana SHIKADA"
 ja_position = "助教"
 en_position = "Assistant Professor"
-ja_link_text = 
-en_link_text = 
-ja_link_url = 
-en_link_url = 
+ja_link_text = ''
+en_link_text = ''
+ja_link_url = ""
+en_link_url = "" 
 
 
 
