@@ -14194,3 +14194,204 @@ id = "488898137X"
 label = "CiNii"
 id = "BA76637133"
 url = "http://ci.nii.ac.jp/ncid/BA76637133"
+[[record]]
+publication_date = "20250305"
+en_booktitle = "Proceedings of 2025 SICE International Symposium on Control Systems (SICE ISCS)"
+type = "international_conference"
+reviewed = true
+en_title = "Minimum-order exosystem-model-based disturbance observer"
+ja_title = "Minimum-order exosystem-model-based disturbance observer"
+en_author = "Kana Shikada, Masakatsu Kawata, Noboru Sebe"
+ja_author = "Kana Shikada, Masakatsu Kawata, Noboru Sebe"
+outside_kuaero = true
+
+[[record]]
+publication_date = "20250220"
+en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
+type = "journal"
+reviewed = true
+en_title = "Realization of the inverse-model-based disturbance observer in the Luenberger-type observer form and its generalization"
+ja_title = "Realization of the inverse-model-based disturbance observer in the Luenberger-type observer form and its generalization"
+en_author = "Kana Shikada, Noboru Sebe"
+ja_author = "Kana Shikada, Noboru Sebe"
+outside_kuaero = true
+
+[record.ids.doi]
+label = "DOI"
+id = "10.1080/18824889.2025.2463195"
+url = "https://doi.org/10.1080/18824889.2025.2463195"
+[[record]]
+publication_date = "20250131"
+en_booktitle = "Proceedings of 2025 Australian & New Zealand Control Conference (ANZCC)"
+type = "international_conference"
+page_begin = "111"
+page_end = "116"
+reviewed = true
+en_publisher = "IEEE"
+ja_publisher = "IEEE"
+en_title = "Fault Detection in Robust Control by Using Disturbance Observer and Test Signals"
+ja_title = "Fault Detection in Robust Control by Using Disturbance Observer and Test Signals"
+en_author = "Taichi Yuyama, Ibuki Tsuji, Kana Shikada, Noboru Sebe, Koichi Suyama"
+ja_author = "Taichi Yuyama, Ibuki Tsuji, Kana Shikada, Noboru Sebe, Koichi Suyama"
+outside_kuaero = true
+
+[record.ids.doi]
+label = "DOI"
+id = "10.1109/ANZCC65042.2025.10872996"
+url = "https://doi.org/10.1109/ANZCC65042.2025.10872996"
+[record.ids.url]
+label = "URL"
+id = "http://xplorestaging.ieee.org/ielx8/10872986/10872995/10872996.pdf?arnumber=10872996"
+url = "http://xplorestaging.ieee.org/ielx8/10872986/10872995/10872996.pdf?arnumber=10872996"
+[[record]]
+publication_date = "20240920"
+en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
+type = "journal"
+reviewed = true
+en_title = "Similarities and differences between exosystem-model-based disturbance observer and model error compensator"
+ja_title = "Similarities and differences between exosystem-model-based disturbance observer and model error compensator"
+en_author = "Kana Shikada, Noboru Sebe"
+ja_author = "Kana Shikada, Noboru Sebe"
+outside_kuaero = true
+
+[record.ids.doi]
+label = "DOI"
+id = "10.1080/18824889.2024.2391624"
+url = "https://doi.org/10.1080/18824889.2024.2391624"
+[[record]]
+publication_date = "20240830"
+en_booktitle = "Proceedings of 2024 SICE Festival with Annual Conference (SICE FES)"
+type = "international_conference"
+page_begin = "980"
+page_end = "985"
+reviewed = true
+en_title = "Estimation of Scheduling Parameters by Disturbance Observer"
+ja_title = "Estimation of Scheduling Parameters by Disturbance Observer"
+en_author = "Kotaro Kamewari, Kana Shikada, Noboru Sebe, Masayuki Sato, Ikuro Mizumoto"
+ja_author = "Kotaro Kamewari, Kana Shikada, Noboru Sebe, Masayuki Sato, Ikuro Mizumoto"
+outside_kuaero = true
+
+[[record]]
+publication_date = "20240830"
+en_booktitle = "Proceedings of 2024 SICE Festival with Annual Conference (SICE FES)"
+type = "international_conference"
+page_begin = "973"
+page_end = "979"
+reviewed = true
+en_title = "A Design of H∞ Controllers Achieving Type 2 Sensitivity Characteristics in type 1 Servo Systems"
+ja_title = "A Design of H∞ Controllers Achieving Type 2 Sensitivity Characteristics in type 1 Servo Systems"
+en_author = "Reiji Kawakami, Kana Shikada, Noboru Sebe, Masayuki Sato"
+ja_author = "Reiji Kawakami, Kana Shikada, Noboru Sebe, Masayuki Sato"
+outside_kuaero = true
+
+[[record]]
+publication_date = "20240319"
+en_booktitle = "Proceedings of 2024 SICE International Symposium on Control Systems (SICE ISCS)"
+type = "international_conference"
+page_begin = "65"
+page_end = "72"
+reviewed = true
+en_title = "State space analysis of the relation between two types of disturbance observers"
+ja_title = "State space analysis of the relation between two types of disturbance observers"
+en_author = "Kana Shikada, Noboru Sebe"
+ja_author = "Kana Shikada, Noboru Sebe"
+outside_kuaero = true
+
+[record.ids.doi]
+label = "DOI"
+id = "10.23919/SICEISCS60954.2024.10505753"
+url = "https://doi.org/10.23919/SICEISCS60954.2024.10505753"
+[[record]]
+publication_date = "20230714"
+en_booktitle = "Proceedings of 22nd IFAC World Congress"
+type = "international_conference"
+page_begin = "12416"
+page_end = "12423"
+reviewed = true
+en_title = "Robustness of disturbance observer based servo systems"
+ja_title = "Robustness of disturbance observer based servo systems"
+en_author = "Kana Shikada, Noboru Sebe, Masayuki Sato"
+ja_author = "Kana Shikada, Noboru Sebe, Masayuki Sato"
+outside_kuaero = true
+
+[record.ids.doi]
+label = "DOI"
+id = "10.1016/j.ifacol.2023.10.454"
+url = "https://doi.org/10.1016/j.ifacol.2023.10.454"
+[[record]]
+publication_date = "20230310"
+en_booktitle = "Proceedings of 2023 SICE International Symposium on Control Systems (SICE ISCS)"
+type = "international_conference"
+page_begin = "64"
+page_end = "69"
+reviewed = true
+en_title = "Relation between disturbance observer and model error compensator"
+ja_title = "Relation between disturbance observer and model error compensator"
+en_author = "Kana Shikada, Noboru Sebe"
+ja_author = "Kana Shikada, Noboru Sebe"
+outside_kuaero = true
+
+[[record]]
+publication_date = "20220909"
+en_booktitle = "Proceedings of 61st Annual Conference of the Society of Instrument and Control Engineers (SICE)"
+type = "international_conference"
+page_begin = "924"
+page_end = "929"
+reviewed = true
+en_title = "Reduction of steady-state error for a ramp input in type 1 servo systems"
+ja_title = "Reduction of steady-state error for a ramp input in type 1 servo systems"
+en_author = "Honoka Shimatate, Kana Shikada, Noboru Sebe"
+ja_author = "Honoka Shimatate, Kana Shikada, Noboru Sebe"
+outside_kuaero = true
+
+[record.ids.doi]
+label = "DOI"
+id = "10.23919/SICE56594.2022.9905769"
+url = "https://doi.org/10.23919/SICE56594.2022.9905769"
+[[record]]
+publication_date = "20220902"
+en_booktitle = "Proceedings of 10th IFAC Symposium on Robust Control Design ROCOND"
+type = "international_conference"
+page_begin = "193"
+page_end = "198"
+reviewed = true
+en_title = "Selection of the estimation model for robust observer-based controller against plant uncertainties"
+ja_title = "Selection of the estimation model for robust observer-based controller against plant uncertainties"
+en_author = "Kana Shikada, Noboru Sebe, Masayuki Sato"
+ja_author = "Kana Shikada, Noboru Sebe, Masayuki Sato"
+outside_kuaero = true
+
+[record.ids.doi]
+label = "DOI"
+id = "10.1016/j.ifacol.2022.09.346"
+url = "https://doi.org/10.1016/j.ifacol.2022.09.346"
+[[record]]
+publication_date = "20210910"
+en_booktitle = "Proceedings of 60th Annual Conference of the Society of Instrument and Control Engineers (SICE)"
+type = "international_conference"
+page_begin = "1196"
+page_end = "1201"
+reviewed = true
+en_title = "Robust observer-based controller against plant uncertainties"
+ja_title = "Robust observer-based controller against plant uncertainties"
+en_author = "Kana Shikada, Noboru Sebe, Masayuki Sato"
+ja_author = "Kana Shikada, Noboru Sebe, Masayuki Sato"
+outside_kuaero = true
+
+[[record]]
+publication_date = "20200926"
+en_booktitle = "Proceedings of 59th Annual Conference of the Society of Instrument and Control Engineers (SICE)"
+type = "international_conference"
+page_begin = "1886"
+page_end = "1891"
+reviewed = true
+en_title = "Robust fault-tolerant servo system against sensor failure and plant uncertainties"
+ja_title = "Robust fault-tolerant servo system against sensor failure and plant uncertainties"
+en_author = "Kana Shikada, Noboru Sebe, Koichi Suyama, Katherin Indriawati"
+ja_author = "Kana Shikada, Noboru Sebe, Koichi Suyama, Katherin Indriawati"
+outside_kuaero = true
+
+[record.ids.doi]
+label = "DOI"
+id = "10.23919/SICE48898.2020.9240259"
+url = "https://doi.org/10.23919/SICE48898.2020.9240259"

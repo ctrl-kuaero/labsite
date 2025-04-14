@@ -4,9 +4,13 @@ from urllib.parse import urlparse, parse_qs
 from pprint import pprint
 import re
 
-members = ['maruta','fujimoto_kenji']
+members = ['maruta','fujimoto_kenji','KanaShikada']
 
 inlab = {
+    'KanaShikada': {
+        'since':'2025-04-01',
+        'until':'9999-99-99'
+    },    
     'maruta': {
         'since':'2017-06-01',
         'until':'9999-99-99'
