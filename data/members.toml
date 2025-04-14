@@ -102,6 +102,29 @@ en_name = "Kaichi NAKASHIMA"
 ja_position = "修士課程"
 en_position = "Master's Student"
 
+[[list]]
+ja_name = "品川 壮輝"
+en_name = "Masaki SHINAGAWA"
+ja_position = "学士課程"
+en_position = "Bachelor's Student"
+
+[[list]]
+ja_name = "鈴木 盛之"
+en_name = "Moriyuki SUZUKI"
+ja_position = "学士課程"
+en_position = "Bachelor's Student"
+
+[[list]]
+ja_name = "千代田 景悟"
+en_name = "Keigo CHIYODA"
+ja_position = "学士課程"
+en_position = "Bachelor's Student"
+
+[[list]]
+ja_name = "鳥谷 陽樹"
+en_name = "Haruki TORITANI"
+ja_position = "学士課程"
+en_position = "Bachelor's Student"
 
 
 [[list]]
