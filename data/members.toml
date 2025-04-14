@@ -23,10 +23,10 @@ ja_name = "鹿田 佳那"
 en_name = "Kana SHIKADA"
 ja_position = "助教"
 en_position = "Assistant Professor"
-ja_link_text =  '<span class=>'
-en_link_text = '<span class=>'
-ja_link_url = "https://control.kuaero.kyoto-u.ac.jp/~shikada/ja/"
-en_link_url = "https://control.kuaero.kyoto-u.ac.jp/~shikada/"
+# ja_link_text =  '<span class=>'
+# en_link_text = '<span class=>'
+# ja_link_url = "https://control.kuaero.kyoto-u.ac.jp/~shikada/ja/"
+# en_link_url = "https://control.kuaero.kyoto-u.ac.jp/~shikada/"
 
 
 
@@ -61,13 +61,13 @@ ja_position = "修士課程"
 en_position = "Master's Student"
 
 [[list]]
-ja_name = "田澤　創"
+ja_name = "田澤 創"
 en_name = "Hajime TAZAWA"
 ja_position = "修士課程"
 en_position = "Master's Student"
 
 [[list]]
-ja_name = "宮田　峻"
+ja_name = "宮田 峻"
 en_name = "Shun MIYATA"
 ja_position = "修士課程"
 en_position = "Master's Student"
