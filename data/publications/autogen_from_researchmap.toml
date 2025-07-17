@@ -1,4 +1,26 @@
 [[record]]
+publication_date = "20250716"
+ja_booktitle = "Advanced Robotics"
+en_booktitle = "Advanced Robotics"
+type = "journal"
+volume = "on-line"
+page_begin = "1"
+page_end = "19"
+reviewed = true
+invited = false
+en_publisher = "Taylor & Francis"
+ja_publisher = "Taylor & Francis"
+en_title = "Quadrotor pose estimation and real-time control using UWB-based bidirectional measurements of distance and angle of arrival"
+ja_title = "Quadrotor pose estimation and real-time control using UWB-based bidirectional measurements of distance and angle of arrival"
+en_author = "Eiki Sato, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "Eiki Sato, Ichiro Maruta, Kenji Fujimoto"
+outside_kuaero = false
+
+[record.ids.doi]
+label = "DOI"
+id = "10.1080/01691864.2025.2526598"
+url = "https://doi.org/10.1080/01691864.2025.2526598"
+[[record]]
 publication_date = "20250318"
 ja_booktitle = "第30回ロボティクスシンポジア講演論文集"
 en_booktitle = "Proceedings of the 30th Robotics Symposia"
