@@ -19,14 +19,11 @@ general_item:
   fig_name: "drone.png"
 - content: |
     ## System Identification
-    In the control of systems, mathematical models that represent the dynamics of the target system are crucial. 
-    The accuracy of the mathematical model strongly influences the performance and safety of the designed controllers. 
-    However, it is challenging to construct mathematical models for systems with complex dynamics. 
-    Therefore, a systematic approach to model construction based on large amounts of input/output data, known as "system identification," is essential.
-
-    We are developing system identification methods that utilize machine learning to construct mathematical models for systems with significant nonlinearity. 
-    Additionally, our laboratory is currently developing control theories that utilize the models identified through this process.
-  fig_name: "car.png"
+    It is required to control complex systems such as drones and robot arms with high precision. For that purpose, it is essential to construct a mathematical model that expresses the behavior of the target system. 
+    However, it is often difficult to construct a model of a complex system from physical laws alone. 
+    In such cases, a technique called system identification, which constructs a mathematical model based on data obtained from the system, is effective. 
+    In this field, we are developing system identification methods for complex systems by making full use of the knowledge of machine learning methods, and are working on the experimental verification of control using the obtained models.
+  fig_name: "robotarm.png"
 - content: |
     ## Aerospace Systems
     Aircraft and spacecraft systems require highly precise and reliable control. 
