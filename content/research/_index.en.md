@@ -22,6 +22,7 @@ general_item:
     It is required to control complex systems such as drones and robot arms with high precision. For that purpose, it is essential to construct a mathematical model that expresses the behavior of the target system. 
     However, it is often difficult to construct a model of a complex system from physical laws alone. 
     In such cases, a technique called system identification, which constructs a mathematical model based on data obtained from the system, is effective. 
+    
     In this field, we are developing system identification methods for complex systems by making full use of the knowledge of machine learning methods, and are working on the experimental verification of control using the obtained models.
   fig_name: "robotarm.png"
 - content: |
