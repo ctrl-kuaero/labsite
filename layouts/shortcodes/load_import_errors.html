@@ -1,0 +1,65 @@
+{{/* エラーレポートを読み込んで表示するショートコード */}}
+<section class="section" id="main">
+    <div class="container content">
+{{ $errorData := $.Site.Data.publications.autogen_errors }}
+{{ if $errorData }}
+    <div class="import-error-summary" style="background: rgba(243, 156, 18, 0.2); border: 1px solid #f39c12; padding: 1rem; margin-bottom: 1.5rem;">
+        <p style="margin-bottom: 0.5rem;"><strong>{{ if eq $.Page.Lang "ja" }}生成日時{{ else }}Generated at{{ end }}:</strong> {{ $errorData.generated_at }}</p>
+        <p style="margin-bottom: 0;"><strong>{{ if eq $.Page.Lang "ja" }}エラー件数{{ else }}Error count{{ end }}:</strong> {{ $errorData.error_count }} {{ if eq $.Page.Lang "ja" }}件{{ else }}items{{ end }}</p>
+    </div>
+    
+    {{ range $idx, $error := $errorData.errors }}
+    <div class="import-error-item box" style="margin-bottom: 1.5rem;">
+        <h3 style="margin-top: 0;">{{ add $idx 1 }}. {{ $error.title }}</h3>
+        <ul style="margin-left: 1.5rem; color: #e0e0e0;">
+            <li><strong>{{ if eq $.Page.Lang "ja" }}エラーメッセージ{{ else }}Error message{{ end }}:</strong> <code style="background: rgba(255,255,255,0.1); color: #f39c12; padding: 0.2em 0.4em; border-radius: 3px;">{{ $error.error_message }}</code></li>
+            <li><strong>@type:</strong> <code style="background: rgba(255,255,255,0.1); color: inherit; padding: 0.2em 0.4em; border-radius: 3px;">{{ $error.type }}</code></li>
+            {{ $displayUrl := replace $error.id "https://api.researchmap.jp/" "https://researchmap.jp/" }}
+            <li><strong>@id:</strong> <a href="{{ $displayUrl }}" target="_blank" rel="noopener noreferrer" style="color: #3498db;"><code style="background: rgba(255,255,255,0.1); color: inherit; padding: 0.2em 0.4em; border-radius: 3px;">{{ $error.id }}</code></a></li>
+            <li><strong>publication_date:</strong> <code style="background: rgba(255,255,255,0.1); color: inherit; padding: 0.2em 0.4em; border-radius: 3px;">{{ $error.publication_date }}</code></li>
+        </ul>
+        <details style="margin-top: 1rem;">
+            <summary style="cursor: pointer; color: #e0e0e0;">{{ if eq $.Page.Lang "ja" }}詳細データ (JSON){{ else }}Raw data (JSON){{ end }}</summary>
+            <pre style="background: rgba(0,0,0,0.3); color: #e0e0e0; padding: 1rem; margin-top: 0.5rem; overflow-x: auto; font-size: 0.85em;"><code>{{ $error.raw_data_json }}</code></pre>
+        </details>
+    </div>
+    {{ end }}
+{{ else }}
+    <div class="import-error-none" style="background: rgba(26, 188, 156, 0.2); border: 1px solid #1abc9c; padding: 1rem; margin-bottom: 1.5rem;">
+        <p style="margin-bottom: 0;">{{ if eq $.Page.Lang "ja" }}現在、インポートエラーはありません。{{ else }}No import errors at this time.{{ end }}</p>
+    </div>
+{{ end }}
+
+{{/* 警告レポートを読み込んで表示 */}}
+{{ $warningData := $.Site.Data.publications.autogen_warnings }}
+{{ if $warningData }}
+    <h2 style="margin-top: 2rem;">{{ if eq $.Page.Lang "ja" }}警告{{ else }}Warnings{{ end }}</h2>
+    <div class="import-warning-summary" style="background: rgba(52, 152, 219, 0.2); border: 1px solid #3498db; padding: 1rem; margin-bottom: 1.5rem;">
+        <p style="margin-bottom: 0.5rem;"><strong>{{ if eq $.Page.Lang "ja" }}生成日時{{ else }}Generated at{{ end }}:</strong> {{ $warningData.generated_at }}</p>
+        <p style="margin-bottom: 0;"><strong>{{ if eq $.Page.Lang "ja" }}警告件数{{ else }}Warning count{{ end }}:</strong> {{ $warningData.warning_count }} {{ if eq $.Page.Lang "ja" }}件{{ else }}items{{ end }}</p>
+    </div>
+    
+    {{ range $idx, $warning := $warningData.warnings }}
+    <div class="import-warning-item box" style="margin-bottom: 1.5rem;">
+        <h3 style="margin-top: 0;">{{ add $idx 1 }}. {{ $warning.title }}</h3>
+        <ul style="margin-left: 1.5rem; color: #e0e0e0;">
+            <li><strong>{{ if eq $.Page.Lang "ja" }}警告メッセージ{{ else }}Warning message{{ end }}:</strong> <code style="background: rgba(255,255,255,0.1); color: #3498db; padding: 0.2em 0.4em; border-radius: 3px;">{{ $warning.warning_message }}</code></li>
+            <li><strong>@type:</strong> <code style="background: rgba(255,255,255,0.1); color: inherit; padding: 0.2em 0.4em; border-radius: 3px;">{{ $warning.type }}</code></li>
+            {{ $displayUrl := replace $warning.id "https://api.researchmap.jp/" "https://researchmap.jp/" }}
+            <li><strong>@id:</strong> <a href="{{ $displayUrl }}" target="_blank" rel="noopener noreferrer" style="color: #3498db;"><code style="background: rgba(255,255,255,0.1); color: inherit; padding: 0.2em 0.4em; border-radius: 3px;">{{ $warning.id }}</code></a></li>
+            <li><strong>publication_date:</strong> <code style="background: rgba(255,255,255,0.1); color: inherit; padding: 0.2em 0.4em; border-radius: 3px;">{{ $warning.publication_date }}</code></li>
+        </ul>
+        <details style="margin-top: 1rem;">
+            <summary style="cursor: pointer; color: #e0e0e0;">{{ if eq $.Page.Lang "ja" }}詳細データ (JSON){{ else }}Raw data (JSON){{ end }}</summary>
+            <pre style="background: rgba(0,0,0,0.3); color: #e0e0e0; padding: 1rem; margin-top: 0.5rem; overflow-x: auto; font-size: 0.85em;"><code>{{ $warning.raw_data_json }}</code></pre>
+        </details>
+    </div>
+    {{ end }}
+{{ else }}
+    <h2 style="margin-top: 2rem;">{{ if eq $.Page.Lang "ja" }}警告{{ else }}Warnings{{ end }}</h2>
+    <div class="import-warning-none" style="background: rgba(26, 188, 156, 0.2); border: 1px solid #1abc9c; padding: 1rem;">
+        <p style="margin-bottom: 0;">{{ if eq $.Page.Lang "ja" }}現在、警告はありません。{{ else }}No warnings at this time.{{ end }}</p>
+    </div>
+{{ end }}
+    </div>
+</section>

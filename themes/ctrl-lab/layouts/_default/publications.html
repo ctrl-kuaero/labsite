@@ -7,11 +7,26 @@
     <div class="container content">
         <h1>{{ .Title }}</h1>
 
+        {{/* エラーがある場合は警告を表示 */}}
+        {{ $errorData := $.Site.Data.publications.autogen_errors }}
+        {{ if $errorData }}
+        <div class="notification" style="background: rgba(243, 156, 18, 0.15); border: 1px solid #f39c12; color: #f39c12;">
+            <button class="delete"></button>
+            <strong>⚠️ {{ i18n "import_error_warning" | default "Warning: Some publications could not be imported from researchmap." }}</strong>
+            ({{ $errorData.error_count }} {{ if eq $.Page.Lang "ja" }}件{{ else }}items{{ end }})
+            <br>
+            <a href="{{ "import-errors/" | relLangURL }}" style="color: #f5b041;">{{ i18n "view_error_report" | default "View error report" }}</a>
+        </div>
+        {{ end }}
+
         {{/* data/publications/内の全てのファイルを読み込み */}}
         {{- $list := $.Site.Data.publications.autogen_publications.record }}
         {{- $.Scratch.Delete "list" }}
-        {{- range $.Site.Data.publications }}
-        {{- $.Scratch.Add "list" .record }}
+        {{- range $key, $value := $.Site.Data.publications }}
+        {{/* autogen_errorsとautogen_warningsはエラー/警告データなのでスキップ */}}
+        {{- if and (ne $key "autogen_errors") (ne $key "autogen_warnings") }}
+        {{- $.Scratch.Add "list" $value.record }}
+        {{- end }}
         {{- end }}
         {{- $list := ($.Scratch.Get "list") -}}
 

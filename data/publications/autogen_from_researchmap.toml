@@ -3,9 +3,10 @@ publication_date = "20250716"
 ja_booktitle = "Advanced Robotics"
 en_booktitle = "Advanced Robotics"
 type = "journal"
-volume = "on-line"
-page_begin = "1"
-page_end = "19"
+volume = "39"
+number = "13"
+page_begin = "864"
+page_end = "882"
 reviewed = true
 invited = false
 en_publisher = "Taylor & Francis"
@@ -20,6 +21,24 @@ outside_kuaero = false
 label = "DOI"
 id = "10.1080/01691864.2025.2526598"
 url = "https://doi.org/10.1080/01691864.2025.2526598"
+[record.ids.url]
+label = "URL"
+id = "https://www.tandfonline.com/toc/tadr20/39/13?nav=tocList"
+url = "https://www.tandfonline.com/toc/tadr20/39/13?nav=tocList"
+[[record]]
+publication_date = "20250712"
+ja_booktitle = "Proceedings of the Joint Symposium 35th ISTS & 14th NSAT"
+en_booktitle = "Proceedings of the Joint Symposium 35th ISTS & 14th NSAT"
+type = "international_conference"
+page_begin = "2025-d-16-2"
+reviewed = true
+invited = false
+en_title = "On the Global Search of Spacecraft Trajectories Using the Stability Index of a Stochastic Algorithm"
+ja_title = "On the Global Search of Spacecraft Trajectories Using the Stability Index of a Stochastic Algorithm"
+en_author = "Gyeongrok Ha, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "Gyeongrok Ha, Kenji Fujimoto, Ichiro Maruta"
+outside_kuaero = false
+
 [[record]]
 publication_date = "20250318"
 ja_booktitle = "第30回ロボティクスシンポジア講演論文集"
@@ -83,6 +102,27 @@ outside_kuaero = false
 label = "DOI"
 id = "10.1109/LCSYS.2024.3417173"
 url = "https://doi.org/10.1109/LCSYS.2024.3417173"
+[[record]]
+publication_date = "20240229"
+ja_booktitle = "IEEE Transactions on Automatic Control"
+en_booktitle = "IEEE Transactions on Automatic Control"
+type = "journal"
+volume = "69"
+number = "8"
+page_begin = "5605"
+page_end = "5612"
+reviewed = true
+invited = false
+en_title = "Passivity-Based Sliding Mode Control for Mechanical Port-Hamiltonian Systems"
+ja_title = "Passivity-Based Sliding Mode Control for Mechanical Port-Hamiltonian Systems"
+en_author = "Naoki Sakata, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "Naoki Sakata, Kenji Fujimoto, Ichiro Maruta"
+outside_kuaero = false
+
+[record.ids.doi]
+label = "DOI"
+id = "10.1109/TAC.2024.3371898"
+url = "https://doi.org/10.1109/TAC.2024.3371898"
 [[record]]
 publication_date = "20231213"
 ja_booktitle = "Proceedings of the 62nd IEEE Conference on Decision and Control (CDC)"
@@ -6569,13 +6609,13 @@ en_author = "Shuichi Adachi, Yukitsugu Hirota, Katsunori Oshiage, Atsushi Baba, 
 ja_author = "足立 修一, 廣田 幸嗣, 押上 勝憲, 馬場 厚志, 丸田 一郎, 三原 輝儀"
 outside_kuaero = true
 
-[record.ids.isbn]
-label = "ISBN"
-id = "9784501117207"
 [record.ids.cinii_nc_id]
 label = "CiNii"
 id = "BB20181372"
 url = "http://ci.nii.ac.jp/ncid/BB20181372"
+[record.ids.isbn]
+label = "ISBN"
+id = "9784501117207"
 [[record]]
 publication_date = "20121001"
 type = "book"
@@ -6590,13 +6630,27 @@ en_author = "Shuichi Adachi, Ichiro Maruta"
 ja_author = "足立 修一, 丸田 一郎"
 outside_kuaero = true
 
-[record.ids.isbn]
-label = "ISBN"
-id = "9784501328900"
 [record.ids.cinii_nc_id]
 label = "CiNii"
 id = "BB10368424"
 url = "http://ci.nii.ac.jp/ncid/BB10368424"
+[record.ids.isbn]
+label = "ISBN"
+id = "9784501328900"
+[[record]]
+publication_date = "20250712"
+ja_booktitle = "Proceedings of the Joint Symposium 35th ISTS & 14th NSAT"
+en_booktitle = "Proceedings of the Joint Symposium 35th ISTS & 14th NSAT"
+type = "international_conference"
+page_begin = "2025-d-16-2"
+reviewed = true
+invited = false
+en_title = "Global Search of Spacecraft Trajectories Using the Stability Index of a Stochastic Algorithm"
+ja_title = "On the Global Search of Spacecraft Trajectories Using the Stability Index of a Stochastic Algorithm"
+en_author = "Gyeongrok Ha, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "Gyeongrok Ha, Kenji Fujimoto, Ichiro Maruta"
+outside_kuaero = false
+
 [[record]]
 publication_date = "20240610"
 ja_booktitle = "IFAC-PapersOnLine"
@@ -6779,21 +6833,6 @@ id = "0018-9286"
 label = "URL"
 id = "https://ieeexplore.ieee.org/document/9664337"
 url = "https://ieeexplore.ieee.org/document/9664337"
-[[record]]
-publication_date = "20210908"
-ja_booktitle = "Proceedings of the SICE Annual Conference 2021"
-en_booktitle = "Proceedings of the SICE Annual Conference 2021"
-type = "international_conference"
-page_begin = "596"
-page_end = "602"
-reviewed = true
-invited = false
-en_title = "Adversarial Reinforcement Learning Based Robustification of Highlighted Map for Mobile Robot Localization"
-ja_title = "Adversarial Reinforcement Learning Based Robustification of Highlighted Map for Mobile Robot Localization"
-en_author = "Ryota Yoshimura, Ichiro Maruta, Kenji Fujimoto, Ken Sato, Yusuke Kobayashi"
-ja_author = "Ryota Yoshimura, Ichiro Maruta, Kenji Fujimoto, Ken Sato, Yusuke Kobayashi"
-outside_kuaero = false
-
 [[record]]
 publication_date = "20210525"
 ja_booktitle = "Proceedings of the 2021 American Control Conference (ACC)"
@@ -8481,6 +8520,24 @@ id = "1882-4889"
 label = "e-ISSN"
 id = "1884-9970"
 [[record]]
+publication_date = "20140326"
+en_booktitle = "2009 European Control Conference, ECC 2009"
+type = "international_conference"
+page_begin = "236"
+page_end = "241"
+en_publisher = "Institute of Electrical and Electronics Engineers Inc."
+ja_publisher = "Institute of Electrical and Electronics Engineers Inc."
+en_title = "Asymptotic path following and velocity control of port-Hamiltonian systems"
+ja_title = "Asymptotic path following and velocity control of port-Hamiltonian systems"
+en_author = "Mitsuru Taniguchi, Kenji Fujimoto"
+ja_author = "Mitsuru Taniguchi, Kenji Fujimoto"
+outside_kuaero = false
+
+[record.ids.doi]
+label = "DOI"
+id = "10.23919/ecc.2009.7074410"
+url = "https://doi.org/10.23919/ecc.2009.7074410"
+[[record]]
 publication_date = "20131210"
 ja_booktitle = "Proceedings of the 52nd IEEE Conference on Decision and Control"
 en_booktitle = "Proceedings of the 52nd IEEE Conference on Decision and Control"
@@ -9922,6 +9979,8 @@ publication_date = "20080706"
 ja_booktitle = "Proceedings of the 17th IFAC World Congress"
 en_booktitle = "Proceedings of the 17th IFAC World Congress"
 type = "international_conference"
+volume = "17"
+number = "1 PART 1"
 page_begin = "13545"
 page_end = "13550"
 reviewed = true
@@ -9932,6 +9991,16 @@ en_author = "Shuichi Fukunaga, Kenji Fujimoto"
 ja_author = "Shuichi Fukunaga, Kenji Fujimoto"
 outside_kuaero = true
 
+[record.ids.doi]
+label = "DOI"
+id = "10.3182/20080706-5-KR-1001.3941"
+url = "https://doi.org/10.3182/20080706-5-KR-1001.3941"
+[record.ids.issn]
+label = "ISSN"
+id = "1474-6670"
+[record.ids.isbn]
+label = "ISBN"
+id = "9783902661005"
 [[record]]
 publication_date = "20080706"
 ja_booktitle = "Proceedings of the 17th IFAC World Congress"
@@ -10582,6 +10651,10 @@ en_author = "Daisuke Tsubakino, Kenji Fujimoto"
 ja_author = "Daisuke Tsubakino, Kenji Fujimoto"
 outside_kuaero = true
 
+[record.ids.cinii_na_id]
+label = "CiNii"
+id = "10020126958"
+url = "http://ci.nii.ac.jp/naid/10020126958"
 [[record]]
 publication_date = "20060719"
 ja_booktitle = "Preprints of the 3rd IFAC Workshop on Lagragian and Hamiltonian Methods in Nonlinear Control"
@@ -10615,6 +10688,27 @@ outside_kuaero = true
 [record.ids.issn]
 label = "ISSN"
 id = "0170-8643"
+[[record]]
+publication_date = "20060000"
+en_booktitle = "Proceedings of the IEEE Conference on Decision and Control"
+type = "international_conference"
+page_begin = "3843"
+page_end = "3848"
+en_publisher = "Institute of Electrical and Electronics Engineers Inc."
+ja_publisher = "Institute of Electrical and Electronics Engineers Inc."
+en_title = "Weighted balanced truncation for unstable nonlinear systems using coprime factorizations"
+ja_title = "Weighted balanced truncation for unstable nonlinear systems using coprime factorizations"
+en_author = "Kenji Fujimoto, Hikaru Mizuno"
+ja_author = "Kenji Fujimoto, Hikaru Mizuno"
+outside_kuaero = true
+
+[record.ids.doi]
+label = "DOI"
+id = "10.1109/cdc.2006.377134"
+url = "https://doi.org/10.1109/cdc.2006.377134"
+[record.ids.issn]
+label = "ISSN"
+id = "0191-2216"
 [[record]]
 publication_date = "20060000"
 en_booktitle = "IEEE International Conference on Intelligent Robots and Systems"
@@ -10899,6 +10993,10 @@ en_author = "Kenji Fujimoto, Jacquelien M, A. Scherpen"
 ja_author = "Kenji Fujimoto, Jacquelien M, A. Scherpen"
 outside_kuaero = true
 
+[record.ids.cinii_na_id]
+label = "CiNii"
+id = "10012446623"
+url = "http://ci.nii.ac.jp/naid/10012446623"
 [[record]]
 publication_date = "20030804"
 ja_booktitle = "Proceedings of SICE Annual Conference 2003"
@@ -10914,6 +11012,10 @@ en_author = "Kenji Fujimoto"
 ja_author = "Kenji Fujimoto"
 outside_kuaero = true
 
+[record.ids.cinii_na_id]
+label = "CiNii"
+id = "10018224600"
+url = "http://ci.nii.ac.jp/naid/10018224600"
 [[record]]
 publication_date = "20030403"
 ja_booktitle = "Preprints of the IFAC 2nd Workshop on Lagrangian and Hamiltonian Methods for Nonlinear Control"
@@ -11027,6 +11129,7 @@ publication_date = "20021200"
 ja_booktitle = "Proceedings of the 41st IEEE Conference on Decision and Control"
 en_booktitle = "Proceedings of the 41st IEEE Conference on Decision and Control"
 type = "international_conference"
+volume = "3344"
 page_begin = "3344"
 page_end = "3349"
 reviewed = true
@@ -11037,6 +11140,10 @@ en_author = "Kenji Fujimoto, Hiroki Kakiuchi, Toshiharu Sugie"
 ja_author = "Kenji Fujimoto, Hiroki Kakiuchi, Toshiharu Sugie"
 outside_kuaero = true
 
+[record.ids.cinii_na_id]
+label = "CiNii"
+id = "10010182365"
+url = "http://ci.nii.ac.jp/naid/10010182365"
 [[record]]
 publication_date = "20021000"
 en_booktitle = "Automatica"
@@ -11109,6 +11216,10 @@ en_author = "Kenji Fujimoto, Toshiharu Sugie"
 ja_author = "Kenji Fujimoto, Toshiharu Sugie"
 outside_kuaero = true
 
+[record.ids.cinii_na_id]
+label = "CiNii"
+id = "10010182363"
+url = "http://ci.nii.ac.jp/naid/10010182363"
 [[record]]
 publication_date = "20020000"
 en_booktitle = "Proceedings of the American Control Conference"
@@ -11552,6 +11663,10 @@ en_author = "Kenji Fujimoto, Toshiharu Sugie"
 ja_author = "Kenji Fujimoto, Toshiharu Sugie"
 outside_kuaero = true
 
+[record.ids.cinii_na_id]
+label = "CiNii"
+id = "10004651819"
+url = "http://ci.nii.ac.jp/naid/10004651819"
 [[record]]
 publication_date = "20000000"
 en_booktitle = "Proceedings of the American Control Conference"
@@ -11605,12 +11720,18 @@ page_begin = "385"
 page_end = "397"
 reviewed = true
 invited = false
+en_publisher = "Springer-Verlag"
+ja_publisher = "Springer-Verlag"
 en_title = "Eigenstructure of Nonlinear Hankel Operators"
 ja_title = "Eigenstructure of Nonlinear Hankel Operators"
 en_author = "Kenji Fujimoto, Jacquelien M, A. Scherpen"
 ja_author = "Kenji Fujimoto, Jacquelien M, A. Scherpen"
 outside_kuaero = true
 
+[record.ids.cinii_na_id]
+label = "CiNii"
+id = "80012436997"
+url = "http://ci.nii.ac.jp/naid/80012436997"
 [[record]]
 publication_date = "20000000"
 en_booktitle = "Proceedings of the IEEE Conference on Decision and Control"
@@ -11721,6 +11842,10 @@ en_author = "Kenji Fujimoto, Toshiharu Sugie"
 ja_author = "Kenji Fujimoto, Toshiharu Sugie"
 outside_kuaero = true
 
+[record.ids.cinii_na_id]
+label = "CiNii"
+id = "10004333509"
+url = "http://ci.nii.ac.jp/naid/10004333509"
 [[record]]
 publication_date = "19981115"
 ja_booktitle = "システム制御情報学会論文誌"
@@ -11950,6 +12075,10 @@ en_author = "Kenji Fujimoto, Toshiharu Sugie"
 ja_author = "Kenji Fujimoto, Toshiharu Sugie"
 outside_kuaero = true
 
+[record.ids.cinii_na_id]
+label = "CiNii"
+id = "10004333506"
+url = "http://ci.nii.ac.jp/naid/10004333506"
 [[record]]
 publication_date = "19970615"
 ja_booktitle = "システム制御情報学会論文誌"
@@ -12047,6 +12176,10 @@ en_author = "Kenji Fujimoto, Toshiharu Sugie"
 ja_author = "Kenji Fujimoto, Toshiharu Sugie"
 outside_kuaero = true
 
+[record.ids.cinii_na_id]
+label = "CiNii"
+id = "80009586454"
+url = "http://ci.nii.ac.jp/naid/80009586454"
 [[record]]
 publication_date = "19960630"
 ja_booktitle = "計測自動制御学会論文集"
@@ -13640,7 +13773,7 @@ label = "CiNii"
 id = "40020162379"
 url = "http://ci.nii.ac.jp/naid/40020162379/"
 [[record]]
-ja_booktitle = "システム/制御/情報 : システム制御情報学会誌 = Systems, control and information"
+ja_booktitle = "システム/制御/情報 : システム制御情報学会誌"
 en_booktitle = "SYSTEMS, CONTROL AND INFORMATION"
 publication_date = "20130100"
 type = "explanation_journal"
@@ -13654,7 +13787,7 @@ invited = true
 en_publisher = "The Institute of Systems, Control and Information Engineers"
 ja_publisher = "システム制御情報学会"
 en_title = "The Difficulty and Joy of Nonlinear Control Theory(Questions and Answers,<Special Issue I>Advanced Theory for Analysis and Control of Nonlinear Systems)"
-ja_title = "非線形制御って何であんなに難しそうなの?"
+ja_title = "非線形制御って何であんなに難しそうなの?(アイ・サイ問答教室,<総合特集I>非線形ダイナミクスを見極め,操る先端制御理論)"
 en_author = "Masato Ishikawa, Kenji Fujimoto"
 ja_author = "石川 将人, 藤本 健治"
 outside_kuaero = false
@@ -13674,6 +13807,30 @@ url = "https://doi.org/10.11509/isciesci.57.6_254"
 [record.ids.issn]
 label = "ISSN"
 id = "0916-1600"
+[[record]]
+ja_booktitle = "Dynamics & Design Conference"
+en_booktitle = "Dynamics & Design Conference"
+publication_date = "20120918"
+type = "others"
+volume = "2012"
+page_begin = "\"641"
+page_end = "1\"-\"641-10\""
+en_publisher = "The Japan Society of Mechanical Engineers"
+ja_publisher = "一般社団法人日本機械学会"
+en_title = "641 On approximate solutions to optimal trajectory planning based on generating functions"
+ja_title = "641 母関数を用いた最適軌道計画の近似解法について"
+en_author = "FUJIMOTO Kenji, HAO Zhiwei"
+ja_author = "藤本 健治, HAO Zhiwei"
+outside_kuaero = true
+
+[record.ids.cinii_na_id]
+label = "CiNii"
+id = "110009908274"
+url = "http://ci.nii.ac.jp/naid/110009908274"
+[record.ids.cinii_nc_id]
+label = "CiNii"
+id = "AA12120184"
+url = "http://ci.nii.ac.jp/ncid/AA12120184"
 [[record]]
 ja_booktitle = "計測と制御"
 en_booktitle = "Journal of the Society of Instrument and Control Engineers"
@@ -13748,6 +13905,39 @@ type = "others"
 lang = "ja"
 volume = "108"
 number = "276"
+page_begin = "53"
+page_end = "57"
+en_publisher = "The Institute of Electronics, Information and Communication Engineers"
+ja_publisher = "一般社団法人電子情報通信学会"
+en_title = "Stabilization of stochastic port-Hamiltonian systems based on passivity"
+ja_title = "受動性に基づく確率ポート・ハミルトン系の安定化"
+en_author = "SATOH Satoshi, FUJIMOTO Kenji"
+ja_author = "佐藤 訓志, 藤本 健治"
+outside_kuaero = true
+
+[record.ids.issn]
+label = "ISSN"
+id = "0913-5685"
+[record.ids.cinii_na_id]
+label = "CiNii"
+id = "110007100520"
+url = "http://ci.nii.ac.jp/naid/110007100520"
+[record.ids.cinii_nc_id]
+label = "CiNii"
+id = "AN10060800"
+url = "http://ci.nii.ac.jp/ncid/AN10060800"
+[record.ids.url]
+label = "URL"
+id = "http://id.ndl.go.jp/bib/9737438"
+url = "http://id.ndl.go.jp/bib/9737438"
+[[record]]
+ja_booktitle = "電子情報通信学会技術研究報告. NLP, 非線形問題"
+en_booktitle = "IEICE technical report"
+publication_date = "20081030"
+type = "others"
+lang = "ja"
+volume = "108"
+number = "276"
 page_begin = "59"
 page_end = "64"
 en_publisher = "The Institute of Electronics, Information and Communication Engineers"
@@ -13773,6 +13963,31 @@ url = "http://ci.nii.ac.jp/ncid/AN10060800"
 label = "URL"
 id = "http://id.ndl.go.jp/bib/9737461"
 url = "http://id.ndl.go.jp/bib/9737461"
+[[record]]
+ja_booktitle = "東海支部総会講演会講演論文集"
+publication_date = "20080301"
+type = "others"
+lang = "ja"
+volume = "2008"
+number = "57"
+page_begin = "357"
+page_end = "358"
+en_publisher = "The Japan Society of Mechanical Engineers"
+ja_publisher = "一般社団法人日本機械学会"
+en_title = "505 On trajectory tracking control of electro-mechanical systems using port-controlled Hamiltonian system models"
+ja_title = "505 ポートハミルトン系モデルを用いた電気機械システムの軌道追従制御について(OS7-1 制御理論の新展開と機械システムへの応用1,OS7 制御理論の新展開と機械システムへの応用)"
+en_author = "MATSUSHITA Ryousuke, FUJIMOTO Kenji"
+ja_author = "松下 亮介, 藤本 健治"
+outside_kuaero = true
+
+[record.ids.cinii_na_id]
+label = "CiNii"
+id = "110007721508"
+url = "http://ci.nii.ac.jp/naid/110007721508"
+[record.ids.cinii_nc_id]
+label = "CiNii"
+id = "AN00360681"
+url = "http://ci.nii.ac.jp/ncid/AN00360681"
 [[record]]
 ja_booktitle = "電子情報通信学会技術研究報告. NC, ニューロコンピューティング"
 en_booktitle = "IEICE technical report"
@@ -13807,6 +14022,86 @@ label = "URL"
 id = "http://id.ndl.go.jp/bib/8706369"
 url = "http://id.ndl.go.jp/bib/8706369"
 [[record]]
+ja_booktitle = "Dynamics & Design Conference"
+en_booktitle = "Dynamics & Design Conference"
+publication_date = "20060806"
+type = "others"
+volume = "2006"
+page_begin = "\"113"
+page_end = "1\"-\"113-5\""
+en_publisher = "The Japan Society of Mechanical Engineers"
+ja_publisher = "一般社団法人日本機械学会"
+en_title = "113 Model order reduction of electro-mechanical systems"
+ja_title = "113 メカトロニクス系のモデル低次元化"
+en_author = "FUJIMOTO Kenji"
+ja_author = "藤本 健治"
+outside_kuaero = true
+
+[record.ids.cinii_na_id]
+label = "CiNii"
+id = "110006656326"
+url = "http://ci.nii.ac.jp/naid/110006656326"
+[record.ids.cinii_nc_id]
+label = "CiNii"
+id = "AA12120184"
+url = "http://ci.nii.ac.jp/ncid/AA12120184"
+[[record]]
+ja_booktitle = "電子情報通信学会技術研究報告. NLP, 非線形問題"
+en_booktitle = "IEICE technical report"
+publication_date = "20060627"
+type = "others"
+lang = "ja"
+volume = "106"
+number = "136"
+page_begin = "37"
+page_end = "41"
+en_publisher = "The Institute of Electronics, Information and Communication Engineers"
+ja_publisher = "一般社団法人電子情報通信学会"
+en_title = "Variational symmetry and learning control of Hamiltonian control systems : Application to a hopping robot"
+ja_title = "ハミルトン系の変分対称性と学習制御 : ホッピングロボットの走行軌道生成への応用"
+en_author = "FUJIMOTO Kenji"
+ja_author = "藤本 健治"
+outside_kuaero = true
+
+[record.ids.issn]
+label = "ISSN"
+id = "0913-5685"
+[record.ids.cinii_na_id]
+label = "CiNii"
+id = "110004809580"
+url = "http://ci.nii.ac.jp/naid/110004809580"
+[record.ids.cinii_nc_id]
+label = "CiNii"
+id = "AN10060800"
+url = "http://ci.nii.ac.jp/ncid/AN10060800"
+[record.ids.url]
+label = "URL"
+id = "http://id.ndl.go.jp/bib/8016202"
+url = "http://id.ndl.go.jp/bib/8016202"
+[[record]]
+ja_booktitle = "American Control Conference"
+en_booktitle = "American Control Conference"
+publication_date = "20060000"
+type = "others"
+page_begin = "6"
+page_end = "6"
+en_publisher = "IEEE"
+ja_publisher = "IEEE"
+en_title = "On computation of nonlinear balanced realization and model reduction"
+ja_title = "On computation of nonlinear balanced realization and model reduction"
+en_author = "Fujimoto Kenji, Tsubakino Daisuke"
+ja_author = "Fujimoto Kenji, Tsubakino Daisuke"
+outside_kuaero = true
+
+[record.ids.cinii_na_id]
+label = "CiNii"
+id = "120000975981"
+url = "http://ci.nii.ac.jp/naid/120000975981"
+[record.ids.url]
+label = "URL"
+id = "http://hdl.handle.net/2237/9527"
+url = "http://hdl.handle.net/2237/9527"
+[[record]]
 ja_booktitle = "システム/制御/情報 : システム制御情報学会誌 = Systems, control and information"
 en_booktitle = "Transactions of the Institute of Systems,Control and Information Engineers"
 publication_date = "20050615"
@@ -13840,6 +14135,34 @@ label = "URL"
 id = "http://id.ndl.go.jp/bib/7327940"
 url = "http://id.ndl.go.jp/bib/7327940"
 [[record]]
+ja_booktitle = "システム/制御/情報 : システム制御情報学会誌 = Systems, control and information"
+publication_date = "20050115"
+type = "others"
+lang = "ja"
+volume = "49"
+number = "1"
+page_begin = "32"
+page_end = "32"
+en_publisher = "システム制御情報学会"
+ja_publisher = "システム制御情報学会"
+en_title = "非線形ダイナミクスと制御特集号を企画して"
+ja_title = "非線形ダイナミクスと制御特集号を企画して"
+en_author = ""
+ja_author = "山下 裕, 藤本 健治"
+outside_kuaero = true
+
+[record.ids.issn]
+label = "ISSN"
+id = "0916-1600"
+[record.ids.cinii_na_id]
+label = "CiNii"
+id = "110003969650"
+url = "http://ci.nii.ac.jp/naid/110003969650"
+[record.ids.cinii_nc_id]
+label = "CiNii"
+id = "AN10062329"
+url = "http://ci.nii.ac.jp/ncid/AN10062329"
+[[record]]
 ja_booktitle = "ロボティクス・メカトロニクス講演会講演概要集"
 publication_date = "20040618"
 type = "others"
@@ -13863,6 +14186,39 @@ url = "http://ci.nii.ac.jp/naid/110004069969"
 label = "CiNii"
 id = "AA11902933"
 url = "http://ci.nii.ac.jp/ncid/AA11902933"
+[[record]]
+ja_booktitle = "電子情報通信学会技術研究報告. NLP, 非線形問題"
+en_booktitle = "IEICE technical report. Nonlinear problems"
+publication_date = "20040318"
+type = "others"
+lang = "ja"
+volume = "103"
+number = "740"
+page_begin = "67"
+page_end = "72"
+en_publisher = "The Institute of Electronics, Information and Communication Engineers"
+ja_publisher = "一般社団法人電子情報通信学会"
+en_title = "Singular value analysis and balanced realization of nonlinear systems"
+ja_title = "非線形系の特異値解析と平衡実現"
+en_author = "FUJIMOTO Kenji"
+ja_author = "藤本 健治"
+outside_kuaero = true
+
+[record.ids.issn]
+label = "ISSN"
+id = "0913-5685"
+[record.ids.cinii_na_id]
+label = "CiNii"
+id = "110003291402"
+url = "http://ci.nii.ac.jp/naid/110003291402"
+[record.ids.cinii_nc_id]
+label = "CiNii"
+id = "AN10060800"
+url = "http://ci.nii.ac.jp/ncid/AN10060800"
+[record.ids.url]
+label = "URL"
+id = "http://id.ndl.go.jp/bib/6926523"
+url = "http://id.ndl.go.jp/bib/6926523"
 [[record]]
 ja_booktitle = "日本ロボット学会誌"
 en_booktitle = "Journal of the Robotics Society of Japan"
@@ -13902,6 +14258,35 @@ url = "http://ci.nii.ac.jp/ncid/AN00141189"
 label = "URL"
 id = "https://jlc.jst.go.jp/DN/JALC/00237655011?from=CiNii"
 url = "https://jlc.jst.go.jp/DN/JALC/00237655011?from=CiNii"
+[[record]]
+ja_booktitle = "システム/制御/情報 : システム制御情報学会誌 = Systems, control and information"
+en_booktitle = "Systems, control and information"
+publication_date = "20031015"
+type = "others"
+lang = "ja"
+volume = "47"
+number = "10"
+page_begin = "495"
+page_end = "496"
+en_publisher = "Institute of Systems, Control and Information Engineers"
+ja_publisher = "システム制御情報学会"
+en_title = "Control like \"Soft and Fair goes Far\" : Dynamics Based Control and Hamiltonian Systems"
+ja_title = "柔よく剛を制す制御? : ダイナミクスべースト制御とハミルトン系"
+en_author = "FUJIMOTO Kenji"
+ja_author = "藤本 健治"
+outside_kuaero = true
+
+[record.ids.issn]
+label = "ISSN"
+id = "0916-1600"
+[record.ids.cinii_na_id]
+label = "CiNii"
+id = "110003892134"
+url = "http://ci.nii.ac.jp/naid/110003892134"
+[record.ids.cinii_nc_id]
+label = "CiNii"
+id = "AN10062329"
+url = "http://ci.nii.ac.jp/ncid/AN10062329"
 [[record]]
 ja_booktitle = "計測と制御"
 en_booktitle = "Journal of the Society of Instrument and Control Engineers"
@@ -14052,12 +14437,29 @@ page_begin = "391"
 page_end = "400"
 reviewed = true
 invited = true
+en_publisher = "Institute of Systems, Control and Information Engineers"
+ja_publisher = "システム制御情報学会"
 en_title = "Control Theory ― From the 20th Century to the 21st Century"
 ja_title = "システム制御理論 ―20世紀から21世紀へ"
 en_author = "Tohru Katayama, Masao Ikeda, Tohru Asai, Toshiyuki Ohtsuka, Kenji Fujimoto"
 ja_author = "片山 徹, 池田 雅夫, 浅井 徹, 大塚 敏之, 藤本 健治"
 outside_kuaero = true
 
+[record.ids.issn]
+label = "ISSN"
+id = "0916-1600"
+[record.ids.cinii_na_id]
+label = "CiNii"
+id = "110003891960"
+url = "http://ci.nii.ac.jp/naid/110003891960"
+[record.ids.cinii_nc_id]
+label = "CiNii"
+id = "AN10062329"
+url = "http://ci.nii.ac.jp/ncid/AN10062329"
+[record.ids.url]
+label = "URL"
+id = "http://id.ndl.go.jp/bib/5831066"
+url = "http://id.ndl.go.jp/bib/5831066"
 [[record]]
 ja_booktitle = "計測と制御"
 en_booktitle = "Journal of the Society of Instrument and Control Engineers"
@@ -14070,12 +14472,29 @@ page_begin = "99"
 page_end = "104"
 reviewed = true
 invited = true
+en_publisher = "計測自動制御学会"
+ja_publisher = "計測自動制御学会"
 en_title = "Control of Hamiltonian Systems"
 ja_title = "ハミルトニアンシステムの制御"
 en_author = "Kenji Fujimoto"
 ja_author = "藤本 健治"
 outside_kuaero = true
 
+[record.ids.issn]
+label = "ISSN"
+id = "0453-4662"
+[record.ids.cinii_na_id]
+label = "CiNii"
+id = "10004651791"
+url = "http://ci.nii.ac.jp/naid/10004651791"
+[record.ids.cinii_nc_id]
+label = "CiNii"
+id = "AN00072406"
+url = "http://ci.nii.ac.jp/ncid/AN00072406"
+[record.ids.url]
+label = "URL"
+id = "http://id.ndl.go.jp/bib/4987068"
+url = "http://id.ndl.go.jp/bib/4987068"
 [[record]]
 ja_booktitle = "システム/制御/情報 : システム制御情報学会誌"
 en_booktitle = "Systems, Control and Information"
@@ -14159,13 +14578,13 @@ en_author = "Kenji Fujimoto"
 ja_author = "藤本 健治"
 outside_kuaero = false
 
-[record.ids.isbn]
-label = "ISBN"
-id = "9784254231410"
 [record.ids.cinii_nc_id]
 label = "CiNii"
 id = "BB19165754"
 url = "http://ci.nii.ac.jp/ncid/BB19165754"
+[record.ids.isbn]
+label = "ISBN"
+id = "9784254231410"
 [[record]]
 publication_date = "20140800"
 type = "book"
@@ -14194,13 +14613,13 @@ en_author = "Francesco Bullo, Kenji Fujimoto"
 ja_author = "Francesco Bullo, Kenji Fujimoto"
 outside_kuaero = true
 
-[record.ids.isbn]
-label = "ISBN"
-id = "9783540738893"
 [record.ids.cinii_nc_id]
 label = "CiNii"
 id = "BA83079351"
 url = "http://ci.nii.ac.jp/ncid/BA83079351"
+[record.ids.isbn]
+label = "ISBN"
+id = "9783540738893"
 [[record]]
 publication_date = "20060400"
 type = "book"
@@ -14214,13 +14633,31 @@ en_author = "Kenji Fujimoto"
 ja_author = "藤本 健治"
 outside_kuaero = true
 
-[record.ids.isbn]
-label = "ISBN"
-id = "488898137X"
 [record.ids.cinii_nc_id]
 label = "CiNii"
 id = "BA76637133"
 url = "http://ci.nii.ac.jp/ncid/BA76637133"
+[record.ids.isbn]
+label = "ISBN"
+id = "488898137X"
+[[record]]
+publication_date = "20250807"
+en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
+type = "journal"
+volume = "18"
+number = "1"
+reviewed = true
+invited = false
+en_title = "Minimum-order exosystem-model-based disturbance observer and the relation among the disturbance observers"
+ja_title = "Minimum-order exosystem-model-based disturbance observer and the relation among the disturbance observers"
+en_author = "Kana Shikada, Masakatsu Kawata, Noboru Sebe"
+ja_author = "Kana Shikada, Masakatsu Kawata, Noboru Sebe"
+outside_kuaero = false
+
+[record.ids.doi]
+label = "DOI"
+id = "10.1080/18824889.2025.2537505"
+url = "https://doi.org/10.1080/18824889.2025.2537505"
 [[record]]
 publication_date = "20250305"
 en_booktitle = "Proceedings of 2025 SICE International Symposium on Control Systems (SICE ISCS)"

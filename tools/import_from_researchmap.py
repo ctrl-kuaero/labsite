@@ -3,6 +3,7 @@ import toml
 from urllib.parse import urlparse, parse_qs
 from pprint import pprint
 import re
+from datetime import datetime
 
 members = ['maruta','fujimoto_kenji','KanaShikada']
 
@@ -157,6 +158,28 @@ print('Found {} overlaps.'.format(overlap))
 # 変換
 
 records = []
+errors = []  # エラーが発生したアイテムを収集するリスト
+warnings = []  # 警告が発生したアイテムを収集するリスト
+
+def get_item_identifier(item):
+    """アイテムの識別情報を取得する"""
+    identifier = {
+        '@id': item.get('@id'),
+        '@type': item.get('@type'),
+    }
+    # タイトルを取得
+    if 'paper_title' in item:
+        identifier['title'] = item['paper_title'].get('ja') or item['paper_title'].get('en')
+    elif 'book_title' in item:
+        identifier['title'] = item['book_title'].get('ja') or item['book_title'].get('en')
+    elif 'presentation_title' in item:
+        identifier['title'] = item['presentation_title'].get('ja') or item['presentation_title'].get('en')
+    elif 'research_project_title' in item:
+        identifier['title'] = item['research_project_title'].get('ja') or item['research_project_title'].get('en')
+    
+    identifier['publication_date'] = item.get('publication_date')
+    return identifier
+
 for i in items.values():
     record = {}
     try:
@@ -180,11 +203,23 @@ for i in items.values():
                 record['type'] = 'others'
             elif misc_type is None:
                 # If misc_type is None, default to 'others'
-                print(f"Warning: misc_type is None for item {i.get('@id')}. Defaulting to 'others'.")
+                warning_msg = f"misc_type is None. Defaulting to 'others'."
+                print(f"Warning: {warning_msg} for item {i.get('@id')}")
+                warnings.append({
+                    'warning_message': warning_msg,
+                    'item_identifier': get_item_identifier(i),
+                    'raw_data': i
+                })
                 record['type'] = 'others'
             else:
                 # For unknown misc_type values, print the value and default to 'others'
-                print(f"Warning: Unknown misc_type '{misc_type}' for item {i.get('@id')}. Defaulting to 'others'.")
+                warning_msg = f"Unknown misc_type '{misc_type}'. Defaulting to 'others'."
+                print(f"Warning: {warning_msg} for item {i.get('@id')}")
+                warnings.append({
+                    'warning_message': warning_msg,
+                    'item_identifier': get_item_identifier(i),
+                    'raw_data': i
+                })
                 record['type'] = 'others'
         elif i.get('@type') == 'published_papers':
             record['publication_date'] = i['publication_date'].replace('-','')
@@ -202,14 +237,13 @@ for i in items.values():
             elif i.get('published_paper_type') == 'in_book':
                 record['type'] = 'in_book'
             else:
-                pprint(i)
-                raise Exception('can not identify type(unknown_published_paper_type)')
+                raise Exception(f"can not identify type (unknown published_paper_type: '{i.get('published_paper_type')}')")
         elif i.get('@type') == 'presentations':
             # 依頼講演など．とりあえず無視
             continue
         elif i.get('@type') == 'books_etc':
             record['publication_date'] = i['publication_date'].replace('-','')
-            record['publication_date'] = record['publication_date'] + "0"*(8 - len(record['publication_date']))        
+            record['publication_date'] = record['publication_date'] + "0"*(8 - len(record['publication_date']))
             record['type'] = 'book'
             record['book_owner_role'] = i['book_owner_role']
             if 'book_owner_range' in i:
@@ -217,9 +251,9 @@ for i in items.values():
                 record['ja_book_owner_range'] = i['book_owner_range'].get('ja', i['book_owner_range'].get('en'))
         elif i.get('@type') == 'research_projects':
             # 科研費など．とりあえず無視
-            continue     
+            continue
         else:
-            raise Exception('can not identify @type')
+            raise Exception(f"can not identify @type: '{i.get('@type')}'")
 
         if 'jpn' in i.get('languages',[]):
             record['lang'] = 'ja'
@@ -290,7 +324,7 @@ for i in items.values():
                     'label': "CiNii",
                     'id': idstr,
                     "url": "https://cir.nii.ac.jp/crid/"+idstr
-                }                
+                }
             elif idtype == "j_global_id":
                 ids[idtype] = {
                     'label': "J-GLOBAL ID",
@@ -317,13 +351,13 @@ for i in items.values():
                     'label': "DBLP",
                     'id': idstr,
                     'url': 'https://dblp.uni-trier.de/rec/'+idstr
-                }    
+                }
             elif idtype == "arxiv_id":
                 ids[idtype] = {
                     'label': "arXiv",
                     'id': idstr.split(':')[1],
                     "url": "http://arxiv.org/abs/"+idstr
-                }                  
+                }
             elif idtype == "scopus_id":
                 # Scopus ID はとりあえず無視（文献のIDに対応するページが不明）
                 continue
@@ -334,7 +368,7 @@ for i in items.values():
                 # ORCID ID はとりあえず無視（文献のIDに対応するページが不明）
                 continue
             else:
-                raise Exception('Unknown id type: '+idtype)      
+                raise Exception('Unknown id type: '+idtype)
 
         for info in i.get('see_also',[]):
             id_parsed = urlparse(info['@id'])
@@ -344,13 +378,13 @@ for i in items.values():
                     'label': "arXiv",
                     'id': id_parsed.path.split(':')[1],
                     "url": info['@id']
-                }  
+                }
             elif info['label'] == 'DBLP':
                 ids['DBLP'] = {
                     'label': "DBLP",
                     'id': '/'.join(fragments[2:]),
                     "url": info['@id']
-                } 
+                }
             elif id_parsed.hostname == 'doi.org':
                 if 'doi' in ids:
                     continue
@@ -359,7 +393,7 @@ for i in items.values():
                         'label': "DOI",
                         'id': '/'.join(fragments[1:]),
                         "url": info['@id']
-                    } 
+                    }
  
             elif info['label'] == 'web_of_science' or info['label'] == 'scopus' or info['label'] == 'scopus_citedby':
                 # Web of Science ID, Scopus ID, Scopus Citedby はとりあえず無視
@@ -384,7 +418,7 @@ for i in items.values():
                         "url": info['@id']
                     }
                 else:
-                   raise Exception('unknown cinii URL: '+info['@id']) 
+                   raise Exception('unknown cinii URL: '+info['@id'])
             elif info["label"] == 'j_global':
                 if 'j_global_id' in ids:
                     continue
@@ -413,17 +447,93 @@ for i in items.values():
                         "url": info['@id']
                     }
             else:
-                pprint(i)
                 raise Exception('unknown see_also type: '+info['label'])
         if len(ids)>0:
             record["ids"] = ids
         record['outside_kuaero'] = not i.get('inlab')
+        records += [record]
     except Exception as e:
-        pprint(i)
-        raise(e)
-    records += [record]
+        # エラーが発生した場合、エラー情報を収集して処理を継続
+        error_info = {
+            'error_message': str(e),
+            'item_identifier': get_item_identifier(i),
+            'raw_data': i
+        }
+        errors.append(error_info)
+        print(f"Error processing item: {error_info['item_identifier'].get('title', 'Unknown')} - {str(e)}")
+        continue
 
 
 # 出力
 
 toml.dump({'record':records}, open('data/publications/autogen_from_researchmap.toml', mode='w', encoding='utf-8'))
+print(f"Successfully processed {len(records)} records.")
+
+# エラーレポートの出力
+# dataディレクトリにはTOML形式で保存（HugoがデータファイルとしてTOML/JSON/YAMLのみ対応）
+error_report_path = 'data/publications/autogen_errors.toml'
+
+if len(errors) > 0:
+    print(f"\n{len(errors)} errors occurred during processing.")
+    
+    # エラーデータをTOML形式で保存
+    error_records = []
+    for error in errors:
+        identifier = error['item_identifier']
+        error_record = {
+            'error_message': error['error_message'],
+            'title': identifier.get('title', '(タイトル不明)'),
+            'type': identifier.get('@type', 'N/A'),
+            'id': identifier.get('@id', 'N/A'),
+            'publication_date': identifier.get('publication_date', 'N/A'),
+            'raw_data_json': json.dumps(error['raw_data'], ensure_ascii=False, indent=2)
+        }
+        error_records.append(error_record)
+    
+    error_data = {
+        'generated_at': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+        'error_count': len(errors),
+        'errors': error_records
+    }
+    
+    toml.dump(error_data, open(error_report_path, mode='w', encoding='utf-8'))
+    print(f"Error report saved to: {error_report_path}")
+else:
+    print("No errors occurred.")
+    # エラーがない場合はエラーレポートを削除
+    if os.path.exists(error_report_path):
+        os.remove(error_report_path)
+
+# 警告レポートの出力
+warning_report_path = 'data/publications/autogen_warnings.toml'
+
+if len(warnings) > 0:
+    print(f"\n{len(warnings)} warnings occurred during processing.")
+    
+    # 警告データをTOML形式で保存
+    warning_records = []
+    for warning in warnings:
+        identifier = warning['item_identifier']
+        warning_record = {
+            'warning_message': warning['warning_message'],
+            'title': identifier.get('title', '(タイトル不明)'),
+            'type': identifier.get('@type', 'N/A'),
+            'id': identifier.get('@id', 'N/A'),
+            'publication_date': identifier.get('publication_date', 'N/A'),
+            'raw_data_json': json.dumps(warning['raw_data'], ensure_ascii=False, indent=2)
+        }
+        warning_records.append(warning_record)
+    
+    warning_data = {
+        'generated_at': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+        'warning_count': len(warnings),
+        'warnings': warning_records
+    }
+    
+    toml.dump(warning_data, open(warning_report_path, mode='w', encoding='utf-8'))
+    print(f"Warning report saved to: {warning_report_path}")
+else:
+    print("No warnings occurred.")
+    # 警告がない場合は警告レポートを削除
+    if os.path.exists(warning_report_path):
+        os.remove(warning_report_path)

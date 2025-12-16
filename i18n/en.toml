@@ -60,3 +60,9 @@ other = "Joint editor"
 
 [book_owner_role_joint_work]
 other = "Joint author"
+
+[import_error_warning]
+other = "Warning: Some publications could not be imported from researchmap."
+
+[view_error_report]
+other = "View error report"

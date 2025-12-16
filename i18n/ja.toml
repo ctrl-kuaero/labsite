@@ -64,3 +64,9 @@ other = "共編者(共編著者)"
 [book_owner_role_joint_work]
 other = "共著"
 
+[import_error_warning]
+other = "警告: researchmapから一部の業績をインポートできませんでした。"
+
+[view_error_report]
+other = "エラーレポートを表示"
+
