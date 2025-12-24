@@ -1,11 +1,22 @@
 [[record]]
+en_author = "Katsusa Yamagata"
+ja_author = "山形 克聡"
+en_giver = "The Executive committee Chair, Program Committee Chair and Excutive Committee Member (Awards Coordinator) for the 68th Japan Joint Automatic Control Conference"
+ja_giver = "第61回自動制御連合講演会 実行委員会・プログラム委員会"
+en_title = "The Outstanding Presentation Award in JJACC2025"
+ja_title = "優秀発表賞"
+publication_date = "20181204"
+type = "award"
+url = "https://www.jsme.or.jp/conference/rengo68/info/award.html"
+
+[[record]]
 en_author = "Ayumu Ishikawa"
 ja_author = "石川 歩睦"
 en_giver = "The Executive Committee of the 68th Annual Conference of the Institute of Systems, Control and Information Engineers"
 ja_giver = "第69回システム制御情報学会研究発表講演会実行委員会"
 en_title = "The Award of the Excellent Student Presentation"
 ja_title = "SCI学生発表賞"
-publication_date = "20250527"
+publication_date = "20251215"
 type = "award"
 url = "https://sci25.iscie.or.jp/award/"
 
