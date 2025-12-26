@@ -1,4 +1,23 @@
 [[record]]
+publication_date = "20251209"
+ja_booktitle = "SICE Journal of Control, Measurement, and System Integration"
+en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
+type = "journal"
+volume = "18"
+number = "1"
+reviewed = true
+invited = false
+en_title = "Passivity-based second-order sliding mode control for mechanical port-Hamiltonian systems"
+ja_title = "Passivity-based second-order sliding mode control for mechanical port-Hamiltonian systems"
+en_author = "Kohei Masutani, Naoki Sakata, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "Kohei Masutani, Naoki Sakata, Kenji Fujimoto, Ichiro Maruta"
+outside_kuaero = false
+
+[record.ids.doi]
+label = "DOI"
+id = "10.1080/18824889.2025.2596364"
+url = "https://doi.org/10.1080/18824889.2025.2596364"
+[[record]]
 publication_date = "20250716"
 ja_booktitle = "Advanced Robotics"
 en_booktitle = "Advanced Robotics"
