@@ -1,4 +1,41 @@
 [[record]]
+publication_date = "20260120"
+ja_booktitle = "Proceedings of the Joint Symposium of Thirty-First International Symposium on Artificial Life and Robotics (AROB 31st 2026) and Eleventh International Symposium on BioComplexity (ISBC 11th 2026) (AROB-ISBC2026)"
+en_booktitle = "Proceedings of the Joint Symposium of Thirty-First International Symposium on Artificial Life and Robotics (AROB 31st 2026) and Eleventh International Symposium on BioComplexity (ISBC 11th 2026) (AROB-ISBC2026)"
+type = "international_conference"
+page_begin = "1136"
+page_end = "1141"
+reviewed = true
+invited = false
+en_title = "Simulation Study on 3D Reconstruction from Drone Imagery with Target Tracking"
+ja_title = "Simulation Study on 3D Reconstruction from Drone Imagery with Target Tracking"
+en_author = "Hajime Tazawa, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "Hajime Tazawa, Ichiro Maruta, Kenji Fujimoto"
+outside_kuaero = false
+
+[[record]]
+publication_date = "20251210"
+ja_booktitle = "Proceedings of the 2025 IEEE 64th Conference on Decision and Control (CDC)"
+en_booktitle = "Proceedings of the 2025 IEEE 64th Conference on Decision and Control (CDC)"
+type = "international_conference"
+page_begin = "4221"
+page_end = "4226"
+reviewed = true
+en_title = "System Identification for Virtual Sensor-Based Model Predictive Control: Application to a 2-DoF Direct-Drive Robotic Arm"
+ja_title = "System Identification for Virtual Sensor-Based Model Predictive Control: Application to a 2-DoF Direct-Drive Robotic Arm"
+en_author = "Kosei Tsuji, Ichiro Maruta, Kenji Fujimoto, Tomoyuki Maeda, Yoshihisa Tamase, Tsukasa Shinohara"
+ja_author = "Kosei Tsuji, Ichiro Maruta, Kenji Fujimoto, Tomoyuki Maeda, Yoshihisa Tamase, Tsukasa Shinohara"
+outside_kuaero = false
+
+[record.ids.doi]
+label = "DOI"
+id = "10.1109/CDC57313.2025.11313006"
+url = "https://doi.org/10.1109/CDC57313.2025.11313006"
+[record.ids.arxiv_id]
+label = "arXiv"
+id = "2505.23138"
+url = "https://arxiv.org/abs/2505.23138"
+[[record]]
 publication_date = "20251209"
 ja_booktitle = "SICE Journal of Control, Measurement, and System Integration"
 en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
@@ -17,6 +54,20 @@ outside_kuaero = false
 label = "DOI"
 id = "10.1080/18824889.2025.2596364"
 url = "https://doi.org/10.1080/18824889.2025.2596364"
+[[record]]
+publication_date = "20250810"
+ja_booktitle = "Pre-print of the 2025 AAS/AIAA Astrodynamics Specialist Conference"
+en_booktitle = "Pre-print of the 2025 AAS/AIAA Astrodynamics Specialist Conference"
+type = "papers_symposium"
+page_begin = "AAS 25-745"
+reviewed = true
+invited = false
+en_title = "AAS 25-745 SEARCH FOR L1 OPTIMAL EARTH-MOON TRANSFER ORBITS USING STABLE AND UNSTABLE MANIFOLDS"
+ja_title = "AAS 25-745 SEARCH FOR L1 OPTIMAL EARTH-MOON TRANSFER ORBITS USING STABLE AND UNSTABLE MANIFOLDS"
+en_author = "Yutatsu Nakao, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "Yutatsu Nakao, Ichiro Maruta, Kenji Fujimoto"
+outside_kuaero = false
+
 [[record]]
 publication_date = "20250716"
 ja_booktitle = "Advanced Robotics"
@@ -644,7 +695,7 @@ url = "https://dblp.uni-trier.de/rec/conf/sice/YoshimuraMFSK21"
 [record.ids.DBLP]
 label = "DBLP"
 id = "conf/sice/YoshimuraMFSK21"
-url = "https://dblp.uni-trier.de/rec/conf/sice/YoshimuraMFSK21"
+url = "https://dblp.org/rec/conf/sice/YoshimuraMFSK21"
 [record.ids.url]
 label = "URL"
 id = "https://dblp.uni-trier.de/db/conf/sice/sice2021.html#YoshimuraMFSK21"
@@ -876,7 +927,7 @@ url = "https://dblp.uni-trier.de/rec/journals/access/YoshimuraMFSK20"
 [record.ids.DBLP]
 label = "DBLP"
 id = "journals/access/YoshimuraMFSK20"
-url = "https://dblp.uni-trier.de/rec/journals/access/YoshimuraMFSK20"
+url = "https://dblp.org/rec/journals/access/YoshimuraMFSK20"
 [record.ids.url]
 label = "URL"
 id = "https://ieeexplore.ieee.org/document/9247228"
@@ -2939,6 +2990,110 @@ label = "URL"
 id = "https://www.jstage.jst.go.jp/article/sicetr1965/43/1/43_31/_article/-char/ja/"
 url = "https://www.jstage.jst.go.jp/article/sicetr1965/43/1/43_31/_article/-char/ja/"
 [[record]]
+ja_booktitle = "第69回宇宙科学技術連合講演会講演集"
+en_booktitle = "Proceedings of 69th Space Sciences and Technology Conference"
+publication_date = "20251125"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "4D06"
+reviewed = false
+invited = false
+en_title = "Search for 𝐿1 optimal Earth-Moon transfer orbits with ﬁnite thrust using stable and unstable manifolds"
+ja_title = "𝐿1 最適制御問題の安定・不安定多様体を用いた推力制約のある地球‐月遷移軌道の設計手法"
+en_author = "Yutatsu Nakao, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "中尾 悠達, 丸田 一郎, 藤本 健治"
+outside_kuaero = false
+
+[[record]]
+ja_booktitle = "第69回宇宙科学技術連合講演会講演集"
+en_booktitle = "Proceedings of 69th Space Sciences and Technology Conference"
+publication_date = "20251125"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "1M01"
+reviewed = false
+invited = false
+en_title = "Optimization of Law-thrust Multiple Gravity Assist Trajectories Using GA and GALLOP-NM"
+ja_title = "GA及びGALLOP-NMによる低推力多重スイングバイ軌道の大域的・局所的最適化"
+en_author = "Gyeongrok Ha, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "Ha Gyeongrok, 藤本 健治, 丸田 一郎"
+outside_kuaero = false
+
+[[record]]
+ja_booktitle = "第69回宇宙科学技術連合講演会講演集"
+en_booktitle = "Proceedings of 69th Space Sciences and Technology Conference"
+publication_date = "20251125"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "1M10"
+reviewed = false
+en_title = "Simultaneous In-plane and Out-of-plane Deployment of a Satelite Constellation by Multi-stage Optimization"
+ja_title = "多ステージ最適化による衛星コンステレーションの面外・面内同時展開"
+en_author = "Ayumu Ishikawa, Kenji Fujimoto, Ichiro Maruta, Kazuhiro Izui, Takeya Shima, Takumi Noro"
+ja_author = "石川 歩睦, 藤本 健治, 丸田 一郎, 泉井 一浩, 島 岳也, 野呂 拓臣"
+outside_kuaero = false
+
+[[record]]
+ja_booktitle = "第68回自動制御連合講演会講演論文集"
+en_booktitle = "Proceedings of the 68th Japan Joint Automatic Control Conference,"
+publication_date = "20251101"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "1607"
+page_end = "1612"
+reviewed = false
+invited = false
+en_title = "A Recursive System Identification Method with Kernel Regularization and Its Application to State of Charge Estimation for Rechargeable Batteries"
+ja_title = "カーネル正則化を用いた逐次システム同定法と二次電池の充電率推定への応用"
+en_author = "Yuya Suzuki, Ichiro Maruta, Kensuke Osamura, Masatoshi Arai, Takahiro Kawaguchi"
+ja_author = "鈴木 湧也, 丸田 一郎, 長村 謙介, 新井 正敏, 川口 貴弘"
+outside_kuaero = false
+
+[record.ids.url]
+label = "URL"
+id = "https://www.jstage.jst.go.jp/article/jacc/68/0/68_1607/_article/-char/ja"
+url = "https://www.jstage.jst.go.jp/article/jacc/68/0/68_1607/_article/-char/ja"
+[[record]]
+ja_booktitle = "第68回自動制御連合講演会講演論文集"
+en_booktitle = "Proceedings of the 68th Japan Joint Automatic Control Conference,"
+publication_date = "20251101"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "651"
+page_end = "657"
+reviewed = false
+invited = false
+en_title = "On Deep Learning-Based Estimation of Lyapunov Functions Governing Human Sit-to-Stand Motion and Their Applications to Rehabilitation"
+ja_title = "深層学習を用いた人の起立動作を司るリアプノフ関数の推定とリハビリテーションへの応用"
+en_author = "Kazusa Yamagata, Yuto Sakaguchi, Kenji Fujimoto, Ichiro Maruta, Ken Kikuchi, Hiroyuki Hamada, Qi An, Shingo Shimoda"
+ja_author = "山形 克聡, 坂口 勇斗, 藤本 健治, 丸田 一郎, 菊地 謙, 濵田 裕幸, 安 琪, 下田 真吾"
+outside_kuaero = false
+
+[record.ids.url]
+label = "URL"
+id = "https://www.jstage.jst.go.jp/article/jacc/68/0/68_651/_article/-char/ja/"
+url = "https://www.jstage.jst.go.jp/article/jacc/68/0/68_651/_article/-char/ja/"
+[[record]]
+ja_booktitle = "第68回自動制御連合講演会講演論文集"
+en_booktitle = "Proceedings of the 68th Japan Joint Automatic Control Conference,"
+publication_date = "20251101"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "288"
+page_end = "294"
+reviewed = false
+invited = false
+en_title = "A Study on Nonlinear System Identification for Virtual Sensor-Based Model Predictive Control"
+ja_title = "仮想センサに基づくモデル予測制御のための非線形システム同定のー検討"
+en_author = "Kosei Tsuji, Ichiro Maruta, Kenji Fujimoto, Tomoyuki Maeda, Yoshihisa Tamase, Tsukasa Shinohara"
+ja_author = "辻 康生, 丸田 一郎, 藤本 健治, 前田 知幸, 玉瀬 善久, 篠原 司"
+outside_kuaero = false
+
+[record.ids.url]
+label = "URL"
+id = "https://www.jstage.jst.go.jp/article/jacc/68/0/68_288/_pdf/-char/en"
+url = "https://www.jstage.jst.go.jp/article/jacc/68/0/68_288/_pdf/-char/en"
+[[record]]
 ja_booktitle = "ロボティクス・メカトロニクス講演会2025予稿集"
 en_booktitle = "No. 25-2 Proceedings of the 2025 JSME Conference on Robotics and Mechatronics"
 publication_date = "20250604"
@@ -3094,6 +3249,23 @@ en_author = "Haruyuki Yamasaki, Ichiro Maruta, Kenji Fujimoto"
 ja_author = "山﨑 陽之, 丸田 一郎, 藤本 健治"
 outside_kuaero = false
 
+[[record]]
+ja_booktitle = "情報処理学会全国大会講演論文集"
+en_booktitle = "情報処理学会全国大会講演論文集"
+publication_date = "20250000"
+type = "others"
+volume = "87th"
+number = "2"
+en_title = "Optimization of maps for mobile robot localization considering driving conditions"
+ja_title = "自己位置推定用地図の走行条件を考慮した最適化"
+en_author = "吉村僚太, 丸田一郎, 藤本健治"
+ja_author = "吉村僚太, 丸田一郎, 藤本健治"
+outside_kuaero = false
+
+[record.ids.j_global_id]
+label = "J-GLOBAL ID"
+id = "202502267773913386"
+url = "http://jglobal.jst.go.jp/detail?JGLOBAL_ID=202502267773913386"
 [[record]]
 ja_booktitle = "第67回自動制御連合講演会講演論文集"
 en_booktitle = "Proceedings of the 67th Japan Joint Automatic Control Conference"
@@ -6657,6 +6829,20 @@ url = "http://ci.nii.ac.jp/ncid/BB10368424"
 label = "ISBN"
 id = "9784501328900"
 [[record]]
+publication_date = "20250810"
+ja_booktitle = "Pre-print of the 2025 AAS/AIAA Astrodynamics Specialist Conference"
+en_booktitle = "Pre-print of the 2025 AAS/AIAA Astrodynamics Specialist Conference"
+type = "papers_symposium"
+page_begin = "AAS 25-745"
+reviewed = true
+invited = false
+en_title = "SEARCH FOR L1 OPTIMAL EARTH-MOON TRANSFER ORBITS USING STABLE AND UNSTABLE MANIFOLDS"
+ja_title = "SEARCH FOR L1 OPTIMAL EARTH-MOON TRANSFER ORBITS USING STABLE AND UNSTABLE MANIFOLDS"
+en_author = "Yutatsu Nakao, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "Yutatsu Nakao, Ichiro Maruta, Kenji Fujimoto"
+outside_kuaero = false
+
+[[record]]
 publication_date = "20250712"
 ja_booktitle = "Proceedings of the Joint Symposium 35th ISTS & 14th NSAT"
 en_booktitle = "Proceedings of the Joint Symposium 35th ISTS & 14th NSAT"
@@ -9390,7 +9576,7 @@ url = "https://dblp.uni-trier.de/rec/conf/cdc/FujimotoSF11"
 [record.ids.DBLP]
 label = "DBLP"
 id = "conf/cdc/FujimotoSF11"
-url = "https://dblp.uni-trier.de/rec/conf/cdc/FujimotoSF11"
+url = "https://dblp.org/rec/conf/cdc/FujimotoSF11"
 [record.ids.url]
 label = "URL"
 id = "http://dblp.uni-trier.de/db/conf/cdc/cdc2011.html#conf/cdc/FujimotoSF11"
