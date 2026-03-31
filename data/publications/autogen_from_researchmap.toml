@@ -62,8 +62,8 @@ type = "papers_symposium"
 page_begin = "AAS 25-745"
 reviewed = true
 invited = false
-en_title = "AAS 25-745 SEARCH FOR L1 OPTIMAL EARTH-MOON TRANSFER ORBITS USING STABLE AND UNSTABLE MANIFOLDS"
-ja_title = "AAS 25-745 SEARCH FOR L1 OPTIMAL EARTH-MOON TRANSFER ORBITS USING STABLE AND UNSTABLE MANIFOLDS"
+en_title = "SEARCH FOR L1 OPTIMAL EARTH-MOON TRANSFER ORBITS USING STABLE AND UNSTABLE MANIFOLDS"
+ja_title = "SEARCH FOR L1 OPTIMAL EARTH-MOON TRANSFER ORBITS USING STABLE AND UNSTABLE MANIFOLDS"
 en_author = "Yutatsu Nakao, Ichiro Maruta, Kenji Fujimoto"
 ja_author = "Yutatsu Nakao, Ichiro Maruta, Kenji Fujimoto"
 outside_kuaero = false
@@ -2989,6 +2989,81 @@ url = "https://doi.org/10.9746/ve.sicetr1965.43.31"
 label = "URL"
 id = "https://www.jstage.jst.go.jp/article/sicetr1965/43/1/43_31/_article/-char/ja/"
 url = "https://www.jstage.jst.go.jp/article/sicetr1965/43/1/43_31/_article/-char/ja/"
+[[record]]
+ja_booktitle = "第13回計測自動制御学会制御部門マルチシンポジウム（MSCS2026）"
+en_booktitle = "Proceedings of the 13rd Multi-symposium on Control Systems (MSCS2026）"
+publication_date = "20260303"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "3M10-6"
+reviewed = false
+invited = false
+en_title = "Design of Input Constrained Control Barrier Functions Using a Control Margin Index and Application to Manipulators"
+ja_title = "制御余裕指標を用いた入力制約付き制御バリア関数の設計とマニピュレータへの適用"
+en_author = "Shun Miyata, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "宮田 峻, 藤本 健治, 丸田 一郎"
+outside_kuaero = false
+
+[[record]]
+ja_booktitle = "第13回計測自動制御学会制御部門マルチシンポジウム（MSCS2026）"
+en_booktitle = "Proceedings of the 13rd Multi-symposium on Control Systems (MSCS2026）"
+publication_date = "20260303"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "3A10-5"
+reviewed = false
+invited = false
+en_title = "3D Reconstruction from Drone Imagery with Target Tracking"
+ja_title = "ターゲット追跡を用いたドローン撮影画像からの 3 次元再構成"
+en_author = "Hajime Tazawa, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "田澤 創, 丸田 一郎, 藤本 健治"
+outside_kuaero = false
+
+[[record]]
+ja_booktitle = "第13回計測自動制御学会制御部門マルチシンポジウム（MSCS2026）"
+en_booktitle = "Proceedings of the 13rd Multi-symposium on Control Systems (MSCS2026）"
+publication_date = "20260303"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "2M7-3"
+reviewed = false
+invited = false
+en_title = "Optimal Low-Energy Transfer with the Invariant Manifold in the L1 Optimal Control Problem"
+ja_title = "L1 最適制御問題の不変多様体を用いた低エネルギー最適遷移軌道の設計"
+en_author = "Yutatsu Nakao, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "中尾 悠達, 丸田 一郎, 藤本 健治"
+outside_kuaero = false
+
+[[record]]
+ja_booktitle = "第13回計測自動制御学会制御部門マルチシンポジウム（MSCS2026）"
+en_booktitle = "Proceedings of the 13rd Multi-symposium on Control Systems (MSCS2026）"
+publication_date = "20260303"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "2A9-5"
+reviewed = false
+invited = false
+en_title = "Application of Dynamical System Modeling and Time-Series Analysis to Sit-to-Stand Motion of Post-Stroke Patients"
+ja_title = "脳卒中後患者の起立動作に対するダイナミカルシステムモデリングと時系列分析手法の適用"
+en_author = "Yuto Sakaguchi, Kazusa Yamagata, Kenji Fujimoto, Ichiro Maruta, Ken Kikuchi, Hiroyuki Hamada, Qi An, Shingo Shimoda"
+ja_author = "坂口 勇斗, 山形 克聡, 藤本 健治, 丸田 一郎, 菊地 謙, 濵田 裕幸, 安 琪, 下田 真吾"
+outside_kuaero = false
+
+[[record]]
+ja_booktitle = "第13回計測自動制御学会制御部門マルチシンポジウム（MSCS2026）"
+en_booktitle = "Proceedings of the 13rd Multi-symposium on Control Systems (MSCS2026）"
+publication_date = "20260303"
+type = "domestic_conference"
+lang = "ja"
+page_begin = "1A7-2"
+reviewed = false
+invited = false
+en_title = "Global Optimization of ℓ1-Optimal Control Problems Based on Stability Analysis of the Stochastic Newton Method"
+ja_title = "確率的ニュートン法の安定性解析に基づくℓ1最適制御問題の広域的最適化"
+en_author = "Gyeongrok Ha, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "HA Gyeongrok, 藤本 健治, 丸田 一郎"
+outside_kuaero = false
+
 [[record]]
 ja_booktitle = "第69回宇宙科学技術連合講演会講演集"
 en_booktitle = "Proceedings of 69th Space Sciences and Technology Conference"
@@ -6828,20 +6903,6 @@ url = "http://ci.nii.ac.jp/ncid/BB10368424"
 [record.ids.isbn]
 label = "ISBN"
 id = "9784501328900"
-[[record]]
-publication_date = "20250810"
-ja_booktitle = "Pre-print of the 2025 AAS/AIAA Astrodynamics Specialist Conference"
-en_booktitle = "Pre-print of the 2025 AAS/AIAA Astrodynamics Specialist Conference"
-type = "papers_symposium"
-page_begin = "AAS 25-745"
-reviewed = true
-invited = false
-en_title = "SEARCH FOR L1 OPTIMAL EARTH-MOON TRANSFER ORBITS USING STABLE AND UNSTABLE MANIFOLDS"
-ja_title = "SEARCH FOR L1 OPTIMAL EARTH-MOON TRANSFER ORBITS USING STABLE AND UNSTABLE MANIFOLDS"
-en_author = "Yutatsu Nakao, Ichiro Maruta, Kenji Fujimoto"
-ja_author = "Yutatsu Nakao, Ichiro Maruta, Kenji Fujimoto"
-outside_kuaero = false
-
 [[record]]
 publication_date = "20250712"
 ja_booktitle = "Proceedings of the Joint Symposium 35th ISTS & 14th NSAT"
