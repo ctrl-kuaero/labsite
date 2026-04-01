@@ -31,12 +31,6 @@ en_position = "Assistant Professor"
 
 
 [[list]]
-ja_name = "岩瀬 正興"
-en_name = "Masaoki IWASE"
-ja_position = "博士後期課程"
-en_position = "Ph.D. Student"
-
-[[list]]
 ja_name = "辻 康生"
 en_name = "Kosei TSUJI"
 ja_position = "博士後期課程"
@@ -45,32 +39,26 @@ en_position = "Ph.D. Student"
 [[list]]
 ja_name = "ハ ギョンロク"
 en_name = "Gyeongrok HA"
-ja_position = "修士課程"
-en_position = "Master's Student"
+ja_position = "博士後期課程"
+en_position = "Ph.D. Student"
 
 [[list]]
-ja_name = "中尾 悠達"
-en_name = "Yutatsu NAKAO"
-ja_position = "修士課程"
-en_position = "Master's Student"
+ja_name = "柳井 雅貴"
+en_name = "Masaki YANAI"
+ja_position = "博士後期課程"
+en_position = "Ph.D. Student"
 
 [[list]]
-ja_name = "坂口 勇斗"
-en_name = "Yuto SAKAGUCHI"
-ja_position = "修士課程"
-en_position = "Master's Student"
+ja_name = "山本 慶太郎"
+en_name = "Keitaro YAMAMOTO"
+ja_position = "博士後期課程"
+en_position = "Ph.D. Student"
 
 [[list]]
-ja_name = "田澤 創"
-en_name = "Hajime TAZAWA"
-ja_position = "修士課程"
-en_position = "Master's Student"
-
-[[list]]
-ja_name = "宮田 峻"
-en_name = "Shun MIYATA"
-ja_position = "修士課程"
-en_position = "Master's Student"
+ja_name = "島 遼太朗"
+en_name = "Ryotaro Shima"
+ja_position = "博士後期課程"
+en_position = "Ph.D. Student"
 
 [[list]]
 ja_name = "石川 歩睦"
@@ -105,24 +93,60 @@ en_position = "Master's Student"
 [[list]]
 ja_name = "品川 壮輝"
 en_name = "Masaki SHINAGAWA"
-ja_position = "学士課程"
-en_position = "Bachelor's Student"
-
-[[list]]
-ja_name = "鈴木 盛之"
-en_name = "Moriyuki SUZUKI"
-ja_position = "学士課程"
-en_position = "Bachelor's Student"
+ja_position = "修士課程"
+en_position = "Master's Student"
 
 [[list]]
 ja_name = "千代田 景悟"
 en_name = "Keigo CHIYODA"
+ja_position = "修士課程"
+en_position = "Master's Student"
+
+[[list]]
+ja_name = "森田 耀斗
+en_name = "Akito MORITA"
+ja_position = "修士課程"
+en_position = "Master's Student"
+
+[[list]]
+ja_name = "御崎 勇太"
+en_name = "Yuta MISAKI"
+ja_position = "修士課程"
+en_position = "Master's Student"
+
+[[list]]
+ja_name = "松井 大雅"
+en_name = "Taiga MATSUI"
+ja_position = "修士課程"
+en_position = "Master's Student"
+
+[[list]]
+ja_name = "秋田 順正"
+en_name = "Junsei AKITA"
+ja_position = "修士課程"
+en_position = "Master's Student"
+
+[[list]]
+ja_name = ""
+en_name = ""
 ja_position = "学士課程"
 en_position = "Bachelor's Student"
 
 [[list]]
-ja_name = "鳥谷 陽樹"
-en_name = "Haruki TORITANI"
+ja_name = ""
+en_name = ""
+ja_position = "学士課程"
+en_position = "Bachelor's Student"
+
+[[list]]
+ja_name = ""
+en_name = ""
+ja_position = "学士課程"
+en_position = "Bachelor's Student"
+
+[[list]]
+ja_name = ""
+en_name = ""
 ja_position = "学士課程"
 en_position = "Bachelor's Student"
 
