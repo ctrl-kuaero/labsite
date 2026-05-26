@@ -1,4 +1,15 @@
 [[record]]
+en_author = "Hinata Yamamoto"
+ja_author = "山本 輝汰"
+en_giver = "The Institute of Systems, Control and Information Engineers"
+ja_giver = "システム制御情報学会"
+en_title = "The 2026 ISCIE Young Investigators Award"
+ja_title = "2026年度システム制御情報学会学会賞奨励賞"
+publication_date = "20260525"
+type = "award"
+url = "https://www.iscie.or.jp/award"
+
+[[record]]
 en_author = "Katsusa Yamagata"
 ja_author = "山形 克聡"
 en_giver = "The Executive committee Chair, Program Committee Chair and Excutive Committee Member (Awards Coordinator) for the 68th Japan Joint Automatic Control Conference"
@@ -62,7 +73,7 @@ en_title = "The 2025 ISCIE Young Investigators Award"
 ja_title = "2025年度システム制御情報学会学会賞奨励賞"
 publication_date = "20250526"
 type = "award"
-url = "https://www.iscie.or.jp/about/award"
+url = "https://www.iscie.or.jp/award"
 
 [[record]]
 en_author = "Kohei Masutani"
