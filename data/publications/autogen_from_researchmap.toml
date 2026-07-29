@@ -1,4 +1,27 @@
 [[record]]
+publication_date = "20260728"
+ja_booktitle = "SICE Journal of Control, Measurement, and System Integration"
+en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
+type = "journal"
+volume = "19"
+number = "1"
+reviewed = true
+invited = false
+en_title = "Force and position hybrid control by combining PD control and kinetic potential energy shaping"
+ja_title = "Force and position hybrid control by combining PD control and kinetic potential energy shaping"
+en_author = "Masaoki Iwase, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "Masaoki Iwase, Kenji Fujimoto, Ichiro Maruta"
+outside_kuaero = false
+
+[record.ids.doi]
+label = "DOI"
+id = "10.1080/18824889.2026.2703285"
+url = "https://doi.org/10.1080/18824889.2026.2703285"
+[record.ids.url]
+label = "URL"
+id = "https://www.tandfonline.com/doi/full/10.1080/18824889.2026.2703285#abstract"
+url = "https://www.tandfonline.com/doi/full/10.1080/18824889.2026.2703285#abstract"
+[[record]]
 publication_date = "20260120"
 ja_booktitle = "Proceedings of the Joint Symposium of Thirty-First International Symposium on Artificial Life and Robotics (AROB 31st 2026) and Eleventh International Symposium on BioComplexity (ISBC 11th 2026) (AROB-ISBC2026)"
 en_booktitle = "Proceedings of the Joint Symposium of Thirty-First International Symposium on Artificial Life and Robotics (AROB 31st 2026) and Eleventh International Symposium on BioComplexity (ISBC 11th 2026) (AROB-ISBC2026)"
