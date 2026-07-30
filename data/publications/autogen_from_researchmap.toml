@@ -3084,6 +3084,23 @@ label = "URL"
 id = "https://www.jstage.jst.go.jp/article/sicetr1965/43/1/43_31/_article/-char/ja/"
 url = "https://www.jstage.jst.go.jp/article/sicetr1965/43/1/43_31/_article/-char/ja/"
 [[record]]
+ja_booktitle = "No. 26-2 ロボティクス・メカトロニクス講演会2026講演論文集"
+en_booktitle = "No. 26-2 Proceedings of the 2026 JSME Conference on Robotics and Mechatronics"
+publication_date = "20260628"
+type = "domestic_conference"
+lang = "ja"
+volume = "2A2-C05"
+page_begin = "2A2-C05(1)"
+page_end = "2A2-C05(3)"
+reviewed = false
+invited = false
+en_title = "風外乱下のクアッドロータに対する軌道データベースと風モデルに基づく非線形最適制御"
+ja_title = "風外乱下のクアッドロータに対する軌道データベースと風モデルに基づく非線形最適制御"
+en_author = "Shunji Nakada, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "中田 修史, 丸田 一郎, 藤本 健治"
+outside_kuaero = false
+
+[[record]]
 ja_booktitle = "第70回システム制御情報学会研究発表講演会講演論文集"
 en_booktitle = "Proceedings of the 70th Annual Conferemce of the Institute of Systems, Control and Information Engineers (ISCIE)"
 publication_date = "20260524"
@@ -12754,6 +12771,23 @@ outside_kuaero = true
 label = "CiNii"
 id = "20000277811"
 url = "http://ci.nii.ac.jp/naid/20000277811"
+[[record]]
+ja_booktitle = "No. 26-2 ロボティクス・メカトロニクス講演会2026講演論文集"
+en_booktitle = "No. 26-2 Proceedings of the 2026 JSME Conference on Robotics and Mechatronics"
+publication_date = "20260628"
+type = "domestic_conference"
+lang = "ja"
+volume = "2A2-C05"
+page_begin = "2A2-C05(1)"
+page_end = "2A2-C05(3)"
+reviewed = false
+invited = false
+en_title = "Nonlinear Optimal Control for a Quadrotor under Wind Disturbances Using a Trajectory Database and a Wind Model"
+ja_title = "風外乱下のクアッドロータに対する軌道データベースと風モデルに基づく非線形最適制御"
+en_author = "Shuji Nakada, Ichiro Maruta, Kenji Fujimoto"
+ja_author = "中田 修史, 丸田 一郎, 藤本 健治"
+outside_kuaero = false
+
 [[record]]
 ja_booktitle = "第70回システム制御情報学会研究発表講演会講演論文集"
 en_booktitle = "Proceedings of the 70th Annual Conferemce of the Institute of Systems, Control and Information Engineers (ISCIE)"
