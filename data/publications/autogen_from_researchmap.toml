@@ -7,6 +7,8 @@ volume = "19"
 number = "1"
 reviewed = true
 invited = false
+en_publisher = "Taylor & Francis"
+ja_publisher = "Taylor & Francis"
 en_title = "Force and position hybrid control by combining PD control and kinetic potential energy shaping"
 ja_title = "Force and position hybrid control by combining PD control and kinetic potential energy shaping"
 en_author = "Masaoki Iwase, Kenji Fujimoto, Ichiro Maruta"
@@ -23,14 +25,16 @@ id = "https://www.tandfonline.com/doi/full/10.1080/18824889.2026.2703285#abstrac
 url = "https://www.tandfonline.com/doi/full/10.1080/18824889.2026.2703285#abstract"
 [[record]]
 publication_date = "20260707"
-ja_booktitle = "IEEE Control Systems Letters"
-en_booktitle = "IEEE Control Systems Letters"
+ja_booktitle = "IEEE Control Syatems Letters"
+en_booktitle = "IEEE Control Syatems Letters"
 type = "journal"
 volume = "10"
 page_begin = "1891"
 page_end = "1896"
 reviewed = true
 invited = false
+en_publisher = "IEEE"
+ja_publisher = "IEEE"
 en_title = "Free-Horizon Newton Method for Nonlinear Optimal Control"
 ja_title = "Free-Horizon Newton Method for Nonlinear Optimal Control"
 en_author = "Gyeongrok Ha, Kenji Fujimoto, Ichiro Maruta"
@@ -44,6 +48,10 @@ url = "https://doi.org/10.1109/LCSYS.2026.3710786"
 [record.ids.issn]
 label = "ISSN"
 id = "2475-1456"
+[record.ids.url]
+label = "URL"
+id = "https://ieeexplore.ieee.org/document/11598924"
+url = "https://ieeexplore.ieee.org/document/11598924"
 [[record]]
 publication_date = "20260706"
 ja_booktitle = "Journal of Evolving Space Activities"
@@ -7112,6 +7120,32 @@ url = "http://ci.nii.ac.jp/ncid/BB10368424"
 [record.ids.isbn]
 label = "ISBN"
 id = "9784501328900"
+[[record]]
+publication_date = "20260707"
+ja_booktitle = "IEEE Control Syatems Letters"
+en_booktitle = "IEEE Control Syatems Letters"
+type = "journal"
+volume = "10"
+page_begin = "1891"
+page_end = "1896"
+reviewed = true
+invited = false
+en_publisher = "IEEE"
+ja_publisher = "IEEE"
+en_title = "Free-Horizon Newton Method for Nonlinear Optimal Control"
+ja_title = "Free-Horizon Newton Method for Nonlinear Optimal Control"
+en_author = "Gyeongrok Ha, Kenji Fujimoto, Ichiro Maruta"
+ja_author = "Gyeongrok Ha, Kenji Fujimoto, Ichiro Maruta"
+outside_kuaero = false
+
+[record.ids.doi]
+label = "DOI"
+id = "10.1109/LCSYS.2026.3710786"
+url = "https://doi.org/10.1109/LCSYS.2026.3710786"
+[record.ids.url]
+label = "URL"
+id = "https://ieeexplore.ieee.org/document/11598924"
+url = "https://ieeexplore.ieee.org/document/11598924"
 [[record]]
 publication_date = "20250712"
 ja_booktitle = "Proceedings of the Joint Symposium 35th ISTS & 14th NSAT"
