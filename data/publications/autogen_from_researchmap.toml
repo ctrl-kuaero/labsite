@@ -41,13 +41,13 @@ en_author = "Gyeongrok Ha, Kenji Fujimoto, Ichiro Maruta"
 ja_author = "Gyeongrok Ha, Kenji Fujimoto, Ichiro Maruta"
 outside_kuaero = false
 
+[record.ids.issn]
+label = "ISSN"
+id = "2475-1456"
 [record.ids.doi]
 label = "DOI"
 id = "10.1109/LCSYS.2026.3710786"
 url = "https://doi.org/10.1109/LCSYS.2026.3710786"
-[record.ids.issn]
-label = "ISSN"
-id = "2475-1456"
 [record.ids.url]
 label = "URL"
 id = "https://ieeexplore.ieee.org/document/11598924"
