@@ -7118,6 +7118,25 @@ url = "http://ci.nii.ac.jp/ncid/BB10368424"
 label = "ISBN"
 id = "9784501328900"
 [[record]]
+publication_date = "20260402"
+ja_booktitle = "Automatica"
+en_booktitle = "Automatica"
+type = "journal"
+volume = "188"
+page_begin = "112966"
+reviewed = true
+invited = false
+en_title = "Stabilizing optimal control for nonlinear stochastic systems: A parametric gradient-based approach"
+ja_title = "Stabilizing optimal control for nonlinear stochastic systems: A parametric gradient-based approach"
+en_author = "Yuji Ito, Kenji Fujimoto"
+ja_author = "Yuji Ito, Kenji Fujimoto"
+outside_kuaero = false
+
+[record.ids.doi]
+label = "DOI"
+id = "10.1016/j.automatica.2026.112966"
+url = "https://doi.org/10.1016/j.automatica.2026.112966"
+[[record]]
 publication_date = "20250712"
 ja_booktitle = "Proceedings of the Joint Symposium 35th ISTS & 14th NSAT"
 en_booktitle = "Proceedings of the Joint Symposium 35th ISTS & 14th NSAT"
@@ -7131,6 +7150,48 @@ en_author = "Gyeongrok Ha, Kenji Fujimoto, Ichiro Maruta"
 ja_author = "Gyeongrok Ha, Kenji Fujimoto, Ichiro Maruta"
 outside_kuaero = false
 
+[[record]]
+publication_date = "20250300"
+ja_booktitle = "IEEE Transactions on Automatic Control"
+en_booktitle = "IEEE Transactions on Automatic Control"
+type = "journal"
+volume = "70"
+number = "3"
+page_begin = "1515"
+page_end = "1530"
+reviewed = true
+invited = false
+en_publisher = "IEEE"
+ja_publisher = "IEEE"
+en_title = "Second Moment Polytopic Systems: Generalization of Uncertain Stochastic Linear Dynamics"
+ja_title = "Second Moment Polytopic Systems: Generalization of Uncertain Stochastic Linear Dynamics"
+en_author = "Yuji Ito, Kenji Fujimoto"
+ja_author = "Yuji Ito, Kenji Fujimoto"
+outside_kuaero = false
+
+[record.ids.doi]
+label = "DOI"
+id = "10.1109/TAC.2024.3462532"
+url = "https://doi.org/10.1109/TAC.2024.3462532"
+[[record]]
+publication_date = "20240917"
+ja_booktitle = "Automatica"
+en_booktitle = "Automatica"
+type = "journal"
+volume = "171"
+page_begin = "111901"
+reviewed = true
+invited = false
+en_title = "Weighted stochastic Riccati equations for generalization of linear optimal control"
+ja_title = "Weighted stochastic Riccati equations for generalization of linear optimal control"
+en_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro"
+ja_author = "Yuji Ito, Kenji Fujimoto, Yukihiro Tadokoro"
+outside_kuaero = false
+
+[record.ids.doi]
+label = "DOI"
+id = "10.1016/j.automatica.2024.111901"
+url = "https://doi.org/10.1016/j.automatica.2024.111901"
 [[record]]
 publication_date = "20240610"
 ja_booktitle = "IFAC-PapersOnLine"
