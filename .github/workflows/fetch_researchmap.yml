@@ -30,7 +30,7 @@ jobs:
         # See the `pathspec`-documentation for git
         # - https://git-scm.com/docs/git-add#Documentation/git-add.txt-ltpathspecgt82308203
         # - https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-aiddefpathspecapathspec
-        file_pattern: data/publications/autogen_from_researchmap.toml
+        file_pattern: 'data/publications/autogen_from_researchmap.toml data/publications/autogen_errors.toml data/publications/autogen_warnings.toml'
 
         commit_user_name: GitHub Actions Bot
         commit_user_email: github-actions-bot@example.org
