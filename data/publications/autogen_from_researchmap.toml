@@ -1,4 +1,30 @@
 [[record]]
+publication_date = "20260918"
+ja_booktitle = "SICE Journal of Control, Measurement, and System Integration"
+en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
+type = "journal"
+volume = "19"
+number = "1"
+page_begin = "2732446"
+reviewed = true
+invited = false
+en_publisher = "Taylor & Francis"
+ja_publisher = "Taylor & Francis"
+en_title = "Predictive virtual sensor identification for nonlinear MPC: application to a 2-DoF flexible direct-drive robotic arm"
+ja_title = "Predictive virtual sensor identification for nonlinear MPC: application to a 2-DoF flexible direct-drive robotic arm"
+en_author = "Kosei Tsuji, Ichiro Maruta, Kenji Fujimoto, Tomoyuki Maeda, Yoshihisa Tamase, Tsukasa Shinohara"
+ja_author = "Kosei Tsuji, Ichiro Maruta, Kenji Fujimoto, Tomoyuki Maeda, Yoshihisa Tamase, Tsukasa Shinohara"
+outside_kuaero = false
+
+[record.ids.doi]
+label = "DOI"
+id = "10.1080/18824889.2026.2732446"
+url = "https://doi.org/10.1080/18824889.2026.2732446"
+[record.ids.url]
+label = "URL"
+id = "https://www.tandfonline.com/doi/full/10.1080/18824889.2026.2732446"
+url = "https://www.tandfonline.com/doi/full/10.1080/18824889.2026.2732446"
+[[record]]
 publication_date = "20260728"
 ja_booktitle = "SICE Journal of Control, Measurement, and System Integration"
 en_booktitle = "SICE Journal of Control, Measurement, and System Integration"
