@@ -30,7 +30,14 @@ jobs:
         # See the `pathspec`-documentation for git
         # - https://git-scm.com/docs/git-add#Documentation/git-add.txt-ltpathspecgt82308203
         # - https://git-scm.com/docs/gitglossary#Documentation/gitglossary.txt-aiddefpathspecapathspec
-        file_pattern: 'data/publications/autogen_from_researchmap.toml data/publications/autogen_errors.toml data/publications/autogen_warnings.toml'
+        # autogen_errors.toml / autogen_warnings.toml are deleted by the script when
+        # there is nothing to report, so list them via a glob instead of by name.
+        # Otherwise `git add` fails with "pathspec did not match any files" once a
+        # report file is absent from both the working tree and the index.
+        # disable_globbing lets git (not the shell) expand the pattern, so deletions
+        # of previously committed report files are still staged.
+        file_pattern: 'data/publications/autogen_*.toml'
+        disable_globbing: true
 
         commit_user_name: GitHub Actions Bot
         commit_user_email: github-actions-bot@example.org
